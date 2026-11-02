@@ -1,0 +1,4 @@
+data/.cache/
+data/.dbsync/
+__pycache__/
+*.pyc

@@ -1,0 +1,305 @@
+<title>Dhruv's Job Desk</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout: one narrow column of decision cards under a sticky desk header; tabs split review / CVs / applied. */
+:root {
+  --bg: #f3f5f4; --surface: #ffffff; --ink: #14201c; --muted: #5b6b66; --line: #d9e0dd;
+  --accent: #1d5c4f; --accent-ink: #ffffff; --accent-soft: #e2efeb;
+  --good: #1f7a3d; --good-soft: #e3f3e7; --warn: #8a5a00; --warn-soft: #fbf0d9;
+  --bad: #a3322a; --bad-soft: #f9e4e1; --info: #2f4f8a; --info-soft: #e5ebf7;
+  --display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  --r: 10px;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0f1513; --surface: #17201d; --ink: #e5ece9; --muted: #9aaba5; --line: #2a3632;
+  --accent: #6cc3ad; --accent-ink: #0b1311; --accent-soft: #1d332d;
+  --good: #73d08f; --good-soft: #1a2f21; --warn: #e6b65c; --warn-soft: #33290f;
+  --bad: #f08c80; --bad-soft: #3a1d1a; --info: #9db6ec; --info-soft: #1c2640; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #0f1513; --surface: #17201d; --ink: #e5ece9; --muted: #9aaba5; --line: #2a3632;
+  --accent: #6cc3ad; --accent-ink: #0b1311; --accent-soft: #1d332d;
+  --good: #73d08f; --good-soft: #1a2f21; --warn: #e6b65c; --warn-soft: #33290f;
+  --bad: #f08c80; --bad-soft: #3a1d1a; --info: #9db6ec; --info-soft: #1c2640; color-scheme: dark }
+
+body { background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 15px; line-height: 1.5; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--surface); }
+.wrap { max-width: 760px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+header.desk { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--surface); border-bottom: 1px solid var(--line); }
+header.desk .wrap { padding-block: 12px; display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; justify-content: space-between; }
+h1 { font-family: var(--display); font-size: 1.35rem; margin: 0; letter-spacing: -0.01em; }
+.stamp { font-size: 0.8rem; color: var(--muted); }
+button, .btn { font: 600 0.88rem var(--body); border-radius: 8px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); padding: 8px 12px; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; min-height: 38px; }
+button:hover, .btn:hover { border-color: var(--accent); }
+button:focus-visible, .btn:focus-visible, select:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+button.primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+button:disabled { opacity: 0.55; cursor: default; }
+select { font: 500 0.88rem var(--body); padding: 7px 8px; border-radius: 8px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); min-height: 38px; }
+
+main { padding-block: 16px 48px; display: grid; gap: 16px; }
+.notice { border: 1px solid var(--warn); background: var(--warn-soft); color: var(--ink); border-radius: var(--r); padding: 10px 14px; font-size: 0.9rem; }
+.notice b { color: var(--warn); }
+.tally { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px; }
+.tally div { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 8px 10px; }
+.tally b { display: block; font-family: var(--mono); font-size: 1.25rem; font-variant-numeric: tabular-nums; }
+.tally span { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); }
+@media (max-width: 520px) { .tally { grid-template-columns: repeat(3, minmax(0, 1fr)); } .tally div:nth-child(n+4) { display: none; } }
+
+nav.tabs { display: flex; gap: 6px; overflow-x: auto; }
+nav.tabs button { border-radius: 999px; white-space: nowrap; }
+nav.tabs button[aria-selected="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+nav.tabs .n { font-family: var(--mono); font-size: 0.78rem; opacity: 0.8; }
+
+.list { display: grid; gap: 12px; }
+.empty { text-align: center; color: var(--muted); padding: 32px 12px; border: 1px dashed var(--line); border-radius: var(--r); }
+
+article.job { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 14px 16px; display: grid; gap: 10px; min-width: 0; }
+.top { display: flex; justify-content: space-between; gap: 10px; align-items: flex-start; }
+.top > div { min-width: 0; }
+.company { font-size: 0.85rem; color: var(--muted); font-weight: 500; }
+.title { font-family: var(--display); font-size: 1.12rem; line-height: 1.25; margin: 2px 0 0; text-wrap: balance; overflow-wrap: anywhere; }
+.meta { font-size: 0.85rem; color: var(--muted); display: flex; flex-wrap: wrap; gap: 4px 12px; }
+.meta .sal { font-family: var(--mono); color: var(--ink); }
+.score { flex: none; text-align: center; min-width: 64px; }
+.score b { display: block; font-family: var(--mono); font-size: 1.35rem; line-height: 1.1; }
+.score small { font-size: 0.7rem; color: var(--muted); }
+.verdict { display: inline-block; margin-top: 4px; font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; padding: 2px 8px; border-radius: 999px; }
+.v-apply { background: var(--good-soft); color: var(--good); }
+.v-maybe { background: var(--warn-soft); color: var(--warn); }
+.v-skip { background: var(--bad-soft); color: var(--bad); }
+.fresh { font-size: 0.72rem; font-weight: 600; padding: 2px 8px; border-radius: 999px; background: var(--info-soft); color: var(--info); }
+.why { font-size: 0.92rem; }
+.reasons { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 16px; font-size: 0.86rem; }
+.reasons h4 { margin: 0 0 2px; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+.reasons ul { margin: 0; padding-left: 18px; }
+@media (max-width: 520px) { .reasons { grid-template-columns: 1fr; } }
+.checks { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; }
+@media (min-width: 640px) { .checks { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+.chk { border-radius: 8px; padding: 6px 8px; font-size: 0.8rem; border: 1px solid transparent; min-width: 0; }
+.chk span { display: block; font-size: 0.66rem; text-transform: uppercase; letter-spacing: 0.06em; opacity: 0.85; }
+.chk b { font-weight: 600; overflow-wrap: anywhere; }
+.c-good { background: var(--good-soft); color: var(--good); }
+.c-warn { background: var(--warn-soft); color: var(--warn); }
+.c-bad { background: var(--bad-soft); color: var(--bad); }
+.c-unk { background: var(--bg); color: var(--muted); border-color: var(--line); }
+.actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.actions .note { font-size: 0.82rem; color: var(--muted); }
+.status-pill { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; padding: 3px 9px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); }
+details.jd summary { cursor: pointer; font-size: 0.85rem; color: var(--muted); }
+details.jd p { font-size: 0.88rem; margin: 6px 0 0; }
+footer { font-size: 0.8rem; color: var(--muted); }
+footer p { margin: 4px 0; max-width: 65ch; }
+.toast { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(16px + env(safe-area-inset-bottom, 0px)); background: var(--ink); color: var(--bg); padding: 10px 16px; border-radius: 8px; font-size: 0.9rem; z-index: 20; max-width: calc(100% - 32px); }
+@media (prefers-reduced-motion: no-preference) { article.job { transition: border-color .15s; } }
+</style>
+
+<header class="desk"><div class="wrap">
+  <div><h1>Job Desk</h1><div class="stamp" id="stamp">Connecting to your tracker…</div></div>
+  <button id="scan" type="button" title="Ask Claude to read Gmail now">Scan Gmail now</button>
+</div></header>
+
+<div class="wrap"><main>
+  <div class="notice" id="notice" hidden></div>
+
+  <section class="tally" aria-label="Summary">
+    <div><b id="t-review">–</b><span>To review</span></div>
+    <div><b id="t-cv">–</b><span>CVs ready</span></div>
+    <div><b id="t-applied">–</b><span>Applied</span></div>
+    <div><b id="t-interview">–</b><span>Interviews</span></div>
+    <div><b id="t-total">–</b><span>Tracked</span></div>
+  </section>
+
+  <nav class="tabs" role="tablist" aria-label="Views">
+    <button type="button" role="tab" data-tab="review" aria-selected="true">To review <span class="n" id="n-review"></span></button>
+    <button type="button" role="tab" data-tab="cvs" aria-selected="false">Approved &amp; CVs <span class="n" id="n-cvs"></span></button>
+    <button type="button" role="tab" data-tab="applied" aria-selected="false">Applied <span class="n" id="n-applied"></span></button>
+    <button type="button" role="tab" data-tab="skipped" aria-selected="false">Skipped <span class="n" id="n-skipped"></span></button>
+  </nav>
+
+  <section class="list" id="list" aria-live="polite">
+    <div class="empty">New Glassdoor jobs from the last 24 hours appear here after each Gmail scan, with a fit score against your CV and UK sponsorship checks.</div>
+  </section>
+
+  <footer>
+    <p><b>How this works.</b> Every morning Claude reads your Glassdoor alerts, keeps only jobs posted in the last 24 hours, scores each one against your master CV, and checks the employer on the Home Office register of licensed sponsors. Tap <b>Go ahead</b> and Claude writes a tailored Word CV and emails it to you. When an "application received" email lands, the job moves to Applied.</p>
+    <p>Sponsorship checks: Skilled Worker general threshold £41,700; new-entrant rate £33,400. A licensed sponsor can still decline to sponsor a given role, so read the advert.</p>
+    <p id="repo"></p>
+  </footer>
+</main></div>
+<div class="toast" id="toast" hidden></div>
+
+<script>
+(() => {
+  const $ = (s) => document.querySelector(s);
+  const state = { jobs: [], meta: {}, tab: "review", db: null, mcp: null, canWrite: true, busy: new Set() };
+  try { const t = localStorage.getItem("jobdesk-tab"); if (t) state.tab = t; } catch (e) {}
+
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const toast = (msg) => { const t = $("#toast"); t.textContent = msg; t.hidden = false; clearTimeout(toast.h); toast.h = setTimeout(() => (t.hidden = true), 3200); };
+  const fmtDate = (iso) => { if (!iso) return ""; const d = new Date(iso); return isNaN(d) ? iso : d.toLocaleString("en-GB", { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" }); };
+  const isFresh = (a) => /just posted|^\s*(\d{1,2}h|24h|1d)\s*$/i.test(a || "");
+
+  const APPLIED = ["applied", "interview", "offer", "rejected", "withdrawn"];
+  const bucket = (j) => {
+    if (APPLIED.includes(j.status)) return "applied";
+    if (j.decision === "skipped" || j.status === "skipped" || j.status === "expired") return "skipped";
+    if (j.decision === "approved" || j.status === "approved" || j.status === "cv_ready") return "cvs";
+    return "review";
+  };
+
+  function checkChips(j) {
+    const out = [];
+    const reg = j.sponsor_register || "unknown";
+    const m = j.sponsor_match && typeof j.sponsor_match === "object" ? j.sponsor_match : null;
+    const regTxt = { licensed: "Licensed sponsor" + (m && m.rating ? " · " + m.rating.replace(/^Worker\s*\(?/i, "").replace(/\)$/, "") : ""), possible: "Possible match" + (m && m.name ? ": " + m.name : ""), not_found: "Not on register", register_unavailable: "Register not loaded", unknown: "Not checked" }[reg] || reg;
+    out.push(["Home Office register", regTxt, { licensed: "good", possible: "warn", not_found: "bad" }[reg] || "unk"]);
+    const jd = j.jd_sponsorship || "unknown";
+    out.push(["Advert on sponsorship", { offers: "Mentions sponsorship", silent: "Not mentioned", no_sponsorship: "No sponsorship", right_to_work_required: "Needs right to work", unknown: "Advert not read" }[jd] || jd, { offers: "good", silent: "warn", no_sponsorship: "bad", right_to_work_required: "bad" }[jd] || "unk"]);
+    const sc = j.salary_check || "unknown";
+    out.push(["Salary vs threshold", { meets_general: "Meets £41,700", range_crosses_general: "Top of range ≥ £41,700", meets_new_entrant: "Meets new-entrant £33,400", range_crosses_new_entrant: "Top of range ≥ £33,400", below_threshold: "Below £33,400", unknown: "Salary not given" }[sc] || sc, { meets_general: "good", meets_new_entrant: "good", range_crosses_general: "good", range_crosses_new_entrant: "warn", below_threshold: "bad" }[sc] || "unk"]);
+    out.push(["Posted by", j.recruiter ? "Recruiter (client unnamed)" : "Direct employer", j.recruiter ? "warn" : "good"]);
+    return out.map(([k, v, c]) => `<div class="chk c-${c}"><span>${esc(k)}</span><b>${esc(v)}</b></div>`).join("");
+  }
+
+  function card(j) {
+    const rec = (j.recommendation || "").toLowerCase();
+    const vClass = rec === "apply" ? "v-apply" : rec === "maybe" ? "v-maybe" : rec ? "v-skip" : "";
+    const score = Number.isFinite(j.fit_score) ? j.fit_score : null;
+    const list = (arr) => (arr || []).map((x) => `<li>${esc(x)}</li>`).join("");
+    const b = bucket(j);
+    const busy = state.busy.has(j.id);
+    let actions = "";
+    const open = j.url ? `<a class="btn" href="${esc(j.url)}" target="_blank" rel="noopener">Open advert</a>` : "";
+    if (b === "review") {
+      actions = `<button class="primary" data-act="approve" data-id="${esc(j.id)}" ${busy || !state.canWrite ? "disabled" : ""}>Go ahead: tailor my CV</button>
+        <button data-act="skip" data-id="${esc(j.id)}" ${busy || !state.canWrite ? "disabled" : ""}>Skip</button>${open}`;
+    } else if (b === "cvs") {
+      const cv = j.cv_url ? `<a class="btn" href="${esc(j.cv_url)}" target="_blank" rel="noopener">Tailored CV (.docx)</a>` : `<span class="note">CV being written${j.status === "approved" ? " · it arrives by email" : ""}</span>`;
+      actions = `${cv}<button data-act="applied" data-id="${esc(j.id)}" ${busy || !state.canWrite ? "disabled" : ""}>I've applied</button>${open}
+        <button data-act="undo" data-id="${esc(j.id)}" ${busy || !state.canWrite ? "disabled" : ""}>Undo</button>`;
+    } else if (b === "applied") {
+      const opts = APPLIED.map((s) => `<option value="${s}" ${s === j.status ? "selected" : ""}>${s[0].toUpperCase() + s.slice(1)}</option>`).join("");
+      actions = `<label class="note" for="st-${esc(j.id)}">Status</label><select id="st-${esc(j.id)}" data-act="status" data-id="${esc(j.id)}" ${!state.canWrite ? "disabled" : ""}>${opts}</select>
+        ${j.cv_url ? `<a class="btn" href="${esc(j.cv_url)}" target="_blank" rel="noopener">CV used</a>` : ""}${open}
+        <span class="note">${j.applied_at ? "Applied " + esc(fmtDate(j.applied_at)) : ""}${j.last_email ? " · " + esc(j.last_email) : ""}</span>`;
+    } else {
+      actions = `<button data-act="reopen" data-id="${esc(j.id)}" ${busy || !state.canWrite ? "disabled" : ""}>Move back to review</button>${open}`;
+    }
+    const showDetail = b === "review" || b === "cvs";
+    return `<article class="job" id="job-${esc(j.id)}">
+      <div class="top">
+        <div>
+          <div class="company">${esc(j.company)} ${isFresh(j.posted_age) ? `<span class="fresh">${esc(j.posted_age)}</span>` : j.posted_age ? `· ${esc(j.posted_age)}` : ""}</div>
+          <h2 class="title">${esc(j.title)}</h2>
+          <div class="meta"><span>${esc(j.location)}</span>${j.salary ? `<span class="sal">${esc(j.salary)}</span>` : ""}${j.easy_apply ? "<span>Easy Apply</span>" : ""}${b === "applied" ? `<span class="status-pill">${esc(j.status)}</span>` : ""}</div>
+        </div>
+        ${score !== null ? `<div class="score" aria-label="Fit score ${score} out of 100"><b>${score}</b><small>/100 fit</small>${rec ? `<div class="verdict ${vClass}">${esc(rec)}</div>` : ""}</div>` : ""}
+      </div>
+      ${showDetail && j.verdict ? `<div class="why">${esc(j.verdict)}</div>` : ""}
+      ${showDetail && ((j.match_reasons || []).length || (j.gaps || []).length) ? `<div class="reasons"><div><h4>Matches your CV</h4><ul>${list(j.match_reasons)}</ul></div><div><h4>Gaps</h4><ul>${list(j.gaps)}</ul></div></div>` : ""}
+      ${showDetail ? `<div class="checks">${checkChips(j)}</div>` : ""}
+      ${showDetail && j.jd_summary ? `<details class="jd"><summary>Advert summary</summary><p>${esc(j.jd_summary)}</p></details>` : ""}
+      <div class="actions">${actions}</div>
+    </article>`;
+  }
+
+  function render() {
+    const groups = { review: [], cvs: [], applied: [], skipped: [] };
+    for (const j of state.jobs) groups[bucket(j)].push(j);
+    const byScore = (a, b) => (b.fit_score ?? -1) - (a.fit_score ?? -1) || String(b.first_seen).localeCompare(String(a.first_seen));
+    groups.review.sort(byScore); groups.cvs.sort(byScore);
+    groups.applied.sort((a, b) => String(b.applied_at || b.status_updated_at).localeCompare(String(a.applied_at || a.status_updated_at)));
+    groups.skipped.sort((a, b) => String(b.first_seen).localeCompare(String(a.first_seen)));
+    for (const k of Object.keys(groups)) $("#n-" + k).textContent = groups[k].length || "";
+    $("#t-review").textContent = groups.review.length;
+    $("#t-cv").textContent = state.jobs.filter((j) => j.status === "cv_ready").length;
+    $("#t-applied").textContent = groups.applied.length;
+    $("#t-interview").textContent = state.jobs.filter((j) => j.status === "interview" || j.status === "offer").length;
+    $("#t-total").textContent = state.jobs.length;
+    document.querySelectorAll("nav.tabs button").forEach((b) => b.setAttribute("aria-selected", String(b.dataset.tab === state.tab)));
+    const items = groups[state.tab];
+    const emptyMsg = { review: "Nothing waiting. New jobs from the last 24 hours land here after the next Gmail scan.", cvs: "Approve a job and its tailored CV shows up here.", applied: "Jobs move here when an application email arrives or you tap “I've applied”.", skipped: "Skipped jobs collect here." }[state.tab];
+    $("#list").innerHTML = items.length ? items.map(card).join("") : `<div class="empty">${emptyMsg}</div>`;
+  }
+
+  function renderMeta() {
+    const m = state.meta;
+    $("#stamp").textContent = m.last_scan ? `Last Gmail scan ${fmtDate(m.last_scan)}${m.register_date ? " · sponsor register " + m.register_date : ""}` : "Waiting for the first Gmail scan";
+    const n = $("#notice");
+    if (m.notice) { n.innerHTML = `<b>Heads up.</b> ${esc(m.notice)}`; n.hidden = false; } else n.hidden = true;
+    if (m.repo_url) $("#repo").innerHTML = `Everything is also saved to GitHub: <a href="${esc(m.repo_url)}" target="_blank" rel="noopener">${esc(m.repo_url.replace(/^https:\/\/github.com\//, ""))}</a> (data/jobs.csv, data/applied.csv, outputs/cvs).`;
+  }
+
+  async function writeJob(id, patch, msg) {
+    if (!state.db) { toast("Can't reach the tracker right now. Try again in a moment."); return false; }
+    state.busy.add(id); render();
+    try {
+      await state.db.doc("jobs/" + id).update({ ...patch, updated_at: new Date().toISOString() });
+      if (msg) toast(msg);
+      return true;
+    } catch (e) {
+      if (e && e.code === "invalid_argument") { state.canWrite = false; toast("Only the owner can change this tracker."); }
+      else toast("Couldn't save that change. Check your connection and try again.");
+      return false;
+    } finally { state.busy.delete(id); render(); }
+  }
+
+  async function poke(text) {
+    const id = state.meta.trigger_id;
+    if (!state.mcp || !id) return false;
+    try { await state.mcp.callTool("Claude Code Remote", "fire_trigger", { trigger_id: id, text }); return true; }
+    catch (e) { return false; }
+  }
+
+  document.addEventListener("click", async (ev) => {
+    const tab = ev.target.closest("nav.tabs button");
+    if (tab) { state.tab = tab.dataset.tab; try { localStorage.setItem("jobdesk-tab", state.tab); } catch (e) {} render(); return; }
+    const b = ev.target.closest("button[data-act]");
+    if (!b) return;
+    const id = b.dataset.id, now = new Date().toISOString();
+    const act = b.dataset.act;
+    if (act === "approve") {
+      if (await writeJob(id, { decision: "approved", status: "approved", decided_at: now }, "Approved. Claude will write your CV.")) {
+        if (await poke(`APP_REQUEST make_cv ${id}`)) toast("Approved. Claude is writing your CV now; it will arrive by email.");
+        else toast("Approved. Your CV will be written at the next scan (or ask Claude in chat).");
+      }
+    } else if (act === "skip") await writeJob(id, { decision: "skipped", status: "skipped", decided_at: now }, "Skipped");
+    else if (act === "applied") await writeJob(id, { status: "applied", applied_at: now, status_updated_at: now }, "Marked as applied");
+    else if (act === "undo" || act === "reopen") await writeJob(id, { decision: "pending", status: "new", decided_at: now }, "Moved back to review");
+  });
+
+  document.addEventListener("change", async (ev) => {
+    const s = ev.target.closest("select[data-act='status']");
+    if (s) await writeJob(s.dataset.id, { status: s.value, status_updated_at: new Date().toISOString() }, "Status updated");
+  });
+
+  $("#scan").addEventListener("click", async () => {
+    const btn = $("#scan"); btn.disabled = true;
+    const ok = await poke("APP_REQUEST scan_now");
+    toast(ok ? "Scan started. New jobs appear here in a few minutes." : "Couldn't start a scan from here. The daily scan still runs each morning.");
+    btn.disabled = false;
+  });
+
+  render();
+
+  (async () => {
+    const [db, user, mcp] = await Promise.all([
+      claude.use("db").catch(() => null), claude.use("user").catch(() => null), claude.use("mcp").catch(() => null),
+    ]);
+    state.db = db; state.mcp = mcp;
+    if (user) { try { const w = await user.can("data.write"); if (w === false) state.canWrite = false; } catch (e) {} }
+    if (!mcp) $("#scan").hidden = true;
+    if (!db) { $("#stamp").textContent = "Open this page signed in to claude.ai to see your tracker."; render(); return; }
+    const timer = setTimeout(() => { $("#stamp").textContent = "Your tracker isn't answering yet. What you see may be out of date."; }, 10000);
+    db.collection("jobs").onSnapshot((snap) => {
+      if (!snap.metadata.fromCache) clearTimeout(timer);
+      state.jobs = snap.docs.map((d) => ({ id: d.id, ...d.data() }));
+      render();
+    }, () => { clearTimeout(timer); $("#stamp").textContent = "Lost connection to your tracker. Reload the page to reconnect."; });
+    db.doc("meta/status").onSnapshot((d) => { state.meta = d.exists ? d.data() : {}; renderMeta(); }, () => {});
+  })();
+})();
+</script>

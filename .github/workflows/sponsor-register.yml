@@ -1,0 +1,43 @@
+name: Refresh UK sponsor register
+
+# Downloads the Home Office "Register of licensed sponsors: workers" every day
+# and stores it (gzipped) on the `sponsor-register` branch. The branch is
+# force-pushed with a single commit so the repo does not grow over time.
+
+on:
+  schedule:
+    - cron: "17 5 * * *"   # 05:17 UTC daily
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download register CSV from GOV.UK
+        run: |
+          set -euo pipefail
+          url=$(curl -fsSL https://www.gov.uk/api/content/government/publications/register-of-licensed-sponsors-workers \
+            | grep -oE 'https://assets\.publishing\.service\.gov\.uk/[^"]+\.csv' | head -n1)
+          echo "Register URL: $url"
+          test -n "$url"
+          mkdir out
+          curl -fsSL "$url" -o out/sponsors.csv
+          rows=$(wc -l < out/sponsors.csv)
+          echo "Rows: $rows"
+          test "$rows" -gt 10000
+          gzip -9 out/sponsors.csv
+          date -u +%Y-%m-%d > out/updated.txt
+          echo "$url" > out/source.txt
+      - name: Publish to sponsor-register branch
+        run: |
+          set -euo pipefail
+          cd out
+          git init -q -b sponsor-register
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -qm "Sponsor register $(cat updated.txt)"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" sponsor-register
