@@ -32,7 +32,7 @@ header.desk { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; 
 header.desk .wrap { padding-block: 12px; display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; justify-content: space-between; }
 h1 { font-family: var(--display); font-size: 1.35rem; margin: 0; letter-spacing: -0.01em; }
 .stamp { font-size: 0.8rem; color: var(--muted); }
-button, .btn { font: 600 0.88rem var(--body); border-radius: 8px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); padding: 8px 12px; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; min-height: 38px; }
+button, .btn { font: 600 0.88rem var(--body); border-radius: 8px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); padding: 0 12px; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; height: 38px; line-height: 1.2; box-sizing: border-box; white-space: nowrap; }
 button:hover, .btn:hover { border-color: var(--accent); }
 button:focus-visible, .btn:focus-visible, select:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 button.primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
@@ -154,13 +154,13 @@ footer p { margin: 4px 0; max-width: 65ch; }
     const out = [];
     const reg = j.sponsor_register || "unknown";
     const m = j.sponsor_match && typeof j.sponsor_match === "object" ? j.sponsor_match : null;
-    const regTxt = { licensed: "Licensed sponsor" + (m && m.rating ? " · " + m.rating.replace(/^Worker\s*\(?/i, "").replace(/\)$/, "") : ""), possible: "Possible match" + (m && m.name ? ": " + m.name : ""), not_found: "Not on register", register_unavailable: "Register not loaded", unknown: "Not checked" }[reg] || reg;
-    out.push(["Home Office register", regTxt, { licensed: "good", possible: "warn", not_found: "bad" }[reg] || "unk"]);
+    const regTxt = { licensed: "Licensed sponsor" + (m && m.rating ? " · " + m.rating.replace(/^Worker\s*\(?/i, "").replace(/\)$/, "") : ""), licensed_other_route: "Licensed, other routes only", possible: "Possible match" + (m && m.name ? ": " + m.name : ""), not_found: "Not on register", register_unavailable: "Register not loaded", unknown: "Not checked" }[reg] || reg;
+    out.push(["Home Office register", regTxt, { licensed: "good", licensed_other_route: "warn", possible: "warn", not_found: "bad" }[reg] || "unk"]);
     const jd = j.jd_sponsorship || "unknown";
     out.push(["Advert on sponsorship", { offers: "Mentions sponsorship", silent: "Not mentioned", no_sponsorship: "No sponsorship", right_to_work_required: "Needs right to work", unknown: "Advert not read" }[jd] || jd, { offers: "good", silent: "warn", no_sponsorship: "bad", right_to_work_required: "bad" }[jd] || "unk"]);
     const sc = j.salary_check || "unknown";
     out.push(["Salary vs threshold", { meets_general: "Meets £41,700", range_crosses_general: "Top of range ≥ £41,700", meets_new_entrant: "Meets new-entrant £33,400", range_crosses_new_entrant: "Top of range ≥ £33,400", below_threshold: "Below £33,400", unknown: "Salary not given" }[sc] || sc, { meets_general: "good", meets_new_entrant: "good", range_crosses_general: "good", range_crosses_new_entrant: "warn", below_threshold: "bad" }[sc] || "unk"]);
-    out.push(["Posted by", j.recruiter ? "Recruiter (client unnamed)" : "Direct employer", j.recruiter ? "warn" : "good"]);
+    out.push(["Posted by", j.recruiter ? "Recruitment agency" : "Direct employer", j.recruiter ? "warn" : "good"]);
     return out.map(([k, v, c]) => `<div class="chk c-${c}"><span>${esc(k)}</span><b>${esc(v)}</b></div>`).join("");
   }
 
@@ -286,9 +286,8 @@ footer p { margin: 4px 0; max-width: 65ch; }
   render();
 
   (async () => {
-    const [db, user, mcp] = await Promise.all([
-      claude.use("db").catch(() => null), claude.use("user").catch(() => null), claude.use("mcp").catch(() => null),
-    ]);
+    const use = (n) => (window.claude && window.claude.use ? window.claude.use(n).catch(() => null) : Promise.resolve(null));
+    const [db, user, mcp] = await Promise.all([use("db"), use("user"), use("mcp")]);
     state.db = db; state.mcp = mcp;
     if (user) { try { const w = await user.can("data.write"); if (w === false) state.canWrite = false; } catch (e) {} }
     if (!mcp) $("#scan").hidden = true;

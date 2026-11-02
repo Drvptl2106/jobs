@@ -33,7 +33,7 @@ FIELDS = [
     "posted_age", "first_seen", "email_date", "url", "easy_apply",
     "fit_score", "recommendation", "verdict", "match_reasons", "gaps", "jd_summary",
     "sponsor_register", "sponsor_match", "jd_sponsorship", "salary_check", "recruiter",
-    "decision", "status", "cv_file", "cv_url", "cv_emailed_at", "applied_at", "status_updated_at",
+    "decision", "decided_at", "status", "cv_file", "cv_url", "cv_emailed_at", "applied_at", "status_updated_at",
     "last_email", "notes", "profile_basis", "updated_at",
 ]
 LIST_FIELDS = {"match_reasons", "gaps"}
@@ -156,7 +156,7 @@ def upsert(items):
             row["salary_min"], row["salary_max"] = (lo or ""), (hi or "")
         row["salary_check"] = salary_check(row, cfg)
         if row.get("status") and "status" in it:
-            row["status_updated_at"] = it.get("status_updated_at") or now()
+            row["status_updated_at"] = it.get("status_updated_at") or it.get("applied_at") or now()
         row["updated_at"] = now()
         jobs[jid] = row
         changed += 1
@@ -176,7 +176,7 @@ def import_db(directory):
         if jid not in jobs:
             continue
         row = jobs[jid]
-        for k in ("decision", "status", "applied_at", "notes"):
+        for k in ("decision", "decided_at", "status", "applied_at", "notes"):
             v = data.get(k)
             if v not in (None, "") and str(v) != row.get(k, ""):
                 # never move status backwards from what the tracker already knows,

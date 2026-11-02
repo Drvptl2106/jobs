@@ -8,6 +8,7 @@ The register is downloaded daily by the GitHub Action
 Usage:
     python scripts/sponsor_check.py "DECITI HOMES LIMITED" "Addleshaw Goddard"
     python scripts/sponsor_check.py --json companies.json      # ["A", "B"]
+    python scripts/sponsor_check.py --grep vanguard            # substring search (end clients, trading names)
 
 Prints a JSON list, one result per company:
     {"company", "status": licensed|possible|not_found|register_unavailable,
@@ -111,8 +112,9 @@ def check(companies):
             continue
         n = norm(c)
         if n in idx:
-            res["status"] = "licensed"
-            res["matches"] = idx[n][:5]
+            ms = sorted(idx[n], key=lambda m: m["route"] != "Skilled Worker")
+            res["status"] = "licensed" if any(m["route"] == "Skilled Worker" for m in ms) else "licensed_other_route"
+            res["matches"] = ms[:3]
         else:
             close = difflib.get_close_matches(n, keys, n=3, cutoff=0.88)
             starts = [k for k in keys if n and len(n) > 4 and (k.startswith(n + " ") or n.startswith(k + " "))][:3]
@@ -124,8 +126,19 @@ def check(companies):
     return out
 
 
+def grep(term):
+    rows, _ = load_register()
+    t = term.lower()
+    hits = [r for r in (rows or []) if t in col(r, "organisation name").lower()]
+    return [{"name": col(r, "organisation name"), "town": col(r, "town/city"),
+             "rating": col(r, "type & rating"), "route": col(r, "route")} for r in hits[:40]]
+
+
 if __name__ == "__main__":
     args = sys.argv[1:]
+    if args[:1] == ["--grep"]:
+        print(json.dumps(grep(" ".join(args[1:])), indent=1))
+        sys.exit(0)
     if args[:1] == ["--json"]:
         with open(args[1], encoding="utf-8") as f:
             args = json.load(f)
