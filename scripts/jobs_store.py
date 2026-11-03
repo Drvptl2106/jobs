@@ -32,7 +32,7 @@ META = os.path.join(ROOT, "data", "meta.json")
 FIELDS = [
     "id", "source", "title", "company", "location", "salary", "salary_min", "salary_max",
     "posted_age", "first_seen", "email_date", "url", "easy_apply",
-    "fit_score", "recommendation", "verdict", "match_reasons", "gaps", "jd_summary",
+    "fit_score", "recommendation", "verdict", "match_reasons", "gaps", "jd_summary", "jd_full",
     "sponsor_register", "sponsor_match", "jd_sponsorship", "salary_check", "recruiter",
     "decision", "decided_at", "status", "cv_file", "cv_url", "cv_emailed_at", "applied_at", "status_updated_at",
     "last_email", "notes", "profile_basis", "updated_at",
@@ -42,8 +42,8 @@ LIST_FIELDS = {"match_reasons", "gaps"}
 USER_FIELDS = {"decision"}
 STATUS_ORDER = ["new", "approved", "cv_ready", "applied", "interview", "offer", "rejected", "withdrawn", "expired", "skipped"]
 APPLIED_STATUSES = {"applied", "interview", "offer", "rejected", "withdrawn"}
-APPLIED_FIELDS = ["id", "company", "title", "location", "salary", "applied_at", "status",
-                  "status_updated_at", "last_email", "sponsor_register", "url", "cv_file", "notes"]
+# Tracker columns, exactly as Dhruv asked for them
+TRACKER_COLUMNS = ["Sr No", "Company Name", "Role", "Location", "Applied On", "Pay", "CV Application", "Status"]
 
 
 def now():
@@ -70,12 +70,23 @@ def write_jobs(jobs):
         w.writeheader()
         for r in rows:
             w.writerow({k: r.get(k, "") for k in FIELDS})
+    site = ""
+    try:
+        site = load_config().get("site_url", "")
+    except Exception:  # noqa: BLE001
+        pass
+    applied = sorted((r for r in rows if r.get("status") in APPLIED_STATUSES),
+                     key=lambda r: (r.get("applied_at") or r.get("status_updated_at") or "")[:10])
     with open(APPLIED, "w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=APPLIED_FIELDS, extrasaction="ignore")
-        w.writeheader()
-        for r in sorted((r for r in rows if r.get("status") in APPLIED_STATUSES),
-                        key=lambda r: r.get("applied_at", ""), reverse=True):
-            w.writerow({k: r.get(k, "") for k in APPLIED_FIELDS})
+        w = csv.writer(f)
+        w.writerow(TRACKER_COLUMNS)
+        for i, r in enumerate(applied, 1):
+            cv = r.get("cv_url", "")
+            if cv and not cv.startswith("http"):
+                cv = site.rstrip("/") + "/" + cv.lstrip("/")
+            w.writerow([i, r.get("company", ""), r.get("title", ""), r.get("location", ""),
+                        (r.get("applied_at") or "")[:10], r.get("salary", ""), cv,
+                        (r.get("status") or "").capitalize()])
     with open(JOBS_JSON, "w", encoding="utf-8") as f:
         json.dump([to_doc(r) for r in rows], f, ensure_ascii=False, indent=0)
 

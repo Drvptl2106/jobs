@@ -17,7 +17,7 @@ from the master CV; never invent experience.
 |---|---|
 | `config/profile.json` | Owner settings (name, email, github.owner/repo/branch, roles, visa thresholds) |
 | `cv/master_cv.pdf` / `.docx` | Master CV uploaded by the owner → you keep a text copy in `cv/master_cv.md` |
-| `data/jobs.csv` | Every job (source of truth). `data/applied.csv` + `data/jobs.json` are regenerated from it |
+| `data/jobs.csv` | Every job (source of truth). `data/applied.csv` (tracker: Sr No, Company Name, Role, Location, Applied On, Pay, CV Application, Status) + `data/jobs.json` are regenerated from it |
 | `data/meta.json` | Scan status shown on the website (`last_scan`, `register_date`, `notice`, `profile_basis`) |
 | `outputs/cvs/` | Tailored CV `.json` (content) + `.docx` |
 | `scripts/jobs_store.py` | `upsert`, `act`, `meta`, `expire`, `pending-cv`, `summary` |
@@ -69,15 +69,27 @@ check for open issues titled `job-desk: …` that the Action failed to close; ap
 4. Job id `gd-<jobListingId>`; skip ids already in `data/jobs.csv`. Canonical URL
    `https://www.glassdoor.co.uk/job-listing/j?jl=<jobListingId>`.
 
-### 5. Read the advert and score it
+### 5. Read the advert, check sponsorship first, then score
+Order matters (cheapest filter first): read the advert, run step 6's sponsorship checks, and only then
+score against the CV.
+- **Filter:** when `visa.needs_sponsorship` is true and the employer is `not_found` on the register, the
+  poster is not a recruiter, and the advert doesn't offer sponsorship → skip CV scoring: upsert it with
+  `recommendation: skip`, `fit_score` empty, `verdict` "Employer isn't on the Home Office sponsor
+  register, so it can't sponsor a Skilled Worker visa.", `decision: skipped`, `status: skipped`
+  (it shows under Skipped on the website). Recruiter adverts are never filtered this way.
 - Firecrawl `firecrawl_scrape` the canonical URL: `formats: ["markdown"]`, `onlyMainContent: true`,
   `timeout: 45000`. The advert sits between "Sign in to apply"/"Apply now" and "Show more"/"## Base pay".
   If it fails, score from the title and set `jd_summary` "Advert could not be loaded".
+- Save the advert text itself as `jd_full` (cleaned: drop Glassdoor navigation, "similar jobs" and
+  footer; keep headings and bullets as plain lines starting with "•"; max ~6,000 characters). The
+  website shows it under "Job description".
 - Score 0-100 against `cv/master_cv.md` + config: role fit 25 · skills & tools 30 · experience level 20
   (heavy penalty above `max_years_experience_required`) · domain 10 · location 5 · visa feasibility 10.
 - `recommendation`: `apply` ≥ 70, `maybe` 50-69, `skip` < 50. Force `skip` if the advert needs 5+ years,
   or says it cannot sponsor while `visa.needs_sponsorship` is true.
-- Fill `verdict` (1-2 plain sentences), `match_reasons` (≤3, each tied to a CV fact), `gaps` (≤3),
+- Fill `verdict` (1-2 plain sentences), `match_reasons` (shown as "Why apply": ≤4, each tied to a CV
+  fact), `gaps` (shown as "What could go wrong": ≤4 — missing requirements, experience level, salary vs
+  visa threshold, recruiter/agency risk, location or commute),
   `jd_summary` (≤80 words incl. how to apply + work pattern).
 - `jd_sponsorship`: `offers` | `no_sponsorship` | `right_to_work_required` | `silent`.
 

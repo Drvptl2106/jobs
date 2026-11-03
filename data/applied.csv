@@ -1,21 +1,21 @@
-id,company,title,location,salary,applied_at,status,status_updated_at,last_email,sponsor_register,url,cv_file,notes
-ap-cora-ba-0928,Cora Health Group,Business Analyst (HEOF595),,,2026-09-28,applied,2026-09-28,Application acknowledged (30 Sep),licensed,,,
-ap-indeed-daoci-0927,Employer not named (Indeed Apply),Data Analyst (Operations and Commercial Insight),,,2026-09-27,applied,2026-09-27,Indeed: application submitted (27 Sep),,,,
-ap-indeed-jda-0927,Employer not named (Indeed Apply),Junior Data Analyst,,,2026-09-27,applied,2026-09-27,Indeed: application submitted (27 Sep),,,,
-ap-hemel-ba-0927,Hemel Eggs and Dairy Ltd,Business Analyst,,,2026-09-27,rejected,2026-10-02,Not progressing (2 Oct),,,,
-ap-networx-bipa-0927,Networx Recruitment,Business Intelligence Performance Analyst,,,2026-09-27,applied,2026-09-27,Application acknowledged (27 Sep),,,,
-ap-elexon-0927,Elexon,Role not named in email,London,,2026-09-27,applied,2026-09-27,We have received your application (27 Sep),licensed,,,
-ap-therange-0927,The Range,Role not named in email,,,2026-09-27,applied,2026-09-27,Application confirmation (27 Sep),,,,
-ap-indeed-mcfb-0923,Employer not named (Indeed Apply),Management Consultant - Food & Beverage,,,2026-09-23,applied,2026-09-23,Indeed: application submitted (23 Sep),,,,
-ap-indeed-mca-0923,Employer not named (Indeed Apply),Marketing Communications Analyst,,,2026-09-23,applied,2026-09-23,Indeed: application submitted (23 Sep),,,,
-ap-indeed-bpa-0922,Employer not named (Indeed Apply),Business Process Analyst,,,2026-09-22,applied,2026-09-22,Indeed: application submitted (22 Sep),,,,
-ap-indeed-odia-0922,Employer not named (Indeed Apply),Operations & Data Improvement Analyst,,,2026-09-22,applied,2026-09-22,Indeed: application submitted (22 Sep),,,,
-ap-indeed-ma-0922,Employer not named (Indeed Apply),Marketing Analyst,,,2026-09-22,applied,2026-09-22,Indeed: application submitted (22 Sep),,,,
-ap-anglian-vda,Anglian Water,Visualisation and Data Analyst,,,,rejected,2026-10-15,Not progressing after initial review (15 Oct),licensed,,,
-ap-ms-tm-food,M&S,Team Manager - Food - South East London,,,,rejected,2026-10-12,Not progressing (12 Oct),,,,
-ap-newcastleuni-la-0520,Newcastle University,Library Assistant (29241),Newcastle,,,rejected,2026-05-20,"Unsuccessful, not shortlisted (20 May)",,,,
-ap-musthaveideas-ca-0904,Must Have Ideas Ltd,Creative Analyst,,,,rejected,2026-09-04,Not progressing (4 Sep),,,,
-ap-blueprint-ca-0910,Blueprint Operations Ltd,Content Analyst,,,,rejected,2026-09-10,Not progressing (10 Sep),,,,
-ap-loungers-mia-0911,Loungers,Marketing Insights Analyst (Head Office),,,,rejected,2026-09-11,Application update: high volume of applicants (11 Sep),,,,
-ap-anchor-da-0914,Anchor,Data Analyst,,,,rejected,2026-09-14,Not progressing after review (14 Sep),,,,
-ap-albanygrange-ma-1001,Albany Grange (recruiter),Marketing Analyst (ref 3605520),,,,rejected,2026-10-01,Outcome of your application (1 Oct),,,,
+Sr No,Company Name,Role,Location,Applied On,Pay,CV Application,Status
+1,Newcastle University,Library Assistant (29241),Newcastle,,,,Rejected
+2,Must Have Ideas Ltd,Creative Analyst,,,,,Rejected
+3,Blueprint Operations Ltd,Content Analyst,,,,,Rejected
+4,Loungers,Marketing Insights Analyst (Head Office),,,,,Rejected
+5,Anchor,Data Analyst,,,,,Rejected
+6,Employer not named (Indeed Apply),Business Process Analyst,,2026-09-22,,,Applied
+7,Employer not named (Indeed Apply),Operations & Data Improvement Analyst,,2026-09-22,,,Applied
+8,Employer not named (Indeed Apply),Marketing Analyst,,2026-09-22,,,Applied
+9,Employer not named (Indeed Apply),Management Consultant - Food & Beverage,,2026-09-23,,,Applied
+10,Employer not named (Indeed Apply),Marketing Communications Analyst,,2026-09-23,,,Applied
+11,Employer not named (Indeed Apply),Data Analyst (Operations and Commercial Insight),,2026-09-27,,,Applied
+12,Employer not named (Indeed Apply),Junior Data Analyst,,2026-09-27,,,Applied
+13,Hemel Eggs and Dairy Ltd,Business Analyst,,2026-09-27,,,Rejected
+14,Networx Recruitment,Business Intelligence Performance Analyst,,2026-09-27,,,Applied
+15,Elexon,Role not named in email,London,2026-09-27,,,Applied
+16,The Range,Role not named in email,,2026-09-27,,,Applied
+17,Cora Health Group,Business Analyst (HEOF595),,2026-09-28,,,Applied
+18,Albany Grange (recruiter),Marketing Analyst (ref 3605520),,,,,Rejected
+19,M&S,Team Manager - Food - South East London,,,,,Rejected
+20,Anglian Water,Visualisation and Data Analyst,,,,,Rejected
