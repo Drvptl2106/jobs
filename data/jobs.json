@@ -207,18 +207,18 @@
 "jd_sponsorship": "silent",
 "salary_check": "below_threshold",
 "recruiter": false,
-"decision": "pending",
-"decided_at": "",
-"status": "new",
+"decision": "approved",
+"decided_at": "2026-11-03T20:29:38+00:00",
+"status": "approved",
 "cv_file": "",
 "cv_url": "",
 "cv_emailed_at": "",
 "applied_at": "",
-"status_updated_at": "",
+"status_updated_at": "2026-11-03T20:29:38+00:00",
 "last_email": "",
 "notes": "",
 "profile_basis": "provisional",
-"updated_at": "2026-11-03T19:55:36+00:00"
+"updated_at": "2026-11-03T20:29:38+00:00"
 },
 {
 "id": "gd-1010314813546",
