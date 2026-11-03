@@ -96,8 +96,19 @@ tr:last-child td { border-bottom: 0; }
 .s-interview, .s-offer { background: var(--good-soft); color: var(--good); }
 .s-rejected, .s-withdrawn { background: var(--bad-soft); color: var(--bad); }
 .stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }
-.stats div { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 8px 10px; }
+.stats .tile { height: auto; border-radius: var(--r); padding: 8px 10px; display: block; text-align: left; white-space: normal; }
+.stats .tile[aria-pressed="true"] { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
 .stats b { display: block; font: 500 1.25rem var(--mono); }
+.tcards { display: none; gap: 10px; }
+.tcard { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 12px 14px; display: grid; gap: 3px; box-shadow: var(--shadow); }
+.tc-top { display: flex; align-items: center; gap: 8px; }
+.tc-n { font: 500 0.8rem var(--mono); color: var(--muted); }
+.tc-date { margin-left: auto; font-size: 0.8rem; color: var(--muted); }
+.tc-co { font-size: 0.85rem; color: var(--muted); margin-top: 4px; }
+.tc-role { font-family: var(--display); font-weight: 700; font-size: 1.02rem; line-height: 1.25; color: var(--ink); text-decoration: none; }
+.tc-meta { font-size: 0.84rem; color: var(--muted); }
+.tc-act { display: flex; flex-wrap: wrap; gap: 6px 14px; margin-top: 6px; font-size: 0.84rem; font-weight: 500; }
+@media (max-width: 700px) { .tcards { display: grid; } .tablewrap { display: none; } .stats span { font-size: 0.64rem; } }
 .stats span { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); }
 
 /* Job sheet */
@@ -189,7 +200,7 @@ nav.bottom svg { width: 22px; height: 22px; }
   const $ = (s) => document.querySelector(s);
   const load = (k, d) => { try { return JSON.parse(localStorage.getItem(k)) ?? d; } catch (e) { return d; } };
   const save = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} };
-  const state = { jobs: [], meta: {}, cfg: {}, view: load("jd-view", "jobs"), filters: new Set(), q: "", pending: load("jd-pending", {}), tab: "analysis" };
+  const state = { tfilter: "all", jobs: [], meta: {}, cfg: {}, view: load("jd-view", "jobs"), filters: new Set(), q: "", pending: load("jd-pending", {}), tab: "analysis" };
 
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const toast = (m) => { const t = $("#toast"); t.textContent = m; t.hidden = false; clearTimeout(toast.h); toast.h = setTimeout(() => (t.hidden = true), 4200); };
@@ -270,15 +281,30 @@ nav.bottom svg { width: 22px; height: 22px; }
   }
 
   function trackerView(list) {
-    const rows = list.slice().sort((a, b) => String(a.applied_at || a.status_updated_at).localeCompare(String(b.applied_at || b.status_updated_at)));
-    const n = (s) => list.filter((j) => s.includes(j.status)).length;
+    const numbered = list.slice().sort((a, b) => String(a.applied_at || a.status_updated_at).localeCompare(String(b.applied_at || b.status_updated_at)))
+      .map((j, i) => ({ j, n: i + 1 }));
+    const groups = { all: null, waiting: ["applied"], interviews: ["interview", "offer"], rejected: ["rejected", "withdrawn"] };
+    const count = (k) => groups[k] ? list.filter((j) => groups[k].includes(j.status)).length : list.length;
+    const f = state.tfilter;
+    const rows = numbered.filter(({ j }) => !groups[f] || groups[f].includes(j.status));
     const next = { applied: ["interview", "rejected", "withdrawn"], interview: ["offer", "rejected", "withdrawn"], offer: ["withdrawn"] };
-    return `<div class="stats"><div><b>${n(["applied"])}</b><span>Waiting</span></div><div><b>${n(["interview", "offer"])}</b><span>Interviews</span></div><div><b>${n(["rejected"])}</b><span>Rejected</span></div><div><b>${list.length}</b><span>Total</span></div></div>
+    const moves = (j) => (next[j.status] || []).map((s) => `<a href="${esc(issueUrl(s, j))}" target="_blank" rel="noopener" data-verb="${s}" data-id="${esc(j.id)}">→ ${s}</a>`).join("");
+    const tile = (k, label) => `<button class="tile" data-tf="${k}" aria-pressed="${f === k}"><b>${count(k)}</b><span>${label}</span></button>`;
+    const newestFirst = rows.slice().reverse();
+    return `<div class="stats">${tile("all", "All")}${tile("waiting", "Waiting")}${tile("interviews", "Interviews")}${tile("rejected", "Rejected")}</div>
+      <div class="tcards">${newestFirst.map(({ j, n }) => `<article class="tcard">
+          <div class="tc-top"><span class="tc-n">#${n}</span><span class="status s-${esc(j.status)}">${esc(j.status)}</span><span class="tc-date">${j.applied_at ? fmtDate(j.applied_at) : "Date not known"}</span></div>
+          <div class="tc-co">${esc(j.company)}</div>
+          <a class="tc-role" href="#job/${esc(j.id)}">${esc(j.title)}</a>
+          ${j.location || j.salary ? `<div class="tc-meta">${[j.location, j.salary].filter(Boolean).map(esc).join(" · ")}</div>` : ""}
+          ${j.last_email ? `<div class="tc-meta">✉ ${esc(j.last_email)}</div>` : ""}
+          ${j.cv_url || moves(j) ? `<div class="tc-act">${j.cv_url ? `<a href="${esc(j.cv_url)}">CV used ↓</a>` : ""}${moves(j)}</div>` : ""}
+        </article>`).join("") || `<div class="empty">Nothing in this group.</div>`}</div>
       <div class="tablewrap"><table><thead><tr><th>Sr No</th><th>Company Name</th><th>Role</th><th>Location</th><th>Applied On</th><th>Pay</th><th>CV Application</th><th>Status</th></tr></thead><tbody>
-      ${rows.map((j, i) => `<tr><td class="num">${i + 1}</td><td>${esc(j.company)}</td><td><a href="#job/${esc(j.id)}">${esc(j.title)}</a></td><td>${esc(j.location || "—")}</td>
+      ${rows.map(({ j, n }) => `<tr><td class="num">${n}</td><td>${esc(j.company)}</td><td><a href="#job/${esc(j.id)}">${esc(j.title)}</a></td><td>${esc(j.location || "—")}</td>
         <td>${j.applied_at ? fmtDate(j.applied_at) : "—"}</td><td>${esc(j.salary || "—")}</td>
         <td>${j.cv_url ? `<a href="${esc(j.cv_url)}">Download</a>` : "—"}</td>
-        <td><span class="status s-${esc(j.status)}">${esc(j.status)}</span>${(next[j.status] || []).length ? `<div class="links" style="margin-top:6px">${next[j.status].map((s) => `<a href="${esc(issueUrl(s, j))}" target="_blank" rel="noopener" data-verb="${s}" data-id="${esc(j.id)}" style="font-size:.78rem">→ ${s}</a>`).join("")}</div>` : ""}</td></tr>`).join("")}
+        <td><span class="status s-${esc(j.status)}">${esc(j.status)}</span>${moves(j) ? `<div class="links tc-act" style="margin-top:6px">${moves(j)}</div>` : ""}</td></tr>`).join("")}
       </tbody></table></div>
       <p style="font-size:.8rem;color:var(--muted);margin:0">Also on GitHub as <a href="data/applied.csv">applied.csv</a>. Claude updates statuses from your Gmail each morning.</p>`;
   }
@@ -346,6 +372,8 @@ nav.bottom svg { width: 22px; height: 22px; }
     const o = ev.target.closest("[data-open]");
     if (o) { state.tab = "analysis"; location.hash = "job/" + o.dataset.open; return; }
     if (ev.target.closest("[data-close]")) { history.length > 1 ? history.back() : (location.hash = ""); return; }
+    const tf = ev.target.closest("[data-tf]");
+    if (tf) { state.tfilter = tf.dataset.tf; render(); return; }
     const t = ev.target.closest(".tab");
     if (t) { state.tab = t.dataset.tab; route(); return; }
     const n = ev.target.closest("nav.bottom button");
