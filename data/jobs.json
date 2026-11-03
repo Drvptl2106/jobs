@@ -98,17 +98,17 @@
 "salary_check": "meets_new_entrant",
 "recruiter": false,
 "decision": "pending",
-"decided_at": "2026-11-03T19:40:09+00:00",
+"decided_at": "2026-11-03T19:59:26+00:00",
 "status": "new",
 "cv_file": "",
 "cv_url": "",
 "cv_emailed_at": "",
 "applied_at": "",
-"status_updated_at": "2026-11-03T19:40:09+00:00",
+"status_updated_at": "2026-11-03T19:59:26+00:00",
 "last_email": "",
 "notes": "",
 "profile_basis": "provisional",
-"updated_at": "2026-11-03T19:55:32+00:00"
+"updated_at": "2026-11-03T19:59:26+00:00"
 },
 {
 "id": "gd-1010313901700",
@@ -319,17 +319,17 @@
 "salary_check": "unknown",
 "recruiter": true,
 "decision": "pending",
-"decided_at": "",
+"decided_at": "2026-11-03T19:59:26+00:00",
 "status": "new",
 "cv_file": "",
 "cv_url": "",
 "cv_emailed_at": "",
 "applied_at": "",
-"status_updated_at": "",
+"status_updated_at": "2026-11-03T19:59:26+00:00",
 "last_email": "",
 "notes": "",
 "profile_basis": "provisional",
-"updated_at": "2026-11-03T19:55:32+00:00"
+"updated_at": "2026-11-03T19:59:26+00:00"
 },
 {
 "id": "gd-1010314782880",
