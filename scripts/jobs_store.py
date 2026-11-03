@@ -1,20 +1,20 @@
 #!/usr/bin/env python3
-"""The job tracker: data/jobs.csv is the source of truth, data/applied.csv is
-derived from it, and the web app's database mirrors it.
+"""The job tracker. data/jobs.csv is the source of truth; data/applied.csv and
+data/jobs.json (read by the website, index.html) are regenerated on every write.
 
 Commands
   upsert FILE.json        merge a list of job dicts into data/jobs.csv
-  import-db DIR           merge app decisions/status from ArtifactData JSON files
-  export-db OUTDIR [--all] write one JSON per job changed since last export
-                          (for ArtifactData batch writes via file_path)
+  act VERB JOB_ID         apply a button press from the website (via a GitHub issue):
+                          approve | skip | applied | interview | offer | rejected | withdrawn | reopen
+  meta KEY=VALUE ...      update data/meta.json (last_scan, register_date, notice, profile_basis)
+  expire DAYS             mark jobs still waiting for review after DAYS days as expired
   pending-cv              list approved jobs that still need a tailored CV
-  summary                 counts by status / recommendation
+  summary                 counts by status
   id URL_OR_JOBLISTINGID  print the canonical job id
 
 Run from the repo root. Python 3.9+, stdlib only.
 """
 import csv
-import glob
 import hashlib
 import json
 import os
@@ -26,7 +26,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 JOBS = os.path.join(ROOT, "data", "jobs.csv")
 APPLIED = os.path.join(ROOT, "data", "applied.csv")
 CONFIG = os.path.join(ROOT, "config", "profile.json")
-EXPORT_STATE = os.path.join(ROOT, "data", ".export_state.json")
+JOBS_JSON = os.path.join(ROOT, "data", "jobs.json")
+META = os.path.join(ROOT, "data", "meta.json")
 
 FIELDS = [
     "id", "source", "title", "company", "location", "salary", "salary_min", "salary_max",
@@ -75,6 +76,8 @@ def write_jobs(jobs):
         for r in sorted((r for r in rows if r.get("status") in APPLIED_STATUSES),
                         key=lambda r: r.get("applied_at", ""), reverse=True):
             w.writerow({k: r.get(k, "") for k in APPLIED_FIELDS})
+    with open(JOBS_JSON, "w", encoding="utf-8") as f:
+        json.dump([to_doc(r) for r in rows], f, ensure_ascii=False, indent=0)
 
 
 def to_cell(k, v):
@@ -164,38 +167,6 @@ def upsert(items):
     print(f"upserted {changed} job(s); total {len(jobs)}")
 
 
-def import_db(directory):
-    """Merge fields the app writes (decision, status, applied_at, notes)."""
-    jobs = read_jobs()
-    n = 0
-    for p in glob.glob(os.path.join(directory, "**", "*.json"), recursive=True):
-        with open(p, encoding="utf-8") as f:
-            doc = json.load(f)
-        data = doc.get("data", doc) if isinstance(doc, dict) else {}
-        jid = data.get("id") or os.path.splitext(os.path.basename(p))[0]
-        if jid not in jobs:
-            continue
-        row = jobs[jid]
-        for k in ("decision", "decided_at", "status", "applied_at", "notes"):
-            v = data.get(k)
-            if v not in (None, "") and str(v) != row.get(k, ""):
-                # never move status backwards from what the tracker already knows,
-                # except when the user explicitly skips / re-opens
-                if k == "status" and row.get(k) in APPLIED_STATUSES and v in ("new", "approved", "cv_ready"):
-                    continue
-                row[k] = to_cell(k, v)
-                if k == "status":
-                    row["status_updated_at"] = data.get("status_updated_at") or now()
-                row["updated_at"] = now()
-                n += 1
-        if row.get("decision") == "approved" and row.get("status") == "new":
-            row["status"] = "approved"
-        if row.get("decision") == "skipped" and row.get("status") in ("new", "approved"):
-            row["status"] = "skipped"
-    write_jobs(jobs)
-    print(f"imported {n} field change(s) from app")
-
-
 def to_doc(row):
     doc = {}
     for k in FIELDS:
@@ -218,27 +189,69 @@ def to_doc(row):
     return doc
 
 
-def export_db(outdir, everything=False):
+VERBS = {
+    "approve": {"decision": "approved", "status": "approved"},
+    "skip": {"decision": "skipped", "status": "skipped"},
+    "reopen": {"decision": "pending", "status": "new"},
+    "applied": {"status": "applied"},
+    "interview": {"status": "interview"},
+    "offer": {"status": "offer"},
+    "rejected": {"status": "rejected"},
+    "withdrawn": {"status": "withdrawn"},
+}
+
+
+def act(verb, jid):
+    """Apply one website button press. Returns a short message; raises on bad input."""
+    verb = verb.lower()
+    if verb not in VERBS:
+        raise ValueError(f"unknown action '{verb}'")
+    if not re.fullmatch(r"[a-z]{2}-[A-Za-z0-9-]{1,80}", jid):
+        raise ValueError(f"bad job id '{jid}'")
     jobs = read_jobs()
-    state = {}
-    if os.path.exists(EXPORT_STATE) and not everything:
-        with open(EXPORT_STATE, encoding="utf-8") as f:
-            state = json.load(f)
-    os.makedirs(outdir, exist_ok=True)
-    written = []
-    for jid, row in jobs.items():
-        doc = to_doc(row)
-        h = hashlib.sha1(json.dumps(doc, sort_keys=True).encode()).hexdigest()
-        if state.get(jid) == h:
+    if jid not in jobs:
+        raise ValueError(f"no job with id '{jid}'")
+    row, ts = jobs[jid], now()
+    for k, v in VERBS[verb].items():
+        row[k] = v
+    if "decision" in VERBS[verb]:
+        row["decided_at"] = ts
+    if verb == "approve" and row.get("cv_file"):
+        row["status"] = "cv_ready"
+    if verb == "applied" and not row.get("applied_at"):
+        row["applied_at"] = ts
+    if "status" in VERBS[verb]:
+        row["status_updated_at"] = ts
+    row["updated_at"] = ts
+    write_jobs(jobs)
+    return f"{verb}: {row.get('title')} at {row.get('company')} -> status {row['status']}"
+
+
+def set_meta(pairs):
+    meta = {}
+    if os.path.exists(META):
+        with open(META, encoding="utf-8") as f:
+            meta = json.load(f)
+    for p in pairs:
+        k, _, v = p.partition("=")
+        meta[k] = v
+    with open(META, "w", encoding="utf-8") as f:
+        json.dump(meta, f, ensure_ascii=False, indent=1)
+    print(json.dumps(meta, indent=1))
+
+
+def expire(days):
+    jobs, n = read_jobs(), 0
+    cutoff = datetime.now(timezone.utc).date().toordinal() - int(days)
+    for r in jobs.values():
+        try:
+            seen = datetime.fromisoformat(r.get("first_seen", "")[:10]).date().toordinal()
+        except ValueError:
             continue
-        path = os.path.join(outdir, f"{jid}.json")
-        with open(path, "w", encoding="utf-8") as f:
-            json.dump(doc, f, ensure_ascii=False)
-        state[jid] = h
-        written.append(path)
-    with open(EXPORT_STATE, "w", encoding="utf-8") as f:
-        json.dump(state, f)
-    print(json.dumps(written, indent=0))
+        if r.get("status") == "new" and r.get("decision") in ("", "pending") and seen < cutoff:
+            r["status"], r["status_updated_at"], n = "expired", now(), n + 1
+    write_jobs(jobs)
+    print(f"expired {n} job(s)")
 
 
 def pending_cv():
@@ -266,10 +279,15 @@ if __name__ == "__main__":
         with open(a[1], encoding="utf-8") as f:
             data = json.load(f)
         upsert(data if isinstance(data, list) else [data])
-    elif cmd == "import-db":
-        import_db(a[1])
-    elif cmd == "export-db":
-        export_db(a[1], "--all" in a)
+    elif cmd == "act":
+        try:
+            print(act(a[1], a[2]))
+        except (ValueError, IndexError) as e:
+            sys.exit(f"error: {e}")
+    elif cmd == "meta":
+        set_meta(a[1:])
+    elif cmd == "expire":
+        expire(a[1] if len(a) > 1 else 3)
     elif cmd == "pending-cv":
         pending_cv()
     elif cmd == "summary":

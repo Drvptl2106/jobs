@@ -1,5 +1,11 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#1d5c4f">
 <title>Dhruv's Job Desk</title>
-<meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
 <style>
@@ -25,7 +31,7 @@
   --good: #73d08f; --good-soft: #1a2f21; --warn: #e6b65c; --warn-soft: #33290f;
   --bad: #f08c80; --bad-soft: #3a1d1a; --info: #9db6ec; --info-soft: #1c2640; color-scheme: dark }
 
-body { background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 15px; line-height: 1.5; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 15px; line-height: 1.5; }
 body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--surface); }
 .wrap { max-width: 760px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
 header.desk { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--surface); border-bottom: 1px solid var(--line); }
@@ -35,7 +41,7 @@ h1 { font-family: var(--display); font-size: 1.35rem; margin: 0; letter-spacing:
 button, .btn { font: 600 0.88rem var(--body); border-radius: 8px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); padding: 0 12px; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; height: 38px; line-height: 1.2; box-sizing: border-box; white-space: nowrap; }
 button:hover, .btn:hover { border-color: var(--accent); }
 button:focus-visible, .btn:focus-visible, select:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-button.primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+button.primary, .btn.primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
 button:disabled { opacity: 0.55; cursor: default; }
 select { font: 500 0.88rem var(--body); padding: 7px 8px; border-radius: 8px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); min-height: 38px; }
 
@@ -94,11 +100,18 @@ footer { font-size: 0.8rem; color: var(--muted); }
 footer p { margin: 4px 0; max-width: 65ch; }
 .toast { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(16px + env(safe-area-inset-bottom, 0px)); background: var(--ink); color: var(--bg); padding: 10px 16px; border-radius: 8px; font-size: 0.9rem; z-index: 20; max-width: calc(100% - 32px); }
 @media (prefers-reduced-motion: no-preference) { article.job { transition: border-color .15s; } }
+.st-rejected, .st-withdrawn { background: var(--bad-soft); color: var(--bad); }
+.st-interview, .st-offer { background: var(--good-soft); color: var(--good); }
+.pending { font-size: 0.78rem; font-weight: 600; padding: 3px 9px; border-radius: 999px; background: var(--info-soft); color: var(--info); }
+header.desk nav { display: flex; gap: 8px; flex-wrap: wrap; }
+a { color: var(--accent); }
+*, *::before, *::after { box-sizing: border-box; }
 </style>
-
+</head>
+<body>
 <header class="desk"><div class="wrap">
-  <div><h1>Job Desk</h1><div class="stamp" id="stamp">Connecting to your tracker…</div></div>
-  <button id="scan" type="button" title="Ask Claude to read Gmail now">Scan Gmail now</button>
+  <div><h1 id="who">Job Desk</h1><div class="stamp" id="stamp">Loading your tracker…</div></div>
+  <nav><a class="btn" id="csv" href="data/applied.csv">Applied CSV</a><a class="btn" id="gh" href="#">GitHub</a></nav>
 </div></header>
 
 <div class="wrap"><main>
@@ -107,15 +120,15 @@ footer p { margin: 4px 0; max-width: 65ch; }
   <section class="tally" aria-label="Summary">
     <div><b id="t-review">–</b><span>To review</span></div>
     <div><b id="t-cv">–</b><span>CVs ready</span></div>
-    <div><b id="t-applied">–</b><span>Applied</span></div>
+    <div><b id="t-applied">–</b><span>Active apps</span></div>
     <div><b id="t-interview">–</b><span>Interviews</span></div>
-    <div><b id="t-total">–</b><span>Tracked</span></div>
+    <div><b id="t-total">–</b><span>Rejected</span></div>
   </section>
 
   <nav class="tabs" role="tablist" aria-label="Views">
     <button type="button" role="tab" data-tab="review" aria-selected="true">To review <span class="n" id="n-review"></span></button>
     <button type="button" role="tab" data-tab="cvs" aria-selected="false">Approved &amp; CVs <span class="n" id="n-cvs"></span></button>
-    <button type="button" role="tab" data-tab="applied" aria-selected="false">Applied <span class="n" id="n-applied"></span></button>
+    <button type="button" role="tab" data-tab="applied" aria-selected="false">Applications <span class="n" id="n-applied"></span></button>
     <button type="button" role="tab" data-tab="skipped" aria-selected="false">Skipped <span class="n" id="n-skipped"></span></button>
   </nav>
 
@@ -124,7 +137,7 @@ footer p { margin: 4px 0; max-width: 65ch; }
   </section>
 
   <footer>
-    <p><b>How this works.</b> Every morning Claude reads your Glassdoor alerts, keeps only jobs posted in the last 24 hours, scores each one against your master CV, and checks the employer on the Home Office register of licensed sponsors. Tap <b>Go ahead</b> and Claude writes a tailored Word CV and emails it to you. When an "application received" email lands, the job moves to Applied.</p>
+    <p><b>How this works.</b> Every morning Claude reads your Glassdoor alerts, keeps only jobs posted in the last 24 hours, scores each one against your master CV, and checks the employer on the Home Office register of licensed sponsors. Buttons open a pre-filled GitHub issue: tap <b>Submit</b> and a GitHub Action records it within a minute. For jobs you approve, Claude writes a tailored Word CV at the next scan and emails it to you. When an "application received" email lands, the job moves to Applied.</p>
     <p>Sponsorship checks: Skilled Worker general threshold £41,700; new-entrant rate £33,400. A licensed sponsor can still decline to sponsor a given role, so read the advert.</p>
     <p id="repo"></p>
   </footer>
@@ -134,12 +147,16 @@ footer p { margin: 4px 0; max-width: 65ch; }
 <script>
 (() => {
   const $ = (s) => document.querySelector(s);
-  const state = { jobs: [], meta: {}, tab: "review", db: null, mcp: null, canWrite: true, busy: new Set() };
-  try { const t = localStorage.getItem("jobdesk-tab"); if (t) state.tab = t; } catch (e) {}
+  const state = { jobs: [], meta: {}, cfg: {}, tab: "review", pending: {} };
+  const load = (k, d) => { try { return JSON.parse(localStorage.getItem(k)) ?? d; } catch (e) { return d; } };
+  const save = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} };
+  state.tab = load("jobdesk-tab", "review");
+  state.pending = load("jobdesk-pending", {});
 
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
-  const toast = (msg) => { const t = $("#toast"); t.textContent = msg; t.hidden = false; clearTimeout(toast.h); toast.h = setTimeout(() => (t.hidden = true), 3200); };
-  const fmtDate = (iso) => { if (!iso) return ""; const d = new Date(iso); return isNaN(d) ? iso : d.toLocaleString("en-GB", { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" }); };
+  const toast = (msg) => { const t = $("#toast"); t.textContent = msg; t.hidden = false; clearTimeout(toast.h); toast.h = setTimeout(() => (t.hidden = true), 4000); };
+  const fmtDate = (iso) => { if (!iso) return ""; const d = new Date(iso); if (isNaN(d)) return iso;
+    return /^\d{4}-\d{2}-\d{2}$/.test(iso) ? d.toLocaleDateString("en-GB", { day: "numeric", month: "short" }) : d.toLocaleString("en-GB", { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" }); };
   const isFresh = (a) => /just posted|^\s*(\d{1,2}h|24h|1d)\s*$/i.test(a || "");
 
   const APPLIED = ["applied", "interview", "offer", "rejected", "withdrawn"];
@@ -149,6 +166,15 @@ footer p { margin: 4px 0; max-width: 65ch; }
     if (j.decision === "approved" || j.status === "approved" || j.status === "cv_ready") return "cvs";
     return "review";
   };
+
+  function issueUrl(verb, j) {
+    const g = state.cfg.github || {};
+    const title = `job-desk: ${verb} ${j.id}`;
+    const body = `${j.title} at ${j.company}\n\nTap "Submit new issue" to record this. A GitHub Action updates the tracker and closes this issue within a minute.`;
+    return `https://github.com/${encodeURIComponent(g.owner || "")}/${encodeURIComponent(g.repo || "")}/issues/new?title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;
+  }
+  const act = (verb, j, label, primary) =>
+    `<a class="btn${primary ? " primary" : ""}" href="${esc(issueUrl(verb, j))}" target="_blank" rel="noopener" data-verb="${verb}" data-id="${esc(j.id)}">${label}</a>`;
 
   function checkChips(j) {
     const out = [];
@@ -170,31 +196,26 @@ footer p { margin: 4px 0; max-width: 65ch; }
     const score = Number.isFinite(j.fit_score) ? j.fit_score : null;
     const list = (arr) => (arr || []).map((x) => `<li>${esc(x)}</li>`).join("");
     const b = bucket(j);
-    const busy = state.busy.has(j.id);
-    let actions = "";
+    const p = state.pending[j.id];
     const open = j.url ? `<a class="btn" href="${esc(j.url)}" target="_blank" rel="noopener">Open advert</a>` : "";
-    if (b === "review") {
-      actions = `<button class="primary" data-act="approve" data-id="${esc(j.id)}" ${busy || !state.canWrite ? "disabled" : ""}>Go ahead: tailor my CV</button>
-        <button data-act="skip" data-id="${esc(j.id)}" ${busy || !state.canWrite ? "disabled" : ""}>Skip</button>${open}`;
-    } else if (b === "cvs") {
-      const cv = j.cv_url ? `<a class="btn" href="${esc(j.cv_url)}" target="_blank" rel="noopener">Tailored CV (.docx)</a>` : `<span class="note">CV being written${j.status === "approved" ? " · it arrives by email" : ""}</span>`;
-      actions = `${cv}<button data-act="applied" data-id="${esc(j.id)}" ${busy || !state.canWrite ? "disabled" : ""}>I've applied</button>${open}
-        <button data-act="undo" data-id="${esc(j.id)}" ${busy || !state.canWrite ? "disabled" : ""}>Undo</button>`;
+    let actions;
+    if (b === "review") actions = act("approve", j, "Go ahead: tailor my CV", true) + act("skip", j, "Skip") + open;
+    else if (b === "cvs") {
+      const cv = j.cv_url ? `<a class="btn" href="${esc(j.cv_url)}" target="_blank" rel="noopener">Tailored CV (.docx)</a>` : `<span class="note">CV is written at the next scan and emailed to you</span>`;
+      actions = cv + act("applied", j, "I've applied", true) + open + act("reopen", j, "Undo");
     } else if (b === "applied") {
-      const opts = APPLIED.map((s) => `<option value="${s}" ${s === j.status ? "selected" : ""}>${s[0].toUpperCase() + s.slice(1)}</option>`).join("");
-      actions = `<label class="note" for="st-${esc(j.id)}">Status</label><select id="st-${esc(j.id)}" data-act="status" data-id="${esc(j.id)}" ${!state.canWrite ? "disabled" : ""}>${opts}</select>
-        ${j.cv_url ? `<a class="btn" href="${esc(j.cv_url)}" target="_blank" rel="noopener">CV used</a>` : ""}${open}
-        <span class="note">${j.applied_at ? "Applied " + esc(fmtDate(j.applied_at)) : ""}${j.last_email ? " · " + esc(j.last_email) : ""}</span>`;
-    } else {
-      actions = `<button data-act="reopen" data-id="${esc(j.id)}" ${busy || !state.canWrite ? "disabled" : ""}>Move back to review</button>${open}`;
-    }
+      const next = { applied: ["interview", "rejected", "withdrawn"], interview: ["offer", "rejected", "withdrawn"], offer: ["withdrawn"] }[j.status] || [];
+      actions = next.map((s) => act(s, j, s[0].toUpperCase() + s.slice(1))).join("")
+        + (j.cv_url ? `<a class="btn" href="${esc(j.cv_url)}" target="_blank" rel="noopener">CV used</a>` : "") + open
+        + `<span class="note">${j.applied_at ? "Applied " + esc(fmtDate(j.applied_at)) : ""}${j.last_email ? " · " + esc(j.last_email) : ""}</span>`;
+    } else actions = act("reopen", j, "Move back to review") + open;
     const showDetail = b === "review" || b === "cvs";
     return `<article class="job" id="job-${esc(j.id)}">
       <div class="top">
         <div>
           <div class="company">${esc(j.company)} ${isFresh(j.posted_age) ? `<span class="fresh">${esc(j.posted_age)}</span>` : j.posted_age ? `· ${esc(j.posted_age)}` : ""}</div>
           <h2 class="title">${esc(j.title)}</h2>
-          <div class="meta"><span>${esc(j.location)}</span>${j.salary ? `<span class="sal">${esc(j.salary)}</span>` : ""}${j.easy_apply ? "<span>Easy Apply</span>" : ""}${b === "applied" ? `<span class="status-pill">${esc(j.status)}</span>` : ""}</div>
+          <div class="meta"><span>${esc(j.location)}</span>${j.salary ? `<span class="sal">${esc(j.salary)}</span>` : ""}${j.easy_apply ? "<span>Easy Apply</span>" : ""}${b === "applied" ? `<span class="status-pill st-${esc(j.status)}">${esc(j.status)}</span>` : ""}${p ? `<span class="pending">Sent: ${esc(p.verb)}</span>` : ""}</div>
         </div>
         ${score !== null ? `<div class="score" aria-label="Fit score ${score} out of 100"><b>${score}</b><small>/100 fit</small>${rec ? `<div class="verdict ${vClass}">${esc(rec)}</div>` : ""}</div>` : ""}
       </div>
@@ -216,89 +237,70 @@ footer p { margin: 4px 0; max-width: 65ch; }
     for (const k of Object.keys(groups)) $("#n-" + k).textContent = groups[k].length || "";
     $("#t-review").textContent = groups.review.length;
     $("#t-cv").textContent = state.jobs.filter((j) => j.status === "cv_ready").length;
-    $("#t-applied").textContent = groups.applied.length;
+    $("#t-applied").textContent = state.jobs.filter((j) => ["applied", "interview", "offer"].includes(j.status)).length;
     $("#t-interview").textContent = state.jobs.filter((j) => j.status === "interview" || j.status === "offer").length;
-    $("#t-total").textContent = state.jobs.length;
+    $("#t-total").textContent = state.jobs.filter((j) => j.status === "rejected").length;
     document.querySelectorAll("nav.tabs button").forEach((b) => b.setAttribute("aria-selected", String(b.dataset.tab === state.tab)));
-    const items = groups[state.tab];
-    const emptyMsg = { review: "Nothing waiting. New jobs from the last 24 hours land here after the next Gmail scan.", cvs: "Approve a job and its tailored CV shows up here.", applied: "Jobs move here when an application email arrives or you tap “I've applied”.", skipped: "Skipped jobs collect here." }[state.tab];
+    const items = groups[state.tab] || [];
+    const emptyMsg = { review: "Nothing waiting. New jobs from the last 24 hours land here after the next daily scan.", cvs: "Approve a job and its tailored CV shows up here.", applied: "Jobs move here when an application email arrives or you tap “I've applied”.", skipped: "Skipped and expired jobs collect here." }[state.tab];
     $("#list").innerHTML = items.length ? items.map(card).join("") : `<div class="empty">${emptyMsg}</div>`;
   }
 
   function renderMeta() {
-    const m = state.meta;
-    $("#stamp").textContent = m.last_scan ? `Last Gmail scan ${fmtDate(m.last_scan)}${m.register_date ? " · sponsor register " + m.register_date : ""}` : "Waiting for the first Gmail scan";
+    const m = state.meta, g = state.cfg.github || {};
+    const first = (state.cfg.name || "").split(" ")[0];
+    if (first) { $("#who").textContent = `${first}'s Job Desk`; document.title = `${first}'s Job Desk`; }
+    $("#stamp").textContent = m.last_scan ? `Last scan ${fmtDate(m.last_scan)}${m.register_date ? " · sponsor register " + m.register_date : ""}` : "Waiting for the first scan";
     const n = $("#notice");
     if (m.notice) { n.innerHTML = `<b>Heads up.</b> ${esc(m.notice)}`; n.hidden = false; } else n.hidden = true;
-    if (m.repo_url) $("#repo").innerHTML = `Everything is also saved to GitHub: <a href="${esc(m.repo_url)}" target="_blank" rel="noopener">${esc(m.repo_url.replace(/^https:\/\/github.com\//, ""))}</a> (data/jobs.csv, data/applied.csv, outputs/cvs).`;
+    if (g.owner) {
+      const url = `https://github.com/${g.owner}/${g.repo}`;
+      $("#gh").href = url;
+      $("#repo").innerHTML = `Data lives in <a href="${esc(url)}" target="_blank" rel="noopener">${esc(g.owner + "/" + g.repo)}</a>: data/jobs.csv, data/applied.csv and outputs/cvs.`;
+    }
   }
 
-  async function writeJob(id, patch, msg) {
-    if (!state.db) { toast("Can't reach the tracker right now. Try again in a moment."); return false; }
-    state.busy.add(id); render();
-    try {
-      await state.db.doc("jobs/" + id).update({ ...patch, updated_at: new Date().toISOString() });
-      if (msg) toast(msg);
-      return true;
-    } catch (e) {
-      if (e && e.code === "invalid_argument") { state.canWrite = false; toast("Only the owner can change this tracker."); }
-      else toast("Couldn't save that change. Check your connection and try again.");
-      return false;
-    } finally { state.busy.delete(id); render(); }
-  }
-
-  async function poke(text) {
-    const id = state.meta.trigger_id;
-    if (!state.mcp || !id) return false;
-    try { await state.mcp.callTool("Claude Code Remote", "fire_trigger", { trigger_id: id, text }); return true; }
-    catch (e) { return false; }
-  }
-
-  document.addEventListener("click", async (ev) => {
+  document.addEventListener("click", (ev) => {
     const tab = ev.target.closest("nav.tabs button");
-    if (tab) { state.tab = tab.dataset.tab; try { localStorage.setItem("jobdesk-tab", state.tab); } catch (e) {} render(); return; }
-    const b = ev.target.closest("button[data-act]");
-    if (!b) return;
-    const id = b.dataset.id, now = new Date().toISOString();
-    const act = b.dataset.act;
-    if (act === "approve") {
-      if (await writeJob(id, { decision: "approved", status: "approved", decided_at: now }, "Approved. Claude will write your CV.")) {
-        if (await poke(`APP_REQUEST make_cv ${id}`)) toast("Approved. Claude is writing your CV now; it will arrive by email.");
-        else toast("Approved. Your CV will be written at the next scan (or ask Claude in chat).");
+    if (tab) { state.tab = tab.dataset.tab; save("jobdesk-tab", state.tab); render(); return; }
+    const a = ev.target.closest("a[data-verb]");
+    if (a) {
+      state.pending[a.dataset.id] = { verb: a.dataset.verb, at: Date.now() };
+      save("jobdesk-pending", state.pending);
+      toast("On GitHub, tap “Submit new issue”. This page updates a minute or two later.");
+      setTimeout(render, 300);
+    }
+  });
+
+  async function getJSON(path) {
+    const r = await fetch(`${path}?t=${Date.now()}`, { cache: "no-store" });
+    if (!r.ok) throw new Error(path + " " + r.status);
+    return r.json();
+  }
+
+  async function refresh() {
+    try {
+      const [cfg, jobs, meta] = await Promise.all([getJSON("config/profile.json"), getJSON("data/jobs.json"), getJSON("data/meta.json").catch(() => ({}))]);
+      state.cfg = cfg; state.jobs = jobs; state.meta = meta;
+      // drop "sent" markers once the data shows the change, or after 20 minutes
+      const done = { approve: (j) => j.decision === "approved", skip: (j) => j.decision === "skipped", reopen: (j) => j.status === "new" };
+      for (const [id, p] of Object.entries(state.pending)) {
+        const j = jobs.find((x) => x.id === id);
+        const ok = !j || (done[p.verb] ? done[p.verb](j) : j.status === p.verb);
+        if (ok || Date.now() - p.at > 20 * 60 * 1000) delete state.pending[id];
       }
-    } else if (act === "skip") await writeJob(id, { decision: "skipped", status: "skipped", decided_at: now }, "Skipped");
-    else if (act === "applied") await writeJob(id, { status: "applied", applied_at: now, status_updated_at: now }, "Marked as applied");
-    else if (act === "undo" || act === "reopen") await writeJob(id, { decision: "pending", status: "new", decided_at: now }, "Moved back to review");
-  });
-
-  document.addEventListener("change", async (ev) => {
-    const s = ev.target.closest("select[data-act='status']");
-    if (s) await writeJob(s.dataset.id, { status: s.value, status_updated_at: new Date().toISOString() }, "Status updated");
-  });
-
-  $("#scan").addEventListener("click", async () => {
-    const btn = $("#scan"); btn.disabled = true;
-    const ok = await poke("APP_REQUEST scan_now");
-    toast(ok ? "Scan started. New jobs appear here in a few minutes." : "Couldn't start a scan from here. The daily scan still runs each morning.");
-    btn.disabled = false;
-  });
+      save("jobdesk-pending", state.pending);
+      renderMeta(); render();
+    } catch (e) {
+      $("#stamp").textContent = "Couldn't load the tracker data. Pull to refresh in a moment.";
+    }
+  }
 
   render();
-
-  (async () => {
-    const use = (n) => (window.claude && window.claude.use ? window.claude.use(n).catch(() => null) : Promise.resolve(null));
-    const [db, user, mcp] = await Promise.all([use("db"), use("user"), use("mcp")]);
-    state.db = db; state.mcp = mcp;
-    if (user) { try { const w = await user.can("data.write"); if (w === false) state.canWrite = false; } catch (e) {} }
-    if (!mcp) $("#scan").hidden = true;
-    if (!db) { $("#stamp").textContent = "Open this page signed in to claude.ai to see your tracker."; render(); return; }
-    const timer = setTimeout(() => { $("#stamp").textContent = "Your tracker isn't answering yet. What you see may be out of date."; }, 10000);
-    db.collection("jobs").onSnapshot((snap) => {
-      if (!snap.metadata.fromCache) clearTimeout(timer);
-      state.jobs = snap.docs.map((d) => ({ id: d.id, ...d.data() }));
-      render();
-    }, () => { clearTimeout(timer); $("#stamp").textContent = "Lost connection to your tracker. Reload the page to reconnect."; });
-    db.doc("meta/status").onSnapshot((d) => { state.meta = d.exists ? d.data() : {}; renderMeta(); }, () => {});
-  })();
+  refresh();
+  setInterval(() => { if (document.visibilityState === "visible" && Object.keys(state.pending).length) refresh(); }, 30000);
+  document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") refresh(); });
 })();
 </script>
+</body>
+</html>

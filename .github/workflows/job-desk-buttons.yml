@@ -1,0 +1,72 @@
+name: Job Desk buttons
+
+# The website's buttons (Go ahead, Skip, I've applied, Interview, ...) open a
+# pre-filled GitHub issue titled "job-desk: <action> <job-id>". This workflow
+# records the action in data/jobs.csv (+ applied.csv, jobs.json), then closes
+# the issue. Only issues opened by the repository owner are processed.
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: job-desk-data
+  cancel-in-progress: false
+
+jobs:
+  record:
+    if: github.event.issue.user.login == github.repository_owner && startsWith(github.event.issue.title, 'job-desk:')
+    runs-on: ubuntu-latest
+    env:
+      TITLE: ${{ github.event.issue.title }}
+      NUMBER: ${{ github.event.issue.number }}
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Apply the action
+        id: act
+        run: |
+          set -uo pipefail
+          re='^job-desk: ([a-z]+) ([a-z]{2}-[A-Za-z0-9-]{1,80})$'
+          if [[ ! "$TITLE" =~ $re ]]; then
+            echo "msg=Could not read this request. Expected: job-desk: <action> <job-id>" >> "$GITHUB_OUTPUT"
+            echo "ok=false" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+          if out=$(python3 scripts/jobs_store.py act "${BASH_REMATCH[1]}" "${BASH_REMATCH[2]}" 2>&1); then
+            echo "ok=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+          fi
+          echo "msg=$out" >> "$GITHUB_OUTPUT"
+
+      - name: Commit and push
+        if: steps.act.outputs.ok == 'true'
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git commit -qm "Job Desk: ${TITLE#job-desk: } (#${NUMBER})"
+          for i in 1 2 3 4; do
+            git pull -q --rebase origin "${GITHUB_REF_NAME}" && git push -q origin "HEAD:${GITHUB_REF_NAME}" && exit 0
+            sleep $((i * 3))
+          done
+          exit 1
+
+      - name: Close the issue
+        if: always()
+        env:
+          OK: ${{ steps.act.outputs.ok }}
+          MSG: ${{ steps.act.outputs.msg }}
+        run: |
+          if [ "$OK" = "true" ]; then
+            gh issue close "$NUMBER" --comment "Recorded. $MSG. The website updates in a minute or two."
+          else
+            gh issue close "$NUMBER" --reason "not planned" --comment "Not recorded: $MSG"
+          fi

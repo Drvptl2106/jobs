@@ -10,7 +10,7 @@ Usage:
 JSON shape (every key except "name" is optional):
 {
   "name": "Dhruv Patil",
-  "contact": ["London, UK", "+44 ...", "email", "linkedin.com/in/..."],
+  "contact": ["London, UK", "email", "linkedin.com/in/... (optional)"],
   "headline": "Business & Data Analyst",
   "summary": "2-4 sentence profile tailored to the job",
   "skills": [{"label": "Analytics", "items": "SQL, Python, Power BI"}],

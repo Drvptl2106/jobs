@@ -1,144 +1,138 @@
 # Job Desk — agent instructions
 
-This repo is Dhruv Patil's job-search agent. Claude (you) finds jobs in Gmail, scores them
-against Dhruv's master CV, checks UK visa sponsorship, writes tailored Word CVs for jobs he
-approves, and tracks applications. Dhruv applies himself; **never apply, and never email
-anyone except `dhruvpatil979@gmail.com`.**
+This repo is a job-search agent. Claude (you) finds jobs in the owner's Gmail, scores them against
+their master CV, checks UK visa sponsorship, writes tailored Word CVs for jobs they approve, and
+tracks applications. Everything lives in this GitHub repo; the website is `index.html`
+(GitHub Pages).
 
-## Constants
+**Read `config/profile.json` first.** It holds the owner's name, email, GitHub repo + branch,
+target roles and visa settings. Below, "the owner" and "OWNER_EMAIL" mean those values.
 
-| Thing | Value |
+Hard rules: **never apply to a job, and never email anyone except OWNER_EMAIL.** Use only facts
+from the master CV; never invent experience.
+
+## Files
+
+| Path | What |
 |---|---|
-| Data branch (commit + push here) | `claude/ecstatic-bardeen-eu42vz` |
-| Job Desk app (artifact) | https://claude.ai/artifact/TvnZz8V79YCEeZiV6RMg4Y |
-| App database collections | `jobs/<job-id>` (one doc per job), `meta/status` |
-| Scheduled task id | `trig_01KvhirXJELqob9k8JFahYbC` (daily 07:40 Europe/London) |
-| Dhruv's email | dhruvpatil979@gmail.com |
-| Preferences + visa thresholds | `config/profile.json` |
-| Master CV | `cv/master_cv.pdf` (or `.docx`) → text in `cv/master_cv.md` |
-| Tracker | `data/jobs.csv` (all jobs), `data/applied.csv` (derived) |
-| Tailored CVs | `outputs/cvs/` |
+| `config/profile.json` | Owner settings (name, email, github.owner/repo/branch, roles, visa thresholds) |
+| `cv/master_cv.pdf` / `.docx` | Master CV uploaded by the owner → you keep a text copy in `cv/master_cv.md` |
+| `data/jobs.csv` | Every job (source of truth). `data/applied.csv` + `data/jobs.json` are regenerated from it |
+| `data/meta.json` | Scan status shown on the website (`last_scan`, `register_date`, `notice`, `profile_basis`) |
+| `outputs/cvs/` | Tailored CV `.json` (content) + `.docx` |
+| `scripts/jobs_store.py` | `upsert`, `act`, `meta`, `expire`, `pending-cv`, `summary` |
+| `scripts/sponsor_check.py` | Home Office sponsor register lookups |
+| `scripts/make_cv.py` | CV JSON → .docx |
+| `.github/workflows/job-desk-buttons.yml` | Website buttons → GitHub issue → this Action updates `data/` |
+| `.github/workflows/sponsor-register.yml` | Downloads the sponsor register daily to the `sponsor-register` branch |
 
-Tools you need: Gmail connector, Firecrawl connector, `Artifact` / `ArtifactData`, Bash with
-python3, git. Network: gov.uk and glassdoor are blocked in the container; the sponsor register
-comes from the `sponsor-register` branch (refreshed daily by `.github/workflows/sponsor-register.yml`)
-and adverts come through Firecrawl.
+Always change job data through `scripts/jobs_store.py` so the CSV, JSON and website stay in step.
 
-If the Gmail tools are missing, stop: write `meta/status.notice` = "The daily scan couldn't reach
-Gmail. Add the Gmail and Firecrawl connectors to the 'Job Desk daily scan' scheduled task." and finish.
+Tools you need: Gmail connector, Firecrawl connector, Bash (python3, git). The container cannot reach
+gov.uk or glassdoor directly: the register comes from the `sponsor-register` branch and adverts come
+through Firecrawl. If the Gmail tools are missing, run
+`python3 scripts/jobs_store.py meta "notice=The daily scan couldn't reach Gmail. Add the Gmail and Firecrawl connectors to the scheduled task."`,
+commit, push, and stop.
 
 ## Daily routine
 
-Work from the repo root. Keep a scratch dir at `data/.dbsync/` (git-ignored).
+Work from the repo root. Scratch files go in `data/.dbsync/` (git-ignored).
+`BRANCH` = `github.branch` from the config.
 
-### 1. Sync the repo
-`git fetch origin claude/ecstatic-bardeen-eu42vz && git checkout claude/ecstatic-bardeen-eu42vz && git pull --rebase origin claude/ecstatic-bardeen-eu42vz`
+### 1. Sync
+`git fetch origin BRANCH && git checkout BRANCH && git pull --rebase origin BRANCH`
+(The buttons Action commits to this branch too, so always pull before you start and before you push.)
 
 ### 2. Master CV
 - If `cv/master_cv.pdf` or `cv/master_cv.docx` exists and `cv/master_cv.md` is missing or older
-  (compare `git log -1 --format=%ct -- <file>`): extract text (`pdftotext -layout`, or python-docx),
-  then write a clean `cv/master_cv.md` (sections: contact, profile, skills, experience with every
-  bullet, education, projects, certifications, languages, visa status if stated). Keep every fact;
-  invent nothing. Then re-score every job whose `profile_basis` is `provisional` and status is
-  `new`/`approved` (step 5) and set `profile_basis` to `master`.
-- If no CV file exists: score with what is known (titles of past applications, Newcastle University
-  master's), set `profile_basis: provisional`, and keep the "upload your CV" notice in `meta/status`.
+  (compare `git log -1 --format=%ct -- <file>`): extract the text (`pdftotext -layout`, or python-docx)
+  and write a clean `cv/master_cv.md` (contact, profile, skills, experience with every bullet,
+  education, projects, certifications, languages, visa status if stated). Keep every fact; add none.
+  Then re-score all jobs with `profile_basis` = `provisional` and status `new`/`approved` (step 5) and
+  set `profile_basis` to `master`.
+- If there is no CV file: score from what is known, set `profile_basis: provisional`, and set the
+  notice "Your master CV isn't in the repo yet, so fit scores are provisional. Upload it to the cv
+  folder as master_cv.pdf and the next scan re-scores everything."
 
-### 3. Pull decisions from the app
-1. `ArtifactData list` collection `jobs`, `query.limit` 1000, `out_dir` `data/.dbsync/in`.
-   Note each document's `version` from the result (needed for writes in step 9).
-2. `python3 scripts/jobs_store.py import-db data/.dbsync/in` (merges Go ahead / Skip / I've applied /
-   status changes into `data/jobs.csv`; approved → status `approved`, skipped → `skipped`).
+### 3. Website decisions
+The owner's button presses are already in `data/jobs.csv` (the buttons Action applied them). Also
+check for open issues titled `job-desk: …` that the Action failed to close; apply each with
+`python3 scripts/jobs_store.py act <verb> <job-id>` only if the issue was opened by `github.owner`.
 
 ### 4. Find new jobs (posted within 24 hours)
-1. Gmail `search_threads` query `from:glassdoor.com newer_than:1d`. Read each thread once with
-   `get_thread` `PLAIN_TEXT`.
-2. Each listing is a markdown link `[| ... Company 3.7 ★ || Title || Location || £Xk - £Yk (…) || Easy Apply || | AGE |](URL)`.
+1. Gmail `search_threads`: `from:(<each job_alert_senders>) newer_than:1d`. Read each thread once
+   with `get_thread` `PLAIN_TEXT`.
+2. Glassdoor listings are markdown links `[| ... Company 3.7 ★ || Title || Location || £Xk - £Yk (…) || Easy Apply || | AGE |](URL)`.
    The URL holds `jobListingId=<digits>` and `utm_content=…-age<N>d-…` or `…-agejp-…` (just posted).
-3. Keep a listing only if its age is "Just posted", `<N>h`, `24h` or `1d` (age ≤ 1 day). "Jobs for you"
-   emails without an age chip: use the `age<N>d` in the URL. Drop anything older.
-4. Job id = `gd-<jobListingId>`; skip ids already in `data/jobs.csv`. Canonical URL:
+3. Keep a listing only if its age is "Just posted", `<N>h`, `24h` or `1d`. For listings without an age
+   chip use the `age<N>d` in the URL. Drop older ones (count them for the report).
+4. Job id `gd-<jobListingId>`; skip ids already in `data/jobs.csv`. Canonical URL
    `https://www.glassdoor.co.uk/job-listing/j?jl=<jobListingId>`.
 
 ### 5. Read the advert and score it
-- Firecrawl `firecrawl_scrape` the canonical URL with `formats: ["markdown"]`, `onlyMainContent: true`,
-  `timeout: 45000`. The advert text sits between "Sign in to apply"/"Apply now" and "Show more" /
-  "## Base pay". If it fails, score from the title and mark `jd_summary` "Advert could not be loaded".
-- Score 0-100 against `cv/master_cv.md` and `config/profile.json`:
-  title/role fit 25 · skills & tools 30 · experience level 20 (heavy penalty when the advert asks for
-  more than `max_years_experience_required`) · domain 10 · location/practicalities 5 · visa feasibility 10.
-- `recommendation`: `apply` ≥ 70, `maybe` 50-69, `skip` < 50. Force `skip` when the advert needs
-  5+ years, or says it cannot sponsor (Dhruv needs sponsorship).
-- Fill: `verdict` (1-2 plain sentences), `match_reasons` (≤3, each tied to a CV fact),
-  `gaps` (≤3), `jd_summary` (≤80 words, include how to apply and work pattern).
-- `jd_sponsorship`: `offers` (mentions sponsorship / sponsor licence), `no_sponsorship`,
-  `right_to_work_required` ("must already have the right to work", "no sponsorship"), or `silent`.
+- Firecrawl `firecrawl_scrape` the canonical URL: `formats: ["markdown"]`, `onlyMainContent: true`,
+  `timeout: 45000`. The advert sits between "Sign in to apply"/"Apply now" and "Show more"/"## Base pay".
+  If it fails, score from the title and set `jd_summary` "Advert could not be loaded".
+- Score 0-100 against `cv/master_cv.md` + config: role fit 25 · skills & tools 30 · experience level 20
+  (heavy penalty above `max_years_experience_required`) · domain 10 · location 5 · visa feasibility 10.
+- `recommendation`: `apply` ≥ 70, `maybe` 50-69, `skip` < 50. Force `skip` if the advert needs 5+ years,
+  or says it cannot sponsor while `visa.needs_sponsorship` is true.
+- Fill `verdict` (1-2 plain sentences), `match_reasons` (≤3, each tied to a CV fact), `gaps` (≤3),
+  `jd_summary` (≤80 words incl. how to apply + work pattern).
+- `jd_sponsorship`: `offers` | `no_sponsorship` | `right_to_work_required` | `silent`.
 
 ### 6. Sponsorship checks
 - `python3 scripts/sponsor_check.py "<Company A>" "<Company B>" …` → `sponsor_register`
-  (`licensed` / `licensed_other_route` / `possible` / `not_found`), `recruiter`, `sponsor_match`
-  (copy the first match as `{name, town, rating, route}`).
-- Recruiter posting that names the end client in the advert: `python3 scripts/sponsor_check.py --grep "<client>"`
-  and use the client's Skilled Worker entry, adding " (end client)" to `sponsor_match.name`.
-- `salary_check` is computed automatically from `salary` by `jobs_store.py`
-  (general £41,700; new entrant £33,400 — values in `config/profile.json`).
+  (`licensed` / `licensed_other_route` / `possible` / `not_found`), `recruiter`, and `sponsor_match`
+  (first match as `{name, town, rating, route}`); note `register_date` for step 10.
+- Recruiter advert naming the end client: `python3 scripts/sponsor_check.py --grep "<client>"`, use the
+  client's Skilled Worker entry and add " (end client)" to `sponsor_match.name`.
+- `salary_check` is computed by `jobs_store.py` from `salary` and the config thresholds.
 
 ### 7. Save
-Write the new/updated jobs as a JSON list to `data/.dbsync/new.json` (fields as in
-`scripts/jobs_store.py` FIELDS; `source: "glassdoor"`, `email_date`, `posted_age`, `easy_apply`, …) and run
+Write new/updated jobs as a JSON list to `data/.dbsync/new.json` (field names from `FIELDS` in
+`scripts/jobs_store.py`; set `source`, `email_date`, `posted_age`, `easy_apply`, `profile_basis`) and run
 `python3 scripts/jobs_store.py upsert data/.dbsync/new.json`.
 
-### 8. Tailored CVs (jobs Dhruv approved)
-For each item from `python3 scripts/jobs_store.py pending-cv`:
-1. Re-read the advert (step 5 scrape) and `cv/master_cv.md`.
-2. Write `outputs/cvs/<YYYY-MM-DD>_<Company>_<Title>.json` (ASCII, hyphens for spaces) in the
-   shape documented at the top of `scripts/make_cv.py`. Rules:
-   - Only facts from the master CV. Never invent employers, dates, grades, tools or numbers.
-   - Mirror the advert's keywords where they are true for Dhruv; lead with the most relevant
-     experience and projects; cut what doesn't help this job. One page if possible, two at most.
-   - UK spelling, no photo, no date of birth. Contact line from `config/profile.json`.
-   - Headline = the job's title family (e.g. "Business Analyst"). Summary = 3 sentences aimed at this job.
+### 8. Tailored CVs (approved jobs)
+For each job from `python3 scripts/jobs_store.py pending-cv`:
+1. Re-read the advert (step 5) and `cv/master_cv.md`.
+2. Write `outputs/cvs/<YYYY-MM-DD>_<Company>_<Title>.json` (ASCII, hyphens) in the shape at the top of
+   `scripts/make_cv.py`: only master-CV facts; mirror the advert's keywords where true; lead with the
+   most relevant experience/projects; one page if possible, two at most; UK spelling; no photo, date of
+   birth or phone number; contact line = email (+ LinkedIn if set in config) and city.
+   Headline = the job's title family; summary = 3 sentences aimed at this job.
 3. `python3 scripts/make_cv.py <json> <same name>.docx`.
-4. Commit and push (step 10) so the file exists on GitHub, then set
-   `cv_url` = `https://github.com/Drvptl2106/jobs/blob/claude/ecstatic-bardeen-eu42vz/outputs/cvs/<file>.docx`.
-5. Email it with Gmail `send_message` to dhruvpatil979@gmail.com, subject
-   `Tailored CV: <Title> at <Company>`, `htmlBody` with: link to the advert, how to apply,
-   3 bullet points on what was tailored, the four sponsorship checks, and any gaps to address in a
-   cover letter. Attach the .docx (`base64 -w0 <file>`, mimeType
-   `application/vnd.openxmlformats-officedocument.wordprocessingml.document`).
-6. Upsert `status: cv_ready`, `cv_file`, `cv_url`, `cv_emailed_at`.
+4. Upsert `status: cv_ready`, `cv_file: <path>.docx`, `cv_url: <path>.docx` (relative: the website
+   serves it, so it downloads straight from the site; full link = `site_url` + path).
+5. Commit + push (step 10) so the file is live, then email OWNER_EMAIL with Gmail `send_message`:
+   subject `Tailored CV: <Title> at <Company>`; `htmlBody` with the advert link, how to apply, 3 bullets
+   on what was tailored, the four checks (register, advert, salary, recruiter), gaps for a cover letter;
+   attach the .docx (`base64 -w0 <file>`, mimeType
+   `application/vnd.openxmlformats-officedocument.wordprocessingml.document`). Then upsert `cv_emailed_at`.
 
 ### 9. Track applications
-1. Gmail search (MINIMAL view first):
-   `newer_than:2d -from:me -from:noreply@glassdoor.com -category:promotions ("thank you for applying" OR "application received" OR "received your application" OR "application was sent" OR "application submitted" OR "your application" OR "Indeed Application" OR interview OR assessment OR "unfortunately")`
-2. Classify each relevant email: confirmation → `applied` (set `applied_at`); interview / assessment
-   / phone screen invite → `interview`; rejection → `rejected`; offer → `offer`. Ignore bank, visa
-   and newsletter mail.
-3. Match to an existing job by company + title (case-insensitive, loose). If none, add a row with
-   `id` `ap-<company>-<title-initials>-<MMDD>`, `source: gmail`, `decision: approved`.
-4. Set `last_email` to a short note like "Interview invite (3 Nov)". Never move a job backwards
-   (e.g. from `interview` to `applied`).
-5. Expire stale reviews: status `new` with `first_seen` more than 3 days ago → `status: expired`.
+1. Gmail (MINIMAL view first):
+   `newer_than:2d -from:me -category:promotions ("thank you for applying" OR "application received" OR "received your application" OR "application was sent" OR "application submitted" OR "your application" OR "Indeed Application" OR interview OR assessment OR unfortunately OR unsuccessful)`
+2. Confirmation → `applied` (+`applied_at`); interview/assessment/phone screen → `interview`;
+   rejection → `rejected`; offer → `offer`. Ignore bank, card, visa and newsletter mail.
+3. Match to an existing job by company + title (loose). If none, upsert a row with id
+   `ap-<company>-<title-initials>-<MMDD>`, `source: gmail`, `decision: approved`.
+4. Set `last_email` ("Interview invite (3 Nov)"). Never move a job backwards (interview → applied).
+5. `python3 scripts/jobs_store.py expire 3` (unreviewed jobs older than 3 days → expired).
 
-### 10. Sync the app and GitHub
-1. `python3 scripts/jobs_store.py export-db data/.dbsync/out` → list of changed job files.
-2. `ArtifactData batch` (≤50 writes per call): `{op: "set", collection: "jobs", doc_id, file_path}`
-   with `if_version` from step 3 for documents that already exist (omit it for new ones).
-   If a pinned write fails because Dhruv changed the doc meanwhile, re-run steps 3 and 10.
-3. `ArtifactData set` `meta/status` (read it first for its version): `last_scan` (now, ISO),
-   `register_date` (from sponsor_check output), `trigger_id`, `repo_url`, `profile_basis`, `notice`
-   (empty string when nothing needs Dhruv's attention).
-4. Prune: delete app docs whose status is `skipped`/`expired` and `first_seen` > 30 days ago
-   (the CSV keeps them).
-5. `git add data/jobs.csv data/applied.csv outputs cv && git commit -m "Job Desk scan <date>: <n> new, <m> CVs, <k> updates" && git push origin claude/ecstatic-bardeen-eu42vz`
-   (retry push up to 4 times with backoff on network errors; on rejection, `git pull --rebase` and retry).
+### 10. Publish
+1. `python3 scripts/jobs_store.py meta last_scan=<now ISO> register_date=<date> profile_basis=<…> "notice=<text or empty>"`
+2. `git add data outputs cv && git commit -m "Job Desk scan <date>: <n> new, <m> CVs, <k> updates"`
+3. `git pull --rebase origin BRANCH && git push origin BRANCH` (retry up to 4 times with backoff).
+   GitHub Pages republishes the website automatically.
 
 ### 11. Report
-Finish with 3-5 lines: new jobs found (and how many were older than 24h and dropped), top picks with
-scores, CVs written, application status changes, anything Dhruv must do.
+3-5 lines: new jobs (and how many older ones were dropped), top picks with scores, CVs written,
+application status changes, anything the owner must do.
 
-## When Dhruv asks in chat
-- "Go ahead with <job>" → set `decision: approved` for that job and run step 8 for it.
-- "I applied to <job>" → status `applied`, `applied_at` today, then step 10.
-- "Rescore" → step 2's re-score for all open jobs.
-Always finish with step 10 so the app, the CSVs and GitHub agree.
+## When the owner asks in chat
+- "Go ahead with <job>" → `act approve <id>`, then step 8 for it.
+- "I applied to <job>" → `act applied <id>`.
+- "Rescore" → step 2's re-score.
+Always finish with step 10.
