@@ -53,7 +53,8 @@ jobs:
           else
             echo "ok=false" >> "$GITHUB_OUTPUT"
           fi
-          echo "msg=$out" >> "$GITHUB_OUTPUT"
+          # one line only, so data in a job title can't forge extra step outputs
+          echo "msg=$(printf '%s' "$out" | tr '\r\n' '  ' | cut -c1-500)" >> "$GITHUB_OUTPUT"
 
       - name: Commit and push
         if: steps.act.outputs.ok == 'true'

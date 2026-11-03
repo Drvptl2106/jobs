@@ -22,6 +22,7 @@ JSON shape (every key except "name" is optional):
 }
 """
 import json
+import re
 import sys
 import zipfile
 from xml.sax.saxutils import escape
@@ -85,7 +86,15 @@ NUMBERING = f"""<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 def core(title):
     return f"""<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <cp:coreProperties xmlns:cp="http://schemas.openxmlformats.org/package/2006/metadata/core-properties" xmlns:dc="http://purl.org/dc/elements/1.1/">
-<dc:title>{escape(title)}</dc:title><dc:creator>{escape(title)}</dc:creator></cp:coreProperties>"""
+<dc:title>{escape(clean(title))}</dc:title><dc:creator>{escape(clean(title))}</dc:creator></cp:coreProperties>"""
+
+
+_BAD_XML = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f\ufffe\uffff]")
+
+
+def clean(text):
+    """Remove characters that are illegal in XML (they would corrupt the .docx)."""
+    return _BAD_XML.sub("", str(text))
 
 
 def run(text, bold=False, italic=False, color=None):
@@ -99,7 +108,7 @@ def run(text, bold=False, italic=False, color=None):
     if color:
         props += f'<w:color w:val="{color}"/>'
     rpr = f"<w:rPr>{props}</w:rPr>" if props else ""
-    return f'<w:r>{rpr}<w:t xml:space="preserve">{escape(str(text))}</w:t></w:r>'
+    return f'<w:r>{rpr}<w:t xml:space="preserve">{escape(clean(text))}</w:t></w:r>'
 
 
 def para(runs, style=None):

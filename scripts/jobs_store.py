@@ -47,6 +47,12 @@ APPLIED_STATUSES = {"applied", "interview", "offer", "rejected", "withdrawn"}
 TRACKER_COLUMNS = ["Sr No", "Company Name", "Role", "Location", "Applied On", "Pay", "CV Application", "Status"]
 
 
+def xl_safe(v):
+    """Stop spreadsheet formula injection: a job title like '=HYPERLINK(...)' must open as text."""
+    v = "" if v is None else str(v)
+    return "'" + v if v[:1] in ("=", "+", "-", "@", "\t", "\r") else v
+
+
 def now():
     return datetime.now(timezone.utc).replace(microsecond=0).isoformat()
 
@@ -85,9 +91,10 @@ def write_jobs(jobs):
             cv = r.get("cv_url", "")
             if cv and not cv.startswith("http"):
                 cv = site.rstrip("/") + "/" + cv.lstrip("/")
-            w.writerow([i, r.get("company", ""), r.get("title", ""), r.get("location", ""),
-                        (r.get("applied_at") or "")[:10], r.get("salary", ""), cv,
-                        (r.get("status") or "").capitalize()])
+            w.writerow([xl_safe(x) for x in (
+                i, r.get("company", ""), r.get("title", ""), r.get("location", ""),
+                (r.get("applied_at") or "")[:10], r.get("salary", ""), cv,
+                (r.get("status") or "").capitalize())])
     with open(JOBS_JSON, "w", encoding="utf-8") as f:
         json.dump([to_doc(r) for r in rows], f, ensure_ascii=False, indent=0)
 
@@ -108,7 +115,7 @@ def job_id(value):
     m = re.search(r"(?:jl=|jobListingId=)(\d+)", str(value)) or re.fullmatch(r"\d{8,}", str(value))
     if m:
         return "gd-" + (m.group(1) if m.groups() else m.group(0))
-    return "ap-" + hashlib.sha1(str(value).lower().encode()).hexdigest()[:10]
+    return "ap-" + hashlib.sha1(str(value).lower().encode(), usedforsecurity=False).hexdigest()[:10]
 
 
 def parse_salary(s):
