@@ -1,0 +1,126 @@
+{
+  "version": 2,
+  "about": "How Claude scores each job against the master CV. Total = sum of criteria (max 100), then hard gates cap it. Every criterion must be scored only from facts in cv/master_cv.md and the advert text; when the advert doesn't say, use the 'not stated' rule.",
+  "criteria": [
+    {
+      "key": "role_match",
+      "label": "Role match",
+      "max": 20,
+      "question": "How close is the job to the roles in target_roles?",
+      "anchors": {
+        "20": "Same job family as a target role, and the day-to-day tasks match what the CV shows (e.g. BA role, CV shows requirements/process/KPI work).",
+        "12": "Adjacent family (e.g. data analyst vs business analyst) or the title fits but half the duties are elsewhere (sales, engineering).",
+        "5": "Analyst in name only; most duties are outside the target roles.",
+        "0": "Different career track (developer, sales, trades, senior management)."
+      }
+    },
+    {
+      "key": "skills",
+      "label": "Skills & tools",
+      "max": 25,
+      "question": "What share of the advert's required skills and tools does the CV show with evidence?",
+      "method": "List the advert's must-have skills (count 2) and nice-to-haves (count 1). Score = 25 x (evidenced weight / total weight), rounded. 'Evidenced' means the CV names the skill in a role, project or degree, not just a skills list; a skills-list-only mention counts half.",
+      "not_stated": "If the advert lists no skills, score 15 and lower confidence."
+    },
+    {
+      "key": "experience",
+      "label": "Experience level",
+      "max": 15,
+      "question": "Does the required experience match Dhruv's level (graduate/early career)?",
+      "anchors": {
+        "15": "Graduate, entry level, 0-1 years, or no requirement stated.",
+        "11": "1-2 years, or 'some experience' that the CV's roles/internships/projects cover.",
+        "6": "2-3 years.",
+        "2": "3-4 years.",
+        "0": "5+ years or a senior/lead/manager title (also triggers the experience gate)."
+      }
+    },
+    {
+      "key": "qualifications",
+      "label": "Qualifications",
+      "max": 10,
+      "question": "Does the CV meet the degree, certificate or licence requirements?",
+      "anchors": {
+        "10": "Meets all stated requirements, or exceeds them (e.g. master's where a degree is asked).",
+        "6": "Meets the essential ones but not the desirable ones.",
+        "2": "Missing an essential qualification that can be explained or is in progress.",
+        "0": "Missing a mandatory licence, chartership or clearance."
+      },
+      "not_stated": "8"
+    },
+    {
+      "key": "domain",
+      "label": "Industry fit",
+      "max": 10,
+      "question": "Has Dhruv worked or studied in this sector (property, finance, retail, public sector, energy...)?",
+      "anchors": {
+        "10": "Direct experience in the same sector.",
+        "6": "Related sector, or dissertation/projects in it.",
+        "3": "No link, but the advert says sector experience isn't needed.",
+        "0": "Advert requires sector experience the CV doesn't have."
+      }
+    },
+    {
+      "key": "visa",
+      "label": "Visa & salary",
+      "max": 10,
+      "question": "Can this job realistically sponsor a Skilled Worker visa?",
+      "method": "Register: licensed Skilled Worker = 4, possible/recruiter with licensed end client = 2, not found = 0. Advert: offers sponsorship = 3, silent = 1, says no = 0. Salary: meets £41,700 = 3, meets £33,400 new-entrant = 2, unknown = 1, below = 0. Skip this criterion's penalty (score 10) if visa.needs_sponsorship is false."
+    },
+    {
+      "key": "practical",
+      "label": "Location & terms",
+      "max": 5,
+      "question": "Does location, work pattern and contract suit the profile's locations?",
+      "anchors": {
+        "5": "In a preferred location or remote/hybrid UK, permanent full time.",
+        "3": "Needs a move or long commute, or a fixed-term contract over 6 months.",
+        "0": "Outside the UK, very short contract, or self-employed/commission only."
+      }
+    },
+    {
+      "key": "odds",
+      "label": "Chance of hearing back",
+      "max": 5,
+      "question": "How likely is an application to be seen?",
+      "method": "Start at 5. Posted more than 3 days ago -1. Easy Apply (high volume) -1. Recruiter with the client unnamed -1. Very large brand graduate scheme -1. Minimum 0."
+    }
+  ],
+  "gates": [
+    {
+      "key": "experience_5y",
+      "rule": "Advert requires 5+ years or a senior/lead/manager level",
+      "cap": 30
+    },
+    {
+      "key": "no_sponsorship",
+      "rule": "Advert says it cannot sponsor, or applicants must already have the right to work, while visa.needs_sponsorship is true",
+      "cap": 25
+    },
+    {
+      "key": "salary_below",
+      "rule": "Employer-stated salary (not a Glassdoor estimate) tops out below the £33,400 new-entrant rate while visa.needs_sponsorship is true",
+      "cap": 35
+    },
+    {
+      "key": "mandatory_licence",
+      "rule": "Advert requires a licence, chartership or security clearance the CV doesn't show (SC/DV clearance usually needs 5 years UK residence)",
+      "cap": 30
+    },
+    {
+      "key": "not_sponsor",
+      "rule": "Employer not on the sponsor register, not a recruiter, and the advert doesn't offer sponsorship, while visa.needs_sponsorship is true",
+      "cap": 0,
+      "note": "Filtered out before scoring (CLAUDE.md step 5)."
+    }
+  ],
+  "recommendation": {
+    "apply": 70,
+    "maybe": 50
+  },
+  "confidence": {
+    "high": "Full advert read and scored against the uploaded master CV.",
+    "medium": "Advert read, but scored against a provisional profile (no master CV yet), or the advert is vague.",
+    "low": "Advert couldn't be loaded; scored from the title only."
+  }
+}

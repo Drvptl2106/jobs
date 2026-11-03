@@ -43,7 +43,11 @@ button, .btn { font: 600 0.9rem var(--body); border-radius: 999px; border: 1px s
 /* Top bar */
 header.top { position: sticky; top: 0; z-index: 5; background: var(--surface); border-bottom: 1px solid var(--line); padding-top: env(safe-area-inset-top, 0px); }
 header.top .wrap { padding-block: 12px; display: grid; gap: 10px; }
-.titlerow { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+.titlerow { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+.right { display: flex; align-items: center; gap: 8px; }
+.iconbtn { width: 40px; height: 40px; padding: 0; border-radius: 50%; }
+.iconbtn.spin svg { animation: spin .8s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
 h1 { font-family: var(--display); font-size: 1.4rem; margin: 0; letter-spacing: -0.01em; }
 .stamp { font-size: 0.78rem; color: var(--muted); text-align: right; }
 .search { display: flex; align-items: center; gap: 8px; background: var(--bg); border: 1px solid var(--line); border-radius: 999px; padding: 0 14px; height: 44px; }
@@ -68,6 +72,23 @@ main > *, #view { min-width: 0; }
 .feed { display: grid; gap: 10px; }
 .card { align-items: start; white-space: normal; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); box-shadow: var(--shadow); padding: 14px; display: grid; grid-template-columns: 44px minmax(0, 1fr); gap: 12px; cursor: pointer; text-align: left; color: inherit; font: inherit; width: 100%; height: auto; }
 .card:hover { border-color: var(--accent); }
+.swipe { position: relative; border-radius: var(--r); }
+.swipe::before { content: "Skip ✕"; position: absolute; inset: 0; border-radius: var(--r); background: var(--bad-soft); color: var(--bad); font-weight: 600; display: flex; align-items: center; justify-content: flex-end; padding-right: 22px; }
+.swipe .card { position: relative; touch-action: pan-y; transition: transform .18s ease, opacity .18s ease; }
+.swipe .card.dragging { transition: none; }
+.hint { font-size: 0.8rem; color: var(--muted); }
+.sync { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; background: var(--info-soft); border: 1px solid var(--info); border-radius: var(--r); padding: 10px 14px; font-size: 0.88rem; }
+.sync .btn { height: 34px; }
+.cardrow { display: grid; gap: 6px; }
+.restore { justify-self: start; height: 34px; }
+.breakdown { display: grid; gap: 10px; }
+.crit { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2px 10px; align-items: center; }
+.crit b { font-weight: 600; font-size: 0.9rem; }
+.crit .pts { font: 500 0.85rem var(--mono); }
+.crit .bar { grid-column: 1 / -1; height: 6px; border-radius: 99px; background: var(--bg); border: 1px solid var(--line); overflow: hidden; }
+.crit .bar i { display: block; height: 100%; }
+.crit small { grid-column: 1 / -1; color: var(--muted); font-size: 0.82rem; }
+.conf { font-size: 0.8rem; color: var(--muted); }
 .logo { width: 44px; height: 44px; border-radius: 10px; display: grid; place-items: center; font: 700 1rem var(--display); color: #fff; }
 .card .co { display: flex; align-items: center; gap: 6px; font-size: 0.84rem; color: var(--muted); min-width: 0; }
 .card .co span:first-child { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
@@ -159,14 +180,15 @@ nav.bottom button { border: 0; border-radius: 0; background: transparent; height
 nav.bottom button[aria-current="page"] { color: var(--accent); font-weight: 600; }
 nav.bottom svg { width: 22px; height: 22px; }
 .badge { font-family: var(--mono); font-size: 0.68rem; }
-.toast { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(var(--nav-h) + 96px + env(safe-area-inset-bottom, 0px)); background: var(--ink); color: var(--bg); padding: 10px 16px; border-radius: 10px; font-size: 0.88rem; z-index: 40; width: max-content; max-width: calc(100% - 32px); }
+.toast button { margin-left: 12px; height: 28px; padding: 0 10px; background: transparent; color: inherit; border-color: currentColor; }
+.toast { display: flex; align-items: center; position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(var(--nav-h) + 96px + env(safe-area-inset-bottom, 0px)); background: var(--ink); color: var(--bg); padding: 10px 16px; border-radius: 10px; font-size: 0.88rem; z-index: 40; width: max-content; max-width: calc(100% - 32px); }
 @media (prefers-reduced-motion: no-preference) { .sheet { animation: up .18s ease-out; } @keyframes up { from { transform: translateY(12px); opacity: .6; } } }
 </style>
 </head>
 <body>
 
 <header class="top"><div class="wrap">
-  <div class="titlerow"><h1 id="who">Job Desk</h1><div class="stamp" id="stamp">Loading…</div></div>
+  <div class="titlerow"><h1>Job Desk</h1><div class="right"><div class="stamp" id="stamp">Loading…</div><button class="iconbtn" id="refresh" aria-label="Refresh" title="Refresh"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 11a8 8 0 1 0-2.3 5.7"/><path d="M20 4v7h-7"/></svg></button></div></div>
   <label class="search" for="q">
     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
     <input id="q" type="search" placeholder="Search company, role or city" autocomplete="off">
@@ -200,14 +222,23 @@ nav.bottom svg { width: 22px; height: 22px; }
   const $ = (s) => document.querySelector(s);
   const load = (k, d) => { try { return JSON.parse(localStorage.getItem(k)) ?? d; } catch (e) { return d; } };
   const save = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} };
-  const state = { tfilter: "all", jobs: [], meta: {}, cfg: {}, view: load("jd-view", "jobs"), filters: new Set(), q: "", pending: load("jd-pending", {}), tab: "analysis" };
+  const state = { local: load("jd-local", { skip: {}, restore: {} }), tfilter: "all", jobs: [], meta: {}, cfg: {}, view: load("jd-view", "jobs"), filters: new Set(), q: "", pending: load("jd-pending", {}), tab: "analysis" };
 
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
-  const toast = (m) => { const t = $("#toast"); t.textContent = m; t.hidden = false; clearTimeout(toast.h); toast.h = setTimeout(() => (t.hidden = true), 4200); };
+  const toast = (m, undo) => {
+    const t = $("#toast"); t.innerHTML = `<span>${esc(m)}</span>${undo ? `<button type="button">Undo</button>` : ""}`; t.hidden = false;
+    if (undo) t.querySelector("button").onclick = () => { undo(); t.hidden = true; };
+    clearTimeout(toast.h); toast.h = setTimeout(() => (t.hidden = true), undo ? 6000 : 4200);
+  };
+  const time12 = (iso) => { const d = new Date(iso); return isNaN(d) ? "" : d.toLocaleString("en-GB", { day: "numeric", month: "short", hour: "numeric", minute: "2-digit", hour12: true }).replace(/\b(am|pm)\b/i, (x) => x.toUpperCase()); };
   const fmtDate = (iso) => { if (!iso) return "—"; const d = new Date(iso); return isNaN(d) ? iso : d.toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" }); };
   const isFresh = (a) => /just posted|^\s*(\d{1,2}h|24h|1d)\s*$/i.test(a || "");
   const APPLIED = ["applied", "interview", "offer", "rejected", "withdrawn"];
+  const isSkipped = (j) => j.decision === "skipped" || j.status === "skipped" || j.status === "expired";
   const bucket = (j) => APPLIED.includes(j.status) ? "tracker"
+    : state.local.skip[j.id] && !isSkipped(j) ? "skipped"
+    : state.local.restore[j.id] && isSkipped(j) ? "jobs"
+    : APPLIED.includes(j.status) ? "tracker"
     : (j.decision === "skipped" || j.status === "skipped" || j.status === "expired") ? "skipped"
     : (j.decision === "approved" || j.status === "approved" || j.status === "cv_ready") ? "cvs" : "jobs";
 
@@ -251,6 +282,33 @@ nav.bottom svg { width: 22px; height: 22px; }
     return "https://claude.ai/new?q=" + encodeURIComponent(p);
   };
 
+  const saveLocal = () => save("jd-local", state.local);
+  function skipLocal(id) {
+    const j = state.jobs.find((x) => x.id === id); if (!j) return;
+    if (state.local.restore[id]) delete state.local.restore[id]; else state.local.skip[id] = Date.now();
+    saveLocal(); render(); if (!$("#sheet").hidden) history.back();
+    toast(`Skipped ${j.company}`, () => { delete state.local.skip[id]; if (isSkipped(j)) state.local.restore[id] = Date.now(); saveLocal(); render(); });
+  }
+  function restoreLocal(id) {
+    const j = state.jobs.find((x) => x.id === id); if (!j) return;
+    if (state.local.skip[id]) delete state.local.skip[id]; else state.local.restore[id] = Date.now();
+    saveLocal(); render(); toast(`Moved ${j.company} back to Jobs`);
+  }
+  function batchUrl(verb, ids) {
+    const g = state.cfg.github || {};
+    const names = ids.map((id) => { const j = state.jobs.find((x) => x.id === id); return j ? `- ${j.title} at ${j.company}` : `- ${id}`; }).join("\n");
+    const body = `${verb === "skip" ? "Skipped" : "Restored"} on Job Desk:\n${names}\n\nids: ${ids.join(",")}\n\nTap "Submit new issue" to save this. A GitHub Action records it and closes this issue within a minute.`;
+    return `https://github.com/${encodeURIComponent(g.owner || "")}/${encodeURIComponent(g.repo || "")}/issues/new?title=${encodeURIComponent(`job-desk: ${verb} batch`)}&body=${encodeURIComponent(body)}`;
+  }
+  function syncBar() {
+    const sk = Object.keys(state.local.skip), rs = Object.keys(state.local.restore);
+    if (!sk.length && !rs.length) return "";
+    const parts = [sk.length ? `${sk.length} skipped` : "", rs.length ? `${rs.length} restored` : ""].filter(Boolean).join(" and ");
+    return `<div class="sync"><span>${parts} on this device only. Save to GitHub so it sticks everywhere.</span>
+      ${sk.length ? `<a class="btn primary" href="${esc(batchUrl("skip", sk))}" target="_blank" rel="noopener" data-sync>Save skips</a>` : ""}
+      ${rs.length ? `<a class="btn" href="${esc(batchUrl("reopen", rs))}" target="_blank" rel="noopener" data-sync>Save restores</a>` : ""}</div>`;
+  }
+
   function matches(j) {
     if (state.q) {
       const hay = `${j.company} ${j.title} ${j.location}`.toLowerCase();
@@ -268,7 +326,8 @@ nav.bottom svg { width: 22px; height: 22px; }
   function card(j) {
     const s = Number.isFinite(j.fit_score) ? j.fit_score : null;
     const p = state.pending[j.id];
-    return `<button class="card" data-open="${esc(j.id)}" aria-label="${esc(j.title)} at ${esc(j.company)}">
+    const b = bucket(j);
+    const inner = `<div class="card" role="button" tabindex="0" data-open="${esc(j.id)}" aria-label="${esc(j.title)} at ${esc(j.company)}">
       ${logo(j.company)}
       <div style="min-width:0">
         <div class="co"><span>${esc(j.company)}</span>${s != null ? `<span class="fit" style="--fitc:${fitColor(s)}">${s} fit</span>` : ""}</div>
@@ -277,7 +336,10 @@ nav.bottom svg { width: 22px; height: 22px; }
         ${j.salary ? `<div class="pay">${esc(j.salary)}</div>` : ""}
         <div class="foot">${tagFor(j)}${j.easy_apply ? `<span class="tag">Easy Apply</span>` : ""}${j.status === "cv_ready" ? `<span class="tag info">CV ready</span>` : ""}${p ? `<span class="tag info">Sent: ${esc(p.verb)}</span>` : ""}
           <span class="age ${isFresh(j.posted_age) ? "fresh" : ""}">${esc(j.posted_age || "")}</span></div>
-      </div></button>`;
+      </div></div>`;
+    if (b === "jobs" || b === "cvs") return `<div class="swipe" data-swipe="${esc(j.id)}">${inner}</div>`;
+    if (b === "skipped") return `<div class="cardrow">${inner}<button class="restore" data-restore="${esc(j.id)}">↩ Restore to Jobs</button></div>`;
+    return inner;
   }
 
   function trackerView(list) {
@@ -318,9 +380,10 @@ nav.bottom svg { width: 22px; height: 22px; }
     $("#chips").hidden = v === "tracker";
     const list = groups[v].filter(matches);
     const by = (a, b) => (b.fit_score ?? -1) - (a.fit_score ?? -1) || String(b.first_seen).localeCompare(String(a.first_seen));
-    const titles = { jobs: ["New for you", "Posted in the last 24 hours, best fit first"], cvs: ["Approved", "Tailored CVs arrive here and by email"], tracker: ["Application tracker", ""], skipped: ["Skipped & expired", ""] };
+    const titles = { jobs: ["New for you", "Posted in the last 24 hours, best fit first"], cvs: ["Approved", "Tailored CVs arrive here and by email"], tracker: ["Application tracker", ""], skipped: ["Skipped & expired", "Restore anything you change your mind about"] };
     const empty = { jobs: "Nothing to review. New jobs arrive after the next daily scan.", cvs: "Approve a job and its tailored CV shows up here.", tracker: "Applications appear here when you mark them or a confirmation email arrives.", skipped: "Nothing skipped yet." };
-    let html = `<div class="section-head"><h2>${titles[v][0]}</h2><span>${titles[v][1]}</span></div>`;
+    let html = syncBar() + `<div class="section-head"><h2>${titles[v][0]}</h2><span>${titles[v][1]}</span></div>`;
+    if ((v === "jobs" || v === "cvs") && list.length) html += `<div class="hint">Swipe a card left to skip it. Skipped jobs can be restored from Skipped.</div>`;
     if (v === "tracker") html += list.length ? trackerView(list) : `<div class="empty">${empty[v]}</div>`;
     else html += list.length ? `<div class="feed">${list.sort(by).map(card).join("")}</div>` : `<div class="empty">${state.q || state.filters.size ? "No jobs match these filters." : empty[v]}</div>`;
     $("#view").innerHTML = html;
@@ -340,14 +403,18 @@ nav.bottom svg { width: 22px; height: 22px; }
       ? `<div class="checks">${checks(j).map((c) => `<div class="check"><div class="dot d-${c.c}">${{ good: "✓", warn: "!", bad: "✕", unk: "?" }[c.c]}</div><div><small>${esc(c.k)}</small><b>${esc(c.v)}</b>${c.d ? `<small>${esc(c.d)}</small>` : ""}</div></div>`).join("")}</div>
          <p style="font-size:.8rem;color:var(--muted);margin:0">A licensed sponsor can still decide not to sponsor a role. Check the job's occupation code going rate too.</p>`
       : `${j.verdict ? `<div class="box"><h3>Claude's take</h3><div>${esc(j.verdict)}</div></div>` : ""}
+         ${(j.score_breakdown || []).length ? `<div class="box"><h3>How the ${s ?? ""}/100 is made up</h3><div class="breakdown">${j.score_breakdown.map((c) => {
+            const pct = c.max ? Math.round((c.score / c.max) * 100) : 0;
+            return `<div class="crit"><b>${esc(c.label)}</b><span class="pts">${c.score}/${c.max}</span><div class="bar"><i style="width:${pct}%;background:${pct >= 70 ? "var(--good)" : pct >= 40 ? "var(--warn)" : "var(--bad)"}"></i></div>${c.note ? `<small>${esc(c.note)}</small>` : ""}</div>`;
+          }).join("")}</div>${j.confidence ? `<p class="conf">Confidence: <b>${esc(j.confidence)}</b>${j.confidence !== "high" ? " (scored before your master CV was uploaded, or from a short advert)" : ""}</p>` : ""}</div>` : ""}
          <div class="box pro"><h3>Why apply</h3><ul>${li(j.match_reasons) || "<li>No analysis yet.</li>"}</ul></div>
          <div class="box con"><h3>What could go wrong</h3><ul>${li(j.gaps) || "<li>Nothing flagged.</li>"}</ul></div>
          ${j.last_email ? `<div class="box"><h3>Latest email</h3><div>${esc(j.last_email)}</div></div>` : ""}
          <div class="links"><a class="btn ghost" href="${esc(chatUrl(j))}" target="_blank" rel="noopener">Chat with Claude about this job</a></div>`;
     let bar = "";
-    if (b === "jobs") bar = act("skip", j, "Skip") + act("approve", j, "Go ahead: tailor CV", "primary");
+    if (b === "jobs") bar = `<button class="btn" data-skip="${esc(j.id)}">Skip</button>` + act("approve", j, "Go ahead: tailor CV", "primary");
     else if (b === "cvs") bar = (j.cv_url ? `<a class="btn" href="${esc(j.cv_url)}">Download CV</a>` : act("reopen", j, "Undo")) + act("applied", j, "Mark as applied", "primary");
-    else if (b === "skipped") bar = act("reopen", j, "Move back to review", "primary");
+    else if (b === "skipped") bar = `<button class="btn primary" data-restore="${esc(j.id)}">↩ Restore to Jobs</button>`;
     else bar = j.url ? `<a class="btn primary" href="${esc(j.url)}" target="_blank" rel="noopener">Open advert</a>` : "";
     sh.innerHTML = `<div class="sheet-top"><div class="wrap"><button class="back" data-close aria-label="Back">←</button><span class="ttl">${esc(j.company)}</span></div></div>
       <div class="hero"><div class="wrap">${logo(j.company)}
@@ -369,7 +436,14 @@ nav.bottom svg { width: 22px; height: 22px; }
   }
 
   document.addEventListener("click", (ev) => {
+    if (ev.target.closest("#refresh")) { refresh(true); return; }
+    const sk = ev.target.closest("[data-skip]");
+    if (sk) { skipLocal(sk.dataset.skip); return; }
+    const rs = ev.target.closest("[data-restore]");
+    if (rs) { restoreLocal(rs.dataset.restore); if (!$("#sheet").hidden) history.back(); return; }
+    if (ev.target.closest("[data-sync]")) { toast("On GitHub, tap “Submit new issue”. It's saved a minute later."); return; }
     const o = ev.target.closest("[data-open]");
+    if (o && o.dataset.dragged) { delete o.dataset.dragged; return; }
     if (o) { state.tab = "analysis"; location.hash = "job/" + o.dataset.open; return; }
     if (ev.target.closest("[data-close]")) { history.length > 1 ? history.back() : (location.hash = ""); return; }
     const tf = ev.target.closest("[data-tf]");
@@ -386,11 +460,39 @@ nav.bottom svg { width: 22px; height: 22px; }
       toast("On GitHub, tap “Submit new issue”. Job Desk updates a minute or two later.");
     }
   });
+  document.addEventListener("keydown", (e) => { const o = e.target.closest && e.target.closest(".card[data-open]"); if (o && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); o.click(); } });
+
+  let drag = null;
+  document.addEventListener("pointerdown", (e) => {
+    const w = e.target.closest("[data-swipe]"); if (!w || e.button > 0) return;
+    drag = { w, c: w.querySelector(".card"), x: e.clientX, y: e.clientY, dx: 0, on: false, pid: e.pointerId };
+  });
+  document.addEventListener("pointermove", (e) => {
+    if (!drag || e.pointerId !== drag.pid) return;
+    const dx = e.clientX - drag.x, dy = e.clientY - drag.y;
+    if (!drag.on) {
+      if (dx < -12 && Math.abs(dx) > Math.abs(dy) * 1.4) { drag.on = true; drag.c.classList.add("dragging"); try { drag.c.setPointerCapture(e.pointerId); } catch (_) {} }
+      else if (Math.abs(dy) > 12 || dx > 12) { drag = null; return; }
+    }
+    if (drag.on) { drag.dx = Math.min(0, dx); drag.c.style.transform = `translateX(${drag.dx}px)`; }
+  });
+  const endDrag = () => {
+    if (!drag) return;
+    const { w, c, dx, on } = drag; drag = null;
+    if (!on) return;
+    c.classList.remove("dragging"); c.dataset.dragged = "1"; setTimeout(() => delete c.dataset.dragged, 350);
+    if (dx < -Math.min(120, w.offsetWidth * 0.33)) { c.style.transform = "translateX(-110%)"; c.style.opacity = "0"; setTimeout(() => skipLocal(w.dataset.swipe), 170); }
+    else c.style.transform = "";
+  };
+  document.addEventListener("pointerup", endDrag);
+  document.addEventListener("pointercancel", endDrag);
+
   $("#q").addEventListener("input", (e) => { state.q = e.target.value.trim(); render(); });
   window.addEventListener("hashchange", route);
 
   async function getJSON(p) { const r = await fetch(`${p}?t=${Date.now()}`, { cache: "no-store" }); if (!r.ok) throw new Error(p); return r.json(); }
-  async function refresh() {
+  async function refresh(manual) {
+    const rb = $("#refresh"); rb.classList.add("spin");
     try {
       const [cfg, jobs, meta] = await Promise.all([getJSON("config/profile.json"), getJSON("data/jobs.json"), getJSON("data/meta.json").catch(() => ({}))]);
       Object.assign(state, { cfg, jobs, meta });
@@ -400,12 +502,15 @@ nav.bottom svg { width: 22px; height: 22px; }
         if (!j || (done[p.verb] ? done[p.verb](j) : j.status === p.verb) || Date.now() - p.at > 20 * 60 * 1000) delete state.pending[id];
       }
       save("jd-pending", state.pending);
-      const first = (cfg.name || "").split(" ")[0];
-      if (first) { $("#who").textContent = `${first}'s Job Desk`; document.title = `${first}'s Job Desk`; }
-      $("#stamp").textContent = meta.last_scan ? `Scanned ${new Date(meta.last_scan).toLocaleString("en-GB", { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" })}` : "Waiting for first scan";
+      for (const id of Object.keys(state.local.skip)) { const j = jobs.find((x) => x.id === id); if (!j || isSkipped(j)) delete state.local.skip[id]; }
+      for (const id of Object.keys(state.local.restore)) { const j = jobs.find((x) => x.id === id); if (!j || !isSkipped(j)) delete state.local.restore[id]; }
+      saveLocal();
+      $("#stamp").textContent = meta.last_scan ? `Scanned ${time12(meta.last_scan)}` : "Waiting for first scan";
+      if (manual) toast(`Up to date · ${time12(new Date().toISOString())}`);
       const n = $("#notice"); if (meta.notice) { n.innerHTML = `<b>Heads up.</b> ${esc(meta.notice)}`; n.hidden = false; } else n.hidden = true;
       render(); route();
-    } catch (e) { $("#stamp").textContent = "Couldn't load data"; $("#view").innerHTML = `<div class="empty">Couldn't load your tracker. Check your connection and reload.</div>`; }
+      rb.classList.remove("spin");
+    } catch (e) { rb.classList.remove("spin"); $("#stamp").textContent = "Couldn't load data"; $("#view").innerHTML = `<div class="empty">Couldn't load your tracker. Check your connection and reload.</div>`; }
   }
   refresh();
   setInterval(() => { if (document.visibilityState === "visible" && Object.keys(state.pending).length) refresh(); }, 30000);

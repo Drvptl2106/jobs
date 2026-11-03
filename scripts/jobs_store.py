@@ -4,8 +4,9 @@ data/jobs.json (read by the website, index.html) are regenerated on every write.
 
 Commands
   upsert FILE.json        merge a list of job dicts into data/jobs.csv
-  act VERB JOB_ID         apply a button press from the website (via a GitHub issue):
+  act VERB ID[,ID...]     apply a button press / swipe batch from the website (via a GitHub issue):
                           approve | skip | applied | interview | offer | rejected | withdrawn | reopen
+  remove ID ...           delete jobs from the tracker entirely
   meta KEY=VALUE ...      update data/meta.json (last_scan, register_date, notice, profile_basis)
   expire DAYS             mark jobs still waiting for review after DAYS days as expired
   pending-cv              list approved jobs that still need a tailored CV
@@ -32,7 +33,7 @@ META = os.path.join(ROOT, "data", "meta.json")
 FIELDS = [
     "id", "source", "title", "company", "location", "salary", "salary_min", "salary_max",
     "posted_age", "first_seen", "email_date", "url", "easy_apply",
-    "fit_score", "recommendation", "verdict", "match_reasons", "gaps", "jd_summary", "jd_full",
+    "fit_score", "score_breakdown", "confidence", "recommendation", "verdict", "match_reasons", "gaps", "jd_summary", "jd_full",
     "sponsor_register", "sponsor_match", "jd_sponsorship", "salary_check", "recruiter",
     "decision", "decided_at", "status", "cv_file", "cv_url", "cv_emailed_at", "applied_at", "status_updated_at",
     "last_email", "notes", "profile_basis", "updated_at",
@@ -191,6 +192,11 @@ def to_doc(row):
                 v = None
         elif k in ("easy_apply", "recruiter"):
             v = v == "yes"
+        elif k == "score_breakdown":
+            try:
+                v = json.loads(v) if v else []
+            except ValueError:
+                v = []
         elif k == "sponsor_match" and v.startswith("{"):
             try:
                 v = json.loads(v)
@@ -212,17 +218,33 @@ VERBS = {
 }
 
 
-def act(verb, jid):
-    """Apply one website button press. Returns a short message; raises on bad input."""
+def act(verb, ids):
+    """Apply website button presses (one id or a comma-separated batch). Returns a short message."""
     verb = verb.lower()
     if verb not in VERBS:
         raise ValueError(f"unknown action '{verb}'")
-    if not re.fullmatch(r"[a-z]{2}-[A-Za-z0-9-]{1,80}", jid):
-        raise ValueError(f"bad job id '{jid}'")
+    id_list = [i.strip() for i in str(ids).split(",") if i.strip()]
+    if not id_list or len(id_list) > 100:
+        raise ValueError("expected 1-100 job ids")
+    for jid in id_list:
+        if not re.fullmatch(r"[a-z]{2}-[A-Za-z0-9-]{1,80}", jid):
+            raise ValueError(f"bad job id '{jid}'")
     jobs = read_jobs()
-    if jid not in jobs:
-        raise ValueError(f"no job with id '{jid}'")
-    row, ts = jobs[jid], now()
+    done, missing = [], []
+    for jid in id_list:
+        if jid not in jobs:
+            missing.append(jid)
+            continue
+        done.append(_act_one(jobs[jid], verb))
+    if not done:
+        raise ValueError(f"no job with id {', '.join(missing)}")
+    write_jobs(jobs)
+    msg = done[0] if len(done) == 1 else f"{verb}: {len(done)} jobs"
+    return msg + (f" ({len(missing)} id(s) not found)" if missing else "")
+
+
+def _act_one(row, verb):
+    ts = now()
     for k, v in VERBS[verb].items():
         row[k] = v
     if "decision" in VERBS[verb]:
@@ -234,8 +256,14 @@ def act(verb, jid):
     if "status" in VERBS[verb]:
         row["status_updated_at"] = ts
     row["updated_at"] = ts
-    write_jobs(jobs)
     return f"{verb}: {row.get('title')} at {row.get('company')} -> status {row['status']}"
+
+
+def remove(ids):
+    jobs = read_jobs()
+    n = sum(1 for i in ids if jobs.pop(i, None) is not None)
+    write_jobs(jobs)
+    print(f"removed {n} job(s); total {len(jobs)}")
 
 
 def set_meta(pairs):
@@ -295,6 +323,8 @@ if __name__ == "__main__":
             print(act(a[1], a[2]))
         except (ValueError, IndexError) as e:
             sys.exit(f"error: {e}")
+    elif cmd == "remove":
+        remove(a[1:])
     elif cmd == "meta":
         set_meta(a[1:])
     elif cmd == "expire":

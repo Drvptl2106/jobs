@@ -16,6 +16,7 @@ from the master CV; never invent experience.
 | Path | What |
 |---|---|
 | `config/profile.json` | Owner settings (name, email, github.owner/repo/branch, roles, visa thresholds) |
+| `config/scoring.json` | The scoring rubric: 8 weighted criteria, hard gates, thresholds, confidence |
 | `cv/master_cv.pdf` / `.docx` | Master CV uploaded by the owner → you keep a text copy in `cv/master_cv.md` |
 | `data/jobs.csv` | Every job (source of truth). `data/applied.csv` (tracker: Sr No, Company Name, Role, Location, Applied On, Pay, CV Application, Status) + `data/jobs.json` are regenerated from it |
 | `data/meta.json` | Scan status shown on the website (`last_scan`, `register_date`, `notice`, `profile_basis`) |
@@ -55,9 +56,10 @@ Work from the repo root. Scratch files go in `data/.dbsync/` (git-ignored).
   folder as master_cv.pdf and the next scan re-scores everything."
 
 ### 3. Website decisions
-The owner's button presses are already in `data/jobs.csv` (the buttons Action applied them). Also
-check for open issues titled `job-desk: …` that the Action failed to close; apply each with
-`python3 scripts/jobs_store.py act <verb> <job-id>` only if the issue was opened by `github.owner`.
+The owner's button presses are already in `data/jobs.csv` (the buttons Action applied them). Swipe-left skips arrive as one batch issue
+(`job-desk: skip batch` with an `ids: a,b,c` line). Also check for open issues titled `job-desk: …` that
+the Action failed to close; apply each with `python3 scripts/jobs_store.py act <verb> <id>[,<id>…]`
+only if the issue was opened by `github.owner`.
 
 ### 4. Find new jobs (posted within 24 hours)
 1. Gmail `search_threads`: `from:(<each job_alert_senders>) newer_than:1d`. Read each thread once
@@ -83,10 +85,12 @@ score against the CV.
 - Save the advert text itself as `jd_full` (cleaned: drop Glassdoor navigation, "similar jobs" and
   footer; keep headings and bullets as plain lines starting with "•"; max ~6,000 characters). The
   website shows it under "Job description".
-- Score 0-100 against `cv/master_cv.md` + config: role fit 25 · skills & tools 30 · experience level 20
-  (heavy penalty above `max_years_experience_required`) · domain 10 · location 5 · visa feasibility 10.
-- `recommendation`: `apply` ≥ 70, `maybe` 50-69, `skip` < 50. Force `skip` if the advert needs 5+ years,
-  or says it cannot sponsor while `visa.needs_sponsorship` is true.
+- Score with the rubric in **`config/scoring.json`** (8 criteria, 100 points): for each criterion use its
+  anchors/method, using only facts from `cv/master_cv.md` and the advert. Save `score_breakdown` as a
+  list of `{key, label, score, max, note}` (note = one short reason, e.g. "Asks for 2-3 years; CV shows
+  1"). `fit_score` = the sum, then apply the `gates` (cap the total and say which gate in the note of the
+  criterion that triggered it). Set `confidence` (`high` / `medium` / `low`) per the rubric.
+- `recommendation` from the rubric thresholds: `apply` ≥ 70, `maybe` 50-69, `skip` < 50.
 - Fill `verdict` (1-2 plain sentences), `match_reasons` (shown as "Why apply": ≤4, each tied to a CV
   fact), `gaps` (shown as "What could go wrong": ≤4 — missing requirements, experience level, salary vs
   visa threshold, recruiter/agency risk, location or commute),
@@ -128,8 +132,9 @@ For each job from `python3 scripts/jobs_store.py pending-cv`:
    `newer_than:2d -from:me -category:promotions ("thank you for applying" OR "application received" OR "received your application" OR "application was sent" OR "application submitted" OR "your application" OR "Indeed Application" OR interview OR assessment OR unfortunately OR unsuccessful)`
 2. Confirmation → `applied` (+`applied_at`); interview/assessment/phone screen → `interview`;
    rejection → `rejected`; offer → `offer`. Ignore bank, card, visa and newsletter mail.
-3. Match to an existing job by company + title (loose). If none, upsert a row with id
-   `ap-<company>-<title-initials>-<MMDD>`, `source: gmail`, `decision: approved`.
+3. Match to an existing job in `data/jobs.csv` by company + title (loose). **Only jobs that came
+   through Job Desk are tracked:** if an email doesn't match a job already in the tracker, ignore it
+   (don't add new rows for applications made outside the app).
 4. Set `last_email` ("Interview invite (3 Nov)"). Never move a job backwards (interview → applied).
 5. `python3 scripts/jobs_store.py expire 3` (unreviewed jobs older than 3 days → expired).
 

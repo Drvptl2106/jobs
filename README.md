@@ -18,6 +18,36 @@ Every morning Claude:
 4. For jobs you approve, writes a **tailored Word CV** (facts from your master CV only), saves it here and **emails it to you**. You read it and apply yourself.
 5. Reads "application received", interview and rejection emails and **updates the tracker**.
 
+## Adding your master CV
+
+Upload it to the **`cv`** folder as **`master_cv.pdf`** (a `.docx` named `master_cv.docx` works too).
+On a phone: GitHub app → this repo → `cv` → **⋯ / Add file → Upload file** → pick the CV → rename it to `master_cv.pdf` if needed → **Commit changes**.
+On a computer: github.com/Drvptl2106/jobs/tree/claude/ecstatic-bardeen-eu42vz/cv → **Add file → Upload files**.
+The next scan turns it into `cv/master_cv.md` and re-scores every open job. Replace the file whenever your CV changes.
+
+## How jobs are scored
+
+`config/scoring.json` is the rubric (100 points). Each job page shows the breakdown.
+
+| Criterion | Points | What earns them |
+|---|---|---|
+| Role match | 20 | Same job family as your target roles, with matching day-to-day tasks |
+| Skills & tools | 25 | Share of the advert's must-have (x2) and nice-to-have skills your CV shows with evidence |
+| Experience level | 15 | 15 for graduate/0-1 yr, falling to 0 for 5+ years |
+| Qualifications | 10 | Degree/certificate/licence requirements met |
+| Industry fit | 10 | Experience or study in the same sector |
+| Visa & salary | 10 | Sponsor register (4) + advert on sponsorship (3) + salary vs threshold (3) |
+| Location & terms | 5 | Location, hybrid/remote, permanent vs short contract |
+| Chance of hearing back | 5 | Freshness, Easy Apply volume, unnamed recruiter client |
+
+Hard gates cap the score: 5+ years required (max 30), "no sponsorship" (max 25), missing mandatory licence/clearance (max 30), employer-stated salary below £33,400 (max 35). Employers not on the sponsor register are filtered out before scoring. 70+ = worth applying, 50-69 = maybe, under 50 = skip. Each score also has a confidence level (high once your master CV is in).
+
+## Using the website
+
+Swipe a job card **left** to skip it; it moves to **Skipped**, where **Restore** brings it back. Swipes are saved on your phone straight away; tap **Save skips** in the blue bar to store them on GitHub too (one issue for the whole batch).
+
+The tracker only lists jobs you found and applied to through Job Desk.
+
 On the website, tapping **Go ahead**, **Skip**, **I've applied**, **Interview** and so on opens a pre-filled GitHub issue. Tap **Submit new issue**; a GitHub Action records it in `data/jobs.csv` and closes the issue within a minute. Only issues opened by the repo owner count.
 
 ## Files
