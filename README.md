@@ -21,8 +21,7 @@ Every morning Claude:
 ## Adding your master CV
 
 Upload it to the **`cv`** folder as **`master_cv.pdf`** (a `.docx` named `master_cv.docx` works too).
-On a phone: GitHub app → this repo → `cv` → **⋯ / Add file → Upload file** → pick the CV → rename it to `master_cv.pdf` if needed → **Commit changes**.
-On a computer: github.com/Drvptl2106/jobs/tree/claude/ecstatic-bardeen-eu42vz/cv → **Add file → Upload files**.
+Open https://github.com/Drvptl2106/jobs/upload/claude/ecstatic-bardeen-eu42vz/cv in a browser (phone or computer, signed in to GitHub), choose the file, then **Commit changes**. Use a text-based PDF (exported from Word or Google Docs, not a scan or photo) or a .docx, and leave out your phone number and home address because this repo is public.
 The next scan turns it into `cv/master_cv.md` and re-scores every open job. Replace the file whenever your CV changes.
 
 ## How jobs are scored
