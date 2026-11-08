@@ -8,7 +8,7 @@ A job-search agent that lives entirely in this GitHub repo, run daily by Claude.
 
 Every morning Claude:
 
-1. Reads **every job-alert email** from the last 24 hours (Glassdoor, Totaljobs, Hunt UK Visa Sponsors, Newcastle University, and any new job site you subscribe to) and keeps only jobs **posted in the last 24 hours**, dropping duplicates across sites. Sources are listed in `config/profile.json` (`job_alert_sources`, `ignore_senders`).
+1. Reads **every job-alert email** from the last 24 hours (Glassdoor, Hunt UK Visa Sponsors, Newcastle University, and any new job site you subscribe to; Totaljobs is switched off) and keeps only jobs **posted in the last 24 hours**, dropping duplicates across sites. Sources are listed in `config/profile.json` (`job_alert_sources`, `ignore_senders`).
 2. Opens each advert and scores it **0-100 against your master CV** (Apply / Maybe / Skip, with matches and gaps).
 3. Runs four **UK visa checks** on each job:
    - is the employer on the **Home Office Register of Licensed Sponsors** (Skilled Worker route)?

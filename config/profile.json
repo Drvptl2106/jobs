@@ -17,13 +17,6 @@
       "freshness": "Each listing shows its age (Just posted / 1d / 12d); keep only Just posted, hours, or 1d."
     },
     {
-      "name": "Totaljobs",
-      "from": "totaljobsmail.com",
-      "id_prefix": "tj",
-      "link_host": "www.totaljobs.com",
-      "freshness": "Daily alert: every listing in an email from the last 24h is new since the previous alert."
-    },
-    {
       "name": "Hunt UK Visa Sponsors",
       "from": "huntukvisasponsors.com",
       "id_prefix": "hu",
@@ -40,6 +33,7 @@
   ],
   "catch_all_job_alerts": true,
   "ignore_senders": [
+    "totaljobsmail.com",
     "naukrigulf.com",
     "notifications@github.com",
     "updates-noreply@linkedin.com",
