@@ -1,5 +1,352 @@
 [
 {
+"id": "gd-1010319228204",
+"source": "glassdoor",
+"title": "Skills Planning Analyst",
+"company": "City College Plymouth",
+"location": "Plymouth, England (in person)",
+"salary": "£36k (Employer provided)",
+"salary_min": 36070,
+"salary_max": 36070,
+"posted_age": "1d",
+"first_seen": "2026-11-08",
+"email_date": "2026-11-08T08:56:28Z",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010319228204",
+"easy_apply": false,
+"fit_score": 69,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 12,
+"max": 20,
+"note": "Labour-market / skills data analyst: adjacent to Data and Research Analyst"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 14,
+"max": 25,
+"note": "Asks for Power BI, 4Cast-style tools, reporting; to confirm against your CV"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 15,
+"max": 15,
+"note": "Recruits on potential; no years stated"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "No degree requirement stated"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 3,
+"max": 10,
+"note": "Education sector; advert does not require sector experience"
+},
+{
+"key": "visa",
+"label": "Visa & salary",
+"score": 7,
+"max": 10,
+"note": "Licensed Skilled Worker sponsor 4 + advert silent 1 + £36,070 meets new-entrant rate 2"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 5,
+"max": 5,
+"note": "Permanent full time, in person in Plymouth"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "Posted 1d ago, not Easy Apply"
+}
+],
+"confidence": "medium",
+"recommendation": "maybe",
+"verdict": "A data-and-reporting analyst role at a licensed sponsor, paying above the new-entrant visa rate but below the general rate. Fit is provisional until your master CV is uploaded.",
+"match_reasons": [
+"Licensed Skilled Worker sponsor on the Home Office register",
+"£36,070 meets the £33,400 new-entrant threshold",
+"Employer says it recruits on potential, not experience",
+"Power BI and reporting work fits an analyst profile (to confirm against CV)"
+],
+"gaps": [
+"Advert says nothing about sponsorship; ask early",
+"£36,070 is under the £41,700 general rate, so it relies on new-entrant eligibility",
+"Based in Plymouth, in person, so relocation may be needed",
+"Asks for 4Cast or similar planning tools, which may be new to you"
+],
+"jd_summary": "Support skills planning and curriculum development by collecting, modelling and reporting labour-market, student-demand and employer data. Needs Power BI or similar, report writing and trend interpretation. Apply on the employer site; online behavioural assessment after closing. Full time, permanent, in person.",
+"jd_full": "City College Plymouth: Skills Planning Analyst\nFull time, permanent, £36,070 per year. In person, Plymouth.\n\nThe role:\n• Support the College's skills planning and curriculum development through collection, modelling, analysis and reporting of labour market intelligence, student demand, employer requirements and performance data.\n• Inform skills and curriculum planning and strategic decision-making so provision aligns with local, regional and national skills priorities.\n• Contribute to curriculum plans that meet the needs of learners, employers and the wider economy.\n\nWhat we're looking for:\n• Experience of using Power BI or other business intelligence tools.\n• Experience of using 4Cast or similar.\n• Experience of producing reports and presenting information.\n• Strong understanding of data accuracy and confidentiality requirements.\n• Ability to interpret information and identify trends.\n\nBehaviours: analysing, critical thinking, interpreting quantitative data, delivering.\n\nHow we recruit: based on potential, not experience. After the online application form, candidates complete an online behavioural assessment within a few days of the vacancy closing. The College may close the advert early.\nBenefits: 29 days holiday plus bank holidays, career development, pension, free tea, coffee and lunch.",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "City College Plymouth",
+"town": "Plymouth",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "meets_new_entrant",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-08T19:38:13+00:00",
+"last_email": "",
+"notes": "",
+"profile_basis": "provisional",
+"updated_at": "2026-11-08T19:38:13+00:00"
+},
+{
+"id": "gd-1010319434560",
+"source": "glassdoor",
+"title": "Business Analyst",
+"company": "Bupa",
+"location": "Salford Quays / London / Staines / Leeds (hybrid, 2 days)",
+"salary": "£58k (Employer provided)",
+"salary_min": 58000,
+"salary_max": 58000,
+"posted_age": "1d",
+"first_seen": "2026-11-08",
+"email_date": "2026-11-07T22:45:08Z",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010319434560",
+"easy_apply": true,
+"fit_score": 25,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 17,
+"max": 20,
+"note": "Business Analyst: target role family"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 12,
+"max": 25,
+"note": "Scored provisionally; no master CV in repo yet"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 6,
+"max": 15,
+"note": "Asks for proven experience in a similar role"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "No degree requirement stated"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 3,
+"max": 10,
+"note": "Healthcare insurance; sector experience desirable, not essential"
+},
+{
+"key": "visa",
+"label": "Visa & salary",
+"score": 7,
+"max": 10,
+"note": "Licensed sponsor 4 + advert says no sponsorship 0 + £58k meets general rate 3"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 5,
+"max": 5,
+"note": "Hybrid UK, permanent full time"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 4,
+"max": 5,
+"note": "Easy Apply -1"
+},
+{
+"key": "gate",
+"label": "Gate applied",
+"score": 0,
+"max": 0,
+"note": "no_sponsorship gate: advert says it is unable to offer sponsorship, so total capped at 25"
+}
+],
+"confidence": "medium",
+"recommendation": "skip",
+"verdict": "Bupa is a licensed sponsor, but this advert says it cannot offer sponsorship for this role, so it can't support your visa.",
+"match_reasons": [
+"Salary £58k is well above the visa thresholds",
+"Role family fits your target roles"
+],
+"gaps": [
+"Advert states: unable to offer sponsorship for this position",
+"Asks for proven experience in the role",
+"Score capped at 25 by the no-sponsorship gate"
+],
+"jd_summary": "Business Analyst in Bupa's Retention Squad, hybrid with 2 office days and regular travel to Staines. Permanent, full time, £58k. Bupa cannot offer sponsorship for this role. Apply via Glassdoor Easy Apply; interviews w/c 30 Nov.",
+"jd_full": "Bupa: Business Analyst\nSalford Quays / London / Staines / Leeds, hybrid with 2 days in a Bupa office and regular travel to Staines. Permanent, full time, £58k.\nPlease note that we are unable to offer sponsorship for this position.\nInterviews: stage 1 virtual w/c 30 November; stage 2 face to face w/c 7 December.\nPart of the Retention Squad, supporting customer retention strategy with requirements gathering, workshops and business cases.",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "Bupa",
+"town": "London",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "no_sponsorship",
+"salary_check": "meets_general",
+"recruiter": false,
+"decision": "skipped",
+"decided_at": "",
+"status": "skipped",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-08T19:38:13+00:00",
+"last_email": "",
+"notes": "",
+"profile_basis": "provisional",
+"updated_at": "2026-11-08T19:38:13+00:00"
+},
+{
+"id": "gd-1010319434563",
+"source": "glassdoor",
+"title": "Insight Analyst",
+"company": "Bupa",
+"location": "Salford Quays / London / Staines / Leeds (hybrid, 2 days)",
+"salary": "£58k (Employer provided)",
+"salary_min": 58000,
+"salary_max": 58000,
+"posted_age": "1d",
+"first_seen": "2026-11-08",
+"email_date": "2026-11-07T22:45:08Z",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010319434563",
+"easy_apply": true,
+"fit_score": 25,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 14,
+"max": 20,
+"note": "Insight / data analyst: adjacent to Data Analyst"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 13,
+"max": 25,
+"note": "Scored provisionally; no master CV in repo yet"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 6,
+"max": 15,
+"note": "Asks for proven experience in a similar role"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "No degree requirement stated"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 3,
+"max": 10,
+"note": "Healthcare insurance; sector experience desirable, not essential"
+},
+{
+"key": "visa",
+"label": "Visa & salary",
+"score": 7,
+"max": 10,
+"note": "Licensed sponsor 4 + advert says no sponsorship 0 + £58k meets general rate 3"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 5,
+"max": 5,
+"note": "Hybrid UK, permanent full time"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 4,
+"max": 5,
+"note": "Easy Apply -1"
+},
+{
+"key": "gate",
+"label": "Gate applied",
+"score": 0,
+"max": 0,
+"note": "no_sponsorship gate: advert says it is unable to offer sponsorship, so total capped at 25"
+}
+],
+"confidence": "medium",
+"recommendation": "skip",
+"verdict": "Bupa is a licensed sponsor, but this advert says it cannot offer sponsorship for this role, so it can't support your visa.",
+"match_reasons": [
+"Salary £58k is well above the visa thresholds",
+"Role family fits your target roles"
+],
+"gaps": [
+"Advert states: unable to offer sponsorship for this position",
+"Asks for proven experience in the role",
+"Score capped at 25 by the no-sponsorship gate"
+],
+"jd_summary": "Insight Analyst in Bupa's Retention Squad, hybrid with 2 office days and regular travel to Staines. Permanent, full time, £58k. Bupa cannot offer sponsorship for this role. Apply via Glassdoor Easy Apply; interviews w/c 30 Nov.",
+"jd_full": "Bupa: Insight Analyst\nSalford Quays / London / Staines / Leeds, hybrid with 2 days in a Bupa office and regular travel to Staines. Permanent, full time, £58k.\nPlease note that we are unable to offer sponsorship for this position.\nInterviews: stage 1 virtual w/c 30 November; stage 2 face to face w/c 7 December.\nPart of the Retention Squad, supporting customer retention strategy with dashboards, MI reporting and opportunity sizing.",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "Bupa",
+"town": "London",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "no_sponsorship",
+"salary_check": "meets_general",
+"recruiter": false,
+"decision": "skipped",
+"decided_at": "",
+"status": "skipped",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-08T19:38:13+00:00",
+"last_email": "",
+"notes": "",
+"profile_basis": "provisional",
+"updated_at": "2026-11-08T19:38:13+00:00"
+},
+{
 "id": "gd-1010313631896",
 "source": "glassdoor",
 "title": "Business Analyst / Management Consultant (Property Operations & Growth)",
@@ -320,12 +667,12 @@
 "recruiter": true,
 "decision": "pending",
 "decided_at": "2026-11-03T19:59:26+00:00",
-"status": "new",
+"status": "expired",
 "cv_file": "",
 "cv_url": "",
 "cv_emailed_at": "",
 "applied_at": "",
-"status_updated_at": "2026-11-03T19:59:26+00:00",
+"status_updated_at": "2026-11-08T19:38:13+00:00",
 "last_email": "",
 "notes": "",
 "profile_basis": "provisional",
@@ -424,12 +771,12 @@
 "recruiter": true,
 "decision": "pending",
 "decided_at": "",
-"status": "new",
+"status": "expired",
 "cv_file": "",
 "cv_url": "",
 "cv_emailed_at": "",
 "applied_at": "",
-"status_updated_at": "",
+"status_updated_at": "2026-11-08T19:38:13+00:00",
 "last_email": "",
 "notes": "",
 "profile_basis": "provisional",
