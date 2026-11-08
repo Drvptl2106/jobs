@@ -156,7 +156,7 @@ For each job from `python3 scripts/jobs_store.py pending-cv`:
    through Job Desk are tracked:** if an email doesn't match a job already in the tracker, ignore it
    (don't add new rows for applications made outside the app).
 4. Set `last_email` ("Interview invite (3 Nov)"). Never move a job backwards (interview → applied).
-5. `python3 scripts/jobs_store.py expire 1` (jobs still waiting for review more than 1 day after they were found → expired; they show under Skipped and can be restored).
+5. `python3 scripts/jobs_store.py expire` (uses `review_window_days` and `cv_apply_window_days` from the config: jobs still waiting for review after 1 day, and approved jobs whose CV has been ready for 3 days without being marked applied, become `expired`; they show under Skipped and can be restored).
 
 ### 10. Publish
 1. `python3 scripts/jobs_store.py meta last_scan=<now ISO> register_date=<date> profile_basis=<…> "notice=<text or empty>" scan_emails=<n> scan_listings=<n> scan_too_old=<n> scan_duplicates=<n> scan_off_target=<n> scan_not_sponsor=<n> scan_new=<n>`

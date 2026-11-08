@@ -33,6 +33,8 @@
   ],
   "max_years_experience_required": 3,
   "fresh_window_hours": 24,
+  "review_window_days": 1,
+  "cv_apply_window_days": 3,
   "visa": {
     "needs_sponsorship": true,
     "new_entrant_eligible": true,

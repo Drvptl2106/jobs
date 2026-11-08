@@ -8,7 +8,8 @@ Commands
                           approve | skip | applied | interview | offer | rejected | withdrawn | reopen
   remove ID ...           delete jobs from the tracker entirely
   meta KEY=VALUE ...      update data/meta.json (last_scan, register_date, notice, profile_basis)
-  expire [DAYS]           mark jobs still waiting for review after DAYS days (default 1) as expired
+  expire [R] [C]          expire jobs unreviewed for R days and CV-ready jobs not applied to within C days
+                          (defaults: review_window_days / cv_apply_window_days in config/profile.json)
   pending-cv              list approved jobs that still need a tailored CV
   summary                 counts by status
   id URL_OR_JOBLISTINGID  print the canonical job id
@@ -286,20 +287,37 @@ def set_meta(pairs):
     print(json.dumps(meta, indent=1))
 
 
-def expire(days):
-    jobs, n = read_jobs(), 0
-    cutoff = datetime.now(timezone.utc).date().toordinal() - int(days)
-    for r in jobs.values():
+def _latest_day(*dates):
+    days = []
+    for d in dates:
         try:
-            # a job restored from Skipped gets a fresh window from when it was restored
-            seen = max(datetime.fromisoformat(d[:10]).date().toordinal()
-                       for d in (r.get("first_seen", ""), r.get("decided_at", "")) if d)
+            days.append(datetime.fromisoformat(str(d)[:10]).date().toordinal())
         except ValueError:
-            continue
-        if r.get("status") == "new" and r.get("decision") in ("", "pending") and seen < cutoff:
-            r["status"], r["status_updated_at"], n = "expired", now(), n + 1
+            pass
+    return max(days) if days else None
+
+
+def expire(review_days=None, cv_days=None):
+    """Move stale jobs to Skipped (status 'expired'):
+    - waiting for review longer than review_window_days (default 1) after being found/restored
+    - CV ready but not marked applied within cv_apply_window_days (default 3)"""
+    cfg = load_config()
+    review_days = int(review_days if review_days is not None else cfg.get("review_window_days", 1))
+    cv_days = int(cv_days if cv_days is not None else cfg.get("cv_apply_window_days", 3))
+    today = datetime.now(timezone.utc).date().toordinal()
+    jobs, n_review, n_cv = read_jobs(), 0, 0
+    for r in jobs.values():
+        if r.get("status") == "new" and r.get("decision") in ("", "pending"):
+            day = _latest_day(r.get("first_seen", ""), r.get("decided_at", ""))
+            if day is not None and day < today - review_days:
+                r["status"], r["status_updated_at"], n_review = "expired", now(), n_review + 1
+        elif r.get("status") == "cv_ready":
+            day = _latest_day(r.get("cv_emailed_at") or r.get("status_updated_at", ""), r.get("decided_at", ""))
+            if day is not None and day <= today - cv_days:
+                r["status"], r["status_updated_at"], n_cv = "expired", now(), n_cv + 1
+                r["notes"] = (r.get("notes", "") + " CV ready but not marked applied in time.").strip()
     write_jobs(jobs)
-    print(f"expired {n} job(s)")
+    print(f"expired {n_review} unreviewed job(s) and {n_cv} approved job(s) not applied to")
 
 
 def pending_cv():
@@ -337,7 +355,7 @@ if __name__ == "__main__":
     elif cmd == "meta":
         set_meta(a[1:])
     elif cmd == "expire":
-        expire(a[1] if len(a) > 1 else 1)
+        expire(*a[1:3])
     elif cmd == "pending-cv":
         pending_cv()
     elif cmd == "summary":

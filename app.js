@@ -21,7 +21,11 @@
   // A job waiting for review more than 1 day after it was found counts as expired, even before the next scan marks it.
   const daysSince = (d) => { const t = Date.parse(String(d || "").slice(0, 10)); return isNaN(t) ? 0 : Math.floor((Date.now() - t) / 864e5); };
   const isStale = (j) => (j.status === "new" || !j.status) && (!j.decision || j.decision === "pending") && Math.min(daysSince(j.first_seen), j.decided_at ? daysSince(j.decided_at) : Infinity) > 1;
-  const isSkipped = (j) => j.decision === "skipped" || j.status === "skipped" || j.status === "expired" || isStale(j);
+  // Approved job whose CV has been ready longer than cv_apply_window_days without being marked applied.
+  const cvWindow = () => num(state.cfg.cv_apply_window_days) || 3;
+  const cvAge = (j) => Math.min(daysSince(j.cv_emailed_at || j.status_updated_at), j.decided_at ? daysSince(j.decided_at) : Infinity);
+  const isStaleCv = (j) => j.status === "cv_ready" && cvAge(j) >= cvWindow();
+  const isSkipped = (j) => j.decision === "skipped" || j.status === "skipped" || j.status === "expired" || isStale(j) || isStaleCv(j);
   // Live job age: the alert email's date minus the age Glassdoor showed in it ("Just posted", "5h", "1d"...).
   function postedDaysAgo(j) {
     const t = Date.parse(j.email_date || j.first_seen || ""); if (isNaN(t)) return null;
@@ -31,8 +35,13 @@
   }
   const ageLabel = (j) => { const d = postedDaysAgo(j); return d == null ? (j.posted_age || "") : d === 0 ? "Today" : `${d}d ago`; };
   const ageLong = (j) => { const d = postedDaysAgo(j); return d == null ? "" : d === 0 ? "Posted today" : d === 1 ? "Posted 1 day ago" : `Posted ${d} days ago`; };
+  function cvDeadline(j) {
+    const left = cvWindow() - cvAge(j);
+    return left <= 0 ? "today" : left === 1 ? "tomorrow" : `in ${left} days`;
+  }
   function skipReason(j) {
     if (state.local.skip[j.id]) return "You skipped it (saved on this device only)";
+    if (isStaleCv(j) || (j.status === "expired" && j.decision === "approved")) return `Expired: CV was ready for ${cvWindow()} days but not marked as applied`;
     if (j.status === "expired" || isStale(j)) return "Expired: not reviewed within a day of being found";
     if (j.decision === "skipped" && j.decided_at) return "You skipped it on " + new Date(j.decided_at).toLocaleDateString("en-GB", { day: "numeric", month: "short" });
     if (j.decision === "skipped") return "Filtered by the scan: " + (j.verdict || "didn't pass the checks");
@@ -42,7 +51,7 @@
     : state.local.skip[j.id] && !isSkipped(j) ? "skipped"
     : state.local.restore[j.id] && isSkipped(j) ? "jobs"
     : APPLIED.includes(j.status) ? "tracker"
-    : (j.decision === "skipped" || j.status === "skipped" || j.status === "expired") ? "skipped"
+    : isSkipped(j) ? "skipped"
     : (j.decision === "approved" || j.status === "approved" || j.status === "cv_ready") ? "cvs" : "jobs";
 
   const PALETTE = ["#10805a", "#2f5fa8", "#8a4bb0", "#b5552b", "#2d7f8a", "#9a3e5e", "#5b6b1f", "#4a5568"];
@@ -140,7 +149,7 @@
         <div class="foot">${tagFor(j)}${j.easy_apply ? `<span class="tag">Easy Apply</span>` : ""}${j.status === "cv_ready" ? `<span class="tag info">CV ready</span>` : ""}${j.status === "expired" || isStale(j) ? `<span class="tag">Expired</span>` : ""}${p ? `<span class="tag info">Sent: ${esc(p.verb)}</span>` : ""}
           <span class="age ${(postedDaysAgo(j) ?? 9) <= 1 ? "fresh" : ""}">${esc(ageLabel(j))}</span></div>
         ${b === "skipped" ? `<div class="why-skip">${esc(skipReason(j))}</div>` : ""}
-        ${b === "cvs" && (postedDaysAgo(j) ?? 0) > 3 ? `<div class="why-skip warn-txt">${esc(ageLong(j))}. Apply soon or swipe left if you've moved on.</div>` : ""}
+        ${b === "cvs" && j.status === "cv_ready" ? `<div class="why-skip ${(postedDaysAgo(j) ?? 0) > 3 ? "warn-txt" : ""}">${esc(ageLong(j))}. Moves to Skipped ${esc(cvDeadline(j))} unless you mark it applied.</div>` : ""}
       </div></div>`;
     if (b === "jobs" || b === "cvs") return `<div class="swipe" data-swipe="${esc(j.id)}">${inner}</div>`;
     if (b === "skipped") return `<div class="cardrow">${inner}<button class="restore" data-restore="${esc(j.id)}">↩ Restore to Jobs</button></div>`;
