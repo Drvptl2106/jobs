@@ -22,6 +22,22 @@
   const daysSince = (d) => { const t = Date.parse(String(d || "").slice(0, 10)); return isNaN(t) ? 0 : Math.floor((Date.now() - t) / 864e5); };
   const isStale = (j) => (j.status === "new" || !j.status) && (!j.decision || j.decision === "pending") && Math.min(daysSince(j.first_seen), j.decided_at ? daysSince(j.decided_at) : Infinity) > 1;
   const isSkipped = (j) => j.decision === "skipped" || j.status === "skipped" || j.status === "expired" || isStale(j);
+  // Live job age: the alert email's date minus the age Glassdoor showed in it ("Just posted", "5h", "1d"...).
+  function postedDaysAgo(j) {
+    const t = Date.parse(j.email_date || j.first_seen || ""); if (isNaN(t)) return null;
+    const a = String(j.posted_age || "").toLowerCase(), m = a.match(/(\d+)\s*d/);
+    const offset = m ? Number(m[1]) : 0;
+    return Math.max(0, Math.floor((Date.now() - t) / 864e5) + offset);
+  }
+  const ageLabel = (j) => { const d = postedDaysAgo(j); return d == null ? (j.posted_age || "") : d === 0 ? "Today" : `${d}d ago`; };
+  const ageLong = (j) => { const d = postedDaysAgo(j); return d == null ? "" : d === 0 ? "Posted today" : d === 1 ? "Posted 1 day ago" : `Posted ${d} days ago`; };
+  function skipReason(j) {
+    if (state.local.skip[j.id]) return "You skipped it (saved on this device only)";
+    if (j.status === "expired" || isStale(j)) return "Expired: not reviewed within a day of being found";
+    if (j.decision === "skipped" && j.decided_at) return "You skipped it on " + new Date(j.decided_at).toLocaleDateString("en-GB", { day: "numeric", month: "short" });
+    if (j.decision === "skipped") return "Filtered by the scan: " + (j.verdict || "didn't pass the checks");
+    return "";
+  }
   const bucket = (j) => APPLIED.includes(j.status) ? "tracker"
     : state.local.skip[j.id] && !isSkipped(j) ? "skipped"
     : state.local.restore[j.id] && isSkipped(j) ? "jobs"
@@ -122,7 +138,9 @@
         <div class="loc">${esc(j.location || "")}</div>
         ${j.salary ? `<div class="pay">${esc(j.salary)}</div>` : ""}
         <div class="foot">${tagFor(j)}${j.easy_apply ? `<span class="tag">Easy Apply</span>` : ""}${j.status === "cv_ready" ? `<span class="tag info">CV ready</span>` : ""}${j.status === "expired" || isStale(j) ? `<span class="tag">Expired</span>` : ""}${p ? `<span class="tag info">Sent: ${esc(p.verb)}</span>` : ""}
-          <span class="age ${isFresh(j.posted_age) ? "fresh" : ""}">${esc(j.posted_age || "")}</span></div>
+          <span class="age ${(postedDaysAgo(j) ?? 9) <= 1 ? "fresh" : ""}">${esc(ageLabel(j))}</span></div>
+        ${b === "skipped" ? `<div class="why-skip">${esc(skipReason(j))}</div>` : ""}
+        ${b === "cvs" && (postedDaysAgo(j) ?? 0) > 3 ? `<div class="why-skip warn-txt">${esc(ageLong(j))}. Apply soon or swipe left if you've moved on.</div>` : ""}
       </div></div>`;
     if (b === "jobs" || b === "cvs") return `<div class="swipe" data-swipe="${esc(j.id)}">${inner}</div>`;
     if (b === "skipped") return `<div class="cardrow">${inner}<button class="restore" data-restore="${esc(j.id)}">↩ Restore to Jobs</button></div>`;
@@ -244,7 +262,7 @@
       <div class="hero"><div class="wrap">${logo(j.company)}
         <h2>${esc(j.title)}</h2><div class="co">${esc(j.company)} · ${esc(j.location || "")}</div>
         ${j.salary ? `<div class="pay">${esc(j.salary)}</div>` : ""}
-        <div class="foot" style="display:flex;gap:6px;flex-wrap:wrap">${tagFor(j)}${j.easy_apply ? `<span class="tag">Easy Apply</span>` : ""}${j.posted_age ? `<span class="tag ${isFresh(j.posted_age) ? "good" : ""}">Posted ${esc(j.posted_age)}</span>` : ""}${APPLIED.includes(j.status) ? `<span class="status s-${esc(j.status)}">${esc(j.status)}</span>` : ""}</div>
+        <div class="foot" style="display:flex;gap:6px;flex-wrap:wrap">${tagFor(j)}${j.easy_apply ? `<span class="tag">Easy Apply</span>` : ""}${ageLong(j) ? `<span class="tag ${(postedDaysAgo(j) ?? 9) <= 1 ? "good" : (postedDaysAgo(j) ?? 0) > 3 ? "warn" : ""}">${esc(ageLong(j))}</span>` : ""}${APPLIED.includes(j.status) ? `<span class="status s-${esc(j.status)}">${esc(j.status)}</span>` : ""}</div>
         ${s != null ? `<div class="scorebar" style="--fitc:${fitColor(s)}"><b>${s}/100</b><div class="meter"><i style="width:${s}%"></i></div><span class="tag ${s >= 70 ? "good" : s >= 50 ? "warn" : "bad"}">${esc(recLabel[j.recommendation] || "")}</span></div>` : ""}
       </div></div>
       <div class="tabs"><div class="wrap" role="tablist">${tabs.map(([k, l]) => `<button class="tab" role="tab" data-tab="${k}" aria-selected="${state.tab === k}">${l}</button>`).join("")}</div></div>
