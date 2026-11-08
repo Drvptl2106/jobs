@@ -82,6 +82,9 @@ only if the issue was opened by `github.owner`.
    chip use the `age<N>d` in the URL. Drop older ones (count them for the report).
 4. Job id `gd-<jobListingId>`; skip ids already in `data/jobs.csv`. Canonical URL
    `https://www.glassdoor.co.uk/job-listing/j?jl=<jobListingId>`.
+5. **Keep a tally for the website** (step 10): `scan_emails` (alert emails read), `scan_listings`
+   (listings in them), `scan_too_old` (dropped as older than 24h), `scan_duplicates` (same job twice,
+   or already in the tracker).
 
 ### 5. Read the advert, check sponsorship first, then score
 Order matters (cheapest filter first): read the advert, run step 6's sponsorship checks, and only then
@@ -91,6 +94,11 @@ score against the CV.
   `recommendation: skip`, `fit_score` empty, `verdict` "Employer isn't on the Home Office sponsor
   register, so it can't sponsor a Skilled Worker visa.", `decision: skipped`, `status: skipped`
   (it shows under Skipped on the website). Recruiter adverts are never filtered this way.
+- **Off-target roles:** a fresh listing that is clearly outside `target_roles` or matches `avoid_roles`
+  (developer, nurse, senior manager, sales-only…) is not scraped: upsert it with `recommendation: skip`,
+  `decision: skipped`, `status: skipped`, `verdict` "Outside your target roles: <one reason>". It shows
+  under Skipped so the owner can restore it. Count these as `scan_off_target`; count sponsor-filtered
+  ones as `scan_not_sponsor`, and jobs added to the Jobs list as `scan_new`.
 - Firecrawl `firecrawl_scrape` the canonical URL: `formats: ["markdown"]`, `onlyMainContent: true`,
   `timeout: 45000`. The advert sits between "Sign in to apply"/"Apply now" and "Show more"/"## Base pay".
   If it fails, score from the title and set `jd_summary` "Advert could not be loaded".
@@ -151,7 +159,8 @@ For each job from `python3 scripts/jobs_store.py pending-cv`:
 5. `python3 scripts/jobs_store.py expire 3` (unreviewed jobs older than 3 days → expired).
 
 ### 10. Publish
-1. `python3 scripts/jobs_store.py meta last_scan=<now ISO> register_date=<date> profile_basis=<…> "notice=<text or empty>"`
+1. `python3 scripts/jobs_store.py meta last_scan=<now ISO> register_date=<date> profile_basis=<…> "notice=<text or empty>" scan_emails=<n> scan_listings=<n> scan_too_old=<n> scan_duplicates=<n> scan_off_target=<n> scan_not_sponsor=<n> scan_new=<n>`
+   (the website shows this funnel so the owner can see why most listings never appear).
 2. `git add data outputs cv && git commit -m "Job Desk scan <date>: <n> new, <m> CVs, <k> updates"`
 3. `git pull --rebase origin BRANCH && git push origin BRANCH` (retry up to 4 times with backoff).
    GitHub Pages republishes the website automatically.

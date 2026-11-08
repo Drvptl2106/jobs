@@ -177,6 +177,17 @@
       </div></section>`;
   }
 
+  function funnel() {
+    const m = state.meta;
+    if (m.scan_listings === undefined || m.scan_listings === "") return "";
+    const n = (k) => num(m[k]);
+    const steps = [["scan_too_old", "older than 24 hours"], ["scan_duplicates", "already seen"], ["scan_off_target", "outside your roles"], ["scan_not_sponsor", "employer can't sponsor"]]
+      .filter(([k]) => n(k) > 0).map(([k, l]) => `<li><b>${n(k)}</b> ${l}</li>`).join("");
+    return `<details class="funnel"><summary><span>Last scan: <b>${n("scan_listings")}</b> listings in ${n("scan_emails")} email${n("scan_emails") === 1 ? "" : "s"} → <b>${n("scan_new")}</b> new for you</span></summary>
+      <ul>${steps || "<li>Nothing was filtered out.</li>"}<li><b>${n("scan_new")}</b> added to Jobs</li></ul>
+      <p>Glassdoor alerts repeat the same jobs for weeks, so most listings are old or duplicates. Filtered jobs from your roles and sponsors land in Skipped, where you can restore them.</p></details>`;
+  }
+
   function render() {
     const groups = { jobs: [], cvs: [], tracker: [], skipped: [] };
     for (const j of state.jobs) groups[bucket(j)].push(j);
@@ -192,7 +203,7 @@
     const by = (a, b) => (b.fit_score ?? -1) - (a.fit_score ?? -1) || String(b.first_seen).localeCompare(String(a.first_seen));
     const titles = { jobs: ["New for you", "Posted in the last 24 hours, best fit first"], cvs: ["Approved", "Tailored CVs arrive here and by email"], tracker: ["Application tracker", ""], skipped: ["Skipped & expired", "Restore anything you change your mind about"] };
     const empty = { jobs: "Nothing to review. New jobs arrive after the next daily scan.", cvs: "Approve a job and its tailored CV shows up here.", tracker: "Applications appear here when you mark them or a confirmation email arrives.", skipped: "Nothing skipped yet." };
-    let html = syncBar() + `<div class="section-head"><h2>${titles[v][0]}</h2><span>${titles[v][1]}</span></div>`;
+    let html = syncBar() + (v === "jobs" ? funnel() : "") + `<div class="section-head"><h2>${titles[v][0]}</h2><span>${titles[v][1]}</span></div>`;
     if ((v === "jobs" || v === "cvs") && list.length) html += `<div class="hint">Swipe a card left to skip it. Skipped jobs can be restored from Skipped.</div>`;
     if (v === "tracker") html += list.length ? trackerView(list) : `<div class="empty">${empty[v]}</div>`;
     else html += list.length ? `<div class="feed">${list.sort(by).map(card).join("")}</div>` : `<div class="empty">${state.q || state.filters.size ? "No jobs match these filters." : empty[v]}</div>`;
