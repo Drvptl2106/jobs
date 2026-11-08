@@ -1,0 +1,109 @@
+{
+ "name": "Dhruv Patil",
+ "contact": [
+  "dhruvpatil979@gmail.com",
+  "linkedin.com/in/dhruv-patil21",
+  "Newcastle upon Tyne, UK"
+ ],
+ "headline": "Business Analyst / Management Consultant",
+ "summary": "Business analyst with an MSc in Business Analytics (Distinction) and freelance consulting experience advising small businesses on pricing, market positioning and performance. Experienced in turning ambiguous problems into KPIs, business cases and clear recommendations presented to senior stakeholders. Keen to apply this analytical approach to UK residential lettings, property management and investment.",
+ "skills": [
+  {
+   "label": "Analysis & BA",
+   "items": "Requirements gathering, process mapping, root cause analysis, KPI definition, business cases, stakeholder management"
+  },
+  {
+   "label": "Data & tools",
+   "items": "Excel (advanced pivots, lookups, modelling), Power BI, Power Query, SQL, Python, Tableau"
+  },
+  {
+   "label": "Commercial",
+   "items": "Pricing and cost analysis, market and competitor analysis, financial modelling, go-to-market strategy"
+  }
+ ],
+ "experience": [
+  {
+   "title": "Freelance Business Analyst",
+   "org": "Visionize Consultancy",
+   "location": "Remote",
+   "dates": "Aug 2024 \u2013 Jan 2026",
+   "bullets": [
+    "Elicited and documented business and analytical requirements directly with clients, turning ambiguous problems into structured solutions",
+    "Contributed to pricing, cost and economic analysis to help clients understand their commercial positioning",
+    "Produced market insights and strategies, monitoring sector trends, demand patterns and competitors",
+    "Built interactive Power BI dashboards and an end-to-end data pipeline (Python, SQL, Power Query)",
+    "Presented findings to clients, bridging technical outputs and business decisions"
+   ]
+  },
+  {
+   "title": "Business Analyst (Volunteer)",
+   "org": "GDP Foundation (NGO)",
+   "location": "Remote",
+   "dates": "Feb 2025 \u2013 Jan 2026",
+   "bullets": [
+    "Analysed current-state processes to find root causes of inefficiency and redesigned delivery to address them",
+    "Led development of KPI frameworks and performance dashboards aligned to goals",
+    "Led stakeholder discussions to clarify requirements and agree priorities and success criteria",
+    "Maintained data quality standards; promoted from Data Analyst Intern"
+   ]
+  },
+  {
+   "title": "Sales Guide",
+   "org": "EE (BT Group)",
+   "location": "Newcastle upon Tyne",
+   "dates": "Jun 2026 \u2013 Present",
+   "bullets": [
+    "Led product definition and business analysis for BreakPoint, a live break-tracking tool now used by a 15-person team, with rollout under consideration across the Newcastle operation",
+    "Defined requirements, business rules and privacy-by-design controls; designing a pilot to measure impact"
+   ]
+  },
+  {
+   "title": "Data Analyst Intern",
+   "org": "GDP Foundation (NGO)",
+   "location": "Remote",
+   "dates": "Sep 2024 \u2013 Feb 2025",
+   "bullets": [
+    "Built and maintained KPI dashboards with quality checks; analysed operational data with Python and SQL"
+   ]
+  }
+ ],
+ "projects": [
+  {
+   "title": "Digital Transformation Strategy, Blueline Mobility",
+   "org": "Newcastle University",
+   "bullets": [
+    "Business-case and go-to-market plan with KPI structure, using Benefits Dependency Network and Strategic Value Matrix"
+   ]
+  },
+  {
+   "title": "EV Infrastructure and Market Strategy",
+   "org": "Newcastle University",
+   "bullets": [
+    "Market-entry report using sales data and financial modelling (CAPEX, ROI, demand forecasts)"
+   ]
+  }
+ ],
+ "education": [
+  {
+   "degree": "MSc Business Analytics (Distinction)",
+   "org": "Newcastle University",
+   "dates": "Sep 2024 \u2013 Sep 2025",
+   "bullets": [
+    "Modules: Business Modelling, Stakeholder Management, Project Management, Data-Driven Decision Making, Marketing Analytics"
+   ]
+  },
+  {
+   "degree": "BSc Data Science",
+   "org": "Goa University",
+   "dates": "Sep 2021 \u2013 May 2024",
+   "bullets": [
+    "CGPA 8.5"
+   ]
+  }
+ ],
+ "certifications": [
+  "Advanced Excel Data Visualization (NASBA)",
+  "Microsoft 365 Excel Essential Training (NASBA)",
+  "Data Analytics and Visualization Job Simulation (Accenture, Forage)"
+ ]
+}

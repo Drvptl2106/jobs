@@ -1,0 +1,98 @@
+{
+ "name": "Dhruv Patil",
+ "contact": [
+  "dhruvpatil979@gmail.com",
+  "linkedin.com/in/dhruv-patil21",
+  "Newcastle upon Tyne, UK"
+ ],
+ "headline": "Analyst \u2013 Risk & Research",
+ "summary": "Analyst with an MSc in Business Analytics (Distinction) and strong research, critical-analysis and stakeholder skills built across NGO, consultancy and retail environments. Experienced in documenting processes, maintaining data quality and controls, and working accurately to deadlines. Keen to apply careful judgement and a process-improvement mindset to a regulated legal environment.",
+ "skills": [
+  {
+   "label": "Research & analysis",
+   "items": "Critical analysis, root cause analysis, current-state process review, data quality and validation, documentation"
+  },
+  {
+   "label": "Stakeholders",
+   "items": "Stakeholder engagement, cross-functional collaboration, presenting findings, query handling"
+  },
+  {
+   "label": "Tools",
+   "items": "Microsoft Office (Excel advanced, PowerPoint, Teams), Power BI, SQL, Python"
+  }
+ ],
+ "experience": [
+  {
+   "title": "Business Analyst (Volunteer)",
+   "org": "GDP Foundation (NGO)",
+   "location": "Remote",
+   "dates": "Feb 2025 \u2013 Jan 2026",
+   "bullets": [
+    "Analysed current-state processes to find root causes of inefficiency and redesigned delivery",
+    "Led stakeholder discussions to clarify requirements, challenge assumptions and agree priorities",
+    "Maintained data quality standards so outputs were reliable and fit for purpose",
+    "Contributed to backlog refinement and prioritisation in iterative delivery; kept traceable documentation"
+   ]
+  },
+  {
+   "title": "Sales Guide",
+   "org": "EE (BT Group)",
+   "location": "Newcastle upon Tyne",
+   "dates": "Jun 2026 \u2013 Present",
+   "bullets": [
+    "Led product definition for BreakPoint, an internal tool with uneditable change history, pseudonymised user codes and automatic 14-day data retention",
+    "Use multiple account platforms daily with accuracy and customer care"
+   ]
+  },
+  {
+   "title": "Freelance Business Analyst",
+   "org": "Visionize Consultancy",
+   "location": "Remote",
+   "dates": "Aug 2024 \u2013 Jan 2026",
+   "bullets": [
+    "Kept clear process documentation so outputs were traceable, auditable and repeatable",
+    "Presented findings to clients in structured sessions"
+   ]
+  },
+  {
+   "title": "Data Analyst Intern",
+   "org": "GDP Foundation (NGO)",
+   "location": "Remote",
+   "dates": "Sep 2024 \u2013 Feb 2025",
+   "bullets": [
+    "Rigorous quality checks for accuracy and consistency; managed multiple reporting deadlines"
+   ]
+  },
+  {
+   "title": "Student Engagement Assistant",
+   "org": "Newcastle University",
+   "dates": "",
+   "bullets": [
+    "Supported faculty\u2013student communication and handled queries"
+   ]
+  }
+ ],
+ "education": [
+  {
+   "degree": "MSc Business Analytics (Distinction)",
+   "org": "Newcastle University",
+   "dates": "Sep 2024 \u2013 Sep 2025",
+   "bullets": [
+    "Modules: Business Modelling, Stakeholder Management, Project Management, Data-Driven Decision Making, Marketing Analytics"
+   ]
+  },
+  {
+   "degree": "BSc Data Science",
+   "org": "Goa University",
+   "dates": "Sep 2021 \u2013 May 2024",
+   "bullets": [
+    "CGPA 8.5"
+   ]
+  }
+ ],
+ "certifications": [
+  "Advanced Excel Data Visualization (NASBA)",
+  "Microsoft 365 Excel Essential Training (NASBA)",
+  "Data Analytics and Visualization Job Simulation (Accenture, Forage)"
+ ]
+}

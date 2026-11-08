@@ -13,21 +13,21 @@
 "email_date": "2026-11-08T08:56:28Z",
 "url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010319228204",
 "easy_apply": false,
-"fit_score": 69,
+"fit_score": 76,
 "score_breakdown": [
 {
 "key": "role_match",
 "label": "Role match",
 "score": 12,
 "max": 20,
-"note": "Labour-market / skills data analyst: adjacent to Data and Research Analyst"
+"note": "Labour-market/skills data analyst: adjacent to Data and Research Analyst"
 },
 {
 "key": "skills",
 "label": "Skills & tools",
-"score": 14,
+"score": 21,
 "max": 25,
-"note": "Asks for Power BI, 4Cast-style tools, reporting; to confirm against your CV"
+"note": "Power BI dashboards (freelance, personal project), reporting, trend analysis, data quality shown; 4Cast-style forecasting only via demand forecasting skill"
 },
 {
 "key": "experience",
@@ -55,37 +55,37 @@
 "label": "Visa & salary",
 "score": 7,
 "max": 10,
-"note": "Licensed Skilled Worker sponsor 4 + advert silent 1 + £36,070 meets new-entrant rate 2"
+"note": "Licensed sponsor 4 + advert silent 1 + £36,070 meets new-entrant rate 2"
 },
 {
 "key": "practical",
 "label": "Location & terms",
 "score": 5,
 "max": 5,
-"note": "Permanent full time, in person in Plymouth"
+"note": "Permanent full time, in person in Plymouth (UK-wide search)"
 },
 {
 "key": "odds",
 "label": "Chance of hearing back",
 "score": 5,
 "max": 5,
-"note": "Posted 1d ago, not Easy Apply"
+"note": "Posted 1d, not Easy Apply"
 }
 ],
-"confidence": "medium",
-"recommendation": "maybe",
-"verdict": "A data-and-reporting analyst role at a licensed sponsor, paying above the new-entrant visa rate but below the general rate. Fit is provisional until your master CV is uploaded.",
+"confidence": "high",
+"recommendation": "apply",
+"verdict": "Good fit on tools and tasks: Power BI, reporting and trend analysis are all in your CV, and the college hires on potential. Licensed sponsor and £36k clears the new-entrant rate, but the role is in Plymouth and in person.",
 "match_reasons": [
-"Licensed Skilled Worker sponsor on the Home Office register",
-"£36,070 meets the £33,400 new-entrant threshold",
-"Employer says it recruits on potential, not experience",
-"Power BI and reporting work fits an analyst profile (to confirm against CV)"
+"Power BI dashboards built for clients (Visionize) and an energy-data project",
+"KPI dashboards and data-quality checks at GDP Foundation match the accuracy and reporting asks",
+"MSc Business Analytics (Distinction) covers data-driven decision making and demand forecasting",
+"Licensed Skilled Worker sponsor and £36,070 meets the £33,400 new-entrant rate"
 ],
 "gaps": [
-"Advert says nothing about sponsorship; ask early",
-"£36,070 is under the £41,700 general rate, so it relies on new-entrant eligibility",
-"Based in Plymouth, in person, so relocation may be needed",
-"Asks for 4Cast or similar planning tools, which may be new to you"
+"Plymouth, in person: would need a move from Newcastle",
+"No named experience of 4Cast or labour-market intelligence tools",
+"Education sector is new to you",
+"Salary is under £41,700, so it relies on the new-entrant rate"
 ],
 "jd_summary": "Support skills planning and curriculum development by collecting, modelling and reporting labour-market, student-demand and employer data. Needs Power BI or similar, report writing and trend interpretation. Apply on the employer site; online behavioural assessment after closing. Full time, permanent, in person.",
 "jd_full": "City College Plymouth: Skills Planning Analyst\nFull time, permanent, £36,070 per year. In person, Plymouth.\n\nThe role:\n• Support the College's skills planning and curriculum development through collection, modelling, analysis and reporting of labour market intelligence, student demand, employer requirements and performance data.\n• Inform skills and curriculum planning and strategic decision-making so provision aligns with local, regional and national skills priorities.\n• Contribute to curriculum plans that meet the needs of learners, employers and the wider economy.\n\nWhat we're looking for:\n• Experience of using Power BI or other business intelligence tools.\n• Experience of using 4Cast or similar.\n• Experience of producing reports and presenting information.\n• Strong understanding of data accuracy and confidentiality requirements.\n• Ability to interpret information and identify trends.\n\nBehaviours: analysing, critical thinking, interpreting quantitative data, delivering.\n\nHow we recruit: based on potential, not experience. After the online application form, candidates complete an online behavioural assessment within a few days of the vacancy closing. The College may close the advert early.\nBenefits: 29 days holiday plus bank holidays, career development, pension, free tea, coffee and lunch.",
@@ -109,8 +109,8 @@
 "status_updated_at": "2026-11-08T19:38:13+00:00",
 "last_email": "",
 "notes": "",
-"profile_basis": "provisional",
-"updated_at": "2026-11-08T19:38:13+00:00"
+"profile_basis": "master",
+"updated_at": "2026-11-08T21:28:54+00:00"
 },
 {
 "id": "gd-1010319434560",
@@ -360,21 +360,21 @@
 "email_date": "2026-11-02T22:33:27Z",
 "url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010313631896",
 "easy_apply": true,
-"fit_score": 80,
+"fit_score": 82,
 "score_breakdown": [
 {
 "key": "role_match",
 "label": "Role match",
-"score": 17,
+"score": 18,
 "max": 20,
-"note": "Business analyst / junior consultant: a target role family"
+"note": "Business analyst / junior consultant: target role family; CV shows BA and freelance consulting work"
 },
 {
 "key": "skills",
 "label": "Skills & tools",
-"score": 17,
+"score": 18,
 "max": 25,
-"note": "Excel analysis, KPIs, business cases, presenting; to confirm against your CV"
+"note": "Excel, KPIs, business cases, presenting and multi-project work evidenced; property interest and CRM not"
 },
 {
 "key": "experience",
@@ -388,7 +388,7 @@
 "label": "Qualifications",
 "score": 10,
 "max": 10,
-"note": "Master's meets 'master's in management desirable'"
+"note": "MSc Business Analytics exceeds degree requirement"
 },
 {
 "key": "domain",
@@ -416,21 +416,23 @@
 "label": "Chance of hearing back",
 "score": 4,
 "max": 5,
-"note": "Posted 1 day ago; Easy Apply -1"
+"note": "Posted 1d; Easy Apply -1"
 }
 ],
-"confidence": "medium",
+"confidence": "high",
 "recommendation": "apply",
-"verdict": "Strong match for an entry-level BA: business/management degree, Excel analysis and reporting, KPIs and business cases. The employer is an A-rated Skilled Worker sponsor and says so in the advert.",
+"verdict": "Strong match for an entry-level BA/consultant role: your BA, KPI, business-case and pricing work fits, and the A-rated sponsor says it may sponsor a Skilled Worker visa.",
 "match_reasons": [
-"Master's-level study (Newcastle University) fits 'master's in management desirable'",
-"Analytical role built on Excel reporting, KPIs and business cases",
-"Entry-level scope: no minimum years of experience stated"
+"Freelance BA at Visionize: requirements, pricing/cost analysis, market insight and client presentations",
+"KPI frameworks and dashboards at GDP Foundation match KPI/management reporting duties",
+"Business cases and go-to-market work (Blueline, EV market entry) match business-case asks",
+"MSc Business Analytics (Distinction); advert offers sponsorship"
 ],
 "gaps": [
-"Advert wants interest in UK residential property (lettings, investment): add a line on this",
-"Salary £35.1k-£38k is under £41,700, so sponsorship relies on the new-entrant rate (£33,400)",
-"Score is provisional until your master CV is uploaded"
+"No UK property or lettings experience: say why you are interested in the sector",
+"Pay £35.1k-£38k is under £41,700, so it relies on the new-entrant rate",
+"In person in London",
+"Apply by emailing CV and a short cover letter to the address in the advert"
 ],
 "jd_summary": "Advise directors on operational and commercial problems across lettings, property management, sourcing and renovation. Analyse pricing, occupancy, yields and voids; review processes; build business cases and financial appraisals; set up KPIs and management reports; benchmark competitors. Needs a bachelor's in management/business (master's desirable), strong Excel, clear presentation skills. Apply by emailing CV + short cover letter to info@decitihomesltd.co.uk. In person, London.",
 "jd_full": "You will advise the directors on how to solve operational and commercial problems, create value, grow the business and improve performance across our lettings, management, sourcing and renovation services. You will use data and business analysis to give objective, evidence-based recommendations and to help the team build any new skills or processes we need.\n\nKey responsibilities:\n• Analyse pricing, occupancy, rental yield, void periods and market data across our managed and sourced properties, and report on what the data shows.\n• Review how our lettings, property management, sourcing and renovation processes work, find inefficiencies and risks, and recommend practical improvements.\n• Prepare business cases and financial appraisals for new markets, service lines and property investment opportunities, and present options to the directors.\n• Identify and assess operational, financial and compliance risks, and recommend controls.\n• Set up and track key performance indicators for each service, and produce regular management reports.\n• Benchmark our services and fees against competitors and market trends.\n• Work with the team to implement agreed changes and support them in developing the skills and processes needed to deliver them.\n\nRequirements:\nA bachelor's degree or above in management, business or a related subject. A master's degree in management is desirable.\nStrong analytical skills and good competence with Excel or similar tools for data analysis and reporting.\nClear written and spoken communication, and the ability to present findings and recommendations to senior colleagues.\nInterest in the UK residential property sector, including lettings, property management or investment.\nGood organisation and the ability to work independently and manage multiple projects.\n\nDesirable:\nExperience in property, real estate, consultancy or a similar commercial analysis role.\nFamiliarity with property or CRM software and data visualisation tools.\n\nRight to work:\nApplicants must have the right to work in the UK. Deciti Homes holds a sponsor licence and may be able to sponsor a suitable candidate for a Skilled Worker visa, subject to eligibility.\n\nHow to apply: send your CV and a short cover letter to info@decitihomesltd.co.uk.\nJob types: Full-time, Permanent. Pay: £35,100–£38,000 per year. Work location: in person (London).",
@@ -446,16 +448,16 @@
 "recruiter": false,
 "decision": "approved",
 "decided_at": "2026-11-03T20:28:53+00:00",
-"status": "approved",
-"cv_file": "",
-"cv_url": "",
+"status": "cv_ready",
+"cv_file": "outputs/cvs/2026-11-08_Deciti-Homes_Business-Analyst-Management-Consultant.docx",
+"cv_url": "outputs/cvs/2026-11-08_Deciti-Homes_Business-Analyst-Management-Consultant.docx",
 "cv_emailed_at": "",
 "applied_at": "",
-"status_updated_at": "2026-11-03T20:28:53+00:00",
+"status_updated_at": "2026-11-08T21:29:16+00:00",
 "last_email": "",
 "notes": "",
-"profile_basis": "provisional",
-"updated_at": "2026-11-03T20:28:53+00:00"
+"profile_basis": "master",
+"updated_at": "2026-11-08T21:29:16+00:00"
 },
 {
 "id": "gd-1010313901700",
@@ -471,7 +473,7 @@
 "email_date": "2026-11-02T08:49:33Z",
 "url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010313901700",
 "easy_apply": false,
-"fit_score": 58,
+"fit_score": 64,
 "score_breakdown": [
 {
 "key": "role_match",
@@ -483,16 +485,16 @@
 {
 "key": "skills",
 "label": "Skills & tools",
-"score": 13,
+"score": 18,
 "max": 25,
-"note": "Research, analysis and Office covered; AML, sanctions and SRA knowledge not"
+"note": "Research, critical analysis, stakeholders, Office evidenced; AML/sanctions/SRA knowledge and Intapp not"
 },
 {
 "key": "experience",
 "label": "Experience level",
 "score": 15,
 "max": 15,
-"note": "Experience preferred but not essential"
+"note": "Compliance experience preferred, not essential"
 },
 {
 "key": "qualifications",
@@ -511,9 +513,9 @@
 {
 "key": "visa",
 "label": "Visa & salary",
-"score": 5,
+"score": 6,
 "max": 10,
-"note": "Licensed sponsor 4 + advert silent 1 + Glassdoor estimate below threshold 0"
+"note": "Licensed sponsor 4 + advert silent 1 + salary 'competitive' (unknown) 1"
 },
 {
 "key": "practical",
@@ -530,17 +532,19 @@
 "note": "Just posted; large firm -1"
 }
 ],
-"confidence": "medium",
+"confidence": "high",
 "recommendation": "maybe",
-"verdict": "Risk and compliance role at a law firm, open to people without compliance experience. Your research skills transfer, but it isn't a business/data analyst role, and the estimated pay is below the £33,400 new-entrant rate, so check the real salary before applying.",
+"verdict": "Not a business or data analyst role, but open to people without compliance experience and your research and stakeholder skills transfer. Check the real salary against the £33,400 new-entrant rate before applying.",
 "match_reasons": [
-"Research and critical analysis of complex information",
-"Stakeholder communication, Microsoft Office"
+"Research and critical analysis (MSc dissertation, GDP Foundation root-cause work)",
+"Stakeholder engagement and communication across teams",
+"Microsoft Office including advanced Excel"
 ],
 "gaps": [
-"Basic knowledge of AML, Proceeds of Crime Act, sanctions and SRA Code expected",
-"Estimated £24k-£33k is below the Skilled Worker new-entrant rate",
-"Not a data/business analysis role"
+"No knowledge of AML regulations, Proceeds of Crime Act, sanctions or SRA Code",
+"Glassdoor estimate £24k-£33k is under the new-entrant rate; employer says 'competitive'",
+"Not a data/business analysis role",
+"Locations are not Newcastle"
 ],
 "jd_summary": "Conflict checks and client inception for a national law firm: review and resolve conflict search results, information barriers, compliance queries, workflow and controls project work. Risk/compliance experience preferred but not essential.",
 "jd_full": "Purpose of the role: join the Conflicts team at Addleshaw Goddard to help the firm meet its regulatory obligations by managing and mitigating risk: conflict checks, client inception work, managing client terms and matter specifications, and risk analysis on the firm's publications.\n\nThe team sits in the Office of the General Counsel, across Leeds, Manchester, Edinburgh, Glasgow and Dubai.\n\nResponsibilities:\n• Review, filter and resolve conflict search results, including legal and commercial analysis of potential conflicts and confidentiality issues; escalate key issues.\n• Liaise with PAs, fee earners, partners and the wider conflicts team.\n• Manage the team inbox: information barriers, extended reports, ad hoc tasks and compliance queries under supervision.\n• Support project work, including workflow development and monitoring of systems and controls.\n\nKnowledge and experience:\n• Risk and compliance experience in a law firm, accountancy or financial services is preferred but not essential.\n• Strong research and critical analysis; sound judgement.\n• Ability to work at pace and prioritise.\n• Stakeholder relationship building.\n• Basic knowledge of the Money Laundering Regulations 2019, Proceeds of Crime Act 2002, UN/UK/US sanctions and the SRA Code of Conduct 2019.\n• Microsoft Office (Outlook, Word, Excel); Intapp desirable.\n\nPermanent, full time. Locations: Edinburgh, Glasgow, Leeds, Manchester. Salary: competitive.",
@@ -556,16 +560,16 @@
 "recruiter": false,
 "decision": "approved",
 "decided_at": "2026-11-03T20:29:38+00:00",
-"status": "approved",
-"cv_file": "",
-"cv_url": "",
+"status": "cv_ready",
+"cv_file": "outputs/cvs/2026-11-08_Addleshaw-Goddard_Conflicts-Analyst.docx",
+"cv_url": "outputs/cvs/2026-11-08_Addleshaw-Goddard_Conflicts-Analyst.docx",
 "cv_emailed_at": "",
 "applied_at": "",
-"status_updated_at": "2026-11-03T20:29:38+00:00",
+"status_updated_at": "2026-11-08T21:29:16+00:00",
 "last_email": "",
 "notes": "",
-"profile_basis": "provisional",
-"updated_at": "2026-11-03T20:29:38+00:00"
+"profile_basis": "master",
+"updated_at": "2026-11-08T21:29:16+00:00"
 },
 {
 "id": "gd-1010314813546",
