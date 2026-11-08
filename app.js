@@ -18,7 +18,10 @@
   const num = (v) => { const n = Number(v); return Number.isFinite(n) ? n : 0; };
   const isFresh = (a) => /just posted|^\s*(\d{1,2}h|24h|1d)\s*$/i.test(a || "");
   const APPLIED = ["applied", "interview", "offer", "rejected", "withdrawn"];
-  const isSkipped = (j) => j.decision === "skipped" || j.status === "skipped" || j.status === "expired";
+  // A job waiting for review more than 1 day after it was found counts as expired, even before the next scan marks it.
+  const daysSince = (d) => { const t = Date.parse(String(d || "").slice(0, 10)); return isNaN(t) ? 0 : Math.floor((Date.now() - t) / 864e5); };
+  const isStale = (j) => (j.status === "new" || !j.status) && (!j.decision || j.decision === "pending") && Math.min(daysSince(j.first_seen), j.decided_at ? daysSince(j.decided_at) : Infinity) > 1;
+  const isSkipped = (j) => j.decision === "skipped" || j.status === "skipped" || j.status === "expired" || isStale(j);
   const bucket = (j) => APPLIED.includes(j.status) ? "tracker"
     : state.local.skip[j.id] && !isSkipped(j) ? "skipped"
     : state.local.restore[j.id] && isSkipped(j) ? "jobs"
@@ -118,7 +121,7 @@
         <div class="t">${esc(j.title)}</div>
         <div class="loc">${esc(j.location || "")}</div>
         ${j.salary ? `<div class="pay">${esc(j.salary)}</div>` : ""}
-        <div class="foot">${tagFor(j)}${j.easy_apply ? `<span class="tag">Easy Apply</span>` : ""}${j.status === "cv_ready" ? `<span class="tag info">CV ready</span>` : ""}${p ? `<span class="tag info">Sent: ${esc(p.verb)}</span>` : ""}
+        <div class="foot">${tagFor(j)}${j.easy_apply ? `<span class="tag">Easy Apply</span>` : ""}${j.status === "cv_ready" ? `<span class="tag info">CV ready</span>` : ""}${j.status === "expired" || isStale(j) ? `<span class="tag">Expired</span>` : ""}${p ? `<span class="tag info">Sent: ${esc(p.verb)}</span>` : ""}
           <span class="age ${isFresh(j.posted_age) ? "fresh" : ""}">${esc(j.posted_age || "")}</span></div>
       </div></div>`;
     if (b === "jobs" || b === "cvs") return `<div class="swipe" data-swipe="${esc(j.id)}">${inner}</div>`;
@@ -201,7 +204,7 @@
     if (v === "account") { $("#view").innerHTML = `<div class="section-head"><h2>My account</h2></div>` + accountView(groups.tracker); return; }
     const list = groups[v].filter(matches);
     const by = (a, b) => (b.fit_score ?? -1) - (a.fit_score ?? -1) || String(b.first_seen).localeCompare(String(a.first_seen));
-    const titles = { jobs: ["New for you", "Posted in the last 24 hours, best fit first"], cvs: ["Approved", "Tailored CVs arrive here and by email"], tracker: ["Application tracker", ""], skipped: ["Skipped & expired", "Restore anything you change your mind about"] };
+    const titles = { jobs: ["New for you", "Posted in the last 24 hours, best fit first"], cvs: ["Approved", "Tailored CVs arrive here and by email"], tracker: ["Application tracker", ""], skipped: ["Skipped & expired", "Jobs not reviewed within a day move here too. Restore anything you want back."] };
     const empty = { jobs: "Nothing to review. New jobs arrive after the next daily scan.", cvs: "Approve a job and its tailored CV shows up here.", tracker: "Applications appear here when you mark them or a confirmation email arrives.", skipped: "Nothing skipped yet." };
     let html = syncBar() + (v === "jobs" ? funnel() : "") + `<div class="section-head"><h2>${titles[v][0]}</h2><span>${titles[v][1]}</span></div>`;
     if ((v === "jobs" || v === "cvs") && list.length) html += `<div class="hint">Swipe a card left to skip it. Skipped jobs can be restored from Skipped.</div>`;

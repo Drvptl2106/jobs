@@ -8,7 +8,7 @@ Commands
                           approve | skip | applied | interview | offer | rejected | withdrawn | reopen
   remove ID ...           delete jobs from the tracker entirely
   meta KEY=VALUE ...      update data/meta.json (last_scan, register_date, notice, profile_basis)
-  expire DAYS             mark jobs still waiting for review after DAYS days as expired
+  expire [DAYS]           mark jobs still waiting for review after DAYS days (default 1) as expired
   pending-cv              list approved jobs that still need a tailored CV
   summary                 counts by status
   id URL_OR_JOBLISTINGID  print the canonical job id
@@ -291,7 +291,9 @@ def expire(days):
     cutoff = datetime.now(timezone.utc).date().toordinal() - int(days)
     for r in jobs.values():
         try:
-            seen = datetime.fromisoformat(r.get("first_seen", "")[:10]).date().toordinal()
+            # a job restored from Skipped gets a fresh window from when it was restored
+            seen = max(datetime.fromisoformat(d[:10]).date().toordinal()
+                       for d in (r.get("first_seen", ""), r.get("decided_at", "")) if d)
         except ValueError:
             continue
         if r.get("status") == "new" and r.get("decision") in ("", "pending") and seen < cutoff:
@@ -335,7 +337,7 @@ if __name__ == "__main__":
     elif cmd == "meta":
         set_meta(a[1:])
     elif cmd == "expire":
-        expire(a[1] if len(a) > 1 else 3)
+        expire(a[1] if len(a) > 1 else 1)
     elif cmd == "pending-cv":
         pending_cv()
     elif cmd == "summary":
