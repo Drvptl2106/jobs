@@ -101,7 +101,7 @@ Sources are listed in `job_alert_sources` in the config. Read **every** job-aler
 4. **Duplicates:** skip ids already in `data/jobs.csv`, and run
    `python3 scripts/jobs_store.py match "<Company>" "<Title>"` for each listing; if it returns a job, it is
    the same vacancy from another site, so skip it (count it as a duplicate).
-5. Set `source` to the source name (e.g. `totaljobs`), `posted_age` to what the email says (or "New in
+5. Set `source` to the source name (e.g. `glassdoor`), `posted_age` to what the email says (or "New in
    today's alert"), and `email_date` to the email's date.
 6. **Keep a tally for the website** (step 10): `scan_emails` (alert emails read, all sources),
    `scan_listings` (listings in them), `scan_too_old` (dropped as older than 24h), `scan_duplicates`
