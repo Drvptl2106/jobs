@@ -78,6 +78,9 @@
       { k: "Who posted it", c: j.recruiter ? "warn" : "good", v: j.recruiter ? "Recruitment agency" : "Direct employer", d: j.recruiter ? "The real employer may be hidden; ask the recruiter about sponsorship." : "" },
     ];
   }
+  const SOURCES = { glassdoor: "Glassdoor", totaljobs: "Totaljobs", "hunt uk visa sponsors": "Hunt UK Visa Sponsors", huntukvisasponsors: "Hunt UK Visa Sponsors", "newcastle university": "Newcastle Uni", newcastle_university: "Newcastle Uni" };
+  const sourceName = (j) => { const s = String(j.source || "").toLowerCase().replace(/^gmail-?/, ""); return SOURCES[s] || (s ? s.replace(/(^|[\s_-])\w/g, (c) => c.toUpperCase()).replace(/[_-]/g, " ") : ""); };
+  const sourceTag = (j) => sourceName(j) ? `<span class="tag src">${esc(sourceName(j))}</span>` : "";
   const tagFor = (j) => {
     const c = checks(j)[0];
     return c.c === "good" ? `<span class="tag good">Sponsor licence</span>` : c.c === "bad" ? `<span class="tag bad">No sponsor licence</span>` : c.c === "warn" ? `<span class="tag warn">Check sponsor</span>` : "";
@@ -146,7 +149,7 @@
         <div class="t">${esc(j.title)}</div>
         <div class="loc">${esc(j.location || "")}</div>
         ${j.salary ? `<div class="pay">${esc(j.salary)}</div>` : ""}
-        <div class="foot">${tagFor(j)}${j.easy_apply ? `<span class="tag">Easy Apply</span>` : ""}${j.status === "cv_ready" ? `<span class="tag info">CV ready</span>` : ""}${j.status === "expired" || isStale(j) ? `<span class="tag">Expired</span>` : ""}${p ? `<span class="tag info">Sent: ${esc(p.verb)}</span>` : ""}
+        <div class="foot">${sourceTag(j)}${tagFor(j)}${j.easy_apply ? `<span class="tag">Easy Apply</span>` : ""}${j.status === "cv_ready" ? `<span class="tag info">CV ready</span>` : ""}${j.status === "expired" || isStale(j) ? `<span class="tag">Expired</span>` : ""}${p ? `<span class="tag info">Sent: ${esc(p.verb)}</span>` : ""}
           <span class="age ${(postedDaysAgo(j) ?? 9) <= 1 ? "fresh" : ""}">${esc(ageLabel(j))}</span></div>
         ${b === "skipped" ? `<div class="why-skip">${esc(skipReason(j))}</div>` : ""}
         ${b === "cvs" && j.status === "cv_ready" ? `<div class="why-skip ${(postedDaysAgo(j) ?? 0) > 3 ? "warn-txt" : ""}">${esc(ageLong(j))}. Moves to Skipped ${esc(cvDeadline(j))} unless you mark it applied.</div>` : ""}
@@ -249,7 +252,7 @@
     const li = (a) => (a || []).map((x) => `<li>${esc(x)}</li>`).join("");
     const tabs = [["analysis", "Analysis"], ["job", "Job description"], ["visa", "Sponsorship"]];
     const panel = state.tab === "job"
-      ? `<div class="box"><div class="jd">${esc(j.jd_full || j.jd_summary || "The advert hasn't been read yet.")}</div></div>${j.url ? `<a class="btn" href="${esc(safeUrl(j.url))}" target="_blank" rel="noopener">Open the full advert on Glassdoor</a>` : ""}`
+      ? `<div class="box"><div class="jd">${esc(j.jd_full || j.jd_summary || "The advert hasn't been read yet.")}</div></div>${j.url ? `<a class="btn" href="${esc(safeUrl(j.url))}" target="_blank" rel="noopener">Open the full advert${sourceName(j) ? " on " + esc(sourceName(j)) : ""}</a>` : ""}`
       : state.tab === "visa"
       ? `<div class="checks">${checks(j).map((c) => `<div class="check"><div class="dot d-${c.c}">${{ good: "✓", warn: "!", bad: "✕", unk: "?" }[c.c]}</div><div><small>${esc(c.k)}</small><b>${esc(c.v)}</b>${c.d ? `<small>${esc(c.d)}</small>` : ""}</div></div>`).join("")}</div>
          <p style="font-size:.8rem;color:var(--muted);margin:0">A licensed sponsor can still decide not to sponsor a role. Check the job's occupation code going rate too.</p>`
@@ -271,7 +274,7 @@
       <div class="hero"><div class="wrap">${logo(j.company)}
         <h2>${esc(j.title)}</h2><div class="co">${esc(j.company)} · ${esc(j.location || "")}</div>
         ${j.salary ? `<div class="pay">${esc(j.salary)}</div>` : ""}
-        <div class="foot" style="display:flex;gap:6px;flex-wrap:wrap">${tagFor(j)}${j.easy_apply ? `<span class="tag">Easy Apply</span>` : ""}${ageLong(j) ? `<span class="tag ${(postedDaysAgo(j) ?? 9) <= 1 ? "good" : (postedDaysAgo(j) ?? 0) > 3 ? "warn" : ""}">${esc(ageLong(j))}</span>` : ""}${APPLIED.includes(j.status) ? `<span class="status s-${esc(j.status)}">${esc(j.status)}</span>` : ""}</div>
+        <div class="foot" style="display:flex;gap:6px;flex-wrap:wrap">${sourceTag(j)}${tagFor(j)}${j.easy_apply ? `<span class="tag">Easy Apply</span>` : ""}${ageLong(j) ? `<span class="tag ${(postedDaysAgo(j) ?? 9) <= 1 ? "good" : (postedDaysAgo(j) ?? 0) > 3 ? "warn" : ""}">${esc(ageLong(j))}</span>` : ""}${APPLIED.includes(j.status) ? `<span class="status s-${esc(j.status)}">${esc(j.status)}</span>` : ""}</div>
         ${s != null ? `<div class="scorebar" style="--fitc:${fitColor(s)}"><b>${s}/100</b><div class="meter"><i style="width:${s}%"></i></div><span class="tag ${s >= 70 ? "good" : s >= 50 ? "warn" : "bad"}">${esc(recLabel[j.recommendation] || "")}</span></div>` : ""}
       </div></div>
       <div class="tabs"><div class="wrap" role="tablist">${tabs.map(([k, l]) => `<button class="tab" role="tab" data-tab="${k}" aria-selected="${state.tab === k}">${l}</button>`).join("")}</div></div>

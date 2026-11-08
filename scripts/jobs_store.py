@@ -12,7 +12,9 @@ Commands
                           (defaults: review_window_days / cv_apply_window_days in config/profile.json)
   pending-cv              list approved jobs that still need a tailored CV
   summary                 counts by status
-  id URL_OR_JOBLISTINGID  print the canonical job id
+  id URL_OR_JOBLISTINGID  print the canonical Glassdoor job id (gd-<jobListingId>)
+  id --prefix P "Company|Title|Location"   stable id for other sources, e.g. tj-1a2b3c4d5e
+  match "Company" "Title" list tracked jobs that look like the same job (cross-source duplicates)
 
 Run from the repo root. Python 3.9+, stdlib only.
 """
@@ -110,6 +112,31 @@ def to_cell(k, v):
     if isinstance(v, (dict, list)):
         return json.dumps(v, ensure_ascii=False)
     return str(v)
+
+
+def _norm(s):
+    s = re.sub(r"\(.*?\)", " ", str(s or "").lower())
+    s = re.sub(r"\b(ltd|limited|plc|llp|uk|group|the|inc)\b", " ", s)
+    return re.sub(r"[^a-z0-9]+", " ", s).strip()
+
+
+def source_id(prefix, key):
+    """Stable id for sources without their own job ids: prefix + hash of company|title|location."""
+    if not re.fullmatch(r"[a-z]{2}", prefix):
+        raise ValueError("prefix must be two lowercase letters")
+    h = hashlib.sha1(_norm(key).encode(), usedforsecurity=False).hexdigest()[:10]
+    return f"{prefix}-{h}"
+
+
+def match(company, title):
+    """Jobs already tracked with the same company and a near-identical title (any source)."""
+    c, t = _norm(company), _norm(title)
+    out = []
+    for r in read_jobs().values():
+        rc, rt = _norm(r.get("company")), _norm(r.get("title"))
+        if rc and (rc == c or rc.startswith(c) or c.startswith(rc)) and (rt == t or rt.startswith(t) or t.startswith(rt)):
+            out.append({"id": r["id"], "company": r.get("company"), "title": r.get("title"), "status": r.get("status")})
+    return out
 
 
 def job_id(value):
@@ -361,6 +388,8 @@ if __name__ == "__main__":
     elif cmd == "summary":
         summary()
     elif cmd == "id":
-        print(job_id(a[1]))
+        print(source_id(a[2], a[3]) if a[1] == "--prefix" else job_id(a[1]))
+    elif cmd == "match":
+        print(json.dumps(match(a[1], a[2]), indent=1))
     else:
         sys.exit(__doc__)

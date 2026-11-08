@@ -8,8 +8,44 @@
     "branch": "claude/ecstatic-bardeen-eu42vz"
   },
   "site_url": "https://drvptl2106.github.io/jobs/",
-  "job_alert_senders": [
-    "glassdoor.com"
+  "job_alert_sources": [
+    {
+      "name": "Glassdoor",
+      "from": "glassdoor.com",
+      "id_prefix": "gd",
+      "link_host": "www.glassdoor.co.uk",
+      "freshness": "Each listing shows its age (Just posted / 1d / 12d); keep only Just posted, hours, or 1d."
+    },
+    {
+      "name": "Totaljobs",
+      "from": "totaljobsmail.com",
+      "id_prefix": "tj",
+      "link_host": "www.totaljobs.com",
+      "freshness": "Daily alert: every listing in an email from the last 24h is new since the previous alert."
+    },
+    {
+      "name": "Hunt UK Visa Sponsors",
+      "from": "huntukvisasponsors.com",
+      "id_prefix": "hu",
+      "link_host": "huntukvisasponsors.com",
+      "freshness": "Digest of the latest jobs at sponsoring employers; treat listings in an email from the last 24h as new."
+    },
+    {
+      "name": "Newcastle University",
+      "from": "jobs2web.com",
+      "id_prefix": "nu",
+      "link_host": "jobs.ncl.ac.uk",
+      "freshness": "Weekly digest; treat listings in an email from the last 24h as new."
+    }
+  ],
+  "catch_all_job_alerts": true,
+  "ignore_senders": [
+    "naukrigulf.com",
+    "notifications@github.com",
+    "updates-noreply@linkedin.com",
+    "editors-noreply@linkedin.com",
+    "groups-noreply@linkedin.com",
+    "billing-noreply@linkedin.com"
   ],
   "master_cv": "cv/master_cv.pdf",
   "master_cv_text": "cv/master_cv.md",
