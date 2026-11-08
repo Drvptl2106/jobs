@@ -1,0 +1,45 @@
+{
+ "name": "Dhruv Patil",
+ "contact": ["dhruvpatil979@gmail.com", "linkedin.com/in/dhruv-patil21", "Newcastle upon Tyne, UK"],
+ "headline": "Data & Planning Analyst",
+ "summary": "Data analyst with an MSc in Business Analytics (Distinction) and hands-on experience building Power BI dashboards, KPI tracking and demand analysis. Experienced in collecting and validating data, identifying trends and presenting clear reports to stakeholders. Keen to apply this to skills planning and curriculum decisions that match provision to local and regional needs.",
+ "skills": [
+  {"label": "BI & reporting", "items": "Power BI (dashboards, DAX, data modelling), Power Query, Excel (advanced pivots, lookups, data validation, modelling), Tableau"},
+  {"label": "Analysis", "items": "Trend analysis, demand forecasting, regression and statistical analysis, KPI definition and performance tracking, data quality and validation"},
+  {"label": "Technical", "items": "SQL, Python (Pandas, NumPy, Scikit-learn), end-to-end data pipelines"},
+  {"label": "Working style", "items": "Requirements gathering, stakeholder engagement, presenting insights to senior stakeholders, privacy by design"}
+ ],
+ "experience": [
+  {"title": "Freelance Business Analyst", "org": "Visionize Consultancy", "location": "Remote", "dates": "Aug 2024 – Jan 2026", "bullets": [
+   "Built interactive Power BI dashboards and reports surfacing trends, risks and opportunities for client decisions",
+   "Built an end-to-end data pipeline collecting, cleaning and transforming data from multiple sources using Python, SQL and Power Query",
+   "Monitored sector trends, demand patterns and competitors to produce market insights",
+   "Presented findings to clients, bridging technical outputs and business decisions"]},
+  {"title": "Business Analyst (Volunteer)", "org": "GDP Foundation (NGO)", "location": "Remote", "dates": "Feb 2025 – Jan 2026", "bullets": [
+   "Led development of KPI frameworks and performance dashboards, ensuring metrics were meaningful, validated and aligned to goals",
+   "Maintained data quality standards so all outputs were reliable and fit for purpose",
+   "Led stakeholder discussions to clarify requirements and agree priorities and success criteria",
+   "Contributed analysis to a national research study later recognised by NITI Aayog"]},
+  {"title": "Data Analyst Intern", "org": "GDP Foundation (NGO)", "location": "Remote", "dates": "Sep 2024 – Feb 2025", "bullets": [
+   "Analysed data on older adults to identify trends that informed strategic planning and decisions",
+   "Built and maintained KPI dashboards with rigorous quality checks for accuracy and consistency",
+   "Presented findings in structured, stakeholder-facing formats"]},
+  {"title": "Sales Guide", "org": "EE (BT Group)", "location": "Newcastle upon Tyne", "dates": "Jun 2026 – Present", "bullets": [
+   "Led product definition and business analysis for BreakPoint, a live break-tracking tool now used by a 15-person team",
+   "Built in pseudonymised user codes and automatic 14-day data retention (privacy by design); designing a pilot to measure impact"]},
+  {"title": "Foods A&A Assistant (Part-time)", "org": "Marks & Spencer", "location": "Newcastle upon Tyne", "dates": "Dec 2024 – Jun 2026", "bullets": [
+   "Co-built a live performance dashboard tracking completion of date-expired food checks using real store data"]}
+ ],
+ "projects": [
+  {"title": "Power BI Dashboard: Energy and Operational Data", "org": "Personal project", "bullets": [
+   "End-to-end BI solution on large public datasets: Power Query cleaning, Power BI modelling, trend and anomaly analysis"]},
+  {"title": "EV Infrastructure and Market Strategy", "org": "Newcastle University", "bullets": [
+   "Market report using real sales data, sentiment analysis and financial modelling to assess demand; built stakeholder-facing dashboards"]}
+ ],
+ "education": [
+  {"degree": "MSc Business Analytics (Distinction)", "org": "Newcastle University", "dates": "Sep 2024 – Sep 2025", "bullets": [
+   "Modules: Business Visualisation, Advanced Statistics, Data-Driven Decision Making, Operational Analytics, Marketing Analytics"]},
+  {"degree": "BSc Data Science", "org": "Goa University", "dates": "Sep 2021 – May 2024", "bullets": ["CGPA 8.5"]}
+ ],
+ "certifications": ["Advanced Excel Data Visualization (NASBA)", "Microsoft 365 Excel Essential Training (NASBA)", "Data Analytics and Visualization Job Simulation (Accenture, Forage)"]
+}
