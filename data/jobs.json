@@ -1,5 +1,1155 @@
 [
 {
+"id": "gd-1010322422623",
+"source": "glassdoor",
+"title": "Analyst - Pricing",
+"company": "Sainsbury's",
+"location": "London (Store Support Centre, EC1M) and home",
+"salary": "Competitive (not stated by employer)",
+"salary_min": null,
+"salary_max": null,
+"posted_age": "Just posted",
+"first_seen": "2026-11-11",
+"email_date": "2026-11-10T21:32:44Z",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010322422623",
+"easy_apply": false,
+"fit_score": 88,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 18,
+"max": 20,
+"note": "Pricing/commercial data analyst: same family as Data Analyst; CV shows pricing and cost analysis"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 21,
+"max": 25,
+"note": "SQL, Python, structuring problems, storytelling all evidenced in roles; 'strong SQL' at retail scale is a stretch"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 15,
+"max": 15,
+"note": "No years stated; analyst level"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 10,
+"max": 10,
+"note": "Numerate degree asked; MSc Business Analytics (Distinction)"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 8,
+"max": 10,
+"note": "Retail: M&S store role incl. a live performance dashboard, though not commercial pricing"
+},
+{
+"key": "visa",
+"label": "Visa & salary",
+"score": 6,
+"max": 10,
+"note": "Licensed sponsor (J Sainsbury Plc) 4 + advert silent 1 + salary 'competitive' 1"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 5,
+"max": 5,
+"note": "London store support centre and home (hybrid), permanent full time"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "Just posted, direct employer, not Easy Apply"
+}
+],
+"confidence": "high",
+"recommendation": "apply",
+"verdict": "Strong match: an analyst role in Sainsbury's Price & Promotion Analytics team asking for SQL, Python, commercial thinking and clear storytelling, all shown in your CV. Sainsbury's is a licensed sponsor, but salary isn't stated, so confirm it meets the visa threshold.",
+"match_reasons": [
+"SQL and Python used on real datasets at GDP Foundation and in the Visionize client data pipeline",
+"Pricing, cost and economic analysis for Visionize clients matches the pricing focus",
+"Retail experience at M&S, where you co-built a live performance dashboard",
+"Interest in AI tools is evidenced: you built BreakPoint with AI coding tools, which fits their 'agentic AI' ask"
+],
+"gaps": [
+"Salary not stated (Glassdoor estimates £46k-£56k); check it clears £33,400/£41,700 for sponsorship",
+"'Strong SQL' at Sainsbury's scale: be ready for a technical SQL test",
+"No hands-on pricing or promotions analytics in a retailer's head office",
+"London-based hybrid role: a move from Newcastle"
+],
+"jd_summary": "Analyst in Sainsbury's Price & Promotion Analytics team: analyse competitor, customer, sales and pricing data, build models for pricing decisions and measure the impact of price changes and value campaigns. Needs strong SQL, working Python, commercial acumen and storytelling. Permanent, full time, London Store Support Centre and home. Closes 24 Nov 2026. Apply on the employer site via the Glassdoor link.",
+"jd_full": "Analyst - Pricing, Sainsbury's Data & Analytics\nSalary: Competitive plus benefits. Location: London Store Support Centre and home, EC1M 6HA. Full time, permanent. Closing date: 24 November 2026.\nWhat you'll do\nAs an Analyst in the Price & Promotion Analytics team, you will use data and insight to help shape how we price thousands of products and compete in a fast-moving retail market. You will analyse competitor, customer, sales and pricing data to understand our competitive position, uncover trends and opportunities and solve complex commercial problems. From developing analytical models that support smarter pricing decisions to measuring the impact of major price changes and value campaigns, your analysis will help us understand what is working and where to act next. You will work with Commercial Trading, Pricing, Value Strategy, Data Science and Engineering, turning business questions into robust analysis and clear recommendations.\nWho you are\nCommercially minded, curious and confident with ambiguity; strong SQL and Python; curious about AI and keen to experiment with agentic tools and workflows; collaborative, a clear communicator and data storyteller; able to balance multiple priorities.\nEssential criteria\n• Strong numerate background (degree or equivalent experience)\n• Strong SQL skills and working knowledge of Python\n• Experience with GitHub, Jira, Astronomer/Apache Airflow, or agentic AI tools and workflows is advantageous but not required\n• Strong commercial acumen, connecting findings to customer, competitive and business outcomes\n• Ability to deliver robust, high-impact analysis\n• Skilled at simplifying complexity and structuring ambiguous problems\n• Strong communication and storytelling ability\n• Comfortable managing multiple priorities at speed\n• Growth mindset and proactive approach to development\nBenefits include colleague discount, pension and life cover, performance bonus up to 10%, holiday purchase, season ticket loans and flexible working where possible.",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "J Sainsbury Plc",
+"town": "London",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "unknown",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-11T08:51:23+00:00"
+},
+{
+"id": "gd-1010321953951",
+"source": "glassdoor",
+"title": "Operations Analyst",
+"company": "Robert Walters Outsourcing",
+"location": "Glasgow, Scotland (hybrid, 3 days in office)",
+"salary": "Not stated",
+"salary_min": null,
+"salary_max": null,
+"posted_age": "23h",
+"first_seen": "2026-11-11",
+"email_date": "2026-11-11T08:29:46Z",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010321953951",
+"easy_apply": true,
+"fit_score": 67,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 8,
+"max": 20,
+"note": "Operations analyst title, but duties are reference-data upkeep and entity validation"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 23,
+"max": 25,
+"note": "Analytical, Excel/PowerPoint, data quality reviews, stakeholder management and prioritising all evidenced"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 15,
+"max": 15,
+"note": "Open to recent graduates"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 10,
+"max": 10,
+"note": "Relevant degree; MSc Business Analytics"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 3,
+"max": 10,
+"note": "Financial services: no link; ops knowledge only desirable"
+},
+{
+"key": "visa",
+"label": "Visa & salary",
+"score": 2,
+"max": 10,
+"note": "Recruiter, client unnamed 0 + advert silent 1 + salary not stated 1; employing agency (Resource Solutions Ltd) not found on register"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "12-month contract via an outsourcing agency, Glasgow hybrid (3 days office)"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 3,
+"max": 5,
+"note": "23 hours old; Easy Apply -1; recruiter with unnamed client -1"
+}
+],
+"confidence": "high",
+"recommendation": "maybe",
+"verdict": "Graduate-friendly data-quality role for an unnamed global financial services firm, and your data validation work fits. But it is a 12-month agency contract with the client unnamed and no salary, so sponsorship is very doubtful. Ask the recruiter about it before you spend time on it.",
+"match_reasons": [
+"Maintained data quality standards and validated outputs at GDP Foundation",
+"Rigorous quality checks on KPI dashboards for accuracy and consistency",
+"Stakeholder engagement across teams at GDP Foundation and Visionize",
+"Advanced Excel and PowerPoint for stakeholder-facing outputs"
+],
+"gaps": [
+"Recruiter advert with the end client unnamed, so the sponsor can't be checked; the employing agency isn't on the Skilled Worker register",
+"12-month contract, salary not stated",
+"Mostly reference-data entry and entity validation rather than analysis",
+"Glasgow, 3 days in office: a move from Newcastle"
+],
+"jd_summary": "12-month contract through Robert Walters Outsourcing for a global financial services client: create and maintain client, issuer and vendor reference-data records, validate legal entities from documents and run data quality reviews. Open to recent graduates; MS Office, attention to detail, stakeholder skills. Glasgow, hybrid 3 days in office. Easy Apply on Glassdoor; a recruiter calls shortlisted applicants.",
+"jd_full": "Operations Analyst, Robert Walters Outsourcing (on behalf of a client)\nLocation: Glasgow. Role type: Contract, 12 months. Work setup: Hybrid, 3 days in office.\nWho you will work with: a global financial services firm that manages wealth, navigates complex markets and provides risk management solutions.\nWhat you'll do\n• Create, update and maintain client, issuer and vendor records in the system\n• Investigate approved sources and analyse documents to determine key attributes for operational, financial and regulatory purposes\n• Ensure reference data is accurate, up to date and compliant with quality standards\n• Validate legal entities using approved documentation, following naming and address protocols\n• Collaborate with stakeholders to ensure compliance with policies and regulations\n• Perform data quality reviews and update proprietary systems\nWhat you bring\n• Operations-related experience or industry knowledge is desirable\n• Strong analytical skills, attention to detail and excellent communication\n• Open to recent graduates and experienced candidates with a relevant degree\n• Proficiency in MS Office (Excel, PowerPoint, Word)\n• Ability to prioritise under pressure and adapt\n• Self-motivated; able to identify and escalate risks\n• Strong stakeholder management skills\nRecruited on behalf of the client through Robert Walters' Outsourcing service line (Resource Solutions Limited, trading as Robert Walters, acting as an employment business and agency).",
+"sponsor_register": "possible",
+"sponsor_match": {
+"name": "Robert Walters PLC",
+"town": "London",
+"rating": "Worker (A rating)",
+"route": "Global Business Mobility: Senior or Specialist Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "unknown",
+"recruiter": true,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-11T08:51:23+00:00"
+},
+{
+"id": "gd-1010321102657",
+"source": "glassdoor",
+"title": "Trading and Operations Analyst",
+"company": "Synthomer",
+"location": "Harlow, Essex (with travel to London Victoria; 4 days in office)",
+"salary": "Not stated by employer",
+"salary_min": null,
+"salary_max": null,
+"posted_age": "1d",
+"first_seen": "2026-11-11",
+"email_date": "2026-11-10T20:47:48Z",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010321102657",
+"easy_apply": true,
+"fit_score": 61,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 12,
+"max": 20,
+"note": "Commercial/trading finance analyst with Power BI: adjacent to BI and operations analyst"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 19,
+"max": 25,
+"note": "Power BI dashboards, advanced Excel, data validation and stakeholder reporting evidenced; no SAP, P&L or commodity/FX work"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 2,
+"max": 15,
+"note": "Essential: minimum 3 years in finance, commercial finance, business analytics or trading; CV shows about 1-2 years of mostly part-time/volunteer analysis"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 10,
+"max": 10,
+"note": "Numerate degree asked; MSc Business Analytics"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 3,
+"max": 10,
+"note": "Chemicals manufacturing/trading: no link; sector experience only desirable"
+},
+{
+"key": "visa",
+"label": "Visa & salary",
+"score": 6,
+"max": 10,
+"note": "Licensed sponsor (Synthomer plc) 4 + advert silent 1 + salary not stated 1"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 5,
+"max": 5,
+"note": "Harlow, Essex (some London Victoria), permanent; 4 days a week in office"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 4,
+"max": 5,
+"note": "1 day old, Easy Apply -1"
+}
+],
+"confidence": "high",
+"recommendation": "maybe",
+"verdict": "The Power BI, Excel and commercial reporting work matches your CV well and Synthomer is a licensed sponsor, but the advert asks for at least 3 years in finance, trading or business analytics. Worth a try only if you can frame your Visionize and GDP Foundation work as that experience.",
+"match_reasons": [
+"Power BI dashboards and data models for Visionize clients and the energy-data personal project",
+"Advanced Excel (NASBA certified) and data reconciliation/quality checks at GDP Foundation",
+"Pricing, cost and economic analysis for clients fits the profitability analysis",
+"Last-mile delivery MILP model shows supply chain and operations analytics"
+],
+"gaps": [
+"Essential minimum 3 years' professional experience; CV shows about 1-2 years",
+"No SAP/ERP, P&L or management accounts experience",
+"No commodity price or FX exposure reporting",
+"Harlow, 4 days in office: a move from Newcastle; salary not stated, so check the visa threshold"
+],
+"jd_summary": "Trading and Operations analyst (titled SSO Trading and Operations Accountant internally, but not a traditional accounting role) in Synthomer's Strategic Sourcing Operations team: analyse trading and raw-material profitability, commodity and FX exposure, build Power BI dashboards, support month-end and forecasting. Needs a numerate degree, 3+ years in finance/business analytics/trading, Power BI and advanced Excel. Harlow-based, 4 days in office. Easy Apply on Glassdoor.",
+"jd_full": "SSO Trading and Operations Accountant (advertised as Trading and Operations Analyst), Synthomer, Strategic Sourcing Operations team\nDespite the title, this is not a traditional accounting role. It sits at the intersection of trading, procurement, supply chain and commercial finance, helping the business understand how market movements, pricing decisions and raw material flows affect profitability.\nWhat you'll be doing\n• Analyse trading activity, market positions and profitability across raw material transactions\n• Monitor commodity price and foreign exchange exposures and report on their financial impact\n• Produce daily, weekly and monthly commercial performance reporting\n• Develop and maintain Power BI dashboards and reports\n• Support month-end reporting, management accounts and profitability analysis\n• Investigate trends, variances and data discrepancies across SAP and other systems\n• Work with Trading, Procurement, Operations and Supply Chain teams\n• Support budgeting, forecasting and business planning\n• Monitor trading controls, delegations of authority and governance\n• Reconcile and validate data across SAP, trading and operational systems\n• Support analysis of procurement activity, market trends and supply chain performance\nEssential\n• Degree in a highly numerical discipline (Mathematics, Economics, Finance, Data Analytics or related)\n• Minimum 3 years of professional experience in finance, commercial finance, business analytics, trading or a related analytical function\n• Strong analytical and problem-solving skills with complex datasets\n• Hands-on Power BI experience building dashboards and insights\n• Advanced Excel with large, complex datasets\n• Interest in commercial operations, trading, procurement, supply chains and market analytics\n• Experience analysing business performance and communicating findings\n• Attention to detail, strong communication, proactive attitude\nDesirable\n• Trading, procurement, supply chain or manufacturing environments\n• P&L reporting, management accounting or financial analysis\n• SAP or other ERP systems\n• Commodity markets, FX exposure or supply chain operations\n• Global or multi-site organisation\nLocation: Harlow, Essex, with frequent travel to London Victoria HQ; possible hybrid split Harlow/London; 4 days a week in the office. Benefits: competitive pay, discretionary bonus, healthcare, pension, learning and development.",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "Synthomer plc",
+"town": "Harlow",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "unknown",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-11T08:51:23+00:00"
+},
+{
+"id": "gd-1010321654610",
+"source": "glassdoor",
+"title": "Associate, Transaction Management Representative",
+"company": "S&P Global",
+"location": "London, England (hybrid, 2+ office days)",
+"salary": "Not stated by employer",
+"salary_min": null,
+"salary_max": null,
+"posted_age": "18h",
+"first_seen": "2026-11-11",
+"email_date": "2026-11-10T20:47:48Z",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010321654610",
+"easy_apply": false,
+"fit_score": 61,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 5,
+"max": 20,
+"note": "Sales operations/order processing: analyst-adjacent, outside target roles"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 18,
+"max": 25,
+"note": "High-volume accuracy, communication and advanced Excel evidenced; no macros, Salesforce or Hebrew"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 11,
+"max": 15,
+"note": "Typically 1-2 years in operations or client service"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "Not stated"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 3,
+"max": 10,
+"note": "Credit ratings/capital markets: no link; only 'helpful'"
+},
+{
+"key": "visa",
+"label": "Visa & salary",
+"score": 6,
+"max": 10,
+"note": "Licensed sponsor (S&P Global Ltd) 4 + advert silent 1 + salary not stated 1"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 5,
+"max": 5,
+"note": "London, permanent; at least 2 office days a week"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "18 hours old, direct employer"
+}
+],
+"confidence": "high",
+"recommendation": "maybe",
+"verdict": "Licensed sponsor with a 1-2 year experience level you can argue for, but it's sales-operations order processing and billing rather than business or data analysis. Hebrew is also preferred.",
+"match_reasons": [
+"Advanced Excel (pivot tables, lookups, validation; NASBA certified)",
+"Daily work on EE's sales and account platforms gives sales-operations insight",
+"Accurate work across multiple deadlines at GDP Foundation",
+"Cross-functional collaboration with business and technical teams"
+],
+"gaps": [
+"Sales operations and billing role, not an analyst role",
+"No Excel macros or Salesforce/CRM administration shown",
+"Hebrew preferred; no capital markets or ratings product knowledge",
+"Salary not stated (Glassdoor estimates £38k-£58k); London, a move from Newcastle"
+],
+"jd_summary": "Transaction Management Representative at S&P Global Ratings: order execution, billing and system entry for ratings sales, handling client and internal queries, working with sales, finance, data and product teams under regulatory controls. Advanced Excel; 1-2 years in operations or client service; Hebrew preferred. London, 2+ office days. Apply on the employer site.",
+"jd_full": "Associate, Transaction Management Representative, S&P Global Ratings (Grade 09)\nTransaction Management enables and manages sales fulfilment in an active sales environment, with strong data and systems management and responsive customer service before and after sale, and plays a key role in audit and regulatory compliance.\nWhat you'll do\n• Support sales implementation, including order execution, accurate billing and system entry\n• Work with Business Developers, Relationship Managers, Product Managers and other Transaction Managers to own the sales pipeline and handle transactional customer queries\n• Act as a bridge between Sales and data, IT, finance and product teams\n• Know pricing strategies and approval guidelines; be a reliable contact for client queries\n• Ensure adherence to regulations and policies while managing high-volume workflows\nRequired\n• Ability to manage high-volume, fast-changing workstreams accurately\n• Strong attention to detail and results-oriented approach\n• Strong oral and written communication\n• Advanced Excel, including formulas, macros and pivot tables\n• Fluent English; Hebrew preferred (professional working proficiency)\nPreferred\n• Salesforce.com or similar CRM\n• Understanding of ratings products and capital markets\nAdditional information\n• Typically 1 to 2 years of relevant experience in operations, client service or a related field\n• At least one in-person interview at an S&P Global Ratings office\n• Office minimum two days per week",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "S&P Global Limited",
+"town": "London",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "unknown",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-11T08:51:23+00:00"
+},
+{
+"id": "gd-1010321465522",
+"source": "glassdoor",
+"title": "Business Compliance Analyst, Client Onboarding",
+"company": "CSC",
+"location": "London, England (hybrid)",
+"salary": "Not stated by employer",
+"salary_min": null,
+"salary_max": null,
+"posted_age": "23h",
+"first_seen": "2026-11-11",
+"email_date": "2026-11-10T21:32:44Z",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010321465522",
+"easy_apply": false,
+"fit_score": 58,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 5,
+"max": 20,
+"note": "KYC/compliance onboarding: analyst in name, duties outside target roles"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 11,
+"max": 25,
+"note": "Communication, deadlines and teamwork evidenced; no KYC, AML, UBO or sanctions screening experience"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 15,
+"max": 15,
+"note": "No years stated; compliance/onboarding experience only beneficial"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "Not stated"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 3,
+"max": 10,
+"note": "Capital markets: no link; finance experience only beneficial"
+},
+{
+"key": "visa",
+"label": "Visa & salary",
+"score": 6,
+"max": 10,
+"note": "Licensed sponsor (CSC Administrative Services Ltd) 4 + advert silent 1 + salary not stated 1"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 5,
+"max": 5,
+"note": "London hybrid, permanent full time"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "23 hours old, direct employer"
+}
+],
+"confidence": "high",
+"recommendation": "maybe",
+"verdict": "Open entry route into capital-markets onboarding with a licensed sponsor and no years required, but the work is KYC and compliance screening rather than business or data analysis, and the CV shows none of it.",
+"match_reasons": [
+"Licensed Skilled Worker sponsor, permanent role, no minimum experience",
+"Detail-focused data quality and documentation work at GDP Foundation and Visionize",
+"Managing multiple deadlines at once (GDP Foundation reporting)",
+"Clear written briefs and client-facing presentations at Visionize"
+],
+"gaps": [
+"No KYC, AML, PEP/sanctions or beneficial-ownership experience",
+"Compliance role, not a business or data analyst role",
+"Salary not stated (Glassdoor estimates about £40k-£42k); check the visa threshold",
+"London-based: a move from Newcastle"
+],
+"jd_summary": "Capital Markets Business Compliance Analyst at CSC: main client contact for KYC documents during deal onboarding and annual refreshes, UBO and risk assessments, PEP/sanctions screening, static data changes and checking transaction documents with Group Compliance. Permanent, full time, hybrid in London, 37.5 hours. Apply on the employer site.",
+"jd_full": "Business Compliance Analyst, Client Onboarding, CSC (Capital Markets)\nLocation: London. Permanent, full time, hybrid. 37.5 hours per week.\nAbout the role: assists with client onboarding of capital markets deals with other CSC teams, liaising with transaction parties during set-up, managing the transaction file, collating KYC information with Group Compliance and securing approvals before deal closing. Also responsible for static data management and completing annual KYC refreshes on time.\nMain responsibilities\n• Primary point of contact for clients to request, collect and review KYC documentation at onboarding and periodic reviews\n• Work with Group Compliance and present deals to the Business Acceptance Committee if required\n• Manage deal onboarding with the wider capital markets team\n• Review client ownership structures; perform UBO and risk assessments\n• Conduct PEP, sanctions and compliance screenings and analyse results; manage static data changes\n• Review and approve due execution of transaction documents\n• Handle ad hoc transaction enquiries\nRequirements\n• Understanding of entity structures (Ltd, PLC, partnerships, trusts, charities) desirable\n• Legal background or compliance/onboarding experience beneficial\n• Finance-related work beneficial\n• Familiarity with KYC identification and verification requirements\n• Ability to apply compliance policies and procedures\n• Knowledge of money laundering and terrorist financing typologies\n• Excellent communication and interpersonal skills\n• Ability to balance priorities and meet deadlines; work independently and in a team",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "CSC Administrative Services Limited",
+"town": "London",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "unknown",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-11T08:51:23+00:00"
+},
+{
+"id": "gd-1010322244731",
+"source": "glassdoor",
+"title": "Relationship Analyst",
+"company": "Wellington Management",
+"location": "London, England (4 days in office)",
+"salary": "Not stated",
+"salary_min": null,
+"salary_max": null,
+"posted_age": "Just posted",
+"first_seen": "2026-11-11",
+"email_date": "2026-11-10T21:32:44Z",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010322244731",
+"easy_apply": false,
+"fit_score": 46,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 5,
+"max": 20,
+"note": "Client service and sales support in asset management, not a target analyst role"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 15,
+"max": 25,
+"note": "MS Office, analysis and communication evidenced; no investment products or capital markets knowledge"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 2,
+"max": 15,
+"note": "3+ years' client service or sales support in investment management"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "Not stated"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 0,
+"max": 10,
+"note": "Asks for investment management industry experience the CV doesn't have"
+},
+{
+"key": "visa",
+"label": "Visa & salary",
+"score": 6,
+"max": 10,
+"note": "Licensed sponsor 4 + advert silent 1 + salary not stated 1"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 5,
+"max": 5,
+"note": "London, permanent; 4 days a week in office"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "Just posted, direct employer"
+}
+],
+"confidence": "high",
+"recommendation": "skip",
+"verdict": "Licensed sponsor, but this is a client-service and sales-support role that asks for 3+ years in investment management, which your CV doesn't show.",
+"match_reasons": [
+"Client-facing presentations and requirement gathering at Visionize",
+"Proficient in Excel and PowerPoint"
+],
+"gaps": [
+"3+ years' client service or sales support in investment management required",
+"No capital markets or investment product knowledge",
+"SMCR certified role; client service rather than analysis",
+"London, 4 days in office: a move from Newcastle"
+],
+"jd_summary": "Relationship Analyst in Wellington Management's London Global Wealth Management team: prepares client and prospect presentations, coordinates RFPs/RFIs and due diligence questionnaires, keeps CRM data up to date and answers client enquiries on portfolios, fees and markets. 3+ years' investment management client service. London, 4 days a week in office. Apply on the employer site.",
+"jd_full": "Relationship Analyst, Wellington Management (London, Client Platform, Global Wealth Management)\nSupports business development and relationship management with prospects and clients across UK and European sub-advisory markets: coordinating client servicing, maintaining CRM data, analysing opportunities and overseeing information requests.\nRole responsibilities\n• Prepare standard and customised client and prospect presentations, briefing books and meeting notes\n• Take part in client, consultant and prospect meetings and calls\n• Conduct analysis and respond to ad hoc enquiries on portfolios, investment guidelines, market trends, regulation and fees\n• Act as point of contact for client organisations and coordinate key client communications\n• Support roadshows and client review meetings\n• Capture and maintain client data in internal systems\n• Qualify and coordinate RFIs, due diligence questionnaires and RFPs\nThe successful candidate is likely to have\n• 3+ years of client service or sales support experience in investment management; wholesale client experience advantageous\n• Proficiency in Word, PowerPoint and Excel\n• Interest in a career in investment management\n• Good understanding of capital markets and/or investment products\n• Self-starter with high intellectual curiosity; excellent written and spoken English\n• A natural collaborator\nSMCR certified persons role. Office 4 days a week, 1 day remote.",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "Wellington Management International Limited",
+"town": "London",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "unknown",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-11T08:51:23+00:00"
+},
+{
+"id": "gd-1010322409900",
+"source": "glassdoor",
+"title": "ERP R2R Oracle Functional System Analyst",
+"company": "Skanska",
+"location": "Leavesden Park, Watford, England",
+"salary": "Not stated by employer",
+"salary_min": null,
+"salary_max": null,
+"posted_age": "Just posted",
+"first_seen": "2026-11-11",
+"email_date": "2026-11-10T20:47:48Z",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010322409900",
+"easy_apply": false,
+"fit_score": 39,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 5,
+"max": 20,
+"note": "Oracle ERP finance application support: systems role, outside target analyst families"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 4,
+"max": 25,
+"note": "Requires Oracle Cloud ERP, R2R, EBS and PBCS administration; CV shows none (stakeholder skills only)"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 6,
+"max": 15,
+"note": "'Proven experience' supporting Oracle Cloud ERP, roughly 2-3 years"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "Not stated (Oracle certs, ITIL 4 desirable)"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 0,
+"max": 10,
+"note": "Requires ERP finance systems experience the CV doesn't have"
+},
+{
+"key": "visa",
+"label": "Visa & salary",
+"score": 6,
+"max": 10,
+"note": "Licensed sponsor (Skanska UK Plc) 4 + advert silent 1 + salary not stated 1"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 5,
+"max": 5,
+"note": "Watford (Leavesden Park), permanent"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "Just posted, direct employer"
+}
+],
+"confidence": "high",
+"recommendation": "skip",
+"verdict": "Skanska is a licensed sponsor, but this is Oracle ERP finance system support that needs proven Oracle Cloud and Record-to-Report experience, none of which is in your CV.",
+"match_reasons": [
+"Stakeholder engagement and user support from BreakPoint and Visionize",
+"Process documentation and data quality work at GDP Foundation"
+],
+"gaps": [
+"No Oracle Cloud ERP, E-Business Suite or PBCS experience",
+"No Record-to-Report finance process knowledge (GL, fixed assets, tax)",
+"IT application-support role rather than business analysis",
+"Watford office: a move from Newcastle; salary not stated"
+],
+"jd_summary": "Oracle ERP finance system analyst in Skanska's Technology & Sustainability team: administer and support Oracle ERP Finance, manage incidents and service requests, liaise with the managed service provider, monitor interfaces and handle user access. Needs proven Oracle Cloud ERP and R2R experience. Leavesden Park, Watford. Apply on the employer site.",
+"jd_full": "ERP R2R Oracle Functional System Analyst, Skanska (Technology & Sustainability), Leavesden Park, Watford\nResponsible for the stability of the Oracle ERP system in Central Europe, supporting Oracle ERP Finance tasks and working with the external Managed Service Provider to resolve incidents.\nYou will\n• Administer and support the Oracle ERP Finance system (service, performance, security, compliance)\n• Manage incidents, service requests and user support queries to agreed service levels\n• Liaise with third-party suppliers and managed service providers to resolve system and workflow issues\n• Monitor system interfaces, integrations and events\n• Advise business users on best practice, functionality and workarounds\n• Support ERP security and access management, including provisioning, controls, audits and post-clone activities\nWe are looking for\n• Proven experience supporting and administering Oracle Cloud ERP across core Finance modules\n• Expertise in Record-to-Report processes (General Ledger, Fixed Assets, Expenses, Tax)\n• Oracle E-Business Suite Financials experience; Oracle certifications advantageous\n• Functional knowledge of Oracle Projects, Procurement, Payables, Assets and GL\n• Oracle workflow automation, system administration and PBCS administration\n• Excellent stakeholder management; ITIL 4 desirable\nOffer: digital GP service, financial wellbeing support, professional development, enhanced family benefits, flexible working where possible.",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "Skanska UK Plc",
+"town": "Watford",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "unknown",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-11T08:51:23+00:00"
+},
+{
+"id": "gd-1010322264658",
+"source": "glassdoor",
+"title": "Business Analyst (Discovery)",
+"company": "Scrumconnect",
+"location": "Newcastle upon Tyne, England",
+"salary": "£280-£300 per day, Inside IR35 (contract)",
+"salary_min": null,
+"salary_max": null,
+"posted_age": "Just posted",
+"first_seen": "2026-11-11",
+"email_date": "2026-11-10T17:21:04Z",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010322264658",
+"easy_apply": false,
+"fit_score": 30,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 20,
+"max": 20,
+"note": "Business Analyst on a discovery: requirements, process mapping, user stories"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 20,
+"max": 25,
+"note": "Requirements, process maps, root cause, user stories, workshops all evidenced; no BPMN/SIPOC named, no UK government delivery"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 0,
+"max": 15,
+"note": "Advert states 5+ years' experience (experience gate: capped at 30)"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "Not stated (BCS diploma only desirable)"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 3,
+"max": 10,
+"note": "UK government/public services experience asked; GDP Foundation research was for an Indian policy body"
+},
+{
+"key": "visa",
+"label": "Visa & salary",
+"score": 6,
+"max": 10,
+"note": "Licensed sponsor (Scrumconnect) 4 + advert silent 1 + day rate, no annual salary 1"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 0,
+"max": 5,
+"note": "Short discovery contract at £280-£300/day Inside IR35"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "Opened 10 Nov, direct employer"
+}
+],
+"confidence": "high",
+"recommendation": "skip",
+"verdict": "The tasks are almost exactly your BA skill set and it's in Newcastle, but it asks for 5+ years and is a short day-rate contract inside IR35, which is very unlikely to come with visa sponsorship.",
+"match_reasons": [
+"Current-state process analysis, root cause analysis and requirements at GDP Foundation",
+"User stories, backlog refinement and workshop facilitation",
+"BreakPoint: defined requirements, business rules and validation for a live internal tool",
+"Based in Newcastle upon Tyne, where you live"
+],
+"gaps": [
+"Advert states 5+ years' experience",
+"Short discovery contract on a day rate (Inside IR35), not a sponsorable permanent job",
+"UK government or public-sector delivery experience asked for",
+"No named BPMN/SIPOC or service-blueprint experience"
+],
+"jd_summary": "Short discovery contract for a BA at Scrumconnect Consulting (UK government digital work): interviews and workshops, current- and future-state maps of a content request and publishing process, requirements for intake forms/service desk/chatbot options, user stories and acceptance criteria. 5+ years, £280-£300/day Inside IR35, Newcastle. Apply on the employer site.",
+"jd_full": "Business Analyst (Discovery), Scrumconnect Consulting\nDate opened 10/11/2026. Full time. Government & Public Sector. Work experience 5+ years. Salary £280-300 per day Inside IR35. Newcastle upon Tyne, NE1.\nA Business Analyst to join a short discovery into content request and publishing processes, uncovering the real problems behind slow, poor-quality requests and defining requirements used to assess service-desk and chatbot options.\nWhat you will do\n• Plan and run interviews, workshops and process walkthroughs\n• Document the current end-to-end request journey: submission, triage, validation, prioritisation, allocation, escalation, publishing and closure\n• Quantify request volumes, hand-offs, delays, rework, failure demand and data quality issues\n• Identify pain points and root causes\n• Create current-state and future-state process maps\n• Define requirements for intake forms, queues, statuses, service levels, dashboards, escalation, approvals and audit records\n• Specify validation rules for the chatbot or intake process\n• Develop personas, user journeys, use cases, user stories and acceptance criteria\n• Maintain traceability; support prototype testing; record assumptions, risks and decisions\n• Contribute to the options assessment, operating model, roadmap and recommendations\nWhat you will bring\n• Strong BA experience in digital discovery, service design, workflow or process transformation\n• Process mapping (BPMN, SIPOC, value-stream mapping or service blueprints)\n• Requirements gathering from operational, content, product and technical stakeholders\n• User stories, acceptance criteria, business rules, functional requirements and traceability\n• Strong analytical skills; workshop facilitation and stakeholder management\n• Experience in UK government, public services or a regulated environment\nDesirable\n• Content publishing, request management or service-desk services\n• Government content standards and accessibility\n• Microsoft Power Platform, Dynamics 365 or similar\n• BCS International Diploma in Business Analysis",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "Scrumconnect",
+"town": "staines",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "unknown",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-11T08:51:23+00:00"
+},
+{
+"id": "gd-1010320934702",
+"source": "glassdoor",
+"title": "Assistant Commodities Analyst",
+"company": "Windward Shipping",
+"location": "London, England (in person, SE1)",
+"salary": "Up to £32,000 (Employer provided)",
+"salary_min": 32000,
+"salary_max": 32000,
+"posted_age": "1d",
+"first_seen": "2026-11-11",
+"email_date": "2026-11-10T21:32:44Z",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010320934702",
+"easy_apply": true,
+"fit_score": 25,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 15,
+"max": 20,
+"note": "Market/commodities analyst: close to Market / Research Analyst"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 20,
+"max": 25,
+"note": "Excel, numeracy, trend analysis and market reports evidenced; no commodities or freight knowledge"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 11,
+"max": 15,
+"note": "Previous similar experience 'preferable', not essential"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 10,
+"max": 10,
+"note": "Numerate degree preferred; MSc Business Analytics"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 6,
+"max": 10,
+"note": "Power BI project on public energy datasets; no shipping or commodities work"
+},
+{
+"key": "visa",
+"label": "Visa & salary",
+"score": 4,
+"max": 10,
+"note": "Licensed sponsor 4 + advert requires UK work authorisation 0 + £32,000 below new-entrant rate 0. Gates: no_sponsorship (cap 25), salary_below (cap 35)"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 5,
+"max": 5,
+"note": "London, permanent full time, in person"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 4,
+"max": 5,
+"note": "1 day old, Easy Apply -1"
+}
+],
+"confidence": "high",
+"recommendation": "skip",
+"verdict": "Good entry-level market analyst role, but the advert requires existing UK work authorisation and pays £32,000, below the £33,400 new-entrant rate, so it can't sponsor a Skilled Worker visa.",
+"match_reasons": [
+"Market and sector analysis and trend monitoring for Visionize clients",
+"Advanced Excel (NASBA certified) and large-dataset analysis",
+"Power BI project on public energy datasets links to energy markets"
+],
+"gaps": [
+"Advert says UK work authorisation is required",
+"£32,000 is below the £33,400 new-entrant salary threshold",
+"No commodities, dry bulk or freight market knowledge",
+"In-person London role: a move from Newcastle"
+],
+"jd_summary": "Assistant to the company Commodities Analyst at a London dry-bulk shipbroker: weekly/monthly dry bulk market reports, trend monitoring, IMO regulation impacts and broker liaison. Numerate degree preferred, Excel and Word. Up to £32,000, permanent, in person at London SE1. UK work authorisation required. Easy Apply on Glassdoor.",
+"jd_full": "Assistant Commodities Analyst, Windward Shipping (London HQ)\nYour role\n• Collaborate with the Company Commodities Analyst, contributing to the data, broker and finance teams, with a focus on dry bulk\n• Assist in preparing weekly and monthly dry bulk market reports\n• Analyse and identify market trends and patterns through continuous monitoring\n• Stay updated on IMO regulatory changes and help evaluate their market impact\n• Build relationships with brokers and keep them informed about market activity\n• Support management with management information and ad hoc reports\n• Attend international forums and conferences if required\nWe are looking for\n• Preferably a degree in a numerical subject\n• A strong desire to develop knowledge across energy and freight markets\n• Analytical rigour, attention to detail and an investigative mindset\n• Excellent analysis and numeracy skills; problem-solving and collaboration\n• Previous work experience in a similar role is preferable\n• Excellent Excel and Word skills; excellent communication; fluent English\n• Understanding of trade flows across major commodities; willingness to travel\nJob type: Permanent, full time. Pay: up to £32,000 per year. Benefits include pension, private medical and dental insurance, gym membership.\nCommute: London SE1 2HZ (required). Work authorisation: United Kingdom (required). Work location: in person.",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "Windward Shipping (London) Ltd",
+"town": "London",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "right_to_work_required",
+"salary_check": "below_threshold",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-11T08:51:23+00:00"
+},
+{
+"id": "gd-1010321207357",
+"source": "glassdoor",
+"title": "Senior Finance Analyst - 12-month FTC",
+"company": "Visa Inc.",
+"location": "London, England",
+"salary": "",
+"salary_min": null,
+"salary_max": null,
+"posted_age": "1d",
+"first_seen": "2026-11-11",
+"email_date": "2026-11-10T20:47:48Z",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010321207357",
+"easy_apply": true,
+"fit_score": null,
+"score_breakdown": [],
+"confidence": "",
+"recommendation": "skip",
+"verdict": "Outside your target roles: senior finance (FP&A) role, not a business or data analyst role.",
+"match_reasons": [],
+"gaps": [],
+"jd_summary": "",
+"jd_full": "",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "Visa Europe Limited",
+"town": "London",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "",
+"salary_check": "unknown",
+"recruiter": false,
+"decision": "skipped",
+"decided_at": "",
+"status": "skipped",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-11T08:51:23+00:00",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-11T08:51:23+00:00"
+},
+{
+"id": "gd-1010321096535",
+"source": "glassdoor",
+"title": "Credit Risk Analyst",
+"company": "LSEG (London Stock Exchange Group)",
+"location": "London, England",
+"salary": "",
+"salary_min": null,
+"salary_max": null,
+"posted_age": "1d",
+"first_seen": "2026-11-11",
+"email_date": "2026-11-10T20:47:48Z",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010321096535",
+"easy_apply": false,
+"fit_score": null,
+"score_breakdown": [],
+"confidence": "",
+"recommendation": "skip",
+"verdict": "Outside your target roles: credit risk finance role, not a business or data analyst role.",
+"match_reasons": [],
+"gaps": [],
+"jd_summary": "",
+"jd_full": "",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "London Stock Exchange Group plc",
+"town": "London",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "",
+"salary_check": "unknown",
+"recruiter": false,
+"decision": "skipped",
+"decided_at": "",
+"status": "skipped",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-11T08:51:23+00:00",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-11T08:51:23+00:00"
+},
+{
+"id": "gd-1010322118622",
+"source": "glassdoor",
+"title": "ALM Analyst",
+"company": "Shawbrook Bank",
+"location": "London, England",
+"salary": "",
+"salary_min": null,
+"salary_max": null,
+"posted_age": "7h",
+"first_seen": "2026-11-11",
+"email_date": "2026-11-10T20:47:48Z",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010322118622",
+"easy_apply": false,
+"fit_score": null,
+"score_breakdown": [],
+"confidence": "",
+"recommendation": "skip",
+"verdict": "Outside your target roles: bank treasury asset-liability management role, not a business or data analyst role.",
+"match_reasons": [],
+"gaps": [],
+"jd_summary": "",
+"jd_full": "",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "SHAWBROOK BANK LIMITED",
+"town": "London",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "",
+"salary_check": "unknown",
+"recruiter": false,
+"decision": "skipped",
+"decided_at": "",
+"status": "skipped",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-11T08:51:23+00:00",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-11T08:51:23+00:00"
+},
+{
 "id": "gd-1010321217312",
 "source": "glassdoor",
 "title": "EMRS Settlement Analyst (12m FTC)",
@@ -398,14 +1548,14 @@
 "recruiter": false,
 "decision": "approved",
 "decided_at": "2026-11-08T22:23:12+00:00",
-"status": "cv_ready",
+"status": "expired",
 "cv_file": "outputs/cvs/2026-11-08_City-College-Plymouth_Skills-Planning-Analyst.docx",
 "cv_url": "outputs/cvs/2026-11-08_City-College-Plymouth_Skills-Planning-Analyst.docx",
 "cv_emailed_at": "2026-11-08T22:39:50Z",
 "applied_at": "",
-"status_updated_at": "2026-11-08T22:37:53+00:00",
+"status_updated_at": "2026-11-11T08:51:37+00:00",
 "last_email": "",
-"notes": "",
+"notes": "CV ready but not marked applied in time.",
 "profile_basis": "master",
 "updated_at": "2026-11-08T22:39:50+00:00"
 },
@@ -1114,14 +2264,14 @@
 "recruiter": false,
 "decision": "approved",
 "decided_at": "2026-11-03T20:28:53+00:00",
-"status": "cv_ready",
+"status": "expired",
 "cv_file": "outputs/cvs/2026-11-08_Deciti-Homes_Business-Analyst-Management-Consultant.docx",
 "cv_url": "outputs/cvs/2026-11-08_Deciti-Homes_Business-Analyst-Management-Consultant.docx",
 "cv_emailed_at": "2026-11-08T21:29:43+00:00",
 "applied_at": "",
-"status_updated_at": "2026-11-08T21:29:16+00:00",
+"status_updated_at": "2026-11-11T08:51:37+00:00",
 "last_email": "",
-"notes": "",
+"notes": "CV ready but not marked applied in time.",
 "profile_basis": "master",
 "updated_at": "2026-11-08T21:29:43+00:00"
 },
@@ -1226,14 +2376,14 @@
 "recruiter": false,
 "decision": "approved",
 "decided_at": "2026-11-03T20:29:38+00:00",
-"status": "cv_ready",
+"status": "expired",
 "cv_file": "outputs/cvs/2026-11-08_Addleshaw-Goddard_Conflicts-Analyst.docx",
 "cv_url": "outputs/cvs/2026-11-08_Addleshaw-Goddard_Conflicts-Analyst.docx",
 "cv_emailed_at": "2026-11-08T21:29:43+00:00",
 "applied_at": "",
-"status_updated_at": "2026-11-08T21:29:16+00:00",
+"status_updated_at": "2026-11-11T08:51:37+00:00",
 "last_email": "",
-"notes": "",
+"notes": "CV ready but not marked applied in time.",
 "profile_basis": "master",
 "updated_at": "2026-11-08T21:29:43+00:00"
 },
