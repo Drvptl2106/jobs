@@ -16,11 +16,12 @@
   // Only allow http(s) links and same-site relative paths; anything else (javascript:, data:, ...) becomes inert.
   const safeUrl = (u) => { const v = String(u ?? "").trim(); return /^https?:\/\//i.test(v) || /^[A-Za-z0-9_][A-Za-z0-9_./%-]*$/.test(v) ? v : "#"; };
   const num = (v) => { const n = Number(v); return Number.isFinite(n) ? n : 0; };
-  const isFresh = (a) => /just posted|^\s*(\d{1,2}h|24h|1d)\s*$/i.test(a || "");
+  const isFresh = (a) => /just posted|found on employer site|^\s*(\d{1,2}h|24h|[123]d)\s*$/i.test(a || "");
   const APPLIED = ["applied", "interview", "offer", "rejected", "withdrawn"];
-  // A job waiting for review more than 1 day after it was found counts as expired, even before the next scan marks it.
+  // A job waiting for review longer than review_window_days after it was found counts as expired, even before the next scan marks it.
   const daysSince = (d) => { const t = Date.parse(String(d || "").slice(0, 10)); return isNaN(t) ? 0 : Math.floor((Date.now() - t) / 864e5); };
-  const isStale = (j) => (j.status === "new" || !j.status) && (!j.decision || j.decision === "pending") && Math.min(daysSince(j.first_seen), j.decided_at ? daysSince(j.decided_at) : Infinity) > 1;
+  const reviewWindow = () => num(state.cfg.review_window_days) || 1;
+  const isStale = (j) => (j.status === "new" || !j.status) && (!j.decision || j.decision === "pending") && Math.min(daysSince(j.first_seen), j.decided_at ? daysSince(j.decided_at) : Infinity) > reviewWindow();
   // Approved job whose CV has been ready longer than cv_apply_window_days without being marked applied.
   const cvWindow = () => num(state.cfg.cv_apply_window_days) || 3;
   const cvAge = (j) => Math.min(daysSince(j.cv_emailed_at || j.status_updated_at), j.decided_at ? daysSince(j.decided_at) : Infinity);
@@ -42,7 +43,7 @@
   function skipReason(j) {
     if (state.local.skip[j.id]) return "You skipped it (saved on this device only)";
     if (isStaleCv(j) || (j.status === "expired" && j.decision === "approved")) return `Expired: CV was ready for ${cvWindow()} days but not marked as applied`;
-    if (j.status === "expired" || isStale(j)) return "Expired: not reviewed within a day of being found";
+    if (j.status === "expired" || isStale(j)) return `Expired: not reviewed within ${reviewWindow()} day${reviewWindow() === 1 ? "" : "s"} of being found`;
     if (j.decision === "skipped" && j.decided_at) return "You skipped it on " + new Date(j.decided_at).toLocaleDateString("en-GB", { day: "numeric", month: "short" });
     if (j.decision === "skipped") return "Filtered by the scan: " + (j.verdict || "didn't pass the checks");
     return "";
@@ -214,7 +215,7 @@
     const m = state.meta;
     if (m.scan_listings === undefined || m.scan_listings === "") return "";
     const n = (k) => num(m[k]);
-    const steps = [["scan_too_old", "older than 24 hours"], ["scan_duplicates", "already seen"], ["scan_off_target", "outside your roles"], ["scan_not_sponsor", "employer can't sponsor"]]
+    const steps = [["scan_too_old", "older than 3 days"], ["scan_duplicates", "already seen"], ["scan_off_target", "outside your roles"], ["scan_not_sponsor", "employer can't sponsor"]]
       .filter(([k]) => n(k) > 0).map(([k, l]) => `<li><b>${n(k)}</b> ${l}</li>`).join("");
     return `<details class="funnel"><summary><span>Last scan: <b>${n("scan_listings")}</b> listings in ${n("scan_emails")} email${n("scan_emails") === 1 ? "" : "s"} → <b>${n("scan_new")}</b> new for you</span></summary>
       <ul>${steps || "<li>Nothing was filtered out.</li>"}<li><b>${n("scan_new")}</b> added to Jobs</li></ul>
@@ -234,7 +235,7 @@
     if (v === "account") { $("#view").innerHTML = `<div class="section-head"><h2>My account</h2></div>` + accountView(groups.tracker); return; }
     const list = groups[v].filter(matches);
     const by = (a, b) => (b.fit_score ?? -1) - (a.fit_score ?? -1) || String(b.first_seen).localeCompare(String(a.first_seen));
-    const titles = { jobs: ["New for you", "Posted in the last 24 hours, best fit first"], cvs: ["Approved", "Tailored CVs arrive here and by email"], tracker: ["Application tracker", ""], skipped: ["Skipped & expired", "Jobs not reviewed within a day move here too. Restore anything you want back."] };
+    const titles = { jobs: ["New for you", "Posted in the last 3 days, best fit first"], cvs: ["Approved", "Tailored CVs arrive here and by email"], tracker: ["Application tracker", ""], skipped: ["Skipped & expired", "Jobs you don't review within a few days move here too. Restore anything you want back."] };
     const empty = { jobs: "Nothing to review. New jobs arrive after the next daily scan.", cvs: "Approve a job and its tailored CV shows up here.", tracker: "Applications appear here when you mark them or a confirmation email arrives.", skipped: "Nothing skipped yet." };
     let html = syncBar() + (v === "jobs" ? funnel() : "") + `<div class="section-head"><h2>${titles[v][0]}</h2><span>${titles[v][1]}</span></div>`;
     if ((v === "jobs" || v === "cvs") && list.length) html += `<div class="hint">Swipe a card left to skip it. Skipped jobs can be restored from Skipped.</div>`;

@@ -1,96 +1,78 @@
-# Dhruv Patil — Master CV
+# Dhruv Patil
 
 Newcastle upon Tyne, UK | dhruvpatil979@gmail.com | linkedin.com/in/dhruv-patil21
 
+(Source of truth for scoring and tailored CVs. Updated 2026-11-11. Phone number left out because this repo is public.)
+
 ## Profile
-Business analyst and data professional with an MSc in Business Analytics (Distinction) from Newcastle University and a BSc in Data Science from Goa University. Combines analytics training with first-hand frontline experience: at EE led the product definition and business analysis for BreakPoint, a live break-tracking app now used by his contact-centre team and under consideration for rollout across the Newcastle operation. At M&S co-built a dashboard and gamified tracker to reduce food waste.
 
-Experienced across the full analytical cycle: requirements gathering, process mapping and stakeholder engagement to data collection, modelling, dashboards and insight delivery. Hands-on with Power BI, Excel, Python, SQL and Power Query, and with using AI coding tools to turn ideas into working internal tools quickly. Focuses on solving real operational problems with simple solutions people want to use.
+I notice problems in the work around me, define them clearly, and get a simple fix adopted. At EE I specified and delivered BreakPoint, a live break-tracking tool that my manager asked me to build for our 15-person team. At M&S I co-built a dashboard and leaderboard game for food-waste checks. I hold an MSc in Business Analytics (Distinction) from Newcastle University and a BSc in Data Science, and I have worked as a freelance and volunteer business analyst alongside my studies. I am looking for a business analyst or product analyst role.
 
-## Core skills
-- Data and technical: Python (Pandas, NumPy, Scikit-learn, NLP, MILP optimisation), SQL (extraction, transformation, querying), Power BI (dashboards, DAX, data modelling), Power Query, Excel (advanced pivot tables, lookups, data validation, modelling), Tableau, SPSS, Gretl, Git, machine learning, econometric modelling, data warehousing and mining, end-to-end data pipelines
-- Microsoft 365 and Power Platform: Excel, Power BI, Power Query, Teams, PowerPoint; working knowledge of Power Apps and Power Automate
-- Business analysis: requirements gathering and documentation, user stories and backlog refinement, process mapping and improvement, current-state analysis, root cause analysis, stakeholder engagement and management, workshop facilitation, KPI definition and performance tracking, business case development
-- Product and change: product definition and discovery, user-centred design, designing for adoption (engagement and gamification), privacy by design, pilot and impact measurement, digital transformation frameworks (Benefits Dependency Network, Strategic Value Matrix)
-- Strategy and analytics: PESTEL and strategic analysis, go-to-market strategy, market and sector analysis, demand forecasting, financial modelling, pricing and cost analysis, sentiment analysis, regression and statistical analysis, operational and marketing analytics, data quality and validation
-- Delivery and collaboration: Agile/Scrum awareness, project management, cross-functional collaboration, presenting insights to senior stakeholders, AI-assisted development of internal tools
+## Key skills
+
+- Business analysis: requirements gathering and documentation, business rules, process mapping, root cause analysis, user stories, acceptance criteria and user acceptance testing
+- Stakeholders and delivery: working with managers, clients and frontline colleagues; backlog refinement in iterative delivery; pilot design and impact measurement
+- Product: problem definition, designing for adoption (gamification), privacy by design
+- Data and reporting: Power BI dashboards, Excel (pivot tables, lookups), Power Query, KPI design, Google Analytics 4
+- Technical: working knowledge of SQL; Python used in degree projects; building internal tools with AI coding assistants (Claude Code)
 
 ## Experience
 
 ### Sales Guide | EE (BT Group), Newcastle upon Tyne | Jun 2026 – Present
-Frontline sales role in an EE contact centre, helping customers choose and set up mobile and broadband services.
-- Use EE's sales and account platforms (Consumer.com, Advisor Hub, Galahad) daily, giving first-hand insight into how frontline colleagues and customers experience digital journeys
-- Spotted that guides were losing track of break time, and that team leads only saw break data in weekly reports up to two weeks later, too late for fair, timely feedback
-- Led product definition and business analysis for BreakPoint, a live break-tracking app with separate agent and manager interfaces: defined the problem, requirements, business rules and features, then built it using AI coding tools (see Projects)
-- Built it for himself first; his manager asked him to build it for the team, and it is now in use by his 15-person team, with the business asking about a rollout across the Newcastle operation if the pilot succeeds
-- Designing a pilot study to measure impact on break overruns, team-lead time and colleague sentiment
 
-### Foods A&A Assistant (Part-time) | Marks & Spencer, Newcastle upon Tyne | Dec 2024 – Jun 2026
-- Co-built a live performance dashboard to track colleague completion of date-expired food checks, using real store data to make results visible and fair
-- Co-designed a gamification concept, with leaderboards and streak rewards, to motivate colleagues on reducing food waste
-- Delivered warm, personalised front-line service on a busy food floor, including tills, cash, card payments and refunds
-- Worked flexibly across shop floor, stock replenishment, deliveries and housekeeping, keeping areas clean, stocked and presented to brand standards
-- Stayed reliable and punctual through peak trading periods
-
-### Business Analyst (Volunteer) | GDP Foundation (NGO), Remote | Feb 2025 – Jan 2026
-Unpaid, project-based work alongside MSc. Promoted from Data Analyst Intern.
-- Took ownership of requirements gathering and documentation, turning business needs into structured briefs, analytical briefs and process maps for delivery teams
-- Analysed current-state processes to find root causes of inefficiency, and redesigned delivery to address causes rather than symptoms
-- Led stakeholder discussions across teams to clarify requirements, challenge assumptions, and agree priorities and success criteria
-- Led development of KPI frameworks and performance dashboards, making sure metrics were meaningful, validated and aligned to goals
-- Contributed to backlog refinement and prioritisation within iterative delivery cycles, working alongside senior team members
-- Maintained data quality standards so all outputs were reliable and fit for purpose
-- Contributed analysis to a national research study later recognised by NITI Aayog, the Government of India's central policy think tank
-
-### Data Analyst Intern | GDP Foundation (NGO), Remote | Sep 2024 – Feb 2025
-Unpaid, project-based internship alongside MSc.
-- Analysed data on older adults to identify trends that informed the foundation's strategic planning and decisions
-- Analysed operational datasets using Python and SQL to find performance trends and improvement opportunities
-- Gathered reporting requirements with cross-functional teams and improved data collection workflows
-- Built and maintained KPI tracking dashboards, with rigorous quality checks for accuracy and consistency
-- Supported exploratory data analysis and presented findings in structured, stakeholder-facing formats
-- Managed multiple reporting deadlines at once while staying organised and accurate
+- Customer-facing sales role in an EE contact centre: finding out what each customer needs and matching it to the right mobile or broadband product
+- Noticed that colleagues were losing track of break time, and that team leaders only saw break data days later, too late for fair and timely feedback
+- Defined the problem, requirements and business rules for BreakPoint, a live break tracker with separate agent and team-leader views, and built it using AI coding tools
+- Built it for myself first; my manager then asked me to build it for the team, and it is being rolled out to our 15-person team (November 2026)
+- Tested every business rule by hand before rollout, and designed a pilot comparing break overruns before and after the tool
+- Designed for adoption and privacy: a weekly game that rewards staying within break time, user codes instead of names, no free-text fields on break records, and automatic 14-day data retention
 
 ### Freelance Business Analyst | Visionize Consultancy, Remote | Aug 2024 – Jan 2026
-Project-based freelance work with small businesses.
-- Worked directly with clients to elicit, challenge and document business and analytical requirements, turning ambiguous problems into structured solutions
-- Built interactive Power BI dashboards and reports to visualise client data, surfacing trends, risks and opportunities
-- Built an end-to-end data pipeline from scratch for one client, collecting, cleaning and transforming data from multiple sources using Python, SQL and Power Query
-- Produced marketing strategies and market insights tailored to each client's growth goals, monitoring sector trends, demand patterns and competitors
-- Contributed to pricing, cost and economic analysis to help clients understand their commercial positioning
-- Presented findings to clients in structured sessions, bridging technical outputs and business decisions
-- Kept clear process documentation so outputs were traceable, auditable and repeatable
 
-## Projects
-- **BreakPoint: live break tracker for a contact-centre team | EE (BT Group) | 2026** — Problem: guides get one hour of breaks a day (30-minute lunch, two 15-minute breaks) but take them differently and lose track; small overruns add up, managers only saw break data weeks later. Agent view: one bar per break, live countdown with friendly nudges, shift clock, one shared daily allowance so running over one break borrows from the others. Manager view: live dashboard with filters (on break, running over, no break yet, not clocked in), plain-English team summary, minute adjustments, shift and break editing, uneditable change history, 14-day spreadsheet export. Adoption: "Breakathon", a weekly game rewarding staying within break time, so colleagues see the tool as support rather than monitoring. Privacy and governance: pseudonymised user codes, no free-text reason fields, automatic 14-day data retention. Delivery: defined all requirements and rules; built with AI coding tools; moved to a mobile web app after the corporate network blocked the first version.
-- **Digital Transformation Strategy, Blueline Mobility | Newcastle University** — Designed a digital transformation strategy for Blueline, a major taxi provider in North East England. After stakeholder discussions, proposed an app with smart shift scheduling, real-time routing and loyalty rewards. Used Benefits Dependency Network and Strategic Value Matrix frameworks to map features to measurable business outcomes, with a go-to-market plan and KPI structure.
-- **MSc Dissertation: Emotional Expressiveness and Engagement in Virtual Influencers | Newcastle University | 2025** — Mixed-methods study combining computational emotion modelling with user perception surveys on virtual influencer engagement in India. Found emotional intensity mattered more than the specific emotion, computational and human perception only moderately aligned, and engagement followed a U-shaped pattern.
-- **EV Infrastructure and Market Strategy | Newcastle University** — Market entry report for Renault, Nissan and Jeep on India's EV landscape, using real sales data, sentiment analysis and financial modelling to assess demand, localisation and investment. Defined key metrics (CAPEX, ROI, demand forecasts) and built stakeholder-facing dashboards.
-- **Last-Mile Delivery Optimisation for Quick Commerce | Newcastle University** — Built a Mixed-Integer Linear Programming (MILP) model in Python to optimise 15-minute delivery zones from dark stores in semi-urban India, with constraints for traffic, rider capacity and rurality.
-- **Power BI Dashboard: Energy and Operational Data | Personal project** — End-to-end BI solution on large public energy datasets: data cleaning in Power Query, modelling in Power BI, trend and anomaly analysis.
-- **BSc Dissertation: Twitter Sentiment Analysis for Goa Tourism Policy | Goa University | 2024** — Analysed 15,000+ tweets with the RoBERTa model (about 85% accuracy) and used the GPT API to generate policy recommendations for addressing negative sentiment.
-- **Business Analysis: Putzmeister (2015–2023) | Goa University** — Eight-year business analysis covering trends, growth, PESTEL and strategic positioning; presented recommendations directly to Putzmeister's Managing Director.
-- **Business Analysis: VDA Infosolutions and the Indian IT Sector | Goa University** — Combined sector research with firm-level analysis; presented strategic recommendations directly to the company's founder.
-- **Econometric Analysis: Inflation and GDP Growth | Goa University** — Regression model in Gretl analysing the relationship between inflation and GDP growth, tested through hypothesis testing and residual analysis.
-- **UK Manufacturing Employment Dynamics (1976–1984) | Goa University** — Econometric model using the Arellano-Bond estimator to analyse how wages and capital investment affected employment across UK manufacturing firms.
-- **Motor Fare: E-Bike Taxi Startup Concept | Goa University** — End-to-end startup simulation covering market research, business model, go-to-market strategy and feasibility.
+Project-based freelance work with small businesses, alongside my MSc.
+
+- Worked directly with clients to understand their business problems, then challenged and documented requirements
+- Built Power BI dashboards and reports of client data to show trends, risks and opportunities
+- Set up one client's data pipeline, bringing together and cleaning data from several sources
+- Learned Google Analytics 4 and set up web tracking for a client who needed better tracking than they had
+- Produced market and competitor insights, and pricing and cost analysis, to support client growth decisions
+
+### Business Analyst (Volunteer) | GDP Foundation (NGO), Remote | Feb 2025 – Jan 2026
+
+Unpaid, project-based work alongside my MSc. Started as Data Analyst Intern (Sep 2024 – Feb 2025).
+
+- Contributed analysis to a national research study on ageing, later recognised by NITI Aayog, the Government of India's policy think tank
+- Gathered requirements with teams across the foundation and turned them into structured briefs and process maps
+- Analysed current processes to find root causes of inefficiency, and proposed changes to delivery
+- Built and maintained KPI dashboards, with quality checks for accuracy and consistency
+- Contributed to backlog refinement and prioritisation within iterative delivery cycles
+
+### Foods A&A Assistant (Part-time) | Marks & Spencer, Newcastle upon Tyne | Dec 2024 – Jun 2026
+
+- Co-built a live dashboard tracking completion of date-expired food checks, using store data to make results visible and fair
+- Co-designed a leaderboard game with streak rewards to motivate colleagues to reduce food waste
+- Served customers on a busy food floor, and worked across tills, replenishment and deliveries through peak trading
+
+## Selected projects
+
+- Digital transformation strategy, Blueline Taxis (MSc): after discussions with the company's Finance Director, proposed a driver app with smart shift scheduling, real-time routing and loyalty rewards; mapped features to measurable business outcomes using Benefits Dependency Network and Strategic Value Matrix frameworks, with a go-to-market plan and KPIs
+- EV market strategy for Renault, Nissan and Jeep in India (MSc): assessed demand, localisation and investment using sales data, sentiment analysis and financial modelling; defined CAPEX, ROI and demand metrics and presented the recommendations
+- Last-mile delivery optimisation (MSc): modelled 15-minute delivery zones from dark stores in semi-urban India as a linear programming problem in Python, with constraints for traffic, rider capacity and location
+- MSc dissertation, virtual influencers in India: mixed-methods study comparing computational emotion modelling with user perception surveys; found that emotional intensity mattered more than the specific emotion
 
 ## Education
-- **MSc Business Analytics (Distinction)** | Newcastle University | Sep 2024 – Sep 2025. Modules: Business Visualisation, Advanced Statistics, Project Management, AI in Business, Marketing Analytics, Operational Analytics, Data-Driven Decision Making, Business Modelling, Stakeholder Management. Dissertation: Exploring Emotional Expressiveness and Engagement in Virtual Influencers.
-- **BSc Data Science** | Goa University | Sep 2021 – May 2024 | CGPA 8.5. Modules: Python, Algorithms and Data Structures, Database Management Systems (SQL), Machine Learning, Probability and Statistics, Econometrics, Linear Programming and Optimisation, Data Warehousing and Mining, Big Data and Frameworks, Business Analytics, Micro and Macroeconomics, Strategic Management, Computer Organisation and Operating Systems, C++. Dissertation: Analysing Twitter Data to Inform and Enhance Policy for Goa's Tourism Industry, using RoBERTa and the GPT API.
 
-## Certifications and courses
-- Advanced Excel Data Visualization (NASBA)
-- Microsoft 365 Excel Essential Training (NASBA)
-- Data Analytics and Visualization Job Simulation (Accenture North America, Forage)
-- Business Fundamentals and Developments (Udemy)
-- Basics of Exploratory Data Analysis (Great Learning)
+- MSc Business Analytics (Distinction) | Newcastle University | Sep 2024 – Sep 2025. Awarded the Vice Chancellor's International Scholarship. Modules include Stakeholder Management, Project Management, Data-Driven Decision Making, Operational Analytics, Business Modelling and Business Visualisation.
+- BSc Data Science | Goa University | Sep 2021 – May 2024 | CGPA 8.5. Modules include Business Analytics, Strategic Management, Database Management Systems (SQL), Probability and Statistics, and Econometrics.
+
+## Certifications and awards
+
 - NCL+ Advanced Award: Campaigning for Social Change (Newcastle University)
+- Microsoft 365 Excel Essential Training; Advanced Excel Data Visualization (NASBA)
+- Student Engagement Assistant, Newcastle University
 
-## Achievements and responsibilities
-- Student Engagement Assistant, Newcastle University: supported faculty–student communication, handled queries and contributed to improving the student experience
-- Account Manager, College ACM chapter, Goa University: managed financial records and funds for student initiatives, coordinated team delivery and kept accounts accurate
-- NCL+ Advanced Award: trained in community leadership, grassroots advocacy and structured communication for social impact
+## Not to be claimed
 
-## Visa status
-Not stated in the CV (profile config: needs UK sponsorship; eligible for new-entrant rate).
+- No workshop facilitation experience has been confirmed: do not claim it.
+- No experience in property, financial services, pricing analytics at a retailer, or security-cleared work.
+- Based in Newcastle; a move must be stated honestly in any cover letter, never assumed.

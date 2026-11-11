@@ -8,14 +8,14 @@ A job-search agent that lives entirely in this GitHub repo, run daily by Claude.
 
 Every morning Claude:
 
-1. Reads **every job-alert email** from the last 24 hours (Glassdoor, Hunt UK Visa Sponsors, Newcastle University, and any new job site you subscribe to; Totaljobs is switched off) and keeps only jobs **posted in the last 24 hours**, dropping duplicates across sites. Sources are listed in `config/profile.json` (`job_alert_sources`, `ignore_senders`).
+1. Reads **every job-alert email** (Glassdoor, Hunt UK Visa Sponsors, Newcastle University, and any new job site you subscribe to; Totaljobs is switched off), searches a few job pages and the careers sites of a watchlist of sponsoring employers through Firecrawl, and keeps jobs **posted in the last 3 days**, dropping duplicates across sites. It runs morning and evening. Settings are in `config/profile.json` (`job_alert_sources`, `web_discovery`, `ignore_senders`).
 2. Opens each advert and scores it **0-100 against your master CV** (Apply / Maybe / Skip, with matches and gaps).
 3. Runs four **UK visa checks** on each job:
    - is the employer on the **Home Office Register of Licensed Sponsors** (Skilled Worker route)?
    - what does the **advert say about sponsorship**?
    - does the **salary** meet the Skilled Worker thresholds (£41,700 general, £33,400 new entrant)?
    - is it a **direct employer or a recruitment agency**?
-4. For jobs you approve, writes a **tailored Word CV** (facts from your master CV only), saves it here and **emails it to you**. You read it and apply yourself.
+4. For jobs you approve, writes a **tailored Word CV and a cover letter** (facts from your master CV only), saves them here and **emails them to you**. You read it and apply yourself.
 5. Reads "application received", interview and rejection emails and **updates the tracker**.
 
 ## Adding your master CV

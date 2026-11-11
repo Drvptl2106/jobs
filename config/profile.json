@@ -1,7 +1,7 @@
 {
   "name": "Dhruv Patil",
   "email": "dhruvpatil979@gmail.com",
-  "linkedin": "",
+  "linkedin": "linkedin.com/in/dhruv-patil21",
   "github": {
     "owner": "Drvptl2106",
     "repo": "jobs",
@@ -14,21 +14,24 @@
       "from": "glassdoor.com",
       "id_prefix": "gd",
       "link_host": "www.glassdoor.co.uk",
-      "freshness": "Each listing shows its age (Just posted / 1d / 12d); keep only Just posted, hours, or 1d."
+      "freshness": "Each listing shows its age (Just posted / 5h / 1d / 12d); keep Just posted, hours, 1d, 2d or 3d.",
+      "search_window": "3d"
     },
     {
       "name": "Hunt UK Visa Sponsors",
       "from": "huntukvisasponsors.com",
       "id_prefix": "hu",
       "link_host": "huntukvisasponsors.com",
-      "freshness": "Digest of the latest jobs at sponsoring employers; treat listings in an email from the last 24h as new."
+      "freshness": "Digest of the latest jobs at sponsoring employers; it arrives only every few days, so read any digest from the last 7 days and rely on the duplicate check.",
+      "search_window": "7d"
     },
     {
       "name": "Newcastle University",
       "from": "jobs2web.com",
       "id_prefix": "nu",
       "link_host": "jobs.ncl.ac.uk",
-      "freshness": "Weekly digest; treat listings in an email from the last 24h as new."
+      "freshness": "Weekly digest; read any digest from the last 7 days and rely on the duplicate check.",
+      "search_window": "7d"
     }
   ],
   "catch_all_job_alerts": true,
@@ -45,30 +48,32 @@
   "master_cv_text": "cv/master_cv.md",
   "target_roles": [
     "Business Analyst",
-    "Data Analyst",
-    "Market / Research Analyst",
-    "Operations / Supply Chain Analyst",
-    "Business Intelligence Analyst",
+    "Product Analyst / Junior Product Owner",
+    "Operations / Process Improvement Analyst",
+    "Project / PMO Analyst (junior)",
     "Graduate / Junior Analyst roles",
-    "Management Consultant (junior)"
+    "Management Consultant (junior)",
+    "Market / Research Analyst"
   ],
   "avoid_roles": [
     "Software Developer / Engineer",
     "Sales-only roles",
-    "Roles needing 5+ years' experience"
+    "Roles needing 5+ years' experience",
+    "Data Analyst / BI / Data Science roles whose essential criteria are strong SQL or Python",
+    "Finance roles needing an accounting qualification (CIMA, ACA, ACCA)"
   ],
   "locations": [
     "Anywhere in the UK",
     "Remote (UK)"
   ],
   "max_years_experience_required": 3,
-  "fresh_window_hours": 24,
-  "review_window_days": 1,
-  "cv_apply_window_days": 3,
+  "fresh_window_hours": 72,
+  "review_window_days": 3,
+  "cv_apply_window_days": 7,
   "visa": {
     "needs_sponsorship": true,
     "new_entrant_eligible": true,
-    "notes": "Skilled Worker route. New-entrant rate applies when switching from Student/Graduate visa (or under 26). Also check the job's SOC code going rate before applying.",
+    "notes": "Skilled Worker route. New-entrant rate applies when switching from Student/Graduate visa (or under 26). A sponsor licence means the employer CAN sponsor, not that this role will: always read the advert's right-to-work wording, and check the job's SOC code going rate before applying.",
     "salary_thresholds": {
       "general": 41700,
       "new_entrant": 33400
@@ -99,5 +104,52 @@
     "pagegroup",
     "goodman masson",
     "office angels"
-  ]
+  ],
+  "skill_limits": {
+    "about": "What the owner can honestly claim. Never score or write above this level.",
+    "sql": "Working knowledge only (select, filter, join, group by). Counts as half-evidenced when an advert asks for SQL, and as NOT met when it asks for strong/advanced SQL.",
+    "python": "Used in degree projects with AI assistance; cannot write it unaided. Counts as NOT met when Python is an essential requirement.",
+    "strengths": "Requirements, business rules, process mapping, stakeholder work, user acceptance testing, Power BI, Excel, defining and delivering internal tools with AI coding assistants."
+  },
+  "web_discovery": {
+    "about": "Jobs found on the web through Firecrawl, in addition to alert emails. See CLAUDE.md step 4b.",
+    "max_new_jobs_per_run": 8,
+    "search_pages": [
+      {
+        "name": "Glassdoor: Business Analyst, Newcastle",
+        "url": "https://www.glassdoor.co.uk/Job/newcastle-upon-tyne-business-analyst-jobs-SRCH_IL.0,19_IC3293413_KO20,36.htm"
+      },
+      {
+        "name": "Glassdoor: Business Analyst, London",
+        "url": "https://www.glassdoor.co.uk/Job/london-business-analyst-jobs-SRCH_IL.0,6_IC2671300_KO7,23.htm"
+      }
+    ],
+    "watchlist_per_run": 5,
+    "watchlist_query": "\"{employer}\" careers (\"business analyst\" OR \"product analyst\" OR \"junior business analyst\" OR \"graduate analyst\") UK",
+    "watchlist": [
+      "Version 1",
+      "BT Group",
+      "The Sage Group",
+      "Sopra Steria",
+      "Newcastle Building Society",
+      "Northumbrian Water",
+      "Accenture",
+      "Capgemini",
+      "Deloitte",
+      "KPMG",
+      "PricewaterhouseCoopers",
+      "Lloyds Bank",
+      "NatWest Group",
+      "Aviva",
+      "Tata Consultancy Services",
+      "Infosys",
+      "FDM Group",
+      "Capita",
+      "Kainos",
+      "Tesco",
+      "SMBC Bank International",
+      "Sainsbury's"
+    ],
+    "watchlist_note": "Every employer here had a Skilled Worker licence on the register dated 2026-11-11. A licence means the employer can sponsor, not that a given role will."
+  }
 }
