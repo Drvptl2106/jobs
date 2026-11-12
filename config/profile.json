@@ -63,7 +63,7 @@
     "Finance roles needing an accounting qualification (CIMA, ACA, ACCA)"
   ],
   "locations": [
-    "Anywhere in the UK (willing to relocate for the right role)",
+    "Anywhere in the UK, including Scotland (happy to relocate)",
     "Remote (UK)"
   ],
   "max_years_experience_required": 3,
@@ -114,15 +114,15 @@
   },
   "web_discovery": {
     "about": "Jobs found on the web through Firecrawl, in addition to alert emails. See CLAUDE.md step 4b.",
-    "max_new_jobs_per_run": 8,
+    "max_new_jobs_per_run": 10,
     "search_pages": [
+      {
+        "name": "Glassdoor: Junior Business Analyst, whole UK",
+        "url": "https://www.glassdoor.co.uk/Job/uk-junior-business-analyst-jobs-SRCH_IL.0,2_IN2_KO3,26.htm"
+      },
       {
         "name": "Glassdoor: Business Analyst, Newcastle",
         "url": "https://www.glassdoor.co.uk/Job/newcastle-upon-tyne-business-analyst-jobs-SRCH_IL.0,19_IC3293413_KO20,36.htm"
-      },
-      {
-        "name": "Glassdoor: Business Analyst, London",
-        "url": "https://www.glassdoor.co.uk/Job/london-business-analyst-jobs-SRCH_IL.0,6_IC2671300_KO7,23.htm"
       }
     ],
     "watchlist_per_run": 5,

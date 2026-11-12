@@ -71,11 +71,11 @@
    "key": "practical",
    "label": "Location & terms",
    "max": 5,
-   "question": "Does location, work pattern and contract suit the profile's locations?",
+   "question": "Does location, work pattern and contract suit Dhruv? He will relocate anywhere in the UK, so a move within the UK costs nothing here.",
    "anchors": {
-    "5": "In a preferred location or remote/hybrid UK, permanent full time.",
-    "3": "Needs a move or long commute, or a fixed-term contract over 6 months.",
-    "0": "Outside the UK, very short contract, or self-employed/commission only."
+    "5": "Anywhere in the UK (any city, a move is fine) or remote UK; permanent or fixed-term.",
+    "3": "Very short contract (under 6 months) or unusual hours/travel.",
+    "0": "Outside the UK, or self-employed/commission only."
    }
   },
   {
@@ -144,9 +144,9 @@
    "Contract runs past January 2028 (your visa end): ask about the start date",
    "Permanent role: you'd leave in January 2028; answer honestly if asked how long you can work",
    "Advert may need settled right to work or security clearance",
-   "Needs a move from Newcastle",
    "Fully remote: check you'd be employed in the UK, so it counts as UK experience",
-   "One vacancy advertised across several cities (national competition)"
+   "One vacancy advertised across several cities (national competition)",
+   "Needs a move: check relocation costs against the salary"
   ]
  }
 }
