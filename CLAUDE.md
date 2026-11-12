@@ -6,7 +6,8 @@ tracks applications. Everything lives in this GitHub repo; the website is `index
 (GitHub Pages).
 
 **Read `config/profile.json` first, starting with `goal`.** The owner wants paid UK business analyst
-experience before his visa ends (January 2028) and does not need sponsorship. It holds the owner's name, email, GitHub repo + branch,
+experience before his visa ends (January 2028). Contracts ending by then: any employer. Permanent
+roles: licensed sponsors strongly preferred (see `goal` and the visa criterion). It holds the owner's name, email, GitHub repo + branch,
 target roles and visa settings. Below, "the owner" and "OWNER_EMAIL" mean those values.
 
 Hard rules: **never apply to a job, and never email anyone except OWNER_EMAIL.** Use only facts
@@ -176,8 +177,10 @@ score against the CV.
 - **Say it plainly.** `verdict` must end with one sentence on right to work and timing, for example:
   "Right to work: fine; a 12-month contract fits if it starts by January 2027." / "Right to work: fine;
   permanent role, so you'd leave in January 2028." / "Right to work: the advert needs settled status or
-  clearance, so this won't work." While `visa.needs_sponsorship` is false, never call a job unsuitable
-  because the employer isn't a sponsor or the advert says it can't sponsor.
+  clearance, so this won't work." For permanent roles also say whether the employer is a licensed
+  sponsor: "Right to work: fine; permanent role at a licensed sponsor." / "Right to work: permanent role
+  at an employer that isn't a sponsor, so a time-limited visa may count against you." Never skip a job
+  only because the employer isn't a sponsor; score it with the visa criterion instead.
 - **Flags first.** Start `gaps` with every item of `flags.list` in `config/scoring.json` that applies
   (short contract, clearance, unstated salary, a move, one vacancy across several cities), then the
   skill and experience gaps.
@@ -186,8 +189,8 @@ score against the CV.
   `jd_summary` with "Apply on the employer's site: <https url>". Applying there is better than Easy Apply.
 
 ### 6. Sponsorship checks
-While `visa.needs_sponsorship` is false these checks are recorded for information only: they never skip
-a job or lower its score. Read the advert for contract length and for settled-status or clearance
+Always run these checks. They never skip a job on their own, but for permanent roles the sponsor
+register result feeds the visa criterion (licensed sponsor preferred). Read the advert for contract length and for settled-status or clearance
 requirements instead (the `right_to_work_excluded` gate).
 - `python3 scripts/sponsor_check.py "<Company A>" "<Company B>" …` → `sponsor_register`
   (`licensed` / `licensed_other_route` / `possible` / `not_found`), `recruiter`, and `sponsor_match`
