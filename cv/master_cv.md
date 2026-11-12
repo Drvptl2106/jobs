@@ -10,7 +10,7 @@ I notice problems in the work around me, define them clearly, and get a simple f
 
 ## Key skills
 
-- Business analysis: requirements gathering and documentation, business rules, process mapping, root cause analysis, user stories, acceptance criteria and user acceptance testing
+- Business analysis: requirements gathering and documentation, business rules, process mapping, root cause analysis, and testing business rules before release
 - Stakeholders and delivery: working with managers, clients and frontline colleagues; backlog refinement in iterative delivery; pilot design and impact measurement
 - Product: problem definition, designing for adoption (gamification), privacy by design
 - Data and reporting: Power BI dashboards, Excel (pivot tables, lookups), Power Query, KPI design, Google Analytics 4
@@ -74,5 +74,6 @@ Unpaid, project-based work alongside my MSc. Started as Data Analyst Intern (Sep
 ## Not to be claimed
 
 - No workshop facilitation experience has been confirmed: do not claim it.
+- Has not written user stories or formal acceptance criteria yet: do not claim them until the owner confirms.
 - No experience in property, financial services, pricing analytics at a retailer, or security-cleared work.
 - Based in Newcastle; a move must be stated honestly in any cover letter, never assumed.
