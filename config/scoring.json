@@ -71,11 +71,11 @@
    "key": "practical",
    "label": "Location & terms",
    "max": 5,
-   "question": "Does location, work pattern and contract suit Dhruv? He will relocate anywhere in the UK, so a move within the UK costs nothing here.",
+   "question": "Does the contract type and location suit Dhruv? Fixed-term contracts are his first preference; a move anywhere in the UK is fine.",
    "anchors": {
-    "5": "Anywhere in the UK (any city, a move is fine) or remote UK; permanent or fixed-term.",
-    "3": "Very short contract (under 6 months) or unusual hours/travel.",
-    "0": "Outside the UK, or self-employed/commission only."
+    "5": "Fixed-term contract (FTC / maternity cover / 6-12 months) ending by January 2028, anywhere in the UK or remote UK.",
+    "3": "Permanent role anywhere in the UK or remote UK, or a fixed-term contract shorter than 6 months.",
+    "0": "Outside the UK, day-rate / inside-IR35 contractor role, or self-employed/commission only."
    }
   },
   {
@@ -83,7 +83,7 @@
    "label": "Chance of hearing back",
    "max": 5,
    "question": "How likely is an application to be seen?",
-   "method": "Start at 5. Posted more than 3 days ago -1. Easy Apply (high volume) -1. Recruiter with the client unnamed -1. Very large brand graduate scheme -1. Minimum 0."
+   "method": "Start at 5. Posted more than 3 days ago -1. Easy Apply (high volume) -1. Recruiter with the client unnamed -1. Very large brand graduate scheme -1. Minimum 0. Fixed-term contract: +1 (capped at 5), because fewer candidates apply for temporary roles."
   }
  ],
  "gates": [
@@ -127,6 +127,11 @@
    "key": "right_to_work_excluded",
    "rule": "Advert requires settled or indefinite right to work (ILR, British/Irish citizenship only), excludes time-limited visas, or needs SC/DV/CTC clearance that requires years of UK residence",
    "cap": 25
+  },
+  {
+   "key": "day_rate_contractor",
+   "rule": "Day-rate or inside/outside-IR35 contractor role (needs years of experience and a limited company)",
+   "cap": 30
   }
  ],
  "recommendation": {
