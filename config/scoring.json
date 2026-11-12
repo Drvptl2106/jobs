@@ -1,5 +1,5 @@
 {
- "version": 3,
+ "version": 4,
  "about": "How Claude scores each job against the master CV. Total = sum of criteria (max 100), then hard gates cap it. Every criterion must be scored only from facts in cv/master_cv.md and the advert text; when the advert doesn't say, use the 'not stated' rule.",
  "criteria": [
   {
@@ -62,10 +62,10 @@
   },
   {
    "key": "visa",
-   "label": "Visa & salary",
+   "label": "Right to work & timing",
    "max": 10,
-   "question": "Can this job realistically sponsor a Skilled Worker visa?",
-   "method": "Register: licensed Skilled Worker = 3, possible/recruiter with licensed end client = 1, not found = 0. Advert: offers sponsorship = 4, silent = 1, says no or requires existing right to work = 0. Salary: employer-stated and meets £41,700 = 3, employer-stated and meets £33,400 new-entrant = 2, not stated or only a Glassdoor estimate = 1, below = 0. A licence alone is weak evidence: licensed + silent + no stated salary scores 5/10. Skip this criterion's penalty (score 10) if visa.needs_sponsorship is false."
+   "question": "Can Dhruv do this job on his current visa, which ends in January 2028?",
+   "method": "Use visa.right_to_work_until. Fixed-term contract that can start soon and ends by January 2028 = 10. Permanent role, or a contract whose end date isn't stated = 8 (he would leave when the visa ends). Contract that clearly runs past January 2028 = 3. Advert requires settled/indefinite right to work, excludes time-limited visas, or needs security clearance that requires years of UK residence = 0 (and the right_to_work_excluded gate applies). Sponsorship wording and the sponsor register do not matter while visa.needs_sponsorship is false."
   },
   {
    "key": "practical",
@@ -119,14 +119,14 @@
    "cap": 55
   },
   {
-   "key": "short_contract",
-   "rule": "Fixed-term contract of 12 months or less, or a day-rate / inside-IR35 contract, while visa.needs_sponsorship is true (a short contract rarely comes with sponsorship)",
-   "cap": 55
-  },
-  {
    "key": "experience_3y",
    "rule": "Advert states 3+ years' experience as essential",
    "cap": 60
+  },
+  {
+   "key": "right_to_work_excluded",
+   "rule": "Advert requires settled or indefinite right to work (ILR, British/Irish citizenship only), excludes time-limited visas, or needs SC/DV/CTC clearance that requires years of UK residence",
+   "cap": 25
   }
  ],
  "recommendation": {
@@ -141,12 +141,11 @@
  "flags": {
   "about": "Always put these first in `gaps` when they apply, in this order, in plain words.",
   "list": [
-   "Sponsorship: not mentioned in the advert - ask before investing time",
-   "Sponsorship: advert rules it out",
-   "Salary not stated by the employer - visa threshold unconfirmed",
-   "Fixed-term or contract role",
-   "Security clearance may be required (public-sector or defence client work)",
+   "Contract runs past January 2028 (your visa end): ask about the start date",
+   "Permanent role: you'd leave in January 2028; answer honestly if asked how long you can work",
+   "Advert may need settled right to work or security clearance",
    "Needs a move from Newcastle",
+   "Fully remote: check you'd be employed in the UK, so it counts as UK experience",
    "One vacancy advertised across several cities (national competition)"
   ]
  }

@@ -1,5 +1,334 @@
 [
 {
+"id": "gd-1010323796643",
+"source": "web",
+"title": "Junior Business Analyst (Support)",
+"company": "Trafalgar House",
+"location": "London, England",
+"salary": "Not stated; Glassdoor est. £34k-£60k",
+"salary_min": 34000,
+"salary_max": 60000,
+"posted_age": "24h",
+"first_seen": "2026-11-12",
+"email_date": "",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010323796643",
+"easy_apply": true,
+"fit_score": 84,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 20,
+"max": 20,
+"note": "Entry-level business analyst"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 20,
+"max": 25,
+"note": "Requirements, acceptance criteria, testing all in CV; no ticketing system named"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 15,
+"max": 15,
+"note": "Entry level, no years required"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 10,
+"max": 10,
+"note": "GCSE-level essentials; MSc exceeds"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 3,
+"max": 10,
+"note": "Pensions knowledge desirable only"
+},
+{
+"key": "visa",
+"label": "Right to work & timing",
+"score": 8,
+"max": 10,
+"note": "Permanent role; you'd leave in January 2028"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "London: a move from Newcastle"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "Posted in the last day, direct employer"
+}
+],
+"confidence": "high",
+"recommendation": "apply",
+"verdict": "The most entry-level business analyst role the tool has found: investigate support tickets, document requirements, write acceptance criteria and help with testing, with no experience required. Right to work: fine; permanent role, so you'd leave in January 2028.",
+"match_reasons": [
+"BreakPoint: you wrote business rules and tested them before rollout",
+"Requirements and process maps at GDP Foundation",
+"Customer-facing EE work: asking users what they actually need",
+"Only GCSE-level essentials; your MSc is well above"
+],
+"gaps": [
+"Permanent role: you'd leave in January 2028; answer honestly if asked how long you can work",
+"Needs a move from Newcastle",
+"No ticketing system experience named on your CV",
+"Pensions administration is new to you (desirable only)"
+],
+"jd_summary": "Junior Business Analyst (Support), Trafalgar House, London. Entry level: review support tickets, speak to users, document requirements and acceptance criteria, help test fixes. Grows into process mapping and UAT. Salary not stated. Apply via Glassdoor (Sign in to apply).",
+"jd_full": "",
+"sponsor_register": "not_found",
+"sponsor_match": "",
+"jd_sponsorship": "silent",
+"salary_check": "range_crosses_general",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "2026-11-12T11:01:12+00:00",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-12T11:01:12+00:00",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-12T11:01:12+00:00"
+},
+{
+"id": "gd-1010322004340",
+"source": "glassdoor",
+"title": "Digital Business Analyst",
+"company": "Lush",
+"location": "Poole, Dorset (hybrid, 3 days in office)",
+"salary": "£32,500 - £38,000 (Employer provided)",
+"salary_min": 32500,
+"salary_max": 38000,
+"posted_age": "1d",
+"first_seen": "2026-11-12",
+"email_date": "2026-11-11T21:45:51Z",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010322004340",
+"easy_apply": true,
+"fit_score": 76,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 20,
+"max": 20,
+"note": "Business analyst on stock and inventory tools"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 17,
+"max": 25,
+"note": "Requirements and stakeholders yes; functional specs and developer tickets lighter"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 11,
+"max": 15,
+"note": "No years stated; 'experience in a technical development environment' fits BreakPoint"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "None stated"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 6,
+"max": 10,
+"note": "Retail: M&S food floor and waste-check dashboard"
+},
+{
+"key": "visa",
+"label": "Right to work & timing",
+"score": 8,
+"max": 10,
+"note": "12 months fits only if it starts by about January 2027"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Poole, 3 office days a week: a move"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 3,
+"max": 5,
+"note": "Easy Apply volume; may close early"
+}
+],
+"confidence": "high",
+"recommendation": "apply",
+"verdict": "A real business analyst job in retail, on stock and inventory tools, and a 12-month contract is exactly the shape you want. Right to work: fine; a 12-month contract fits if it starts by about January 2027, so ask about the start date.",
+"match_reasons": [
+"BreakPoint: requirements and business rules for a tool developers built",
+"M&S: stock and food-waste checks on the shop floor",
+"Requirements gathering with clients at Visionize",
+"Retail: you know how stock works on a shop floor"
+],
+"gaps": [
+"Contract runs past January 2028 if it starts later than about January 2027: ask about the start date",
+"Needs a move from Newcastle (Poole, 3 days a week in office)",
+"Functional specifications and developer tickets are new to you",
+"May close early: apply soon"
+],
+"jd_summary": "Digital Business Analyst, Lush, Poole (hybrid, 3 days in office), 12-month fixed-term, £32,500-£38,000. Gather and document requirements, write functional specs and developer tickets, cost-benefit analysis, starting with stock and inventory tools. Apply via Glassdoor; may close early.",
+"jd_full": "Contract: full time, 12-month fixed-term contract\nLocation: Poole (hybrid, 3 days per week in office)\nSalary: £32,500 - £38,000\nThe role\nGather, validate and document business requirements using methods from shop visits to document analysis; create and manage functional specifications. Initially focused on Stock and Inventory tools: global requirements and rollout to new markets, product development and feature building, inventory management and data centralisation.\nKey responsibilities\n• Create, manage and maintain detailed tickets of work for the development team\n• Work with stakeholders to determine requirements for changes in legal, financial, technical and operational processes\n• Capture, analyse and document requirements, then support communication and delivery\n• Assess how new features and products affect the business architecture\n• Analyse and communicate business strategy; perform cost-benefit analysis including risks\n• Understand business change needs for local and global systems\n• Identify efficiency actions across Digital products\n• Work with Producers and Programme Managers to identify risks and manage timelines\nSkills, knowledge and expertise\n• Experience defining solutions within a technical development environment\n• Excellent verbal and written communication with engineers, support teams and SMEs\n• Experience liaising with and managing internal and external stakeholders\n• Highly organised, logical, solutions-focused; able to prioritise\n• Able to work with a geographically dispersed organisation\nDon't worry if you don't tick all the boxes.\nBenefits: 25 days holiday plus bank holidays, bonus scheme, 50% product discount, employee ownership (10%).\nThe vacancy may close early.",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "Lush Ltd",
+"town": "Poole",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "range_crosses_new_entrant",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-12T11:01:12+00:00"
+},
+{
+"id": "gd-1010322027518",
+"source": "web",
+"title": "Business Analyst",
+"company": "Kleos",
+"location": "Richmond, London / fully remote",
+"salary": "Not stated; Glassdoor est. £34k-£60k",
+"salary_min": 34000,
+"salary_max": 60000,
+"posted_age": "24h",
+"first_seen": "2026-11-12",
+"email_date": "",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010322027518",
+"easy_apply": false,
+"fit_score": 64,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 18,
+"max": 20,
+"note": "Operations business analyst, process improvement"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 12,
+"max": 25,
+"note": "Process mapping yes; running workshops is required and not on your CV"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 6,
+"max": 15,
+"note": "Asks for significant relevant experience"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 10,
+"max": 10,
+"note": "No degree required"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 3,
+"max": 10,
+"note": "Payments and onboarding are new"
+},
+{
+"key": "visa",
+"label": "Right to work & timing",
+"score": 8,
+"max": 10,
+"note": "Permanent role; you'd leave in January 2028"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 5,
+"max": 5,
+"note": "Fully remote"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 2,
+"max": 5,
+"note": "Remote roles draw very large numbers of applicants"
+}
+],
+"confidence": "high",
+"recommendation": "maybe",
+"verdict": "A process-improvement analyst role you'd enjoy, fully remote and with no SQL, but it asks for significant experience and for running workshops, which your CV doesn't show. Right to work: fine; permanent role, so you'd leave in January 2028.",
+"match_reasons": [
+"Process mapping and root cause analysis at GDP Foundation",
+"Presenting recommendations to clients at Visionize",
+"BreakPoint: from a problem you saw to a change people use",
+"No coding or SQL needed"
+],
+"gaps": [
+"Fully remote: check you'd be employed in the UK, so it counts as UK experience",
+"Permanent role: you'd leave in January 2028; answer honestly if asked how long you can work",
+"Workshop facilitation is required and not on your CV",
+"Asks for significant relevant experience"
+],
+"jd_summary": "Business Analyst (Operations), Kleos, fully remote. Map onboarding, payout and payroll processes, find friction, run workshops, present options to senior management, support implementation. No code or SQL. Salary not stated. Apply on employer site (linked from Glassdoor).",
+"jd_full": "",
+"sponsor_register": "not_found",
+"sponsor_match": "",
+"jd_sponsorship": "silent",
+"salary_check": "range_crosses_general",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "2026-11-12T11:01:12+00:00",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-12T11:01:12+00:00",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-12T11:01:12+00:00"
+},
+{
 "id": "gd-1010322566468",
 "source": "glassdoor",
 "title": "Product - Business Analyst",
@@ -99,120 +428,6 @@
 },
 "jd_sponsorship": "silent",
 "salary_check": "meets_general",
-"recruiter": false,
-"decision": "pending",
-"decided_at": "",
-"status": "new",
-"cv_file": "",
-"cv_url": "",
-"cv_emailed_at": "",
-"applied_at": "",
-"status_updated_at": "",
-"last_email": "",
-"notes": "",
-"profile_basis": "master",
-"updated_at": "2026-11-12T08:28:21+00:00"
-},
-{
-"id": "gd-1010322004340",
-"source": "glassdoor",
-"title": "Digital Business Analyst",
-"company": "Lush",
-"location": "Poole, Dorset (hybrid, 3 days in office)",
-"salary": "£32,500 - £38,000 (Employer provided)",
-"salary_min": 32500,
-"salary_max": 38000,
-"posted_age": "1d",
-"first_seen": "2026-11-12",
-"email_date": "2026-11-11T21:45:51Z",
-"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010322004340",
-"easy_apply": true,
-"fit_score": 55,
-"score_breakdown": [
-{
-"key": "role_match",
-"label": "Role match",
-"score": 20,
-"max": 20,
-"note": "Business Analyst: requirements, functional specs, tickets for developers, stakeholder work"
-},
-{
-"key": "skills",
-"label": "Skills & tools",
-"score": 19,
-"max": 25,
-"note": "Requirements capture, stakeholder work, cost-benefit analysis (MSc projects) evidenced; 'technical development environment' only via BreakPoint"
-},
-{
-"key": "experience",
-"label": "Experience level",
-"score": 11,
-"max": 15,
-"note": "Experience asked but 'don't worry if you don't tick all the boxes'"
-},
-{
-"key": "qualifications",
-"label": "Qualifications",
-"score": 8,
-"max": 10,
-"note": "Not stated"
-},
-{
-"key": "domain",
-"label": "Industry fit",
-"score": 10,
-"max": 10,
-"note": "Retail: M&S food floor and store dashboard work; role covers stock and inventory tools"
-},
-{
-"key": "visa",
-"label": "Visa & salary",
-"score": 6,
-"max": 10,
-"note": "Licensed sponsor 3 + advert silent 1 + £38,000 top meets new-entrant rate 2"
-},
-{
-"key": "practical",
-"label": "Location & terms",
-"score": 3,
-"max": 5,
-"note": "12-month fixed-term contract in Poole: needs a move. Gate: short_contract (cap 55)"
-},
-{
-"key": "odds",
-"label": "Chance of hearing back",
-"score": 4,
-"max": 5,
-"note": "Easy Apply -1"
-}
-],
-"confidence": "high",
-"recommendation": "maybe",
-"verdict": "A genuine BA role (requirements, specs, developer tickets) on Lush's stock and inventory tools, and it fits your M&S retail and BreakPoint work, but it is a 12-month contract in Poole. Sponsorship: not mentioned; the employer is licensed, so ask before investing time.",
-"match_reasons": [
-"BreakPoint: you defined requirements and business rules and turned them into a working tool, as this role does with developer tickets",
-"Visionize: you worked with clients to challenge and document requirements",
-"M&S: retail store experience matches the stock and inventory focus",
-"MSc projects with cost-benefit and ROI analysis match 'perform cost-benefit analysis'"
-],
-"gaps": [
-"Sponsorship: not mentioned in the advert - ask before investing time",
-"Fixed-term or contract role",
-"Needs a move from Newcastle",
-"12-month contract: sponsors rarely sponsor short fixed-term roles",
-"No experience in a formal development team or ticketing tool such as Jira"
-],
-"jd_summary": "Digital BA at Lush (Poole, hybrid 3 days, 12-month FTC, £32.5k-£38k). Gather and document requirements, write functional specs and developer tickets, cost-benefit analysis, initially on stock and inventory tools for new markets. Apply via Glassdoor (Easy Apply); may close early.",
-"jd_full": "Contract: full time, 12-month fixed-term contract\nLocation: Poole (hybrid, 3 days per week in office)\nSalary: £32,500 - £38,000\nThe role\nGather, validate and document business requirements using methods from shop visits to document analysis; create and manage functional specifications. Initially focused on Stock and Inventory tools: global requirements and rollout to new markets, product development and feature building, inventory management and data centralisation.\nKey responsibilities\n• Create, manage and maintain detailed tickets of work for the development team\n• Work with stakeholders to determine requirements for changes in legal, financial, technical and operational processes\n• Capture, analyse and document requirements, then support communication and delivery\n• Assess how new features and products affect the business architecture\n• Analyse and communicate business strategy; perform cost-benefit analysis including risks\n• Understand business change needs for local and global systems\n• Identify efficiency actions across Digital products\n• Work with Producers and Programme Managers to identify risks and manage timelines\nSkills, knowledge and expertise\n• Experience defining solutions within a technical development environment\n• Excellent verbal and written communication with engineers, support teams and SMEs\n• Experience liaising with and managing internal and external stakeholders\n• Highly organised, logical, solutions-focused; able to prioritise\n• Able to work with a geographically dispersed organisation\nDon't worry if you don't tick all the boxes.\nBenefits: 25 days holiday plus bank holidays, bonus scheme, 50% product discount, employee ownership (10%).\nThe vacancy may close early.",
-"sponsor_register": "licensed",
-"sponsor_match": {
-"name": "Lush Ltd",
-"town": "Poole",
-"rating": "Worker (A rating)",
-"route": "Skilled Worker"
-},
-"jd_sponsorship": "silent",
-"salary_check": "range_crosses_new_entrant",
 "recruiter": false,
 "decision": "pending",
 "decided_at": "",
@@ -777,88 +992,6 @@
 "cv_emailed_at": "",
 "applied_at": "",
 "status_updated_at": "",
-"last_email": "",
-"notes": "",
-"profile_basis": "master",
-"updated_at": "2026-11-12T08:28:21+00:00"
-},
-{
-"id": "gd-1010323796643",
-"source": "web",
-"title": "Junior Business Analyst (Support)",
-"company": "Trafalgar House",
-"location": "London, England",
-"salary": "Not stated; Glassdoor est. £34k-£60k",
-"salary_min": 34000,
-"salary_max": 60000,
-"posted_age": "24h",
-"first_seen": "2026-11-12",
-"email_date": "",
-"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010323796643",
-"easy_apply": true,
-"fit_score": null,
-"score_breakdown": [],
-"confidence": "medium",
-"recommendation": "skip",
-"verdict": "Employer isn't on the Home Office sponsor register, so it can't sponsor a Skilled Worker visa. Sponsorship: employer not on the register.",
-"match_reasons": [],
-"gaps": [],
-"jd_summary": "Entry-level BA in a pensions administration support team: investigate tickets, gather requirements, write acceptance criteria, help with testing. A strong fit on duties, but Trafalgar House is not on the sponsor register and the advert does not offer sponsorship.",
-"jd_full": "",
-"sponsor_register": "not_found",
-"sponsor_match": "",
-"jd_sponsorship": "silent",
-"salary_check": "range_crosses_general",
-"recruiter": false,
-"decision": "skipped",
-"decided_at": "",
-"status": "skipped",
-"cv_file": "",
-"cv_url": "",
-"cv_emailed_at": "",
-"applied_at": "",
-"status_updated_at": "2026-11-12T08:28:21+00:00",
-"last_email": "",
-"notes": "",
-"profile_basis": "master",
-"updated_at": "2026-11-12T08:28:21+00:00"
-},
-{
-"id": "gd-1010322027518",
-"source": "web",
-"title": "Business Analyst",
-"company": "Kleos",
-"location": "Richmond, London / fully remote",
-"salary": "Not stated; Glassdoor est. £34k-£60k",
-"salary_min": 34000,
-"salary_max": 60000,
-"posted_age": "24h",
-"first_seen": "2026-11-12",
-"email_date": "",
-"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010322027518",
-"easy_apply": false,
-"fit_score": null,
-"score_breakdown": [],
-"confidence": "medium",
-"recommendation": "skip",
-"verdict": "Employer isn't on the Home Office sponsor register, so it can't sponsor a Skilled Worker visa. Sponsorship: employer not on the register.",
-"match_reasons": [],
-"gaps": [],
-"jd_summary": "Operations BA at a global employment/payroll platform: map onboarding and payout processes, find friction, run workshops, recommend changes. Kleos is not on the sponsor register and the advert does not offer sponsorship.",
-"jd_full": "",
-"sponsor_register": "not_found",
-"sponsor_match": "",
-"jd_sponsorship": "silent",
-"salary_check": "range_crosses_general",
-"recruiter": false,
-"decision": "skipped",
-"decided_at": "",
-"status": "skipped",
-"cv_file": "",
-"cv_url": "",
-"cv_emailed_at": "",
-"applied_at": "",
-"status_updated_at": "2026-11-12T08:28:21+00:00",
 "last_email": "",
 "notes": "",
 "profile_basis": "master",

@@ -63,7 +63,7 @@
     "Finance roles needing an accounting qualification (CIMA, ACA, ACCA)"
   ],
   "locations": [
-    "Anywhere in the UK",
+    "Anywhere in the UK (willing to relocate for the right role)",
     "Remote (UK)"
   ],
   "max_years_experience_required": 3,
@@ -71,14 +71,15 @@
   "review_window_days": 3,
   "cv_apply_window_days": 7,
   "visa": {
-    "needs_sponsorship": true,
+    "needs_sponsorship": false,
     "new_entrant_eligible": true,
-    "notes": "Skilled Worker route. New-entrant rate applies when switching from Student/Graduate visa (or under 26). A sponsor licence means the employer CAN sponsor, not that this role will: always read the advert's right-to-work wording, and check the job's SOC code going rate before applying.",
+    "notes": "Time-limited right to work until January 2028 (month/year only, because this repo is public). No sponsorship needed. Roles must not require settled or indefinite right to work, and must not need security clearance that requires years of UK residence. A contract should end by January 2028.",
     "salary_thresholds": {
       "general": 41700,
       "new_entrant": 33400
     },
-    "thresholds_source": "gov.uk/skilled-worker-visa (checked 2026-11-02)"
+    "thresholds_source": "gov.uk/skilled-worker-visa (checked 2026-11-02)",
+    "right_to_work_until": "2028-01"
   },
   "scoring": {
     "apply": 70,
@@ -150,6 +151,7 @@
       "SMBC Bank International",
       "Sainsbury's"
     ],
-    "watchlist_note": "Every employer here had a Skilled Worker licence on the register dated 2026-11-11. A licence means the employer can sponsor, not that a given role will."
-  }
+    "watchlist_note": "Large employers with regular business analyst hiring. Sponsorship no longer matters; the list is kept for coverage."
+  },
+  "goal": "Paid UK business analyst experience before the visa ends in January 2028. Not trying to settle in the UK, so visa sponsorship is NOT needed: any employer can hire Dhruv until then. A fixed-term contract that ends by January 2028 is ideal; a permanent role is fine (he would leave when the visa ends)."
 }

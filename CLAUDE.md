@@ -5,7 +5,8 @@ their master CV, checks UK visa sponsorship, writes tailored Word CVs for jobs t
 tracks applications. Everything lives in this GitHub repo; the website is `index.html`
 (GitHub Pages).
 
-**Read `config/profile.json` first.** It holds the owner's name, email, GitHub repo + branch,
+**Read `config/profile.json` first, starting with `goal`.** The owner wants paid UK business analyst
+experience before his visa ends (January 2028) and does not need sponsorship. It holds the owner's name, email, GitHub repo + branch,
 target roles and visa settings. Below, "the owner" and "OWNER_EMAIL" mean those values.
 
 Hard rules: **never apply to a job, and never email anyone except OWNER_EMAIL.** Use only facts
@@ -172,9 +173,11 @@ score against the CV.
   `jd_summary` (≤80 words incl. how to apply + work pattern).
 - `jd_sponsorship`: `offers` | `no_sponsorship` | `right_to_work_required` | `silent`. Search the whole
   advert, including the small print at the end, for "sponsor", "right to work", "visa" and "eligib".
-- **Say it plainly.** `verdict` must end with one sentence on sponsorship: "Sponsorship: offered in the
-  advert." / "Sponsorship: not mentioned; the employer is licensed, so ask before investing time." /
-  "Sponsorship: ruled out by the advert." / "Sponsorship: employer not on the register."
+- **Say it plainly.** `verdict` must end with one sentence on right to work and timing, for example:
+  "Right to work: fine; a 12-month contract fits if it starts by January 2027." / "Right to work: fine;
+  permanent role, so you'd leave in January 2028." / "Right to work: the advert needs settled status or
+  clearance, so this won't work." While `visa.needs_sponsorship` is false, never call a job unsuitable
+  because the employer isn't a sponsor or the advert says it can't sponsor.
 - **Flags first.** Start `gaps` with every item of `flags.list` in `config/scoring.json` that applies
   (short contract, clearance, unstated salary, a move, one vacancy across several cities), then the
   skill and experience gaps.
@@ -183,6 +186,9 @@ score against the CV.
   `jd_summary` with "Apply on the employer's site: <https url>". Applying there is better than Easy Apply.
 
 ### 6. Sponsorship checks
+While `visa.needs_sponsorship` is false these checks are recorded for information only: they never skip
+a job or lower its score. Read the advert for contract length and for settled-status or clearance
+requirements instead (the `right_to_work_excluded` gate).
 - `python3 scripts/sponsor_check.py "<Company A>" "<Company B>" …` → `sponsor_register`
   (`licensed` / `licensed_other_route` / `possible` / `not_found`), `recruiter`, and `sponsor_match`
   (first match as `{name, town, rating, route}`); note `register_date` for step 10.
@@ -209,8 +215,9 @@ For each job from `python3 scripts/jobs_store.py pending-cv`:
    fits), an honest line on any gap the advert makes essential, and location (based in Newcastle; only
    say "would relocate" as `[confirm: would you relocate to <city>?]`). Never invent motivation: if the
    advert asks for interest in a sector the CV does not show, leave
-   `[add one true sentence on why <sector> interests you]`. Never state or imply that sponsorship is not
-   needed. Use only facts from the master CV and respect its "Not to be claimed" section.
+   `[add one true sentence on why <sector> interests you]`. When the advert asks about right to work, or the role is a
+   contract, add one line: "I have the right to work in the UK until January 2028 and don't need
+   sponsorship." Never claim a longer right to work. Use only facts from the master CV and respect its "Not to be claimed" section.
 4. Upsert `status: cv_ready`, `cv_file: <path>.docx`, `cv_url: <path>.docx` (relative: the website
    serves it, so it downloads straight from the site; full link = `site_url` + path).
 5. Commit + push (step 10) so the file is live, then email OWNER_EMAIL with Gmail `send_message`:
