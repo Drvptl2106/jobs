@@ -1,5 +1,118 @@
 [
 {
+"id": "gd-1010323338845",
+"source": "glassdoor",
+"title": "Business Analyst",
+"company": "Auto Hub & Trading Ltd",
+"location": "West Bromwich, England (in person)",
+"salary": "£45k - £50k (Employer provided)",
+"salary_min": 45000,
+"salary_max": 50000,
+"posted_age": "2d",
+"first_seen": "2026-11-13",
+"email_date": "2026-11-13T17:25:24Z",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010323338845",
+"easy_apply": true,
+"fit_score": 80,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 18,
+"max": 20,
+"note": "Business analyst for a motor trading firm: requirements, process improvement, performance and market analysis"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 22,
+"max": 25,
+"note": "Evidenced: BA work, market/competitor research, reports, Excel/Power BI, stakeholders, process improvement; sales/stock analysis only partly"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 11,
+"max": 15,
+"note": "Asks for business analysis experience, no years stated; freelance and volunteer BA roles cover it"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "None stated"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 6,
+"max": 10,
+"note": "Automotive is a plus; MSc EV market strategy project (Renault, Nissan, Jeep) is related"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 8,
+"max": 10,
+"note": "Permanent role at a licensed Skilled Worker sponsor (A rating); advert silent on visas"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Permanent, in person in West Bromwich: needs a move"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 4,
+"max": 5,
+"note": "Posted 2 days ago; Easy Apply -1"
+}
+],
+"confidence": "high",
+"recommendation": "apply",
+"verdict": "A general business analyst role at a used-vehicle trading company: performance and market analysis, process improvement and requirements from management, which maps well onto your freelance BA, market-research and dashboard work, and the pay is well above the visa thresholds. Right to work: fine; permanent role at a licensed sponsor, so you'd leave in January 2028 unless they sponsor you.",
+"match_reasons": [
+"Freelance BA at Visionize: gathered and challenged client requirements and produced market, competitor, pricing and cost analysis",
+"Power BI dashboards and KPI reporting (Visionize, GDP Foundation) match the dashboards and performance reports asked for",
+"Root cause and process analysis at GDP Foundation, and BreakPoint at EE, show finding and fixing operational inefficiencies",
+"MSc EV market strategy project (Renault, Nissan, Jeep) gives some automotive market context"
+],
+"gaps": [
+"Permanent role: you'd leave in January 2028 unless they sponsor you; answer honestly if asked",
+"Needs a move: in person in West Bromwich, so check relocation costs against the salary",
+"No direct experience of vehicle stock management or sales margin analysis",
+"Small, little-known trading company with a generic advert and Easy Apply: check the company (Companies House, reviews) before applying"
+],
+"jd_summary": "Business Analyst reporting to senior management at a West Bromwich motor vehicle trading firm. Analyse sales, margins, stock turnover and costs; market and competitor research; dashboards and reports; gather requirements and improve processes; forecasts and targets; present findings. Needs Excel and reporting tools; automotive experience a plus. Permanent, in person, £45k-£50k, on-site parking. Apply via Glassdoor Easy Apply (no employer careers page found).",
+"jd_full": "AUTO HUB & TRADING LTD is seeking a skilled and analytical Business Analyst to support the company's business operations, strategic planning and commercial development within the motor vehicle sales and trading sector.\n\nThe successful candidate will be responsible for analysing business performance, identifying operational improvements, evaluating market trends and developing data-driven recommendations to improve efficiency, profitability and business growth. The role will involve working closely with management and operational teams to assess business requirements, monitor sales performance, improve internal processes and support informed commercial decision-making.\n\nKey Duties and Responsibilities\n• Analyse the company's business operations, sales performance and financial data to identify trends, performance gaps and opportunities for improvement.\n• Conduct market research and competitor analysis to identify developments in the used vehicle market, customer demand, pricing trends and business opportunities.\n• Evaluate vehicle purchasing, stock management and sales processes to identify inefficiencies and recommend improvements.\n• Prepare detailed business reports, performance dashboards and analytical summaries to support management decision-making and strategic planning.\n• Analyse sales figures, profit margins, vehicle turnover rates and operational costs to assess business performance and recommend measures to improve profitability.\n• Gather and assess business requirements from management and relevant departments, translating them into practical recommendations and improvement plans.\n• Review existing business procedures and develop strategies to improve operational efficiency, resource utilisation and workflow management.\n• Monitor customer purchasing patterns, market demand and sales trends to support effective vehicle stock planning and commercial strategies.\n• Work with management to develop business forecasts, performance targets and operational plans based on market research and historical business data.\n• Identify potential business risks and operational challenges, providing evidence-based recommendations to minimise their impact.\n• Support the implementation of new business processes, reporting systems and operational improvements, monitoring their effectiveness.\n• Liaise with internal teams and external stakeholders to collect relevant business information and ensure that operational objectives are achieved.\n• Present analytical findings and recommendations to senior management, providing clear explanations of business performance and proposed improvements.\n\nSkills and Experience Required\n• Strong analytical, numerical and problem-solving skills.\n• Experience in business analysis, market research and performance evaluation.\n• Ability to analyse complex business information and prepare detailed reports.\n• Knowledge of sales performance analysis, stock management and commercial operations.\n• Proficiency in Microsoft Excel, reporting tools and business analysis software.\n• Strong communication, organisational and stakeholder management skills.\n• Ability to identify business improvement opportunities and develop practical solutions.\n• Experience in the automotive or vehicle trading industry would be advantageous.\n\nReporting Structure\nThe Business Analyst will report directly to the company's senior management and work collaboratively with relevant operational and commercial teams to support business planning, performance monitoring and organisational development.\n\nPay: £45,000.00-£50,000.00 per year\nBenefits: On-site parking\nWork Location: In person",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "AUTO HUB & TRADING LTD",
+"town": "West Bromwich",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "meets_general",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-13T18:25:20+00:00",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-13T18:25:20+00:00"
+},
+{
 "id": "gd-1010324699284",
 "source": "glassdoor",
 "title": "EU Operational Excellence Analyst",
@@ -111,6 +224,119 @@
 "notes": "",
 "profile_basis": "master",
 "updated_at": "2026-11-13T08:26:05+00:00"
+},
+{
+"id": "gd-1010324640097",
+"source": "glassdoor",
+"title": "Marketing & Commercial Analyst",
+"company": "Ifor Williams Trailers",
+"location": "Deeside, Wales (office-based)",
+"salary": "£26k - £40k (Glassdoor Est.)",
+"salary_min": 26000,
+"salary_max": 40000,
+"posted_age": "17h",
+"first_seen": "2026-11-13",
+"email_date": "2026-11-13T08:32:10Z",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010324640097",
+"easy_apply": true,
+"fit_score": 68,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 8,
+"max": 20,
+"note": "Analyst title, but most duties are planning and running paid social/search ads; KPI reporting and insight are the BA-like part"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 19,
+"max": 25,
+"note": "Evidenced: numerical analysis, Excel pivots/charts, attention to detail, presenting data, AI tools, GA4; not shown: Meta/Google/LinkedIn ads"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 15,
+"max": 15,
+"note": "No experience requirement stated"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "None stated"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 3,
+"max": 10,
+"note": "Trailer manufacturing; no link, sector experience not required"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 8,
+"max": 10,
+"note": "Permanent role at a licensed Skilled Worker sponsor (A rating); advert silent on visas"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Permanent, office-based in Deeside: needs a move"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 4,
+"max": 5,
+"note": "Posted 17h ago; Easy Apply -1"
+}
+],
+"confidence": "high",
+"recommendation": "maybe",
+"verdict": "An entry-friendly analyst role in a trailer maker's marketing team, but the core of it is running paid social and search ads, which the CV doesn't show; the KPI reporting and Excel side fits well. Right to work: fine; permanent role at a licensed sponsor, so you'd leave in January 2028 unless they sponsor you.",
+"match_reasons": [
+"Google Analytics 4 tracking set up for a Visionize client matches the GA4 desirable",
+"KPI dashboards and reports in Power BI and Excel (Visionize, GDP Foundation) match the performance reporting",
+"Builds tools with AI coding assistants (BreakPoint at EE), matching 'confident using AI tools'",
+"Gamification design at M&S and EE shows thinking about what drives engagement"
+],
+"gaps": [
+"Permanent role: you'd leave in January 2028 unless they sponsor you; answer honestly if asked",
+"Salary not stated (Glassdoor estimate £26k-£40k)",
+"Needs a move: office-based in Deeside, with occasional evening/weekend campaign checks",
+"No paid media experience (Meta, Google, LinkedIn ads), which is the main part of the job"
+],
+"jd_summary": "Marketing & Commercial Analyst in Ifor Williams Trailers' in-house marketing team (Deeside). Plan, launch and optimise paid social and search campaigns, set up KPIs, analyse organic social performance and report with recommendations. Essentials: strong numeracy, advanced Excel, written communication, AI tools. Meta/Google Ads and GA4 desirable. Permanent, office-based, salary not stated. Apply via Glassdoor Easy Apply.",
+"jd_full": "Marketing & Commercial Analyst\n\nFor more than 65 years, Ifor Williams Trailers has set the standard for durability, performance and innovation in trailer manufacturing. We are looking for an analytical and commercially minded Marketing & Commercial Analyst to join our marketing team, supporting the growth of our online and social media presence and helping to promote sales of our trailers.\n\nAbout the Role\nWorking alongside our content and social media team, you will support and manage our paid media activity across social and search platforms, and provide insight into how our content and advertising are performing. You may also support colleagues across the business.\n\nKey Responsibilities\nPaid media\n• Plan, build, launch and optimise paid campaigns across social and search platforms.\n• Monitor live campaigns and make timely adjustments.\n• Use AI tools to support campaign planning and set-up.\n• Test audiences, messages and formats.\n• Support the promotion of our dealer network.\nPerformance and reporting\n• Set up and track KPIs for paid and organic content.\n• Analyse organic social media performance and identify opportunities.\n• Produce accurate, timely reports on campaign performance.\n• Turn data into clear, practical recommendations.\nCollaboration\n• Work with the content and social media team; support search content with paid search and audience insight.\n• Bring fresh ideas backed by evidence; stay up to date with platform changes.\n\nAbout You\nEssential\n• Strong numerical ability, confident handling and interpreting large data sets.\n• Advanced spreadsheet skills (Excel or equivalent), including formulas, pivot tables and charts.\n• Excellent attention to detail under pressure.\n• Excellent written communication; present data clearly.\n• Confidence to question existing approaches, supported by evidence.\n• A creative approach to problem-solving and an understanding of engaging content.\n• Confident using AI tools to speed up planning, analysis and campaign set-up.\nDesirable\n• Meta (Facebook and Instagram) advertising campaigns.\n• LinkedIn Ads, Google Ads, YouTube or TikTok advertising.\n• Google Analytics 4 or similar.\n• Meta Blueprint, Google Ads or CIM certifications.\n\nLocation and Hours\nFull-time, permanent, office-based at Boundary Park, Deeside. Occasional weekend and evening monitoring of live campaigns may be required.\nBenefits: free on-site parking. Work Location: In person.",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "Ifor Williams Trailers Limited",
+"town": "Corwen",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "range_crosses_new_entrant",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-13T18:25:20+00:00",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-13T18:25:20+00:00"
 },
 {
 "id": "gd-1010324696137",
@@ -548,6 +774,119 @@
 "notes": "",
 "profile_basis": "master",
 "updated_at": "2026-11-13T08:26:05+00:00"
+},
+{
+"id": "gd-1010324500866",
+"source": "glassdoor",
+"title": "Marketing Communications Analyst",
+"company": "Glasdon",
+"location": "Blackpool, England (in person)",
+"salary": "£24k - £59k (Glassdoor Est.)",
+"salary_min": 24000,
+"salary_max": 59000,
+"posted_age": "20h",
+"first_seen": "2026-11-13",
+"email_date": "2026-11-13T08:32:10Z",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010324500866",
+"easy_apply": true,
+"fit_score": 56,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 5,
+"max": 20,
+"note": "Mostly marketing communications (copywriting, events, LinkedIn, direct mail); reporting is a small part"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 14,
+"max": 25,
+"note": "Evidenced: organisation, research, Excel, GA4, reporting; not shown: B2B marketing, CMS, email marketing, SEO tools"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 15,
+"max": 15,
+"note": "No experience requirement; entry-level person spec"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 10,
+"max": 10,
+"note": "Asks ideally for a 2:1 in marketing or business; MSc Business Analytics (Distinction) exceeds it"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 3,
+"max": 10,
+"note": "Environmental and safety products; no link, sector experience not required"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 2,
+"max": 10,
+"note": "Advert says the position does not offer visa sponsorship (permanent role)"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Permanent, in person in Blackpool: needs a move"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 4,
+"max": 5,
+"note": "Posted 20h ago; Easy Apply -1"
+}
+],
+"confidence": "high",
+"recommendation": "maybe",
+"verdict": "Despite the title, this is mainly a marketing communications job (copywriting, events, LinkedIn, direct mail) with some campaign reporting, so it is a step away from business analysis. Right to work: you can do it now, but it's permanent and the advert says it won't sponsor a visa, so you'd leave in January 2028.",
+"match_reasons": [
+"Google Analytics 4 tracking set up for a Visionize client matches the web analytics desirable",
+"Market and competitor research at Visionize matches the research tasks",
+"Excel and KPI dashboards (Visionize, GDP Foundation) cover the campaign reporting",
+"MSc Business Analytics meets the degree ask"
+],
+"gaps": [
+"Permanent role: you'd leave in January 2028 unless they sponsor you, and the advert says it won't sponsor",
+"Needs a move: in person in Blackpool; salary not stated (Glassdoor estimate only)",
+"Mostly marketing content and events work, not business analysis",
+"No B2B marketing, copywriting portfolio, CMS or email marketing experience in the CV"
+],
+"jd_summary": "Marketing Communications Analyst in Glasdon's marketing team (Blackpool). Support trade shows, print and LinkedIn advertising, newsletters and website copy, direct mail, market research, and campaign reporting with A/B tests. Essentials: strong writing, organisation, social media, research. Permanent, Mon-Fri 9-5 in person, salary not stated, no visa sponsorship. Apply via Glassdoor Easy Apply.",
+"jd_full": "Department: Marketing. Location: Blackpool, Lancashire. Reports to: Marketing Communications Team Leader. No line management.\n\nAbout Us\nThe Glasdon Group is a market leader in the design, marketing, and supply of environmental and safety products.\n\nPurpose of the Role\nYou will support a broad range of marketing activities across Glasdon's channels, from advertising, direct mail and trade shows to social media, website content and other marketing materials. Combining strong communication skills with an analytical approach, you will help attract new customers, strengthen existing relationships, and use performance data to continually improve how we reach our audiences.\n\nKey Tasks\n• Exhibitions & Events: support the marketing and promotion of Glasdon's attendance at trade shows and industry events.\n• Advertising: coordinate print advertising and help manage the Company's LinkedIn presence.\n• Content & Copywriting: write copy for newsletters, website content, case studies and brochures; produce the regular newsletter.\n• Direct Mail: coordinate direct mail campaigns; work with external mailing houses.\n• Research: research industry topics, competitors and market trends.\n• Reporting: monitor and report on marketing and campaign performance; test and optimise campaigns (e.g. A/B testing); use AI-powered reporting tools.\n\nKey Objectives\n• Deliver agreed marketing campaigns and materials on schedule and to brief.\n• Grow LinkedIn presence and engagement against quarterly targets.\n• Deliver regular performance reports with insights and recommendations.\n\nEssential Skills & Attributes\n• Excellent written communication, with a strong eye for detail.\n• A proactive, can-do approach and willingness to learn.\n• Good organisational skills.\n• A good understanding of social media platforms and general IT.\n• The curiosity to research complex subjects and present them as clear content.\n\nDesirable\n• SEO tools and web analytics (e.g. Google Analytics, Search Console).\n• B2B marketing and content writing.\n• Content management systems.\n• Working knowledge of Excel for data analysis.\n• Email marketing platforms (e.g. Mailchimp); marketing automation tools.\n• AI-assisted content drafting; awareness of Generative Engine Optimisation.\n• Awareness of GDPR as it relates to marketing.\n• Adapting content for different regions or languages.\n\nQualifications\nIdeally a 2:1 degree in Marketing or Business, and/or strong A-Levels in English Language and/or Maths/Science.\n\nWorking Hours\nFull-time, permanent. Monday to Friday, 9:00am - 5:00pm (flextime available).\n\nPlease note, this position does not offer visa sponsorship.\n\nSalary & Benefits\n• Competitive starting salary; 33 days holiday rising to 38; performance bonuses; final salary pension (after 2 years); private health insurance (after 1 year); relocation support loans; on-site gym and parking; training and study support.\n\nAbility to commute/relocate: Blackpool FY4 (required). Work authorisation: United Kingdom (required). Work Location: In person.",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "Glasdon Group Limited",
+"town": "Blackpool",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "no_sponsorship",
+"salary_check": "range_crosses_general",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-13T18:25:20+00:00",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-13T18:25:20+00:00"
 },
 {
 "id": "gd-1010321264990",
@@ -1094,6 +1433,88 @@
 "notes": "",
 "profile_basis": "master",
 "updated_at": "2026-11-13T08:26:16+00:00"
+},
+{
+"id": "gd-1010324530114",
+"source": "glassdoor",
+"title": "SEN Behaviour Analyst (Graduate)",
+"company": "Jigsaw Trust",
+"location": "Cranleigh, England",
+"salary": "£27k (Employer Est.)",
+"salary_min": 27000,
+"salary_max": 27000,
+"posted_age": "20h",
+"first_seen": "2026-11-13",
+"email_date": "2026-11-13T08:32:10Z",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010324530114",
+"easy_apply": true,
+"fit_score": null,
+"score_breakdown": [],
+"confidence": "",
+"recommendation": "skip",
+"verdict": "Outside your target roles: special-education behaviour support, not business analysis.",
+"match_reasons": [],
+"gaps": [],
+"jd_summary": "",
+"jd_full": "",
+"sponsor_register": "",
+"sponsor_match": "",
+"jd_sponsorship": "",
+"salary_check": "below_threshold",
+"recruiter": false,
+"decision": "skipped",
+"decided_at": "",
+"status": "skipped",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-13T18:25:20+00:00",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-13T18:25:20+00:00"
+},
+{
+"id": "gd-1010323471898",
+"source": "glassdoor",
+"title": "Microbiology Analyst",
+"company": "South East Water",
+"location": "Farnborough, Hampshire",
+"salary": "£28k (Employer Est.)",
+"salary_min": 28000,
+"salary_max": 28000,
+"posted_age": "1d",
+"first_seen": "2026-11-13",
+"email_date": "2026-11-13T08:32:10Z",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010323471898",
+"easy_apply": false,
+"fit_score": null,
+"score_breakdown": [],
+"confidence": "",
+"recommendation": "skip",
+"verdict": "Outside your target roles: laboratory science role, not business analysis.",
+"match_reasons": [],
+"gaps": [],
+"jd_summary": "",
+"jd_full": "",
+"sponsor_register": "",
+"sponsor_match": "",
+"jd_sponsorship": "",
+"salary_check": "below_threshold",
+"recruiter": false,
+"decision": "skipped",
+"decided_at": "",
+"status": "skipped",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-13T18:25:20+00:00",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-13T18:25:20+00:00"
 },
 {
 "id": "gd-1010322113216",
