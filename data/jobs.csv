@@ -1,4 +1,240 @@
 id,source,title,company,location,salary,salary_min,salary_max,posted_age,first_seen,email_date,url,easy_apply,fit_score,score_breakdown,confidence,recommendation,verdict,match_reasons,gaps,jd_summary,jd_full,sponsor_register,sponsor_match,jd_sponsorship,salary_check,recruiter,decision,decided_at,status,cv_file,cv_url,cv_emailed_at,applied_at,status_updated_at,last_email,notes,profile_basis,updated_at
+gd-1010324699284,glassdoor,EU Operational Excellence Analyst,Haleon,"London, England",£41k - £56k (Glassdoor Est.),41000,56000,Just posted,2026-11-13,2026-11-12,https://www.glassdoor.co.uk/job-listing/j?jl=1010324699284,no,69,"[{""key"": ""role_match"", ""label"": ""Role match"", ""score"": 12, ""max"": 20, ""note"": ""Operational excellence analyst, but the job is mainly building automated Power BI reporting on supply-chain KPIs""}, {""key"": ""skills"", ""label"": ""Skills & tools"", ""score"": 15, ""max"": 25, ""note"": ""Power BI, translating needs into reporting and analysis evidenced; multi-source data and SQL half; automation/scheduled refreshes, APS and supply chain not on CV""}, {""key"": ""experience"", ""label"": ""Experience level"", ""score"": 15, ""max"": 15, ""note"": ""No years of experience stated""}, {""key"": ""qualifications"", ""label"": ""Qualifications"", ""score"": 8, ""max"": 10, ""note"": ""No qualification stated""}, {""key"": ""domain"", ""label"": ""Industry fit"", ""score"": 3, ""max"": 10, ""note"": ""Consumer health supply chain; CV has no link, and supply chain is only preferred""}, {""key"": ""visa"", ""label"": ""Right to work & sponsor"", ""score"": 8, ""max"": 10, ""note"": ""Permanent role at a licensed sponsor (Haleon UK Services Ltd, Skilled Worker, A rating)""}, {""key"": ""practical"", ""label"": ""Location & terms"", ""score"": 3, ""max"": 5, ""note"": ""Permanent, London""}, {""key"": ""odds"", ""label"": ""Chance of hearing back"", ""score"": 5, ""max"": 5, ""note"": ""Just posted, not Easy Apply""}]",high,maybe,"A Power BI reporting role for Haleon's supply-chain team (forecast accuracy, OTIF, inventory), with no experience level stated and a licensed sponsor behind it; it is more reporting than business analysis, and supply-chain and planning-system knowledge would help. Right to work: fine; permanent role at a licensed sponsor.","Power BI dashboards and reports of client data at Visionize, and KPI dashboards with quality checks at GDP Foundation | Visionize: set up a client data pipeline bringing together and cleaning data from several sources | Requirements gathering with teams and turning them into structured briefs fits 'translate business needs into reporting' | MSc modules in Operational Analytics and Business Visualisation",Reporting-heavy role: closer to BI/data work than business analysis | Wants automated reporting with scheduled refreshes and large datasets via SQL/cloud: your SQL is working level only | APS / demand planning and supply-chain experience preferred; none on CV | London-based (a move from Newcastle),"EU Operational Excellence (CSC Op Ex & Compliance) Analyst, Haleon, London. Permanent (assumed; not stated), closes 30 Nov 2026. Own CSC performance reporting (forecast accuracy, inventory, OTIF, master data), build automated Power BI reports, support the monthly planning cycle from APS data, analyse large datasets and document report logic. Requires strong Power BI, multi-source data (SQL/cloud) and automation. Salary not stated (Glassdoor est. £41k-£56k). Apply on the employer site via Glassdoor.","EU Operational Excellence Analyst - Haleon, London
+Haleon is a consumer health company (Sensodyne, Panadol, Advil, Voltaren, Centrum and more).
+
+Responsibilities include:
+• Owns reporting for the OU CSC Team, focused on CSC performance metrics: demand evolution, SFA, SFB, inventory, SLOBs, OTIF, order and SKU complexity, master data accuracy.
+• Design, build and maintain automated reporting solutions that turn high-volume, complex data into clear, actionable insights.
+• Support the Planning Excellence Manager in the monthly cycle: using APS as the source, produce SFA, SFB, month-on-month demand changes, sales vs forecast and lost sales by OU/cluster/category/brand, and identify what drives the changes.
+• Analyse large and complex datasets to identify trends, patterns and opportunities.
+• Collaborate with stakeholders to understand business processes, data usage and reporting requirements.
+• Maintain and optimise existing reports; ensure data accuracy and integrity.
+• Document data sources, logic and report structures.
+• Learn new reporting technologies as the organisation moves to future platforms.
+
+Required
+• Strong proficiency in Power BI and ability to learn new reporting tools.
+• Experience working with large datasets from multiple sources (SQL, cloud platforms, etc.).
+• Ability to translate business needs into technical reporting solutions.
+• Strong analytical mindset.
+• Experience with automation, including scheduled refreshes.
+
+Preferred
+• APS or planning experience.
+• Power BI reporting development.
+• Supply chain experience.
+
+Job posting end date: 2026-11-30.
+Salary: not stated (Glassdoor estimate £41k-£56k).",licensed,"{""name"": ""HALEON UK SERVICES LIMITED"", ""town"": ""Weybridge"", ""rating"": ""Worker (A rating)"", ""route"": ""Skilled Worker""}",silent,range_crosses_general,no,pending,,new,,,,,2026-11-13T08:26:05+00:00,,,master,2026-11-13T08:26:05+00:00
+gd-1010324696137,glassdoor,Interim Planning Analyst,Jimmy Choo,"London, England",£45k - £70k (Employer provided),45000,70000,Just posted,2026-11-13,2026-11-12,https://www.glassdoor.co.uk/job-listing/j?jl=1010324696137,no,65,"[{""key"": ""role_match"", ""label"": ""Role match"", ""score"": 12, ""max"": 20, ""note"": ""Planning/reporting analyst: mostly KPI reporting and S&OP support, with process mapping, testing and improvement work""}, {""key"": ""skills"", ""label"": ""Skills & tools"", ""score"": 17, ""max"": 25, ""note"": ""Power BI, analysis, presenting insight and requirements-to-reporting evidenced; Excel and Power Query half; S&OP/forecasting and SAP not on CV""}, {""key"": ""experience"", ""label"": ""Experience level"", ""score"": 11, ""max"": 15, ""note"": ""No years stated, but the £45k-£70k range implies some planning experience""}, {""key"": ""qualifications"", ""label"": ""Qualifications"", ""score"": 8, ""max"": 10, ""note"": ""No qualification stated""}, {""key"": ""domain"", ""label"": ""Industry fit"", ""score"": 6, ""max"": 10, ""note"": ""Asks for retail/FMCG experience: M&S store role is retail, but not planning""}, {""key"": ""visa"", ""label"": ""Right to work & sponsor"", ""score"": 3, ""max"": 10, ""note"": ""Interim role, length not stated; Jimmy Choo / Capri not found on the sponsor register""}, {""key"": ""practical"", ""label"": ""Location & terms"", ""score"": 3, ""max"": 5, ""note"": ""Interim contract of unknown length, London""}, {""key"": ""odds"", ""label"": ""Chance of hearing back"", ""score"": 5, ""max"": 5, ""note"": ""Just posted, not Easy Apply; temporary role (+1, capped)""}]",high,maybe,"An interim (temporary) planning analyst role at Jimmy Choo built around Power BI/Excel KPI reporting plus process mapping, testing and AI-tool improvements, which suits your toolkit, but it expects S&OP and SAP know-how you don't have. Right to work: fine for a short interim contract; check the length ends by January 2028.","Power BI dashboards and reports for Visionize clients and KPI dashboards at GDP Foundation | M&S: co-built a live dashboard for date-expired food checks in a retail store | BreakPoint: built an internal tool with AI coding assistants and tested every rule, matching the AI/Copilot and testing desirables | GDP Foundation: process maps and root-cause analysis of current processes","Interim role with no stated length: ask how long it runs and whether it could end after January 2028 | Needs understanding of planning, forecasting, replenishment and S&OP processes - not on your CV | Advanced Excel with Power Pivot and SAP/ERP data extraction asked for; your Excel and Power Query are basic-to-working level | London-based (a move from Newcastle); pay is £45k-£70k so they may expect experience","Interim Planning Analyst, Jimmy Choo (Capri Holdings), London, £45k-£70k (employer provided). Temporary/interim; length and work pattern not stated. Support the Global Planning team with KPI reporting, ad hoc analysis, S&OP materials, Power BI/Excel reporting, data validation, process mapping and testing during system changes. Wants retail/FMCG, S&OP, advanced Excel, Power Query/Pivot, Power BI and SAP. Apply on the employer site via Glassdoor.","Interim Planning Analyst - Jimmy Choo, London
+
+Role Purpose
+The Planning Analyst will support the Global Planning team across business-as-usual and continuous improvement activities, providing reporting, analysis and operational support across planning, forecasting, replenishment and S&OP processes. Experience developing, configuring or supporting AI agents, Microsoft Copilot or other generative AI technologies is desirable.
+
+Planning & Business Support
+• Support Planning, Forecasting, Replenishment and S&OP processes with data, reporting and analysis.
+• Produce regular KPI reporting and performance analysis.
+• Conduct ad hoc analysis to identify risks, opportunities and trends.
+• Assist in preparing planning and S&OP materials and presentations.
+• Gather, consolidate and validate information from multiple stakeholders and systems.
+
+Reporting & Data Management
+• Extract and prepare data from business systems and databases.
+• Maintain and update reports, dashboards and planning tools.
+• Develop reporting using Excel, Power Query, Power Pivot and Power BI.
+• Ensure data accuracy and support reporting and process improvements.
+
+Operational & Administrative Support
+• Support day-to-day planning administration, recurring reports, action tracking and documentation.
+• Support data validation and reconciliation.
+
+Continuous Improvement & Project Support
+• Support business improvement initiatives across Planning.
+• Contribute to process reviews, documentation and process mapping.
+• Assist with testing, data validation and user support during system or process changes.
+• Support business projects and change initiatives alongside BAU.
+
+Skills & Experience
+• Experience within a retail, FMCG or consumer products environment.
+• Understanding of Planning, Forecasting and S&OP processes.
+• Advanced Excel; Power Query and Power Pivot; Power BI reports and dashboards.
+• Extracting and analysing data from ERP systems, ideally SAP.
+• Strong analytical, problem-solving, organisational and presentation skills; attention to detail.
+• Ability to translate business requirements into analysis and reporting.
+
+Desirable
+• Supporting planning, supply chain or commercial teams; allocation and replenishment.
+• Business improvement initiatives; system implementations and testing; process mapping.
+• Project work alongside BAU; retail inventory management.
+• Microsoft Copilot, AI agents or similar generative AI solutions.
+
+Compensation range: £45,000 - £70,000.",not_found,{},silent,meets_general,no,pending,,new,,,,,2026-11-13T08:26:05+00:00,,,master,2026-11-13T08:26:05+00:00
+wb-1421d348ac,web,Technical Business Analyst,Accenture,London,Competitive (not stated),,,Found on employer site,2026-11-13,,https://www.accenture.com/gb-en/careers/jobdetails?id=R00357810_en,no,65,"[{""key"": ""role_match"", ""label"": ""Role match"", ""score"": 20, ""max"": 20, ""note"": ""Business analyst: process mapping, business cases, requirements, agile delivery""}, {""key"": ""skills"", ""label"": ""Skills & tools"", ""score"": 10, ""max"": 25, ""note"": ""Requirements and stakeholder work evidenced; delivery half; data/enterprise architecture, Databricks/AWS/GCP and workshop facilitation not on CV; AI delivery partly (BreakPoint)""}, {""key"": ""experience"", ""label"": ""Experience level"", ""score"": 11, ""max"": 15, ""note"": ""Mid-level (CL9 Specialist); no years stated""}, {""key"": ""qualifications"", ""label"": ""Qualifications"", ""score"": 6, ""max"": 10, ""note"": ""No degree requirement; CBAP and Certified ScrumMaster set candidates apart and you have neither""}, {""key"": ""domain"", ""label"": ""Industry fit"", ""score"": 3, ""max"": 10, ""note"": ""Cross-industry consulting; no sector required""}, {""key"": ""visa"", ""label"": ""Right to work & sponsor"", ""score"": 8, ""max"": 10, ""note"": ""Permanent role at a licensed sponsor (Accenture (UK) Limited, Skilled Worker, A rating)""}, {""key"": ""practical"", ""label"": ""Location & terms"", ""score"": 3, ""max"": 5, ""note"": ""Permanent, London, with travel to client sites""}, {""key"": ""odds"", ""label"": ""Chance of hearing back"", ""score"": 4, ""max"": 5, ""note"": ""Very large brand (-1); open until 30 Nov""}]",high,maybe,"A mid-level Technical BA in Accenture's Data & AI practice: the BA core (process mapping, requirements, business cases) fits, but it also wants data-platform and architecture experience (Databricks, AWS, GCP) and leading workshops, which you can't show yet. Right to work: fine; permanent role at a licensed sponsor.","BreakPoint: defined requirements and business rules, then delivered the tool with AI coding assistants (fits 'AI delivery') | Blueline Taxis MSc project: mapped features to business outcomes with a go-to-market plan and KPIs, like building business cases | GDP Foundation: process maps, root-cause analysis and backlog refinement in iterative delivery | Visionize: data pipeline from several sources and client-facing requirements work","Data platform experience (Databricks, AWS, GCP) and data/enterprise architecture asked for - not on your CV | Planning and facilitating workshops is a core duty; you can't claim workshop facilitation yet | Mid-level consulting role at a very large firm: strong competition; CBAP/CSM favoured | London base with travel to client sites (a move)","Technical Business Analyst (CL9 Specialist), Accenture Data & AI practice, London. Permanent, full time, client-site travel. Map processes, build business cases, lead stakeholder analysis, facilitate workshops, support agile delivery and work with data models and AI accelerators. Wants BA, stakeholder and delivery experience plus data/enterprise architecture and Databricks/AWS/GCP. Salary competitive (not stated). Closes 30 Nov 2026. Apply on the employer's site: https://www.accenture.com/gb-en/careers/jobdetails?id=R00357810_en","Technical Business Analyst - Accenture, London
+Job No. R00357810. Data Eng, Mgmt & Governance Team Lead/Consultant. Mid-Level. Full time. Career level: Data Engineering, Management and Governance Specialist (CL9). Salary: competitive + package.
+
+As a team
+Join the Data & AI practice, Complex Delivery and Data Consultancy capability, ensuring AI and data initiatives drive real business outcomes.
+
+In our team you will learn
+• How to deliver technical projects with project and Agile delivery practices.
+• How to tailor communications, facilitate workshops and present to senior stakeholders.
+• How to manage delivery end-to-end, including dependencies, risks and scope.
+• How data, AI and technology foundations deliver value for clients.
+
+As a Technical Business Analyst, you will
+• Map business processes, build robust business cases and shape solutions to client needs.
+• Lead stakeholder analysis and process mapping, translating client needs into clear requirements.
+• Plan and facilitate workshops and adapt communication for delivery teams, clients and senior stakeholders.
+• Support product and project delivery using Agile processes.
+• Interpret data models, integration diagrams and platform documentation with data and technology specialists.
+• Work with AI assets and accelerators to reinvent client processes.
+
+Qualification - experience in
+• Business analysis and requirements gathering.
+• Stakeholder management.
+• Project and product delivery.
+• Data and enterprise architecture in an industry context.
+• Data platforms such as Databricks, AWS, GCP.
+
+Set yourself apart
+• AI development or delivery experience.
+• Certified Business Analysis Professional (CBAP).
+• Certified ScrumMaster (CSM).
+
+Flexibility and mobility required for time onsite with clients. Benefits: 25 days' holiday, private medical, 3 charity days.
+Closing date: 30/11/2026.",licensed,"{""name"": ""Accenture (UK) Limited"", ""town"": ""London"", ""rating"": ""Worker (A rating)"", ""route"": ""Skilled Worker""}",silent,unknown,no,pending,,new,,,,,2026-11-13T08:26:05+00:00,,,master,2026-11-13T08:26:05+00:00
+gd-1010324906451,glassdoor,Sales Analyst,Adams Aviation Supply Company Ltd,"Crawley, West Sussex",£35k - £50k (Employer provided),35000,50000,Just posted,2026-11-13,2026-11-12,https://www.glassdoor.co.uk/job-listing/j?jl=1010324906451,yes,63,"[{""key"": ""role_match"", ""label"": ""Role match"", ""score"": 12, ""max"": 20, ""note"": ""Commercial/sales analyst: reporting, KPIs and recommendations rather than business analysis""}, {""key"": ""skills"", ""label"": ""Skills & tools"", ""score"": 19, ""max"": 25, ""note"": ""Commercial data role, analysis, presenting and pricing/cost analysis evidenced; advanced Excel half; Phocas/Merlin and inventory not on CV""}, {""key"": ""experience"", ""label"": ""Experience level"", ""score"": 11, ""max"": 15, ""note"": ""Asks for experience in a sales, commercial or data-focused role; no years stated""}, {""key"": ""qualifications"", ""label"": ""Qualifications"", ""score"": 8, ""max"": 10, ""note"": ""No qualification stated""}, {""key"": ""domain"", ""label"": ""Industry fit"", ""score"": 3, ""max"": 10, ""note"": ""Aviation parts distribution; distribution/retail only desirable (M&S store work is a small link)""}, {""key"": ""visa"", ""label"": ""Right to work & sponsor"", ""score"": 3, ""max"": 10, ""note"": ""Permanent role; Adams Aviation not found on the sponsor register""}, {""key"": ""practical"", ""label"": ""Location & terms"", ""score"": 3, ""max"": 5, ""note"": ""Permanent, in person in Crawley""}, {""key"": ""odds"", ""label"": ""Chance of hearing back"", ""score"": 4, ""max"": 5, ""note"": ""Just posted; Easy Apply (-1)""}]",high,maybe,"A small distributor's first proper sales analyst, turning sales and margin data into insight for the General Manager; it rewards your dashboard, pricing-analysis and sales-floor background, but it is a reporting job, not BA, and in person in Crawley. Right to work: permanent role at an employer that isn't a sponsor, so a time-limited visa may count against you.",Visionize: pricing and cost analysis plus market and competitor insight for client growth decisions | Power BI dashboards and KPI reports for clients and the GDP Foundation | EE Sales Guide: front-line sales experience matching products to customer needs | M&S: live dashboard built from store data to make results visible,"Permanent role at an employer that isn't a licensed sponsor: lower chance with a time-limited visa | Reporting/commercial analyst job rather than business analysis | Advanced Excel and commercial KPIs (gross profit, margin by customer) expected; Phocas/Merlin ERP/BI not on CV | Fully on-site in Crawley (a move); Easy Apply means many applicants","Sales Analyst, Adams Aviation Supply Company, Crawley, £35k-£50k (employer provided). Permanent, in person. Daily/weekly/monthly sales reports and KPIs, margin vs budget, customer and account analysis, pricing and profitability, stock movement, forecasts and budgets, using Merlin ERP, Phocas BI and Excel. Wants commercial/data role experience, advanced Excel and commercial KPI understanding. Easy Apply on Glassdoor.","Sales Analyst - Adams Aviation Supply Company Ltd, Crawley
+Adams Aviation is a distributor of aviation parts and equipment (general, commercial and business aviation, helicopters and military) with a headset and ELT repair centre. As Sales Analyst you will turn sales data into clear, actionable insight, working with the General Manager, Sales, Business Development, Purchasing and Finance. More than a reporting role: interpret the data, challenge performance and communicate findings with confidence.
+
+Key responsibilities
+1. Sales reporting and performance
+• Produce daily, weekly and monthly sales reports, dashboards and KPIs.
+• Track revenue, gross profit and margin against budget by customer, product category, manufacturer, territory and salesperson.
+• Identify trends and concerns; support monthly management reviews.
+2. Customers and business development
+• Analyse purchasing patterns, retention and account development; flag inactive and lapsed accounts.
+• Provide customer and market information and assess campaigns.
+3. Pricing and profitability
+• Work with Sales, Purchasing and Finance on pricing; profitability analysis for key customers.
+4. Stock and product performance
+• Analyse demand and stock movement; identify slow-moving, obsolete and surplus stock and fast-moving lines.
+5. Forecasting and planning
+• Help prepare sales forecasts, budgets and commercial plans; monitor progress against targets.
+6. Systems and data quality
+• Use ERP and BI systems (Merlin and Phocas) and Excel-based reports and models; fix data issues; automate recurring reports.
+
+Essential skills
+• Experience in a Sales, Commercial, Business Partner or similar data-focused role.
+• Advanced Excel analysis; strong numerical and analytical skills.
+• Understanding of revenue, gross profit, margins and commercial KPIs.
+• Present complex information clearly; well organised; commercially aware; collaborative; adaptable.
+
+Desirable skills
+• ERP and BI platforms (Phocas, Merlin, Power BI or similar).
+• Background in distribution, wholesale or retail.
+• Inventory management and supply chain understanding.
+• Customer profitability, pricing and margin management.
+
+Pay: £35,000 - £50,000 per year. Benefits: pension, sick pay, free parking. Work location: in person.",not_found,{},silent,range_crosses_general,no,pending,,new,,,,,2026-11-13T08:26:05+00:00,,,master,2026-11-13T08:26:05+00:00
+gd-1010324852080,glassdoor,Business Analyst,DXC Technology,"London, England",£29k - £65k (Glassdoor Est.),29000,65000,Just posted,2026-11-13,2026-11-12,https://www.glassdoor.co.uk/job-listing/j?jl=1010324852080,no,61,"[{""key"": ""role_match"", ""label"": ""Role match"", ""score"": 20, ""max"": 20, ""note"": ""Hands-on BA: requirements, process analysis, impact assessment, validation""}, {""key"": ""skills"", ""label"": ""Skills & tools"", ""score"": 13, ""max"": 25, ""note"": ""Requirements, process analysis, stakeholders and communication evidenced; testing half; traceability, acceptance criteria and change-programme experience not on CV""}, {""key"": ""experience"", ""label"": ""Experience level"", ""score"": 6, ""max"": 15, ""note"": ""Asks for an experienced BA with strong experience in complex transformation programmes""}, {""key"": ""qualifications"", ""label"": ""Qualifications"", ""score"": 8, ""max"": 10, ""note"": ""No qualification stated""}, {""key"": ""domain"", ""label"": ""Industry fit"", ""score"": 3, ""max"": 10, ""note"": ""Banking, insurance or London Market desirable; CV has none""}, {""key"": ""visa"", ""label"": ""Right to work & sponsor"", ""score"": 3, ""max"": 10, ""note"": ""Permanent role; DXC Technology not found on the sponsor register""}, {""key"": ""practical"", ""label"": ""Location & terms"", ""score"": 3, ""max"": 5, ""note"": ""Permanent, London, in-person collaboration prioritised""}, {""key"": ""odds"", ""label"": ""Chance of hearing back"", ""score"": 5, ""max"": 5, ""note"": ""Just posted, not Easy Apply""}]",high,maybe,"A genuine requirements-and-process BA role in DXC's insurance software transformation team, close to what you want to do, but it is written for an experienced BA from change programmes and insurance helps. Right to work: permanent role at an employer that isn't on the sponsor register, so a time-limited visa may count against you.","BreakPoint (EE): defined the problem, requirements and business rules, then tested every rule before rollout | GDP Foundation: analysed current processes for root causes and turned team needs into briefs and process maps | Visionize: worked directly with clients to challenge and document requirements | MSc Business Analytics with Stakeholder Management and Project Management modules","Permanent role at an employer that isn't a licensed sponsor: lower chance with a time-limited visa | Asks for an experienced BA from complex transformation programmes; your BA work is freelance, volunteer and one internal tool | Requirements traceability and formal acceptance criteria are core duties you can't claim yet | Insurance / London Market experience is highly desirable; you have none, and the role is in London (a move)","Business Analyst, DXC Technology Insurance Software & BPS, London. Permanent, hybrid with in-person collaboration prioritised. Turn customer and market needs into prioritised, traceable requirements; analyse current processes; define outcome measures and acceptance criteria; assess change impact; support solution validation before cutover. Banking/insurance/London Market experience valued. Salary not stated (Glassdoor est. £29k-£65k). Apply on the employer site via Glassdoor.","Business Analyst - DXC Technology, Insurance Software & Business Process Services (ISB), London
+DXC Technology is a global technology services company; its Insurance Software & BPS business supports insurers across life, wealth, health, P&C and reinsurance, and is a key partner to the London Market.
+
+The Opportunity
+We're looking for an experienced Business Analyst to join our Insurance Software & BPS transformation environment, helping turn customer, market and business needs into clear, prioritised and actionable requirements. This is a hands-on BA role across the change lifecycle, from understanding business processes and gathering requirements to defining acceptance criteria, supporting delivery and validating solutions before cutover. Experience within banking, insurance or the London Market would be particularly valuable.
+
+What You'll Be Doing
+• Engage with customers and stakeholders to understand business and market needs and translate them into clear, structured and prioritised requirements.
+• Analyse existing business processes to understand the current position, identify opportunities for change and help define future requirements.
+• Elicit, analyse and document requirements to a consistent standard.
+• Connect requirements to measurable business outcomes and maintain traceability from need to implementation.
+• Define outcome measures and clear, testable acceptance criteria with the Business Analysis Lead.
+• Support stakeholders in prioritising requirements; ensure requirements are signed off before build.
+• Work across transformation, architecture, change and delivery teams to resolve ambiguity.
+• Assess the impact of proposed changes and highlight material impacts before commitments are made.
+• Support solution validation against agreed business need and acceptance criteria before cutover.
+• Maintain high standards of BA documentation.
+
+What We're Looking For
+• Strong Business Analysis experience gained within complex transformation or change programmes.
+• Banking, insurance or London Market experience (highly desirable).
+• Strong process analysis and requirements-management experience.
+• Experience eliciting, analysing, documenting and prioritising business requirements.
+• Experience maintaining requirements traceability.
+• Ability to create clear, concise and testable requirements.
+• Experience defining measurable outcomes and robust acceptance criteria.
+• Experience supporting requirements sign-off and solution validation.
+• Strong stakeholder management, written and verbal communication; structured, analytical approach.
+
+Work model: in-person collaboration prioritised, with flexibility.
+Salary: not stated (Glassdoor estimate £29k-£65k).",not_found,{},silent,range_crosses_general,no,pending,,new,,,,,2026-11-13T08:26:05+00:00,,,master,2026-11-13T08:26:05+00:00
+gd-1010321264990,glassdoor,Digital Inclusion and Skills Analyst,"Department for Science, Innovation & Technology","London, Bristol or Salford","£45,740 - £53,970 (Employer provided)",45740,53970,3d,2026-11-13,2026-11-12,https://www.glassdoor.co.uk/job-listing/j?jl=1010321264990,no,52,"[{""key"": ""role_match"", ""label"": ""Role match"", ""score"": 12, ""max"": 20, ""note"": ""Government research/policy analyst (economics, statistics, social research) rather than business analysis""}, {""key"": ""skills"", ""label"": ""Skills & tools"", ""score"": 12, ""max"": 25, ""note"": ""Communicating evidence and dashboards evidenced; quantitative analysis half (degree projects); essential R/Python/Stata coding not met per skill limits""}, {""key"": ""experience"", ""label"": ""Experience level"", ""score"": 2, ""max"": 15, ""note"": ""Senior Executive Officer grade, leading analysis and supporting junior analysts""}, {""key"": ""qualifications"", ""label"": ""Qualifications"", ""score"": 10, ""max"": 10, ""note"": ""BSc Data Science and MSc Business Analytics meet the GSG numerate-degree entry route""}, {""key"": ""domain"", ""label"": ""Industry fit"", ""score"": 6, ""max"": 10, ""note"": ""GDP Foundation national ageing study recognised by a government think tank is related public-policy research""}, {""key"": ""visa"", ""label"": ""Right to work & sponsor"", ""score"": 2, ""max"": 10, ""note"": ""Permanent role; advert says DSIT cannot sponsor a visa for this campaign. Commonwealth nationals with right to work are eligible. Gate: coding_essential (cap 55)""}, {""key"": ""practical"", ""label"": ""Location & terms"", ""score"": 3, ""max"": 5, ""note"": ""Permanent, London/Bristol/Salford, hybrid 40-60% office""}, {""key"": ""odds"", ""label"": ""Chance of hearing back"", ""score"": 5, ""max"": 5, ""note"": ""3 days old, not Easy Apply""}]",high,maybe,"A civil service SEO analyst post on digital inclusion or the TechFirst skills programme; your degrees meet the statistics profession entry route, but R/Python/Stata coding is essential and the grade is above entry level. Right to work: you can apply with your current right to work, but it is permanent and DSIT won't sponsor, so you would leave in January 2028.","GDP Foundation: contributed analysis to a national research study on ageing recognised by NITI Aayog | BSc Data Science (Probability and Statistics, Econometrics) and MSc Business Analytics meet the GSG entry route | Built and maintained KPI dashboards with quality checks, matching the dashboards desirable | Office in Salford or Bristol as well as London, so not London-only","Permanent civil service role and DSIT cannot sponsor: you'd have to leave when your visa ends in January 2028 | Essential: analysing large datasets in R, Python or Stata - you can't write Python unaided | SEO grade: leads analysis, advises ministers and may line-manage junior analysts | Bristol/Salford/London only (a move); sift is on a technical skills statement","Digital Inclusion and Skills Analyst (SEO), DSIT, London/Bristol/Salford, £45,740-£53,970 plus analyst allowance. Permanent, hybrid (40-60% office), 2 posts: TechFirst data analysis or digital inclusion analysis. Essential: lead quantitative analysis, coding in R/Python/Stata, communicate evidence. Must meet entry to GES/GSG/GSR/GORS. No visa sponsorship for this campaign. Apply via Civil Service Jobs (ref 489626), CV plus behaviour and technical statements.","Digital Inclusion and Skills Analyst - Department for Science, Innovation & Technology
+Reference 489626. Salary £45,740 - £53,970 (National £45,740 - £50,835; London £48,540 - £53,970) plus analyst allowance of £4,585 (or £6,475 with a relevant Master's approved by the Head of Profession). Grade: Senior Executive Officer. Permanent. Flexible working, full-time, job share or part-time. 2 posts. Locations: Bristol, London, Salford.
+
+The role and our team
+The Digital Inclusion and Skills directorate works on closing the digital divide, routes into digital and tech careers, and talent for AI, cyber and frontier technologies. The DIS Analysis Team (GES, GSR and GSG analysts) owns the Essential Digital Skills Survey, monitoring and evaluation, economic appraisal, evidence synthesis and commissioned research.
+
+TechFirst role
+• Use systems thinking to understand interactions between TechFirst strands and recommend policy design and data collection.
+• Lead analysis of large, semi-structured datasets (e.g. web-scraped vacancy data) on skill demand and wage premia.
+• Help build a data pipeline for management information from about 50 suppliers.
+
+Digital Inclusion Senior Analyst role
+• Provide analytical and economic advice to policy colleagues, senior officials and ministers.
+• Lead quantitative analysis of survey and administrative datasets using coding tools, econometric and statistical techniques.
+• Economic analysis for business cases and cost-benefit analysis (Green Book).
+• Support design and management of research projects.
+• Support development of junior analysts, possibly line management.
+
+Essential criteria
+• Lead high-quality quantitative analysis from an unstructured question to evidence-based recommendations.
+• Experience of using a coding language or statistical software, such as R, Python or Stata, to analyse large and/or complex datasets.
+• Communicate complex analytical evidence clearly to non-analytical audiences.
+
+Desirable criteria
+• Advanced methods (econometric, machine-learning or coding-based survey analysis).
+• Reproducible analytical products, pipelines, dashboards or interactive visualisations.
+• Managing analytical projects, commissioned research or suppliers.
+
+Memberships: must be a member of, or meet entry to, GES, GSG, GSR or GORS (GSG: 2:2 or higher in a numerate subject with taught statistics, or a relevant higher degree).
+
+Office attendance: 40-60% in the office.
+Selection: CV, behaviour statements (Changing and Improving; Communicating and Influencing; Making Effective Decisions) and a technical skills statement; large fields sifted on technical skills; interview with presentation.
+Visa: DSIT cannot offer visa sponsorship through this campaign.
+Nationality: open to UK, Irish and Commonwealth nationals with the right to work in the UK, and eligible EU/EEA/Swiss nationals.
+Security: basic criminal record check and BPSS.",licensed,"{""name"": ""Department for Science, Innovation and Technology"", ""town"": ""London"", ""rating"": ""Worker (A rating)"", ""route"": ""Skilled Worker""}",no_sponsorship,meets_general,no,pending,,new,,,,,2026-11-13T08:26:05+00:00,,,master,2026-11-13T08:26:05+00:00
+gd-1010324520308,glassdoor,Investment Platform Services (IPS) Analyst,PIC (Pension Insurance Corporation),"London, England",£60k - £107k (Glassdoor Est.),60000,107000,8h,2026-11-13,2026-11-12,https://www.glassdoor.co.uk/job-listing/j?jl=1010324520308,yes,28,"[{""key"": ""role_match"", ""label"": ""Role match"", ""score"": 5, ""max"": 20, ""note"": ""Investment platform (Aladdin) subject-matter expert; BA-like only in gathering requirements""}, {""key"": ""skills"", ""label"": ""Skills & tools"", ""score"": 3, ""max"": 25, ""note"": ""Only stakeholder and analytical skills evidenced; Aladdin, asset classes, investment lifecycle and vendor management absent""}, {""key"": ""experience"", ""label"": ""Experience level"", ""score"": 2, ""max"": 15, ""note"": ""Asks for proven experience as a trusted senior SME""}, {""key"": ""qualifications"", ""label"": ""Qualifications"", ""score"": 8, ""max"": 10, ""note"": ""No qualification stated""}, {""key"": ""domain"", ""label"": ""Industry fit"", ""score"": 0, ""max"": 10, ""note"": ""Requires regulated financial-services experience; CV has none""}, {""key"": ""visa"", ""label"": ""Right to work & sponsor"", ""score"": 3, ""max"": 10, ""note"": ""Permanent role; Pension Insurance Corporation not found on the sponsor register""}, {""key"": ""practical"", ""label"": ""Location & terms"", ""score"": 3, ""max"": 5, ""note"": ""Permanent, London""}, {""key"": ""odds"", ""label"": ""Chance of hearing back"", ""score"": 4, ""max"": 5, ""note"": ""8h old; Easy Apply (-1)""}]",high,skip,"A specialist role for an expert in BlackRock's Aladdin investment platform with regulated finance experience, far from your background. Right to work: permanent role at an employer that isn't on the sponsor register, so a time-limited visa may count against you.",Stakeholder work with clients and teams at Visionize and GDP Foundation,Permanent role at an employer that isn't a licensed sponsor: lower chance with a time-limited visa | Essential: expert knowledge of BlackRock Aladdin and the investment lifecycle | Requires regulated financial-services experience (PRA/FCA) - none on CV | Senior SME level; London,"Aladdin Investment Platform Services Analyst, Pension Insurance Corporation, London. Permanent, bonus. Act as SME for BlackRock Aladdin across Investments, Operations and IT: requirements, platform enhancements, change, vendor liaison and reporting. Needs expert Aladdin knowledge, fixed income/derivatives, investment lifecycle and regulated finance experience. Salary not stated (Glassdoor est. £60k-£107k). Easy Apply on Glassdoor.","Investment Platform Services (IPS) Analyst - PIC (Pension Insurance Corporation), London
+
+Role Purpose
+Join PIC as an Aladdin Investment Platform Services Analyst, a subject matter expert for the Aladdin platform working across Investments, Investment Operations and IT.
+
+Key Responsibilities
+• Stakeholder engagement with the business and external vendors.
+• Risk and control awareness: identify and escalate platform risks and compliance considerations.
+• Solution design: understand user requirements, advise on platform capabilities and design solutions.
+• Change enablement: plan and deliver change; represent the platform in change forums.
+• Vendor management: primary day-to-day liaison with the platform provider.
+• Continuous improvement and reporting to stakeholders and governance groups.
+
+Requirements
+• Experience in a regulated (PRA or FCA) finance-sector environment.
+• Expert knowledge of BlackRock Aladdin (Finbourne LUSID and/or Murex an advantage).
+• Strong understanding of asset classes, particularly Fixed Income and Derivatives.
+• Knowledge of the end-to-end investment lifecycle.
+• Proven experience partnering with front-office and Investment Operations teams.
+• Experience delivering Aladdin or investment platform enhancements.
+• Experience working with technology teams and vendors.
+• Analytical, problem-solving and stakeholder management skills as a trusted senior SME.
+
+Benefits: bonus, private medical, 28 days' leave, study support, pension.
+Salary: not stated (Glassdoor estimate £60k-£107k).",not_found,{},silent,meets_general,no,pending,,new,,,,,2026-11-13T08:26:05+00:00,,,master,2026-11-13T08:26:05+00:00
+gd-1010324801690,glassdoor,Stewardship Analyst,Universities Superannuation Scheme,"London, England",£73k - £81k (Glassdoor Est.),73000,81000,Just posted,2026-11-13,2026-11-12,https://www.glassdoor.co.uk/job-listing/j?jl=1010324801690,no,,,low,skip,Outside your target roles: investment stewardship/ESG analyst in pensions investment.,,,,,,,,meets_general,,skipped,,skipped,,,,,2026-11-13T08:26:16+00:00,,,master,2026-11-13T08:26:16+00:00
+gd-1010324838108,glassdoor,Cash Application Analyst | Finance,Dotmatics,"London, England",£35k - £60k (Glassdoor Est.),35000,60000,Just posted,2026-11-13,2026-11-12,https://www.glassdoor.co.uk/job-listing/j?jl=1010324838108,yes,,,low,skip,Outside your target roles: accounts-receivable finance role.,,,,,,,,range_crosses_general,,skipped,,skipped,,,,,2026-11-13T08:26:16+00:00,,,master,2026-11-13T08:26:16+00:00
+gd-1010324717200,glassdoor,Financial Analyst - Product,Global Payments,"London, England",£60k (Employer Est.),60000,60000,Just posted,2026-11-13,2026-11-12,https://www.glassdoor.co.uk/job-listing/j?jl=1010324717200,yes,,,low,skip,Outside your target roles: finance/FP&A analyst role.,,,,,,,,meets_general,,skipped,,skipped,,,,,2026-11-13T08:26:16+00:00,,,master,2026-11-13T08:26:16+00:00
+gd-1010324788785,glassdoor,Senior Business Analyst - Asset Transition Management,M&G,"London, England",£41k - £60k (Glassdoor Est.),41000,60000,Just posted,2026-11-13,2026-11-12,https://www.glassdoor.co.uk/job-listing/j?jl=1010324788785,no,,,low,skip,Outside your target roles: senior-level BA in asset management.,,,,,,,,range_crosses_general,,skipped,,skipped,,,,,2026-11-13T08:26:16+00:00,,,master,2026-11-13T08:26:16+00:00
+gd-1010324715807,glassdoor,Senior Business Data Analyst,The Fidelis Partnership,"London, England",£78k - £95k (Glassdoor Est.),78000,95000,Just posted,2026-11-13,2026-11-12,https://www.glassdoor.co.uk/job-listing/j?jl=1010324715807,no,,,low,skip,Outside your target roles: senior data analyst role.,,,,,,,,meets_general,,skipped,,skipped,,,,,2026-11-13T08:26:16+00:00,,,master,2026-11-13T08:26:16+00:00
+gd-1010323610121,glassdoor,Payload Performance RF Analyst,Capgemini Engineering,"Woking, England",£34k - £54k (Glassdoor Est.),34000,54000,1d,2026-11-13,2026-11-12,https://www.glassdoor.co.uk/job-listing/j?jl=1010323610121,no,,,low,skip,Outside your target roles: radio-frequency engineering role.,,,,,,,,range_crosses_general,,skipped,,skipped,,,,,2026-11-13T08:26:16+00:00,,,master,2026-11-13T08:26:16+00:00
+gd-1010324501915,glassdoor,Buyer - Boxed Confectionary,Sainsbury's,"London, England",£27k - £60k (Glassdoor Est.),27000,60000,9h,2026-11-13,2026-11-12,https://www.glassdoor.co.uk/job-listing/j?jl=1010324501915,no,,,low,skip,"Outside your target roles: retail buying role, not analysis.",,,,,,,,range_crosses_general,,skipped,,skipped,,,,,2026-11-13T08:26:16+00:00,,,master,2026-11-13T08:26:16+00:00
+gd-1010324755801,glassdoor,Salesforce Tester,NTT DATA,"London, England",,,,Just posted,2026-11-13,2026-11-12,https://www.glassdoor.co.uk/job-listing/j?jl=1010324755801,no,,,low,skip,Outside your target roles: software testing/QA role.,,,,,,,,unknown,,skipped,,skipped,,,,,2026-11-13T08:26:16+00:00,,,master,2026-11-13T08:26:16+00:00
 gd-1010322113216,glassdoor,Operational Data Analyst,Generator Power,"Normanton, West Yorkshire (Operations team, office-based)",Competitive (not stated); Glassdoor est. £30k-£36k,30000,36000,1d,2026-11-12,2026-11-12T13:12:04Z,https://www.glassdoor.co.uk/job-listing/j?jl=1010322113216,yes,78,"[{""key"": ""role_match"", ""label"": ""Role match"", ""score"": 12, ""max"": 20, ""note"": ""Operational reporting analyst: adjacent to operations analyst; SQL only desirable""}, {""key"": ""skills"", ""label"": ""Skills & tools"", ""score"": 20, ""max"": 25, ""note"": ""Excel lookups/pivots, numeracy, data checks, KPI reporting and presenting data evidenced; Power BI/Power Query yes; no operational-systems or SLA reporting""}, {""key"": ""experience"", ""label"": ""Experience level"", ""score"": 15, ""max"": 15, ""note"": ""Experience 'through employment, university projects, placements or internships' is enough""}, {""key"": ""qualifications"", ""label"": ""Qualifications"", ""score"": 10, ""max"": 10, ""note"": ""Numerate or business degree desirable; MSc Business Analytics""}, {""key"": ""domain"", ""label"": ""Industry fit"", ""score"": 6, ""max"": 10, ""note"": ""Telecoms is a listed desirable sector: you work at EE, though in sales""}, {""key"": ""visa"", ""label"": ""Right to work & sponsor"", ""score"": 8, ""max"": 10, ""note"": ""Permanent role at a licensed sponsor (Generator Power Ltd, Wakefield)""}, {""key"": ""practical"", ""label"": ""Location & terms"", ""score"": 3, ""max"": 5, ""note"": ""Permanent, Normanton: a move is fine""}, {""key"": ""odds"", ""label"": ""Chance of hearing back"", ""score"": 4, ""max"": 5, ""note"": ""Fresh, direct employer; Easy Apply -1""}]",high,apply,"A hands-on operational reporting role built around Excel, Power Query and Power BI, open to people whose data experience comes from projects or internships. Right to work: fine; permanent role at a licensed sponsor.","Power BI dashboards and reports of client data at Visionize | KPI dashboards with quality checks for accuracy at GDP Foundation | M&S: live dashboard tracking completion of date-expired food checks | Excel (pivot tables, lookups) and Power Query on your CV, plus two Excel certificates","Permanent role: you'd leave in January 2028 unless they sponsor you; answer honestly if asked | Needs a move: check relocation costs against the salary | Salary not stated (Glassdoor estimates £30k-£36k) | No experience of fault, SLA, fuel or telemetry reporting | SQL is listed as desirable: you have working knowledge only","Operational Data Analyst, Generator Power, Normanton (permanent, Operations team). Own daily and weekly reporting on breakdowns, faults, deployments, fuel and telemetry; maintain and validate datasets; weekly customer packs; improve reporting with Excel, Power Query, SQL and Power BI. Strong Excel essential; data experience from projects or internships accepted. Salary competitive. Apply on the employer's site: https://generatorpower-1.betterteam.com/operational-data-analyst","Operational Data Analyst
 Location: Normanton. Department: Operations. Salary: Competitive, dependent on experience.
 About the role
