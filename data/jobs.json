@@ -101,16 +101,16 @@
 "recruiter": false,
 "decision": "approved",
 "decided_at": "2026-11-13T21:57:06+00:00",
-"status": "approved",
+"status": "applied",
 "cv_file": "",
 "cv_url": "",
 "cv_emailed_at": "",
-"applied_at": "",
-"status_updated_at": "2026-11-13T21:57:06+00:00",
+"applied_at": "2026-11-13T22:19:30+00:00",
+"status_updated_at": "2026-11-13T22:19:30+00:00",
 "last_email": "",
 "notes": "",
 "profile_basis": "master",
-"updated_at": "2026-11-13T21:57:06+00:00"
+"updated_at": "2026-11-13T22:19:30+00:00"
 },
 {
 "id": "gd-1010325824398",
