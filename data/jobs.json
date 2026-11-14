@@ -1,118 +1,5 @@
 [
 {
-"id": "gd-1010325895849",
-"source": "web",
-"title": "Business Analyst (fixed term)",
-"company": "AB Agri (ABF Business Technology Services)",
-"location": "Peterborough, England (hybrid)",
-"salary": "£36k - £46k (Glassdoor Est.)",
-"salary_min": 36000,
-"salary_max": 46000,
-"posted_age": "24h (Glassdoor search)",
-"first_seen": "2026-11-14",
-"email_date": "2026-11-14",
-"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010325895849",
-"easy_apply": false,
-"fit_score": 77,
-"score_breakdown": [
-{
-"key": "role_match",
-"label": "Role match",
-"max": 20,
-"score": 16,
-"note": "Business Analyst title in ABF's IT services arm; duties not published, so only the job family is known"
-},
-{
-"key": "skills",
-"label": "Skills & tools",
-"max": 25,
-"score": 15,
-"note": "Advert lists no skills (rubric default)"
-},
-{
-"key": "experience",
-"label": "Experience level",
-"max": 15,
-"score": 15,
-"note": "No experience level stated (rubric default); see gaps"
-},
-{
-"key": "qualifications",
-"label": "Qualifications",
-"max": 10,
-"score": 8,
-"note": "No qualification stated"
-},
-{
-"key": "domain",
-"label": "Industry fit",
-"max": 10,
-"score": 6,
-"note": "Food group IT services; you have food retail at M&S"
-},
-{
-"key": "visa",
-"label": "Right to work & sponsor",
-"max": 10,
-"score": 8,
-"note": "Fixed term but length not stated; AB Agri Limited is a licensed sponsor"
-},
-{
-"key": "practical",
-"label": "Location & terms",
-"max": 5,
-"score": 4,
-"note": "Fixed-term contract (length unknown), Peterborough hybrid"
-},
-{
-"key": "odds",
-"label": "Chance of hearing back",
-"max": 5,
-"score": 5,
-"note": "Posted 1 day ago, not Easy Apply; fixed term"
-}
-],
-"confidence": "low",
-"recommendation": "apply",
-"verdict": "A fixed-term Business Analyst post in Associated British Foods' central IT team, which is your preferred shape, but the advert was published as an empty template so the duties, length and level are unknown. Right to work: fine if the contract ends by January 2028; AB Agri is also a licensed sponsor.",
-"match_reasons": [
-"Business analysis experience: requirements, business rules and testing on BreakPoint at EE",
-"Process maps and requirements briefs at GDP Foundation",
-"Food-retail background at M&S fits a food group's IT team",
-"Fixed-term contract, your first preference"
-],
-"gaps": [
-"Unstated salary (Glassdoor estimate only)",
-"Advert text is an unfilled template: duties, contract length and experience level are not published; the job spec file name hints at a higher grade",
-"Contract length unknown: check it ends by January 2028",
-"Move to Peterborough needed (hybrid office role)"
-],
-"jd_summary": "Fixed-term Business Analyst at ABF Business Technology Services (recruited by AB Agri), hybrid at Lynchwood Business Park, Peterborough. The published advert is an unfilled template, so duties and requirements aren't shown; a job spec is downloadable on the careers page and questions go to the named recruiter there. Benefits include up to 10% pension match and bonus. Apply on the employer's site: https://careers.abagri.com/vacancies/24232/business-analyst.html",
-"jd_full": "Business Analyst - ABF Business Technology Services (AB Agri careers site)\nType: Fixed Term\nLocation: Peterborough\nAdvertising salary: Not specified\nClosing date: Not specified\nThe Role & Key Responsibilities\n(The employer published this section as an unfilled template: job title, contract details, duties and person specification are blank.)\nLocation\nHybrid, a mix of office and homeworking. This role will be based at our Peterborough offices on the Lynchwood Business Park.\nAbout Us\nAssociated British Foods Business Technology Services (BTS) was first established in 2008 to deliver a centralised IT infrastructure and service to ABF businesses, operating in over 185 locations across 23 countries with a team of nearly 200.\nBenefits\n• Up to 10% matched pension (contributory)\n• Up to 10% bonus\n• Buy up to 5 days holiday per year\n• Discounts on ABF products; free lunch option daily; staff shop\n• Employee Assistance Programme\nMaking your application\nRegister your details and upload your CV via the careers website. The application period may close early if response is high.\nA job spec document (BTS Business Analyst external) is available to download on the careers page.",
-"sponsor_register": "licensed",
-"sponsor_match": {
-"name": "AB Agri Limited",
-"town": "Peterborough",
-"rating": "Worker (A rating)",
-"route": "Skilled Worker"
-},
-"jd_sponsorship": "silent",
-"salary_check": "range_crosses_general",
-"recruiter": false,
-"decision": "pending",
-"decided_at": "",
-"status": "new",
-"cv_file": "",
-"cv_url": "",
-"cv_emailed_at": "",
-"applied_at": "",
-"status_updated_at": "",
-"last_email": "",
-"notes": "",
-"profile_basis": "master",
-"updated_at": "2026-11-14T08:25:21+00:00"
-},
-{
 "id": "gd-1010324643895",
 "source": "glassdoor",
 "title": "Shareholder Analyst",
@@ -331,6 +218,119 @@
 "notes": "",
 "profile_basis": "master",
 "updated_at": "2026-11-14T13:27:08+00:00"
+},
+{
+"id": "gd-1010325895849",
+"source": "web",
+"title": "Business Analyst (12 Month FTC)",
+"company": "AB Agri (ABF Business Technology Services)",
+"location": "Peterborough, England (hybrid)",
+"salary": "£36k - £46k (Glassdoor Est.)",
+"salary_min": 36000,
+"salary_max": 46000,
+"posted_age": "24h (Glassdoor search)",
+"first_seen": "2026-11-14",
+"email_date": "2026-11-14",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010325895849",
+"easy_apply": false,
+"fit_score": 45,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"max": 20,
+"score": 16,
+"note": "Business Analyst title in ABF's IT services arm; duties not published, so only the job family is known"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"max": 25,
+"score": 15,
+"note": "Advert lists no skills (rubric default)"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"max": 15,
+"score": 15,
+"note": "No experience level stated (rubric default); see gaps"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"max": 10,
+"score": 8,
+"note": "No qualification stated"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"max": 10,
+"score": 6,
+"note": "Food group IT services; you have food retail at M&S"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"max": 10,
+"score": 8,
+"note": "Fixed term but length not stated; AB Agri Limited is a licensed sponsor"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"max": 5,
+"score": 4,
+"note": "Fixed-term contract (length unknown), Peterborough hybrid"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"max": 5,
+"score": 5,
+"note": "Posted 1 day ago, not Easy Apply; fixed term"
+}
+],
+"confidence": "high",
+"recommendation": "skip",
+"verdict": "The full advert on AB Agri's site is for an experienced BA on finance and treasury programmes who facilitates workshops, builds financial business cases and mentors juniors; the job spec is graded around £55k-£65k. Right to work: a 12-month contract fits if it starts by January 2027, but it also needs a full UK driving licence.",
+"match_reasons": [
+"Business analysis experience: requirements, business rules and testing on BreakPoint at EE",
+"Process maps and requirements briefs at GDP Foundation",
+"Food-retail background at M&S fits a food group's IT team",
+"Fixed-term contract, your first preference"
+],
+"gaps": [
+"Pitched at experienced BAs on large-scale change programmes (spec graded £55k-£65k)",
+"Workshop facilitation and mentoring juniors are core duties; not on your CV",
+"Finance and treasury focus; no finance-domain experience",
+"Full UK driving licence required for travel"
+],
+"jd_summary": "Business Analyst (12-month FTC) in ABF Group Services' PMaaS internal consultancy, Peterborough, mostly remote with UK travel. Requirements, business cases with financial modelling, workshops, change control, mentoring juniors. Full UK driving licence needed. Closing date not stated. Apply on the employer's site: https://careers.abagri.com/vacancies/24232/business-analyst-12-month-ftc.html",
+"jd_full": "Business Analyst - ABF Business Technology Services (AB Agri careers site)\nType: Fixed Term\nLocation: Peterborough\nAdvertising salary: Not specified\nClosing date: Not specified\nThe Role & Key Responsibilities\n(The employer published this section as an unfilled template: job title, contract details, duties and person specification are blank.)\nLocation\nHybrid, a mix of office and homeworking. This role will be based at our Peterborough offices on the Lynchwood Business Park.\nAbout Us\nAssociated British Foods Business Technology Services (BTS) was first established in 2008 to deliver a centralised IT infrastructure and service to ABF businesses, operating in over 185 locations across 23 countries with a team of nearly 200.\nBenefits\n• Up to 10% matched pension (contributory)\n• Up to 10% bonus\n• Buy up to 5 days holiday per year\n• Discounts on ABF products; free lunch option daily; staff shop\n• Employee Assistance Programme\nMaking your application\nRegister your details and upload your CV via the careers website. The application period may close early if response is high.\nA job spec document (BTS Business Analyst external) is available to download on the careers page.",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "AB Agri Limited",
+"town": "Peterborough",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "range_crosses_general",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-14T21:01:18+00:00"
 },
 {
 "id": "gd-1010324387913",
