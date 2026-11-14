@@ -1,0 +1,16 @@
+Dear Hiring Manager,
+
+I am applying for the PMO Analyst role in Anglian Water's Performance team, and I would particularly welcome the 12-month fixed-term position. The role's focus on turning delivery data into clear reports and dashboards, and on keeping plans and records accurate enough for governance, matches the work I enjoy most.
+
+At EE I noticed that team leaders only saw break data days after the event. I defined the problem, requirements and business rules for BreakPoint, a live tracking tool, tested every rule by hand before rollout, and designed a pilot to measure its impact. My manager asked me to roll it out to our 15-person team this month. It taught me how much good controls depend on accurate, timely information.
+
+As a freelance and volunteer business analyst, I built Power BI and KPI dashboards with quality checks for accuracy and consistency, brought together data from several sources, and contributed to backlog refinement and prioritisation in iterative delivery. My MSc in Business Analytics (Distinction) included Project Management and Stakeholder Management modules.
+
+I have not yet worked in a formal PMO or used Microsoft Project or SharePoint day to day, and I have not run risk and issue registers. I learn tools quickly and would aim to be confident with them within my first weeks.
+
+I am based in Newcastle. [confirm: would you relocate to Peterborough, Huntingdon or Lincoln?] I have the right to work in the UK until January 2028 and don't need sponsorship.
+
+[add one true sentence on why the water sector interests you]
+
+Kind regards,
+Dhruv Patil
