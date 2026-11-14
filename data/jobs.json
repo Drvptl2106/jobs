@@ -1881,16 +1881,16 @@
 "recruiter": false,
 "decision": "pending",
 "decided_at": "",
-"status": "new",
+"status": "applied",
 "cv_file": "",
 "cv_url": "",
 "cv_emailed_at": "",
-"applied_at": "",
-"status_updated_at": "2026-11-13T08:26:05+00:00",
+"applied_at": "2026-11-14T22:40:42+00:00",
+"status_updated_at": "2026-11-14T22:40:42+00:00",
 "last_email": "",
 "notes": "",
 "profile_basis": "master",
-"updated_at": "2026-11-13T08:26:05+00:00"
+"updated_at": "2026-11-14T22:40:42+00:00"
 },
 {
 "id": "gd-1010324640097",
@@ -2102,16 +2102,16 @@
 "recruiter": false,
 "decision": "pending",
 "decided_at": "",
-"status": "new",
+"status": "applied",
 "cv_file": "",
 "cv_url": "",
 "cv_emailed_at": "",
-"applied_at": "",
-"status_updated_at": "2026-11-13T08:26:05+00:00",
+"applied_at": "2026-11-14T22:40:42+00:00",
+"status_updated_at": "2026-11-14T22:40:42+00:00",
 "last_email": "",
 "notes": "",
 "profile_basis": "master",
-"updated_at": "2026-11-13T08:26:05+00:00"
+"updated_at": "2026-11-14T22:40:42+00:00"
 },
 {
 "id": "wb-1421d348ac",
