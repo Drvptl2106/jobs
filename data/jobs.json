@@ -1,5 +1,118 @@
 [
 {
+"id": "gd-1010325899974",
+"source": "glassdoor",
+"title": "Graduate Associate",
+"company": "Absolute Strategy Research",
+"location": "London (hybrid)",
+"salary": "£32k - £37k (Employer Est.)",
+"salary_min": 32000,
+"salary_max": 37000,
+"posted_age": "1d",
+"first_seen": "2026-11-15",
+"email_date": "2026-11-15",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010325899974",
+"easy_apply": true,
+"fit_score": 76,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 12,
+"max": 20,
+"note": "Graduate commercial role: research, reporting, business analysis and process improvement, but half is marketing/business development with a path to sales"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 21,
+"max": 25,
+"note": "Analysis, spreadsheets/data, organisation, communication and client work shown; no evidence of interest in financial markets or CRM"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 15,
+"max": 15,
+"note": "Graduate role"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 10,
+"max": 10,
+"note": "Degree required; you have an MSc (Distinction)"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 3,
+"max": 10,
+"note": "Investment research; no financial-services link on CV, interest asked for rather than experience"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 8,
+"max": 10,
+"note": "Permanent; Absolute Strategy Research Ltd is a licensed Skilled Worker sponsor"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Permanent, London hybrid: needs a move"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 4,
+"max": 5,
+"note": "Posted 1 day ago; Easy Apply -1"
+}
+],
+"confidence": "high",
+"recommendation": "apply",
+"verdict": "A broad graduate role at an independent investment research firm covering market research, reporting, business analysis and process improvement alongside marketing and business development; your analysis, dashboard and client work fit well, but it leans towards a future sales career and wants a genuine interest in financial markets. Right to work: fine; permanent role at a licensed sponsor.",
+"match_reasons": [
+"Market and competitor insights, and pricing analysis, for freelance clients at Visionize",
+"Commercial reporting and KPI dashboards: Power BI work for clients and KPI dashboards at GDP Foundation",
+"Process improvement: noticed and fixed a break-tracking problem with BreakPoint at EE",
+"Client-facing communication: worked directly with clients (Visionize) and customers (EE sales)"
+],
+"gaps": [
+"Permanent role: you'd leave in January 2028 unless they sponsor you; answer honestly if asked",
+"Needs a move to London: check relocation costs against £32k-£37k",
+"Essential: interest in financial markets and investment research; nothing on your CV shows it",
+"Role is designed to lead towards institutional sales, not business analysis; half the duties are marketing and business development"
+],
+"jd_summary": "Permanent Graduate Associate at Absolute Strategy Research, an independent macro and investment strategy research firm; hybrid in London, £32k-£37k. Researches prospects and markets, supports business development, marketing, CRM, commercial reporting, budgeting and process improvements; may progress to institutional sales. Degree required; right to work in the UK required. Easy Apply on Glassdoor (also on LinkedIn and Indeed); no posting found on the firm's own site.",
+"jd_full": "About Absolute Strategy Research\nAbsolute Strategy Research (ASR) is an independent investment research firm providing macroeconomic and investment strategy research to institutional investors worldwide.\nOur clients include leading asset managers, pension funds, insurers, wealth managers and hedge funds.\nWe are looking for an ambitious and commercially minded graduate to join our team, gaining experience across business development, marketing, commercial operations and wider business management.\n\nThe Opportunity\nBroad, hands-on experience within an established financial services business, working closely with experienced colleagues and senior management. The role offers exposure to marketing and sales, financial reporting, business planning and day-to-day operations.\n\nKey Responsibilities\n• Research prospective clients, markets and new business opportunities.\n• Support business development activities, client communications and follow-up.\n• Assist with preparing presentations, proposals, reports and meeting materials.\n• Help coordinate client meetings, events and other engagement activities.\n• Support the planning and delivery of marketing campaigns and communications.\n• Assist with promoting, publishing and distributing research, events and other business initiatives.\n• Help maintain website content, marketing materials and digital channels.\n• Maintain accurate client and business information across internal systems.\n• Support commercial reporting, performance tracking and business analysis.\n• Assist with financial reporting, budgeting and wider business planning activities.\n• Support day-to-day business operations, administrative processes and internal projects.\n• Assist with client onboarding, supplier relationships, contracts and compliance-related activities.\n• Identify opportunities to improve internal processes, reporting and operational efficiency.\n• Contribute to wider business initiatives and projects, working with colleagues across different teams.\n\nDevelopment & Progression\nThe role provides a foundation in marketing, commercial operations and institutional business development, with the potential to develop towards a more client-facing sales position.\n\nAbout you\nEssential:\n• A degree in a relevant discipline or equivalent experience.\n• Strong analytical and problem-solving skills.\n• Confidence working with data, spreadsheets and digital tools.\n• Strong organisational skills and attention to detail.\n• Excellent written and verbal communication skills.\n• A proactive approach, with the ability to manage multiple priorities.\n• An interest in financial markets, investment research and the institutional investment industry.\n• A willingness to learn, take ownership and contribute to a collaborative team.\nDesirable:\n• Experience through internships, placements or projects involving marketing, sales, research or business development.\n• Familiarity with CRM, data management and marketing platforms.\n• An aptitude for relationship-building and client-facing communication.\n\nEligibility to Work in the UK\nApplicants must be eligible to work in the United Kingdom. Evidence of the right to work will be required before employment commences.\n\nPay: £32,000-£37,000 per year\nBenefits: company pension, cycle to work scheme, life insurance, private medical insurance, sabbatical, work from home\nEducation: Bachelor's (required)\nWork authorisation: United Kingdom (required)\nWork Location: Hybrid remote in London",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "Absolute Strategy Research Ltd",
+"town": "London",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "right_to_work_required",
+"salary_check": "range_crosses_new_entrant",
+"recruiter": false,
+"decision": "",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-15T13:23:38+00:00",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-15T13:23:38+00:00"
+},
+{
 "id": "gd-1010321568951",
 "source": "web",
 "title": "PMO Analyst (12 month FTC)",
@@ -98,6 +211,119 @@
 "notes": "",
 "profile_basis": "master",
 "updated_at": "2026-11-15T08:23:32+00:00"
+},
+{
+"id": "gd-1010323853609",
+"source": "glassdoor",
+"title": "ERP Support Systems Analyst",
+"company": "BSW Timber",
+"location": "Dunfermline, Scotland (on site, multi-site)",
+"salary": "£32k - £38k (Glassdoor Est.)",
+"salary_min": 32000,
+"salary_max": 38000,
+"posted_age": "3d",
+"first_seen": "2026-11-15",
+"email_date": "2026-11-15",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010323853609",
+"easy_apply": true,
+"fit_score": 55,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 12,
+"max": 20,
+"note": "Business systems role: ERP support, BI reporting and process improvement, plus help-desk IT support"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 15,
+"max": 25,
+"note": "BA work, BI dashboards, analysis and communication shown; no ERP/SAP, SQL Server or SSRS admin"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 6,
+"max": 15,
+"note": "Wants previous ERP application support experience in manufacturing; CV has none"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 10,
+"max": 10,
+"note": "Degree preferred; you have an MSc"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 3,
+"max": 10,
+"note": "Manufacturing preferred ('ideally'), not required; no link on CV"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 8,
+"max": 10,
+"note": "Permanent; BSW Timber Ltd is a licensed Skilled Worker sponsor"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Permanent, Dunfermline: needs a move to Fife"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 4,
+"max": 5,
+"note": "Posted 3 days ago; Easy Apply -1. Coding gate: 'strong technical skills relating to SQL databases' caps the total at 55"
+}
+],
+"confidence": "high",
+"recommendation": "maybe",
+"verdict": "An in-house ERP and reporting analyst at the UK's largest timber group: business analysis and BI dashboards fit you, but it asks for ERP (ideally SAP S/4HANA) support experience and strong SQL Server skills you don't have. Right to work: fine; permanent role at a licensed sponsor.",
+"match_reasons": [
+"Business analysis experience listed as a requirement: requirements and business rules for BreakPoint at EE",
+"BI dashboards: Power BI dashboards for freelance clients at Visionize",
+"Process improvement: root-cause analysis and process changes at GDP Foundation",
+"Licensed Skilled Worker sponsor, so a time-limited visa is less of a barrier"
+],
+"gaps": [
+"Permanent role: you'd leave in January 2028 unless they sponsor you; answer honestly if asked",
+"Needs a move to Dunfermline (Fife): check relocation costs against a ~£35k estimated salary",
+"Hands-on ERP implementation/support (ideally SAP S/4HANA) is the core of the role; not on your CV",
+"Strong SQL Server and SSRS administration expected; you have working SQL only"
+],
+"jd_summary": "Permanent ERP Support Systems Analyst in a small IT team reporting to the Group IT Director, Dunfermline, Mon-Fri 8.30-5, working across several sites. Support and develop ERP (SAP S/4HANA preferred), BI dashboards, SQL Server/SSRS; process improvement projects; some help-desk support. Salary 'competitive' (Glassdoor est. £32k-£38k). Closes 30 November 2026. Easy Apply on Glassdoor or via bsw.co.uk/careers.",
+"jd_full": "ERP Support Systems Analyst\n• Location: Dunfermline\n• Full-time / Permanent\n• Monday to Friday, 8.30am to 5pm\n• £Competitive + Excellent Benefits\n• Reporting to: Group IT Director\n\nThe Role:\nThis is a dynamic role, working as part of a small diverse team, you are responsible for the support, development, and maintenance of business applications and reporting systems. There will also be a small element of general IT support and project work involved in this role.\nIn order to be successful in this role, you should ideally be degree educated with previous end user experience in an ERP Application Support / Development role in a manufacturing environment.\n\nKey Responsibilities:\n• Implementing and supporting ERP systems in a manufacturing environment – Preferably SAP S/4 Hana\n• Development and maintenance of reporting systems including BI dashboards\n• Support and administration of Microsoft SQL Server and SSRS environments\n• Identifying business process improvements and solutions through the use of ERP systems.\n• Successfully manage projects to deliver change management and process improvement programmes\n• Developing system & user procedures\n• Provide help desk support and problem solving\n\nAbout You:\nTo succeed in this role, you'll need a strong background in ERP Systems and the ability to work across multiple sites in a fast-paced environment.\n• Hands-on experience of implementation, testing, support, continual development and maintenance of software-based business systems, in particular ERP\n• Strong technical skills relating to SQL databases and ERP architecture\n• Advanced Microsoft 365 skills\n• Business Analysis experience\n• Experience of electronic document distribution/delivery systems\n• Excellent communication and customer interaction skills\n• Enthusiastic team player and relationship builder\n• Ability to take responsibility and ownership\n• Self-motivated driven individual\n• Strong technical, analytical and problem-solving skills\n• Good project management skills\n\nAbout BSW:\nBSW Group is the largest timber and forestry business in the UK, with operating divisions spanning the whole supply chain, from tree nurseries and woodland management to sawmilling and pallets.\n\nBenefits:\n• Competitive pay and benefits package\n• Discounted rates on BSW products\n• Employee benefits portal\n• Confidential 24/7 wellbeing support\n• Cycle to Work Scheme\n• Funded learning and development\n• Company-provided life assurance\n\nClosing date for applications: 30th November 2026\nThe vacancy may close early if enough applications are received.",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "BSW Timber Ltd",
+"town": "Earlston",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "range_crosses_new_entrant",
+"recruiter": false,
+"decision": "",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-15T13:23:38+00:00",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-15T13:23:38+00:00"
 },
 {
 "id": "gd-1010323205271",
