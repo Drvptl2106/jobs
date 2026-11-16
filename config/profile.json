@@ -53,7 +53,10 @@
   "Project / PMO Analyst (junior)",
   "Graduate / Junior Analyst roles",
   "Management Consultant (junior)",
-  "Market / Research Analyst"
+  "Market / Research Analyst",
+  "Reporting / MI / Data Quality Analyst (Power BI and Excel, no strong coding required)",
+  "Project Support Officer / Project Coordinator (junior)",
+  "Risk / Operations Analyst roles that welcome people from outside the field"
  ],
  "avoid_roles": [
   "Software Developer / Engineer",
@@ -139,6 +142,31 @@
     "name": "Glassdoor: Process Analyst, whole UK",
     "url": "https://www.glassdoor.co.uk/Job/uk-process-analyst-jobs-SRCH_IL.0,2_IN2_KO3,19.htm?fromAge=3&sortBy=date_desc",
     "note": "Catches transformation, process and junior BA roles that the business analyst search misses."
+   },
+   {
+    "name": "NHS Jobs: analyst roles (admin and clerical), newest first",
+    "url": "https://www.jobs.nhs.uk/candidate/search/results?keyword=analyst&sort=publicationDateDesc&staffGroup=ADMINISTRATIVE_AND_CLERICAL",
+    "note": "Keep Band 4 to 6 business, reporting, information, PMO and data quality analyst roles; skip clinical coding, finance-qualified, service desk and Band 7+. Many NHS posts are fixed term. id prefix nh."
+   },
+   {
+    "name": "Reed: junior business analyst, last 3 days",
+    "url": "https://www.reed.co.uk/jobs/junior-business-analyst-jobs?sortby=DisplayDate&datecreatedoffset=LastThreeDays",
+    "note": "Skip every 'Trainee ... no experience needed' advert from training providers (ITOL, Qualify Nation, etc.): they sell paid courses, they are not jobs. id prefix re."
+   },
+   {
+    "name": "Reed: business analyst contract and temp, last 3 days",
+    "url": "https://www.reed.co.uk/jobs/business-analyst-jobs?sortby=DisplayDate&datecreatedoffset=LastThreeDays&contract=True&temp=True",
+    "note": "Keep fixed term or temp employee roles; skip day-rate contractor roles (gate) and training-course adverts. id prefix re."
+   },
+   {
+    "name": "Glassdoor: Graduate Business Analyst, whole UK",
+    "url": "https://www.glassdoor.co.uk/Job/uk-graduate-business-analyst-jobs-SRCH_IL.0,2_IN2_KO3,28.htm?fromAge=3&sortBy=date_desc",
+    "note": "Wide net: many results are senior despite the keyword; check experience asked."
+   },
+   {
+    "name": "Glassdoor: Analyst fixed term contract, whole UK",
+    "url": "https://www.glassdoor.co.uk/Job/uk-analyst-fixed-term-contract-jobs-SRCH_IL.0,2_IN2_KO3,30.htm?fromAge=3&sortBy=date_desc",
+    "note": "Fixed term analyst roles of any kind; keep reporting, data quality, operations, PMO and BA ones."
    }
   ],
   "watchlist_per_run": 5,

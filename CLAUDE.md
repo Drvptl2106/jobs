@@ -128,6 +128,10 @@ added by this step; alert-email jobs always come first.
 1. **Search pages (every run):** `firecrawl_scrape` each `search_pages` url (`formats: ["markdown"]`,
    `onlyMainContent: true`). Take listings whose title fits `target_roles`, that are at most 3 days old,
    and that are not duplicates (step 4.4). On Glassdoor, id `gd-<jobListingId>` and url as in step 4.
+   Other sites (NHS Jobs, Reed): id from `python3 scripts/jobs_store.py id --prefix <the page's id prefix> "Company|Title|Location"`,
+   `source` = the site name, url = the job's own advert page (`https://`, no tracking parameters). Follow each page's `note`.
+   Training-provider adverts ("Trainee ... no experience needed") are paid courses, not jobs: never add them.
+   Check every listing's experience level and contract type in the advert before scoring; search pages are deliberately wide.
 2. **Watchlist (morning run only):** take the next `watchlist_per_run` employers after
    `watchlist_cursor` in `data/meta.json` (wrap round at the end; save the new cursor in step 10 with
    `meta watchlist_cursor=<n>`). For each, one `firecrawl_search` with `watchlist_query` (limit 5).
