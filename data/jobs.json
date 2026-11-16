@@ -99,18 +99,18 @@
 "jd_sponsorship": "silent",
 "salary_check": "meets_new_entrant",
 "recruiter": false,
-"decision": "pending",
-"decided_at": "",
-"status": "new",
+"decision": "approved",
+"decided_at": "2026-11-16T08:38:26+00:00",
+"status": "approved",
 "cv_file": "",
 "cv_url": "",
 "cv_emailed_at": "",
 "applied_at": "",
-"status_updated_at": "2026-11-16T08:26:17+00:00",
+"status_updated_at": "2026-11-16T08:38:26+00:00",
 "last_email": "",
 "notes": "",
 "profile_basis": "master",
-"updated_at": "2026-11-16T08:26:17+00:00"
+"updated_at": "2026-11-16T08:38:26+00:00"
 },
 {
 "id": "gd-1010326928661",
