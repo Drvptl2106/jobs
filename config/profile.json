@@ -118,7 +118,7 @@
  },
  "web_discovery": {
   "about": "Jobs found on the web through Firecrawl, in addition to alert emails. See CLAUDE.md step 4b.",
-  "max_new_jobs_per_run": 10,
+  "max_new_jobs_per_run": 20,
   "search_pages": [
    {
     "name": "Glassdoor: Business Analyst fixed-term contract, whole UK",
@@ -170,7 +170,7 @@
    }
   ],
   "watchlist_per_run": 5,
-  "watchlist_query": "\"{employer}\" careers (\"business analyst\" OR \"product analyst\" OR \"junior business analyst\" OR \"graduate analyst\") UK",
+  "watchlist_query": "\"{employer}\" careers (\"business analyst\" OR \"junior business analyst\" OR \"graduate analyst\" OR \"PMO analyst\" OR \"reporting analyst\" OR \"operations analyst\") UK",
   "watchlist": [
    "Version 1",
    "BT Group",
@@ -195,7 +195,7 @@
    "SMBC Bank International",
    "Sainsbury's"
   ],
-  "watchlist_note": "Large employers with regular business analyst hiring. Sponsorship no longer matters; the list is kept for coverage."
+  "watchlist_note": "Large employers with regular analyst hiring. Contracts fit any employer; for permanent roles licensed sponsors are preferred."
  },
  "goal": "Paid UK business analyst experience before the visa ends in January 2028. FIRST PREFERENCE: fixed-term contracts (FTC, maternity cover, 6-12 months) that end by January 2028 - fewer applicants see them as worth it, and the visa end date doesn't matter. Day-rate/inside-IR35 contractor roles are NOT this: they need years of experience and a limited company, so skip them. Fixed-term contracts of 12 months or less that end by January 2028: any employer is fine, sponsorship is irrelevant. Permanent roles: strongly prefer licensed Skilled Worker sponsors, because they are used to hiring people on visas and are less likely to pass over a time-limited right to work (and it keeps the option to stay open)."
 }
