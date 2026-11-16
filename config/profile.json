@@ -1,163 +1,173 @@
 {
-  "name": "Dhruv Patil",
-  "email": "dhruvpatil979@gmail.com",
-  "linkedin": "linkedin.com/in/dhruv-patil21",
-  "github": {
-    "owner": "Drvptl2106",
-    "repo": "jobs",
-    "branch": "claude/ecstatic-bardeen-eu42vz"
+ "name": "Dhruv Patil",
+ "email": "dhruvpatil979@gmail.com",
+ "linkedin": "linkedin.com/in/dhruv-patil21",
+ "github": {
+  "owner": "Drvptl2106",
+  "repo": "jobs",
+  "branch": "claude/ecstatic-bardeen-eu42vz"
+ },
+ "site_url": "https://drvptl2106.github.io/jobs/",
+ "job_alert_sources": [
+  {
+   "name": "Glassdoor",
+   "from": "glassdoor.com",
+   "id_prefix": "gd",
+   "link_host": "www.glassdoor.co.uk",
+   "freshness": "Each listing shows its age (Just posted / 5h / 1d / 12d); keep Just posted, hours, 1d, 2d or 3d.",
+   "search_window": "3d"
   },
-  "site_url": "https://drvptl2106.github.io/jobs/",
-  "job_alert_sources": [
-    {
-      "name": "Glassdoor",
-      "from": "glassdoor.com",
-      "id_prefix": "gd",
-      "link_host": "www.glassdoor.co.uk",
-      "freshness": "Each listing shows its age (Just posted / 5h / 1d / 12d); keep Just posted, hours, 1d, 2d or 3d.",
-      "search_window": "3d"
-    },
-    {
-      "name": "Hunt UK Visa Sponsors",
-      "from": "huntukvisasponsors.com",
-      "id_prefix": "hu",
-      "link_host": "huntukvisasponsors.com",
-      "freshness": "Digest of the latest jobs at sponsoring employers; it arrives only every few days, so read any digest from the last 7 days and rely on the duplicate check.",
-      "search_window": "7d"
-    },
-    {
-      "name": "Newcastle University",
-      "from": "jobs2web.com",
-      "id_prefix": "nu",
-      "link_host": "jobs.ncl.ac.uk",
-      "freshness": "Weekly digest; read any digest from the last 7 days and rely on the duplicate check.",
-      "search_window": "7d"
-    }
-  ],
-  "catch_all_job_alerts": true,
-  "ignore_senders": [
-    "totaljobsmail.com",
-    "naukrigulf.com",
-    "notifications@github.com",
-    "updates-noreply@linkedin.com",
-    "editors-noreply@linkedin.com",
-    "groups-noreply@linkedin.com",
-    "billing-noreply@linkedin.com"
-  ],
-  "master_cv": "cv/master_cv.pdf",
-  "master_cv_text": "cv/master_cv.md",
-  "target_roles": [
-    "Business Analyst",
-    "Product Analyst / Junior Product Owner",
-    "Operations / Process Improvement Analyst",
-    "Project / PMO Analyst (junior)",
-    "Graduate / Junior Analyst roles",
-    "Management Consultant (junior)",
-    "Market / Research Analyst"
-  ],
-  "avoid_roles": [
-    "Software Developer / Engineer",
-    "Sales-only roles",
-    "Roles needing 5+ years' experience",
-    "Data Analyst / BI / Data Science roles whose essential criteria are strong SQL or Python",
-    "Finance roles needing an accounting qualification (CIMA, ACA, ACCA)"
-  ],
-  "locations": [
-    "Anywhere in the UK, including Scotland (happy to relocate)",
-    "Remote (UK)"
-  ],
-  "max_years_experience_required": 3,
-  "fresh_window_hours": 72,
-  "review_window_days": 3,
-  "cv_apply_window_days": 7,
-  "visa": {
-    "needs_sponsorship": false,
-    "new_entrant_eligible": true,
-    "notes": "Time-limited right to work until January 2028. Contracts ending by then need no sponsor. For permanent roles, a licensed sponsor is strongly preferred; a non-sponsor permanent role is still shown but scored lower and flagged.",
-    "salary_thresholds": {
-      "general": 41700,
-      "new_entrant": 33400
-    },
-    "thresholds_source": "gov.uk/skilled-worker-visa (checked 2026-11-02)",
-    "right_to_work_until": "2028-01",
-    "permanent_roles_prefer_sponsor": true
+  {
+   "name": "Hunt UK Visa Sponsors",
+   "from": "huntukvisasponsors.com",
+   "id_prefix": "hu",
+   "link_host": "huntukvisasponsors.com",
+   "freshness": "Digest of the latest jobs at sponsoring employers; it arrives only every few days, so read any digest from the last 7 days and rely on the duplicate check.",
+   "search_window": "7d"
   },
-  "scoring": {
-    "apply": 70,
-    "maybe": 50
+  {
+   "name": "Newcastle University",
+   "from": "jobs2web.com",
+   "id_prefix": "nu",
+   "link_host": "jobs.ncl.ac.uk",
+   "freshness": "Weekly digest; read any digest from the last 7 days and rely on the duplicate check.",
+   "search_window": "7d"
+  }
+ ],
+ "catch_all_job_alerts": true,
+ "ignore_senders": [
+  "totaljobsmail.com",
+  "naukrigulf.com",
+  "notifications@github.com",
+  "updates-noreply@linkedin.com",
+  "editors-noreply@linkedin.com",
+  "groups-noreply@linkedin.com",
+  "billing-noreply@linkedin.com"
+ ],
+ "master_cv": "cv/master_cv.pdf",
+ "master_cv_text": "cv/master_cv.md",
+ "target_roles": [
+  "Business Analyst",
+  "Product Analyst / Junior Product Owner",
+  "Operations / Process Improvement Analyst",
+  "Project / PMO Analyst (junior)",
+  "Graduate / Junior Analyst roles",
+  "Management Consultant (junior)",
+  "Market / Research Analyst"
+ ],
+ "avoid_roles": [
+  "Software Developer / Engineer",
+  "Sales-only roles",
+  "Roles needing 5+ years' experience",
+  "Data Analyst / BI / Data Science roles whose essential criteria are strong SQL or Python",
+  "Finance roles needing an accounting qualification (CIMA, ACA, ACCA)"
+ ],
+ "locations": [
+  "Anywhere in the UK, including Scotland (happy to relocate)",
+  "Remote (UK)"
+ ],
+ "max_years_experience_required": 3,
+ "fresh_window_hours": 72,
+ "review_window_days": 3,
+ "cv_apply_window_days": 7,
+ "visa": {
+  "needs_sponsorship": false,
+  "new_entrant_eligible": true,
+  "notes": "Time-limited right to work until January 2028. Contracts ending by then need no sponsor. For permanent roles, a licensed sponsor is strongly preferred; a non-sponsor permanent role is still shown but scored lower and flagged.",
+  "salary_thresholds": {
+   "general": 41700,
+   "new_entrant": 33400
   },
-  "known_recruiters": [
-    "robert walters",
-    "computer futures",
-    "sthree",
-    "hays",
-    "michael page",
-    "reed",
-    "randstad",
-    "adecco",
-    "harvey nash",
-    "hudson",
-    "alexander mae",
-    "virtus talent",
-    "networx",
-    "tenth revolution",
-    "morgan mckinley",
-    "page group",
-    "pagegroup",
-    "goodman masson",
-    "office angels"
+  "thresholds_source": "gov.uk/skilled-worker-visa (checked 2026-11-02)",
+  "right_to_work_until": "2028-01",
+  "permanent_roles_prefer_sponsor": true
+ },
+ "scoring": {
+  "apply": 70,
+  "maybe": 50
+ },
+ "known_recruiters": [
+  "robert walters",
+  "computer futures",
+  "sthree",
+  "hays",
+  "michael page",
+  "reed",
+  "randstad",
+  "adecco",
+  "harvey nash",
+  "hudson",
+  "alexander mae",
+  "virtus talent",
+  "networx",
+  "tenth revolution",
+  "morgan mckinley",
+  "page group",
+  "pagegroup",
+  "goodman masson",
+  "office angels"
+ ],
+ "skill_limits": {
+  "about": "What the owner can honestly claim. Never score or write above this level.",
+  "sql": "Working knowledge only (select, filter, join, group by). Counts as half-evidenced when an advert asks for SQL, and as NOT met when it asks for strong/advanced SQL.",
+  "python": "Used in degree projects with AI assistance; cannot write it unaided. Counts as NOT met when Python is an essential requirement.",
+  "strengths": "Requirements, business rules, process mapping, stakeholder work, user acceptance testing, Power BI, Excel, defining and delivering internal tools with AI coding assistants."
+ },
+ "web_discovery": {
+  "about": "Jobs found on the web through Firecrawl, in addition to alert emails. See CLAUDE.md step 4b.",
+  "max_new_jobs_per_run": 10,
+  "search_pages": [
+   {
+    "name": "Glassdoor: Business Analyst fixed-term contract, whole UK",
+    "url": "https://www.glassdoor.co.uk/Job/uk-business-analyst-fixed-term-contract-jobs-SRCH_IL.0,2_IN2_KO3,39.htm",
+    "note": "Keyword search: many results are permanent roles. Keep only adverts that say fixed-term, FTC, maternity cover or a 6-12 month contract, plus any junior/graduate business analyst role."
+   },
+   {
+    "name": "Glassdoor: Junior Business Analyst, whole UK",
+    "url": "https://www.glassdoor.co.uk/Job/uk-junior-business-analyst-jobs-SRCH_IL.0,2_IN2_KO3,26.htm"
+   },
+   {
+    "name": "Glassdoor: Business Analyst, Newcastle",
+    "url": "https://www.glassdoor.co.uk/Job/newcastle-upon-tyne-business-analyst-jobs-SRCH_IL.0,19_IC3293413_KO20,36.htm"
+   },
+   {
+    "name": "Glassdoor: Operations Analyst, whole UK",
+    "url": "https://www.glassdoor.co.uk/Job/uk-operations-analyst-jobs-SRCH_IL.0,2_IN2_KO3,21.htm?fromAge=3&sortBy=date_desc",
+    "note": "Wider net: keep operations, process, risk and improvement analyst roles that welcome graduates or people from outside the field."
+   },
+   {
+    "name": "Glassdoor: Process Analyst, whole UK",
+    "url": "https://www.glassdoor.co.uk/Job/uk-process-analyst-jobs-SRCH_IL.0,2_IN2_KO3,19.htm?fromAge=3&sortBy=date_desc",
+    "note": "Catches transformation, process and junior BA roles that the business analyst search misses."
+   }
   ],
-  "skill_limits": {
-    "about": "What the owner can honestly claim. Never score or write above this level.",
-    "sql": "Working knowledge only (select, filter, join, group by). Counts as half-evidenced when an advert asks for SQL, and as NOT met when it asks for strong/advanced SQL.",
-    "python": "Used in degree projects with AI assistance; cannot write it unaided. Counts as NOT met when Python is an essential requirement.",
-    "strengths": "Requirements, business rules, process mapping, stakeholder work, user acceptance testing, Power BI, Excel, defining and delivering internal tools with AI coding assistants."
-  },
-  "web_discovery": {
-    "about": "Jobs found on the web through Firecrawl, in addition to alert emails. See CLAUDE.md step 4b.",
-    "max_new_jobs_per_run": 10,
-    "search_pages": [
-      {
-        "name": "Glassdoor: Business Analyst fixed-term contract, whole UK",
-        "url": "https://www.glassdoor.co.uk/Job/uk-business-analyst-fixed-term-contract-jobs-SRCH_IL.0,2_IN2_KO3,39.htm",
-        "note": "Keyword search: many results are permanent roles. Keep only adverts that say fixed-term, FTC, maternity cover or a 6-12 month contract, plus any junior/graduate business analyst role."
-      },
-      {
-        "name": "Glassdoor: Junior Business Analyst, whole UK",
-        "url": "https://www.glassdoor.co.uk/Job/uk-junior-business-analyst-jobs-SRCH_IL.0,2_IN2_KO3,26.htm"
-      },
-      {
-        "name": "Glassdoor: Business Analyst, Newcastle",
-        "url": "https://www.glassdoor.co.uk/Job/newcastle-upon-tyne-business-analyst-jobs-SRCH_IL.0,19_IC3293413_KO20,36.htm"
-      }
-    ],
-    "watchlist_per_run": 5,
-    "watchlist_query": "\"{employer}\" careers (\"business analyst\" OR \"product analyst\" OR \"junior business analyst\" OR \"graduate analyst\") UK",
-    "watchlist": [
-      "Version 1",
-      "BT Group",
-      "The Sage Group",
-      "Sopra Steria",
-      "Newcastle Building Society",
-      "Northumbrian Water",
-      "Accenture",
-      "Capgemini",
-      "Deloitte",
-      "KPMG",
-      "PricewaterhouseCoopers",
-      "Lloyds Bank",
-      "NatWest Group",
-      "Aviva",
-      "Tata Consultancy Services",
-      "Infosys",
-      "FDM Group",
-      "Capita",
-      "Kainos",
-      "Tesco",
-      "SMBC Bank International",
-      "Sainsbury's"
-    ],
-    "watchlist_note": "Large employers with regular business analyst hiring. Sponsorship no longer matters; the list is kept for coverage."
-  },
-  "goal": "Paid UK business analyst experience before the visa ends in January 2028. FIRST PREFERENCE: fixed-term contracts (FTC, maternity cover, 6-12 months) that end by January 2028 - fewer applicants see them as worth it, and the visa end date doesn't matter. Day-rate/inside-IR35 contractor roles are NOT this: they need years of experience and a limited company, so skip them. Fixed-term contracts of 12 months or less that end by January 2028: any employer is fine, sponsorship is irrelevant. Permanent roles: strongly prefer licensed Skilled Worker sponsors, because they are used to hiring people on visas and are less likely to pass over a time-limited right to work (and it keeps the option to stay open)."
+  "watchlist_per_run": 5,
+  "watchlist_query": "\"{employer}\" careers (\"business analyst\" OR \"product analyst\" OR \"junior business analyst\" OR \"graduate analyst\") UK",
+  "watchlist": [
+   "Version 1",
+   "BT Group",
+   "The Sage Group",
+   "Sopra Steria",
+   "Newcastle Building Society",
+   "Northumbrian Water",
+   "Accenture",
+   "Capgemini",
+   "Deloitte",
+   "KPMG",
+   "PricewaterhouseCoopers",
+   "Lloyds Bank",
+   "NatWest Group",
+   "Aviva",
+   "Tata Consultancy Services",
+   "Infosys",
+   "FDM Group",
+   "Capita",
+   "Kainos",
+   "Tesco",
+   "SMBC Bank International",
+   "Sainsbury's"
+  ],
+  "watchlist_note": "Large employers with regular business analyst hiring. Sponsorship no longer matters; the list is kept for coverage."
+ },
+ "goal": "Paid UK business analyst experience before the visa ends in January 2028. FIRST PREFERENCE: fixed-term contracts (FTC, maternity cover, 6-12 months) that end by January 2028 - fewer applicants see them as worth it, and the visa end date doesn't matter. Day-rate/inside-IR35 contractor roles are NOT this: they need years of experience and a limited company, so skip them. Fixed-term contracts of 12 months or less that end by January 2028: any employer is fine, sponsorship is irrelevant. Permanent roles: strongly prefer licensed Skilled Worker sponsors, because they are used to hiring people on visas and are less likely to pass over a time-limited right to work (and it keeps the option to stay open)."
 }
