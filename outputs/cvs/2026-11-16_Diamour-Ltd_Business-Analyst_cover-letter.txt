@@ -1,0 +1,16 @@
+Dear Hiring Manager,
+
+I am applying for the Business Analyst role at Diamour Jewellers. The job brings together the work I enjoy most: looking closely at how a business runs, finding where it can work better, and turning data into clear reports that managers can act on.
+
+As a freelance business analyst at Visionize Consultancy, I worked directly with small-business clients to understand their problems, then challenged and documented their requirements. I built Power BI dashboards and reports to show trends, risks and opportunities, and produced market, competitor, pricing and cost analysis to support growth decisions. This is close to your brief of reviewing sales performance, building KPIs and preparing management reports.
+
+At EE, I noticed that team leaders only saw break data days later. I defined the problem, requirements and business rules for BreakPoint, a live tracking tool, tested every rule before rollout, and designed a pilot to measure its impact; my manager asked me to roll it out to our 15-person team. I also bring retail floor experience from M&S across tills, replenishment and deliveries, where I co-built a dashboard to track food-waste checks.
+
+I have not worked in the jewellery or luxury sector, and I have not yet prepared a formal business case outside my MSc projects. [add one true sentence on why the jewellery sector interests you]
+
+I hold an MSc in Business Analytics (Distinction) from Newcastle University. I am based in Newcastle; [confirm: would you relocate to London?]
+
+Thank you for considering my application.
+
+Yours faithfully,
+Dhruv Patil

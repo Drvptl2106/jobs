@@ -101,16 +101,129 @@
 "recruiter": false,
 "decision": "approved",
 "decided_at": "2026-11-16T08:38:26+00:00",
-"status": "approved",
+"status": "cv_ready",
+"cv_file": "outputs/cvs/2026-11-16_Diamour-Ltd_Business-Analyst.docx",
+"cv_url": "outputs/cvs/2026-11-16_Diamour-Ltd_Business-Analyst.docx",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-16T13:30:30+00:00",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-16T13:30:30+00:00"
+},
+{
+"id": "gd-1010325088239",
+"source": "glassdoor",
+"title": "Marketing Analyst (Short Term FTC)",
+"company": "Cavu (part of Manchester Airports Group)",
+"location": "Manchester Airport, England (hybrid)",
+"salary": "£32k - £44k (Glassdoor Est.)",
+"salary_min": 32000,
+"salary_max": 44000,
+"posted_age": "3d",
+"first_seen": "2026-11-16",
+"email_date": "2026-11-16",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010325088239",
+"easy_apply": false,
+"fit_score": 70,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 12,
+"max": 20,
+"note": "Marketing analytics: adjacent to your BA/market-analyst targets, mostly dashboards and campaign insight"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 17,
+"max": 25,
+"note": "Power BI, Excel, dashboards, GA4 and commercial insight evidenced; SQL only half; no CRM, PPC/SEO or A/B testing"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 11,
+"max": 15,
+"note": "Asks for analyst experience, no years stated; freelance and NGO analyst work covers it"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "No qualification stated"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 3,
+"max": 10,
+"note": "No travel or marketing-team experience, but the advert welcomes analysts from outside marketing"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 10,
+"max": 10,
+"note": "Short-term fixed-term contract, so it ends well before January 2028"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 4,
+"max": 5,
+"note": "Fixed-term (length not stated, may be under 6 months); hybrid at Manchester Airport"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "Posted 3 days ago, apply on employer site (not Easy Apply), fixed term"
+}
+],
+"confidence": "high",
+"recommendation": "apply",
+"verdict": "A short fixed-term marketing analyst job at MAG's travel-tech arm: Power BI dashboards, reporting automation and campaign insight, with practical SQL asked for. It is one step sideways from business analysis, but the advert openly welcomes analysts from outside marketing. Right to work: fine; a short fixed-term contract ends well before January 2028.",
+"match_reasons": [
+"Power BI dashboards and reports of client data at Visionize Consultancy",
+"Google Analytics 4 web tracking set up for a client",
+"Market, competitor and pricing insight for client growth decisions",
+"KPI dashboards with quality checks at GDP Foundation"
+],
+"gaps": [
+"Needs a move: check relocation costs against the salary (Manchester, hybrid; you're in Newcastle)",
+"Contract length not stated ('short term'); no salary given, Glassdoor estimates £32k-£44k",
+"Practical SQL with relational databases is asked for; you have working knowledge only",
+"No CRM campaign, PPC/SEO, segmentation or A/B testing experience"
+],
+"jd_summary": "Marketing Analyst, short-term FTC at Cavu (MAG), hybrid from Manchester Airport, reporting to the Lead Marketing Analyst. Maintain and automate marketing dashboards, analyse customer and campaign data, CRM audience selections, segmentation and A/B testing support. Wants analyst experience, practical SQL, Power BI/Tableau/Looker and strong Excel. Apply via 'Apply on employer site' on Glassdoor; three-stage interview (recruiter, skills, values). Employer's own posting not found.",
+"jd_full": "Cavu (part of MAG) - Marketing Analyst\nHybrid | Short Term FTC | Manchester Airport | Posted 12 Nov 2026\n\nAbout the role\nWe're looking for a curious and collaborative Marketing Analyst to help turn complex data into clear, practical insight. You'll champion marketing data and analytics across Cavu's global brand network and international airport clients, working closely with colleagues across Marketing and Ecommerce. Reporting to the Lead Marketing Analyst.\n\nWhat you'll be doing\n• Maintain and improve the marketing reporting suite, creating clear dashboards and reports.\n• Analyse large and varied datasets to identify customer trends, commercial opportunities and areas for optimisation.\n• Manage and prioritise ad-hoc marketing data requests.\n• Turn analysis into practical recommendations and communicate findings to stakeholders, including senior leaders.\n• Help define and deliver audience selections for CRM campaigns.\n• Work with the Performance Marketing team on SEO, PPC, affiliates and display.\n• Support customer analysis, segmentation, lifetime-value modelling, discount strategies and A/B testing.\n• Automate dashboards and recurring reports.\n• Bring together information from across the business to build a joined-up view of marketing performance.\n• Track performance against agreed KPIs.\n\nWhat you'll bring (ideally)\n• Experience as a Data Analyst, Marketing Analyst or in another relevant analytical role.\n• Confidence working with large datasets and presenting findings clearly.\n• Practical SQL experience, particularly with relational databases.\n• Data-visualisation tools such as Power BI, Tableau or Google Looker Studio.\n• Experience creating, maintaining or automating reports and dashboards.\n• Strong Excel skills and Microsoft 365.\n• A commercially aware approach to analysis.\n• Clear written and verbal communication.\n• A collaborative approach across multiple teams.\n• Strong organisation and attention to detail.\n\nHelpful, not required\n• Google Analytics, Google Tag Manager or Google Ads.\n• BigQuery, Databricks, AWS or Redshift.\n• CRM or campaign-management platforms.\n• Customer segmentation, lifetime-value analysis and A/B testing.\n• PPC, SEO, affiliates, display or wider digital marketing.\n• Marketing data hubs such as Funnel.io.\nIf your analytical experience has been gained outside marketing but you're interested in developing a career in marketing analytics, they still want to hear from you.\n\nBenefits\n• 25 days' holiday rising to 28, option to buy 10 more, four flexible bank holidays.\n• 10% company pension, annual bonus, on-site gym, MediCash, Cavu product discounts.\n\nInterview process\n• Recruiter conversation, skills and competency interview, values interview.\n\nDisability Confident employer. No salary stated (Glassdoor estimate £32k-£44k). No mention of sponsorship or right to work.",
+"sponsor_register": "possible",
+"sponsor_match": {
+"name": "Manchester Airport plc",
+"town": "Manchester",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "range_crosses_general",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
 "cv_file": "",
 "cv_url": "",
 "cv_emailed_at": "",
 "applied_at": "",
-"status_updated_at": "2026-11-16T08:38:26+00:00",
+"status_updated_at": "",
 "last_email": "",
 "notes": "",
 "profile_basis": "master",
-"updated_at": "2026-11-16T08:38:26+00:00"
+"updated_at": "2026-11-16T13:29:40+00:00"
 },
 {
 "id": "gd-1010326928661",
@@ -534,6 +647,52 @@
 "notes": "",
 "profile_basis": "master",
 "updated_at": "2026-11-16T08:26:17+00:00"
+},
+{
+"id": "gd-1010326602572",
+"source": "glassdoor",
+"title": "Data Analyst – Multi-Level Store Data Analysis",
+"company": "Furnishings Uk Ltd",
+"location": "Bradford, Yorkshire and the Humber, England",
+"salary": "£48k - £55k (Employer Est.)",
+"salary_min": 48000,
+"salary_max": 55000,
+"posted_age": "1d",
+"first_seen": "2026-11-16",
+"email_date": "2026-11-16",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010326602572",
+"easy_apply": false,
+"fit_score": null,
+"score_breakdown": [],
+"confidence": "",
+"recommendation": "skip",
+"verdict": "Outside your target roles: needs 5+ years as a data/BI analyst with advanced SQL and Python.",
+"match_reasons": [],
+"gaps": [],
+"jd_summary": "",
+"jd_full": "",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "Furnishings UK Ltd",
+"town": "Bradford",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "",
+"salary_check": "meets_general",
+"recruiter": false,
+"decision": "skipped",
+"decided_at": "",
+"status": "skipped",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-16T13:29:40+00:00",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-16T13:29:40+00:00"
 },
 {
 "id": "gd-1010325899974",

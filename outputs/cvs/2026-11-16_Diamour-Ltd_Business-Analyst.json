@@ -1,0 +1,55 @@
+{
+ "name": "Dhruv Patil",
+ "contact": ["dhruvpatil979@gmail.com", "linkedin.com/in/dhruv-patil21", "Newcastle upon Tyne, UK"],
+ "headline": "Business Analyst",
+ "summary": "Business analyst with an MSc in Business Analytics (Distinction) and freelance experience helping small businesses understand their problems, document requirements and act on clear performance reporting. I have built Power BI and KPI dashboards for management, produced market, competitor, pricing and cost analysis to support growth decisions, and analysed current processes to find the root causes of inefficiency. With retail floor experience at M&S across stock, replenishment and deliveries, I am keen to help a growing jewellery business improve its operations, systems and commercial performance.",
+ "skills": [
+  {"label": "Business analysis", "items": "Requirements gathering and documentation, business rules, process mapping, root cause analysis, testing before release, structured briefs"},
+  {"label": "Commercial analysis", "items": "Market and competitor insight, pricing and cost analysis, KPI design, performance reporting, CAPEX/ROI and demand metrics (MSc project), business outcomes and benefits mapping"},
+  {"label": "Reporting & tools", "items": "Power BI dashboards, Excel (pivot tables, lookups), Power Query, Microsoft Office, Google Analytics 4, working knowledge of SQL"},
+  {"label": "Stakeholders", "items": "Working with managers, clients and frontline colleagues; presenting findings and recommendations; pilot design and impact measurement"}
+ ],
+ "experience": [
+  {"title": "Freelance Business Analyst", "org": "Visionize Consultancy", "location": "Remote", "dates": "Aug 2024 - Jan 2026",
+   "bullets": [
+    "Worked directly with small-business clients to understand their business problems, then challenged and documented requirements",
+    "Built Power BI dashboards and reports of client data to show trends, risks and opportunities",
+    "Produced market and competitor insights, and pricing and cost analysis, to support client growth decisions",
+    "Set up one client's data pipeline, bringing together and cleaning data from several sources",
+    "Learned Google Analytics 4 and set up web tracking for a client who needed better tracking than they had"
+   ]},
+  {"title": "Sales Guide", "org": "EE (BT Group)", "location": "Newcastle upon Tyne", "dates": "Jun 2026 - Present",
+   "bullets": [
+    "Customer-facing sales role: finding out what each customer needs and matching it to the right mobile or broadband product",
+    "Noticed that team leaders only saw break data days later; defined the problem, requirements and business rules for BreakPoint, a live tracker with agent and team-leader views, built with AI coding tools",
+    "Tested every business rule by hand before rollout; being rolled out to our 15-person team (November 2026) at my manager's request",
+    "Designed a pilot comparing break overruns before and after the tool, to measure its impact"
+   ]},
+  {"title": "Business Analyst (Volunteer)", "org": "GDP Foundation (NGO)", "location": "Remote", "dates": "Feb 2025 - Jan 2026",
+   "bullets": [
+    "Analysed current processes to find root causes of inefficiency, and proposed changes to delivery",
+    "Gathered requirements with teams across the foundation and turned them into structured briefs and process maps",
+    "Built and maintained KPI dashboards, with quality checks for accuracy and consistency",
+    "Started as Data Analyst Intern (Sep 2024 - Feb 2025)"
+   ]},
+  {"title": "Foods A&A Assistant (Part-time)", "org": "Marks & Spencer", "location": "Newcastle upon Tyne", "dates": "Dec 2024 - Jun 2026",
+   "bullets": [
+    "Co-built a live dashboard tracking completion of date-expired food checks, using store data to make results visible and fair",
+    "Co-designed a leaderboard game with streak rewards to motivate colleagues to reduce food waste",
+    "Served customers and worked across tills, replenishment and deliveries through peak trading"
+   ]}
+ ],
+ "projects": [
+  {"title": "Digital transformation strategy, Blueline Taxis", "org": "MSc project", "dates": "",
+   "bullets": ["After discussions with the Finance Director, proposed a driver app and mapped features to measurable business outcomes (Benefits Dependency Network, Strategic Value Matrix), with a go-to-market plan and KPIs"]},
+  {"title": "EV market strategy for Renault, Nissan and Jeep in India", "org": "MSc project", "dates": "",
+   "bullets": ["Assessed demand, localisation and investment using sales data, sentiment analysis and financial modelling; defined CAPEX, ROI and demand metrics and presented recommendations"]}
+ ],
+ "education": [
+  {"degree": "MSc Business Analytics (Distinction)", "org": "Newcastle University", "location": "", "dates": "Sep 2024 - Sep 2025",
+   "bullets": ["Vice Chancellor's International Scholarship. Modules include Stakeholder Management, Project Management, Data-Driven Decision Making, Operational Analytics, Business Modelling and Business Visualisation"]},
+  {"degree": "BSc Data Science (CGPA 8.5)", "org": "Goa University", "location": "", "dates": "Sep 2021 - May 2024",
+   "bullets": ["Modules include Business Analytics, Strategic Management, Database Management Systems (SQL), Probability and Statistics, and Econometrics"]}
+ ],
+ "certifications": ["Microsoft 365 Excel Essential Training; Advanced Excel Data Visualization (NASBA)", "NCL+ Advanced Award: Campaigning for Social Change (Newcastle University)"]
+}
