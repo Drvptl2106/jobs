@@ -101,16 +101,16 @@
 "recruiter": false,
 "decision": "approved",
 "decided_at": "2026-11-16T08:38:26+00:00",
-"status": "cv_ready",
+"status": "applied",
 "cv_file": "outputs/cvs/2026-11-16_Diamour-Ltd_Business-Analyst.docx",
 "cv_url": "outputs/cvs/2026-11-16_Diamour-Ltd_Business-Analyst.docx",
 "cv_emailed_at": "2026-11-16T13:37:00Z",
-"applied_at": "",
-"status_updated_at": "2026-11-16T13:30:30+00:00",
+"applied_at": "2026-11-16T21:17:23+00:00",
+"status_updated_at": "2026-11-16T21:17:23+00:00",
 "last_email": "",
 "notes": "",
 "profile_basis": "master",
-"updated_at": "2026-11-16T13:30:53+00:00"
+"updated_at": "2026-11-16T21:17:23+00:00"
 },
 {
 "id": "gd-1010327711289",
@@ -153,16 +153,16 @@
 "recruiter": false,
 "decision": "pending",
 "decided_at": "",
-"status": "approved",
+"status": "applied",
 "cv_file": "",
 "cv_url": "",
 "cv_emailed_at": "",
-"applied_at": "",
-"status_updated_at": "2026-11-16T19:10:39+00:00",
+"applied_at": "2026-11-16T21:17:23+00:00",
+"status_updated_at": "2026-11-16T21:17:23+00:00",
 "last_email": "",
 "notes": "",
 "profile_basis": "master",
-"updated_at": "2026-11-16T19:10:39+00:00"
+"updated_at": "2026-11-16T21:17:23+00:00"
 },
 {
 "id": "gd-1010325088239",
