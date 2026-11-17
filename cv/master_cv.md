@@ -14,7 +14,7 @@ I notice problems in the work around me, define them clearly, and get a simple f
 - Stakeholders and delivery: working with managers, clients and frontline colleagues; backlog refinement in iterative delivery; pilot design and impact measurement
 - Product: problem definition, designing for adoption (gamification), privacy by design
 - Data and reporting: Power BI dashboards, Excel (pivot tables, lookups), Power Query, KPI design, Google Analytics 4
-- Technical: working knowledge of SQL; Python used in degree projects; building internal tools with AI coding assistants (Claude Code)
+- Technical: working knowledge of SQL; Python used in degree projects; building internal tools with AI coding assistants (Claude Code); SharePoint and Jira (owner confirmed 17 Nov 2026)
 
 ## Experience
 
@@ -25,6 +25,7 @@ I notice problems in the work around me, define them clearly, and get a simple f
 - Defined the problem, requirements and business rules for BreakPoint, a live break tracker with separate agent and team-leader views, and built it using AI coding tools
 - Built it for myself first; my manager then asked me to build it for the team, and it is being rolled out to our 15-person team (November 2026)
 - Tested every business rule by hand before rollout, and designed a pilot comparing break overruns before and after the tool
+- Presented BreakPoint to the team with a short slide deck and walked them through using it
 - Designed for adoption and privacy: a weekly game that rewards staying within break time, user codes instead of names, no free-text fields on break records, and automatic 14-day data retention
 
 ### Freelance Business Analyst | Visionize Consultancy, Remote | Aug 2024 – Jan 2026
@@ -44,7 +45,7 @@ Unpaid, project-based work alongside my MSc. Started as Data Analyst Intern (Sep
 - Contributed analysis to a national research study on ageing, later recognised by NITI Aayog, the Government of India's policy think tank
 - Gathered requirements with teams across the foundation and turned them into structured briefs and process maps
 - Analysed current processes to find root causes of inefficiency, and proposed changes to delivery
-- Built and maintained KPI dashboards, with quality checks for accuracy and consistency
+- Built and maintained KPI dashboards to monitor data, with quality checks for accuracy and consistency, keeping the security and integrity of sensitive data in mind
 - Contributed to backlog refinement and prioritisation within iterative delivery cycles
 
 ### Foods A&A Assistant (Part-time) | Marks & Spencer, Newcastle upon Tyne | Dec 2024 – Jun 2026
@@ -73,7 +74,8 @@ Unpaid, project-based work alongside my MSc. Started as Data Analyst Intern (Sep
 
 ## Not to be claimed
 
-- No workshop facilitation experience has been confirmed: do not claim it.
+- Facilitation: only presenting BreakPoint to the team and showing them how to use it. No workshops.
+- No formal risk, action or issue registers kept, and no Monday.com or Microsoft Project: do not claim them.
 - Has not written user stories or formal acceptance criteria yet: do not claim them until the owner confirms.
 - No experience in property, financial services, pricing analytics at a retailer, or security-cleared work.
 - Based in Newcastle; a move must be stated honestly in any cover letter, never assumed.
