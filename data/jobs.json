@@ -159,10 +159,10 @@
 "cv_emailed_at": "",
 "applied_at": "2026-11-16T21:17:23+00:00",
 "status_updated_at": "2026-11-16T21:17:23+00:00",
-"last_email": "",
+"last_email": "Application received (16 Nov)",
 "notes": "",
 "profile_basis": "master",
-"updated_at": "2026-11-16T21:17:23+00:00"
+"updated_at": "2026-11-17T08:25:13+00:00"
 },
 {
 "id": "gd-1010327395812",
@@ -209,10 +209,10 @@
 "cv_emailed_at": "",
 "applied_at": "2026-11-16T22:53:57+00:00",
 "status_updated_at": "2026-11-16T22:53:57+00:00",
-"last_email": "",
+"last_email": "Application received (16 Nov)",
 "notes": "",
 "profile_basis": "master",
-"updated_at": "2026-11-16T22:53:57+00:00"
+"updated_at": "2026-11-17T08:25:13+00:00"
 },
 {
 "id": "gd-1010325088239",
@@ -990,16 +990,16 @@
 "recruiter": false,
 "decision": "pending",
 "decided_at": "",
-"status": "applied",
+"status": "rejected",
 "cv_file": "",
 "cv_url": "",
 "cv_emailed_at": "",
 "applied_at": "2026-11-15T23:30:21+00:00",
-"status_updated_at": "2026-11-15T23:30:21+00:00",
-"last_email": "",
+"status_updated_at": "2026-11-17T08:25:13+00:00",
+"last_email": "Rejection (17 Nov)",
 "notes": "",
 "profile_basis": "master",
-"updated_at": "2026-11-15T23:30:21+00:00"
+"updated_at": "2026-11-17T08:25:13+00:00"
 },
 {
 "id": "gd-1010326559392",
@@ -3127,16 +3127,16 @@
 "recruiter": false,
 "decision": "pending",
 "decided_at": "",
-"status": "applied",
+"status": "rejected",
 "cv_file": "",
 "cv_url": "",
 "cv_emailed_at": "",
 "applied_at": "2026-11-14T22:40:42+00:00",
-"status_updated_at": "2026-11-14T22:40:42+00:00",
-"last_email": "Application received (14 Nov)",
+"status_updated_at": "2026-11-17T08:25:13+00:00",
+"last_email": "Rejection (17 Nov)",
 "notes": "",
 "profile_basis": "master",
-"updated_at": "2026-11-15T08:25:32+00:00"
+"updated_at": "2026-11-17T08:25:13+00:00"
 },
 {
 "id": "gd-1010324640097",
