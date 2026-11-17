@@ -11,7 +11,7 @@ I notice problems in the work around me, define them clearly, and get a simple f
 ## Key skills
 
 - Business analysis: requirements gathering and documentation, business rules, process mapping, root cause analysis, and testing business rules before release
-- Stakeholders and delivery: working with managers, clients and frontline colleagues; backlog refinement in iterative delivery; pilot design and impact measurement
+- Stakeholders and delivery: working with managers, clients and frontline colleagues; backlog refinement in iterative delivery; understanding of delivery controls in Waterfall, Agile and hybrid projects (owner confirmed 17 Nov 2026); pilot design and impact measurement
 - Product: problem definition, designing for adoption (gamification), privacy by design
 - Data and reporting: Power BI dashboards, Excel (pivot tables, lookups), Power Query, KPI design, Google Analytics 4
 - Technical: working knowledge of SQL; Python used in degree projects; building internal tools with AI coding assistants (Claude Code); SharePoint and Jira (owner confirmed 17 Nov 2026)
