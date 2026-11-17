@@ -353,7 +353,7 @@
 "email_date": "2026-11-17",
 "url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010327468741",
 "easy_apply": false,
-"fit_score": 82,
+"fit_score": 83,
 "score_breakdown": [
 {
 "key": "role_match",
@@ -365,9 +365,9 @@
 {
 "key": "skills",
 "label": "Skills & tools",
-"score": 22,
+"score": 23,
 "max": 25,
-"note": "Analysis, reporting, communication, attention to detail and Excel shown; interest in technology risk/cyber not yet evidenced"
+"note": "Analysis, reporting, communication, attention to detail, Excel and PowerPoint (BreakPoint deck) shown; SharePoint now on the CV (skills list, half); interest in technology risk/cyber not yet evidenced"
 },
 {
 "key": "experience",
@@ -451,7 +451,7 @@
 "last_email": "",
 "notes": "",
 "profile_basis": "master",
-"updated_at": "2026-11-17T13:31:29+00:00"
+"updated_at": "2026-11-17T18:23:05+00:00"
 },
 {
 "id": "gd-1010327995015",
@@ -806,7 +806,7 @@
 "email_date": "2026-11-17",
 "url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010327758406",
 "easy_apply": false,
-"fit_score": 75,
+"fit_score": 76,
 "score_breakdown": [
 {
 "key": "role_match",
@@ -818,9 +818,9 @@
 {
 "key": "skills",
 "label": "Skills & tools",
-"score": 19,
+"score": 20,
 "max": 25,
-"note": "Power BI, Excel, reporting and numeracy evidenced; 'advanced' Power BI with DAX only partly shown; SharePoint not shown"
+"note": "Power BI, Excel, reporting, numeracy and presenting (BreakPoint deck) evidenced; 'advanced' Power BI with DAX only partly shown; SharePoint now on the CV (skills list, half)"
 },
 {
 "key": "experience",
@@ -878,7 +878,7 @@
 "Permanent role: you'd leave in January 2028 unless they sponsor you; answer honestly if asked",
 "One vacancy advertised across several cities (national competition)",
 "Needs a move: check relocation costs against the salary",
-"Wants advanced Power BI with DAX on large datasets and SharePoint knowledge, which the CV doesn't show; salary isn't stated"
+"Wants advanced Power BI with DAX on large datasets which the CV only partly shows; SharePoint is on your CV as a tool you know; salary isn't stated"
 ],
 "jd_summary": "Power BI Analyst in Circle Health Group's Procurement team: build Excel and Power BI dashboards on spend, supplier performance and contract compliance, validate data, reconcile invoices, manage supplier KPIs and train users. Essential: advanced Power BI (DAX) and Excel, SharePoint. Permanent, 37.5 hours, hybrid from Stockport/Cheadle or London (1+ office day a week). Salary competitive, not stated. Closes 6 December 2026. Apply on the employer's site: https://circlehealth.wd103.myworkdayjobs.com/chgcareers",
 "jd_full": "Power BI Analyst - Procurement - Circle Health Group\nClosing date: 06/12/2026 | Hours: Full time | Role type: Permanent\nLocations: Circle Business Services - Cheadle; Head Office - Central London\n\nOverview\nPower BI Analyst - Procurement\nHybrid - Stockport or London based\n37.5 hours and permanent\nSalary: competitive salary plus benefits (depending on level of experience, training and qualification)\n\nCircle Health Group is Britain's leading provider of independent healthcare, with a nationwide network of hospitals and clinics.\nWe have an opportunity for a Power BI Analyst to join the Procurement team. This is a full time role for 37.5 hours a week. The role holder will be required to cover a flexible shift pattern.\nThe role holder will be required to work from either our Stockport or Central London office for a minimum of one day per week. The role will also involve travel to our hospital sites as required to meet business needs.\n\nDuties of this role include:\n• Undertake various administrative activities to ensure effective functioning of the team and the business: supporting invoice reconciliation; database management; obtaining data from internal stakeholders and suppliers and building datasets; developing and maintaining category management datasets\n• Build, develop, maintain, update and improve reports and dashboards using Excel and Power BI to visualise procurement data and key performance indicators such as spend analysis, supplier performance, contract compliance and other management information\n• Collect, analyse and interpret supplier and procurement data to identify trends, patterns and discrepancies\n• Ensure data accuracy and integrity by validating data sources and implementing quality control measures\n• Supplier contract and performance management (operational and commercial, ensuring billing is correct and suppliers are complying with KPIs) and maintaining strong working relationships with suppliers and stakeholders\n• Reactive support to stakeholders to resolve issues in the BAU operation of services\n• End user training on Power BI models\n\nApplicants should meet the following criteria:\n• Advanced knowledge and experience in Power BI report building with large and complex data sets and DAX functions\n• Advanced knowledge and use of Excel and other data analytical applications\n• Knowledge of SharePoint and Microsoft apps\n• Strong written and verbal communication skills (including presentations and reports)\n• Strong numerical skills\n• Strong organisational skills\n• A level or equivalent (A-C)\n\nSalary & Benefits\n• 25 days holiday plus bank holidays, increasing to 30 days with service\n• Private pension scheme; private healthcare scheme at Circle hospitals\n• Friends and family hospital discounts; enhanced maternity, paternity and adoption pay\n• Non-contributory life insurance; staff discounts and rewards; wellbeing support\n• Employee recognition programmes; training and development opportunities",
@@ -903,7 +903,7 @@
 "last_email": "",
 "notes": "",
 "profile_basis": "master",
-"updated_at": "2026-11-17T08:28:58+00:00"
+"updated_at": "2026-11-17T18:23:05+00:00"
 },
 {
 "id": "gd-1010327568715",
@@ -1027,7 +1027,7 @@
 "email_date": "2026-11-17",
 "url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010327700862",
 "easy_apply": false,
-"fit_score": 72,
+"fit_score": 73,
 "score_breakdown": [
 {
 "key": "role_match",
@@ -1039,9 +1039,9 @@
 {
 "key": "skills",
 "label": "Skills & tools",
-"score": 21,
+"score": 22,
 "max": 25,
-"note": "Shows process mapping, requirements, stakeholders, data insight, CI; workshop facilitation not evidenced"
+"note": "Shows process mapping, requirements, stakeholders, data insight, CI and presenting (BreakPoint team demo); workshop facilitation still not evidenced"
 },
 {
 "key": "experience",
@@ -1124,7 +1124,7 @@
 "last_email": "",
 "notes": "",
 "profile_basis": "master",
-"updated_at": "2026-11-17T08:28:58+00:00"
+"updated_at": "2026-11-17T18:23:05+00:00"
 },
 {
 "id": "gd-1010327941198",
@@ -1140,7 +1140,7 @@
 "email_date": "2026-11-17",
 "url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010327941198",
 "easy_apply": false,
-"fit_score": 71,
+"fit_score": 73,
 "score_breakdown": [
 {
 "key": "role_match",
@@ -1152,9 +1152,9 @@
 {
 "key": "skills",
 "label": "Skills & tools",
-"score": 18,
+"score": 20,
 "max": 25,
-"note": "Reports, dashboards, Excel, Power BI and stakeholder work shown; no PMO, RAID, ServiceNow, Jira or SharePoint"
+"note": "Reports, dashboards, presentations, Excel, Power BI and stakeholder work shown; Jira and SharePoint now on the CV (skills list, half); no PMO, RAID or ServiceNow"
 },
 {
 "key": "experience",
@@ -1212,7 +1212,7 @@
 "Permanent role: you'd leave in January 2028 unless they sponsor you; answer honestly if asked",
 "Needs a move: Edinburgh (blended office and home working); check relocation costs against the salary",
 "Essential: experience in a PMO, portfolio or project support team, and RAID, resource and benefits tracking; the CV shows none of these directly",
-"ServiceNow, Jira and SharePoint aren't in the CV; salary isn't stated (Glassdoor estimate only)"
+"ServiceNow isn't on your CV; Jira and SharePoint are, but only as tools you know (no PMO use); salary isn't stated (Glassdoor estimate only)"
 ],
 "jd_summary": "Aberdeen Adviser's PMO team wants a permanent PMO Analyst in Edinburgh to support governance forums, keep RAID logs and portfolio data, produce portfolio reports and dashboards, and help with resource planning and benefits tracking. Essential: PMO or project support experience, RAID and governance knowledge, reporting, Excel/Power BI/Jira/ServiceNow/SharePoint. Blended working, 40 days' leave, 16% pension. Salary not stated. Apply via Aberdeen's careers site (Apply on employer site on Glassdoor).",
 "jd_full": "Job Description\n\nAbout Aberdeen\nAberdeen Group plc is one of Europe's largest investment companies, and we are built on a long-standing culture of caring about the future and making a positive impact. Together we invest for a better future. We do it to make a difference to the lives of our clients and customers, our employees, society, and our shareholders. Our business is structured around three distinct areas focused on our clients' changing needs: Aberdeen Investments, Aberdeen Adviser, and interactive investor.\nAs part of Aberdeen Adviser, this role helps deliver the insight, governance and operational excellence that enable advisory businesses to thrive and supports our commitment to Invest in your tomorrow.\n\nAbout the Department\nThe PMO team supports the Adviser business by providing governance, portfolio oversight, reporting, resource planning and delivery controls across strategic initiatives. Working closely with delivery, technology and business stakeholders, the team ensures informed decision-making, effective prioritisation and strong execution. The culture is collaborative, accountable and focused on continuous improvement, helping the business deliver better outcomes for advisers and ultimately enabling our clients to be better investors.\n\nAbout the Role\nAs the PMO Analyst, you will provide critical support across portfolio governance, reporting, resource management and benefits tracking. You will play an important role in ensuring delivery teams provide accurate, timely and decision-ready information that supports strategic objectives. This is an excellent opportunity to develop your PMO expertise, influence portfolio outcomes and contribute to process improvement initiatives across a dynamic business area. Based in Edinburgh, you will work with a wide range of stakeholders while building valuable experience in portfolio and programme delivery.\n\nKey Responsibilities\n• Support governance forums, maintain RAID records, coordinate submissions and ensure compliance with lifecycle and stage-gate controls.\n• Maintain portfolio information, including demand, initiatives, milestones, dependencies and roadmap updates.\n• Produce portfolio reports, dashboards and management information, providing insight into trends, risks and delivery performance.\n• Support resource planning, capacity management and benefits tracking, highlighting constraints, value at risk and planning assumptions.\n• Provide practical PMO guidance to project and programme teams while escalating data quality issues, risks and control gaps appropriately.\n• Administer PMO tools and contribute to process simplification, automation, standardisation and knowledge sharing.\n\nAbout the Candidate - Essential Skills\n• Experience within a PMO, portfolio, programme or project support environment.\n• Good understanding of governance, RAID management, planning, dependencies, resource tracking and benefits management.\n• Ability to create clear reports, dashboards, presentations and executive reporting materials.\n• Working knowledge of tools such as ServiceNow, Jira, SharePoint, Excel and Power BI, alongside an interest in continuous improvement.\n\nDesirable skills\n• Strong analytical skills with the ability to identify trends, exceptions and data quality issues.\n• Strong stakeholder management and communication skills, including the confidence to challenge constructively.\n\nWe are proud to be a Disability Confident Committed employer. If you have a disability and would like to apply to one of our UK roles under the Disability Confident Scheme, please notify us by completing the relevant section in our candidate questionnaire.\n\nOur benefits\n40 days' annual leave, a 16% employer pension contribution, a discretionary performance-based bonus (where applicable), private healthcare and a range of flexible benefits, including gym discounts, season ticket loans and access to an employee discount portal.\n\nAn inclusive way of working\nAt Aberdeen we've adopted a 'blended working' approach. This approach combines the benefits of face-to-face collaboration, coaching and connecting in our offices with the flexibility of working from home.\nIf you need assistance with your application, or a reasonable adjustment to your interview arrangements, please let us know and we'll be happy to help.\n\nSalary: not stated (Glassdoor estimate £35k - £50k). Edinburgh, Scotland.",
@@ -1237,7 +1237,7 @@
 "last_email": "",
 "notes": "Employer's own posting not found by search.",
 "profile_basis": "master",
-"updated_at": "2026-11-17T08:28:58+00:00"
+"updated_at": "2026-11-17T18:23:05+00:00"
 },
 {
 "id": "gd-1010327941921",
@@ -1465,6 +1465,119 @@
 "notes": "",
 "profile_basis": "master",
 "updated_at": "2026-11-17T08:28:58+00:00"
+},
+{
+"id": "gd-1010328511241",
+"source": "glassdoor",
+"title": "Insight & Planning Analyst (Maternity Cover, 14 months)",
+"company": "Brakes (Sysco GB)",
+"location": "Fully remote (UK); listed as Ashford, Kent",
+"salary": "£38k (Employer provided)",
+"salary_min": 38000,
+"salary_max": 38000,
+"posted_age": "Just posted",
+"first_seen": "2026-11-17",
+"email_date": "2026-11-17",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010328511241",
+"easy_apply": false,
+"fit_score": 63,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 12,
+"max": 20,
+"note": "Commercial insight analyst: market analysis, reporting and tool building fit; half the job is commercial/sales targeting rather than BA work"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 15,
+"max": 25,
+"note": "Excel, market data analysis, communication, presenting (BreakPoint deck), building tools and problem solving shown; no SAP/BW/Salesforce, CHD/CACI or Tableau (Power BI is the nearest)"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 11,
+"max": 15,
+"note": "No years stated, but 'lead the delivery' of insight to directors reads above graduate level"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "No qualifications stated"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 6,
+"max": 10,
+"note": "Foodservice wholesale; related to your M&S Foods retail work and market analysis"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 3,
+"max": 10,
+"note": "14-month maternity cover, January 2027 to March 2028: runs about 2 months past your visa; parent Sysco GB Ltd is a licensed sponsor"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Fixed-term and fully remote (UK), but ends after January 2028"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "Just posted, apply on employer site, fixed term (+1, capped)"
+}
+],
+"confidence": "high",
+"recommendation": "maybe",
+"verdict": "A remote commercial insight role: Excel analysis, market data and presenting recommendations fit your background, but it wants Tableau, SAP/Salesforce data and external market datasets you haven't used. Right to work: the maternity cover runs January 2027 to March 2028, about two months past your visa, so ask whether it could end earlier; the parent company Sysco GB is a licensed sponsor.",
+"match_reasons": [
+"Freelance BA at Visionize: market, competitor and pricing analysis with Power BI reports, close to the opportunity analysis asked for",
+"BreakPoint: defined and built an internal tool with AI coding assistants, matching 'build bespoke tools'",
+"Presented BreakPoint to your team with a slide deck, evidence for 'creating and delivering content'",
+"M&S Foods experience gives food retail context for a foodservice wholesaler"
+],
+"gaps": [
+"Contract runs past January 2028 (your visa end): ask about the start date",
+"Fully remote: check you'd be employed in the UK, so it counts as UK experience",
+"Tableau, SAP/BW, Salesforce and CHD/CACI market data are asked for; your CV shows Power BI and Excel instead",
+"Reports to a director and 'leads delivery' of insight: may expect more commercial analytics experience than you have"
+],
+"jd_summary": "Maternity cover (14 months, January 2027 to March 2028) in Brakes/Sysco GB's Commercial Strategy team: market and internal data analysis, opportunity sizing, reporting and bespoke tools for sales teams, presenting insight to win buy-in. Fully remote, full time (part time considered), up to £38k. Apply via Glassdoor's 'Apply on employer site' link.",
+"jd_full": "Insight & Planning Analyst\nFully Remote & Full Time (Part time considered)\nMaternity Cover - 14 Months - January 2027 to March 2028\nSalary up to £38k\n\nWe have a fantastic opportunity for an Insight & Planning Analyst to join the Commercial Strategy Team, reporting into the Director of Commercial Strategy.\n\nYou will have responsibility of providing insights and recommendations to map the opportunities and approaches for key commercial growth initiatives, by analysing both existing and new market data as well as data within Sysco GB to provide a full opportunity analysis. You will build bespoke tools and systems to allow this insight to be utilised and refined from the start of the initiative throughout its life span.\n\nWithin each initiative you'll provide the next level of insight, data and recommendations to drive the targeting of actions and activities for sales colleagues, ensuring the accuracy of this content and its translation into workable sales colleague solutions.\n\nWhat you'll be doing:\n• Analyse market data to define the insight and analytics to shape the strategic direction for commercial initiatives\n• Collaborate with the Director of Commercial Strategy to support the strategic objectives and definition with clear and measurable targets aligned to the insight\n• Lead the delivery of the insight and analytics as part of the communication process to gain buy-in to the strategic plan, managing any additional asks, builds or changes arising from the process\n• Create effective reporting and measurement processes aligned to the identified opportunities\n• Develop the tools and approach needed to take this insight and analytics through all elements of the strategic plan into commercial execution, making decisions on the development of bespoke tools / systems to address problems in data gathering and modelling\n• Engage across the sales teams to provide clear analytics based on the initial data to gain commitment, managing any further asks for additional data throughout this process\n• Design and deliver all relevant analytics and insights to the sales teams through established, or if needed new routes, to support the execution of the activity and allow the sales teams to achieve their targets\n• Continually review the performance of the activity against the opportunities, collaborating with the Director of Commercial Strategy, and the strategy team, to course correct or re-shape the approach\n• Input data analyses into CI and operational efficiency initiatives\n• Supporting the Data Analyst Apprenticeship for their success\n\nWhat we are looking for:\n• Strong Excel skills\n• Data analysis skills across multiple sources of internal data SAP, BW & SalesForce\n• Experience of data sourcing of relevant external data\n• Data analysis skills across multiple sources of external data - CHD, CACI\n• Experience of using Tableau for reporting and tool builds\n• Exceptional attention to detail\n• A high degree of business acumen\n• Excellent communication skills in order to communicate effectively with stakeholders to understand data content and business issues - at exec level down\n• Confident clear presentation skills - creating and delivering content\n• Execution of insight into commercial activities i.e., the data is telling us x what should we do\n• Relationship-building skills with the ability to influence\n• Planning and organisation skills with the ability to manage concurrent data analysis projects\n• Problem-solving and decision-making skills to address issues with data collation and the design of effective data analysis processes.\n\nBase pay: £38k/yr (Employer provided). Listed location: Ashford, Kent.",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "Sysco GB Ltd (parent)",
+"town": "Ashford",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "meets_new_entrant",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-17T18:23:53+00:00"
 },
 {
 "id": "gd-1010327634369",
@@ -1815,7 +1928,7 @@
 "email_date": "2026-11-17",
 "url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010327645960",
 "easy_apply": false,
-"fit_score": 57,
+"fit_score": 60,
 "score_breakdown": [
 {
 "key": "role_match",
@@ -1827,9 +1940,9 @@
 {
 "key": "skills",
 "label": "Skills & tools",
-"score": 14,
+"score": 15,
 "max": 25,
-"note": "Requirements, documentation, process diagrams and agile backlog work shown; no REST API, payments or BDD experience"
+"note": "Requirements, documentation, process diagrams, agile backlog work and Jira (skills list, half) shown; no REST API, payments or BDD experience"
 },
 {
 "key": "experience",
@@ -1913,7 +2026,7 @@
 "last_email": "",
 "notes": "",
 "profile_basis": "master",
-"updated_at": "2026-11-17T13:31:29+00:00"
+"updated_at": "2026-11-17T18:23:05+00:00"
 },
 {
 "id": "gd-1010327545591",
@@ -2269,7 +2382,7 @@
 "email_date": "2026-11-17",
 "url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010327801085",
 "easy_apply": false,
-"fit_score": 51,
+"fit_score": 52,
 "score_breakdown": [
 {
 "key": "role_match",
@@ -2281,9 +2394,9 @@
 {
 "key": "skills",
 "label": "Skills & tools",
-"score": 8,
+"score": 9,
 "max": 25,
-"note": "Most essentials are private-markets knowledge (fund structures, waterfalls, NAV, transfer agency) the CV lacks; requirements, agile and spreadsheets evidenced, SQL half; no Jira"
+"note": "Most essentials are private-markets knowledge (fund structures, waterfalls, NAV, transfer agency) the CV lacks; requirements, agile, spreadsheets evidenced, SQL and Jira half"
 },
 {
 "key": "experience",
@@ -2366,7 +2479,7 @@
 "last_email": "",
 "notes": "",
 "profile_basis": "master",
-"updated_at": "2026-11-17T08:28:58+00:00"
+"updated_at": "2026-11-17T18:23:05+00:00"
 },
 {
 "id": "gd-1010327951654",
@@ -3285,9 +3398,9 @@
 {
 "key": "skills",
 "label": "Skills & tools",
-"score": 17,
+"score": 18,
 "max": 25,
-"note": "Evidenced: requirements, process maps, stakeholders, backlog refinement, testing; not user stories/acceptance criteria or workshop facilitation (not to be claimed), no BPMN, Jira or BCS"
+"note": "Evidenced: requirements, process maps, stakeholders, backlog refinement, testing, agile; Jira half; not user stories/acceptance criteria or workshop facilitation (not to be claimed), no BPMN or BCS"
 },
 {
 "key": "experience",
@@ -3370,7 +3483,7 @@
 "last_email": "",
 "notes": "",
 "profile_basis": "master",
-"updated_at": "2026-11-17T08:28:58+00:00"
+"updated_at": "2026-11-17T18:23:05+00:00"
 },
 {
 "id": "wb-d0dd603713",
@@ -3509,9 +3622,9 @@
 {
 "key": "skills",
 "label": "Skills & tools",
-"score": 16,
+"score": 17,
 "max": 25,
-"note": "Stakeholder work, documentation, governance awareness and agile shown; leading workshops and formal user stories not yet claimable"
+"note": "Stakeholder work, documentation, governance awareness, agile and Jira (half) shown; leading workshops and formal user stories not yet claimable"
 },
 {
 "key": "experience",
@@ -3589,7 +3702,7 @@
 "last_email": "",
 "notes": "",
 "profile_basis": "master",
-"updated_at": "2026-11-17T13:31:29+00:00"
+"updated_at": "2026-11-17T18:23:05+00:00"
 },
 {
 "id": "gd-1010328523846",
@@ -7016,16 +7129,16 @@
 "recruiter": false,
 "decision": "approved",
 "decided_at": "2026-11-13T21:26:04+00:00",
-"status": "cv_ready",
+"status": "applied",
 "cv_file": "outputs/cvs/2026-11-14_Anglian-Water_PMO-Analyst.docx",
 "cv_url": "outputs/cvs/2026-11-14_Anglian-Water_PMO-Analyst.docx",
 "cv_emailed_at": "2026-11-14T13:28:21Z",
-"applied_at": "",
-"status_updated_at": "2026-11-14T13:27:55+00:00",
-"last_email": "Referral to apply received via Workday (17 Nov)",
+"applied_at": "2026-11-17T15:26:27Z",
+"status_updated_at": "2026-11-17T15:26:27Z",
+"last_email": "Application received (17 Nov)",
 "notes": "",
 "profile_basis": "master",
-"updated_at": "2026-11-17T13:32:03+00:00"
+"updated_at": "2026-11-17T18:23:24+00:00"
 },
 {
 "id": "gd-1010324699284",
