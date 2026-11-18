@@ -1,5 +1,118 @@
 [
 {
+"id": "gd-1010329352612",
+"source": "glassdoor",
+"title": "Digital - Data, Analytics and AI Analyst",
+"company": "BDO",
+"location": "Manchester, England (hybrid)",
+"salary": "£28k - £40k (Glassdoor Est.)",
+"salary_min": 28000,
+"salary_max": 40000,
+"posted_age": "Just posted",
+"first_seen": "2026-11-18",
+"email_date": "2026-11-18",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010329352612",
+"easy_apply": false,
+"fit_score": 82,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 14,
+"max": 20,
+"note": "Data and analytics consulting analyst that also gathers and documents business requirements"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 23,
+"max": 25,
+"note": "Excel, Power BI dashboards, requirements, data quality checks and clear findings all shown; no cloud data platform"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 15,
+"max": 15,
+"note": "Analyst level: 'some experience' via work, study or projects; CV covers it"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "No qualification stated"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 6,
+"max": 10,
+"note": "Consulting: freelance BA work at Visionize Consultancy is related"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 8,
+"max": 10,
+"note": "Permanent; BDO LLP is a licensed Skilled Worker sponsor"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Permanent, Manchester: needs a move"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "Just posted, applied on BDO's own site"
+}
+],
+"confidence": "high",
+"recommendation": "apply",
+"verdict": "An entry-level data and analytics consulting analyst at BDO who supports requirements gathering, cleans and analyses data and builds dashboards under guidance, which fits your Power BI, Excel and requirements work; SQL or Python are listed only as 'foundational' examples. Right to work: fine; permanent role at a licensed sponsor.",
+"match_reasons": [
+"Requirements gathering: requirements and business rules defined for BreakPoint at EE and documented for clients at Visionize",
+"Dashboards and reports: Power BI dashboards of client data at Visionize and KPI dashboards at GDP Foundation",
+"Data validation: quality checks for accuracy and consistency on GDP Foundation dashboards; tested every BreakPoint rule before rollout",
+"AI-enabled solutions: built BreakPoint with AI coding tools; MSc Business Analytics (Distinction)"
+],
+"gaps": [
+"Permanent role: you'd leave in January 2028 unless they sponsor you; answer honestly if asked",
+"Needs a move to Manchester: check relocation costs against a salary that isn't stated (Glassdoor estimate £28k-£40k)",
+"Python and SQL appear as example tools; you have working SQL only and can't write Python unaided",
+"No cloud data platform experience (the advert asks only for interest)"
+],
+"jd_summary": "Permanent entry-level Analyst in BDO's Digital consulting team, Manchester, hybrid ('Better Together': more in-person time). Support requirements gathering, prepare and analyse data, build dashboards, reports and AI-enabled solutions, validate outputs and present insights, with guidance. Needs foundational Excel/SQL/Python/visualisation skills. Salary not stated. Apply on the employer's site: https://careers.bdo.co.uk (search 'Data, Analytics and AI Analyst').",
+"jd_full": "BDO, one of the UK's largest accountancy and business advisory firms (c. 8,500 people), Consulting practice, Digital Services team.\nThe role: a data, analytics and AI specialist at Analyst level, for someone with foundational technical skills who wants to build experience delivering data-led solutions in consulting or project environments, with guidance from experienced colleagues.\nResponsibilities\n• Support the gathering and documentation of business requirements, working with experienced colleagues to understand appropriate data, analytics or AI approaches and deliverables.\n• Prepare, cleanse and analyse datasets, and help develop dashboards, reports, analytical models or AI-enabled solutions under guidance.\n• Follow defined procedures to validate data and solution outputs, document methods and assumptions, and flag quality or performance issues for review.\n• Help interpret findings and prepare clear, evidence-based insights for clients and project teams.\n• Manage assigned tasks and meet agreed deadlines, collaborating with engineers, analysts, data scientists and other specialists.\n• Follow data governance, security, quality and responsible AI guidance; build technical and consulting skills through training and feedback.\nYou'll be someone with\n• Some experience working with data, analytics or AI through employment, an internship, placement, academic study or personal projects.\n• Foundational skills in preparing and analysing datasets using tools such as Excel, SQL, Python or visualisation tools, and an interest in cloud data platforms.\n• Ability to understand business questions and user requirements, and support the development of data models, analyses, dashboards, reports or AI-enabled solutions.\n• Attention to detail when checking data and outputs, flagging anomalies, following testing procedures and documenting assumptions, methods and results.\n• Ability to identify patterns in data and explain findings to technical and non-technical audiences.\n• Ability to work collaboratively in a project team, organise tasks and meet deadlines.\n• Awareness of, or interest in, modern data architectures, data governance and responsible AI principles.\n• Good written and verbal communication skills and a willingness to ask questions and learn.\nAgile working framework ('Better Together'): more in-person time with clients and teams.\nSalary not stated (Glassdoor estimate £28k-£40k). Apply on employer site.",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "BDO LLP",
+"town": "London",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "range_crosses_new_entrant",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-18T13:26:37+00:00",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-18T13:26:37+00:00"
+},
+{
 "id": "gd-1010329162691",
 "source": "glassdoor",
 "title": "URBN Junior Analyst",
@@ -452,6 +565,119 @@
 "updated_at": "2026-11-18T08:29:09+00:00"
 },
 {
+"id": "gd-1010327620797",
+"source": "glassdoor",
+"title": "Temporary ESG Researcher",
+"company": "PIRC Limited",
+"location": "Canary Wharf, London E14 (hybrid)",
+"salary": "£29k (Employer provided)",
+"salary_min": 29000,
+"salary_max": 29000,
+"posted_age": "1d",
+"first_seen": "2026-11-18",
+"email_date": "2026-11-18",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010327620797",
+"easy_apply": true,
+"fit_score": 73,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 12,
+"max": 20,
+"note": "Research analyst (a target family), but about half the work is ESG governance assessment and company engagement"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 17,
+"max": 25,
+"note": "Communication, Excel, data management, numeracy, writing and organisation shown; database skills half (working SQL); little on analysing company accounts"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 15,
+"max": 15,
+"note": "1 year in a similar role preferred, not essential"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 10,
+"max": 10,
+"note": "Degree asked; you have an MSc"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 3,
+"max": 10,
+"note": "No ESG or corporate governance background; the advert says it isn't essential"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 8,
+"max": 10,
+"note": "Temporary but length not stated; PIRC Ltd is a licensed Skilled Worker sponsor"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Temporary contract of unstated length; hybrid in Canary Wharf, needs a move to London"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "Posted 1 day ago; Easy Apply -1; temporary +1"
+}
+],
+"confidence": "high",
+"recommendation": "apply",
+"verdict": "An entry-level temporary research role at a London corporate governance consultancy: analyse ESG data from company reports, draft proxy reports and voting recommendations; your research, Excel and report-writing experience fits and no governance background is required. Right to work: fine; a temporary contract fits if it ends by January 2028 (length not stated), and PIRC is a licensed sponsor.",
+"match_reasons": [
+"Research and analysis: contributed analysis to a national research study on ageing at GDP Foundation, later recognised by NITI Aayog",
+"Market insight: produced market and competitor insights and cost analysis for clients at Visionize",
+"Data management and Excel: pivot tables, lookups and Power Query; data cleaning from several sources for a Visionize client",
+"Written findings: MSc dissertation (mixed methods) and EV market strategy with financial modelling"
+],
+"gaps": [
+"Contract length not stated: ask how long the temporary role runs and whether it ends by January 2028",
+"Needs a move to London (hybrid, Canary Wharf): £29k is low for London; check costs",
+"No ESG, corporate governance or proxy voting background (not essential, but you'd be learning it)",
+"Asks for experience analysing global company reports and accounts; the CV shows financial modelling in a project only"
+],
+"jd_summary": "Temporary full-time ESG Researcher at PIRC, a corporate governance and proxy research consultancy, hybrid in Canary Wharf, £29,000 a year, flexitime. Source and verify ESG data, analyse company reports, draft proxy reports with voting recommendations and present findings. Degree needed; 1 year's experience preferred, not essential. Contract length not stated. Apply with Easy Apply on Glassdoor (no separate PIRC posting found).",
+"jd_full": "Temporary ESG Researcher, PIRC (Pensions & Investment Research Consultants Ltd), Canary Wharf: Europe's largest independent corporate governance and shareholder advisory consultancy, providing proxy research on governance and ESG issues to institutional investors.\nPurpose of the role: sourcing, compiling and verifying ESG data to ensure accurate, on-time delivery of PIRC's products and services.\nKey tasks and responsibilities\n• Analyse and interpret ESG data from a wide range of sources to evaluate the sustainability practices of listed companies.\n• Draft proxy reports that include ESG performance assessments and voting recommendations.\n• Monitor ESG trends and regulatory developments affecting corporate governance and sustainability.\n• Collaborate with ESG analysts, data providers and institutional investors to ensure accuracy and relevance of information.\n• Engage with companies to discuss and evaluate their corporate governance practices.\n• Contribute to ESG research methodologies and proxy voting guidelines.\n• Present ESG findings and recommendations through written reports and presentations.\nAbout you\n• Good verbal and written communication; good interpersonal skills; self-motivated problem solver\n• Good Excel skills and data management software skills; database skills\n• Experience in analysing global company reports and accounts\nRequirements: industry and market knowledge.\nExperience: preferred but not essential - 1 year in a similar role; previous corporate governance experience not essential.\nSkills: intermediate IT skills; good data management, numeracy and writing; organisation and time management; working under pressure to deadlines.\nQualifications: degree or equivalent.\nJob type: full-time, temporary. Pay: £29,000 per year. Benefits: company pension, flexitime, on-site parking, work from home.\nWork location: hybrid remote in Canary Wharf E14.",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "PIRC Ltd",
+"town": "London",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "below_threshold",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-18T13:26:37+00:00",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-18T13:26:37+00:00"
+},
+{
 "id": "gd-1010328685451",
 "source": "glassdoor",
 "title": "Digital Finance Associate",
@@ -563,6 +789,119 @@
 "notes": "",
 "profile_basis": "master",
 "updated_at": "2026-11-18T08:29:17+00:00"
+},
+{
+"id": "gd-1010329352610",
+"source": "glassdoor",
+"title": "Data, Analytics and AI Senior Analyst - Digital",
+"company": "BDO",
+"location": "Manchester, England (hybrid)",
+"salary": "£28k - £40k (Glassdoor Est.)",
+"salary_min": 28000,
+"salary_max": 40000,
+"posted_age": "Just posted",
+"first_seen": "2026-11-18",
+"email_date": "2026-11-18",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010329352610",
+"easy_apply": false,
+"fit_score": 55,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 12,
+"max": 20,
+"note": "Data and analytics consulting; requirements are part of it but the core is data transformation and modelling"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 19,
+"max": 25,
+"note": "Requirements, dashboards, validation, root cause and communication shown; strong SQL and Python not met"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 6,
+"max": 15,
+"note": "Senior Analyst: expects experience delivering data projects end to end (about 2-3 years)"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "No qualification stated"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 6,
+"max": 10,
+"note": "Consulting: freelance BA work at Visionize is related"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 8,
+"max": 10,
+"note": "Permanent; BDO LLP is a licensed Skilled Worker sponsor"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Permanent, Manchester: needs a move"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "Just posted. Coding gate: 'strong practical experience' with SQL and Python caps the total at 55"
+}
+],
+"confidence": "high",
+"recommendation": "maybe",
+"verdict": "The senior version of BDO's data and analytics analyst role: it wants strong hands-on SQL and Python and experience delivering data projects end to end, beyond what your CV shows; the Analyst-level role posted alongside it fits you better. Right to work: fine; permanent role at a licensed sponsor.",
+"match_reasons": [
+"Requirements to dashboards: requirements gathered and Power BI dashboards built for clients at Visionize",
+"Root-cause analysis: analysed processes to find root causes of inefficiency at GDP Foundation",
+"Data quality: quality checks on KPI dashboards at GDP Foundation",
+"Licensed Skilled Worker sponsor, so a time-limited visa is less of a barrier"
+],
+"gaps": [
+"Permanent role: you'd leave in January 2028 unless they sponsor you; answer honestly if asked",
+"Needs a move to Manchester: salary not stated (Glassdoor estimate £28k-£40k)",
+"Strong practical SQL and Python are essential; you have working SQL only and can't write Python unaided",
+"Senior Analyst level: expects end-to-end delivery of data and AI projects in consulting teams"
+],
+"jd_summary": "Permanent Senior Analyst in BDO's Digital consulting team, Manchester, hybrid. Gather requirements, transform and analyse large datasets with SQL/Python/cloud tools, build dashboards, models and AI solutions, validate outputs and present recommendations. Salary not stated. Apply on BDO's careers site (careers.bdo.co.uk). Consider the Analyst-level role instead.",
+"jd_full": "BDO Consulting, Digital team. Senior Analyst specialising in data, analytics and AI: gather and clarify business requirements, shape the data, analytics or AI approach, prepare, transform and analyse datasets to develop dashboards, reports, analytical models or AI-enabled solutions; validate outputs, document methods, resolve quality issues and communicate evidence-based insights.\nYou'll be someone with\n• Experience delivering data, analytics or AI projects from requirements gathering and data preparation through analysis, solution development, testing and delivery.\n• Strong practical experience querying, transforming and analysing large or complex datasets using tools such as SQL, Python, cloud data platforms, analytics and visualisation tools.\n• Ability to translate business requirements into data models, analytical approaches, dashboards, reports or AI-enabled solutions.\n• Experience validating data and outputs, identifying anomalies, root-cause analysis and documenting clearly.\n• A background in interpreting findings and communicating evidence-based recommendations to technical and non-technical audiences.\n• Experience working within consulting or multidisciplinary project teams.\n• A working understanding of modern data architectures, data governance or responsible AI principles.\n• Good stakeholder and communication skills.\nAgile working framework ('Better Together'). Salary not stated (Glassdoor estimate £28k-£40k). Apply on employer site.",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "BDO LLP",
+"town": "London",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "range_crosses_new_entrant",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-18T13:26:37+00:00",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-18T13:26:37+00:00"
 },
 {
 "id": "gd-1010328877242",
@@ -896,6 +1235,112 @@
 "notes": "",
 "profile_basis": "master",
 "updated_at": "2026-11-18T08:29:17+00:00"
+},
+{
+"id": "gd-1010327477398",
+"source": "glassdoor",
+"title": "IT Assurance Analyst",
+"company": "Foundation Lending",
+"location": "Bracknell, England (hybrid)",
+"salary": "£40k - £50k (Employer provided)",
+"salary_min": 40000,
+"salary_max": 50000,
+"posted_age": "1d",
+"first_seen": "2026-11-18",
+"email_date": "2026-11-18",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010327477398",
+"easy_apply": true,
+"fit_score": 30,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 5,
+"max": 20,
+"note": "IT security and access-control assurance; analyst in name only for your target roles"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 3,
+"max": 25,
+"note": "ITGCs, IAM, Microsoft Entra/Defender/Intune and audit evidence not on the CV; only communication shown"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 2,
+"max": 15,
+"note": "3 years' IT assurance in a regulated sector required"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 10,
+"max": 10,
+"note": "Bachelor's preferred; you have an MSc"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 0,
+"max": 10,
+"note": "Requires financial services or regulated-sector experience the CV doesn't have"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 3,
+"max": 10,
+"note": "Permanent; Foundation Lending isn't on the sponsor register"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Permanent, Bracknell: needs a move"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 4,
+"max": 5,
+"note": "Posted 1 day ago; Easy Apply -1. Experience gate: 3+ years essential caps the total at 60"
+}
+],
+"confidence": "high",
+"recommendation": "skip",
+"verdict": "An IT security assurance role at a mortgage lender needing 3 years' IT assurance in financial services plus Microsoft Entra, access management and audit experience, none of which is on your CV. Right to work: permanent role at an employer that isn't a sponsor, so a time-limited visa may count against you.",
+"match_reasons": [
+"Evidence-based checking: tested every BreakPoint business rule by hand before rollout",
+"Privacy by design: user codes, no free-text fields and 14-day data retention in BreakPoint"
+],
+"gaps": [
+"Permanent role at an employer that isn't a licensed sponsor: lower chance with a time-limited visa",
+"Needs a move to Bracknell: check relocation costs against the salary",
+"3 years' IT assurance in financial services or a regulated sector is required",
+"IT General Controls, identity and access management, Microsoft Entra/Defender/Intune and audit exposure are not on your CV"
+],
+"jd_summary": "Permanent IT Assurance Analyst at a specialist mortgage lender, hybrid in Bracknell, £40k-£50k. Monitor IT controls, process joiner/mover/leaver access, run access reviews, prepare audit evidence and security awareness training. Needs 3 years' IT assurance in a regulated sector, ITGC and IAM knowledge. Easy Apply on Glassdoor.",
+"jd_full": "Foundation Lending, a specialist mortgage lender in Bracknell, Berkshire, is looking for an experienced IT Assurance Analyst.\nKey accountabilities\n• Monitor and assess the effectiveness of technical control systems across IT environments.\n• Identify control weaknesses or failures, raise issues and support remediation with IT and security teams.\n• Process new starter, leaver and mover requests in line with access control procedures and segregation of duties.\n• Provision, amend and remove system access across enterprise applications, fully evidenced.\n• Support periodic user access reviews; maintain access control procedures and role-based access templates.\n• Prepare, validate and present audit evidence; support audit walkthroughs and track audit actions.\n• Plan and deploy social engineering simulations and security awareness training.\nEssential skills\n• Experience in IT assurance, IT risk, information security, access management or IT operations within financial services or another regulated sector.\n• Understanding of IT General Controls (logical access, change management, system operations) and information security risk.\n• Experience with technical controls (ITSM tools, Microsoft Entra ID, Conditional Access, Defender, Intune, web filtering, DLP).\n• Strong knowledge of identity and access management concepts; previous exposure to internal or external audits.\n• Clear communication; evidence-based mindset; managing multiple control, audit and access tasks.\nDesirable: ITIL Foundation; validating that controls operate effectively; GDPR/UK data protection; risk management.\nJob types: full-time, permanent. Pay: £40,000-£50,000 per year. Bachelor's preferred.\nExperience: IT assurance in financial services or another regulated sector: 3 years (required). Work authorisation: United Kingdom (required).\nHybrid remote in Bracknell RG12 1WA.",
+"sponsor_register": "not_found",
+"sponsor_match": "",
+"jd_sponsorship": "right_to_work_required",
+"salary_check": "range_crosses_general",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-18T13:26:37+00:00",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-18T13:26:37+00:00"
 },
 {
 "id": "gd-1010327580456",
@@ -1798,6 +2243,129 @@
 "notes": "",
 "profile_basis": "master",
 "updated_at": "2026-11-18T08:26:32+00:00"
+},
+{
+"id": "gd-1010328497542",
+"source": "glassdoor",
+"title": "Digital Marketing Data Analyst",
+"company": "Zachary Daniels",
+"location": "Burnley, England",
+"salary": "£50k - £65k (Employer Est.)",
+"salary_min": 50000,
+"salary_max": 65000,
+"posted_age": "1d",
+"first_seen": "2026-11-18",
+"email_date": "2026-11-18",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010328497542",
+"easy_apply": true,
+"fit_score": null,
+"score_breakdown": [],
+"confidence": "",
+"recommendation": "skip",
+"verdict": "Outside your target roles: an experienced marketing data analyst role (£50k-£65k) through a recruiter, not business analysis.",
+"match_reasons": [],
+"gaps": [],
+"jd_summary": "",
+"jd_full": "",
+"sponsor_register": "not_found",
+"sponsor_match": "",
+"jd_sponsorship": "",
+"salary_check": "meets_general",
+"recruiter": false,
+"decision": "skipped",
+"decided_at": "",
+"status": "skipped",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-18T13:26:37+00:00",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-18T13:26:37+00:00"
+},
+{
+"id": "gd-1010329655782",
+"source": "glassdoor",
+"title": "Senior Enterprise Transformation Analyst (Business Architecture)",
+"company": "Enum Technology & Solution Pvt Ltd",
+"location": "Manchester, England",
+"salary": "",
+"salary_min": null,
+"salary_max": null,
+"posted_age": "Just posted",
+"first_seen": "2026-11-18",
+"email_date": "2026-11-18",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010329655782",
+"easy_apply": true,
+"fit_score": null,
+"score_breakdown": [],
+"confidence": "",
+"recommendation": "skip",
+"verdict": "Outside your target roles: a senior business architecture role.",
+"match_reasons": [],
+"gaps": [],
+"jd_summary": "",
+"jd_full": "",
+"sponsor_register": "not_found",
+"sponsor_match": "",
+"jd_sponsorship": "",
+"salary_check": "unknown",
+"recruiter": false,
+"decision": "skipped",
+"decided_at": "",
+"status": "skipped",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-18T13:26:37+00:00",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-18T13:26:37+00:00"
+},
+{
+"id": "gd-1010329153290",
+"source": "glassdoor",
+"title": "Senior Business Transformation Analyst",
+"company": "ENGIE",
+"location": "Leeds, England",
+"salary": "£37k - £70k (Glassdoor Est.)",
+"salary_min": 37000,
+"salary_max": 70000,
+"posted_age": "12h",
+"first_seen": "2026-11-18",
+"email_date": "2026-11-18",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010329153290",
+"easy_apply": false,
+"fit_score": null,
+"score_breakdown": [],
+"confidence": "",
+"recommendation": "skip",
+"verdict": "Outside your target roles: a senior transformation analyst role, above your experience level.",
+"match_reasons": [],
+"gaps": [],
+"jd_summary": "",
+"jd_full": "",
+"sponsor_register": "licensed",
+"sponsor_match": "",
+"jd_sponsorship": "",
+"salary_check": "range_crosses_general",
+"recruiter": false,
+"decision": "skipped",
+"decided_at": "",
+"status": "skipped",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-18T13:26:37+00:00",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-18T13:26:37+00:00"
 },
 {
 "id": "gd-1010327489081",
