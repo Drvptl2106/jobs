@@ -113,6 +113,119 @@
 "updated_at": "2026-11-18T13:26:37+00:00"
 },
 {
+"id": "gd-1010329815016",
+"source": "glassdoor",
+"title": "Business Analyst",
+"company": "Reed Smith",
+"location": "London, England",
+"salary": "£44k - £59k (Glassdoor Est.)",
+"salary_min": 44000,
+"salary_max": 59000,
+"posted_age": "24h",
+"first_seen": "2026-11-18",
+"email_date": "2026-11-18",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010329815016",
+"easy_apply": false,
+"fit_score": 76,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 20,
+"max": 20,
+"note": "BA on a system implementation: process mapping, testing, change readiness"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 16,
+"max": 25,
+"note": "Process mapping, testing, rollout and visuals shown; no HR/Workday, enterprise implementation or workshops"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 11,
+"max": 15,
+"note": "No years stated; degree or equivalent practical experience accepted"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 10,
+"max": 10,
+"note": "Asks for a relevant degree; MSc Business Analytics meets it"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 3,
+"max": 10,
+"note": "Law firm/HR; professional services only nice to have"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 8,
+"max": 10,
+"note": "Contract type not stated; licensed Skilled Worker sponsor"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Treated as permanent (not stated), London"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "Fresh, not Easy Apply"
+}
+],
+"confidence": "medium",
+"recommendation": "apply",
+"verdict": "A delivery-focused BA role carrying a Workday HR rollout through testing and go-live, which mirrors how you took BreakPoint from tested rules to team rollout, though it wants HR process and enterprise-system experience. Right to work: contract type isn't stated; if permanent, it's at a licensed sponsor, but you'd leave in January 2028, so ask whether it is a fixed-term project role.",
+"match_reasons": [
+"Tested every BreakPoint business rule by hand before rollout, then presented it and walked the team through using it",
+"Requirements and process maps for teams across GDP Foundation",
+"Power BI dashboards turning client data into clear visuals (Visionize)",
+"MSc Business Analytics (Distinction) meets the degree requirement"
+],
+"gaps": [
+"Permanent role: you'd leave in January 2028 unless they sponsor you; answer honestly if asked (contract type not stated)",
+"Needs a move to London: check relocation costs against the salary",
+"Salary not stated by the employer (Glassdoor estimate £44k-£59k)",
+"Essential: HR business analysis and enterprise system implementation (testing, change readiness, deployment); no Workday and no workshops on your CV"
+],
+"jd_summary": "Business Analyst joining Reed Smith's Technology Project Management team mid-way through a Workday (HR) implementation: map as-is/to-be HR processes, run process walkthroughs, support end-to-end testing and defects, feed change and training teams, track issues and decisions, and hand over to BAU. Essential: HR BA skills, late-stage enterprise implementation, workshops, a relevant degree. London; contract type, work pattern and salary not stated. Apply via Glassdoor's 'Apply on employer site' (own posting not found).",
+"jd_full": "Position summary\n• Reed Smith's Workday implementation is about halfway through and has just begun its second round of end-to-end testing. Join at a pivotal stage and help carry the project through to go-live.\n• You'll join the Technology Project Management team and work with the project team and business stakeholders, reporting to the Director of Technology Project Management.\n• You'll be the link between the business, IT, the Workday project team, the implementation partner, and the change and training teams, making sure new processes are clear, tested and ready from day one.\n• This role is about delivery: taking the project from end-to-end testing through deployment and into business-as-usual.\n\nKey responsibilities\n• Map the journey: work with process owners to document and validate current and future workflows and explain what's changing and who it affects.\n• Bring people together: run focused process walkthroughs with business owners and functional leads to resolve questions and agree future-state processes.\n• Drive quality testing: support end-to-end testing cycles by clarifying expected outcomes, reviewing results and investigating process-related defects.\n• Enable adoption: give change management and training colleagues validated process information, and review materials for accuracy.\n• Land it well: track open issues and decisions, confirm deployment readiness, and prepare a structured handover to business-as-usual.\n\nRequirements (essential)\n• Practical HR business analysis skills, particularly as-is/to-be process mapping, stakeholder facilitation, change impact documentation and testing support.\n• Experience supporting stakeholders through the later stages of an enterprise system implementation (testing, change readiness, training preparation, deployment).\n• Excellent communication skills and confidence running workshops.\n• A sharp analytical mind and attention to detail, turning complex information into clear deliverables and visuals.\n• A reliable, adaptable and organised approach.\n• A relevant degree, or equivalent practical experience in business analysis or systems implementation.\n\nNice to have\n• Experience in professional services.\n• Hands-on Workday experience.",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "Reed Smith LLP",
+"town": "London",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "meets_general",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-18T18:27:31+00:00"
+},
+{
 "id": "gd-1010329162691",
 "source": "glassdoor",
 "title": "URBN Junior Analyst",
@@ -224,6 +337,119 @@
 "notes": "",
 "profile_basis": "master",
 "updated_at": "2026-11-18T08:29:09+00:00"
+},
+{
+"id": "gd-1010329766932",
+"source": "glassdoor",
+"title": "Strategy, Operating Model & Transformation Analyst",
+"company": "DS Smith",
+"location": "London, England",
+"salary": "£32k - £46k (Glassdoor Est.)",
+"salary_min": 32000,
+"salary_max": 46000,
+"posted_age": "24h",
+"first_seen": "2026-11-18",
+"email_date": "2026-11-18",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010329766932",
+"easy_apply": false,
+"fit_score": 75,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 14,
+"max": 20,
+"note": "Strategy/operating model/performance analyst: close to junior consulting and PMO analyst roles"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 21,
+"max": 25,
+"note": "KPI tracking, process improvement, consulting work and strategy projects shown; no operating model or roadmap work in a large organisation"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 11,
+"max": 15,
+"note": "Asks for experience, no years stated; CV shows freelance consulting and transformation projects"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 10,
+"max": 10,
+"note": "Degree in Business/IS/CS or related: MSc Business Analytics meets it"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 3,
+"max": 10,
+"note": "Packaging/technology function; no sector link, none required"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 8,
+"max": 10,
+"note": "Permanent role at a licensed Skilled Worker sponsor"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Permanent, London"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "Posted 24h; employer site"
+}
+],
+"confidence": "medium",
+"recommendation": "apply",
+"verdict": "Analyst in DS Smith's I&T Transformation & Performance team during the International Paper integration: strategy, operating model, roadmap, governance and OKR tracking. Your KPI, process improvement and MSc transformation-strategy work fit, though it wants operating model experience in a large organisation. Right to work: fine; permanent role at a licensed sponsor, so you'd leave in January 2028 unless they sponsor you.",
+"match_reasons": [
+"Digital transformation strategy for Blueline Taxis (MSc): mapped features to business outcomes with Benefits Dependency Network and KPIs",
+"Built and maintained KPI dashboards and proposed delivery changes from root cause analysis at GDP Foundation",
+"Freelance BA consulting: market, competitor, pricing and cost analysis for client growth decisions",
+"Designed a pilot to measure the impact of BreakPoint at EE (BT Group)"
+],
+"gaps": [
+"Permanent role: you'd leave in January 2028 unless they sponsor you; answer honestly if asked",
+"Needs a move: London from Newcastle; salary not stated (Glassdoor estimates £32k-£46k), so check costs",
+"Wants experience building strategies, operating models and transformation roadmaps in a large multinational",
+"Wants governance and change control process experience; the CV shows no formal registers"
+],
+"jd_summary": "DS Smith (International Paper) I&T Transformation & Performance team: help maintain the I&T strategy, current/future operating model and transformation roadmap, governance and change control, OKR and performance tracking, improvement initiatives, liaison with Finance, HR and operations. Degree in Business/IS/CS or related. London; contract type and salary not stated (likely permanent). Apply via the employer site link on Glassdoor; no separate DS Smith posting found.",
+"jd_full": "Strategy, Operating Model & Performance Analyst\nAbout the role\nDS Smith is looking for a Strategy, Operating Model & Performance Analyst to join its Information & Technology (I&T) Transformation & Performance team. Following the acquisition of DS Smith by International Paper and the planned creation of an independent EMEA business, the company is undertaking a major programme of organisational, operational and technology change.\n\nYou will help define, maintain and evolve the I&T strategy, operating model and transformation roadmap, working with senior leaders.\n\nKey responsibilities\n• Support the development and maintenance of the I&T strategy, aligned with enterprise objectives\n• Help define and evolve the I&T operating model, documenting current and future-state ways of working\n• Support the creation and management of the I&T transformation roadmap\n• Manage key strategy, operating model, governance and performance deliverables\n• Establish governance, reporting and change control processes\n• Monitor performance against objectives and support OKR tracking\n• Identify opportunities to improve the efficiency and effectiveness of the I&T function\n• Collaborate with senior technology leaders and business stakeholders to build consensus on priorities\n• Incorporate industry best practice into strategy and operating model development\n• Act as liaison between I&T and Finance, HR and operational teams\n• Identify risks, dependencies and opportunities\n\nAbout you\n• Experience supporting the development of business, technology or functional strategies, operating models and transformation roadmaps\n• Experience in transformation, business improvement, consulting, PMO, strategy or operational performance environments\n• Strong analytical and problem-solving capabilities\n• Experience measuring business or operational performance and supporting continuous improvement\n• Ability to engage, influence and constructively challenge stakeholders across functions and seniority\n• Experience operating within large, multinational organisations\n• Excellent written and verbal communication skills\n• Strong organisational skills and ability to manage multiple priorities\n• Proactive, self-starting, delivery-focused mindset\n• Bachelor's degree in Business Administration, Information Systems, Computer Science or a related discipline, or equivalent experience\n\nAbout us\nDS Smith, together with International Paper, is a global leader in sustainable packaging solutions, with more than 60,000 colleagues in North America and EMEA. \"We welcome all candidates to apply, even those not meeting all criteria.\"",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "DS Smith Business Services Limited",
+"town": "London",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "range_crosses_general",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-18T18:27:31+00:00"
 },
 {
 "id": "gd-1010328675106",
@@ -452,6 +678,227 @@
 "updated_at": "2026-11-18T08:29:17+00:00"
 },
 {
+"id": "gd-1010329750037",
+"source": "glassdoor",
+"title": "Business Analyst – Accountancy Practice",
+"company": "Smartax Accountancy Ltd",
+"location": "Uxbridge (UB8), England, hybrid",
+"salary": "£50k - £60k (Employer provided)",
+"salary_min": 50000,
+"salary_max": 60000,
+"posted_age": "24h",
+"first_seen": "2026-11-18",
+"email_date": "2026-11-18",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010329750037",
+"easy_apply": true,
+"fit_score": 74,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 16,
+"max": 20,
+"note": "Business analyst reviewing processes, systems and automation at an accountancy firm; part finance and systems-implementation work"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 19,
+"max": 25,
+"note": "BA, research, reporting, stakeholder and financial analysis shown; weaker on business software, cloud and integrations, no accounting software"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 11,
+"max": 15,
+"note": "'Proven experience' as a BA or similar, no years stated; freelance BA work covers it, though £50k-£60k suggests more"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 10,
+"max": 10,
+"note": "Degree in Business or related subject desirable: MSc Business Analytics meets it"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 3,
+"max": 10,
+"note": "Accountancy practice or financial services experience is desirable only; none in the CV"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 8,
+"max": 10,
+"note": "Permanent role at a licensed sponsor (Smartax Accountancy Ltd, Uxbridge, A rating)"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Permanent, hybrid in Uxbridge"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 4,
+"max": 5,
+"note": "Posted 24h ago; Easy Apply -1"
+}
+],
+"confidence": "high",
+"recommendation": "apply",
+"verdict": "Business analyst at a small accountancy and tax firm: review processes, gather requirements, analyse financial data and choose and roll out software and AI tools. Your freelance BA, process-improvement and tool-building work fit well, but it wants an IT background with business software and integrations. Right to work: fine; permanent role at a licensed sponsor, so you'd leave in January 2028 unless they sponsor you.",
+"match_reasons": [
+"Freelance business analyst at Visionize Consultancy: gathered and challenged client requirements, plus pricing and cost analysis",
+"Root-cause analysis of processes and proposed delivery changes at GDP Foundation",
+"Defined and delivered BreakPoint with AI coding tools, trained the team and designed for adoption and privacy",
+"MSc Business Analytics (Distinction); set up a client data pipeline from several sources"
+],
+"gaps": [
+"Permanent role: you'd leave in January 2028 unless they sponsor you; answer honestly if asked",
+"Needs a move to Uxbridge (hybrid): check relocation costs against the salary",
+"Wants an IT background: strong understanding of business software, databases, cloud platforms and integrations",
+"No Xero, QuickBooks, Sage or practice-management software, and no accountancy experience; £50k-£60k suggests a more experienced hire"
+],
+"jd_summary": "BA for an accountancy, tax and advisory firm: review services and processes, gather requirements from directors, staff and clients, analyse revenue, costs and profitability, review Xero/QuickBooks/Sage and new AI tools for automation, train staff, and support budgets and forecasts; works with the director, consultants and a back office in India. Full-time, permanent, hybrid in Uxbridge (UB8), £50,000-£60,000. Apply via Glassdoor Easy Apply (also on Indeed); no employer careers page found.",
+"jd_full": "Business Analyst - Accountancy Practice, Smartax Accountancy Ltd, Uxbridge\n\nAbout the role:\nWe are an accountancy, tax and business advisory firm looking for an IT background Business Analyst to help us work more efficiently, serve clients better and grow. You'll review how our firm operates, spot where we can improve, and help us choose, implement and get the most from our systems and digital tools. You'll work closely with the director, external consultants and with back office team based in India.\n\nWhat you'll do:\n• Review our core services and find ways to improve processes and efficiency by automations and process improvements\n• Gather requirements from directors, staff and clients, and turn them into practical solutions\n• Analyse financial and management data, such as revenue, costs, profitability and client portfolios, to spot trends and support decisions\n• Write clear reports, feasibility assessments and recommendations for senior management\n• Improve client onboarding, account management and turnaround times\n• Review our software and systems (e.g. Xero, QuickBooks, Sage, practice management and tax software) and identify opportunities for automation and better integration, in particular the new AI software coming on to the market\n• Provide user training and documentation to help staff adopt new tools\n• Support workforce planning, budgets, forecasts and performance targets\n• Identify ways to improve client retention and develop new services\n\nWhat we're looking for\nEssential:\n• Proven experience as business analyst, systems analyst, systems administration, software implementation or a similar technical position\n• Strong technical understanding of business software, databases, cloud platforms and system integrations\n• Strong analytical, research and problem-solving skills\n• Experience in business analysis, consultancy or process improvement\n• Ability to analyse financial and operational information\n• Advanced Excel skills and confidence working with data\n• Excellent report-writing and presentation skills\n• Good stakeholder engagement and communication skills, including explaining technical topics to non-technical colleagues\n\nDesirable:\n• Degree (or equivalent experience) in Computer Science, Information Systems, Business, Finance or a related subject\n• Experience in an accountancy practice, financial services or professional advisory setting\n• Experience with cloud accounting or practice management software\n• Understanding of data protection and cyber security\n\nJob Type: Full-time\nPay: £50,000.00-£60,000.00 per year\nWork Location: Hybrid remote in Uxbridge UB8 1JG",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "Smartax Accountancy Ltd",
+"town": "Uxbridge",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "meets_general",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-18T18:27:31+00:00"
+},
+{
+"id": "gd-1010329677961",
+"source": "glassdoor",
+"title": "Performance Insight Analyst",
+"company": "Surrey Police",
+"location": "Surrey Police HQ, Guildford (agile/home working possible)",
+"salary": "£34k - £45k (Employer provided)",
+"salary_min": 34000,
+"salary_max": 45000,
+"posted_age": "24h",
+"first_seen": "2026-11-18",
+"email_date": "2026-11-18",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010329677961",
+"easy_apply": false,
+"fit_score": 74,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 16,
+"max": 20,
+"note": "Performance/MI analyst in a BI unit: reporting family, plus stakeholder and framework work"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 19,
+"max": 25,
+"note": "Power BI, stakeholder work, stats modules and requirements evidenced; SQL half; DAX not shown"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 15,
+"max": 15,
+"note": "Graduate calibre asked; no years stated"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 10,
+"max": 10,
+"note": "Analytical degree asked; MSc Business Analytics and BSc Data Science"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 3,
+"max": 10,
+"note": "No policing link; law-enforcement experience only an alternative to the degree"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 3,
+"max": 10,
+"note": "Permanent role; Surrey Police not found on the sponsor register"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Permanent, Guildford: needs a move from Newcastle"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "Posted 24h ago, applied on employer site"
+}
+],
+"confidence": "high",
+"recommendation": "apply",
+"verdict": "A graduate-level performance and MI analyst role in Surrey Police's Business Intelligence Unit, built on Power BI, SQL and stakeholder reporting, which matches your dashboard and KPI work well. Right to work: permanent role at an employer that isn't a sponsor, so a time-limited visa may count against you, and police vetting often needs about 3 years' UK residence.",
+"match_reasons": [
+"Power BI dashboards and KPI reporting for clients at Visionize and KPI dashboards with quality checks at GDP Foundation",
+"MSc Business Analytics (Distinction) and BSc Data Science meet the analytical degree asked for",
+"Stakeholder work with managers, clients and frontline colleagues, as the role asks you to liaise across the force",
+"Probability, statistics and econometrics modules support explaining statistical concepts"
+],
+"gaps": [
+"Permanent role at an employer that isn't a licensed sponsor: lower chance with a time-limited visa",
+"Permanent role: you'd leave in January 2028 unless they sponsor you; answer honestly if asked",
+"Advert may need settled right to work or security clearance: police vetting usually checks about 3 years of UK residence, so ask before investing time",
+"Needs a move to Guildford; start is Grade G £34,060, not the £39k shown, and SQL querying plus DAX are only working knowledge / not shown on your CV"
+],
+"jd_summary": "Permanent Performance Insights Analyst in Surrey Police's Business Intelligence Unit (Guildford HQ): monitor performance risks, build and communicate performance frameworks, deliver MI reports and present findings to senior leaders. Needs SQL, Power BI (DAX) and strong communication. Full time 36h, flexible/agile and home working possible. Starts Grade G £34,060. Advertised alongside internal redeployment. Apply only via the Police Jobs Surrey & Sussex careers site (ref SYSX STAFF05084), reached from Glassdoor's 'Apply on employer site'.",
+"jd_full": "Vacancy Information\n• Division / Department: Corporate Development\n• Grade: Grade H\n• Status: Full Time\n• Contract Type: Permanent\n• Salary Grade Range: £39,149 - £45,058\n• Working Hours: 36.0 hours per week\n• Shift Allowance: No\n• Politically Restricted: No\n• Location: Surrey Police Headquarters, Guildford\nThe starting salary for this role will usually be at the bottom of the salary range and will be pro-rata if the working hours are less than full time.\n\nThe Role & Key Responsibilities\nSurrey Police is looking for a passionate, driven Performance Insights Analyst on a permanent contract to support a range of operational and business support portfolios.\nWe are seeking an individual who can help identify and drive performance improvements in a range of different portfolio areas: a proactive, bright and enthusiastic individual of graduate calibre (degree in an analytical subject within social sciences/mathematics, or with well proven and evidenced experience of numerical or research analysis in a law enforcement environment) to join our highly skilled performance analysts.\nAs an analyst within the Business Intelligence Unit you will be regularly monitoring and identifying performance risks and opportunities that have the potential to impact on the force's strategy and the public's priorities. You will take the lead on developing, maintaining and communicating performance frameworks for your respective areas of responsibility.\nTo be responsible for the on-going development, integrity and delivery of management information, preparing it as products and reports providing quantitative and qualitative analysis in support of the force's strategy and national, regional and local government requirements.\nTo proactively liaise with stakeholders to provide them with timely, accurate and relevant assessments of performance in relation to the force's strategy.\nThe starting salary for this post is a Grade G, attracting £34,060, dependent on skills and prior experience. For the right candidate a market supplement may be applied.\n\nSkills & Experience\n• Outstanding problem solving skills\n• Experience querying databases using SQL\n• Working knowledge of Power BI (including DAX)\n• Preferred: familiar with analysing data and information, making inferences and explaining statistical concepts\n• Ability to manage requirements and prioritise tasks across a diverse range of subject areas\n• Exceptional communicator: build and maintain working relationships internally and with external agencies such as the Home Office and HMICFRS\n• Present the findings of your analysis to senior leaders\n\nWhy Work With Us?\nFlexible working encouraged; open to job shares and part time; agile working, which may include flexi-time and home working.\n• Career progression\n• Contributory pension scheme (LGPS)\n• Generous annual leave allowance\n• Discounts, on-site gyms and sports clubs\n• Parental leave, wellbeing support, discounted healthcare scheme\n\nAdditional Information\nSurrey Police & Sussex Police only accept applications online via their own careers site 'Police Jobs Surrey & Sussex'.\nThis post is being advertised in parallel with Force redeployment processes. Any redeployees who are identified will be given preference, and the post may be withdrawn at any point.\nReference number: SYSX STAFF05084. Location: Surrey Police Headquarters, Guildford.",
+"sponsor_register": "not_found",
+"sponsor_match": "",
+"jd_sponsorship": "silent",
+"salary_check": "range_crosses_general",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-18T18:27:31+00:00"
+},
+{
 "id": "gd-1010328494351",
 "source": "glassdoor",
 "title": "Business and Research Analyst",
@@ -678,6 +1125,787 @@
 "updated_at": "2026-11-18T13:26:37+00:00"
 },
 {
+"id": "gd-1010328510393",
+"source": "glassdoor",
+"title": "Business Analyst",
+"company": "British Heart Foundation",
+"location": "London, England (hybrid, 1 day a week in office)",
+"salary": "£40k - £43k (Employer provided)",
+"salary_min": 40000,
+"salary_max": 43000,
+"posted_age": "24h",
+"first_seen": "2026-11-18",
+"email_date": "2026-11-18",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010328510393",
+"easy_apply": false,
+"fit_score": 73,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 20,
+"max": 20,
+"note": "Business Analyst: requirements, as-is/to-be processes, testing, business cases"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 17,
+"max": 25,
+"note": "Requirements, process review, data analysis and stakeholders shown; no analysis workstream planning, workshops or formal business cases"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 6,
+"max": 15,
+"note": "Asks for proven BA experience delivering change in large organisations"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "None stated"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 6,
+"max": 10,
+"note": "Related: NGO volunteer BA work and M&S retail; charity sector not required"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 8,
+"max": 10,
+"note": "Permanent role at a licensed Skilled Worker sponsor"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Permanent, London hybrid (at least 1 day a week in the office)"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "Fresh, not Easy Apply"
+}
+],
+"confidence": "high",
+"recommendation": "apply",
+"verdict": "A mainstream BA role in a charity's technology team that matches your requirements, process and stakeholder work, though it asks for proven BA experience in large organisations. Right to work: fine; permanent role at a licensed sponsor, so you'd leave in January 2028 unless they sponsor you.",
+"match_reasons": [
+"Gathered requirements across GDP Foundation teams and turned them into briefs and process maps",
+"Analysed current processes for root causes and proposed changes (GDP Foundation)",
+"Worked in Agile backlog refinement; understands Waterfall, Agile and hybrid delivery controls",
+"Charity/NGO experience as volunteer BA at GDP Foundation, plus retail work at M&S"
+],
+"gaps": [
+"Permanent role: you'd leave in January 2028 unless they sponsor you; answer honestly if asked",
+"Needs a move (or regular travel) to London: check costs against £40k-£43k",
+"Asks for proven BA experience delivering change in large organisations; yours is freelance, volunteer and one internal tool",
+"Lead workshops and write business cases and functional specifications, which you haven't done formally"
+],
+"jd_summary": "Business Analyst in BHF's Technology Retail & Finance team: lead requirements gathering, business cases and workshops, define as-is/to-be processes and functional specs, support testing and delivery in Agile and Waterfall projects. Needs proven BA experience in large organisations. Permanent, £40,000-£43,000, hybrid with at least one day a week in London. Apply with CV and supporting statement; one-way video, Teams then London interview. Closes 30 Nov 2026. Apply on the employer's site: https://jobs.bhf.org.uk/vacancies/20957/business-analyst.html",
+"jd_full": "We're recruiting for a Business Analyst to join our Technology Retail & Finance team, where you'll lead, coordinate and deliver analysis activities across technology initiatives, from smaller business improvements and system enhancements to larger projects. Working within both Agile and Waterfall delivery methodologies, you'll support the delivery of new technology, business processes and change management. Through data gathering, stakeholder engagement and facilitation, you'll identify business challenges and work with Product Owners, business stakeholders and technical teams to define requirements, shape solutions and support delivery.\n\nIn this role you will:\n• Lead requirements gathering, business cases and project justifications, facilitating workshops to understand customer needs and define processes.\n• Analyse information from multiple sources, resolve conflicts and translate business needs into clear technical requirements.\n• Define 'As Is' and 'To Be' processes, developing functional specifications and high-level system designs.\n• Support solutions throughout delivery, including quality assurance, testing strategies, risks and issue management.\n• Review change options and constructively challenge stakeholders.\n• Share knowledge and experience across teams.\n\nAbout you\nWith proven experience as a Business Analyst, you'll have worked within large organisations to deliver business change using structured Agile and Waterfall methodologies. You'll also have experience of:\n• Planning and designing analysis workstreams across projects and products.\n• Developing business cases and reviewing processes to identify improvements.\n• Eliciting business requirements using a range of tools and techniques.\n• Systems and data analysis, solution evaluation and continuous improvement.\n• Building strong relationships with stakeholders, colleagues, support teams and suppliers.\nA collaborative team player and strong problem solver with excellent communication skills and attention to detail; a proactive self-starter committed to continuous development.\n\nWorking arrangements\nHybrid: split between home and at least one day per week, on average, in our London office.\n\nBenefits\n• 30 days annual leave plus bank holidays.\n• Private medical insurance, dental cover, gym contribution.\n• Pension with employer contribution up to 10%.\n• Full pay for 12 weeks of family leave.\n• Life assurance; up to 10 days extra paid leave for carers.\n\nInterview process\nA short one-way video interview, then an MS Teams interview, with the final stage at our London offices.\n\nHow to apply\nApply with an up-to-date CV and a supporting statement outlining your interest in the role and how you meet its criteria. BHF uses anonymous CV software.\n\nSalary: £40,000 - £43,000. Permanent.",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "British Heart Foundation",
+"town": "London",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "range_crosses_general",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-18T18:27:31+00:00"
+},
+{
+"id": "gd-1010329648721",
+"source": "glassdoor",
+"title": "Project Analyst, AI Transformation",
+"company": "G MASS Consulting (client unnamed; listed as KPMG on Glassdoor)",
+"location": "London",
+"salary": "£37k - £43k (Glassdoor Est.)",
+"salary_min": 37000,
+"salary_max": 43000,
+"posted_age": "24h",
+"first_seen": "2026-11-18",
+"email_date": "2026-11-18",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010329648721",
+"easy_apply": true,
+"fit_score": 73,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 20,
+"max": 20,
+"note": "Project analyst doing BA work: process mapping, requirements, UAT, adoption"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 15,
+"max": 25,
+"note": "Process mapping, requirements, testing and AI tools shown; no FS infrastructure experience, workshops or acceptance criteria"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 11,
+"max": 15,
+"note": "Asks for a BA/change background, no years stated; CV shows freelance and volunteer BA work"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "None stated"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 0,
+"max": 10,
+"note": "Wants experience in an infrastructure function at a financial services firm"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 10,
+"max": 10,
+"note": "Initial 6-month contract: ends well before January 2028"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 5,
+"max": 5,
+"note": "6-month contract in London"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 4,
+"max": 5,
+"note": "Posted 24h; Easy Apply -1; recruiter, client unnamed -1; contract +1"
+}
+],
+"confidence": "medium",
+"recommendation": "apply",
+"verdict": "Project analyst on an AI and automation programme at an unnamed global investment manager, recruited by G MASS Consulting (Glassdoor labels it KPMG). The BA core fits BreakPoint well, but it wants financial services infrastructure experience. Right to work: fine; an initial 6-month contract fits easily before January 2028.",
+"match_reasons": [
+"Defined requirements and business rules for BreakPoint at EE and built it with AI coding tools (Claude Code)",
+"Process maps and root cause analysis at GDP Foundation",
+"Tested every BreakPoint business rule by hand before rollout and drove adoption with a team walkthrough",
+"Privacy by design in BreakPoint (user codes, 14-day data retention) speaks to the data protection ask"
+],
+"gaps": [
+"Recruiter advert (G MASS Consulting) for an unnamed investment manager; Glassdoor shows KPMG, which looks wrong. Check whether it is a day-rate contractor role, as that wouldn't suit",
+"Wants experience in an infrastructure function at a financial services firm, ideally asset management",
+"Asks for user stories, acceptance criteria and running workshops, which the CV doesn't show",
+"Needs a move: London from Newcastle; check costs against an estimated £37k-£43k"
+],
+"jd_summary": "G MASS Consulting recruits a Project Analyst for a global investment manager's AI Transformation Lead: workshops and walkthroughs to find AI/automation use cases, current/future-state process maps, requirements and user stories, use-case prioritisation, test cases and UAT, adoption materials and benefits tracking. No coding needed. Initial 6-month rolling contract, London. Glassdoor Easy Apply. Apply on the employer's site: https://apply.workable.com/g-mass/j/AC4690423E",
+"jd_full": "Project Analyst, AI Transformation\nG MASS are working with a leading global investment manager to hire a Project Analyst into the Office of the Chief Administrative Officer, supporting a firm-wide programme to embed AI and automation across its infrastructure functions.\n\nBased in London, you'll partner closely with the AI Transformation Lead and teams across Operations, Non-Financial Risk, Finance, Legal and People, uncovering where AI can genuinely change how work gets done and turning those opportunities into well-defined, controlled solutions.\n\nResponsibilities\n• Run workshops, interviews and process walkthroughs with infrastructure teams to surface AI and automation opportunities\n• Map current-state processes end to end, covering workflows, systems, data, hand-offs, controls and pain points, and pinpoint where they can be simplified\n• Elicit and challenge requirements, translating them into process maps, functional requirements, user stories and acceptance criteria\n• Help the Transformation Lead assess and prioritise use cases by benefit, feasibility, dependencies and risk\n• Shape future-state processes alongside AI, data and engineering teams, making sure solutions handle exceptions and meet control requirements\n• Own project documentation with clear traceability from business need through to testing and delivery\n• Prepare test cases, coordinate UAT, manage defects and secure business sign-off\n• Drive adoption through process documentation, user guides, training materials and handover to business teams\n• Track delivery progress and realised benefits, reporting into the Transformation Lead and governance forums\n\nRequirements\n• Background in business analysis, process improvement or change delivery, or functional SME experience with a track record of contributing to change\n• Experience within an infrastructure function at a financial services firm, ideally asset management, with depth in one or more of Operations, Non-Financial Risk, Finance, Legal or People\n• Strong process mapping and requirements skills, with the ability to turn undocumented or ambiguous activity into clear deliverables\n• Hands-on exposure to solution design and testing, including acceptance criteria and test case preparation\n• Confident facilitator and stakeholder manager, able to bridge business and technical teams\n• Sound understanding of operational controls, data protection and regulatory considerations in financial services\n• Genuine interest in AI and automation; experience with automation or process analysis tools is a plus, but no coding or AI engineering background is required\n\nContract Length: Initial 6 months rolling contract",
+"sponsor_register": "not_found",
+"sponsor_match": "",
+"jd_sponsorship": "silent",
+"salary_check": "range_crosses_general",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-18T18:27:31+00:00"
+},
+{
+"id": "gd-1010329668256",
+"source": "glassdoor",
+"title": "Business Analyst Marketing",
+"company": "Care At Call",
+"location": "Birmingham (Sutton Coldfield, B76), England",
+"salary": "£36.5k - £41.7k (Employer provided)",
+"salary_min": 36500,
+"salary_max": 41700,
+"posted_age": "24h",
+"first_seen": "2026-11-18",
+"email_date": "2026-11-18",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010329668256",
+"easy_apply": true,
+"fit_score": 72,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 16,
+"max": 20,
+"note": "Business analyst role: market research, referral and performance reporting, operational data; some business development"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 15,
+"max": 25,
+"note": "Advert lists duties but no named skills or tools (not-stated rule)"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 15,
+"max": 15,
+"note": "No experience requirement stated"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "No qualifications stated"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 3,
+"max": 10,
+"note": "Health and social care; no care-sector link in the CV, and the advert doesn't ask for one"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 8,
+"max": 10,
+"note": "Permanent role at a licensed sponsor (Care at Call, Sutton Coldfield, A rating)"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Permanent, in person in Birmingham"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 4,
+"max": 5,
+"note": "Posted 24h ago; Easy Apply -1"
+}
+],
+"confidence": "medium",
+"recommendation": "apply",
+"verdict": "Business analyst role at a domiciliary care provider: market and competitor research, referral and enquiry analysis, performance reports and service-capacity analysis. The duties fit your freelance market research and Power BI reporting, but the advert is short and vague. Right to work: fine; permanent role at a licensed sponsor, so you'd leave in January 2028 unless they sponsor you.",
+"match_reasons": [
+"Market and competitor insights, pricing and cost analysis for clients at Visionize Consultancy",
+"Power BI dashboards and reports showing trends, risks and opportunities in client data",
+"KPI dashboards and root-cause process analysis at GDP Foundation, proposing changes to delivery",
+"Worked directly with managers and clients, turning their problems into documented requirements"
+],
+"gaps": [
+"Permanent role: you'd leave in January 2028 unless they sponsor you; answer honestly if asked",
+"Needs a move to Birmingham (in person, on-site parking): check relocation costs against the salary",
+"No health or social care experience; the role works with care managers, local authorities and referrers",
+"Short, vague advert from a small care provider: ask what the day-to-day work and reporting tools are"
+],
+"jd_summary": "Analyse the care market and demand for domiciliary care and supported living, track referrals and new enquiries, review service-user feedback, prepare performance reports, analyse staff allocation and capacity, and give data-driven recommendations to senior management. Works with care managers, local authorities and healthcare professionals. Permanent, full-time, in person in Birmingham (B76). £36,500-£41,700. Apply via Glassdoor Easy Apply (also listed on Indeed); no employer careers page found.",
+"jd_full": "Business Analyst (Marketing), Care at Call, Birmingham\n\nThe Business Analyst (Marketing) is responsible for analysing business operations and marketing performance within the health and social care sector to identify opportunities for service improvement and organisational growth. The role involves researching the care market, analysing demand for domiciliary care and supported living services, identifying potential service users, and evaluating competitors to support business development strategies.\n\nResponsibilities include analysing referral patterns, monitoring new client enquiries, reviewing service-user feedback, preparing performance reports, and identifying trends in care service demand. The position also involves analysing operational data, reviewing staff allocation and service capacity, monitoring business performance, and identifying opportunities to improve the efficiency of care delivery. In addition, the role requires working closely with care managers, operational teams, local authorities, healthcare professionals, and external stakeholders to support service development, strengthen referral networks, improve client engagement, and expand the organisation's care services. The Business Analyst provides data-driven recommendations to senior management to support strategic planning, improve operational effectiveness, maintain service quality, and achieve the organisation's long-term business objectives.\n\nPay: £36,500.00-£41,700.00 per year\n\nBenefits:\n• Company events\n• On-site parking\n• Sick pay\n\nWork Location: In person",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "Care at Call",
+"town": "Sutton Coldfield",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "range_crosses_general",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-18T18:27:31+00:00"
+},
+{
+"id": "gd-1010328708912",
+"source": "glassdoor",
+"title": "Operating Model Analyst - 12 month FTC",
+"company": "B&M Retail",
+"location": "Liverpool, England (support centre, L24)",
+"salary": "£48k - £68k (Glassdoor Est.)",
+"salary_min": 48000,
+"salary_max": 68000,
+"posted_age": "24h",
+"first_seen": "2026-11-18",
+"email_date": "2026-11-18",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010328708912",
+"easy_apply": false,
+"fit_score": 71,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 16,
+"max": 20,
+"note": "Operations/process improvement analyst: as-is/to-be processes in a target operating model"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 15,
+"max": 25,
+"note": "Process mapping, root cause analysis, KPIs and commercial projects shown; no BPMN, workshops or large-organisation operating model work"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 6,
+"max": 15,
+"note": "Asks for proven operating model/process experience in a large organisation"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "None stated"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 6,
+"max": 10,
+"note": "Retail desirable; M&S food-floor work and the waste-check dashboard"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 10,
+"max": 10,
+"note": "12-month FTC ends by January 2028 if it starts by January 2027"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 5,
+"max": 5,
+"note": "12-month fixed-term contract in the UK"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "Fresh, not Easy Apply; FTC bonus"
+}
+],
+"confidence": "high",
+"recommendation": "apply",
+"verdict": "A process-improvement role in a big retailer on a 12-month contract; your process mapping, root cause and M&S retail work fit, but it leans on workshop facilitation and BPMN modelling you haven't done. Right to work: fine; a 12-month contract fits if it starts by January 2027.",
+"match_reasons": [
+"Process maps and root cause analysis of inefficiency at GDP Foundation",
+"Defined problem, requirements and business rules for BreakPoint and got it adopted by a 15-person team",
+"Retail experience at M&S, including a live dashboard for food-waste checks",
+"KPI design and process measures (GDP Foundation dashboards, Blueline KPIs)"
+],
+"gaps": [
+"Contract runs past January 2028 (your visa end) if it starts after January 2027: ask about the start date",
+"Needs a move to Liverpool: check relocation costs against the salary",
+"Salary not stated by the employer (Glassdoor estimate £48k-£68k)",
+"Asks for confident workshop facilitation and BPMN 2.0 modelling in a large organisation; you can't claim workshops"
+],
+"jd_summary": "Operating Model Analyst helping design and deliver B&M's Connected Trading Target Operating Model: facilitate cross-functional workshops, document as-is/to-be processes (ideally BPMN 2.0), find inefficiencies and control gaps, define process measures and ownership, working with Trading, Supply Chain, Finance, Retail Ops and Technology. 12-month FTC, Liverpool. Work pattern and salary not stated. Closes 1 Dec 2026. Apply on the employer's site: https://jobs.bmstores.co.uk/vacancies/23321/operating-model-analyst--12-month-ftc.html",
+"jd_full": "As B&M continues to evolve and transform, we're focused on creating simpler, more connected ways of working that enable our teams to operate effectively at scale. As an Operating Model Analyst, you will support the design and delivery of our Connected Trading Target Operating Model, helping translate strategic direction into practical ways of working across the business.\n\nThis is a highly collaborative transformation role, working across Trading, Supply Chain, Finance, Retail Operations and Technology. You'll work with stakeholders to understand how the business operates today, identify opportunities for improvement and design future processes that bring together people, organisation, governance, data and technology.\n\nKey Responsibilities\n• Facilitate cross-functional workshops to understand, document and validate current and future ways of working across end-to-end business processes.\n• Translate Target Operating Model principles and process architecture into clear operational workflows, process models, roles, responsibilities and governance structures.\n• Analyse existing processes to identify inefficiencies, duplication, bottlenecks, control gaps and opportunities for simplification, standardisation and automation.\n• Partner with Business Architecture, Business Analysis and Change teams so future processes align with transformation objectives and can be embedded.\n• Define process measures, controls and ownership, supporting scalable future ways of working.\n\nWhat we are looking for\n• Proven experience in operating model design, business process analysis, process improvement or transformation within a large or complex organisation.\n• Strong experience in process discovery and as-is/to-be process modelling, ideally using BPMN 2.0 or comparable standards.\n• Excellent analytical capability: how process, people, organisation, governance, data and technology interact within an operating model.\n• Confident workshop facilitator and stakeholder manager.\n• Commercial and pragmatic. Experience within retail, trading, merchandising, supply chain or finance would be particularly advantageous.\n\nWhy join us?\nCompetitive benefits package, including in-store discounts and retail and hospitality partner discounts.\n\nB&M Retail are an equal opportunity employer.",
+"sponsor_register": "not_found",
+"sponsor_match": "",
+"jd_sponsorship": "silent",
+"salary_check": "meets_general",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-18T18:27:31+00:00"
+},
+{
+"id": "gd-1010328683949",
+"source": "glassdoor",
+"title": "Data Quality & Improvement Analyst",
+"company": "NFU Mutual",
+"location": "Stratford-upon-Avon (hybrid, 80% home)",
+"salary": "Up to £44,782 + bonus (Employer provided)",
+"salary_min": 44782,
+"salary_max": 44782,
+"posted_age": "24h",
+"first_seen": "2026-11-18",
+"email_date": "2026-11-18",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010328683949",
+"easy_apply": false,
+"fit_score": 68,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 16,
+"max": 20,
+"note": "Data quality analyst is a target role, but duties lean on DQ profiling and rules"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 13,
+"max": 25,
+"note": "Power BI, quality checks and root cause analysis shown; SQL working level only; no DQ tools (Collibra etc.) or DQ framework"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 11,
+"max": 15,
+"note": "Asks for previous data quality experience, no years stated"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "None stated"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 0,
+"max": 10,
+"note": "Wants DQ framework experience in insurance, financial services or another regulated industry"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 10,
+"max": 10,
+"note": "12-month FTC: fits if it starts by January 2027"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 5,
+"max": 5,
+"note": "12-month FTC, hybrid (80% home, Stratford on Tuesdays)"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "Posted 24h; employer site; FTC +1 (capped)"
+}
+],
+"confidence": "high",
+"recommendation": "maybe",
+"verdict": "12-month data quality analyst contract at NFU Mutual, mostly from home. Your Power BI, quality checks and root cause work fit, but it expects hands-on DQ tools and DQ framework experience in a regulated industry. Right to work: fine; a 12-month contract fits if it starts by January 2027.",
+"match_reasons": [
+"Built and maintained KPI dashboards with quality checks for accuracy and consistency at GDP Foundation",
+"Power BI dashboards and reports of client data as a freelance BA",
+"Root cause analysis of inefficient processes at GDP Foundation",
+"Set up a client data pipeline, combining and cleaning data from several sources"
+],
+"gaps": [
+"Contract runs past January 2028 (your visa end) if it starts after January 2027: ask about the start date",
+"Needs a move or travel: Stratford-upon-Avon office on Tuesdays (80% home); check travel costs against the salary",
+"Essential: data quality tools (Collibra DQ, Trillium, Informatica) and a DQ framework in insurance/FS or another regulated industry",
+"Essential: practical SQL plus data profiling and writing DQ rules; CV shows working SQL only"
+],
+"jd_summary": "12-month FTC in NFU Mutual's Enterprise Data Management team: assess completeness, validity and accuracy of business data (customer, policy, claims, finance), build reporting, investigate DQ issues, root cause analysis and remediation, explain findings to stakeholders. Up to £44,782 plus bonus. Hybrid: up to 80% from home, team in Stratford-upon-Avon on Tuesdays. Apply via the employer site link on Glassdoor.",
+"jd_full": "Data Quality & Improvement Analyst\n• 12 month FTC - make a visible impact on the quality of data that supports customer journeys, business decisions and executive reporting\n• Work across varied business data, turning analysis into practical improvements alongside data domain stakeholders\n• Hybrid 80% homeworking and 20% from Stratford upon Avon\n\nAbout the role\nAt NFU Mutual, you'll join us on a 12 month fixed term contract to help ensure that business data is accurate, complete and reliable. Working within Enterprise Data Management in the Data Centre of Excellence, you'll support business domains by assessing and monitoring critical data and helping stakeholders turn findings into practical improvements.\n\nYou'll use analytical techniques to assess data completeness, validity and accuracy, build and interpret reporting outputs, investigate data quality problems and support root cause analysis. You'll recommend improvement actions and help coordinate remediation activity, while explaining findings clearly to technical and non-technical stakeholders.\n\nThe role offers exposure to data across areas such as customer, policy, claims and finance, and the opportunity to contribute to NFU Mutual's wider Data Quality Framework.\n\nThis role is based in our Stratford upon Avon office, with support to work up to 80% of your hours from home. The team usually meets in the office on Tuesdays.\n\nAbout you\nYou're analytical and organised, with strong problem-solving skills and the ability to prioritise effectively, communicating clearly and influencing others by translating data into meaningful actions.\n\nEssentials\n• Practical experience of SQL to analyse data and familiarity with Power BI\n• Previous data quality analysis experience, including data profiling, writing data quality rules and supporting root cause analysis or remediation\n• Experience using data quality tools such as Collibra DQ, Trillium, Informatica or similar\n• Experience of working with a Data Quality framework and approach in insurance, financial services or another regulated industry\n• Experience in one or more of Data Quality Management, Data Management, Data Governance, Data Modelling, Data Analysis, Data Visualisation or insurance business domains\n\nBenefits and Rewards\n• Salary up to £44,782\n• Annual bonus (up to 17.5% of salary)\n• Contributory pension scheme, up to 20%, including your 8% contribution\n• 25 days annual leave + bank holidays + holiday trading scheme\n• Health and wellbeing plan, life assurance 4 x salary, employee discounts\n\nLocation: Tiddington Road, Stratford-upon-Avon, Warwickshire CV37 7BJ",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "NFU Mutual (Service Company) Limited",
+"town": "Warwickshire",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "meets_general",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-18T18:27:31+00:00"
+},
+{
+"id": "gd-1010328604120",
+"source": "glassdoor",
+"title": "Technical Business Analyst - Digital Delivery Service",
+"company": "Education Authority",
+"location": "Belfast (base to be agreed: Belfast, Antrim, Armagh, Ballymena or Omagh)",
+"salary": "£38,626 - £41,511 (Employer provided)",
+"salary_min": 38626,
+"salary_max": 41511,
+"posted_age": "24h",
+"first_seen": "2026-11-18",
+"email_date": "2026-11-18",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010328604120",
+"easy_apply": false,
+"fit_score": 68,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 20,
+"max": 20,
+"note": "BA role: requirements, as-is/to-be process maps, UAT, process improvement"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 18,
+"max": 25,
+"note": "Requirements, process mapping, stakeholders, Excel/PowerPoint shown; no workshops run, Visio not shown, UAT scripts partial"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 6,
+"max": 15,
+"note": "Essential: 2 years' BA experience with a Level 4+ qualification; CV shows about 2 years (freelance from Aug 2024, volunteer, BreakPoint)"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 10,
+"max": 10,
+"note": "MSc Business Analytics meets the Level 4 qualification"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 3,
+"max": 10,
+"note": "Public-sector education; no sector link, none required"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 3,
+"max": 10,
+"note": "Fixed term to 31 July 2028: runs past January 2028"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Fixed term past January 2028; Belfast with travel across NI sites"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "Posted 24h; employer application form; FTC +1 (capped)"
+}
+],
+"confidence": "high",
+"recommendation": "maybe",
+"verdict": "Technical BA at the Education Authority in Northern Ireland with strong overlap on requirements, process mapping and UAT, but it needs 2 years' BA experience shown on a criteria-based form and workshop experience. Right to work: the fixed term runs to 31 July 2028, past your January 2028 visa end, so you'd have to leave early or need sponsorship (the Education Authority is a licensed sponsor).",
+"match_reasons": [
+"Documented requirements and business rules for BreakPoint at EE, and challenged client requirements as a freelance BA",
+"Turned requirements into structured briefs and process maps, with root cause analysis, at GDP Foundation",
+"Tested every BreakPoint business rule by hand before rollout",
+"MSc Business Analytics (Distinction) meets the Level 4 qualification"
+],
+"gaps": [
+"Contract runs past January 2028 (your visa end): fixed term to 31 July 2028",
+"Needs a move: Belfast/NI base with travel across sites; a vehicle or other transport is essential",
+"Essential: 2 years' demonstrable BA experience, judged on the application form; yours is about 2 years, part-time alongside study",
+"Interview criteria include running process design workshops, writing UAT test scripts and training materials; the CV shows no workshops"
+],
+"jd_summary": "Fixed-term (to 31 July 2028), full-time 36h Mon-Fri 9-5 Technical BA in EA's Digital Delivery Service: document as-is/to-be processes, requirements for procurement, functional specs and use cases, testing and UAT, workshops and status reports. Base agreed on appointment (Belfast, Antrim, Armagh, Ballymena or Omagh) with travel. Criteria-based application form on the EA site; Enhanced Disclosure at own cost.",
+"jd_full": "Technical Business Analyst - Digital Delivery Service\nJob reference: 26007530\nPrimary location: Belfast Office. Other locations: Antrim Board Centre, Armagh Office, Ballee Centre (Ballymena), Omagh Office\nContract type: Fixed-term (may be subject to extension or reduced for any valid reason). Contract end date: 31 July 2028\nFull-time, 36 hours per week, Monday - Friday 9am - 5pm\nGrade: Administrative Officer, NJC pts 29 - 32, £38,626 - £41,511 per annum\nBase location to be agreed upon appointment. Travel across EANI sites will be required.\n\nJob purpose\n• Report to the DDT Business Partners and Delivery Managers and work with senior staff across the directorate and EA\n• Support Business Analysts with requirements, process mapping, delivery and procurement on time and within budget\n• Define business requirements to support procurement exercises for new service delivery\n• Analyse the market and identify suitable applications\n• Lead and manage workshops as required; report findings to stakeholders\n\nMain duties\n• Identify and document existing business processes within programme scope, identifying gaps and proposing efficiencies\n• Work with business users, project and technical teams to develop and enhance business processes and deliver business and systems projects\n• Track requirements, deadlines and schedules; prepare status reports\n• Identify process improvement opportunities\n• Manage risks and escalate issues appropriately; work with the PMO to the PM framework\n• Develop process documentation (including process maps), business cases and procurement documentation\n• Gather and manage requirements and functional testing; write functional specifications and use cases\n• Model business data structures and integrations; document current and future processes\n• Liaise with internal and external stakeholders across all EA Directorates; provide cover for the Business Partner\n\nEssential criteria (shortlisting)\n• Third level qualification (QCF Level 4) or higher relating to Business Administration, Management or IT and a minimum of two years' demonstrable experience in Business Analysis, OR a minimum of five years' demonstrable experience in Business Analysis\n• Demonstrable knowledge of MS Office: Excel, databases, PowerPoint, Visio for documenting and reporting\n• Experience of working to deadlines and multiple tasks\n• Experience of understanding and documenting client requirements using a range of investigation techniques and analysis tools\n• Experience of building and maintaining working relationships with internal and external stakeholders\n• Access to a suitable vehicle, or an appropriate alternative form of transport, for the mobility requirements of the post\n\nEssential criteria (interview)\n• Capturing an \"As Is\" analysis and presenting the \"To Be\"\n• Running business process design and configuration workshops\n• Writing test scripts and undertaking UAT\n• Collating training materials and supporting training workshops\n• Collaborative stakeholder skills; customer focus; decision-making, problem-solving and communication skills\n\nDesirable criteria\n• Workshop facilitation to define business problems/requirements\n• Proven ability to analyse business information and solve problems through informed decision-making\n\nEnhanced Disclosure of criminal background required for posts in regulated activity; the candidate meets the cost.",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "Education Authority",
+"town": "Belfast",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "meets_new_entrant",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-18T18:27:31+00:00"
+},
+{
+"id": "gd-1010329866638",
+"source": "glassdoor",
+"title": "Performance Analysis Service (PAS) Officer",
+"company": "Greenwich Council",
+"location": "Woolwich, London",
+"salary": "£42k - £45k (Employer provided)",
+"salary_min": 42000,
+"salary_max": 45000,
+"posted_age": "24h",
+"first_seen": "2026-11-18",
+"email_date": "2026-11-18",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010329866638",
+"easy_apply": false,
+"fit_score": 68,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 16,
+"max": 20,
+"note": "Performance/data analyst for Children's Services: reporting family, statutory returns"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 19,
+"max": 25,
+"note": "Reporting, dashboards, data quality and stakeholder work evidenced; person spec not seen"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 11,
+"max": 15,
+"note": "Asks for experience collecting and analysing data; freelance and NGO work covers some"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "Not stated in the advert (person spec attached separately)"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 3,
+"max": 10,
+"note": "No children's services or local government link; not stated as required"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 3,
+"max": 10,
+"note": "18-month fixed term runs past January 2028 (licensed sponsor: Greenwich Borough Council)"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Fixed term but longer than your visa; London move"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "Posted 21 Oct (over 3 days) -1; fixed-term +1"
+}
+],
+"confidence": "medium",
+"recommendation": "maybe",
+"verdict": "A performance analysis officer post in Royal Greenwich's Children's Services, reporting and presenting data to improve services, which fits your Power BI and KPI dashboard work. Right to work: an 18-month fixed-term contract runs past January 2028 from any start after July 2026, so ask whether a shorter term or secondment end date is possible; the council is a licensed sponsor.",
+"match_reasons": [
+"KPI dashboards with data quality checks at GDP Foundation, matching the attention to detail and large datasets asked for",
+"Power BI dashboards and reports presenting trends and risks to clients at Visionize",
+"Contributed analysis to a national research study on ageing recognised by NITI Aayog, a public policy body",
+"Works with managers, clients and frontline colleagues, as the role works across departments and schools"
+],
+"gaps": [
+"Contract runs past January 2028 (your visa end): ask about the start date",
+"Needs a move: check relocation costs against the salary (Woolwich, London)",
+"Person specification not seen: applications are scored against each of its points, so read it before applying",
+"No children's services or local government data experience; the advert was first posted on 21 October, so it may close early"
+],
+"jd_summary": "Performance Analysis Service Officer (PO1) in Royal Greenwich Children's Services, Woolwich: collect and analyse data, report and present complex information to services, schools and providers, support statutory work. 18-month fixed term or secondment, 35 hours, standard DBS. Closes 2 December 2026 (may close early). Apply on the council's careers site via Glassdoor's 'Apply on employer site', answering each Person Specification point in the supporting statement.",
+"jd_full": "Performance Analysis Service Officer - Children's Services\nGrade: PO1\nContract type: 1 x post offered on an 18-month fixed term or secondment basis\nThis post is subject to a standard DBS check and safer recruitment processes.\n\nPosition Overview\n• Are you passionate about making a difference for children and improving their outcomes?\n• Are you experienced in the collection and analysis of data?\n• Do you want to help support others to use data to focus on outcomes, impact and service improvement?\n\nWho we are looking for\nWe have a vacancy in the Performance Analysis Service within Children's Services. This post offers an opportunity to join a team of dedicated data analysts working closely with all Children's Services departments, schools and other providers in the local area to improve services and outcomes for children, young people and their families. This role will work across the service on a range of areas, including helping to deliver on statutory elements of our work.\nWe are looking for someone who:\n• has excellent technical and analytical skills;\n• has experience of reporting on and presenting complex information for a range of audiences;\n• has rigorous attention to detail and the ability to process large datasets;\n• is a good communicator and can build strong working relationships across a range of stakeholders.\nPlease view the attached Person Specification for the key requirements and address these in your application.\nIf you have previously applied for this role within the last 6 months and not been successful, a new application will not be considered.\n\nHow applications are scored\nEach application is scored according to how well the supporting statement addresses each point on the Person Specification. Candidates are short-listed on the extent to which they meet those points.\nRoyal Borough of Greenwich reserves the right to close any advert earlier than the closing date (for example high volume of applications).\n\nDetails\n• Salary: PO1 - £42,492 to £45,123 (35-hour week)\n• Job reference: royalgreenwich/TP/1155/1224\n• Contract type: Fixed-term (Secondment/Fixed Term - 18 months)\n• Working hours: 35\n• Closing date: 2 December 2026\n• Business unit: Children's Services\n• Location: Woolwich, London\n• DBS: Standard\n• Posted on: 21 October 2026",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "Greenwich Borough Council",
+"town": "London",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "meets_general",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-18T18:27:31+00:00"
+},
+{
 "id": "gd-1010328685451",
 "source": "glassdoor",
 "title": "Digital Finance Associate",
@@ -791,6 +2019,453 @@
 "updated_at": "2026-11-18T08:29:17+00:00"
 },
 {
+"id": "gd-1010329697889",
+"source": "glassdoor",
+"title": "Business Analyst (Investment Management & Wealth) - 9 month Fixed Term Contr",
+"company": "Wealthtime",
+"location": "Bath or London, England (hybrid)",
+"salary": "£24k - £28k (Glassdoor Est.)",
+"salary_min": 24000,
+"salary_max": 28000,
+"posted_age": "24h",
+"first_seen": "2026-11-18",
+"email_date": "2026-11-18",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010329697889",
+"easy_apply": false,
+"fit_score": 65,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 20,
+"max": 20,
+"note": "Business Analyst in a transformation team: requirements, process mapping, testing"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 11,
+"max": 25,
+"note": "Has requirements, process mapping, stakeholders, Agile; lacks investment/wealth products, regulated FS change, workshops"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 6,
+"max": 15,
+"note": "Asks for proven BA experience in investment or wealth management"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "None stated"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 0,
+"max": 10,
+"note": "Essential: BA experience in investment/asset/wealth management; CV has no financial services"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 10,
+"max": 10,
+"note": "9-month FTC ends well before January 2028"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 5,
+"max": 5,
+"note": "9-month fixed-term contract, Bath or London, hybrid"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "Fresh, not Easy Apply; FTC bonus"
+}
+],
+"confidence": "high",
+"recommendation": "maybe",
+"verdict": "A real BA role on a 9-month contract, but the essentials ask for proven BA experience in investment or wealth management, which your CV doesn't show. Right to work: fine; a 9-month contract fits if it starts by April 2027.",
+"match_reasons": [
+"Requirements gathering and process mapping at GDP Foundation and on BreakPoint",
+"Tested every BreakPoint business rule before rollout (matches the testing/UAT duties)",
+"Backlog refinement in iterative delivery at GDP Foundation (Agile desirable)",
+"Freelance BA work turning client problems into documented requirements"
+],
+"gaps": [
+"Needs a move: Bath or London; check relocation costs against the salary",
+"Essential: proven BA experience in investment management, DFM or wealth; CV has no financial services",
+"Asks for user stories, acceptance criteria and workshop facilitation, which you can't claim yet",
+"Glassdoor's £24k-£28k is only an estimate; salary not stated by the employer"
+],
+"jd_summary": "Business Analyst in Quanta Group's Transformation team (Wealthtime, Copia, Craven Street), mainly supporting investment management change: requirements, user stories, process and data-flow analysis, target operating model, regulatory change, UAT and defect triage. Essential: proven BA experience in investment/wealth management and regulated FS change. Initial 9-month FTC, full time 37.5h, hybrid, Bath or London. Salary not stated. Apply via Glassdoor's 'Apply on employer site'.",
+"jd_full": "Job Specification\nLocation: Bath or London. Employment type: Full time. Department: Operations (Strategic Transformation). Appointment type: FTC. Hours: 37.50. Ref No 10269.\n\nAbout Us\nQuanta Group is a financial services group with assets under advice of around £17bn and nearly 75,000 clients across platform, DFM and advice: Wealthtime (investment platform), Copia Capital Management (discretionary fund manager) and Craven Street Wealth (financial planning and wealth management).\n\nAbout the Role\nThe Transformation team executes a portfolio of key initiatives across platform, advice and investment businesses. We are seeking a Business Analyst to support strategic change across our Investment Management business, including operating model enhancements, investment proposition development, portfolio management processes, regulatory change and technology transformation. You will act as a bridge between business stakeholders, outsource providers and third parties. This role is on an initial 9 month Fixed Term Contract basis.\n\nBusiness Analysis & Requirements\n• Lead detailed requirements gathering across multiple business areas.\n• Translate business needs into business requirements, user stories, acceptance criteria, test scenarios and functional specifications.\n• Facilitate workshops, interviews and process discovery sessions.\n• Work with the outsourced provider's business analysis teams.\n\nProcess Improvement\n• Analyse front-to-back investment management processes for efficiency, risk reduction and client outcomes.\n• Review investment data flows and management information.\n• Support target operating model design.\n\nInvestment Management Change & Analysis\n• Partner with Investment, Operations, Risk, Compliance and Distribution teams.\n• Support design of the target proposition for wealth and investment management.\n• Support regulatory and market-driven change; assess operational, client, regulatory and commercial impacts.\n\nProject Delivery & Governance\n• Assist project managers with scope, timelines and deliverables.\n• Support documentation, reporting packs and governance materials.\n• Testing: test case creation, UAT planning and defect triage.\n\nStakeholder Engagement\n• Build relationships at all levels, including 1st and 2nd line teams; challenge constructively; communicate complex topics clearly.\n\nEssential\n• Proven Business Analysis experience within Investment Management, Asset Management, DFM, Wealth Management or Private Banking.\n• Understanding of investment products and services (MPS, discretionary portfolio management, funds, custody).\n• Experience analysing and documenting processes, requirements, user journeys, data flows and operating models.\n• Experience supporting business and technology change in regulated financial services.\n• Understanding of investment management operational processes.\n• Excellent stakeholder management and workshop facilitation skills.\n• Strong analytical, problem-solving and documentation capabilities.\n• Ability to communicate with business and technical audiences.\n\nDesirable\n• Investment proposition change, MPS development or DFM transformation.\n• Understanding of FCA regulation including Consumer Duty.\n• Agile, Scrum or hybrid delivery.\n\nRewards & Benefits\nCompetitive salary, hybrid working, discretionary bonus, 34 days holiday incl. bank holidays, private medical, income protection, life assurance, pension, season ticket loans.",
+"sponsor_register": "not_found",
+"sponsor_match": "",
+"jd_sponsorship": "silent",
+"salary_check": "below_threshold",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-18T18:27:31+00:00"
+},
+{
+"id": "gd-1010328752711",
+"source": "glassdoor",
+"title": "PMO Analyst - HR Transformation Programme",
+"company": "Universities Superannuation Scheme",
+"location": "Liverpool, England, hybrid",
+"salary": "£36k - £50k (Glassdoor Est.)",
+"salary_min": 36000,
+"salary_max": 50000,
+"posted_age": "24h",
+"first_seen": "2026-11-18",
+"email_date": "2026-11-18",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010328752711",
+"easy_apply": false,
+"fit_score": 62,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 12,
+"max": 20,
+"note": "PMO Analyst is a target family, but RAID, programme planning and governance work isn't shown in the CV"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 16,
+"max": 25,
+"note": "Analysis, stakeholder work, Excel and initiative shown; no PMO, risk management or project software in practice"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 6,
+"max": 15,
+"note": "Proven PMO experience on complex multi-year programmes; CV has none, though the advert invites applicants who meet most criteria"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "No qualifications stated"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 3,
+"max": 10,
+"note": "Pensions / HR transformation; sector experience is 'ideally' only"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 8,
+"max": 10,
+"note": "Fixed-term contract, length not stated; USS is a licensed sponsor"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 4,
+"max": 5,
+"note": "Fixed-term contract, hybrid in Liverpool; length unknown"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "Posted 24h ago; applies on the employer site; fixed-term +1 (capped at 5)"
+}
+],
+"confidence": "high",
+"recommendation": "maybe",
+"verdict": "Fixed-term PMO analyst on USS's HR Transformation Programme: RAID and change-control logs, the integrated plan, governance forums, status reports and budget updates. A good fit for the contract preference, but it wants proven PMO experience on multi-year programmes, which the CV doesn't show. Right to work: fine; fixed-term contract at a licensed sponsor, but the length isn't stated, so check it ends by January 2028.",
+"match_reasons": [
+"Built and maintained KPI dashboards with quality checks at GDP Foundation (status reports and dashboards)",
+"Took the initiative on BreakPoint, then tested every business rule and designed a before/after pilot",
+"Backlog refinement and prioritisation in iterative delivery; MSc Project Management and Stakeholder Management modules",
+"Excel (pivot tables, lookups) and Power BI reporting for clients at Visionize Consultancy"
+],
+"gaps": [
+"Contract length not stated and the programme is multi-year: check it ends by January 2028",
+"Needs a move to Liverpool (hybrid): check relocation costs against the salary (not stated; Glassdoor estimates £36k-£50k)",
+"Proven PMO or programme support experience on complex multi-year programmes; none in the CV",
+"RAID, decision and change-control logs, risk management and project management software are core; the CV shows none"
+],
+"jd_summary": "Fixed-term PMO Analyst on USS's multi-year HR Transformation Programme, reporting to the project manager: maintain RAID, decision and change-control logs and the integrated plan, run governance forums and minutes, produce status reports and MI packs, budget and forecast updates with Finance, and resource planning. Wants proven PMO experience; open to candidates meeting most criteria. Liverpool, hybrid; salary not stated. Apply on the employer site via Glassdoor ('Apply on employer site').",
+"jd_full": "PMO Analyst - HR Transformation Programme, Universities Superannuation Scheme (USS), Liverpool\n\nBusiness Area: Pensions Solutions and Control\nPlace of Work: Liverpool\nContract Type: Fixed Term Contract\n\nWhen you join USS, the size and scale of our pension scheme means you will have numerous opportunities to learn and develop your career. Our office is a vibrant place to work, and we offer flexibility of office/homeworking due to our hybrid model.\n\nAbout the role\nIn your role as PMO Analyst - HR Transformation Programme you will provide dedicated PMO leadership and support for the HR Transformation Programme, ensuring robust governance, comprehensive planning, accurate reporting, proactive risk management, and effective delivery support. This role is critical to enabling the successful execution of a complex, multi-year, cross-functional programme.\n\nWhat you will be doing\nAs part of the Pensions Solutions and Control team you will be responsible for:\n• Producing and maintaining core PMO artefacts (including RAIDs, plans, controls, reports, and analysis).\n• Providing continuity for agreed programme coordination, reporting and governance activities during periods of Project Manager absence, within delegated authority and established escalation arrangements.\n• Demonstrating a pragmatic, can-do attitude, a willingness to dive into the detail when necessary, and a strong sense of teamwork.\n\nReporting to the project manager on the HR Transformation Programme, this role encompasses:\n\nGovernance & Oversight\n• Support the programme and its component parts by understanding the sequence of events and their cross-dependencies, enabling impact analysis if milestones move.\n• Maintain comprehensive RAID, decision, and change-control logs, with clear owners, target dates, impacts, mitigations, and escalation routes.\n• Co-ordinate and facilitate key governance forums, including scheduling, circulation of materials, recording minutes and tracking actions.\n• Coordinate programme change requests and support assessment of impacts on scope, schedule, cost, resources, benefits and dependencies.\n• Ensure adherence to change control and approval processes, with a clear audit trail for key artefacts and decisions.\n\nPlanning, Scheduling & Management Support\n• Maintain and monitor the integrated programme plan, ensuring alignment with strategic objectives and key milestones.\n• Consolidate milestone trackers from individual workstreams into an overall programme view.\n• Ensure programme information is accurately captured in the overarching roadmap.\n• Coordinate logistics for cross-functional teams, including scheduling and organising meetings and workshops.\n\nTracking, Reporting & Insights\n• Provide accurate and timely programme reporting (status reports, dashboards and executive updates).\n• Prepare high-quality management information packs for senior stakeholders.\n• Identify, track and manage risks, issues and dependencies, ensuring mitigating plans are in place.\n• Proactively follow up on outstanding actions and items.\n• Work with Finance business partners to provide regular budget and forecast updates.\n\nResource Management\n• Support programme resource planning and maintain an integrated view of resource requirements, allocations, gaps and constraints.\n• Maintain availability and holiday information for the core programme team and flag potential impacts on delivery milestones.\n\nAbout you\nIf you're excited about working for us and have most of the skills or experience we're looking for, please apply, regardless of whether you meet all the requirements.\n• Proven experience in PMO or programme support roles within complex, multi-year programmes, ideally within HR, technology or other business transformation programmes.\n• A strong understanding of governance frameworks, planning, and risk management.\n• Excellent organisational skills with the ability to manage multiple priorities.\n• Advanced proficiency in MS Office tools (Excel, PowerPoint, Word) and project management software.\n• Strong analytical and problem-solving skills with attention to detail.\n• The ability to build effective relationships, constructively challenge information and communicate confidently with stakeholders at all levels.\n• Proactive and adaptable with a hands-on approach.\n• Attention to detail, the ability to work independently, and a commitment to delivering high-quality outputs.\n\nHow we will reward you\n• Great starting salary\n• Generous annual leave package\n• Access to a high quality pension scheme provided through USS\n• Supportive people policies (enhanced occupational sick pay and family friendly pay)\n• Financial contributions towards personal development and wellbeing\n• Health and wellbeing services, e.g. private healthcare, discounted gym membership\n• Learning and development opportunities\n• Employee volunteer days\n• Cycle to Work Scheme\n\nAbout us\nUniversities Superannuation Scheme (USS) was established in 1974 as the principal pension scheme for universities and other higher education institutions in the UK, working with around 330 employers for almost 599,000 members, with total assets of around £84 billion (March 2026). USSL is an equal opportunity employer and offers reasonable adjustments during recruitment.",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "Universities Superannuation Scheme Limited",
+"town": "Liverpool",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "range_crosses_general",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-18T18:27:31+00:00"
+},
+{
+"id": "gd-1010328910014",
+"source": "glassdoor",
+"title": "Ecommerce Fulfilment Analyst - 12 Month FTC",
+"company": "Pets at Home",
+"location": "Handforth, Cheshire (or Stafford Fulfilment Centre), hybrid",
+"salary": "£30k (Employer provided)",
+"salary_min": 30000,
+"salary_max": 30000,
+"posted_age": "24h",
+"first_seen": "2026-11-18",
+"email_date": "2026-11-18",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010328910014",
+"easy_apply": false,
+"fit_score": 60,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 12,
+"max": 20,
+"note": "Analyst title, but mostly carrier operations and Metapack admin"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 8,
+"max": 25,
+"note": "Root cause analysis and cross-functional work shown; no final-mile routing system, Metapack, order allocation, APIs or integrations"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 6,
+"max": 15,
+"note": "Asks for proven experience in order lifecycle allocation and final-mile systems"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "None stated"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 6,
+"max": 10,
+"note": "Related: M&S deliveries and replenishment; MSc last-mile delivery project"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 10,
+"max": 10,
+"note": "12-month maternity cover from December ends before January 2028"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 5,
+"max": 5,
+"note": "12-month maternity cover, hybrid"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "Fresh, not Easy Apply; FTC bonus"
+}
+],
+"confidence": "high",
+"recommendation": "maybe",
+"verdict": "A 12-month maternity cover that fits your timing, but it is mainly carrier operations and Metapack administration and asks for final-mile delivery systems experience you don't have. Right to work: fine; the contract starts in December and ends before January 2028.",
+"match_reasons": [
+"MSc project modelling 15-minute last-mile delivery zones with traffic and rider-capacity constraints",
+"Root cause analysis of process inefficiency at GDP Foundation",
+"KPI dashboards and performance reporting in Power BI (Visionize, GDP Foundation)",
+"Worked on deliveries and replenishment at M&S"
+],
+"gaps": [
+"Needs a move to Cheshire or Stafford (2-3 office days a week): check relocation costs against £30k",
+"Essential: experience with a final-mile routing system and order lifecycle allocation",
+"Wants Metapack (or similar) experience, system integration flows and basic API knowledge",
+"More logistics coordination than business analysis, so less BA experience for your CV"
+],
+"jd_summary": "Ecommerce Fulfilment Analyst covering maternity leave: run day-to-day carrier operations, monitor SLAs/KPIs, resolve delivery issues and claims, produce performance reports, drive improvement, and administer Metapack carrier integrations. Needs final-mile routing system and order allocation experience. 12-month FTC from December, up to £30,000, 39 hours, hybrid 2-3 days in Handforth or Stafford. Closes 27 Nov 2026. Apply via Glassdoor's 'Apply on employer site' (ref 41657).",
+"jd_full": "Full-time. Ref: 41657. Contracted hours: 39. Contract type: Fixed Term.\nLocation: Chester House, Epsom Ave, Handforth, Cheadle, Greater Manchester, SK9 3RN\nContract: 12 Month Maternity Cover\nSalary: Up to £30,000\nStart date: December\nHybrid: 2-3 days from the Handforth office or Stafford Fulfilment Centre.\n\nAbout the Role\nAs our Ecommerce Fulfilment Analyst, you'll help ensure customers receive their orders on time. Working closely with carrier partners and internal stakeholders, you'll coordinate day-to-day fulfilment, monitor delivery performance, improve service and resolve fulfilment issues. A key part of the role involves working with Metapack to manage carrier integrations, shipment tracking and delivery performance; previous experience with Metapack or similar is wanted.\n\nWhat you'll be doing\n• Manage day-to-day carrier operations, ensuring orders are dispatched and delivered on time.\n• Build strong relationships with carrier partners.\n• Monitor carrier performance against agreed SLAs and KPIs.\n• Investigate and resolve delivery issues, including delays, damages and lost shipments.\n• Work with internal teams to minimise fulfilment disruptions.\n• Ensure orders are processed accurately and within dispatch timelines.\n• Identify delivery risks and act to prevent service failures.\n• Manage claims, returns, proof-of-delivery requests and customer escalations.\n• Analyse delivery and fulfilment performance to improve efficiency and reduce costs.\n• Produce regular performance reports and support carrier review meetings.\n• Drive continuous improvement across fulfilment and delivery operations.\n• Maintain accurate operational records and ensure compliance with shipping requirements.\n\nAbout You\n• Experience working with a final mile routing management system.\n• Proven experience in order lifecycle allocation.\n• Experience working in or with cross-functional teams.\n• Ability to manage incident resolution, root cause analysis and issue escalation.\n• Strong understanding of final mile delivery.\n• Familiarity with system integration flows.\n• Basic knowledge of API interactions.\n\nEven if your skills and experience don't perfectly align, if you think you can make a unique contribution we want to hear from you.\nDate posted: 17-11-2026. Expiry date: 27-11-2026.",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "Pets at Home Ltd",
+"town": "Handforth",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "below_threshold",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-18T18:27:31+00:00"
+},
+{
+"id": "gd-1010328363114",
+"source": "glassdoor",
+"title": "PMO Analyst",
+"company": "UBDS Group",
+"location": "London, England",
+"salary": "£29k - £41k (Glassdoor Est.)",
+"salary_min": 29000,
+"salary_max": 41000,
+"posted_age": "24h",
+"first_seen": "2026-11-18",
+"email_date": "2026-11-18",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010328363114",
+"easy_apply": true,
+"fit_score": 56,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 12,
+"max": 20,
+"note": "PMO Analyst is a target family, but day-to-day planning, RAID and governance work isn't shown in the CV"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 12,
+"max": 25,
+"note": "Reporting/MI, stakeholder work and iterative delivery shown; no PMO, project plans or RAID logs"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 6,
+"max": 15,
+"note": "Wants 'experienced' PMO analysts with PMO or project support experience; CV has none in a PMO role"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "No qualifications stated"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 3,
+"max": 10,
+"note": "Government and public-sector technology programmes; no sector requirement stated"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 8,
+"max": 10,
+"note": "Permanent role; UBDS IT Consulting Ltd (group company) is a licensed sponsor"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Permanent, London"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 4,
+"max": 5,
+"note": "Posted 24h ago; Easy Apply -1"
+}
+],
+"confidence": "high",
+"recommendation": "maybe",
+"verdict": "PMO analyst supporting government technology and transformation programmes: project plans, RAID logs, governance boards, status reports and financial tracking. Your reporting and stakeholder work help, but it asks for hands-on PMO experience the CV doesn't show. Right to work: fine; permanent role at a licensed sponsor (UBDS IT Consulting Ltd), so you'd leave in January 2028 unless they sponsor you.",
+"match_reasons": [
+"Built and maintained KPI dashboards with data quality checks at GDP Foundation (status reports and MI)",
+"Power BI dashboards and reports for clients at Visionize Consultancy",
+"Backlog refinement and prioritisation in iterative delivery cycles; understanding of Waterfall, Agile and hybrid delivery controls",
+"MSc modules in Project Management and Stakeholder Management"
+],
+"gaps": [
+"Permanent role: you'd leave in January 2028 unless they sponsor you; answer honestly if asked",
+"Advert may need settled right to work or security clearance: government programmes often need vetting, so ask",
+"Needs a move to London: check relocation costs against the salary (no salary stated; Glassdoor estimates £29k-£41k)",
+"Essential: PMO/project support experience, maintaining project plans and dependencies, and RAID logs; none in the CV"
+],
+"jd_summary": "PMO analyst at UBDS (cloud, cyber, AI consultancy) supporting technology and transformation programmes across government and the public sector: maintain project plans, milestones and RAID logs, produce status reports and MI, support governance boards, financial and resource tracking, and coordinate meetings. Essential: PMO or project support experience, Agile/Waterfall/hybrid delivery. Permanent, London; salary not stated. Apply via Glassdoor Easy Apply.",
+"jd_full": "PMO Analyst, UBDS Group, London\n\nAt UBDS, we help organisations transform through cloud, cyber security, AI and digital innovation. As our PMO & Project Management capability continues to grow, we're looking for experienced PMO Analysts to support the successful delivery of technology and transformation programmes across Government and the wider public sector.\n\nThis is a hands-on role combining Project Management Office (PMO), project planning, governance and Project Support Office (PSO) responsibilities. You'll help ensure projects and programmes are effectively planned, monitored and coordinated, providing the structure and information needed to support successful delivery.\n\nWorking closely with Project Managers, Programme Managers, Delivery Leads and wider teams, you'll take ownership of defined PMO activities, maintain accurate delivery information and help manage risks, dependencies and priorities.\n\nWhat You'll Do\n• Support PMO activities across technology and transformation projects and programmes.\n• Develop, maintain and update project plans, milestones and delivery schedules.\n• Support integrated planning, dependency tracking and project scheduling.\n• Maintain RAID logs, ensuring risks, assumptions, issues and dependencies are accurately recorded and escalated.\n• Produce project and programme status reports, dashboards and management information.\n• Support project governance, including steering committees, delivery boards and assurance activities.\n• Track progress against agreed milestones, deliverables and project plans.\n• Identify emerging delivery risks, planning conflicts and issues, escalating where appropriate.\n• Support project financial tracking, resource planning and reporting.\n• Maintain project documentation, action logs, decision records and governance artefacts.\n• Coordinate meetings, planning sessions and project reviews.\n• Support project mobilisation, delivery and closure activities.\n• Work with delivery teams to ensure project information remains accurate and up to date.\n• Follow up actions and support the resolution of outstanding project activities.\n• Contribute to improvements in PMO processes, reporting and project controls.\n• Communicate project updates, risks and actions to relevant stakeholders.\n\nWhat We're Looking For\nWe're interested in candidates with experience across one or more of the following areas:\n\nPMO & Governance\n• Supporting PMO processes, reporting and project governance.\n• Maintaining RAID logs, action trackers and decision records.\n• Producing management information and project status reports.\n• Supporting project financials, resource tracking and delivery performance.\n• Coordinating governance meetings and maintaining project documentation.\n\nProject & Programme Planning\n• Developing and maintaining project plans, milestones and delivery schedules.\n• Tracking dependencies across projects or workstreams.\n• Monitoring project progress and identifying potential scheduling issues.\n• Supporting integrated planning and delivery forecasting.\n• Using project planning tools to maintain accurate schedules and reporting.\n\nProject Support Office (PSO)\n• Coordinating project activities, meetings and documentation.\n• Maintaining project records and delivery trackers.\n• Supporting project mobilisation and resource coordination.\n• Tracking actions and following up with stakeholders.\n• Providing day-to-day coordination and support to Project and Programme Managers.\n\nEssential Experience\n• Experience within PMO, Project Planning, Project Coordination or Project Support roles.\n• Good understanding of project governance, reporting and delivery controls.\n• Experience maintaining project plans, milestones and dependencies.\n• Experience managing RAID logs and tracking project actions.\n• Ability to produce accurate project reports and management information.\n• Strong organisational skills and attention to detail.\n• Experience working with Project Managers, delivery teams and stakeholders.\n• Ability to manage multiple priorities and take ownership of defined PMO activities.\n• Experience working within Agile, Waterfall or hybrid delivery environments.\n\nEmployee Benefits\n• Training and personal development options\n• Private medical cover for you and your spouse/partner (Vitality)\n• Discretionary bonus based on personal and company performance\n• 25 days holiday, plus birthday and work anniversary days, plus UK bank holidays\n• Electric vehicle leasing with salary sacrifice\n• Contributed pension scheme\n• Death in service cover\n\nUBDS Group is an equal opportunities employer.",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "UBDS IT CONSULTING LTD (group company)",
+"town": "Tunbridge Wells",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "range_crosses_new_entrant",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-18T18:27:31+00:00"
+},
+{
 "id": "gd-1010329352610",
 "source": "glassdoor",
 "title": "Data, Analytics and AI Senior Analyst - Digital",
@@ -902,6 +2577,119 @@
 "notes": "",
 "profile_basis": "master",
 "updated_at": "2026-11-18T13:26:37+00:00"
+},
+{
+"id": "gd-1010329737127",
+"source": "glassdoor",
+"title": "Junior BI Analyst",
+"company": "BW Legal",
+"location": "Leeds, England (on-site, 30-hour week)",
+"salary": "£26k (Employer provided)",
+"salary_min": 26000,
+"salary_max": 26000,
+"posted_age": "24h",
+"first_seen": "2026-11-18",
+"email_date": "2026-11-18",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010329737127",
+"easy_apply": true,
+"fit_score": 55,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 12,
+"max": 20,
+"note": "Junior BI/MI role: requirements and reporting, but also SQL automation and ETL"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 15,
+"max": 25,
+"note": "Numeracy, communication, Excel evidenced; T-SQL half; essential coding (R/Python) not met"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 15,
+"max": 15,
+"note": "Junior role, no years asked; projects count"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 10,
+"max": 10,
+"note": "Analytical degree asked; BSc Data Science and MSc Business Analytics"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 3,
+"max": 10,
+"note": "No legal or debt recovery link; not required"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 8,
+"max": 10,
+"note": "Permanent (not stated otherwise) at a licensed sponsor"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Permanent, Leeds: needs a move"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 4,
+"max": 5,
+"note": "Posted 24h; Easy Apply -1 (coding_essential gate: capped at 55)"
+}
+],
+"confidence": "high",
+"recommendation": "maybe",
+"verdict": "A genuine entry-level BI/MI role with requirements gathering and data quality work, but it lists hands-on coding in R, Python or MATLAB as essential and pays only £26k for a 30-hour week. Right to work: fine; permanent role at a licensed sponsor, starting January 2027.",
+"match_reasons": [
+"Gathered requirements and turned them into briefs at GDP Foundation, matching 'gathering user requirements' for MI",
+"KPI dashboards with data quality checks, matching investigating anomalies and data quality",
+"BSc Data Science and MSc Business Analytics meet the analytical degree asked for",
+"Excel pivot tables and lookups, a listed nice-to-have"
+],
+"gaps": [
+"Permanent role: you'd leave in January 2028 unless they sponsor you; answer honestly if asked",
+"Needs a move: check relocation costs against the salary (£26k for 30 hours in Leeds)",
+"Essential: experience using R, Python or MATLAB to process data; your Python was AI-assisted degree work only",
+"Role grows into SQL-based automation and ETL; your SQL is working knowledge only, and £26k is below the £33,400 new-entrant rate if you later needed sponsorship"
+],
+"jd_summary": "Junior BI Analyst in BW Legal's BI/MI team, Leeds: answer ad-hoc data requests, gather requirements for MI reporting, support SQL-based automation, check data quality, analyse operational and financial data, learn ETL. Needs an analytical degree and coding experience (R, Python or MATLAB). 30 hours, Mon-Fri 9-3 or 10-4, up to £26k, January 2027 start. Easy Apply on Glassdoor.",
+"jd_full": "Junior BI Analyst\nStarting salary up to £26,000 | 30-hour working week | January 2027 start\nJoin BW Legal's Business Intelligence and Management Information (BI/MI) team and turn your analytical skills into insight that helps the business make better decisions. You'll work on real business challenges: investigating trends, improving reporting and helping automate processes, contributing to projects from initial requirements through to delivery, with guidance from the team.\nA fast-paced role for someone who enjoys variety, takes ownership and wants to develop quickly. You don't need to arrive knowing everything; you do need curiosity, sound analytical foundations and the drive to keep improving.\n\nWhat you'll be doing\n• Responding to ad-hoc data requests from stakeholders, clarifying the question and presenting accurate, useful findings.\n• Gathering user requirements and helping create reporting and management information that answers real business needs.\n• Supporting the maintenance and improvement of SQL-based business process automation.\n• Investigating anomalies, checking data quality and helping resolve issues to improve confidence in reporting.\n• Maintaining existing MI reporting and supporting accurate, timely delivery for internal and external customers.\n• Analysing operational and financial data to uncover trends and explain what they mean for the business.\n• Building relationships across departments, communicating progress and helping colleagues get more value from BI and MI.\n• Learning to build end-to-end extract, transform and load (ETL) processes, with support from experienced colleagues.\n\nWhat you'll bring\n• A degree in a relevant analytical subject, such as maths, physics, computer science or engineering, or equivalent training or practical experience working with data.\n• Strong numerical and logical reasoning, attention to detail and an investigative approach to solving problems.\n• Experience using a coding language such as R, Python or MATLAB to process or analyse data. University, personal and work-based projects are all relevant.\n• Clear communication skills and confidence to ask questions and work across departments.\n• Ability to organise your work, adapt when priorities change and maintain accuracy at pace.\n• Resilience, openness to feedback and willingness to seek support.\n• A proactive attitude to learning.\nTell us about a project where you used data or code to investigate a problem, what you did and what you learnt.\n\nUseful, but not essential\n• Microsoft SQL Server Management Studio (SSMS) and querying data using T-SQL.\n• Additional experience of data processing or analysis using code.\n• Microsoft Excel skills, including pivot tables and charts.\n\nWorking pattern and pay\n• Six hours a day, 9am-3pm or 10am-4pm, Monday to Friday.\n• Starting salary up to £26,000 depending on experience, with salary reviews.\n\nBenefits (summary)\n• 23 days' leave plus bank holidays, birthday, Christmas Eve and New Year's Eve; flexible holiday policy\n• Attendance bonus, death in service cover, income protection, contributory pension\n• Learning and development allowance, study support for professional qualifications\n• Free parking, gym membership, on-site GP and physiotherapist, health cash plan\nBW Legal is a Disability Confident employer.",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "BW Legal Services Ltd",
+"town": "West Yorkshire",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "below_threshold",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-18T18:27:31+00:00"
 },
 {
 "id": "gd-1010328877242",
@@ -1453,6 +3241,337 @@
 "notes": "",
 "profile_basis": "master",
 "updated_at": "2026-11-18T13:26:37+00:00"
+},
+{
+"id": "gd-1010070259150",
+"source": "glassdoor",
+"title": "Business Analyst",
+"company": "Moneyfacts",
+"location": "Norwich, England (fully office based)",
+"salary": "",
+"salary_min": null,
+"salary_max": null,
+"posted_age": "24h",
+"first_seen": "2026-11-18",
+"email_date": "2026-11-18",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010070259150",
+"easy_apply": false,
+"fit_score": 30,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 20,
+"max": 20,
+"note": "Business analyst in an IT team: requirements gathering and prioritisation, matching the CV's BA work"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 19,
+"max": 25,
+"note": "Requirements, challenge, problem solving and communication shown; no workshop facilitation, financial products or project leadership"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 0,
+"max": 15,
+"note": "'Prefer 5 years previous experience in a similar role' listed as essential (experience gate: capped at 30)"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "No qualifications stated"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 3,
+"max": 10,
+"note": "Financial product data; financial products knowledge is only desirable and not in the CV"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 3,
+"max": 10,
+"note": "Permanent role; Moneyfacts isn't on the sponsor register"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Permanent, fully office based in Norwich"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "Posted 24h ago; applies on the employer site"
+}
+],
+"confidence": "high",
+"recommendation": "skip",
+"verdict": "Experienced business analyst role in Moneyfacts' IT team that asks for about 5 years in a similar role, workshop facilitation and leading IT projects. Too senior for now. Right to work: permanent role at an employer that isn't a sponsor, so a time-limited visa may count against you.",
+"match_reasons": [
+"Gathered, challenged and documented requirements directly with clients at Visionize Consultancy",
+"Defined the problem, requirements and business rules for BreakPoint and tested every rule before rollout",
+"Understanding of delivery controls in Waterfall, Agile and hybrid projects"
+],
+"gaps": [
+"Permanent role at an employer that isn't a licensed sponsor: lower chance with a time-limited visa",
+"Needs a move to Norwich (fully office based, no hybrid); salary not stated, so check relocation costs",
+"Prefers 5 years in a similar BA role and leading IT projects and a small team",
+"Must lead stakeholder workshops (CV shows no workshops); financial products knowledge desirable"
+],
+"jd_summary": "Experienced BA in Moneyfacts' IT team (financial product data), reporting to the Head of IT Delivery alongside another BA and three testers: gather and prioritise business requirements, plan with risks identified, lead the project team through delivery and support, and triage helpdesk requests. Prefers 5 years' experience; workshop facilitation essential. Permanent, full-time 37.5 hrs Mon-Fri, fully office based in Norwich; salary 'competitive'. Apply on the employer site via Glassdoor.",
+"jd_full": "Business Analyst, Moneyfacts, Norwich\n\nAbout us\nMoneyfacts Group plc is the UK's leading provider of retail financial product data and has been pioneering financial comparison technology for over 38 years. Moneyfacts' data is used by virtually every bank and building society in the UK, the Bank of England, Financial Conduct Authority, Financial Ombudsman Service, HM Treasury, Prudential Regulatory Authority and UK Finance.\n\nThe Role\nWe are looking for an experienced Business Analyst (BA) to join the Moneyfacts IT team to analyse business requirements and translate these into prioritised requirements. The successful applicant will then work with the development and test teams to shape, plan, develop and deliver changes to the business.\n\nThe role will report to the Head of IT Delivery, working with another BA and a team of three Software Testers to fulfil the requirements of both internal and external customers.\n\nThe Business Analyst will be responsible for:\n• Liaising directly with the business to understand the objectives and translate these into requirements that are prioritised based on value to the business.\n• Working with the relevant team to transform the gathered requirements into a plan, with all risks identified, and communicate that to all parties.\n• Leading the team for the duration of the project, and initial support period, ensuring work is prioritised, completed, documented, tested and delivered.\n• Investigating helpdesk requests to ensure details are complete and contain sufficient detail for prioritising, scheduling and development.\n\nSkills & Experience\nEssential:\n• Prefer 5 years previous experience in a similar role\n• Proven strong experience with requirement gathering\n• Ability to lead workshops with stakeholders, and facilitate discussions\n• Confident personality with excellent people skills, ability to build relationships\n• Strong oral and written communication skills, with ability to communicate technical information to a non-technical audience\n• Ability to take the lead on IT projects\n• Ability to challenge constructively when required\n• Experience working in Agile and Waterfall environments\n• Ability to adapt to different project methodologies as required\n• Excellent problem-solving skills\n• Organisational skills, with ability to effectively prioritise\n• Ability to understand complex problems and break them down into logical steps\n• Ability to work under pressure with an eye for detail and quality\n• Good team worker with the ability to work unsupervised\n\nDesirable:\n• An understanding of financial products and services\n• Experience in the Software Development Life Cycle\n• Experience working with project planning tools\n\nSalary\nCompetitive salary commensurate with experience\n\nHours\nFull time 37.5 hrs per week Monday-Friday\nNorwich\nFully office based, no remote/hybrid\n\nBenefits\n• 25 days holiday plus public holidays + up to 3 days Long Service entitlement\n• Birthday day off\n• Enhanced Workplace Pension\n• Employee Assistance Programme\n• GP24: free unlimited 24/7 access to a GP\n• Group Life Insurance\n• Training and development opportunities\n• Free car parking, electric vehicle charging points\n• Locker rooms with showers; fully air-conditioned offices\n• Access to discounted local bus travel",
+"sponsor_register": "not_found",
+"sponsor_match": "",
+"jd_sponsorship": "silent",
+"salary_check": "unknown",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-18T18:27:31+00:00"
+},
+{
+"id": "gd-1010329040125",
+"source": "glassdoor",
+"title": "AI Delivery Analyst",
+"company": "Barclays",
+"location": "London or Glasgow",
+"salary": "£36k - £50k (Glassdoor Est.)",
+"salary_min": 36000,
+"salary_max": 50000,
+"posted_age": "24h",
+"first_seen": "2026-11-18",
+"email_date": "2026-11-18",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010329040125",
+"easy_apply": false,
+"fit_score": 30,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 16,
+"max": 20,
+"note": "AI-enabled change/BA role, but at Vice President level"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 18,
+"max": 25,
+"note": "Built BreakPoint with Claude Code, requirements and backlog work shown; acceptance criteria and responsible-AI evaluation not shown"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 0,
+"max": 15,
+"note": "Vice President expectations: senior level (experience gate: capped at 30)"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "None stated"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 3,
+"max": 10,
+"note": "Investment banking markets; no sector link, not stated as essential"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 8,
+"max": 10,
+"note": "Permanent role at a licensed Skilled Worker sponsor"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Permanent, London or Glasgow"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "Posted 24h; employer site"
+}
+],
+"confidence": "high",
+"recommendation": "skip",
+"verdict": "AI Delivery Analyst in Barclays Markets Pre-Trade Technology, but the advert sets Vice President expectations (subject matter expert, leading multi-year work, coaching others), far above your level. Right to work: fine; permanent role at a licensed sponsor, so you'd leave in January 2028.",
+"match_reasons": [
+"Built BreakPoint at EE with AI coding tools (Claude Code), from requirements to rollout",
+"Defined requirements and business rules and tested them before release",
+"Backlog refinement and prioritisation in iterative delivery at GDP Foundation"
+],
+"gaps": [
+"Permanent role: you'd leave in January 2028 unless they sponsor you; answer honestly if asked",
+"One vacancy advertised across London and Glasgow (national competition); needs a move",
+"Vice President level: expects a subject matter expert who leads multi-year work and coaches others",
+"Wants measurable acceptance criteria and responsible-AI evaluation across risk and governance functions"
+],
+"jd_summary": "Barclays Markets Pre-Trade Technology (VP grade): turn business priorities into AI use cases, requirements, workflows and acceptance criteria; design, configure and test AI agents and copilots (Claude, Copilot); evaluate solutions for accuracy and responsible use; support Agile and AI adoption. Permanent, London or Glasgow; salary not stated. Ref JR-0000139963; apply on the Barclays careers site.",
+"jd_full": "AI Delivery Analyst\nDate live: 17/11/2026. Business area: Markets Pre Trade. Area of expertise: Change. Contract: Permanent. Reference: JR-0000139963\nBased in London or Glasgow.\n\nJoin Barclays Markets Pre-Trade Technology to help shape and accelerate the adoption of Agile Ways of Working using AI-powered capabilities. You will help translate business priorities into prioritised AI use cases, requirements and workflows, and contribute to the design, configuration, testing and continuous improvement of AI agents, copilots and automated processes. You will help evaluate solutions for accuracy, reliability, explainability and business suitability, with consideration of data privacy, information security and human oversight.\n\nEssential skills\n• Knowledge of AI agent and automation capabilities, especially Claude and Co-Pilot, with the ability to support discovery, design, configuration, testing, deployment and continuous improvement of AI-enabled solutions\n• Understanding of responsible AI, data privacy, information security and human oversight practices\n• Ability to translate business priorities into prioritised AI use cases, requirements, workflows and measurable acceptance criteria across business, technology, risk and governance functions\n\nHighly valued skills\n• Operating model and value stream assessment, platform engineering, DevSecOps, Agile adoption, product lifecycle practices, value measurement or business readiness\n• AI product lifecycle practices: backlog prioritisation, controlled releases, performance monitoring, user feedback\n• Stakeholder engagement and communication skills\n\nAccountabilities\n• Identify and analyse business problems and client requirements that require change\n• Develop business requirements; collaborate with stakeholders on solutions\n• Support business cases, feasibility studies and progress reports\n• Operational and process design; change management support including a traceability matrix\n\nVice President expectations\n• Contribute to or set strategy, drive requirements and make recommendations for change; plan resources, budgets and policies\n• If managing a team, define jobs and responsibilities and contribute to pay decisions\n• For an individual contributor, be a subject matter expert who guides technical direction, leads multi-year assignments and coaches less experienced specialists\n• Advise key stakeholders and senior management; manage and mitigate risks\n• Build and maintain trusting relationships with internal and external stakeholders",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "Barclays Execution Services Limited",
+"town": "London",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "range_crosses_general",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-18T18:27:31+00:00"
+},
+{
+"id": "nh-6598f98aa0",
+"source": "nhs-jobs",
+"title": "Senior Information Analyst",
+"company": "University Hospitals of Leicester NHS Trust",
+"location": "Leicester Royal Infirmary, Leicester LE1 5WW (across three hospitals)",
+"salary": "£39,959 to £48,117 a year",
+"salary_min": 39959,
+"salary_max": 48117,
+"posted_age": "Posted 18 Nov 2026",
+"first_seen": "2026-11-18",
+"email_date": "2026-11-18",
+"url": "https://www.jobs.nhs.uk/candidate/jobadvert/C9358-26-00001",
+"easy_apply": false,
+"fit_score": 30,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 16,
+"max": 20,
+"note": "Information/performance analyst: reporting and MI family, at senior level"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 10,
+"max": 25,
+"note": "Excel, data quality, stakeholders evidenced; SQL half; NHS systems, terminology and epidemiology not shown"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 0,
+"max": 15,
+"note": "Senior title; essential NHS analytical background (experience gate: capped at 30)"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 10,
+"max": 10,
+"note": "Degree meets the essential; desirables are extra"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 0,
+"max": 10,
+"note": "Essential: analytical experience in the NHS and NHS performance monitoring"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 10,
+"max": 10,
+"note": "Permanent; licensed sponsor and the advert welcomes sponsorship applicants"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Permanent, Leicester: needs a move"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "Posted today, NHS Jobs apply"
+}
+],
+"confidence": "high",
+"recommendation": "skip",
+"verdict": "A Band 6 senior information analyst post that needs NHS analytical experience, NHS performance monitoring knowledge and specialist statistical skills you can't yet show. Right to work: fine; permanent role at a licensed sponsor that welcomes sponsorship applications.",
+"match_reasons": [
+"KPI dashboards with data quality checks at GDP Foundation, matching data validation duties",
+"Excel (pivot tables, lookups) and Power BI reporting for clients at Visionize",
+"MSc Business Analytics (Distinction) meets the degree requirement"
+],
+"gaps": [
+"Permanent role: you'd leave in January 2028 unless they sponsor you; answer honestly if asked",
+"Needs a move: check relocation costs against the salary (Leicester)",
+"Senior post: essential NHS analytical background, patient information systems and NHS performance monitoring",
+"Essential specialist statistical/epidemiological techniques and proven SQL; your SQL is working knowledge only"
+],
+"jd_summary": "Band 6 Senior Information Analyst, Emergency and Specialist Medicine, University Hospitals of Leicester: monitor performance against targets, produce Trust Board and statutory returns (ICB, NHS England, CQC), validate reports and data quality, support senior managers across three hospitals. Needs NHS analytical experience and SQL/Excel. Permanent, full time, DBS check. Sponsorship applicants welcome. Closes 1 December 2026. Apply via NHS Jobs (ref 358-8435499-ESM).",
+"jd_full": "Senior Information Analyst - University Hospitals of Leicester NHS Trust\nClosing date: 1 December 2026\n\nJob summary\nAn opportunity has arisen within the Emergency and Specialist Medicine team for a Senior Information Analyst, to gain experience in a healthcare setting and develop skills and knowledge in healthcare data and improving patient safety and outcomes of care.\n\nMain duties\nThe post holder will provide high quality information and analysis to underpin performance monitoring, working under the direction of the Transformation Lead, mostly without direct supervision, across three hospitals in the Trust. Training and support will be given. Previous experience with Emergency and Specialist Medicine data is desirable.\n\nDetails\n• Date posted: 18 November 2026\n• Pay scheme: Agenda for Change, Band 6\n• Salary: £39,959 to £48,117 a year\n• Contract: Permanent\n• Working pattern: Full-time\n• Reference number: 358-8435499-ESM\n• Location: Leicester Royal Infirmary, Infirmary Square, Leicester LE1 5WW\n\nJob responsibilities\nPerformance Management and Information\n• Monitor performance against agreed targets, giving feedback and analytical support to senior managers.\n• As a lead specialist, attend management meetings to help source, interpret and analyse information.\n• Provide accurate information to stakeholders, including FOI responses, GPs, patients and external parties.\n• Maintain documentation of information processes, procedures and reporting systems.\n• Contribute to performance reports for the Trust Board, Trust Executive and governance forums.\n• Produce and submit mandatory and statutory returns (ICBs, NHS England, CQC, DHSC).\n• Support clinical governance, clinical audit, service evaluation and research.\n• Maintain robust data collection, validation and quality assurance processes.\nSenior Management Support and Report Validation\n• Review, validate and quality-assure performance reports and analytical outputs; investigate discrepancies and resolve data quality issues.\n• Help senior managers understand variation in performance and emerging risks.\nService Delivery and Development\n• Improve reporting systems; assess analytical tools and benchmarking resources; introduce new analytical techniques.\n• Plan and prioritise a complex workload; coach colleagues in performance and analytical skills.\n• Use the Trust's Intranet Report Library to publish performance information.\nResearch and Development\n• Develop and monitor KPIs; support research, service evaluations, audits and improvement projects.\n\nPerson Specification\nEssential\n• Degree or equivalent experience (3 years' experience in an information and data analysis environment, preferably in the NHS).\n• Analytical experience in an NHS background, ideally an Acute Trust.\n• Experience of data extraction and analysis; working in a large complex organisation; working across disciplines and levels.\n• Knowledge and experience of patient information systems and database management.\n• Proven technical expertise in data analysis such as Access, Excel, Business Objects, SQL.\n• Experience at a high level of influencing others to adopt improved technical practice.\n• Good knowledge of NHS information terminology and NHS performance monitoring processes.\n• Specialist knowledge and experience of statistical/analytical/epidemiological techniques.\n• Excellent communication, presentation and report writing skills; strong numeracy; attention to detail; data quality assurance methods.\nDesirable\n• Information Management or Statistics qualification; postgraduate diploma in Health Informatics or Management Studies.\n• Knowledge of NHS targets, structures and current issues.\n• Presenting data to senior management and large audiences.\n• QlikView/QlikSense; SPC; explaining statistical techniques.\n\nDisclosure and Barring Service check required.\nCertificate of Sponsorship: applications from job seekers who require Skilled Worker sponsorship are welcome and will be considered alongside all other applications.",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "University Hospitals of Leicester NHS Trust",
+"town": "Leicester",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "offers",
+"salary_check": "range_crosses_general",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-18T18:27:31+00:00"
 },
 {
 "id": "gd-1010327580456",
@@ -3954,6 +6073,51 @@
 "notes": "",
 "profile_basis": "master",
 "updated_at": "2026-11-18T18:23:06+00:00"
+},
+{
+"id": "gd-1010329676682",
+"source": "glassdoor",
+"title": "Strategic Data Analyst",
+"company": "Great Ormond Street Hospital Children's Charity",
+"location": "London, England (hybrid, 2 days in office)",
+"salary": "£43k (Employer provided)",
+"salary_min": 43000,
+"salary_max": 43000,
+"posted_age": "24h",
+"first_seen": "2026-11-18",
+"email_date": "2026-11-18",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010329676682",
+"easy_apply": true,
+"fit_score": null,
+"score_breakdown": [],
+"confidence": "high",
+"recommendation": "skip",
+"verdict": "Outside your target roles: a data analyst role whose essentials are strong SQL plus forecasting and predictive modelling on fundraising CRM data.",
+"match_reasons": [],
+"gaps": [
+"Permanent role at an employer that isn't a licensed sponsor: lower chance with a time-limited visa",
+"Essential: strong SQL on complex datasets (your SQL is working knowledge only)",
+"Essential: forecasting, predictive models and segmentation, plus fundraising/supporter CRM data"
+],
+"jd_summary": "Strategic Data Analyst in GOSH Charity's Insight & Performance team, London: forecasting, predictive modelling, supporter lifetime value and campaign analysis for Fundraising and Marketing. Needs strong SQL, modelling and CRM/fundraising data; Power BI. £42,700, hybrid (2 days in office), basic DBS. Closes 2 December 2026; Easy Apply on Glassdoor.",
+"jd_full": "Strategic Data Analyst - Great Ormond Street Hospital Children's Charity\nWe're looking for a Strategic Data Analyst to join our growing Insight & Performance team. You'll work on projects from forecasting and predictive modelling to supporter lifetime value, audience insight and understanding what drives engagement, helping move beyond reporting what happened to understanding why and what to do next.\nWe're looking for someone with strong SQL and analytical skills, a curious mind and the ability to turn complex findings into clear recommendations.\n\nSalary\n£42,700 per annum; hybrid working with a minimum of 2 days per week in the office. Salaries are not offered above the advertised rate.\n\nKey Responsibilities\n• Deliver strategic analysis that helps Fundraising and Marketing teams understand performance, identify opportunities and make informed decisions.\n• Develop forecasts, predictive models and segmentation approaches to understand supporter behaviour, lifetime value and opportunities for growth.\n• Analyse fundraising campaigns and audience performance, identifying trends, risks and opportunities.\n• Work with stakeholders across the charity to turn complex data into clear, actionable recommendations.\n• Use insight to support business planning, investment decisions and prioritisation of fundraising activity.\n• Evaluate campaigns and experiments.\n• Work closely with Selections, Reporting and Data Engineering colleagues to improve audience targeting.\n• Explore new analytical techniques and approaches.\n\nSkills, Knowledge and Expertise\n• Strong SQL skills, with experience analysing and interrogating complex datasets.\n• Experience delivering analysis that informs business decisions.\n• Experience developing analytical models, forecasts, segmentation or predictive approaches.\n• Strong analytical and problem-solving skills.\n• Experience working with CRM data and analytical tools to understand customer, supporter or audience behaviour.\n• Experience using data visualisation tools such as Power BI.\n• Excellent communication and stakeholder management skills.\n• A curious and proactive approach.\n• Experience working with fundraising or supporter data.\n\nDBS: a basic DBS check is required.\nHow to apply: short application form via the apply button. Closing date: 2 December 2026; applications reviewed on an ongoing basis and the role may close early.\nBenefits: 30 days' annual leave plus bank holidays, flexible working, enhanced pension, life assurance, health and wellbeing schemes.",
+"sponsor_register": "not_found",
+"sponsor_match": "",
+"jd_sponsorship": "silent",
+"salary_check": "meets_general",
+"recruiter": false,
+"decision": "skipped",
+"decided_at": "",
+"status": "skipped",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-18T18:27:31+00:00",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-18T18:27:31+00:00"
 },
 {
 "id": "gd-1010327489081",
