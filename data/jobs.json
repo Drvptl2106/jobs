@@ -1,5 +1,903 @@
 [
 {
+"id": "gd-1010329162691",
+"source": "glassdoor",
+"title": "URBN Junior Analyst",
+"company": "URBN (PA)",
+"location": "London, England",
+"salary": "£35k - £62k (Glassdoor Est.)",
+"salary_min": 35000,
+"salary_max": 62000,
+"posted_age": "24h",
+"first_seen": "2026-11-18",
+"email_date": "2026-11-18",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010329162691",
+"easy_apply": false,
+"fit_score": 75,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 12,
+"max": 20,
+"note": "Junior analyst in commercial finance: BI dashboards, reporting and process improvement fit, but half the duties are accruals and management accounts"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 18,
+"max": 25,
+"note": "Large-data analysis, Power BI (Qlik accepted as alternative), learning new tools (GA4), stakeholder work and process improvement shown; advanced Excel and PowerPoint only partly evidenced; no Hyperion/Essbase or finance commentary"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 15,
+"max": 15,
+"note": "Junior role, no years asked"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "No qualification stated"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 6,
+"max": 10,
+"note": "Retail: M&S Foods store work, but not retail finance"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 8,
+"max": 10,
+"note": "Permanent; URBN UK Ltd is a licensed Skilled Worker sponsor (A rating)"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Permanent; London means a move"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "Fresh (24h), applied on URBN's own site, not Easy Apply"
+}
+],
+"confidence": "high",
+"recommendation": "apply",
+"verdict": "A junior analyst post in URBN's commercial finance team (Urban Outfitters, Anthropologie, Free People) running the store labour-scheduling model and moving Excel reports into Qlik dashboards; your Power BI, KPI dashboard and process work fit, though half the job is management accounts and month-end accruals. Right to work: fine; permanent role at a licensed sponsor.",
+"match_reasons": [
+"Built Power BI dashboards and reports of client data as a freelance BA at Visionize, matching 'build and maintain dashboards yourself' (Qlik or Power BI accepted)",
+"KPI dashboards with data quality checks at the GDP Foundation fit 'own the data in the model: check accuracy and integrity'",
+"BreakPoint at EE: workforce/break-time tool built with AI coding tools, close to 'using AI to automate store-facing reporting' and workforce management",
+"M&S Foods store work gives retail context; pricing and cost analysis for Visionize clients"
+],
+"gaps": [
+"Permanent role: you'd leave in January 2028 unless they sponsor you; URBN is licensed, so ask",
+"Needs a move: London (Brick Lane) from Newcastle; check relocation costs against the salary",
+"Unstated salary: Glassdoor estimates £35k-£62k",
+"Commercial finance duties (month-end accruals, P&L commentary, budgeting) and Qlik/Hyperion aren't on your CV; advanced Excel is essential"
+],
+"jd_summary": "Junior Analyst in URBN's European commercial finance team, London head office: maintain the retail labour-scheduling model for Anthropologie and Free People, weekly payroll vs budget reporting, move Excel reports into Qlik, plus wholesale/franchise management accounts, accruals, forecasts and budgets. Needs advanced Excel, PowerPoint, Qlik or Power BI, large-data analysis. Flexible start/finish times. Apply on the employer's site: https://homeoffice-eu-urbn.icims.com/jobs/41929/urbn-junior-analyst/job",
+"jd_full": "URBN – Junior Analyst. London (European Head Office). Commercial finance team.\n\nAbout Us\nURBN UK Limited is part of the URBN Group, a global retailer, with its European Head Office located in London. Its retail offering in Europe takes the form of three brands. With stores in more than 10 European countries and a strong e-commerce presence.\n\nRole Summary\nWe are looking for a data-driven individual looking to advance their career in a dynamic, fashion-forward retail environment within a commercial finance team, with a view toward business partnering across functional teams.\nAs our Junior Analyst you will support two key business areas: workforce management for our UK/EU retail business and management accounts for our third-party channels (franchise and wholesale).\nThe main objective of this role is to champion financial discipline, challenge existing processes, and build BI and AI solutions that improve how we plan and report. Delivering timely, accurate insights to enable effective, profit-focused business decisions is fundamental to this position.\n\nWhat You'll Be Doing\nWorkforce Management\n• Support the continued development and implementation of the labour scheduling model in UO, AN and FP across the UK and Europe, working with your line manager, Brand Finance and Retail Operations.\n• Own the data in the model: maintain and update inputs, check accuracy and integrity, and generate accurate weekly scheduling hours.\n• Progress toward leading the model for two brands (AN and FP, with secondary support for UO as required).\n• Deliver timely, value-add reporting (weekly, monthly, quarterly) covering store payroll performance (hours and spend) against budget and forecast.\n• Support the monthly forecast and the annual budgeting cycle, ensuring labour planning aligns with scheduling model outputs and finance objectives across UO, AN and FP.\n• Manage the upload of monthly labour hours into the Live Ledger (our financial reporting system), ensuring data accuracy and integrity.\n• Improve existing reporting and move Excel-based reports into Qlik, building and maintaining dashboards yourself, and using AI to automate and enhance store-facing reporting.\n• Build strong relationships with brand finance and non-finance contacts, explaining model outputs and challenging assumptions where needed.\n• Collaborate with the North America team to share best practice and standardise global process efficiencies.\n• Act as the key operational liaison between HRIS/BI teams and Workforce Management.\nFinancial\n• Review and validate monthly actuals and calculate month-end accruals for line manager review.\n• Produce clear commentary and performance reports (monthly and quarterly) for wholesale and franchise management accounts, from top-line revenue to operating income.\n• Support the monthly forecasting cadence, including financial model maintenance and system data uploads.\n• Support the annual budgeting and long-range planning (LRP) processes across full channel P&Ls.\n• Identify opportunities to streamline reporting cycles through continuous process improvement and better use of systems.\n• Provide ad hoc analytical support and cover routine line manager tasks as required.\n• Deliver financial analysis and decision support to cross-functional business partners.\n\nWhat You'll Need\n• Passion for developing a career within a fast-paced retail finance environment\n• Demonstrated track record of analysing large data sets or a solid background in accounting and commercial finance\n• Advanced Microsoft Excel skills and strong PowerPoint skills\n• Experience with Qlik, or a proven ability to learn and build in a BI tool such as Qlik or Power BI\n• Experience with financial systems such as Hyperion HFM, Essbase or MicroStrategy is desirable\n• Proven track record of quickly adopting new software tools and reporting platforms\n• Strong ability to translate complex financial concepts into clear insights for non-finance partners\n• Excellent interpersonal and communication skills\n• Strong ability to prioritise effectively and manage stakeholder expectations, with a focus on continuous process improvement\n\nThe Perks\n• Work-life balance: flexible start and finish times, bring your dog to work.\n• Wellbeing: Employee Assistance Program, free gym, private medical insurance.\n• Employee discount: up to 40% off at all URBN brands.\n• Community: one paid day to volunteer or fundraise for a charity.\n• Travel: cycle to work scheme, season ticket loan.\n• Continued development: structured support and ongoing learning opportunities.\n\nURBN is an Equal Opportunities Employer committed to diversity and inclusion.\n\nPay: not stated by the employer (Glassdoor estimate £35k-£62k).",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "URBN UK LTD (Divisional brands Urban Outfitters and Anthropologie)",
+"town": "London",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "range_crosses_general",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-18T08:29:09+00:00"
+},
+{
+"id": "gd-1010328675106",
+"source": "glassdoor",
+"title": "Business Analyst – Pharmacy Services",
+"company": "Lalitha Consulting Ltd",
+"location": "Durham, England",
+"salary": "£48k - £53k (Employer provided)",
+"salary_min": 48000,
+"salary_max": 53000,
+"posted_age": "24h",
+"first_seen": "2026-11-18",
+"email_date": "2026-11-18",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010328675106",
+"easy_apply": true,
+"fit_score": 74,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 20,
+"max": 20,
+"note": "Business analyst: requirements, process mapping, data analysis, UAT and reports, as shown in your BA work"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 19,
+"max": 25,
+"note": "Requirements gathering, process mapping, Excel analysis and presenting, Power BI and retail shown; change management partial; no BCS/CBAP, NHS pharmacy knowledge or formal UAT coordination"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 6,
+"max": 15,
+"note": "Asks for at least two years in BA or process improvement; CV shows about 1.5 years (Visionize, GDP Foundation, BreakPoint)"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 6,
+"max": 10,
+"note": "MSc Business Analytics and BSc Data Science meet the degree; no BCS/CBAP (desirable)"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 6,
+"max": 10,
+"note": "Pharmacy/healthcare not on CV; retail is listed as desirable and you have M&S"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 10,
+"max": 10,
+"note": "Permanent; Lalitha Consulting Ltd is a licensed Skilled Worker sponsor and the advert offers UK visa sponsorship"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Permanent; Durham (Brandon) is commutable from Newcastle; office-based with North East pharmacy visits"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 4,
+"max": 5,
+"note": "Fresh (24h); Easy Apply -1"
+}
+],
+"confidence": "medium",
+"recommendation": "apply",
+"verdict": "On paper a close BA match (requirements, process mapping, UAT, Power BI) near Newcastle with sponsorship offered, but the employer appears to run a single community pharmacy (Brandon Pharmacy), so a £48k-£53k BA post there is unusual: check it is a genuine role before investing time, and never pay for sponsorship. Right to work: fine; permanent role at a licensed sponsor that offers sponsorship.",
+"match_reasons": [
+"Gathered and documented requirements and mapped processes with teams at the GDP Foundation, the advert's core essential",
+"BreakPoint at EE: defined requirements and business rules, tested every rule before rollout and walked the team through it, matching 'UAT and staff training'",
+"Root cause analysis of processes and proposed delivery changes at the GDP Foundation fit 'recommend improvements' and 'monitor results'",
+"Power BI dashboards (Visionize) and M&S retail experience are both listed as desirable"
+],
+"gaps": [
+"Permanent role: you'd leave in January 2028 unless they sponsor you; they offer sponsorship, so ask what it involves",
+"Legitimacy check: Lalitha Consulting appears to operate one pharmacy (Brandon Pharmacy, DH7 8PL), yet the advert promises a £48k-£53k BA with bonus and sponsorship; ask about the team and real projects, and never pay any fee for a visa or certificate",
+"Asks for at least two years in business analysis or process improvement; your CV shows about 1.5",
+"No pharmacy, NHS or healthcare information governance experience, and no BCS/CBAP; Easy Apply on Glassdoor"
+],
+"jd_summary": "Business Analyst for a Durham pharmacy business: map prescription, stock and NHS/private service processes, gather requirements, analyse volumes and staffing, support new systems with UAT and training, write reports and user guides. Essential: relevant degree, 2+ years BA/process improvement, Excel, change management. Permanent, Mon-Fri 9-6, office-based with North East pharmacy visits; £48k-£53k plus bonus; UK visa sponsorship listed. Apply via Glassdoor Easy Apply with CV and a short statement giving one improvement example.",
+"jd_full": "Business Analyst – Pharmacy Services. Lalitha Consulting Ltd.\nLocation: Durham, mainly office-based, with occasional pharmacy visits across the North East\nSalary: £48,000–£53,000 per year, depending on experience, plus performance bonus\nJob type: Full-time, permanent\nHours: Monday to Friday, 9:00am–6:00pm\n\nAbout the role\nWe are looking for a Business Analyst to help improve operations and service delivery across our pharmacy business.\nYou will work with pharmacy teams and management to understand business needs, analyse performance and develop practical improvements to systems and processes. Your work will help improve efficiency, support compliance and enhance patient care.\nA pharmacy qualification is not required.\n\nKey responsibilities\n• Work with pharmacy teams to identify operational challenges and opportunities for improvement.\n• Review and map processes, including prescription handling, stock management and NHS and private services.\n• Gather and document business requirements for changes to systems and working practices.\n• Analyse data on prescription volumes, staffing, stock and service uptake.\n• Recommend improvements based on costs, benefits, risks and patient safety.\n• Support the introduction of new systems and processes, including user acceptance testing and staff training.\n• Prepare clear reports, process maps and user guidance.\n• Monitor results and recommend further improvements.\n• Work with relevant leads to ensure changes meet company policies, pharmacy standards and data protection requirements.\n\nAbout you\nEssential:\n• A degree in business, information management, healthcare management, data science or a related subject.\n• At least two years' experience in business analysis, process improvement or a similar role.\n• Experience gathering business requirements and mapping processes.\n• Strong analytical skills, with confidence using Excel and presenting findings.\n• Clear communication skills and the ability to work with staff at all levels.\n• An understanding of project delivery and change management.\n• Strong organisational skills and attention to detail.\n• Willingness to travel to pharmacy sites across the North East.\nDesirable:\n• Experience in pharmacy, healthcare, retail or public services.\n• A business analysis qualification, such as BCS or CBAP.\n• Experience with Power BI, Tableau or pharmacy management systems.\n• Knowledge of NHS pharmacy services and healthcare information governance.\n• Experience coordinating user acceptance testing or preparing staff training materials.\n\nWhat we offer\n• Competitive salary and performance bonus.\n• Hybrid working arrangements.\n• Company pension and annual leave.\n• Support for professional development and relevant qualifications.\n• Enhanced maternity and paternity provisions.\n• Opportunities to progress into senior business analysis or pharmacy transformation roles.\n\nHow to apply\nPlease submit your CV and a short covering statement outlining your relevant experience and an example of a process or service improvement you have supported.\n\nPay: £48,000.00-£53,000.00 per year\nBenefits:\n• Free or subsidised travel\n• On-site parking\n• UK visa sponsorship\nWork Location: In person",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "Lalitha Consulting Ltd",
+"town": "Durham",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "offers",
+"salary_check": "meets_general",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-18T08:29:09+00:00"
+},
+{
+"id": "gd-1010328573325",
+"source": "glassdoor",
+"title": "Media Analyst Residency Program",
+"company": "VaynerMedia",
+"location": "London, England",
+"salary": "£24k - £28k (Glassdoor Est.)",
+"salary_min": 24000,
+"salary_max": 28000,
+"posted_age": "6h",
+"first_seen": "2026-11-18",
+"email_date": "2026-11-17",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010328573325",
+"easy_apply": true,
+"fit_score": 74,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 8,
+"max": 20,
+"note": "Entry-level media analyst: campaign set-up and optimisation, A/B tests and client reporting; adjacent to reporting analyst work"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 22,
+"max": 25,
+"note": "Problem solving, juggling several projects, organisation, detail and teamwork shown; Excel pivots skills-list only, no macros; A/B tests close to your BreakPoint pilot design"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 15,
+"max": 15,
+"note": "Entry-level residency with training and mentoring"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "No qualification stated"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 3,
+"max": 10,
+"note": "No media or advertising agency work; GA4 web tracking for a client is the nearest link; training provided"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 10,
+"max": 10,
+"note": "Residency runs 11 Jan - 9 Apr 2027, ends well before January 2028; VaynerMedia is a licensed sponsor"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Fixed-term residency shorter than 6 months (dates given are about 3 months), London, 4 days in office"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "Posted 6h ago; Easy Apply -1; fixed-term +1"
+}
+],
+"confidence": "high",
+"recommendation": "apply",
+"verdict": "A paid entry-level residency in VaynerMedia's London media team with training and a chance of a full-time role: the bar is low and your analysis and reporting fit, but it is ad-campaign work rather than business analysis and pay is likely low for London. Right to work: fine; the residency ends in April 2027, well before January 2028, and VaynerMedia is a licensed sponsor if it turns permanent.",
+"match_reasons": [
+"A/B testing and measurement: designed a before-and-after pilot for BreakPoint at EE",
+"Client reporting and insights: Power BI dashboards and reports for Visionize clients",
+"Web analytics: set up Google Analytics 4 tracking for a Visionize client",
+"Creative and analytical: co-designed a leaderboard game and live dashboard at M&S"
+],
+"gaps": [
+"Needs a move to London: salary isn't stated (Glassdoor est. £24k-£28k), which is tight for London rent; check costs",
+"Residency is only about 3 months (11 Jan - 9 Apr 2027) and is media buying, not business analysis",
+"Advanced Excel with macros is asked for; your CV shows pivot tables and lookups, not macros",
+"No hands-on experience with paid ad platforms (Meta, Google Ads, TikTok)"
+],
+"jd_summary": "Media Analyst Resident at VaynerMedia, London: entry-level training programme (11 Jan - 9 Apr 2027) with mentoring and live campaigns, and potential to go full-time afterwards. Set up and optimise digital ad campaigns, help with media planning, run A/B tests and write client reports. Wants advanced Excel (pivots, macros). In office 4 days a week; must be authorised to work in the UK. Salary not stated (Glassdoor est. £24k-£28k). Easy Apply via Glassdoor; no separate employer posting found.",
+"jd_full": "We're VaynerMedia! We are a contemporary global creative and media agency, independently owned, founded in 2009, with offices in London, Amsterdam, New York, Los Angeles, Singapore, Tokyo, Sydney, Bangkok, Kuala Lumpur and Mexico City. In EMEA we are 250+ people servicing multiple brands across the region.\n\nHere's the role\nMedia Analyst Resident is an entry-level position in the media team that partakes in a six-month extensive programme. This programme runs from Jan 11 - April 9 in 2027 with a potential to go full-time immediately following the residency.\nWe offer an extensive training, mentorship and hands-on job training and a chance to work on live projects or campaigns.\n• Setup and daily management of advertising campaigns across various digital platforms\n• Ongoing, real-time optimisation of live media to ensure client goals are met and/or exceeded\n• Provide media planning assistance for upcoming campaigns, helping determine platforms to run on, audiences to target, creative strategies to implement, and more\n• Including the setup, implementation and measurement of various controlled A/B tests\n• Assist with client-facing campaign reporting and write-ups to ensure relevant metrics and insights are shown\n• Constantly work to improve campaign performance, insights collection and takeaways, and generally strive to over-deliver to clients\n\nWhat we know leads to success\n• Advanced skills in Excel including pivot tables and macros\n• Ability to problem solve and think critically\n• Proven record of managing multiple projects at once\n• Ability to stay highly organised and efficient in a fast-paced, rigorous work environment\n• You thrive in a dynamic, fast-paced, high-energy environment\n• You are both a creative and analytical person\n• You are detail-oriented and organised\n• You want to have an impact and feel passionate about the work that you do\n• You are driven and hungry for success, and always want to learn more\n• You are a team player and enjoy collaboration\n\nBenefits\n• Unlimited holiday + 1 day birthday leave\n• YuLife (online discount platform)\n• Enhanced parental leave\n• Unlimited coaching sessions\n• Cycle to work scheme\n• Employee Assistance Programme\n• Cash plan with Medicash\n• Virtual GP and health helplines\n• 2 weeks work from anywhere\n• Life assurance, income protection, group personal pension\n\nVaynerMedia is an Equal Opportunity Employer.\n\nCandidates must be authorised to work in the UK. This role is based out of our London office with the expectation to work from the office 4 days a week.\n\nBase pay: £24k - £28k/yr (Glassdoor Est.)",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "VAYNERMEDIA LIMITED",
+"town": "London",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "right_to_work_required",
+"salary_check": "below_threshold",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-18T08:29:17+00:00"
+},
+{
+"id": "gd-1010328494351",
+"source": "glassdoor",
+"title": "Business and Research Analyst",
+"company": "Mazon Global Limited",
+"location": "Sunderland, North East England, England",
+"salary": "£42k (Employer provided)",
+"salary_min": 42000,
+"salary_max": 42000,
+"posted_age": "24h",
+"first_seen": "2026-11-18",
+"email_date": "2026-11-18",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010328494351",
+"easy_apply": true,
+"fit_score": 73,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 14,
+"max": 20,
+"note": "Market/research analyst (a target role) but much of it is business development: finding tenders, projects and prospective clients"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 19,
+"max": 25,
+"note": "Market, competitor and pricing analysis (Visionize), mixed-methods research (dissertation), reports, presenting, Excel/Power BI shown; no UK construction knowledge, procurement or tendering"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 15,
+"max": 15,
+"note": "No years required; previous research experience only preferred"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 10,
+"max": 10,
+"note": "MSc Business Analytics meets 'business or another relevant discipline'"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 0,
+"max": 10,
+"note": "Requires a good understanding of the UK construction industry; CV has none"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 8,
+"max": 10,
+"note": "Permanent; Mazon Global Limited is a licensed Skilled Worker sponsor (A rating); advert silent"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Permanent; hybrid in Sunderland, commutable from Newcastle"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 4,
+"max": 5,
+"note": "Fresh (24h); Easy Apply -1"
+}
+],
+"confidence": "medium",
+"recommendation": "apply",
+"verdict": "A market and research analyst post near Newcastle that fits your Visionize market, competitor and pricing work, but it needs UK construction knowledge and the employer looks doubtful: a construction firm incorporated in April 2025 with no website found, a generic advert and a salary set just above the £41,700 sponsorship threshold. Right to work: fine; permanent role at a licensed sponsor, but check the firm is genuine first.",
+"match_reasons": [
+"Produced market and competitor insights, and pricing and cost analysis, for clients as a freelance BA at Visionize",
+"MSc EV market strategy project: assessed demand and investment with sales data and financial modelling, then presented recommendations",
+"MSc dissertation used mixed methods, matching 'interpret quantitative and qualitative information'",
+"Excel and Power BI dashboards (Visionize, GDP Foundation) are listed as preferred tools"
+],
+"gaps": [
+"Permanent role: you'd leave in January 2028 unless they sponsor you; Mazon is licensed, so ask",
+"Legitimacy check: Companies House shows Mazon Global Limited was only incorporated on 23 April 2025 (building development and construction codes), no company website turned up, the advert is generic, and £42k sits just above the £41,700 Skilled Worker threshold; ask what projects they run and never pay any fee",
+"Requires a good understanding of the UK construction industry, procurement and tendering; your CV shows none",
+"Much of the role is business development (finding tenders and prospective clients); Easy Apply on Glassdoor"
+],
+"jd_summary": "Business and Research Analyst for a Sunderland construction company: research the UK construction market, competitors, pricing and regulation; identify projects, tenders and prospective clients; write market intelligence reports and recommendations for senior management; keep research databases. Needs a business/economics degree, research and report-writing skills and UK construction knowledge. Permanent, hybrid in Sunderland, £42,000. Apply via Glassdoor Easy Apply; no employer site found.",
+"jd_full": "Business and Research Analyst. Mazon Global Limited, Sunderland.\n\nOverview\nAs a Business and Research Analyst, you will be responsible for researching the UK construction market, analysing industry trends and identifying commercial opportunities to support the company's strategic growth and business development objectives.\nYou will gather, evaluate and interpret market, competitor and commercial information to provide evidence-based insights that inform management decisions. Working closely with senior management and relevant stakeholders, you will monitor developments within the construction sector, identify potential projects and tender opportunities, and prepare comprehensive market intelligence reports to support business planning, competitiveness and sustainable growth.\n\nDuties and Responsibilities\n• Research the UK construction market, industry trends, regulatory developments and emerging commercial opportunities to identify areas for business growth.\n• Analyse competitor activities, market demand, pricing trends and sector performance to assess the company's market position and inform strategic business planning.\n• Identify potential construction projects, procurement opportunities, tender opportunities and prospective clients to support business development and market expansion.\n• Gather, evaluate and interpret commercial, economic and industry data using appropriate research and analytical methods to identify market patterns and business opportunities.\n• Prepare detailed market intelligence reports, research summaries and commercial assessments, presenting findings and recommendations to senior management.\n• Monitor changes in the construction industry, including infrastructure investment, housing development, construction costs and market conditions, assessing their potential impact on the business.\n• Evaluate market opportunities, assess commercial risks and provide research-based recommendations to support informed management decisions.\n• Maintain and develop relevant market research databases, competitor information and industry intelligence to support ongoing business analysis.\n• Collaborate with management and relevant stakeholders to identify research requirements, assess business needs and translate findings into practical commercial recommendations.\n• Recommend opportunities for business diversification, improved competitiveness and sustainable long-term growth within the UK construction sector.\n\nQualifications and Experience\nRequired:\n• A degree in Business Management, Business Administration, Economics, Market Research, Project Management or another relevant discipline.\n• Demonstrable understanding of business research, market analysis, commercial evaluation and data interpretation.\n• Ability to research and analyse industry information, identify market trends and evaluate commercial opportunities.\n• Strong analytical, report-writing and presentation skills, with the ability to communicate research findings clearly.\n• Good understanding of the UK construction industry, its commercial environment and market dynamics.\n• Ability to interpret quantitative and qualitative information and develop evidence-based recommendations.\n• Strong organisational, problem-solving and stakeholder engagement skills.\nPreferred:\n• Previous experience in business research, market intelligence, commercial analysis or strategic business analysis.\n• Familiarity with construction procurement processes, tendering, project pipelines and commercial opportunities.\n• Experience using Microsoft Excel, Power BI, Tableau or other business intelligence and data analysis tools.\n• Knowledge of construction market information, industry publications, economic indicators and sector research sources.\n• Experience preparing market research reports, competitor assessments and commercial opportunity evaluations.\n\nKey Purpose of the Role\nThe primary purpose of this position is to provide reliable construction-sector market intelligence and commercial research that enables the company to identify new opportunities, understand competitive conditions, make informed strategic decisions and achieve sustainable business growth.\n\nPay: £42,000.00 per year\nBenefits:\n• Casual dress\n• Company events\n• Employee discount\n• Employee mentoring programme\n• On-site parking\n• Sick pay\n• Work from home\nWork Location: Hybrid remote in Sunderland (Tyne and Wear, North East Region)",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "Mazon Global Limited",
+"town": "Sunderland",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "meets_general",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-18T08:29:09+00:00"
+},
+{
+"id": "gd-1010328685451",
+"source": "glassdoor",
+"title": "Digital Finance Associate",
+"company": "Munich Health",
+"location": "London, England",
+"salary": "£26k - £46k (Glassdoor Est.)",
+"salary_min": 26000,
+"salary_max": 46000,
+"posted_age": "Just posted",
+"first_seen": "2026-11-18",
+"email_date": "2026-11-17",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010328685451",
+"easy_apply": false,
+"fit_score": 67,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 17,
+"max": 20,
+"note": "Finance transformation analyst: process review, automation, dashboards, testing and data controls; finance-specific"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 19,
+"max": 25,
+"note": "Power BI, data quality checks, process improvement and stakeholder work shown; Power Query skills-list only; no finance/actuarial background or insurance"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 11,
+"max": 15,
+"note": "Associate role working under guidance; Glassdoor tags it experienced level"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 2,
+"max": 10,
+"note": "Asks for finance or actuarial study/experience (accountant/actuary desirable); MSc Business Analytics is related but not finance"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 3,
+"max": 10,
+"note": "No insurance or financial services work; advert encourages applicants who don't meet every requirement"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 7,
+"max": 10,
+"note": "Permanent; group's UK company Munich Re UK Services Ltd is a licensed sponsor (check it is the employer)"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Permanent role, London hybrid"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "Just posted, direct employer, not Easy Apply"
+}
+],
+"confidence": "high",
+"recommendation": "maybe",
+"verdict": "A finance-transformation analyst role at Munich Re's specialty insurance arm: reviewing processes, building dashboards and data controls fits your BA and Power BI work, but it wants a finance or actuarial background you don't have. Right to work: fine; permanent role where the group's UK services company is a licensed sponsor, so you'd leave in January 2028 unless they sponsor you.",
+"match_reasons": [
+"Process review and automation: root-cause analysis and proposed process changes at GDP Foundation",
+"Dashboards and reports: Power BI dashboards for Visionize clients and KPI dashboards with quality checks at GDP",
+"Scoping, building and testing a solution: BreakPoint at EE, every business rule tested before rollout",
+"Presenting to non-specialists: presented BreakPoint to the team with a slide deck"
+],
+"gaps": [
+"Permanent role: you'd leave in January 2028 unless they sponsor you; answer honestly if asked",
+"Needs a move to London: salary isn't stated (Glassdoor est. £26k-£46k), so check relocation costs",
+"Finance or actuarial qualification/experience is expected; your CV has none",
+"General insurance experience preferred; no financial services work on your CV"
+],
+"jd_summary": "Permanent Digital Finance Associate at Munich Re Specialty - Global Markets, London, full-time hybrid. Supports finance and actuarial transformation: review processes for automation, help design, build and test dashboards and reports, run data controls, analyse financial data and support stakeholders through rollout. Wants Excel (Power Query/Pivot), Power BI exposure and a finance or actuarial background. Salary not stated (Glassdoor est. £26k-£46k). Apply on the employer site via Glassdoor (Job ID 13897).",
+"jd_full": "Location: London, United Kingdom | Full-time | Hybrid | Permanent | Job ID 13897 | Munich Re Specialty - Global Markets | Finance, Accounting and Controlling\n\nAt Munich Re Specialty - Global Markets (MRS-GM), it is our ambition to become the leading Primary Specialty Insurance provider, underpinned by an effective and adaptable strategy, superior products and industry leaders working in a supportive environment to achieve this.\n\nDigital Finance Associate\nWe are currently looking for a Digital Finance Associate to be based in London on a full-time basis with hybrid working.\nMunich Re Specialty Global Markets is a specialty insurance unit of Munich Re Group, delivering specialty insurance solutions across the globe.\nTo support the finance and actuarial function's transformation into a more automated, data-driven function, gaining hands-on experience in solution design, data analysis and stakeholder engagement while contributing to the delivery of practical efficiency and quality improvements.\n\nResponsibilities\n• Review existing financial & actuarial processes, under guidance, to identify opportunities for automation and enhancements. Common areas include automating manual processes, eliminating process duplication, improving data quality and enhancing existing solutions.\n• Support the scoping, design, build and testing of new solutions, such as dashboards and reports, learning to apply the latest tools and best practices as part of the finance & actuarial transformation journey.\n• Help refresh and maintain existing solutions, including supporting the design and operation of data controls to ensure accuracy and reliability.\n• Help explore and leverage solutions being used across the Munich Group (e.g. Munich Finance, Digital Finance Platform) for local MRS-GM implementation.\n• Collect, organise and analyse financial and actuarial data sets from various sources, developing insights to support business decisions.\n• Support the development of predictive and analytical models to help identify financial trends and risk factors, building skills in forecasting and data-driven decision-making.\n• Assist in the transition of new solutions from development to production, supporting stakeholder communication, contributing to in-house training and helping shape support models.\n• Support cross-functional business partners on transformation projects, contributing across various stages from initiation to delivery.\n\nKnowledge and Skills\n• Studying towards or holding relevant qualifications and/or work experience in Finance or Actuarial Science\n• Working knowledge of Excel, including Power Query / Power Pivot\n• Exposure to data visualisation tools such as Power BI or Tableau\n• Ability to present analysis clearly to finance and non-finance stakeholders\n• Awareness of data quality and control principles\n• Analytical and curious, with a problem-solving attitude\n• Good communication skills, comfortable engaging with technical and business stakeholders\n• Build effective working relationships across the organisation\n• Willingness to learn and support process improvement, identifying opportunities to add value\n• Experience in General Insurance\n• Willingness to learn data preparation tools such as Alteryx\n• Qualified accountant or part-qualified actuary\n\nIf you are excited about this role but your experience does not align perfectly with everything outlined, or you don't meet every requirement, we encourage you to apply anyway.\n\nDiversity, Equity & Inclusion: all candidates can request a reasonable adjustment at any point in the recruitment process by speaking to their Talent Acquisition contact.\n\nBenefits (translated from German on the page): competitive salary, variable bonus, pension, learning and development, family and work-life balance support, health and wellbeing.\n\nBase pay: £26k - £46k/yr (Glassdoor Est.)",
+"sponsor_register": "possible",
+"sponsor_match": {
+"name": "Munich Re UK Services Limited",
+"town": "London",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "range_crosses_general",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-18T08:29:17+00:00"
+},
+{
+"id": "gd-1010328877242",
+"source": "glassdoor",
+"title": "Reinsurance Analyst",
+"company": "Reinsurance Group of America",
+"location": "London, England",
+"salary": "£48k - £53k (Glassdoor Est.)",
+"salary_min": 48000,
+"salary_max": 53000,
+"posted_age": "Just posted",
+"first_seen": "2026-11-18",
+"email_date": "2026-11-17",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010328877242",
+"easy_apply": false,
+"fit_score": 51,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 5,
+"max": 20,
+"note": "Premium administration and month-end processing; analyst in name, mostly operations admin"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 16,
+"max": 25,
+"note": "Communication, organisation, teamwork and Excel shown; no admin/operations role or reinsurance knowledge"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 6,
+"max": 15,
+"note": "Asks for proven experience in a similar administration or operations role; CV has none"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "No qualification stated"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 0,
+"max": 10,
+"note": "Needs an understanding of reinsurance; no financial services work on your CV"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 8,
+"max": 10,
+"note": "Contract type not stated; RGA UK Services Ltd is a licensed Skilled Worker sponsor"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Contract type not stated (likely permanent), London"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "Just posted, direct employer, not Easy Apply"
+}
+],
+"confidence": "high",
+"recommendation": "maybe",
+"verdict": "A reinsurance premium administration role at RGA's London office: mostly processing and month-end work that needs prior operations experience and reinsurance knowledge, with little business analysis. Right to work: fine; likely permanent role at a licensed sponsor, so you'd leave in January 2028 unless they sponsor you.",
+"match_reasons": [
+"Process documentation: structured briefs and process maps at GDP Foundation",
+"Data accuracy: KPI dashboards with quality checks for accuracy and consistency at GDP",
+"Ad hoc data requests: Power BI reports of client data at Visionize",
+"Licensed Skilled Worker sponsor (RGA UK Services Ltd), so a time-limited visa is less of a barrier"
+],
+"gaps": [
+"Permanent role (contract type not stated): you'd leave in January 2028 unless they sponsor you; answer honestly if asked",
+"Needs a move to London: salary isn't stated (Glassdoor est. £48k-£53k), so check relocation costs",
+"Proven experience in a similar administration or operations role is required; not on your CV",
+"Understanding of reinsurance concepts required; no financial services work on your CV"
+],
+"jd_summary": "Reinsurance Analyst at RGA, London: administer UK and Continental Europe treaty and facultative premium accounts accurately and on time, document processes, support client audits and meet month-end deadlines with Finance and Valuations. Needs prior admin/operations experience, strong Excel and reinsurance knowledge. Contract type, work pattern and salary not stated (Glassdoor est. £48k-£53k). Apply on RGA's site via the Glassdoor 'Apply on employer site' link; AI is used in early screening.",
+"jd_full": "RGA is a purpose-driven organisation working to solve today's challenges through innovation and collaboration. A Fortune 200 company, it is the only global reinsurance company to focus primarily on life- and health-related solutions.\n\nA Brief Overview\nTo ensure UK and Continental Europe (CE) Treaty and Facultative premium accounts are administered appropriately and accurately in line with treaty specifications.\nYour responsibilities will cover the UK and CE markets. Additionally, your expertise may be leveraged in other RGA entities or affiliates outside UK and CE as resources permit.\n\nWhat you will do\n• Ensure all business administration complies with RGA treaties, company standards, and service time requirements. For your assigned clients, provide accurate administration data for accounting records, valuation systems, and regulatory returns.\n• Administer premiums for UK & CE businesses accurately and on time, including processing through RGA entities, external retrocessionaires, and the International Retro Pool.\n• Maintain comprehensive documentation of all administration processes and procedures.\n• Support or participate in audits of RGA clients.\n• Collaborate with team members across UK, CE & ME Administration Operations, EMEA Finance, and Valuations to meet month-end deadlines. This includes ensuring timely and accurate data processing and assisting with policy exhibit calculations and uploads to the administration system.\n• Respond to ad hoc data requests from internal stakeholders and clients as needed.\n\nRequired Skills and Experience\n• Proven experience in a similar administrative or operations role.\n• Strong IT proficiency, particularly in Microsoft Excel.\n• Excellent interpersonal skills with the ability to collaborate across departments and levels.\n• Strong organisational skills with the ability to prioritise tasks and meet deadlines.\n• Ability to manage multiple tasks simultaneously and deliver results within agreed timelines.\n• A proactive team player who can also work independently.\n• Understanding of reinsurance concepts and the risk factors relevant to RGA.\n• Excellent oral and written communication skills, including the ability to present information clearly.\n\nWhat you can expect from RGA\n• Knowledge and experience from diverse colleagues around the world.\n• A respectful, welcoming environment.\n• Career potential.\n\nRGA uses artificial intelligence in parts of its preliminary screening process (job recommendations, interview scheduling, early evaluation based on experience); AI never makes hiring decisions.\n\nBase pay: £48k - £53k/yr (Glassdoor Est.)",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "RGA Uk Services Ltd",
+"town": "London",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "meets_general",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-18T08:29:17+00:00"
+},
+{
+"id": "gd-1010328487734",
+"source": "glassdoor",
+"title": "Credit Risk Analyst",
+"company": "SEFE Marketing & Trading",
+"location": "London, England",
+"salary": "£42k - £61k (Glassdoor Est.)",
+"salary_min": 42000,
+"salary_max": 61000,
+"posted_age": "9h",
+"first_seen": "2026-11-18",
+"email_date": "2026-11-17",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010328487734",
+"easy_apply": false,
+"fit_score": 45,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 5,
+"max": 20,
+"note": "Credit risk and KYC analysis of trading counterparties; a specialist risk track, not BA work"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 10,
+"max": 25,
+"note": "Analysis, presenting recommendations and stakeholder work shown; no credit risk, counterparty or KYC experience"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 2,
+"max": 15,
+"note": "Previous credit risk role at an energy firm, trading house, bank or rating agency is essential"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "No qualification stated"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 0,
+"max": 10,
+"note": "Energy/commodity trading or banking credit experience required; none on your CV"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 10,
+"max": 10,
+"note": "6-month fixed-term contract, ends well before January 2028; SEFE is also a licensed sponsor"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 5,
+"max": 5,
+"note": "6-month FTC in London, hybrid"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "Posted 9h ago, direct employer; fixed-term +1 (capped)"
+}
+],
+"confidence": "high",
+"recommendation": "skip",
+"verdict": "A 6-month credit risk contract at an energy trader that fits your visa perfectly, but it makes previous credit risk experience in energy, commodities or banking essential, which your CV doesn't show. Right to work: fine; a 6-month contract fits if it starts by mid-2027, and SEFE is a licensed sponsor.",
+"match_reasons": [
+"Data-driven recommendations presented clearly: EV market strategy for Renault, Nissan and Jeep (MSc)",
+"Market trend and competitor insights produced for clients at Visionize",
+"Stakeholder work with managers, clients and frontline colleagues across EE, Visionize and GDP",
+"Fixed-term 6-month contract: no visa issue, and SEFE holds a Skilled Worker licence"
+],
+"gaps": [
+"Needs a move to London: salary isn't stated (Glassdoor est. £42k-£61k), so check relocation costs",
+"Previous credit risk / credit analysis experience is essential; not on your CV",
+"Financial statement analysis, counterparty limits and KYC assessment are the core tasks; none shown",
+"Energy and commodity trading knowledge expected; no financial services or energy work on your CV"
+],
+"jd_summary": "Credit Risk Analyst at SEFE Marketing & Trading, London, 6-month fixed-term contract with potential to extend, hybrid. Assess counterparties' creditworthiness from financial statements, recommend and monitor credit limits, run KYC reviews, daily reporting and margining, and advise Front Office. Previous credit risk experience in energy, commodities, banking or a rating agency is essential. Salary not stated (Glassdoor est. £42k-£61k). Apply on the employer site via the Glassdoor link.",
+"jd_full": "IN SHORT\nWorking with the Credit team you will assess and review counterparties' creditworthiness and KYC status, recommending and monitoring counterparty credit limits, and managing credit exposures. As a business partner to Front Office, you will develop a strong professional and trustworthy relationship communicating sound credit opinions in a convincing, understandable and concise manner. This role is for a 6 month Fixed Term Contract.\n\nWHAT WILL YOU DO\nCommunicating sound credit opinions in a convincing, understandable and concise manner to non-credit stakeholders is key for success. Your ability to find innovative solutions which address risk reduction whilst responding to commercial requirements will make you stand out. You will also be responsible for:\n• Analyse counterparties' credit worthiness, primarily through analysis of their financial statements, in order to recommend appropriate credit limits.\n• Monitor credit exposure and risk measures continuously in anticipation and management of potential breaches and exceptions. Pro-actively assessing exposure and the impact of potential transactions to provide advisory support to Front Office.\n• Developing and maintaining positive relationships with counterparties' credit departments to maximise the credit lines granted to SEFE. Support in negotiating trading documentation.\n• Analyse counterparties' KYC status under the company's established assessment process, in order to recommend an appropriate KYC status. Regular renewal and continuous monitoring of KYC status for our counterparties.\n• Attend to daily reporting and external margining requirements, including contacting counterparties, dispute resolution, and follow up.\n• Input and maintenance of related credit and KYC data in the database.\n\nWHAT WILL YOU BRING\nYour previous experience in a Credit Risk, Credit Analysis, or Risk Management role within an energy company, commodity trading house, bank, or rating agency is essential. Knowledge of energy and commodity trading markets is beneficial. You will have:\n• Deep understanding of Credit Risk Management principles, including credit assessment, counterparty analysis, exposure measurement, and risk mitigation within commodity trading environments.\n• Proven experience assessing counterparties and managing credit risk associated with physical and financial commodity transactions.\n• Excellent analytical skills with the ability to develop well-reasoned, data-driven credit recommendations and present complex risk assessments in a clear and concise manner.\n• Ability to identify market trends, emerging risks, and key industry developments across energy and commodity markets and communicate actionable insights to senior management.\n• Solid understanding of KYC onboarding, customer due diligence, and counterparty assessment processes.\n• Strong communication and stakeholder management skills, with the ability to collaborate effectively across trading, risk, finance, and commercial teams.\n\nABOUT US\nSEFE is an international energy company anchored in Europe, delivering energy solutions across the entire energy value chain, from origination and trading to sales, transport and storage. SEFE employs over 2,000 people worldwide and is owned by the Federal Government of Germany.\n\nOUR BENEFITS\nThis is a contract role, initially for 6 months with the potential to extend. Based in our London office, close to travel networks, with a hybrid working model.\n\nBase pay: £42k - £61k/yr (Glassdoor Est.)",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "SEFE Marketing & Trading Limited",
+"town": "London",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "meets_general",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-18T08:29:17+00:00"
+},
+{
+"id": "gd-1010328779291",
+"source": "glassdoor",
+"title": "Pricing Analyst",
+"company": "White Recruitment",
+"location": "Feltham, England",
+"salary": "£30k - £35k (Employer Est.)",
+"salary_min": 30000,
+"salary_max": 35000,
+"posted_age": "Just posted",
+"first_seen": "2026-11-18",
+"email_date": "2026-11-17",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010328779291",
+"easy_apply": true,
+"fit_score": 43,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 5,
+"max": 20,
+"note": "Freight pricing and tender management; analysis is a small part of a commercial quoting role"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 13,
+"max": 25,
+"note": "Excel, analysis, deadlines and communication shown; no freight pricing, tenders or rate knowledge"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 6,
+"max": 15,
+"note": "Wants previous freight-forwarding pricing experience; CV has none"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "No qualification stated"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 0,
+"max": 10,
+"note": "Freight forwarding background required; CV has no logistics work"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 5,
+"max": 10,
+"note": "Permanent role; client unnamed, so its sponsor licence can't be checked"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Permanent role in Feltham"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 3,
+"max": 5,
+"note": "Easy Apply -1; recruiter with client unnamed -1"
+}
+],
+"confidence": "high",
+"recommendation": "skip",
+"verdict": "A freight-forwarding pricing and tender role through a logistics recruiter: it needs air or ocean freight pricing experience you don't have, so it is a long shot. Right to work: permanent role at an unnamed client whose sponsor licence can't be checked, so a time-limited visa may count against you.",
+"match_reasons": [
+"Pricing and cost analysis for client growth decisions at Visionize",
+"Excel (pivot tables, lookups) with Microsoft Excel certifications",
+"Market and competitor insights produced for freelance clients"
+],
+"gaps": [
+"Permanent role at an unnamed client, so sponsor status is unknown: lower chance with a time-limited visa",
+"Permanent role: you'd leave in January 2028 unless they sponsor you; answer honestly if asked",
+"Needs a move to Feltham (near Heathrow): check relocation costs against £30k-£35k",
+"Freight-forwarding pricing and tender experience is essential; not on your CV"
+],
+"jd_summary": "Permanent Pricing Analyst for an unnamed international freight forwarder in Feltham, via WR Logistics (White Recruitment) acting as an employment agency. Manage customer tenders, prepare air/ocean freight quotes, analyse rates and maintain pricing databases. Needs freight pricing experience and strong Excel. Salary up to £35,000 (employer provided £30k-£35k). Work pattern not stated. Easy Apply via Glassdoor.",
+"jd_full": "Our client, an established international freight forwarding business, is looking to recruit a Pricing Analyst with experience in tender management to join their commercial team.\nThis is an excellent opportunity for someone with a background in air or ocean freight pricing who enjoys working with commercial data, preparing competitive quotations and managing customer tenders.\nThe successful candidate will play an important role in supporting the business's commercial activity, ensuring pricing submissions are accurate, competitive and delivered within agreed deadlines.\n\nKey Responsibilities\n• Manage and coordinate customer pricing tenders from initial enquiry through to submission.\n• Prepare and submit competitive air and/or ocean freight quotations.\n• Liaise with shipping lines, airlines, overseas agents and suppliers to obtain competitive rates.\n• Analyse freight rates, costs and market trends to support pricing decisions.\n• Review customer requirements and ensure tender submissions meet all specifications.\n• Maintain and update pricing databases, rate sheets and internal pricing systems.\n• Work closely with sales, operations and management teams to support new business opportunities.\n• Monitor tender deadlines and ensure all submissions are completed accurately and on time.\n• Identify opportunities to improve pricing processes and commercial performance.\n• Support the sales team with pricing queries and customer-specific rate requests.\n\nSkills & Experience\n• Previous experience within freight forwarding, ideally within a pricing or commercial role.\n• Experience managing customer tenders and pricing submissions.\n• Background in either air or ocean freight pricing.\n• Strong numerical and analytical skills with excellent attention to detail.\n• Confident using Microsoft Excel and other Microsoft Office applications.\n• Ability to manage multiple tenders and deadlines simultaneously.\n• Strong communication and organisational skills.\n• Commercially aware with an understanding of freight costs and market rates.\n• Ability to work independently and as part of a wider team.\n\nBenefits\n• Salary up to £35,000.\n• Opportunity to develop within an established freight forwarding business.\n• Exposure to major customer tenders and commercial pricing activity.\n• Supportive working environment.\n• Long-term career development opportunities.\n\nWR Logistics are a leading recruitment partner for the logistics and supply chain industry, recruiting across the UK, Europe, and the USA for permanent opportunities.\nWR Logistics is acting as an Employment Agency in relation to this vacancy.\n\nBase pay: £30k - £35k/yr (Employer provided)",
+"sponsor_register": "possible",
+"sponsor_match": {},
+"jd_sponsorship": "silent",
+"salary_check": "range_crosses_new_entrant",
+"recruiter": true,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-18T08:29:17+00:00"
+},
+{
 "id": "gd-1010327580456",
 "source": "glassdoor",
 "title": "Senior Platform Engineer Azure - FinTech",
