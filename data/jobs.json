@@ -673,6 +673,114 @@
 "updated_at": "2026-11-22T08:29:28+00:00"
 },
 {
+"id": "gd-1010332407522",
+"source": "glassdoor",
+"title": "Technical Business Analyst (Fixed Term)",
+"company": "Alzheimer's Society",
+"location": "London, England (mostly home-based; home working allowance)",
+"salary": "£39,866 - £44,295 (employer provided)",
+"salary_min": 39866,
+"salary_max": 44295,
+"posted_age": "24h",
+"first_seen": "2026-11-22",
+"email_date": "",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010332407522",
+"easy_apply": false,
+"fit_score": 74,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 20,
+"max": 20,
+"note": "Business analyst in the IT Delivery team: requirements, process mapping, gap analysis, UAT"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 18,
+"max": 25,
+"note": "Requirements, documentation, process mapping, testing and privacy-minded data handling shown; workshops, user stories and Salesforce not shown"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 11,
+"max": 15,
+"note": "No years stated; asks for BA experience gathering user requirements, which the freelance and volunteer BA roles cover"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "None stated"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 6,
+"max": 10,
+"note": "Charity: BA work for GDP Foundation (NGO), including a national study on ageing"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 3,
+"max": 10,
+"note": "Fixed term of unstated length; Alzheimer's Society isn't on the sponsor register"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "FTC of unstated length; London listing with a home working allowance"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "24h old, apply on employer site, FTC +1 (capped at 5)"
+}
+],
+"confidence": "high",
+"recommendation": "apply",
+"verdict": "A fixed-term technical business analyst role in Alzheimer's Society's IT Delivery team: gathering requirements, mapping processes, assessing Salesforce integrations and supporting UAT. No years are asked and the work matches your BA experience, though it also expects workshops and user stories. Right to work: fine if the contract ends by January 2028 (length not stated); the charity isn't a licensed sponsor.",
+"match_reasons": [
+"Gathered requirements with teams across GDP Foundation (NGO) and turned them into structured briefs and process maps",
+"Contributed analysis to a national research study on ageing at GDP Foundation, relevant to a dementia charity",
+"Tested every BreakPoint business rule by hand before rollout (functional testing/UAT)",
+"Designed BreakPoint for privacy: user codes, no free-text fields and 14-day retention (handling information responsibly)"
+],
+"gaps": [
+"Contract length not stated: check it ends by January 2028 (the charity isn't a licensed sponsor)",
+"Same role is also advertised as a permanent home-based post, so expect national competition",
+"Leading workshops and writing user stories and epics are core tasks the CV doesn't show yet",
+"Salesforce and system-integration assessment not shown"
+],
+"jd_summary": "Fixed-term Technical Business Analyst (35 hours) in Alzheimer's Society's IT Delivery team: gather requirements, write user stories and epics, map processes and gap analysis, assess Salesforce capabilities and integrations, support functional testing and UAT. Mostly home-based with a home working allowance; London listing. £39,866-£44,295. Anonymised applications; closes 29 November 2026; interviews 9-10 and 15-16 December. Apply on the employer's site: https://careers.alzheimers.org.uk/vacancies/4299/technical-business-analyst.html",
+"jd_full": "About The Role\nWould you like to help drive change and improve the systems and processes that enable Alzheimer's Society's important work?\nAs Technical Business Analyst, you'll join the IT Delivery team on a fixed-term basis, supporting key technology projects and helping turn business needs into clear, practical solutions.\nYou'll work with colleagues across the organisation, engaging technical and non-technical stakeholders to understand requirements, explore business processes and identify improvements. You'll gather and document requirements, map processes, understand data needs and support the delivery and implementation of system changes, acting as a key link between stakeholders and technical teams.\n\nVacancy details (employer site)\n• Vacancy type: Fixed Term Contract (length not stated)\n• Salary: £39,866 - £44,295 per annum; Working from Home Allowance of £312 per annum\n• Hours: 35 per week\n• Basic Criminal Record Check required\n• External advertising end date: 29 Nov 2026\n\nAbout you\n• Experience gathering and interpreting user requirements and turning complex information into clear, accessible, jargon-free documentation.\n• Good analytical and problem-solving skills.\n• Builds positive, collaborative relationships with colleagues, partners and stakeholders across teams, sharing knowledge.\n• Knows how to select and apply appropriate discovery and information-gathering methods, tools and techniques.\n• Good understanding of digital and data-led ways of working, including web-based technologies, and methodologies such as Agile, PRINCE2 and BABOK.\n• Organised, manages priorities, handles information responsibly and considers accessibility and the needs of people affected by dementia.\n\nWhat you'll focus on\n• Leading workshops and working with stakeholders across departments, gathering requirements and translating business challenges into technical requirements, user stories and epics.\n• Analysing and improving processes through process mapping, gap analysis and future-state design.\n• Shaping systems and integrations by assessing platform capabilities, including Salesforce, and identifying integrations and dependencies.\n• Acting as a bridge between technical and non-technical teams, ensuring solutions meet data governance, security and compliance requirements.\n• Contributing to functional testing and UAT, system enhancements, integrations and new features.\n\nRecruitment process\nClosing date Sunday 29 November 2026 at 23:59. First stage interviews Wednesday 9 and Thursday 10 December; second stage Tuesday 15 and Wednesday 16 December. Applications are anonymised until interview. The role may close early if there is high volume (with 48 hours' notice).\n\nAbout Alzheimer's Society\nThe UK's leading dementia charity, supporting people living with dementia, funding research and campaigning.",
+"sponsor_register": "not_found",
+"sponsor_match": {},
+"jd_sponsorship": "silent",
+"salary_check": "range_crosses_general",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-22T08:31:12+00:00",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-22T08:31:12+00:00"
+},
+{
 "id": "gd-1010330589581",
 "source": "glassdoor",
 "title": "Data and Research Analyst",
@@ -892,6 +1000,345 @@
 "notes": "",
 "profile_basis": "master",
 "updated_at": "2026-11-22T08:28:17+00:00"
+},
+{
+"id": "gd-1010332125653",
+"source": "glassdoor",
+"title": "Business Analyst - Remote (4-month contract, public sector client)",
+"company": "FDM Group",
+"location": "Remote (UK)",
+"salary": "",
+"salary_min": null,
+"salary_max": null,
+"posted_age": "24h",
+"first_seen": "2026-11-22",
+"email_date": "",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010332125653",
+"easy_apply": false,
+"fit_score": 67,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 20,
+"max": 20,
+"note": "Business analyst on public-sector digital transformation: requirements, As-Is/To-Be process maps, Agile delivery"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 12,
+"max": 25,
+"note": "Requirements, process mapping and backlog refinement shown; user stories, acceptance criteria and workshop facilitation not shown; no GDS experience"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 6,
+"max": 15,
+"note": "Asks for an experienced BA who independently delivers core BA activities; CV shows about 1.5 years of freelance/volunteer BA work"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "None stated"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 3,
+"max": 10,
+"note": "UK public sector desirable, not required; no direct link"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 10,
+"max": 10,
+"note": "4-month contract ends well before January 2028"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Initial 4-month contract (under 6 months), fully remote"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "24h old; consultancy with client unnamed -1; contract +1"
+}
+],
+"confidence": "high",
+"recommendation": "maybe",
+"verdict": "A remote business analyst placement through FDM with a public-sector client: requirements, As-Is/To-Be maps and user stories for digital services. The day-to-day fits, but it wants a hands-on experienced BA who writes user stories and runs workshops, which the CV doesn't show yet. Right to work: fine; a 4-month contract (with possible extension) fits easily before January 2028.",
+"match_reasons": [
+"Defined the problem, requirements and business rules for BreakPoint and got it adopted by a 15-person team (EE)",
+"Turned requirements into structured briefs and process maps at GDP Foundation",
+"Contributed to backlog refinement and prioritisation in iterative delivery (GDP Foundation)",
+"Challenged and documented client requirements as a freelance BA (Visionize)"
+],
+"gaps": [
+"Fully remote: check you'd be employed in the UK, so it counts as UK experience",
+"Salary or day rate not stated; check it is an employed FDM contract, not a day-rate contractor role",
+"Core tasks are user stories, acceptance criteria and workshop facilitation, which the CV doesn't show",
+"Only 4 months to start (extension possible); public-sector work may need BPSS vetting"
+],
+"jd_summary": "FDM Group consultancy placement: Business Analyst for an unnamed public-sector client on digital transformation, initially 4 months with good prospects to extend, fully remote. Gather requirements through workshops and interviews, produce As-Is/To-Be maps, write epics, user stories and acceptance criteria, support Discovery and delivery. GDS and UK government experience desirable. Salary not stated. Apply on FDM's site via Glassdoor's 'Apply on employer site'.",
+"jd_full": "About The Role\nFDM is a global business and technology consultancy seeking a Business Analyst to work for its client within the public sector. This is initially a 4 month contract with very good prospects to extend and will be a remote role.\nThe client is seeking an experienced Business Analyst to support the delivery of digital transformation programmes. You will work in a multidisciplinary delivery team to understand user and business needs, analyse existing services and processes, and translate findings into clear requirements and user stories. The role suits a hands-on Business Analyst comfortable owning their analysis activity. GDS and UK government experience would be particularly advantageous.\n\nResponsibilities\n• Gather and analyse business and user requirements through workshops, interviews and collaborative sessions with stakeholders.\n• Analyse and document existing processes and services, producing AS-IS and TO-BE process maps and identifying gaps and opportunities for improvement.\n• Translate requirements into epics, user stories and acceptance criteria to support Agile delivery and backlog management.\n• Collaborate with product, delivery, user-centred design and technical colleagues to validate requirements.\n• Support Discovery and subsequent delivery phases, maintaining clear requirements and analysis throughout.\n\nAbout You\n• Good practical experience working as a Business Analyst on digital, technology or transformation projects, independently delivering core BA activities.\n• Strong experience across requirements elicitation, process mapping, gap analysis, user stories and acceptance criteria.\n• Experience facilitating workshops and working with business and technical stakeholders within Agile or multidisciplinary teams.\n• Desirable: experience in UK government or the wider public sector, particularly digital transformation.\n• Desirable: practical experience of Government Digital Service (GDS) standards, including Discovery, Alpha and/or Beta phases.\n\nAbout Us\nFDM is a global tech and business talent consultancy with centres across Europe, North America and Asia-Pacific and over 2,500 employees.\n\nWhy join us\n• Career coaching, mentoring and upskilling.\n• Assignments with global companies.\n• Annual leave and workplace pension.",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "FDM Group Limited",
+"town": "Brighton",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "unknown",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-22T08:31:12+00:00",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-22T08:31:12+00:00"
+},
+{
+"id": "gd-1010331202295",
+"source": "glassdoor",
+"title": "Business Analyst (18-month FTC, Bus Reform)",
+"company": "West Midlands Combined Authority",
+"location": "Birmingham, England (16 Summer Lane, hybrid, 2+ office days a week)",
+"salary": "£46k - £51k (employer provided)",
+"salary_min": 46000,
+"salary_max": 51000,
+"posted_age": "2d",
+"first_seen": "2026-11-22",
+"email_date": "",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010331202295",
+"easy_apply": false,
+"fit_score": 65,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 20,
+"max": 20,
+"note": "Business analyst on Transport for West Midlands' Bus Reform programme: requirements, process mapping, UAT"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 15,
+"max": 25,
+"note": "Requirements, process maps, stakeholder work and testing shown; no experience in a team of BAs, estimating or release management"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 6,
+"max": 15,
+"note": "Asks for an experienced BA with proven, full-lifecycle BA experience; CV shows about 1.5 years of freelance/volunteer BA work"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 10,
+"max": 10,
+"note": "A-levels or equivalent; MSc exceeds it"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 3,
+"max": 10,
+"note": "Public transport/local government; no direct link, not required"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 3,
+"max": 10,
+"note": "18-month FTC would run past January 2028; advert also says it cannot sponsor"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "18-month FTC runs past January 2028; Birmingham, 2 office days a week (move from Newcastle)"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "2 days old, apply on employer site, FTC +1 (capped at 5)"
+}
+],
+"confidence": "high",
+"recommendation": "maybe",
+"verdict": "A real business analyst role on the West Midlands bus franchising programme with good pay, but it wants an experienced BA who has worked in a BA team across the full lifecycle, so it is a stretch. Right to work: you can apply, but the 18-month contract would run past January 2028 and they say they won't sponsor, so you'd have to leave early.",
+"match_reasons": [
+"Defined requirements and business rules for BreakPoint and tested every rule by hand before rollout (UAT-style testing)",
+"Turned requirements into structured briefs and process maps and found root causes of inefficiency at GDP Foundation",
+"Worked directly with clients to challenge and document requirements as a freelance BA (Visionize)",
+"Assessed new technology in practice: built BreakPoint with AI coding tools and designed a before/after pilot"
+],
+"gaps": [
+"Contract runs past January 2028 (your visa end): ask about the start date",
+"Needs a move: check relocation costs against the salary (Birmingham, at least 2 office days a week)",
+"Asks for experience in a team of BAs across the full lifecycle, including estimating and release management",
+"Advert says it cannot sponsor a Skilled Worker visa, so the full 18 months isn't possible on your visa"
+],
+"jd_summary": "18-month FTC at Transport for West Midlands (WMCA) on the Bus Reform/franchising programme: gather and document requirements, map As-Is/To-Be processes, support testing and implementation, work with suppliers and technical teams. Hybrid, 16 Summer Lane Birmingham, 2+ days a week in office. £46k-£51k (starts at the bottom). Apply on WMCA's careers site with an anonymised profile and a supporting statement against each essential criterion; may close early; first interviews w/c 21 December.",
+"jd_full": "Job Introduction\nHelp shape the future of bus travel across the West Midlands. We're looking for an experienced Business Analyst who enjoys solving problems, improving how things work and putting customers at the heart of change.\nAt Transport for West Midlands (TfWM), we're working towards a new era of bus services through our Bus Reform programme. This is an opportunity to help develop the processes, systems and ways of working needed to deliver a successful, customer-first bus franchising across the region.\nYou'll work closely with colleagues, technical specialists and stakeholders to understand business needs, identify opportunities for improvement and translate complex requirements into practical solutions.\nPlease note, this is an 18 month FTC. First stage MS Teams interviews are likely to take place w.c. 21st December, with final stage interviews concluding in the new year.\n\nWhat you will be doing\n• Work with stakeholders across the Bus Reform programme to gather, analyse and document business requirements, translating them into clear functional specifications and technical requirements.\n• Map and evaluate existing business processes, identifying opportunities to simplify ways of working, improve efficiency and develop future processes that support successful bus franchising.\n• Work with colleagues and stakeholders to understand customer and service-user needs.\n• Use business analysis techniques, data and emerging technologies to identify opportunities for improvement, automation and more effective service delivery.\n• Contribute to solution development, testing and implementation, ensuring changes meet business requirements and deliver their intended benefits.\n• Build strong relationships with project teams, technical specialists, suppliers and stakeholders.\n\nWhat's essential\n• Proven Business Analysis experience.\n• Experience working within a team of Business Analysts on projects of varying sizes.\n• Understanding of and experience in the full Business Analysis role across project lifecycles, including pre-project, scoping, estimating, mapping, stakeholder analysis, requirements gathering, solution analysis, product analysis, user acceptance testing and release management.\n• Experience of business process modelling and optimisation tools and techniques.\n• Experience supporting the transition from As-Is processes to To-Be ways of working.\n• Proven experience identifying potential solutions and assessing the suitability of emerging technologies.\n• A track record of building rapport and excellent relationships with a range of stakeholders.\n• Experience identifying opportunities while evaluating and mitigating issues and risks.\n• Ability to explain technical solutions clearly to technical and non-technical audiences.\n• Ability to identify and resolve issues experienced by customer leads and end users.\n• Ability to work under broad direction in challenging environments, influencing strategic decision-making.\n• Ability to manage concurrent schedules and tight deadlines, delivering on time, within budget and to scope.\n• A-level qualifications or equivalent.\nPlease refer to the JD for a full list of essential criteria.\n\nLocation\n16 Summer Lane, Birmingham, with at least 2 days a week spent in the office.\n\nHow to apply\n• Create your Careers Account.\n• Build your Profile (upload your CV to populate career and education details).\n• Write your Supporting Statement addressing each essential criterion.\n• Submit your application.\nWMCA may close the vacancy early once it has enough applications. The process is anonymised: only the information in your profile is used for shortlisting. Applications that rely too heavily on AI may be rejected.\n\nSalary and benefits\nNew appointments typically start at the lowest salary point. Local Government Pension Scheme, 28 days leave plus statutory days, EV car scheme, healthcare plans, 3 volunteering days and other benefits.\n\nSponsorship / Right to work requirements\nSkilled Worker visa sponsorship will only be considered for roles that meet defined business-critical criteria. This role does not meet that threshold and WMCA is unable to offer sponsorship. Applicants must have the appropriate right to work in the UK before applying.\n\nRedeployment\nPriority consideration may be given to colleagues at risk of redundancy; the vacancy may close early if a redeployment candidate is found.",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "West Midlands Combined Authority",
+"town": "Birmingham",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "no_sponsorship",
+"salary_check": "meets_general",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-22T08:31:12+00:00",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-22T08:31:12+00:00"
+},
+{
+"id": "gd-1010331006642",
+"source": "glassdoor",
+"title": "Onboarding Analyst (FTC)",
+"company": "SEFE Marketing & Trading",
+"location": "London, England (hybrid)",
+"salary": "£31k - £45k (Glassdoor est.)",
+"salary_min": 31000,
+"salary_max": 45000,
+"posted_age": "2d",
+"first_seen": "2026-11-22",
+"email_date": "",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010331006642",
+"easy_apply": false,
+"fit_score": 61,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 12,
+"max": 20,
+"note": "Operations/onboarding coordination with MI reporting and process improvement; adjacent to target roles"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 16,
+"max": 25,
+"note": "Stakeholder work, reporting, data integrity and process improvement shown; KYC, counterparty onboarding and regulatory knowledge not shown"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 6,
+"max": 15,
+"note": "Asks for experience in onboarding operations or a similar coordination role, ideally in trading or financial services; CV only partly covers it"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "None stated"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 3,
+"max": 10,
+"note": "Energy trading; no link, sector experience 'ideal' rather than required"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 8,
+"max": 10,
+"note": "Fixed term but length not stated; employer is a licensed sponsor"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "FTC of unstated length in London (move from Newcastle)"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "2 days old, apply on employer site, FTC +1 (capped at 5)"
+}
+],
+"confidence": "high",
+"recommendation": "maybe",
+"verdict": "A fixed-term onboarding analyst role at an energy trader, running onboarding trackers, chasing actions across Legal, Credit and KYC teams, producing MI and improving the onboarding process. It's a reasonable operations step, but it wants KYC and counterparty onboarding knowledge the CV doesn't show. Right to work: fine if the contract ends by January 2028 (length not stated); SEFE is a licensed sponsor.",
+"match_reasons": [
+"Built and maintained KPI dashboards with quality checks for accuracy and consistency at GDP Foundation (onboarding MI and data integrity)",
+"Gathered requirements with teams across the foundation and proposed process changes (onboarding process improvement)",
+"Worked directly with clients as a freelance BA and with managers and frontline colleagues at EE",
+"Power BI and Excel reporting for clients (Visionize)"
+],
+"gaps": [
+"Needs a move: check relocation costs against the salary (London, hybrid)",
+"Contract length not stated: check it ends by January 2028",
+"Asks for knowledge of counterparty onboarding, KYC, legal documentation and related regulation",
+"No energy trading, commodities or financial services experience (preferred)"
+],
+"jd_summary": "Fixed-term Onboarding Analyst at SEFE Marketing & Trading, London: manage onboarding pipelines and trackers for counterparties, brokers and products; coordinate Front Office, Legal, Credit, Compliance, KYC and Ops; produce onboarding MI; keep audit-ready records; improve processes. Wants onboarding/coordination experience, KYC knowledge, strong Microsoft Office. Hybrid working; contract length and salary not stated (Glassdoor estimate £31k-£45k). Apply on SEFE's careers site.",
+"jd_full": "IN SHORT\nSEFE is looking for an organised, proactive and collaborative Onboarding Analyst to support the onboarding of counterparties, brokers, trading products and market activities across its Commercial business.\nThe role sits at the centre of a fast-paced trading environment and manages onboarding requests from initiation through to operational readiness, working with Front Office, Legal, Credit, Compliance, KYC, ESG, Operations and Technology teams.\n\nWHAT WILL YOU DO\n• Manage onboarding pipelines, trackers and workflow tools, ensuring activities are accurately tracked and prioritised.\n• Monitor onboarding milestones, risks, dependencies and outstanding actions, escalating issues where required.\n• Coordinate information gathering and onboarding activities across internal and external stakeholders.\n• Produce onboarding reporting and management information to support decision-making and prioritisation.\n• Maintain accurate onboarding records and supporting documentation, ensuring audit readiness and data integrity.\n• Identify and implement improvements to onboarding processes, workflows, controls and systems.\n\nWHAT WILL YOU BRING\n• Experience in onboarding operations, client onboarding, business support or a similar coordination role, ideally within energy trading, commodities, financial services or capital markets.\n• Knowledge of counterparty onboarding, KYC requirements, legal documentation and client lifecycle management processes.\n• Excellent stakeholder management and communication skills.\n• A proactive, solutions-oriented approach with a strong sense of ownership and attention to detail.\n• Understanding of regulatory and compliance requirements relevant to counterparty onboarding.\n• Strong Microsoft Office skills and the ability to work across multiple systems.\n\nABOUT US\nSEFE is an international energy company anchored in Europe, spanning origination, trading, sales, transport and storage, employing over 2,000 people and owned by the Federal Government of Germany.\n\nOUR BENEFITS\nCompetitive starting salary, hybrid working, bonus potential, non-contributory pension with 10% employer contribution, 25 days holiday plus bank holidays and volunteering days, life assurance, medical and dental insurance.",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "SEFE Marketing & Trading Limited",
+"town": "London",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "range_crosses_general",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-22T08:31:12+00:00",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-22T08:31:12+00:00"
 },
 {
 "id": "gd-1010331831688",
@@ -1341,6 +1788,118 @@
 "updated_at": "2026-11-22T08:28:17+00:00"
 },
 {
+"id": "gd-1010330876648",
+"source": "glassdoor",
+"title": "Customs & Excise Analyst (12M FTC)",
+"company": "Sainsbury's",
+"location": "Coventry, England (Ansty Park; hybrid, about 1 office day a week)",
+"salary": "£24k - £32k (Glassdoor est.)",
+"salary_min": 24000,
+"salary_max": 32000,
+"posted_age": "2d",
+"first_seen": "2026-11-22",
+"email_date": "",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010330876648",
+"easy_apply": false,
+"fit_score": 55,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 5,
+"max": 20,
+"note": "Tax compliance role: customs and excise returns, reconciliations and HMRC tariff work, not business analysis"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 10,
+"max": 25,
+"note": "Excel and stakeholder communication shown; customs processes, regulatory tax returns and customs duty experience not shown"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 6,
+"max": 15,
+"note": "Asks for demonstrable industry experience across customs and excise duty; CV has none"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "None stated"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 6,
+"max": 10,
+"note": "Retail: store-level M&S experience, but the role is tax compliance"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 10,
+"max": 10,
+"note": "12-month FTC ends by January 2028 if it starts soon"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 5,
+"max": 5,
+"note": "12-month FTC, mostly home-based with about 1 day a week in Coventry"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "2 days old, apply on employer site, FTC +1 (capped at 5)"
+}
+],
+"confidence": "high",
+"recommendation": "maybe",
+"verdict": "A 12-month customs and excise compliance analyst contract at Sainsbury's: preparing HMRC returns, reconciling import declarations and maintaining tariff codes. Its essential criteria are customs duty knowledge and industry experience the CV doesn't show, so it's a long shot and not BA work. Right to work: fine; a 12-month contract fits if it starts by January 2027.",
+"match_reasons": [
+"Excel (pivot tables, lookups) and data-quality checks for accuracy and consistency on KPI dashboards",
+"Retail experience: worked across tills, replenishment and deliveries at M&S",
+"Proposed process changes after finding root causes of inefficiency at GDP Foundation (the role reviews and simplifies procedures)"
+],
+"gaps": [
+"Needs a move: check relocation costs against the salary (Coventry office about 1 day a week)",
+"Salary not stated (Glassdoor estimate £24k-£32k)",
+"Essential: current knowledge of customs processes and regulatory tax returns, and practical customs duty industry experience",
+"Closes 26 November 2026"
+],
+"jd_summary": "12-month fixed-term Customs & Excise Analyst in Sainsbury's Finance & Transformation: prepare SCDP, Intrastat and W5D returns, reconcile deferment statements, audit declarations, maintain tariff codes, interpret HMRC briefings, train colleagues. Essential: customs knowledge and industry experience, Excel. Hybrid, Coventry Store Support Centre about 1 day a week. Salary 'competitive' (Glassdoor estimate £24k-£32k). Apply on Sainsbury's careers site (requisition 400099796); closes 26 November 2026.",
+"jd_full": "Salary: Competitive Plus Benefits\nLocation: Coventry Store Support Centre - Ansty Park, Coventry, CV7 9RD\nHours: Full time\nContract type: Fixed-Term Assignment\nContract duration: 12 months\nBusiness area: Finance & Transformation\nClosing date: 26 November 2026\nRequisition ID: 400099796\n\nLocation: Coventry Store Support Centre & Home - colleagues go into the office 1 day per week on average.\n\nWhy join us\nJoin the Customs & Excise team, helping the business meet its legal obligations and keep day-to-day customs and excise activity running accurately and compliantly. You will be supported through on-the-job coaching, internal mentoring and online self-development tools.\n\nWhat you'll do\nYou will prepare and submit accurate Customs & Excise returns, including SCDP, Intrastats and W5Ds, and reconcile deferment statements against import declarations. You will audit declarations, supplier paperwork and agent entries, investigate issues, and process reclaims or voluntary disclosures where needed. You will maintain tariff code databases, support HTS code classification and interpret HMRC briefings and tariff changes.\nYou will help colleagues understand customs and excise processes by delivering training and responding to operational enquiries. You will review procedures, identify opportunities to simplify processes and contribute to ad hoc projects and team cover. Routine compliance decisions sit with you; key decisions are made with the Customs & Excise Duty Manager and Head of Customs & Excise Duty.\n\nWho you are\nYou will bring current knowledge of Customs & Excise processes and regulatory tax returns, with demonstrable industry experience across both customs and excise duty. You will be confident using Microsoft Office, particularly Excel, accurate, and able to work to regulatory deadlines, independently and in a team, explaining technical processes clearly.\n\nEssential Criteria\n• Current, demonstrable knowledge of Customs processes, regulatory tax returns and their implications within the wider tax environment. Excise knowledge and experience is desirable.\n• Practical industry experience across Customs duty, with the ability to apply relevant regulatory requirements.\n• Proficiency in Microsoft Excel and other Microsoft Office applications.\n• Demonstrable ability to manage competing priorities and regulatory deadlines.\n• Evidence of effective stakeholder communication and influencing.\n\nBenefits\nColleague discount, pension and life cover, possible performance-related bonus of up to 10% of salary, holiday allowance with option to buy more, and other benefits.",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "J Sainsbury Plc",
+"town": "London",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "below_threshold",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-22T08:31:12+00:00",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-22T08:31:12+00:00"
+},
+{
 "id": "gd-1010332019660",
 "source": "glassdoor",
 "title": "Marketing Analyst",
@@ -1559,6 +2118,118 @@
 "notes": "",
 "profile_basis": "master",
 "updated_at": "2026-11-22T08:29:28+00:00"
+},
+{
+"id": "gd-1010331702343",
+"source": "glassdoor",
+"title": "Business Analyst (12-month contract, CMS Transformation)",
+"company": "Kinto (UK)",
+"location": "Epsom, England",
+"salary": "£37k - £62k (Glassdoor est.)",
+"salary_min": 37000,
+"salary_max": 62000,
+"posted_age": "24h",
+"first_seen": "2026-11-22",
+"email_date": "",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010331702343",
+"easy_apply": true,
+"fit_score": 30,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 20,
+"max": 20,
+"note": "Business analyst leading discovery, requirements and process/TOM design for a systems replacement"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 8,
+"max": 25,
+"note": "Process mapping, requirements and AI tools shown; no senior BA, auto-finance, workshop, RFI/RFP or vendor-selection work"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 0,
+"max": 15,
+"note": "Asks for significant Senior Business Analyst experience. Gate experience_5y caps total at 30"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "None stated"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 0,
+"max": 10,
+"note": "Requires automotive finance, consumer lending or regulated lending experience; CV has none"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 10,
+"max": 10,
+"note": "12-month contract ends by January 2028 if it starts soon"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 5,
+"max": 5,
+"note": "12-month contract in Epsom (move from Newcastle)"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "24h old, Easy Apply -1, contract +1"
+}
+],
+"confidence": "high",
+"recommendation": "skip",
+"verdict": "A 12-month business analyst contract at Toyota Financial Services (posted under Kinto UK) leading discovery and vendor selection to replace its loan-management system. It asks for significant senior BA experience and auto-finance or lending experience, so it is well above your level. Right to work: fine; a 12-month contract fits if it starts by January 2027.",
+"match_reasons": [
+"Mapped current processes and found root causes of inefficiency at GDP Foundation",
+"Defined requirements and business rules for BreakPoint and built it with AI coding tools (the advert asks for AI tool proficiency)",
+"Challenged and documented client requirements as a freelance BA (Visionize)"
+],
+"gaps": [
+"Needs a move: check relocation costs against the salary (Epsom, Surrey)",
+"Asks for significant Senior Business Analyst experience on complex transformation programmes",
+"Requires automotive finance, consumer lending or regulated lending experience",
+"Workshop facilitation, user stories, acceptance criteria and RFI/RFP vendor selection are core; the CV doesn't show them"
+],
+"jd_summary": "12-month contract with Toyota Financial Services UK (Kinto) in Epsom, leading business analysis for the CMS Transformation Programme: discovery, requirements catalogue and traceability, customer/dealer journeys, Target Operating Model, RFI/RFP and vendor selection. Needs senior BA experience, auto-finance or lending background, workshop facilitation, Jira/Confluence. Salary not stated (Glassdoor estimate £37k-£62k). Work pattern not stated. Easy Apply on Glassdoor.",
+"jd_full": "TFSUK is looking for a Business Analyst to work in a twelve-month contract, responsible for leading business analysis across discovery, design and vendor selection for the CMS Transformation Programme, connecting automotive-finance business needs, customer and dealer journeys, the Target Operating Model and future technology requirements.\n\nAbout the Department / Programme\nThe role works across the CMS Transformation Programme, Business Technology Solutions (BTS), business functions and external suppliers. The programme replaces the legacy CMS with a configurable core while enabling automation, self-service, trusted data and future financial products.\n\nWhat you'll be doing\n• Lead structured discovery across business functions and document current processes, pain points, workarounds and dependencies.\n• Plan and facilitate stakeholder interviews, workshops and process walkthroughs across business, technology and suppliers.\n• Translate findings into business, functional and non-functional requirements with traceability to business outcomes.\n• Define customer, dealer and colleague journeys, use cases, user stories and acceptance criteria where appropriate.\n• Analyse automotive-finance and lending processes including PCP, HP, personal loans, originations, underwriting, affordability, servicing, payments, collections, settlement, end-of-term and refinancing.\n• Document the current operating model and support future-state process, capability and Target Operating Model design.\n• Identify opportunities for simplification, standardisation, automation and self-service.\n• Convert discovery outputs into structured RFI and RFP requirements, response templates, evaluation criteria and business scenarios.\n• Facilitate vendor demonstrations and support fit/gap and vendor-response assessment.\n• Maintain requirements, decisions, assumptions, gaps and traceability through selection and design.\n\nWhat you'll get to own\n• The programme business-analysis approach and quality of discovery outputs.\n• The requirements catalogue, prioritisation and end-to-end traceability.\n• Current and future process models, journeys, scenarios and acceptance criteria.\n• Business input to vendor evaluation, demonstrations and fit/gap assessment.\n\nKey Experience & Skills\n• Significant Senior Business Analyst experience on complex business and technology transformation programmes.\n• Experience in automotive finance, consumer lending, asset finance, leasing or another regulated lending environment.\n• Strong process analysis, process mapping, current-state / future-state assessment and gap analysis.\n• Strong business, functional and non-functional requirements definition, prioritisation and traceability.\n• Workshop facilitation, stakeholder interviewing and senior stakeholder management.\n• Experience contributing to Target Operating Models.\n• Experience supporting RFI/RFP, vendor selection, demonstrations and fit-to-standard assessment.\n• Experience working across business, technology and external suppliers.\n• Jira, Confluence or equivalent requirements-management tooling and proficiency with AI tools.\n• Desirable: CMS, loan-management or contract-servicing systems, Consumer Duty, collections, digital self-service, data/MI, migration and BPMN experience.\n\nToyota Financial Services is a Disability Confident Employer and will consider reasonable adjustments to the recruitment process.",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "Toyota Financial Services (UK) PLC (advertiser; Kinto UK not on register)",
+"town": "Epsom",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "range_crosses_general",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-22T08:31:12+00:00",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-22T08:31:12+00:00"
 },
 {
 "id": "gd-1010331781072",
