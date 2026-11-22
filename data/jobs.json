@@ -10323,16 +10323,16 @@
 "recruiter": false,
 "decision": "pending",
 "decided_at": "",
-"status": "applied",
+"status": "rejected",
 "cv_file": "",
 "cv_url": "",
 "cv_emailed_at": "",
 "applied_at": "2026-11-19T12:41:29+00:00",
-"status_updated_at": "2026-11-19T12:41:29+00:00",
+"status_updated_at": "2026-11-22T02:20:41+00:00",
 "last_email": "Application received (19 Nov)",
 "notes": "",
 "profile_basis": "master",
-"updated_at": "2026-11-19T13:30:06+00:00"
+"updated_at": "2026-11-22T02:20:41+00:00"
 },
 {
 "id": "re-73fb31ccde",
@@ -18753,16 +18753,16 @@
 "recruiter": false,
 "decision": "pending",
 "decided_at": "",
-"status": "applied",
+"status": "rejected",
 "cv_file": "",
 "cv_url": "",
 "cv_emailed_at": "",
 "applied_at": "2026-11-14T22:40:42+00:00",
-"status_updated_at": "2026-11-14T22:40:42+00:00",
+"status_updated_at": "2026-11-22T02:20:41+00:00",
 "last_email": "Application received via Capri Holdings Workday (14 Nov)",
 "notes": "",
 "profile_basis": "master",
-"updated_at": "2026-11-15T08:25:32+00:00"
+"updated_at": "2026-11-22T02:20:41+00:00"
 },
 {
 "id": "wb-1421d348ac",
