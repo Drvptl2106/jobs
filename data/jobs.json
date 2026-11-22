@@ -226,6 +226,561 @@
 "updated_at": "2026-11-22T08:28:17+00:00"
 },
 {
+"id": "gd-1010329578604",
+"source": "glassdoor",
+"title": "Commercial Analyst",
+"company": "DHL",
+"location": "Colnbrook, England",
+"salary": "Not stated (Glassdoor estimate £75k - £83k)",
+"salary_min": 75000,
+"salary_max": 83000,
+"posted_age": "3d",
+"first_seen": "2026-11-22",
+"email_date": "2026-11-21",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010329578604",
+"easy_apply": false,
+"fit_score": 83,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 16,
+"max": 20,
+"note": "Commercial reporting and MI analyst: close to the Reporting/MI target; revenue variance analysis is new"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 24,
+"max": 25,
+"note": "Advanced Excel, Power BI, Power Query, presenting insight, AI tools and continuous improvement shown; SQL half"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 11,
+"max": 15,
+"note": "Graduates welcome, but relevant reporting/BI experience is essential; freelance Power BI reporting covers it"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 10,
+"max": 10,
+"note": "2:1 in data science or business preferred: MSc Distinction and BSc Data Science"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 6,
+"max": 10,
+"note": "Logistics: MSc last-mile delivery optimisation project is related"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 8,
+"max": 10,
+"note": "Contract type not stated (likely permanent) at a licensed sponsor (DHL International (UK) Ltd)"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Likely permanent, Colnbrook near Heathrow (move from Newcastle)"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "3 days old; no Easy Apply; employer's own system"
+}
+],
+"confidence": "high",
+"recommendation": "apply",
+"verdict": "A commercial reporting analyst at DHL Express UK that welcomes graduates: KPI and revenue reporting, insight presentations for sales leaders, and reporting automation with AI tools. Your Power BI, Excel and BreakPoint evidence fit well. Right to work: fine; permanent role at a licensed sponsor.",
+"match_reasons": [
+"Built Power BI dashboards and reports of client data showing trends, risks and opportunities (Visionize)",
+"Defined and built BreakPoint with AI coding tools, matching the advert's interest in AI and automation",
+"Excel pivot tables, lookups and Power Query, with Advanced Excel Data Visualization certification",
+"Pricing and cost analysis for client growth decisions, and KPI design"
+],
+"gaps": [
+"Permanent role: you'd leave in January 2028 unless they sponsor you; answer honestly if asked",
+"Needs a move: check relocation costs against the salary (Colnbrook, near Heathrow)",
+"Salary not stated; the Glassdoor estimate looks high for this grade, so ask",
+"Relevant commercial or BI analysis experience is essential; your reporting work is freelance and project-based, and SQL is working level only"
+],
+"jd_summary": "Commercial Analyst (Grade L), Sales Development - Commercial Reporting & Analysis, DHL Express UK, Colnbrook; contract type and work pattern not stated. Commercial reporting against targets and KPIs, revenue and volume variance analysis, presentations for VP Sales and directors, reporting automation with approved AI tools. Needs advanced Excel, Power BI/Power Query/SQL, relevant analytical experience; 2:1 preferred. Graduates welcome. Apply on the employer's site: https://careers.dhl.com/amer/en/job/DPDHGLOBALAV391232ENAMEREXTERNAL/Commercial-Analyst-Role",
+"jd_full": "Commercial Analyst\nLocation: Colnbrook\nGrade: L\nDepartment: Sales Development - Commercial Reporting & Analysis\nReporting to: Head of Commercial Reporting & Analysis\nDHL Express UK\nWe're looking for a commercially minded and analytically curious individual to join our Commercial Reporting & Analysis team as a Commercial Analyst. Whether you're an experienced analyst or a graduate with strong analytical capability, this is an opportunity to influence business decisions, work with senior stakeholders and help shape the future of commercial reporting through data, technology and innovation.\nWhat makes this role special?\nYour analysis and insights will support decision-making across Sales, Finance, Marketing and IT. You'll contribute to reporting and presentations used by senior leaders including the VP Sales, Sales Directors and, where required, Board members. This role offers exposure to real commercial challenges, opportunities to develop reporting and automation solutions, and the chance to work with emerging technologies, including approved AI tools.\nWhat will you be doing?\n• Deliver accurate and timely commercial reporting against targets, budgets and key performance indicators.\n• Analyse revenue and volume trends, investigate variances and identify underlying business drivers.\n• Produce clear insights, recommendations and presentations that support business decision-making\n• Build strong partnerships across Sales, Finance, Marketing, IT and Business Intelligence teams.\n• Support development and automation projects, improving reporting efficiency and effectiveness.\n• Use external market and economic data to provide context to commercial performance.\n• Maintain reporting databases, tools and documentation to ensure accuracy and consistency\n• Deliver ad-hoc analysis that provides actionable commercial recommendations, not just data.\nWhat are we looking for?\n• Strong numerical, analytical and problem-solving skills.\n• Commercial curiosity and a desire to understand what drives business performance\n• Advanced Excel skills, including data analysis, modelling, PivotTables and reporting.\n• The ability to present complex information in a clear and engaging way.\n• Strong planning, organisation and prioritisation skills.\n• A collaborative approach and willingness to take ownership of tasks and outcomes.\n• An interest in technology, continuous improvement and the use of AI tools to enhance analysis and reporting.\n• Experience using Power BI, Power Query, SQL, reporting automation tools or MS Access.\n• Relevant experience in commercial analysis, reporting, finance, business intelligence or a comparable analytical role is essential, with evidence of independently delivering analysis, explaining findings to stakeholders and informing business decisions.\nQualifications\nA 2:1 degree or above in a discipline with a substantial analytical component, or equivalent practical experience, is preferred. Relevant disciplines may include mathematics, statistics, economics, finance, engineering, computer science, data science or business.\nOur Commitment to Inclusion\nWe are committed to equal opportunity and reject any forms of discrimination.",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "DHL International (UK) Ltd",
+"town": "Slough",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "meets_general",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-22T08:29:28+00:00",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-22T08:29:28+00:00"
+},
+{
+"id": "gd-1010329725899",
+"source": "glassdoor",
+"title": "Commercial Data Analyst",
+"company": "APS Group Ltd",
+"location": "Stockport, hybrid",
+"salary": "£27,128 a year (employer provided)",
+"salary_min": 27128,
+"salary_max": 27128,
+"posted_age": "2d",
+"first_seen": "2026-11-22",
+"email_date": "2026-11-21",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010329725899",
+"easy_apply": true,
+"fit_score": 81,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 20,
+"max": 20,
+"note": "Reporting / data quality analyst with Excel, automation and process improvement: matches the target role and CV"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 25,
+"max": 25,
+"note": "No hard requirements; Excel, data cleansing and quality, AI/automation, problem solving and process improvement all shown"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 15,
+"max": 15,
+"note": "Says experience matters less than mindset and willingness to learn"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "None stated"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 3,
+"max": 10,
+"note": "Print and marketing services; no link, not required"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 3,
+"max": 10,
+"note": "Permanent role; APS Group isn't on the sponsor register"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Permanent, hybrid in Stockport (move from Newcastle)"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 4,
+"max": 5,
+"note": "2 days old; Easy Apply -1"
+}
+],
+"confidence": "high",
+"recommendation": "apply",
+"verdict": "An entry-level commercial data analyst at APS Group in Stockport: cleansing and validating data, Excel reporting, and AI and automation to cut manual work. It openly values mindset over experience and fits your BreakPoint and data-quality work closely, though the pay is low. Right to work: permanent role at an employer that isn't a sponsor, so a time-limited visa may count against you.",
+"match_reasons": [
+"Defined and built BreakPoint with AI coding tools to replace a manual process at EE",
+"Set up a client data pipeline, bringing together and cleaning data from several sources (Visionize)",
+"Built KPI dashboards with quality checks for accuracy and consistency (GDP Foundation)",
+"Excel pivot tables, lookups and Power Query, with Microsoft 365 Excel training"
+],
+"gaps": [
+"Permanent role at an employer that isn't a licensed sponsor: lower chance with a time-limited visa",
+"Permanent role: you'd leave in January 2028 unless they sponsor you; answer honestly if asked",
+"Needs a move: check relocation costs against the salary (Stockport, hybrid)",
+"Low salary (£27,128) for a graduate with an MSc"
+],
+"jd_summary": "Permanent Commercial Data Analyst in APS Group's Commercial Team, hybrid in Stockport (SK3). Analyse, cleanse and validate commercial and customer data, build Excel reports and automated tools, use AI and automation to reduce manual work, and suggest process improvements. Experience less important than curiosity and willingness to learn. £27,128 plus pension and parking. Apply by email to the employer's recruitment address given in the advert (recruitment@theapsgroup.com) or via Glassdoor Easy Apply.",
+"jd_full": "Love Excel? Curious about AI? Enjoy solving problems?\nIf you're the type of person who enjoys analysing information, spotting patterns and finding smarter ways of doing things, this could be the perfect opportunity.\nAPS Group is looking for a Commercial Data Analyst to join our growing Commercial Team. You'll work with data that supports real business decisions, develop automation tools, explore AI-driven solutions and help improve the way we work.\nWe're less concerned about the amount of experience you have and more interested in your mindset, aptitude and willingness to learn.\nWhat you'll be doing\n• Analysing, cleansing and validating commercial and customer data.\n• Supporting data quality and accuracy across business systems.\n• Building reports, spreadsheets and automated tools using Excel.\n• Working with AI and automation to improve efficiency and reduce manual processes.\n• Supporting colleagues across the business with reporting, data management and problem solving.\n• Identifying opportunities to improve processes and ways of working.\n• Helping maintain key commercial reporting and customer information.\n• Supporting commercial reporting and operational decision-making.\nWhat we're looking for\nYou don't need to tick every box, but you'll stand out if you:\n• Enjoy working with data, numbers and technology.\n• Have strong analytical and problem-solving skills.\n• Are naturally curious and like understanding how things work.\n• Have good Excel skills or are keen to become an Excel expert.\n• Take pride in producing accurate, high-quality work.\n• Are organised and able to manage multiple priorities.\n• Enjoy learning new skills and embracing new technology.\n• Have an interest in data, automation or AI.\n• Bring energy, initiative and a genuine desire to develop.\nWhy join APS?\nYou'll gain hands-on experience in commercial analysis, business reporting, automation and AI whilst working alongside experienced colleagues who will help you develop your skills.\nApply: recruitment@theapsgroup.com\nAPS Group is an equal opportunities employer.\nPay: £27,128.40 per year\nBenefits: casual dress, company pension, cycle to work scheme, employee discount, free on-site parking, referral programme\nWork Location: Hybrid remote in Stockport SK3",
+"sponsor_register": "not_found",
+"sponsor_match": {},
+"jd_sponsorship": "silent",
+"salary_check": "below_threshold",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-22T08:29:28+00:00",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-22T08:29:28+00:00"
+},
+{
+"id": "gd-1010330166124",
+"source": "glassdoor",
+"title": "Marketing Analyst",
+"company": "Sultan Juice & More Ltd",
+"location": "Southall, England",
+"salary": "£34,000 - £53,000 a year (employer provided)",
+"salary_min": 34000,
+"salary_max": 53000,
+"posted_age": "2d",
+"first_seen": "2026-11-22",
+"email_date": "2026-11-21",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010330166124",
+"easy_apply": true,
+"fit_score": 77,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 12,
+"max": 20,
+"note": "Marketing analyst: adjacent to the Market/Research Analyst target; little BA work"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 23,
+"max": 25,
+"note": "Google Analytics, market research, Excel, statistics, stakeholder communication and budgeting shown; marketing principles not shown"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 11,
+"max": 15,
+"note": "Asks for experience conducting market research; Visionize market and competitor insight covers it"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 10,
+"max": 10,
+"note": "Degree in Data Science preferred: BSc Data Science and MSc Business Analytics"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 6,
+"max": 10,
+"note": "GA4 web tracking and market insight for Visionize clients"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 8,
+"max": 10,
+"note": "Permanent role at a licensed Skilled Worker sponsor"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Permanent, full-time, in person in Southall (move from Newcastle)"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 4,
+"max": 5,
+"note": "2 days old; Easy Apply -1"
+}
+],
+"confidence": "medium",
+"recommendation": "apply",
+"verdict": "A full-time marketing analyst post at a small Southall juice business: market data, Google Analytics, competitor research and budget advice. The requirements are generic and match your GA4, market research and Excel evidence well. Right to work: fine; permanent role at a licensed sponsor.",
+"match_reasons": [
+"Set up Google Analytics 4 web tracking for a Visionize client",
+"Produced market and competitor insights and pricing and cost analysis for client growth decisions (Visionize)",
+"BSc Data Science is one of the degrees the advert names",
+"Explained client data in Power BI dashboards to non-technical small-business owners"
+],
+"gaps": [
+"Permanent role: you'd leave in January 2028 unless they sponsor you; answer honestly if asked",
+"Needs a move: check relocation costs against the salary (Southall, in person)",
+"Generic advert from a small food business that posted a near-identical Digital Marketing Analyst role the same day: ask what the job involves",
+"No formal marketing experience; CV shows market insight work but not campaign marketing"
+],
+"jd_summary": "Full-time, in-person Marketing Analyst in Southall. Analyse market data and campaign performance, use Google Analytics, Excel and marketing tools, research competitors and trends, and advise on marketing budget. Needs market research experience, data analysis, clear communication to non-technical colleagues; degree in Marketing, Data Science or Statistics preferred. £34,000-£53,000. Apply via Glassdoor Easy Apply (no employer careers site found).",
+"jd_full": "Job Overview\nWe are seeking a highly motivated and detail-oriented Marketing Analyst to join our dynamic team. The successful candidate will be responsible for analysing market data, generating insights, and supporting strategic decision-making processes. This role offers an excellent opportunity to utilise advanced data analysis tools and techniques to drive marketing success and optimise campaign performance.\nDuties\n• Familiarity with various software, digital tools and analytics platforms such as Google Analytics, Excel and specialised marketing software to gather and assess data\n• Understanding of statistical methods for interpreting data accurately and identifying market trends\n• Effective communication: convey complex data findings clearly and concisely to other departments or stakeholders\n• Attention to detail: accuracy when working with data\n• Critical thinking skills: evaluate data objectively, drawing insights that drive marketing strategies and business decisions\n• Teamwork skills: collaborate with cross-functional teams\n• Basic knowledge of finance and budgeting: make cost-effective recommendations and advise on optimising the department's budget\n• Research skills: identify trends, gather competitor data and keep updated on market developments\n• Problem-solving skills: identify challenges and provide data-driven solutions to improve marketing effectiveness\nRequirements\n• Familiarity with Google Analytics for website traffic analysis.\n• Solid understanding of marketing principles combined with excellent data analysis skills.\n• Experience conducting market research and interpreting complex datasets.\n• Ability to communicate technical insights clearly to non-technical stakeholders.\n• Demonstrated organisational skills with attention to detail in managing multiple projects simultaneously.\n• A degree in Marketing, Data Science, Statistics, or a related field is preferred but not essential if complemented by relevant experience.\nJob Type: Full-time\nPay: £34,000.00-£53,000.00 per year\nWork Location: In person",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "SULTAN JUICE & MORE LTD",
+"town": "Southall",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "range_crosses_general",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-22T08:29:28+00:00",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-22T08:29:28+00:00"
+},
+{
+"id": "gd-1010330219787",
+"source": "glassdoor",
+"title": "Digital Marketing Analyst",
+"company": "Sultan Juice & More Ltd",
+"location": "Southall, England",
+"salary": "£34,000 - £41,700 a year (employer provided)",
+"salary_min": 34000,
+"salary_max": 41700,
+"posted_age": "2d",
+"first_seen": "2026-11-22",
+"email_date": "2026-11-21",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010330219787",
+"easy_apply": true,
+"fit_score": 76,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 12,
+"max": 20,
+"note": "Marketing analytics: adjacent to the Market/Research Analyst target; little BA work"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 20,
+"max": 25,
+"note": "Google Analytics, Power BI, market research and presenting findings shown; SQL half; statistical software/R/Python weak"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 15,
+"max": 15,
+"note": "No experience level stated"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "None stated"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 6,
+"max": 10,
+"note": "GA4 web tracking and market/competitor insight for Visionize clients"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 8,
+"max": 10,
+"note": "Permanent role at a licensed Skilled Worker sponsor"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Permanent, in person in Southall (move from Newcastle)"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 4,
+"max": 5,
+"note": "2 days old; Easy Apply -1"
+}
+],
+"confidence": "medium",
+"recommendation": "apply",
+"verdict": "A digital marketing analyst post at a small Southall juice business: campaign and audience analysis in Google Analytics and SQL, with Power BI or Tableau reports. The advert is short and generic, but the tools largely match your freelance GA4 and Power BI work. Right to work: fine; permanent role at a licensed sponsor.",
+"match_reasons": [
+"Set up Google Analytics 4 web tracking for a Visionize client",
+"Built Power BI dashboards and reports showing trends, risks and opportunities for clients",
+"Produced market and competitor insights for client growth decisions (Visionize)",
+"MSc Business Analytics (Distinction) with Data-Driven Decision Making and Business Visualisation modules"
+],
+"gaps": [
+"Permanent role: you'd leave in January 2028 unless they sponsor you; answer honestly if asked",
+"Needs a move: check relocation costs against the salary (Southall, in person)",
+"Very short, generic advert from a small food business that posted a near-identical Marketing Analyst role the same day: ask what the job involves day to day",
+"SQL is listed for analysis and R/Python/SPSS/SAS is preferred; you have working SQL only"
+],
+"jd_summary": "Permanent, in-person Digital Marketing Analyst in Southall. Analyse campaign performance and audience behaviour with Google Analytics, SQL and statistical software; build Tableau or Power BI reports; apply market research and statistical analysis. Requires practical data analysis and clear visualisation; marketing analysis or market research and R/Python/SPSS/SAS preferred. £34,000-£41,700. Apply via Glassdoor Easy Apply (no employer careers site found).",
+"jd_full": "Job Overview\nAs a Digital Marketing Analyst, you will turn marketing data into clear, practical insight. You will examine campaign performance, audience behaviour and market trends, then present findings that help colleagues make informed decisions. Your work will connect analytical detail with marketing priorities, supporting thoughtful planning and evaluation across digital activity.\nResponsibilities\n• Analyse digital marketing data using Google Analytics, SQL and suitable statistical software.\n• Build clear data visualisations and reports in Tableau or Power BI, highlighting trends and areas for further investigation.\n• Apply market research and statistical analysis to assess audience behaviour and campaign performance.\n• Your impact: Clear, well-supported findings help marketing colleagues focus their planning on the audiences and activity most relevant to their goals.\nQualifications\nRequired: You bring practical data analysis skills, sound judgement when interpreting results, and the ability to communicate findings clearly through data visualisation. Preferred: Experience with marketing analysis or market research, and familiarity with R, Python, SPSS or SAS, will help you explore data using a range of tools and methods.\nPay: £34,000.00-£41,700.00 per year\nWork Location: In person",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "SULTAN JUICE & MORE LTD",
+"town": "Southall",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "range_crosses_general",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-22T08:29:28+00:00",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-22T08:29:28+00:00"
+},
+{
+"id": "gd-1010330589581",
+"source": "glassdoor",
+"title": "Data and Research Analyst",
+"company": "NSAR - National Skills Academy for Rail",
+"location": "London (Vauxhall), hybrid",
+"salary": "£40,000 a year (employer provided)",
+"salary_min": 40000,
+"salary_max": 40000,
+"posted_age": "2d",
+"first_seen": "2026-11-22",
+"email_date": "2026-11-21",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010330589581",
+"easy_apply": true,
+"fit_score": 68,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 16,
+"max": 20,
+"note": "Research analyst (a target role): data collection, dashboards, research briefings; more economics than BA work"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 23,
+"max": 25,
+"note": "Degree, research design, Power BI, Excel, reporting and stakeholder communication shown; SQL half; economic data partly (econometrics module, EV financial modelling)"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 6,
+"max": 15,
+"note": "2 years' data and research analysis required; CV shows about 1.5 years (Visionize, GDP Foundation)"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 10,
+"max": 10,
+"note": "Degree in Data Science named: BSc Data Science plus MSc"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 3,
+"max": 10,
+"note": "Rail skills sector; no link, not required"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 3,
+"max": 10,
+"note": "Permanent role; NSAR isn't on the sponsor register"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Permanent, London hybrid (3 days in Vauxhall)"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 4,
+"max": 5,
+"note": "2 days old; Easy Apply -1"
+}
+],
+"confidence": "high",
+"recommendation": "maybe",
+"verdict": "A permanent data and research analyst at a not-for-profit rail skills body: cleaning data, econometrics, dashboards and research briefings. Your research study, Power BI and degree fit well, but it asks for 2 years' experience and economic data analysis. Right to work: permanent role at an employer that isn't a sponsor, so a time-limited visa may count against you.",
+"match_reasons": [
+"Contributed analysis to a national research study on ageing recognised by NITI Aayog (GDP Foundation)",
+"Built Power BI and KPI dashboards with data quality checks",
+"Designed a mixed-methods MSc dissertation with user perception surveys",
+"BSc Data Science with Econometrics and Probability and Statistics modules"
+],
+"gaps": [
+"Permanent role at an employer that isn't a licensed sponsor: lower chance with a time-limited visa",
+"Permanent role: you'd leave in January 2028 unless they sponsor you; answer honestly if asked",
+"Needs a move: check relocation costs against the salary (London, 3 office days a week, some UK travel)",
+"Asks for 2 years' data and research analysis and experience with economic data; CV shows about 1.5 years"
+],
+"jd_summary": "Permanent, full-time (40 hours, Mon-Fri), hybrid 3 days a week in Vauxhall, London, with some UK travel; reports to the Head of Data and Marketing. Collect and clean data, apply econometrics, build dashboards, design research and write briefings. Needs a relevant degree, 2 years' data/research analysis, economic data experience, high Excel plus SQL, Python or R, and Power BI or Tableau. £40,000. Apply via Glassdoor Easy Apply.",
+"jd_full": "BACKGROUND\nNSAR is a not-for-profit membership organisation within the rail sector with strong links to government, employers, training providers, colleges and universities. We are seeking a highly motivated Data & Research Analyst with a good understanding of economics to support our work through robust data analysis and high-quality research. The postholder will report into the Head of Data and Marketing.\nKEY RESPONSIBILITIES\nData Analysis\n• Collect, clean, and manage datasets from multiple sources\n• Analyse quantitative and qualitative data\n• Apply econometrics and statistical methods to support research and analysis\n• Develop dashboards, reports, and visualisations to communicate findings\n• Identify patterns, trends, and insights that support organisational goals\n• Maintain and improve data management processes\nResearch\n• Design and conduct research using appropriate methodologies\n• Perform literature reviews, market research, and policy analysis where relevant\n• Gather and synthesise information from primary and secondary sources\n• Produce research summaries, briefings, and reports\nReporting & Communication\n• Present findings to internal teams and stakeholders\n• Translate analytical results into practical recommendations\n• Support strategic planning through evidence-based insights\nCollaboration\n• Work with colleagues to understand data and research needs\n• Support project teams with analytical and research expertise\n• Ensure ethical and responsible use of data\nESSENTIAL SKILLS & EXPERIENCE\n• Degree in Data Science, Statistics, Economics, Social Sciences, Data Analytics, or a related field\n• Experience in data analysis and research\n• Experience in analysing and interpreting economic data\n• Strong analytical and critical thinking skills\n• High level of proficiency in Excel and at least one analytical tool such as SQL, Python, R\n• Data visualisation tools (Power BI, Tableau, etc.)\n• Experience designing or conducting research\n• Ability to interpret complex data and communicate insights clearly\n• Strong written and verbal communication skills\n• Excellent organisational skills and attention to detail\nDESIRABLE SKILLS\n• Experience with survey design and statistical analysis\n• Knowledge of research methodologies (qualitative and quantitative)\n• Experience working with large datasets\n• Experience producing reports for stakeholders\nLocation: London, hybrid working 3 days per week in our office in Vauxhall, with some UK wide travel from time to time\nHours: 40 per week, Monday to Friday\nJob Types: Full-time, Permanent\nPay: £40,000.00 per year\nBenefits: company events, company pension, life insurance\nAbility to commute/relocate: London SE11 5EL: reliably commute or plan to relocate before starting work (required)\nExperience: Data and Research Analysis: 2 years (required)",
+"sponsor_register": "not_found",
+"sponsor_match": {},
+"jd_sponsorship": "silent",
+"salary_check": "meets_new_entrant",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-22T08:29:28+00:00",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-22T08:29:28+00:00"
+},
+{
 "id": "gd-1010332000383",
 "source": "glassdoor",
 "title": "Purchasing Support Analyst",
@@ -337,6 +892,119 @@
 "notes": "",
 "profile_basis": "master",
 "updated_at": "2026-11-22T08:28:17+00:00"
+},
+{
+"id": "gd-1010331831688",
+"source": "glassdoor",
+"title": "Market Size Analyst - Italy - Maternity Cover",
+"company": "Mintel",
+"location": "London (St Paul's), hybrid",
+"salary": "£27,000 a year (employer provided)",
+"salary_min": 27000,
+"salary_max": 27000,
+"posted_age": "1d",
+"first_seen": "2026-11-22",
+"email_date": "2026-11-21",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010331831688",
+"easy_apply": false,
+"fit_score": 60,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 5,
+"max": 20,
+"note": "Market research analyst in name, but the work is Italian-language research and trade interviews for the Italian market"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 15,
+"max": 25,
+"note": "Excel, analysis and large quantitative data shown; native Italian, 3 years' Italy residency and Italian trade interviews not shown"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 15,
+"max": 15,
+"note": "No years of work experience stated"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "None stated"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 6,
+"max": 10,
+"note": "FMCG: M&S food retail work is related"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 10,
+"max": 10,
+"note": "Maternity cover up to 12 months ends by January 2028 if it starts soon"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 5,
+"max": 5,
+"note": "Fixed-term maternity cover, London hybrid"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "1 day old; no Easy Apply; FTC +1 (capped). Gate experience_3y (3 years' Italy residency/local market expertise essential) caps total at 60"
+}
+],
+"confidence": "high",
+"recommendation": "maybe",
+"verdict": "A 12-month maternity cover sizing FMCG markets for Mintel's Italy coverage. It makes native Italian and at least 3 years living in Italy essential, which the CV doesn't show, so this is not realistic unless you speak Italian. Right to work: fine; a 12-month contract fits if it starts by January 2027.",
+"match_reasons": [
+"Produced market and competitor insights for Visionize clients",
+"Assessed market demand with sales data and financial modelling in the Renault/Nissan/Jeep EV strategy project (MSc)",
+"Excel pivot tables and lookups, with Advanced Excel Data Visualization certification",
+"M&S food floor experience gives some FMCG retail context"
+],
+"gaps": [
+"Native Italian and 3+ years' residency in Italy are essential; the CV shows neither",
+"Daily trade interviews by phone or Teams with Italian industry experts",
+"Needs a move: check relocation costs against the salary (£27,000 in London)",
+"Low salary for London"
+],
+"jd_summary": "Maternity cover (up to 12 months), Central London St Paul's, hybrid with flexi-time. Size 40 FMCG categories in Italy from secondary sources, run trade interviews with industry experts, write category content and forecasts for Mintel's Market Dynamics product. Essential: native Italian, 3+ years' residency in Italy, strong Excel and analysis. £27,000. Apply on Mintel's site via Glassdoor's 'Apply on employer site'.",
+"jd_full": "Maternity Cover - Expected up to 12 months\nLocation: Central London, St Paul's (Hybrid) - £27K\nPurpose\nMarket Size Analysts are responsible for creating market size data and content for Mintel's Market Dynamics product. They collect consumer spending and consumption data through both primary and secondary research, interpret and structure complex findings into Mintel's market size databases and produce content that highlights key market data, emerging trends, cross-category, cross-market, and cross-product analyses.\nImpact\nThe data and content produced by the Market Size Analyst will enhance Mintel's market size database and support the development of the Market Dynamics product.\nWhat You Will Be Doing\n• Secondary Research: Conduct economic market research across 40 FMCG categories by identifying and utilising secondary sources available in the local market to determine market sizes. Map the brand landscape, presenting findings in structured data formats.\n• Trade Interviews: Build and maintain relationships with industry experts and conduct trade interviews, capture emerging trends and key insights.\n• Produce written content: Develop category content by applying strong market knowledge and analytical skills to evaluate data outputs, generating insights and reliable market forecasts.\n• Communication & collaboration: Collaborate with cross-functional teams to share industry expertise.\nWhat We Are Looking For\nLocal Market Expertise:\n• Minimum of 3 years of residency in Italy with a strong understanding of its business culture and consumer behavior.\n• Native fluency in both written and spoken Italian is essential.\n• Familiarity with FMCG markets and local retail structures is a strong advantage\nData-Driven:\n• Strong analytical and critical thinking skills, with high attention to detail.\n• Comfortable working with large sets of quantitative data from various sources.\n• Proficiency in Excel and written business English for data analysis and reporting.\nOpen & Global Mindset:\n• Strong interpersonal and communication skills, with confidence in conducting daily trade interviews via phone or Microsoft Teams.\n• Experience in outbound calling (e.g., for sales, research, or customer service) is a plus.\n• Collaborative approach in a global environment.\nSelf-Directed & Proactive:\n• Ability to take the initiative to solve problems and take ownership of projects.\n• Ability to handle multiple tasks simultaneously, work under pressure and meet deadlines.\nGrowth-Oriented:\n• Commitment to continuous learning and personal development.\nWhat you'll get in return\n• Company-wide hybrid working week; flexi-time (start between 7:00am and 11:00am)\n• Home office allowance; generous holiday with buy-back option; birthday day off\n• 2 volunteering days per year; social events",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "Mintel Group Ltd",
+"town": "London",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "below_threshold",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-22T08:29:28+00:00",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-22T08:29:28+00:00"
 },
 {
 "id": "gd-1010332090479",
@@ -778,6 +1446,119 @@
 "notes": "",
 "profile_basis": "master",
 "updated_at": "2026-11-22T08:28:17+00:00"
+},
+{
+"id": "gd-1010331848928",
+"source": "glassdoor",
+"title": "Compliance & Data Analyst",
+"company": "Home Instead",
+"location": "Ormskirk, England (office-based)",
+"salary": "£27,000 - £30,000 a year (employer provided)",
+"salary_min": 27000,
+"salary_max": 30000,
+"posted_age": "1d",
+"first_seen": "2026-11-22",
+"email_date": "2026-11-21",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010331848928",
+"easy_apply": true,
+"fit_score": 30,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 12,
+"max": 20,
+"note": "Data and compliance analyst: half the duties are CQC compliance, audits and risk registers rather than analysis"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 17,
+"max": 25,
+"note": "Excel, dashboards, data accuracy and GDPR-minded data handling shown; CQC regulations, care systems and safeguarding not shown"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 11,
+"max": 15,
+"note": "Asks for experience in a data, compliance, quality or auditing role; GDP Foundation KPI dashboards with quality checks partly cover it"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 6,
+"max": 10,
+"note": "Degree in Data Analytics or related met; desirable care diploma not held"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 0,
+"max": 10,
+"note": "Needs a strong understanding of CQC regulations; no health or social care experience"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 2,
+"max": 10,
+"note": "Advert says it does not offer sponsorship, for a permanent role"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Permanent, office-based in Ormskirk; must live within 15 miles"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 4,
+"max": 5,
+"note": "1 day old; Easy Apply -1. Gate mandatory_licence (UK driving licence and car required, not on CV) caps total at 30"
+}
+],
+"confidence": "high",
+"recommendation": "skip",
+"verdict": "A compliance and data analyst at a homecare franchise in Ormskirk, split between CQC compliance (audits, risk registers, inspection evidence) and care-quality dashboards. It needs CQC knowledge, a UK driving licence and car, and living within 15 miles, none of which the CV shows. Right to work: permanent role and the advert says it does not offer sponsorship, so a time-limited visa may count against you.",
+"match_reasons": [
+"Built KPI dashboards with quality checks for accuracy and consistency, handling sensitive data (GDP Foundation)",
+"Designed BreakPoint for privacy: user codes, no free-text fields, 14-day data retention",
+"Excel pivot tables and lookups, Power BI dashboards",
+"MSc Business Analytics meets the degree requirement"
+],
+"gaps": [
+"Permanent role: you'd leave in January 2028 unless they sponsor you; answer honestly if asked",
+"Needs a move: check relocation costs against the salary (must live within 15 miles of Ormskirk)",
+"UK driving licence and access to a car required; not on the CV",
+"Strong understanding of CQC regulations essential, and the role keeps risk registers and action plans, which you can't claim"
+],
+"jd_summary": "Permanent, full-time (37 hours, Mon-Fri 8:30-5), office-based in Ormskirk, Lancashire. Monitor CQC compliance, keep compliance logs and risk registers, support inspections and audits, and build dashboards on care quality, punctuality and training data. Needs data/compliance experience, CQC knowledge, Excel, GDPR awareness, UK driving licence and car; must live within 15 miles. No sponsorship. £27,000-£30,000. Apply via Glassdoor Easy Apply.",
+"jd_full": "Job Location - Office Based In Ormskirk (Lancashire)\nWorking Hours - Monday - Friday 8:30am - 5pm\nAs a values-led Adult Social Care provider we are seeking an experienced Compliance & Data Analyst to join our Team.\nSalary: £30,000. Hours: Full time/37 hours per week\nJob Purpose\nThe Compliance and Data Analyst plays a key role in ensuring the organisation maintains high standards of regulatory compliance, data accuracy, and operational efficiency, monitoring care delivery data, compliance metrics, and risk trends in line with CQC regulations, and producing actionable insights to drive continuous improvement. The postholder will work closely with the Registered Manager.\nCompliance Monitoring & Governance\n• Monitor organisational compliance against CQC standards, internal policies, contractual obligations, and safeguarding requirements.\n• Maintain and update compliance logs, risk registers, and action plans.\n• Support the preparation and submission of regulatory documentation, including Provider Information Returns, notifications, audits, and evidence for CQC inspections.\n• Coordinate internal compliance audits across branches and teams.\n• Support incident, complaint, and safeguarding investigations through data collection, analysis, and reporting.\nData Analysis & Reporting\n• Collect, cleanse, validate, and analyse operational and quality data: client outcomes, visit punctuality and continuity of care, medication administration errors, staff training compliance, recruitment and retention metrics, care concerns, incidents and risk alerts\n• Develop and maintain dashboards and reports (monthly, quarterly, and ad hoc) for senior leadership.\n• Identify trends, patterns, and emerging risks through data analysis and visualisation.\n• Translate complex data into clear, actionable insights and recommendations.\n• Ensure data accuracy, consistency, and integrity across systems and reports.\nQuality Improvement\n• Support quality assurance processes, including audits and staff competency reviews.\n• Design, implement, and monitor quality improvement initiatives with the senior leadership team.\n• Track progress against improvement plans.\nSystems & Data Management\n• Manage and optimise data management systems; ensure accurate and timely data entry.\n• Support and train staff on systems, data recording standards, and compliance requirements.\n• Maintain GDPR-compliant processes for data security, access, and retention.\n• Identify opportunities to improve data systems, reporting processes, and data quality.\nEssential Skills & Experience\n• Experience in a data, compliance, quality, or auditing role, preferably within health or social care\n• Strong understanding of Care Quality Commission regulations and quality standards.\n• Excellent analytical skills, with proficiency in data analysis and reporting tools (e.g. Excel).\n• Ability to interpret complex data and communicate insights clearly.\n• High attention to detail.\n• Strong organisational skills.\n• Experience handling confidential and sensitive information in line with GDPR.\nDesirable Skills & Experience\n• Experience working within a homecare setting.\n• Knowledge of safeguarding principles and incident management.\n• Familiarity with data management systems (e.g. Birdie, Care Copilot, My Learning Cloud).\n• Experience designing dashboards or visual reports.\nQualifications\n• Degree or equivalent experience in Data Analytics, Business Intelligence, Health and Social Care, Compliance, or a related field.\n• Desirable: Level 3 or Level 5 Diploma in Adult Care\nThis role is subject to a Criminal Records check.\nPay: £27,000.00-£30,000.00 per year\nApplication questions: Do you live within 15 miles of Ormskirk? Your current postcode? Do you understand CQC regulations or quality assurance processes? Do you require sponsorship to work in the UK? (Unfortunately, we do not offer sponsorship)\nLicence/Certification: UK Driving License & access to a car (required)\nWork Location: In person",
+"sponsor_register": "possible",
+"sponsor_match": {
+"name": "Home Instead UK Ltd (franchisor; no Ormskirk franchise on the register)",
+"town": "Warrington",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "no_sponsorship",
+"salary_check": "below_threshold",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-22T08:29:28+00:00",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-22T08:29:28+00:00"
 },
 {
 "id": "gd-1010331781072",
