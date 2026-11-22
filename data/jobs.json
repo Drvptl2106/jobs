@@ -447,6 +447,232 @@
 "updated_at": "2026-11-22T08:29:28+00:00"
 },
 {
+"id": "gd-1010330808271",
+"source": "glassdoor",
+"title": "Data & Reporting Analyst",
+"company": "ScottishPower",
+"location": "Glasgow, Scotland (or other SP Energy Networks licence-area locations)",
+"salary": "From £45,400 (employer provided)",
+"salary_min": 45400,
+"salary_max": 45400,
+"posted_age": "2d",
+"first_seen": "2026-11-22",
+"email_date": "",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010330808271",
+"easy_apply": false,
+"fit_score": 81,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 18,
+"max": 20,
+"note": "Reporting/MI and data quality analyst with product-owner support: requirements, testing, Power BI and Excel"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 21,
+"max": 25,
+"note": "Dashboards, Power BI/Excel, multi-source data, trends, stakeholders and requirements/testing shown; data governance partly; Tableau and utilities not shown"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 11,
+"max": 15,
+"note": "Asks for experience in a data, reporting or BI role; freelance and NGO dashboard work covers it"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 10,
+"max": 10,
+"note": "MSc Business Analytics meets the relevant qualification"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 3,
+"max": 10,
+"note": "Energy networks; utilities experience only advantageous"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 10,
+"max": 10,
+"note": "Licensed sponsor; advert says it will support immigration requirements (contract type not stated)"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Assumed permanent; Glasgow HQ or other licence-area offices (move)"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "2 days old, not Easy Apply"
+}
+],
+"confidence": "high",
+"recommendation": "apply",
+"verdict": "A reporting and data quality analyst role in SP Energy Networks' Land & Planning team, building Power BI and Excel reports and acting as product owner representative for system changes. It lines up well with your dashboard, requirements and testing work. Right to work: fine; likely permanent role at a licensed sponsor that says it will support immigration requirements.",
+"match_reasons": [
+"Built Power BI dashboards and reports of client data at Visionize (dashboards and MI)",
+"Set up a client data pipeline bringing together and cleaning data from several sources (multi-system data handling)",
+"KPI dashboards with quality checks for accuracy and consistency, keeping sensitive data secure, at GDP Foundation",
+"Defined requirements and business rules for BreakPoint and tested every rule before rollout (product owner, testing and acceptance)"
+],
+"gaps": [
+"Permanent role: you'd leave in January 2028 unless they sponsor you; answer honestly if asked",
+"Needs a move: check relocation costs against the salary (Glasgow HQ, travel across licence areas)",
+"Contract type not stated in the advert: check it",
+"Salesforce/ESCOMS, SAP RE, GIS and Tableau are not on your CV; no utilities experience"
+],
+"jd_summary": "Data & Reporting Analyst, Land & Planning, SP Energy Networks (ScottishPower), from £45,400. Based at Glasgow HQ or another licence-area office, with UK travel. Collects and validates data from Salesforce/ESCOMS, SAP RE and GIS, builds Power BI and Excel reports, analyses trends, and acts as product owner representative for system changes (requirements, testing, acceptance). Contract type not stated. Closes 7 December 2026. Apply through ScottishPower careers (Iberdrola Workday) or the Glassdoor 'Apply on employer site' link.",
+"jd_full": "Job Title - Data & Reporting Analyst\nLocation - Glasgow HQ / wider licence areas considered\n(This role may be based at Glasgow HQ or another suitable location across the wider licence areas, with UK-wide engagement and a requirement to travel to Glasgow HQ and other locations as required.)\nSalary from £45,400 + benefits\n\nThe Data & Reporting Analyst will support the delivery of accurate, timely and insight-driven management information across Land & Planning, helping improve data quality, reporting consistency and visibility of operational and programme performance. Reporting to the Data & Reporting Lead / Systems & Support Lead, you will collect, validate and analyse data from multiple business systems, produce reports and dashboards, and turn complex information into clear outputs that support decision-making across Transmission and Distribution licence areas.\nYou will also support the development and improvement of Land & Planning systems, acting as a product owner or product owner representative for agreed developments: defining user needs, prioritising requirements, supporting testing and acceptance, and ensuring system changes deliver measurable benefits.\n\nWhat you'll be doing\n• Collect, cleanse and validate data from systems including Salesforce/ESCOMS, SAP RE and GIS, resolving discrepancies and supporting consistent data standards and governance controls\n• Develop, maintain and improve standard reports and dashboards using Power BI and Excel, aligned with agreed business KPIs and reporting cycles\n• Analyse performance data to identify trends, risks, exceptions and emerging issues for operational teams, programme governance and regulatory delivery\n• Collate and structure data from multiple systems into consistent, report-ready formats, reducing manual processes\n• Engage with Land & Planning, Systems & Support, Data & Intelligence, project and programme teams to understand reporting needs and respond to ad hoc requests\n• Support system development as a product owner or product owner representative: translate business needs into prioritised requirements, coordinate user input, support testing and acceptance, and monitor benefits\n• Maintain clear documentation for data definitions, reporting processes, requirements, decisions and system changes, in line with data governance and GDPR\n\nWhat you'll bring\n• Ability to engage with stakeholders across the UK and travel to Glasgow HQ and other locations as required\n• Experience working in a data analysis, reporting or business intelligence role, including dashboards and management reports\n• Proficiency in Power BI and Excel; Tableau or comparable tools also valued\n• Experience handling, reconciling and analysing data from multiple systems, with strong attention to detail and data quality\n• Ability to interpret data, identify trends and exceptions, and present clear outputs for operational and senior stakeholders\n• Good communication and stakeholder engagement skills\n• Experience supporting system or digital product development (requirements, backlog prioritisation, user testing, product owner) would be highly valued\n• Understanding of data governance, data models, reporting structures and GDPR\n• Experience within utilities, infrastructure, asset management or another regulated environment would be advantageous\n• A relevant qualification or equivalent practical experience in data analytics, BI, information systems or a related discipline would be valued\n\nWhat's in it for you\n• Pension: double match up to a company contribution of 10%\n• 36 days annual leave, holiday purchase, share schemes\n• Technology vouchers, EV and cycle schemes, healthcare options, life assurance (4x salary), discounts\n\nWhy SP Energy Networks\nPart of the Iberdrola Group; keeps electricity flowing across Central and Southern Scotland, North Wales and the North West of England through Transmission and Distribution networks.\n\nMobility\nAny applicant who is not a citizen of the country of the vacancy will be subject to compliance with the applicable immigration requirements to legally work in that country. If/when required, the Company will support the employee with the necessary Immigration requirements.\n\nAdvert closes at 23:59 GMT the day before the Job Posting End Date: 7 December 2026.",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "ScottishPower Limited",
+"town": "Glasgow",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "offers",
+"salary_check": "meets_general",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-22T08:31:26+00:00",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-22T08:31:26+00:00"
+},
+{
+"id": "gd-1010330702376",
+"source": "glassdoor",
+"title": "Reporting Change Analyst",
+"company": "Nationwide Building Society",
+"location": "Swindon, London, Northampton or Glasgow",
+"salary": "From £44,800 (employer provided)",
+"salary_min": 44800,
+"salary_max": 44800,
+"posted_age": "2d",
+"first_seen": "2026-11-22",
+"email_date": "",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010330702376",
+"easy_apply": false,
+"fit_score": 79,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 18,
+"max": 20,
+"note": "Data/BA hybrid in a reporting change team: requirements, business rules, data testing and process improvement"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 23,
+"max": 25,
+"note": "Requirements from stakeholders, Excel, Power BI data quality checks, analysis, change delivery shown; following data through pipelines/logic only partly (client pipeline)"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 11,
+"max": 15,
+"note": "No years stated; 'next step in your data or analysis career' and requirements/data work the CV covers"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "None stated"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 3,
+"max": 10,
+"note": "Building society finance reporting; no financial services experience, but advert says finance expertise not needed"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 8,
+"max": 10,
+"note": "Permanent at a licensed Skilled Worker sponsor; advert silent on sponsorship"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Permanent; Swindon, London, Northampton or Glasgow, 2 office days a week (move)"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "2 days old, not Easy Apply"
+}
+],
+"confidence": "high",
+"recommendation": "apply",
+"verdict": "A permanent analyst role in Nationwide's Finance Reporting Change Team: gathering requirements, documenting business rules, analysing and testing data for new reporting solutions. It explicitly does not need finance expertise and matches your requirements, business rules and data-quality work closely. Right to work: fine; permanent role at a licensed sponsor.",
+"match_reasons": [
+"Defined requirements and business rules for BreakPoint and tested every rule by hand before rollout",
+"Challenged and documented client requirements as a freelance BA at Visionize",
+"KPI dashboards with data quality checks for accuracy and consistency at GDP Foundation; Excel pivot tables and lookups",
+"Set up a client data pipeline combining and cleaning data from several sources (how data moves through a process)"
+],
+"gaps": [
+"Permanent role: you'd leave in January 2028 unless they sponsor you; answer honestly if asked",
+"One vacancy advertised across several cities (national competition)",
+"Needs a move: check relocation costs against the salary (Swindon, London, Northampton or Glasgow; Glasgow office days from April 2027)",
+"No financial services experience; SQL is working knowledge only"
+],
+"jd_summary": "Permanent, full-time Reporting Change Analyst (internal title System Data & Change Consultant) in Nationwide's Finance Reporting Change Team, from £44,800. Based in Swindon, London, Northampton or Glasgow, at least 2 office days a week. Gathers requirements, documents business rules, analyses and reconciles data, supports design and testing of reporting solutions. Needs strong Excel and SQL/Power BI data testing. Apply via 'Apply Now' with CV and questions on Nationwide Careers; closes 30 November 2026.",
+"jd_full": "Location: Swindon / Wiltshire. Other locations: Glasgow, London / Greater London, Northampton / Northamptonshire\nSalary: From £44,800\nContract: Permanent (Full Time)\nReference: 6262\nClosing Date: 30 November 2026\n\nJob description\nWe're looking for a data analyst to join our Reporting Change Team and help shape the future of reporting and data across Nationwide's Finance function. You'll work with analysts, developers, business designers and Finance specialists on everything from data analysis and requirements gathering to solution design and testing.\nYou don't need to be a Finance or regulatory reporting expert. We're looking for strong analytical skills, curiosity and a willingness to learn.\nHybrid working: at least two days per week (or 40% of working time if part time) at the Swindon, London, Northampton or Glasgow office. For Glasgow this applies from 1 April 2027; before then you will need to regularly connect with colleagues for collaboration events.\nIf we receive a high volume of relevant applications, we may close the advert early.\n\nWhat you'll be doing\nYou'll work on projects supporting the strategic direction for reporting and data within Finance. You'll work with Finance SMEs and stakeholders to understand problems, gather requirements and analyse existing processes, data and reporting logic. You'll help document business rules and translate them into clear requirements for developers, while supporting the design of data tables and reporting solutions.\nYou'll also analyse datasets to identify trends, issues and data quality concerns, support the testing of new data and reporting solutions, and work closely with developers, business designers and other analysts. You'll help identify opportunities to simplify existing processes and make better use of automation.\n\nAbout you\nYou'll be curious, approachable and technically minded, comfortable analysing data, identifying patterns or issues and working with others to understand the business rules behind it.\n\nAs a minimum you'll have:\n• Experience working with stakeholders to understand a problem or need and turn it into clear requirements or documented outcomes, constructively challenging assumptions\n• Excellent Excel skills, using formulas and functions to analyse, reconcile and interrogate data\n• Experience working with large or complex datasets, including data testing, reconciliation or data quality analysis using SQL, Power BI or similar\n• Strong analytical and problem-solving skills\n• A willingness to learn new skills, systems, technologies and areas of Finance\n• Experience understanding how data moves through a process, including following existing logic, code or workflows\n• Experience delivering change, process improvement or automation\n\nCustomer first behaviours: Feel what customers feel; Say it straight; Push for better; Get it done.\n\nThe extras you'll get\n• 25 days holiday, pro rata\n• Private medical insurance\n• Competitive pension\n• Annual performance-related bonus\n• Training and development\n• Salary sacrifice benefits, life assurance, Wellhub, up to 2 paid volunteering days a year\n\nWhat to do next\nClick 'Apply Now', attach your up-to-date CV and answer a few quick questions. Nationwide responds to everyone shortly after the closing date.\nIf successful, the job title on internal systems will be System Data & Change Consultant.",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "Nationwide Building Society",
+"town": "Swindon",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "meets_general",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-22T08:31:26+00:00",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-22T08:31:26+00:00"
+},
+{
 "id": "gd-1010330166124",
 "source": "glassdoor",
 "title": "Marketing Analyst",
@@ -558,6 +784,119 @@
 "notes": "",
 "profile_basis": "master",
 "updated_at": "2026-11-22T08:29:28+00:00"
+},
+{
+"id": "gd-1010124868068",
+"source": "glassdoor",
+"title": "De-Fleet - Product Data Analyst (6-month FTC/Secondment)",
+"company": "Motability Operations",
+"location": "Bristol, England",
+"salary": "£50k - £62k (Glassdoor est.)",
+"salary_min": 50000,
+"salary_max": 62000,
+"posted_age": "2d",
+"first_seen": "2026-11-22",
+"email_date": "",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010124868068",
+"easy_apply": false,
+"fit_score": 77,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 14,
+"max": 20,
+"note": "Product data analyst: investigating data questions and issues, data quality and testing; adjacent to BA/data quality targets"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 21,
+"max": 25,
+"note": "Data investigation, BI tool (Power BI), problem-solving, communication shown; SQL only working knowledge (half); Oracle OAS and Snowflake not shown"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 11,
+"max": 15,
+"note": "Asks for some experience using data/reporting and some SQL; freelance and NGO dashboard work covers it"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "None stated"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 3,
+"max": 10,
+"note": "Vehicle leasing; no link, sector experience not asked for"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 10,
+"max": 10,
+"note": "6-month FTC ends well before January 2028"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 5,
+"max": 5,
+"note": "6-month FTC in Bristol (move from Newcastle)"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "2 days old, not Easy Apply, FTC +1"
+}
+],
+"confidence": "high",
+"recommendation": "apply",
+"verdict": "A 6-month fixed-term data role investigating business questions and data issues for the De-Fleet product team, with discovery work on Snowflake and AI analytics. It wants some SQL and a BI tool rather than deep technical skills, which suits your Power BI and data-quality work. Right to work: fine; a 6-month contract ends long before January 2028.",
+"match_reasons": [
+"Power BI dashboards and reports of client data at Visionize (BI/reporting tool requirement)",
+"KPI dashboards with quality checks for accuracy and consistency at GDP Foundation",
+"Root cause analysis of process inefficiency and testing business rules by hand before the BreakPoint rollout",
+"Working knowledge of SQL from BSc Database Management Systems module"
+],
+"gaps": [
+"Needs a move: check relocation costs against the salary (Bristol, 3 office days a week)",
+"Salary not stated by the employer (Glassdoor estimate £50k-£62k)",
+"Oracle OAS and Snowflake not shown on the CV; SQL is working knowledge only",
+"Also open as an internal secondment, so internal candidates may be favoured"
+],
+"jd_summary": "6-month FTC or secondment in the De-Fleet Data product team, Bristol, hybrid (up to 2 days remote a week). Investigates business questions and production incidents in Oracle OAS and Snowflake using SQL, documents findings, supports discovery on dbt, natural-language analytics and AI. Needs some practical SQL and a BI tool; no Python or data engineering needed. Salary not stated. Closes 29 November 2026 (may close early). Apply on the employer's site: https://recruitment.mo.co.uk/vacancies/22351/de-fleet--product-data-analyst-6-month-ftc-secondment.html",
+"jd_full": "About The Role\nThis is a practical, hands-on role supporting the De-Fleet Data product team and our business users. You will help investigate data questions and production issues, support colleagues using Oracle OAS and Snowflake, and be an active contributor to some exciting product discovery initiatives.\nYou do not need to arrive as a fully-fledged data specialist. We are looking for someone with a good analytical mindset, some experience of working with data and SQL, and the confidence to investigate problems and work with others to find answers. You will work closely with experienced colleagues across Product, MI, Data Engineering, and Data Architecture.\n\nKey accountabilities\n• Support the team with business questions and production incidents: clarify the issue with the person who raised it, investigate the data in Oracle OAS and/or Snowflake, and work with Data Engineers where further technical support is needed.\n• Work closely with the Data Product Manager and Data Architect on new discovery initiatives involving Snowflake, dbt, natural-language analytics and possibly agentic AI.\n• Use SQL, Oracle OAS and Snowflake to investigate, validate and understand data, with support from colleagues where required.\n• Communicate findings clearly to business and technical colleagues, documenting useful information and sharing learning.\n• Work collaboratively across the Product, MI and Data Engineering teams, escalating issues appropriately and contributing to continuous improvement in data quality, testing and ways of working.\n\nAbout You\nYou are curious, analytical and enjoy getting to the bottom of a problem. You have some experience of using SQL and data or reporting tools and are keen to develop your knowledge of Snowflake and Oracle OAS. You do not need deep expertise in data modelling, Python or data engineering; the role is more focused on investigation, support and problem-solving. An interest in modern data architecture and/or AI would be useful.\n\nMinimum criteria\n• Experience of using data or reporting to investigate questions, issues or business problems\n• Some practical SQL experience, with the ability to query and explore data\n• Experience of using a BI, reporting or analytics tool; Oracle OAS experience would be particularly useful\n• Strong problem-solving skills and a willingness to investigate an issue beyond the initial question\n• Clear communication skills and confidence working with both business and technical colleagues\n• Ability to manage a varied workload, ask for help when needed and follow issues through to resolution\n• A willingness to learn and develop technical skills during the secondment\n\nAbout The Company\nThe company behind the Motability Scheme, the UK's largest car leasing company, employing over 1,800 people across London, Bristol, Edinburgh and Coalville.\n\nHow we work\nHybrid: remotely for up to two days each week and in the office the rest of the time. Part-time and flexible working requests considered where possible.\n\nWhat we can offer you\n• Competitive salary with a yearly discretionary bonus\n• 28 days holiday, buy and sell days\n• 15% non-contributory pension (9% during probation)\n• Private medical insurance, life assurance at four times salary, employee assistance programme\n• Internal training, family leave, volunteering day, car and cycle schemes, discounts\n\nMotability Operations reserves the right to bring forward the closing date if it receives enough quality applications, so apply as soon as possible.",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "Motability Operations Ltd",
+"town": "Bristol",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "meets_general",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-22T08:31:26+00:00",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-22T08:31:26+00:00"
 },
 {
 "id": "gd-1010330219787",
@@ -779,6 +1118,232 @@
 "notes": "",
 "profile_basis": "master",
 "updated_at": "2026-11-22T08:31:12+00:00"
+},
+{
+"id": "gd-1010331396333",
+"source": "glassdoor",
+"title": "Improvement Analyst",
+"company": "ScottishPower",
+"location": "Blantyre (Aspect House), Scotland",
+"salary": "From £40,400 (employer provided)",
+"salary_min": 40400,
+"salary_max": 40400,
+"posted_age": "2d",
+"first_seen": "2026-11-22",
+"email_date": "",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010331396333",
+"easy_apply": false,
+"fit_score": 74,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 15,
+"max": 20,
+"note": "Process/improvement analyst for smart-meter operator flows; mostly performance monitoring and third-party management"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 19,
+"max": 25,
+"note": "Analysis, change/CI, stakeholders, Excel and Power BI shown; third-party contract management, negotiation and planning only partly; facilitation not claimable; SAP, Synapse, Visual Studio not shown"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 11,
+"max": 15,
+"note": "Asks for relevant experience in a similar role or operational environment; EE and M&S operations plus BreakPoint partly cover it"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "None stated"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 3,
+"max": 10,
+"note": "Energy/smart metering; no link, sector experience not required"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 10,
+"max": 10,
+"note": "Permanent at a licensed sponsor; advert says it will support immigration requirements"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Permanent role in Blantyre, near Glasgow (move)"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "2 days old, not Easy Apply"
+}
+],
+"confidence": "high",
+"recommendation": "apply",
+"verdict": "A permanent improvement analyst role in Smart Field Services, tracking meter operator data flows against regulatory targets, reporting performance and driving fixes with third parties. Your improvement and dashboard work fits, but it expects proven third-party management and facilitation. Right to work: fine; permanent role at a licensed sponsor that says it will support immigration requirements.",
+"match_reasons": [
+"Defined, built and rolled out BreakPoint after spotting a team problem at EE (change and continuous improvement)",
+"Analysed processes to find root causes of inefficiency and proposed delivery changes at GDP Foundation",
+"Power BI dashboards and Excel reporting for clients at Visionize (Excel/Power BI requirement)",
+"Worked directly with clients and teams across the foundation on requirements (stakeholder management)"
+],
+"gaps": [
+"Permanent role: you'd leave in January 2028 unless they sponsor you; answer honestly if asked",
+"Needs a move: check relocation costs against the salary (Blantyre, hybrid)",
+"Expects experience managing external third parties against contracts and service levels",
+"Strong facilitation is listed; SAP, Synapse and Visual Studio are not on your CV"
+],
+"jd_summary": "Permanent, full-time Improvement Analyst in the Smart Flow Management team, Aspect House, Blantyre (hybrid, flexible pattern), from £40,400. Monitors meter operator flows and performance against contracts and smart-meter targets, reports to governance sessions, plans improvements with third parties. Needs CI experience, stakeholder management, Excel/Power BI/Synapse. Closes 4 December 2026. Apply on the employer's site: https://iberdrola.wd3.myworkdayjobs.com/en-US/Iberdrola/job/United-Kingdom-Blantyre/Improvement-Analyst_R-34741-1",
+"jd_full": "Improvement Analyst\nAspect House, Blantyre (hybrid)\nSalary from £40,400 + excellent benefits\nFull-time, permanent position (flexible working pattern)\nClosing date: Friday 4th of December 2026\n\nThe UK Government has mandated targets for the rollout of Smart Meters up to the end of 2029. Smart Field Services provides installation and maintenance services through its Meter Operators for all Energy Retail customers, with c5m meters in the portfolio. The Improvement Analyst will work as part of the Smart Flow Management team within Smart Field Services, to track, maintain and improve Industry, Bi-lateral and MAP Flows to support the regulatory smart meter install targets.\n\nWhat you'll be doing\n• Support the development, delivery and improvement of operational flow performance to ensure compliance of all Meter Operator Partners with regulatory targets and operational requirements\n• Support the Smart Flow Metering Manager, communicating progress to Operations Managers, Head of Technical Services and the Commercial Team in governance sessions, with statistical updates and improvement opportunities\n• Monitor flow, validation and performance for all metering operators to identify trends and issues, and plan improvement works and projects\n• Analyse performance against contractual terms, identify improvements and work with 3rd parties to implement them\n• Develop actions and plans to address issues, and influence internal and external stakeholders to deliver actions\n• Use regular reporting to ensure meter operators perform to agreed service levels\n• Proactively identify improvement opportunities and drive changes efficiently\n• Interpret complex data files so that system issues can be prioritised\n• Identify opportunities to reduce costs and improve meter operator data quality and transfer performance\n• Undertake effective Risk Management actions\n\nWhat you'll bring\n• Strong ability to collaborate with people across different areas to create and deliver plans and initiatives\n• Experience managing relationships with external third parties\n• Well-developed communication, influencing and negotiation skills\n• Excellent planning knowledge and experience\n• Knowledge of Microsoft 365 applications, including Copilot\n• Strong planning and organisational skills\n• Proven ability to develop and drive forward projects and solutions within tight timescales\n• Strong analytical and problem-solving skills\n• Experience using SAP is advantageous\n\nMinimum Criteria\n• Relevant experience gained within a similar role or operational environment\n• Demonstrable experience identifying and implementing change and continuous improvement initiatives\n• Strong stakeholder management skills with a range of internal and external stakeholders\n• Strong analytical and problem-solving skills with the ability to interpret complex data, identify trends and turn insights into action\n• Experience using Excel, Power BI, Visual Studio and Synapse (or similar) to analyse and present data\n• Knowledge of Microsoft 365 applications, including Copilot\n• High level of accuracy and attention to detail\n• Strong facilitation, communication and presentation skills\n\nWhat's in it for you\n• Pension: double match up to a company contribution of 10%\n• 36 days annual leave, holiday purchase\n• Share schemes, payroll giving, technology vouchers, EV and cycle schemes\n• Healthcare options, life assurance (4x salary), financial wellbeing support, discounts\n\nMobility\nAny applicant who is not a citizen of the country of the vacancy will be subject to compliance with the applicable immigration requirements to legally work in that country. If/when required, the Company will support the employee with the necessary Immigration requirements.\n\nAdvert closes at 23:59 GMT the day before the Job Posting End Date: 4 December 2026.",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "ScottishPower Limited",
+"town": "Glasgow",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "offers",
+"salary_check": "meets_new_entrant",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-22T08:31:26+00:00",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-22T08:31:26+00:00"
+},
+{
+"id": "gd-1010331132721",
+"source": "glassdoor",
+"title": "Business Analyst (12-month FTC)",
+"company": "ITV",
+"location": "London or Leeds, England",
+"salary": "£40k - £55k (employer provided)",
+"salary_min": 40000,
+"salary_max": 55000,
+"posted_age": "2d",
+"first_seen": "2026-11-22",
+"email_date": "",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010331132721",
+"easy_apply": false,
+"fit_score": 69,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 20,
+"max": 20,
+"note": "Business analyst: discovery, requirements, process analysis, UAT"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 15,
+"max": 25,
+"note": "Requirements, process analysis, data analysis and presenting shown; user stories/acceptance criteria not claimable; agile, UAT and consultancy only partly; no media sector or legacy integration work"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 6,
+"max": 15,
+"note": "Experienced BA who can hit the ground running across complex legacy projects; roughly 2-3 years implied"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "None stated"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 0,
+"max": 10,
+"note": "Minimum criteria require media, content distribution or broadcast sector experience"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 10,
+"max": 10,
+"note": "12-month FTC ends by January 2028 if it starts by January 2027"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 5,
+"max": 5,
+"note": "12-month FTC in Leeds or London (move)"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "2 days old, not Easy Apply, FTC +1"
+}
+],
+"confidence": "high",
+"recommendation": "maybe",
+"verdict": "A 12-month fixed-term BA role in ITV's Content Supply Technology team, from discovery and requirements through to UAT on rights, scheduling and content distribution systems. The contract type is ideal, but it asks for an experienced BA with user stories and media-sector experience. Right to work: fine; a 12-month contract fits if it starts by January 2027.",
+"match_reasons": [
+"Gathered, challenged and documented client requirements as a freelance BA at Visionize",
+"Defined requirements and business rules for BreakPoint and tested every rule by hand before rollout",
+"Backlog refinement and prioritisation within iterative delivery cycles at GDP Foundation",
+"Process mapping and root cause analysis of inefficient processes at GDP Foundation"
+],
+"gaps": [
+"Needs a move: check relocation costs against the salary (Leeds or London, 1-2 office days a week)",
+"Media, content distribution or broadcast sector experience is a minimum criterion; the CV has none",
+"Wants experience writing user stories with acceptance criteria and running SIT/UAT; not yet claimable",
+"Expects an experienced BA on complex legacy systems and vendor evaluations; closes 26 November 2026"
+],
+"jd_summary": "12-month fixed-term, full-time Business Analyst in Content Supply Technology (catalogue, rights, scheduling, asset management, distribution), ITV, Leeds or London, hybrid 1-2 days on site, £40,000-£55,000. Discovery, requirements and user stories, solution design support, SIT and UAT. Minimum criteria include media/broadcast sector experience and agile product teams. Closes 26 November 2026. Apply through ITV careers (job reference 300002968605284).",
+"jd_full": "Job Reference: 300002968605284\nCompany: ITV\nDivision: Tech, Data & Product\nBusiness Area: Technology\nContract Type: Fixed Term Full Time (12 months FTC)\nOffice location: Leeds or London, Hybrid 1-2 days on site\nSalary: £40,000 - £55,000\nClosing Date: 26th November 2026\n\nThe Role\nITV's Content Supply Technology department is responsible for the technology platforms, engineering and products that deliver ITV's content from multiple sources to ITVX, B2B partners and ITV's linear TV channels. We are looking for a Business Analyst to join the Content Supply Technology team to help support the evolution of our content supply chain.\nOur teams work across catalogue, rights, scheduling, asset management and content distribution domains. You will work with senior members of the division and with business and operational stakeholders to understand the problems to be solved, bringing domain knowledge and analysis skills to the definition and implementation of business and technology change.\nThe Business Analyst will work on prioritised initiatives in the Content Supply portfolio, from discovery (business processes and systems architecture, opportunities, project shaping and justification) to requirements elicitation and specification, contributing to solution design, and supporting implementation and user acceptance testing.\n\nMinimum role criteria\n• Experienced in eliciting requirements from business stakeholders and writing user stories for product features, defining the acceptance criteria and test conditions\n• Experienced in complex projects with lots of legacy processes, systems, data and integrations\n• Experienced in working in agile ways with scrum/kanban product teams\n• Experienced in documenting test scenarios and running systems integration tests and facilitating user acceptance and end to end testing\n• Experienced in consultancy disciplines including business process analysis, requirements definition and vendor evaluations\n• Experienced in the media & entertainment, content distribution or broadcast sectors, and knowledgeable of the industry partners, competitors and technologies\n\nKey role criteria\n• Confident in business analysis practices with the ability to hit the ground running\n• Expert in analysing complex information and data, and using it to recommend solutions\n• Thinks analytically and can break complex problems, processes or projects into component parts\n• A quick learner, able to grasp new concepts and business domains\n• Enjoys technical challenges and can communicate to a level appropriate to the audience\n• Able to work independently with little direction and to tight and evolving deadlines\n• Tenacious, able to overcome obstacles\n• Excellent written and verbal communication skills, comfortable presenting to stakeholders",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "ITV plc",
+"town": "London",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "range_crosses_general",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-22T08:31:26+00:00",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-22T08:31:26+00:00"
 },
 {
 "id": "gd-1010330589581",
@@ -1113,6 +1678,119 @@
 "notes": "",
 "profile_basis": "master",
 "updated_at": "2026-11-22T08:31:12+00:00"
+},
+{
+"id": "gd-1010332108667",
+"source": "glassdoor",
+"title": "Business Analyst (2-year FTC)",
+"company": "Homes England",
+"location": "Birmingham, England",
+"salary": "£42k - £48k (employer provided)",
+"salary_min": 42000,
+"salary_max": 48000,
+"posted_age": "24h",
+"first_seen": "2026-11-22",
+"email_date": "",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010332108667",
+"easy_apply": false,
+"fit_score": 66,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 20,
+"max": 20,
+"note": "Business analyst in an agile public-sector transformation programme"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 18,
+"max": 25,
+"note": "Stakeholders, requirements, process modelling, presenting and continuous improvement shown; workshop facilitation not claimable; user stories with acceptance criteria, BDD and GDS standards not shown"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 6,
+"max": 15,
+"note": "Asks for a skilled BA with experience in agile multidisciplinary teams; roughly 2-3 years implied"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "None stated"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 3,
+"max": 10,
+"note": "Housing/public sector; no property experience, sector experience not required"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 3,
+"max": 10,
+"note": "2-year FTC runs past January 2028; advert does not offer visa sponsorship"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "2-year FTC in Birmingham, 50/50 hybrid (move); longer than the 12-month ideal"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "1 day old, not Easy Apply, FTC +1"
+}
+],
+"confidence": "high",
+"recommendation": "maybe",
+"verdict": "A 2-year fixed-term BA role on Homes England's Help to Buy Transformation and Re-procurement Programme, mapping processes, gathering requirements and writing user stories in an agile team. The BA work fits, but it wants workshop facilitation, user stories and GDS experience you can't claim yet, and the contract outlasts your visa. Right to work: a 2-year contract runs past January 2028 and they don't sponsor, so it only works if they accept an early end date.",
+"match_reasons": [
+"Gathered requirements with teams across GDP Foundation and turned them into structured briefs and process maps",
+"Analysed processes to find root causes of inefficiency and proposed changes to delivery",
+"Backlog refinement and prioritisation within iterative delivery cycles",
+"Designed BreakPoint for adoption and privacy, and presented it to the team (user-centred design, presenting)"
+],
+"gaps": [
+"Contract runs past January 2028 (your visa end): ask about the start date",
+"Needs a move: check relocation costs against the salary (Birmingham, 50/50 hybrid)",
+"Workshop facilitation and user stories with acceptance criteria are required; neither can be claimed yet",
+"GDS standards and BDD not shown; Homes England does not offer visa sponsorship"
+],
+"jd_summary": "2-year fixed-term contract (or internal secondment), Business Analyst on the Help to Buy Transformation & Re-procurement Programme, Homes England, Birmingham, 50/50 office/home, £42k-£48k. Requirements, process modelling, user stories with acceptance criteria, workshops and agile ceremonies, GDS standards. Right to work required; no visa sponsorship. Closes 4 December 2026, interviews from 9 December. Use the full application option on Homes England careers rather than quick apply.",
+"jd_full": "Business Analyst\n2 year Fixed Term Contract or Internal Secondment\nClosing Date: 4th December 2026\nInterviews will take place from 9th December\n\nHelp to Buy, alongside other products in our portfolio, provided equity loans to support people onto the housing ladder. Homes England is the legal lender for these loans and now manages one of the largest residential mortgage portfolios in the country. While no new loans are being issued, the service remains critical: customers must be supported to understand, manage and redeem their loan, while safeguarding public money.\n\nAbout the role\nWorking within our Help to Buy Transformation & Re-procurement Programme, the Business Analyst will play a key role in delivering a complex, multi-year public sector change programme. The focus is on strengthening data integrity, reducing operational and financial risk, improving customer experience, and ensuring long-term service portability while protecting public funds. You will help design and deliver an integrated, coherent and defensible service model that can stand up to governance, audit and value-for-money scrutiny.\n\nAbout you\nYou'll be a skilled Business Analyst who thrives on understanding complex problems and translating them into clear, practical solutions, confident facilitating discussions, challenging assumptions and influencing decision-making.\nYou'll bring:\n• Experience working as a Business Analyst within agile, multidisciplinary delivery teams\n• Strong stakeholder management skills\n• Experience gathering, analysing and documenting business requirements\n• Knowledge of user-centred design principles and techniques\n• Experience facilitating workshops, agile ceremonies and collaborative working sessions\n• Familiarity with Agile methodologies, including Scrum and Behaviour Driven Development (BDD)\n• Experience managing product backlogs and writing user stories with clear acceptance criteria\n• The ability to model business processes, assess impacts and identify opportunities for improvement\n• Knowledge of Government Digital Service (GDS) standards and digital delivery approaches\n• Excellent communication skills, presenting complex findings to a range of audiences\n• A commitment to continuous improvement\n\nWho are we?\nHomes England: The Housing and Regeneration Agency, the government's housing and regeneration agency.\n\nWhat we offer\n• Competitive salary and 33 days annual leave\n• 50/50 hybrid working\n• Homes and Communities Agency Pension Scheme (defined benefit)\n• Employee assistance programme, healthcare plans, financial wellbeing support, discounts\n• Professional body membership paid\n\nApply as soon as possible as vacancies may close early. Use the full application option rather than quick apply, especially if you want to be considered under the disability confident scheme.\nYou will be required to have the Right to Work in the UK and Homes England do not offer visa sponsorship. If shortlisted for interview, proof of Right to Work will be required.\nAI may support your application, but all examples and statements must be truthful and from your own experience.",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "Homes and Communities Agency",
+"town": "London",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "no_sponsorship",
+"salary_check": "meets_general",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-22T08:31:26+00:00",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-22T08:31:26+00:00"
 },
 {
 "id": "gd-1010331202295",
@@ -2230,6 +2908,118 @@
 "notes": "",
 "profile_basis": "master",
 "updated_at": "2026-11-22T08:31:12+00:00"
+},
+{
+"id": "gd-1010332255203",
+"source": "glassdoor",
+"title": "Business Analyst (AVP)",
+"company": "Barclays",
+"location": "Glasgow, Scotland",
+"salary": "£40k - £50k (Glassdoor est.)",
+"salary_min": 40000,
+"salary_max": 50000,
+"posted_age": "24h",
+"first_seen": "2026-11-22",
+"email_date": "",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010332255203",
+"easy_apply": false,
+"fit_score": 30,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 20,
+"max": 20,
+"note": "Business analyst: requirements, process design, change delivery"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 13,
+"max": 25,
+"note": "Requirements and stakeholder work shown at a junior level; 'strong' BA and complex change delivery only partly; no investment/wealth knowledge"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 0,
+"max": 15,
+"note": "Assistant Vice President level, may lead a team. Gate experience_5y (senior level) caps total at 30"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "None stated"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 3,
+"max": 10,
+"note": "Investment and wealth management; knowledge desirable only; no financial services experience"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 8,
+"max": 10,
+"note": "Permanent at a licensed sponsor group (Barclays Execution Services holds the Skilled Worker licence)"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Permanent role in Glasgow (move)"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "1 day old, not Easy Apply"
+}
+],
+"confidence": "high",
+"recommendation": "skip",
+"verdict": "A permanent Business Analyst role in Private Bank Processing at Assistant Vice President level, expecting strong BA experience, senior stakeholder influence and possibly team leadership. It is pitched well above your current level. Right to work: fine; permanent role at a licensed sponsor.",
+"match_reasons": [
+"Gathered and documented requirements with clients as a freelance BA at Visionize",
+"Process mapping and root cause analysis at GDP Foundation",
+"Power BI dashboards and data analysis for client reporting (desirable data analysis)"
+],
+"gaps": [
+"Permanent role: you'd leave in January 2028 unless they sponsor you; answer honestly if asked",
+"Needs a move: check relocation costs against the salary (Glasgow)",
+"Assistant Vice President level: may lead a team and advise on policy, well above early career",
+"Salary not stated by the employer; investment and wealth management knowledge desirable, none on the CV"
+],
+"jd_summary": "Permanent Business Analyst at Assistant Vice President level, Private Bank Processing (Investment and Wealth Management), Barclays, Glasgow. Gathers and documents requirements, engages senior stakeholders, supports business cases, feasibility studies, process design and change management including traceability matrices. May lead a team. Salary not stated (Glassdoor estimate £40k-£50k). Apply through Barclays careers, reference JR-0000130045.",
+"jd_full": "Date live: 20/11/2026\nBusiness Area: Private Bank Processing\nArea of Expertise: Change\nContract: Permanent\nReference Code: JR-0000130045\n\nJoin us at Barclays as a Business Analyst within Investment and Wealth Management. We're looking for someone who can bring together business needs, technology and people to help deliver successful change. You'll collaborate with senior stakeholders, understand and translate requirements, improve processes and support the implementation of solutions across complex initiatives.\n\nKey Skills\n• Business Analysis: strong experience gathering, documenting and managing business requirements, translating business needs into technology solutions\n• Stakeholder Management: proven ability to engage and influence senior stakeholders across business and technology teams, facilitate discussions and drive consensus\n• Change Delivery: experience supporting and delivering complex change initiatives, including process improvement and implementation\n\nDesirable Skills\n• Investment & Wealth Management Knowledge: investment products, portfolio management and relevant regulatory requirements\n• Data Analysis: analyse data, identify trends and provide insights\n• Agile Delivery: Agile environments, cross-functional teams and sprint-based delivery\n\nThis role is based in Glasgow.\n\nPurpose of the role\nTo support the organisation to achieve its strategic objectives by identifying business requirements and solutions that address business problems and opportunities.\n\nAccountabilities\n• Identification and analysis of business problems and client requirements that require change\n• Development of business requirements\n• Collaboration with stakeholders to ensure proposed solutions meet their needs\n• Support the creation of business cases\n• Conduct feasibility studies\n• Support reports on project progress\n• Creation of operational design and process design\n• Support change management activities, including a traceability matrix\n\nAssistant Vice President Expectations\n• Advise and influence decision making, contribute to policy development and take responsibility for operational effectiveness\n• Lead a team performing complex tasks, set objectives and coach employees, or as an individual contributor lead collaborative assignments and guide team members\n• Consult on complex issues, identify ways to mitigate risk and develop new policies/procedures\n• Take ownership for managing risk and strengthening controls\n• Engage in complex analysis of data from multiple sources\n• Communicate complex information and influence stakeholders\n\nAll colleagues are expected to demonstrate the Barclays Values of Respect, Integrity, Service, Excellence and Stewardship, and the Barclays Mindset to Empower, Challenge and Drive.",
+"sponsor_register": "possible",
+"sponsor_match": {
+"name": "Barclays Bank PLC",
+"town": "London",
+"rating": "Worker (A rating)",
+"route": "Global Business Mobility: Senior or Specialist Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "range_crosses_general",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-22T08:31:26+00:00",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-22T08:31:26+00:00"
 },
 {
 "id": "gd-1010331781072",
