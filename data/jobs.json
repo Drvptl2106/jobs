@@ -2,93 +2,93 @@
 {
 "id": "gd-1010331229053",
 "source": "glassdoor",
-"title": "Management Consultant / Business Analyst",
-"company": "MightyOlu Ltd (MightyOlu Grocery)",
-"location": "Edinburgh and Livingston, Scotland (hybrid)",
-"salary": "£36,000 - £54,000 (employer provided)",
+"title": "Management Consultant Analyst",
+"company": "MightyOlu Ltd",
+"location": "Edinburgh, Scotland",
+"salary": "£36,000-£54,000",
 "salary_min": 36000,
 "salary_max": 54000,
 "posted_age": "2d",
 "first_seen": "2026-11-22",
 "email_date": "",
 "url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010331229053",
-"easy_apply": true,
-"fit_score": 88,
+"easy_apply": false,
+"fit_score": 89,
 "score_breakdown": [
 {
 "key": "role_match",
 "label": "Role match",
 "score": 20,
 "max": 20,
-"note": "Management consultant / business analyst: operations analysis, KPIs, improvement proposals (target: junior management consultant)"
+"note": "Management consultant / business analyst: operations analysis, KPIs, process improvement, reports to directors"
 },
 {
 "key": "skills",
 "label": "Skills & tools",
 "score": 22,
 "max": 25,
-"note": "BA experience, analysis, financial/cost analysis, market research, KPIs, Excel and stakeholders shown; inventory systems not"
+"note": "BA experience, KPIs, Excel/Power BI, cost and pricing analysis, stakeholders and retail shown; no inventory systems or implemented transformation"
 },
 {
 "key": "experience",
 "label": "Experience level",
 "score": 11,
 "max": 15,
-"note": "Asks for experience in business analysis or improvement, no years stated; freelance BA covers it"
+"note": "Asks for experience in business analysis or consulting, no years stated; freelance and volunteer BA work covers it"
 },
 {
 "key": "qualifications",
 "label": "Qualifications",
 "score": 10,
 "max": 10,
-"note": "Degree in a related field essential and master's desirable: MSc Business Analytics (Distinction) meets both"
+"note": "Degree in business or related asked, master's desirable: MSc Business Analytics (Distinction)"
 },
 {
 "key": "domain",
 "label": "Industry fit",
 "score": 10,
 "max": 10,
-"note": "Retail/multi-site desirable: worked in M&S food retail and built a store dashboard"
+"note": "Food retail: part-time at M&S Foods, co-built a food-waste dashboard"
 },
 {
 "key": "visa",
 "label": "Right to work & sponsor",
 "score": 8,
 "max": 10,
-"note": "Permanent role at a licensed Skilled Worker sponsor"
+"note": "Permanent role at a licensed Skilled Worker sponsor (A rating)"
 },
 {
 "key": "practical",
 "label": "Location & terms",
 "score": 3,
 "max": 5,
-"note": "Permanent, Edinburgh/Livingston hybrid (move)"
+"note": "Permanent, hybrid in Edinburgh / Livingston"
 },
 {
 "key": "odds",
 "label": "Chance of hearing back",
-"score": 4,
+"score": 5,
 "max": 5,
-"note": "2 days old, Easy Apply -1"
+"note": "Posted 2d, direct employer, not Easy Apply"
 }
 ],
 "confidence": "medium",
 "recommendation": "apply",
-"verdict": "An in-house management consultant / business analyst post at MightyOlu Grocery, a three-branch African and international grocer in Edinburgh and Livingston: analysing sales, profitability and operations, setting KPIs and proposing improvements to the directors. On paper it fits the CV closely, but it is a very small business, so check how much real BA work and support it offers. Right to work: fine; permanent role at a licensed sponsor.",
+"verdict": "On paper a strong match: a business analyst / consultant role improving operations, KPIs and reporting across a three-branch grocery retailer, which mirrors your BA and M&S food-retail work. But it is a very senior-sounding role and salary for a small grocer, posted several times, so check it is a genuine job before investing time. Right to work: fine; permanent role at a licensed sponsor, so you'd leave in January 2028 unless they sponsor you.",
 "match_reasons": [
-"Pricing and cost analysis and market/competitor insights for small-business clients (Visionize)",
-"Co-built a live dashboard and colleague game to reduce food waste at M&S (food retail)",
-"KPI design and Power BI dashboards; mapped features to business outcomes in the Blueline Taxis project",
-"MSc Business Analytics (Distinction) with Business Modelling and Data-Driven Decision Making"
+"Operations and process improvement: analysed current processes for root causes of inefficiency at GDP Foundation",
+"KPIs and management reporting: built Power BI and KPI dashboards for clients and the foundation",
+"Commercial analysis: market and competitor insights plus pricing and cost analysis as a freelance BA at Visionize",
+"Grocery retail: co-built a live dashboard and leaderboard game for food-waste checks at M&S Foods"
 ],
 "gaps": [
 "Permanent role: you'd leave in January 2028 unless they sponsor you; answer honestly if asked",
-"Needs a move: check relocation costs against the salary (Edinburgh/Livingston, three sites)",
-"Very small three-shop grocer: ask who you'd report to and what real BA work and training there is",
-"Inventory management systems and leading transformation projects not shown; advert says the pay is 'per month' (a typo for per year)"
+"Needs a move: Edinburgh and Livingston, with three work sites; check relocation costs against the salary",
+"Check it's genuine: a 3-branch grocer offering £36k-£54k for a consultant, listed several times on Glassdoor and Indeed (pay shown as 'per month', a typo). Look up the company and never pay any fee",
+"No inventory management systems or implemented business transformation in the CV (desirable)"
 ],
-"jd_summary": "Permanent full-time Management Consultant / Business Analyst at MightyOlu Grocery (three branches, Edinburgh and Livingston), Mon-Fri 9-5, hybrid, £36k-£54k. Analyse branch operations, sales and profitability, improve processes and inventory, set KPIs, market and competitor research, management reports and improvement proposals with the directors. Needs a related degree, BA/consulting experience, Excel; master's and retail desirable. Apply via Glassdoor Easy Apply (also listed as Glassdoor job 1010331228572).",
-"jd_full": "Job Overview\nCompany: MightyOlu Ltd (Trading as MightyOlu Grocery)\nLocation: Edinburgh and Livingston, Scotland\nJob Type: Full-time, Permanent\nWork Locations:\n• Unit 10 Westside Plaza, Edinburgh EH14 2SW\n• 53 St Leonard's Street, Edinburgh EH8 9QN\n• Unit 3 (1/2B), Howden West Road, Livingston EH54 6AA\nSalary: £36,000 - £54,000\nMonday - Friday: 9am - 5pm\n\nAbout MightyOlu Grocery\nMightyOlu Grocery is a growing African and international grocery retailer operating three branches across Edinburgh and Livingston. We specialise in wholesale and retail food products, including frozen foods, fresh produce and essential groceries.\nWe are seeking a Management Consultant / Business Analyst to support business transformation, strategic development and operational improvement across our locations.\n\nKey Responsibilities\n• Conduct detailed analysis of business operations, sales performance and profitability across all three branches.\n• Identify operational inefficiencies and develop practical improvement strategies.\n• Evaluate business processes, inventory systems and resource allocation to improve productivity.\n• Develop strategic business plans to support sustainable growth and expansion.\n• Conduct market research, competitor analysis and commercial feasibility assessments.\n• Analyse financial and operational data to support informed management decisions.\n• Develop and monitor key performance indicators to measure business performance.\n• Prepare management reports, business improvement proposals and strategic recommendations.\n• Support the implementation of approved business improvement projects.\n• Evaluate workforce requirements and recommend improvements to organisational efficiency.\n• Work with company directors and branch teams to implement operational improvements.\n• Assess business risks and recommend appropriate mitigation strategies.\n\nQualifications and Experience\nEssential:\n• Degree in Management, Business Administration, Economics or a related discipline.\n• Experience in business analysis, management consulting, strategic planning or business improvement.\n• Strong analytical, organisational and problem-solving abilities.\n• Ability to interpret business performance and financial information.\n• Excellent communication and stakeholder management skills.\n• Proficiency in Microsoft Excel and business reporting tools.\nDesirable:\n• Master's degree in Management, Business Administration or a related field.\n• Experience within retail, wholesale, FMCG or multi-site business operations.\n• Knowledge of inventory management and business performance systems.\n• Experience implementing business transformation projects.\n\nWhat We Offer\n• Opportunity to contribute to the strategic development of a growing multi-branch retailer.\n• Collaborative working environment.\n• Professional development opportunities.\n• Competitive remuneration based on experience.\n\nPay: £36,000-£54,000 per month (as stated in the advert)\nBenefits: free parking, on-site parking\nWork Location: Hybrid remote in Edinburgh EH14 2SW",
+"jd_summary": "Permanent full-time Management Consultant / Business Analyst at MightyOlu Grocery (3 African and international grocery branches), hybrid in Edinburgh EH14 2SW, Mon-Fri 9-5, also working at Edinburgh EH8 and Livingston sites. Analyse sales, profitability, processes and inventory, set KPIs, write management reports and strategic plans, support improvement projects. Needs a business-related degree, BA/consulting experience, Excel. £36,000-£54,000. Apply via Glassdoor; no employer careers page found (also posted on Indeed).",
+"jd_full": "Job Overview\nCompany: MightyOlu Ltd (Trading as MightyOlu Grocery)\nLocation: Edinburgh and Livingston, Scotland\nJob Type: Full-time, Permanent\nWork Locations:\n• Unit 10 Westside Plaza, Edinburgh EH14 2SW\n• 53 St Leonard's Street, Edinburgh EH8 9QN\n• Unit 3 (1/2B), Howden West Road, Livingston EH54 6AA\nSalary: £36,000 - £54,000\nMonday - Friday: 9am - 5pm\n\nAbout MightyOlu Grocery\nMightyOlu Grocery is a growing African and international grocery retailer operating three branches across Edinburgh and Livingston. We specialise in wholesale and retail food products, including frozen foods, fresh produce and essential groceries.\nWe are seeking a Management Consultant / Business Analyst to support business transformation, strategic development and operational improvement across our locations.\n\nKey Responsibilities\n• Conduct detailed analysis of business operations, sales performance and profitability across all three branches.\n• Identify operational inefficiencies and develop practical improvement strategies.\n• Evaluate business processes, inventory systems and resource allocation to improve productivity.\n• Develop strategic business plans to support sustainable growth and expansion.\n• Conduct market research, competitor analysis and commercial feasibility assessments.\n• Analyse financial and operational data to support informed management decisions.\n• Develop and monitor key performance indicators to measure business performance.\n• Prepare management reports, business improvement proposals and strategic recommendations.\n• Support the implementation of approved business improvement projects.\n• Evaluate workforce requirements and recommend improvements to organisational efficiency.\n• Work with company directors and branch teams to implement operational improvements.\n• Assess business risks and recommend appropriate mitigation strategies.\n\nQualifications and Experience\nEssential:\n• Degree in Management, Business Administration, Economics or a related discipline.\n• Experience in business analysis, management consulting, strategic planning or business improvement.\n• Strong analytical, organisational and problem-solving abilities.\n• Ability to interpret business performance and financial information.\n• Excellent communication and stakeholder management skills.\n• Proficiency in Microsoft Excel and business reporting tools.\nDesirable:\n• Master's degree in Management, Business Administration or a related field.\n• Experience within retail, wholesale, FMCG or multi-site business operations.\n• Knowledge of inventory management and business performance systems.\n• Experience implementing business transformation projects.\n\nWhat We Offer\n• Opportunity to contribute to the strategic development of a growing multi-branch retailer.\n• Collaborative working environment.\n• Professional development opportunities.\n• Competitive remuneration based on experience.\n\nPay: £36,000.00-£54,000.00 per month (as written in the advert; Glassdoor shows it as employer provided)\nBenefits: Free parking; on-site parking\nWork Location: Hybrid remote in Edinburgh EH14 2SW",
 "sponsor_register": "licensed",
 "sponsor_match": {
 "name": "MightyOlu Ltd",
@@ -106,11 +106,11 @@
 "cv_url": "",
 "cv_emailed_at": "",
 "applied_at": "",
-"status_updated_at": "2026-11-22T08:31:34+00:00",
+"status_updated_at": "2026-11-22T13:25:35+00:00",
 "last_email": "",
 "notes": "",
 "profile_basis": "master",
-"updated_at": "2026-11-22T08:31:34+00:00"
+"updated_at": "2026-11-22T13:25:35+00:00"
 },
 {
 "id": "gd-1010332229190",
@@ -1901,6 +1901,119 @@
 "updated_at": "2026-11-22T08:31:26+00:00"
 },
 {
+"id": "gd-1010332343022",
+"source": "glassdoor",
+"title": "Research Analyst, Organisation & Teams",
+"company": "Independent Project Analysis",
+"location": "Reading, England",
+"salary": "£26k-£34k (Glassdoor est.)",
+"salary_min": 26000,
+"salary_max": 34000,
+"posted_age": "24h",
+"first_seen": "2026-11-22",
+"email_date": "",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010332343022",
+"easy_apply": false,
+"fit_score": 69,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 12,
+"max": 20,
+"note": "Research analyst is a target role, but the work is statistical modelling of staffing and organisation design"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 20,
+"max": 25,
+"note": "Analysis, client work, applied research (NITI Aayog-recognised study) and surveys shown; regression/factor analysis only via degree modules"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 6,
+"max": 15,
+"note": "Asks 1-2 years studying or advising on people, teams or organisations; CV shows BA/analytics work, not organisational research"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 10,
+"max": 10,
+"note": "BSc Data Science (STEM) plus MSc Business Analytics, which is listed as a bonus"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 3,
+"max": 10,
+"note": "Capital projects knowledge is only a bonus; no link in the CV"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 10,
+"max": 10,
+"note": "Licensed sponsor and the advert says it may consider visa sponsorship"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Permanent, office-based in Reading with up to 30% travel"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "Posted 24h, direct employer, not Easy Apply"
+}
+],
+"confidence": "high",
+"recommendation": "maybe",
+"verdict": "A research analyst role building statistical staffing models and advising capital-project clients on team design; your analytics degrees fit, but the core experience it wants is in organisational/people research, which your CV doesn't show. Right to work: fine; permanent role at a licensed sponsor that says it may consider sponsorship, so you'd leave in January 2028 unless they sponsor you.",
+"match_reasons": [
+"Business analytics or STEM degree asked: MSc Business Analytics (Distinction) and BSc Data Science, with Probability and Statistics and Econometrics modules",
+"Applied research: contributed analysis to a national study on ageing recognised by NITI Aayog",
+"Survey design input: MSc dissertation combined computational modelling with user perception surveys",
+"Client-facing analysis: freelance BA at Visionize, working directly with clients and presenting insights"
+],
+"gaps": [
+"Permanent role: you'd leave in January 2028 unless they sponsor you; answer honestly if asked",
+"Needs a move: must relocate within commuting distance of Reading; office-based with up to 30% travel including international; salary estimate £26k-£34k",
+"No experience studying or advising on people, teams or organisations (1-2 years asked)",
+"Multiple regression and factor analysis only at module level; no predictive modelling at work"
+],
+"jd_summary": "Permanent full-time Research Analyst, Organisation & Teams at IPA in Reading (office-based, up to 30% travel incl. international). Build and update predictive staffing models, run statistical analyses (regression, factor analysis), design research studies and surveys, write client reports. Needs a relevant degree (business analytics/STEM OK) and 1-2 years in people/organisation research or advising. May consider visa sponsorship. Apply on the employer's site with cover letter, CV and salary requirement.",
+"jd_full": "Reading, UK\nPosition type: Full-Time\nReports to: Deputy Director, Organisation & Teams\nClosing date: Open until filled\n\nIntroduction\nSince 1987, Independent Project Analysis (IPA) has delivered groundbreaking research and quantitative risk analyses to enhance the value generated by our industrial clients' capital project systems and meet their obligations for sustainable and safe performance. We guide our clients to establish the right combination of people, work process, and governance to maximise their performance across cost, schedule, safety, operability, and sustainability. Our clients are leading companies in the energy, minerals, infrastructure, chemicals, pharmaceutical, and consumer products sectors.\n\nThe Organisations & Teams Research Analyst Role\nThe role sits within a rapidly growing area of the company in which we synthesise organisational expertise with our access to actual project data to advise our clients on individual, team, and organisational practices that affect capital project performance. The successful candidate will have the opportunity to lead the development of products & services, research, and consulting offerings for capital project organisations and teams. Primary responsibilities:\n• Conducting analyses using predictive models to determine appropriate staffing benchmarks for project organisations and teams in various industries\n• Developing reports and deliverables to present analysis results to clients\n• Modifying, updating, and adding predictors to predictive staffing models, and conducting sensitivity analyses to ensure models are robust and reliable with the addition of global, cross-industry data\n• Leveraging IPA data and designing research studies to address client questions and identify organisation and talent solutions for the capital projects industry\n• Recommending appropriate statistical analysis techniques (e.g., multiple regression analysis, exploratory and confirmatory factor analysis) to explore research questions and test hypotheses\n• Providing input into survey design for research studies\n• Creating statistical models and analysis tools, and training others to use them effectively\nThe analyst will focus primarily on studies and client engagements related to capital project organisation design, staffing, team composition, and individual competency, collaborating with cross-functional groups and working directly with clients.\n\nCore Qualifications\n• Excellent analytical skills\n• Proven ability to relate data and statistical analysis to real-world application\n• Excellent written and oral communication skills\n• Demonstrated capacity to develop and maintain relationships at senior levels with client companies\n• Aptitude for learning new concepts and applying them quickly\n• A track record of finding creative solutions to complex problems\n• Comfort with ambiguity and flexibility in thought and/or approach\nThe successful candidate will work well in teams, but also be capable of managing multiple projects independently and have experience in applied research or consulting.\n\nEducation and Experience\n• Bachelor's degree in industrial & organisational psychology, organisational development, organisational behaviour, economics, business analytics, or a related field, or a bachelor's degree in STEM or a related field (e.g., systems engineering)\n• 1 to 2 years of demonstrated experience in the study of or advising on people, teams, and/or organisations\n• A graduate degree in the above-mentioned fields is a bonus\n• Knowledge of and/or experience with capital projects is a bonus\n\nLocation and Travel: Reading, UK\n• Candidates must be willing to relocate within commuting distance of IPA's Reading, UK office\n• This position is work from office with up to 30 percent travel, including international travel\n• Applicants must have the right to work in the UK (may consider visa sponsorship for eligible candidates)\n\nCompetitive Benefits Package\n• Private healthcare, dental and optical, employee assistance programme\n• Discretionary annual quality/profit sharing bonus\n• Enhanced holiday entitlement with length of service (23 days plus 8 public holidays)\n• Contributory pension scheme, life assurance and critical illness cover\n• Free onsite parking; shuttle bus to and from Reading Station\n\nHow To Apply\nComplete the application form and include a cover letter, resume, and salary requirement.\n\nBase pay range (Glassdoor estimate): £26k - £34k/yr, median £30k, Reading.",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "Independent Project Analysis",
+"town": "Reading",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "offers",
+"salary_check": "range_crosses_new_entrant",
+"recruiter": false,
+"decision": "",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-22T13:25:35+00:00",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-22T13:25:35+00:00"
+},
+{
 "id": "gd-1010330589581",
 "source": "glassdoor",
 "title": "Data and Research Analyst",
@@ -2461,6 +2574,119 @@
 "updated_at": "2026-11-22T08:31:26+00:00"
 },
 {
+"id": "gd-1010330692484",
+"source": "glassdoor",
+"title": "Payments Operations Analyst",
+"company": "Funding Circle",
+"location": "London, England",
+"salary": "£29k-£31k (Glassdoor est.)",
+"salary_min": 29000,
+"salary_max": 31000,
+"posted_age": "2d",
+"first_seen": "2026-11-22",
+"email_date": "",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010330692484",
+"easy_apply": false,
+"fit_score": 66,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 12,
+"max": 20,
+"note": "Operations analyst, but mostly daily payment runs and reconciliations, not BA work"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 16,
+"max": 25,
+"note": "Excel/dashboards, problem-solving, accuracy checks and AI tools shown; no payments-operations or CASS experience"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 11,
+"max": 15,
+"note": "Asks for operations experience in a high-volume transactional setting; no years stated"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "No qualifications stated"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 3,
+"max": 10,
+"note": "Wants fintech/payments/banking background and CASS awareness; CV has none, but advert welcomes partial matches"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 8,
+"max": 10,
+"note": "Permanent role at a licensed Skilled Worker sponsor (A rating)"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Permanent, London hybrid 3 days in office"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "Posted 2d, direct employer, not Easy Apply"
+}
+],
+"confidence": "high",
+"recommendation": "maybe",
+"verdict": "A hands-on payments operations role at a London fintech: daily payment runs, exception handling and ledger checks rather than business analysis, so it fits your operations target only partly and asks for payments and CASS awareness you don't have. Right to work: fine; permanent role at a licensed sponsor, so you'd leave in January 2028 unless they sponsor you.",
+"match_reasons": [
+"Comfortable with data: Power BI dashboards and Excel (pivot tables, lookups) at Visionize and GDP Foundation",
+"Spotting problems and fixing them: root cause analysis of inefficient processes at GDP Foundation",
+"Uses AI tools to improve work: specified and built BreakPoint with AI coding assistants",
+"Accuracy checks: built KPI dashboards with data quality checks for accuracy and consistency"
+],
+"gaps": [
+"Permanent role: you'd leave in January 2028 unless they sponsor you; answer honestly if asked",
+"Needs a move: London, 3 days a week in the office; check relocation costs against a salary estimated at about £30k",
+"No payments, banking or FCA-regulated experience; CASS / client money awareness is asked for",
+"Mostly routine payment processing and reconciliation, so limited business analyst experience"
+],
+"jd_summary": "Permanent Payments Operations Analyst at Funding Circle, London hybrid (3 days in office). Run daily inbound/outbound payment runs (Direct Debits, Faster Payments, cards), handle exceptions, reconcile ledgers to bank accounts, supply AML/fraud teams with data, keep processes FCA/CASS compliant. Wants attention to detail, Excel/data comfort, high-volume transactional operations experience and CASS awareness. Salary not stated (Glassdoor estimate £29k-£31k). Apply via Glassdoor (Sign in to apply).",
+"jd_full": "We're on a mission to back the UK's small businesses like no one else\nSmall businesses are the backbone of the economy, and we're here to help them win. We've built a platform that uses clever data to get them the funding they need in minutes, not weeks.\nAt Funding Circle, we have the restless energy of a fintech start-up with the stability of a public company. It's a unique mix that gives Circlers the autonomy to take ownership and the scale to make an impact that truly counts.\nWe're a high-performing team that chooses to lift each other up. We challenge, we champion, and we have each other's backs.\nThe impact is real: Last year alone, the businesses on our platform generated £7.2bn for the UK economy.\n\nThe role\nLondon (Hybrid) | 3 days in the office | Competitive Salary + Benefits\nYou'll make a real difference for our customers and your team from day one. We believe the fastest way to learn is by doing, so we give you the ownership to run with things and see the results of your work in real-time.\n• Managing daily payment runs across our bespoke internal systems, handling both inbound and outbound transactions (Direct Debits, Open banking, Card payments, Faster payments, and bank transfers).\n• Spotting unusual payment patterns and irregular account behaviour, applying an immediate solution while working with our tech teams on permanent system fixes.\n• Mastering the end-to-end flow of money across our various products (including Term Loans and FlexiPay), knowing exactly how to handle and route payment exceptions.\n• Carrying out daily operational checks and authorising internal and external transactions correctly, ensuring our data aligns perfectly to prevent any breaks between internal ledgers and bank accounts.\n• Working closely with the AML and Financial Crime teams, supplying the AML team with the transaction data they need for daily checks, and ensuring preventative measures are actioned at the request of the Fraud team.\n• Keeping our processes fully compliant with regulatory standards, focusing on FCA guidelines and CASS (Client Money) rules.\n• Liaising with teams across the business, including Capital Market Operations, Collections, and Customer Success.\n• Answering payment queries from internal colleagues and external colleagues clearly and efficiently.\n\nWhat we're looking for\nWe value deep expertise, but a growth mindset and good energy are what really make our team click.\n• A sharp eye for detail: A meticulous approach to checking figures and ledgers in a fast-paced environment where minor mistakes have a direct financial impact.\n• Comfortable with data: Happy looking at transactional data to spot trends, anomalies, or system drops, using Excel or basic data dashboards.\n• Practical problem-solving: The ability to track down ambiguous payment exceptions and handle manual workarounds calmly when things don't go to plan.\n• Operations experience: Background working in a high-volume transactional environment (e.g. Fintech, payment processing, retail banking, or busy financial administration).\n• CASS or Client Money awareness: A good baseline understanding of safeguarding client funds and working within an FCA-regulated environment.\n• Able to proactively identify ways to use Generative AI to streamline your daily tasks and improve your personal productivity.\n• Confident using approved AI tools safely and effectively to enhance your output and find a better way of working.\nWe're building a place where everyone truly feels they belong. Even if your past experience doesn't align perfectly with every requirement, we'd still love to hear from you.\n\nWhy join us?\nOne of The Sunday Times Best Companies to Work For 2026. Flexible-first employer; London office with barista coffee and subsidised lunches.\n• Flexibility: benefit allowance you can tailor to your own life and family.\n• Health: private medical and dental, health assessments, digital GP.\n• Wealth: life assurance, share schemes, financial coaching.\n• Development: dedicated annual learning allowance.\n• Lifestyle: electric car and cycle-to-work schemes, season ticket loans.\nAward-winning parental leave policies.\n\nBase pay range (Glassdoor estimate): £29k - £31k/yr, median £30k, London.",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "FUNDING CIRCLE LTD",
+"town": "LONDON",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "below_threshold",
+"recruiter": false,
+"decision": "",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-22T13:25:35+00:00",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-22T13:25:35+00:00"
+},
+{
 "id": "gd-1010331202295",
 "source": "glassdoor",
 "title": "Business Analyst (18-month FTC, Bus Reform)",
@@ -2680,6 +2906,222 @@
 "notes": "",
 "profile_basis": "master",
 "updated_at": "2026-11-22T08:31:34+00:00"
+},
+{
+"id": "gd-1010331744324",
+"source": "glassdoor",
+"title": "Business Analyst – Finance & Operations",
+"company": "blocc Interiors",
+"location": "Birmingham, England",
+"salary": "£35k-£38k",
+"salary_min": 35000,
+"salary_max": 38000,
+"posted_age": "24h",
+"first_seen": "2026-11-22",
+"email_date": "",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010331744324",
+"easy_apply": false,
+"fit_score": 64,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 12,
+"max": 20,
+"note": "BA title, but half the duties are finance analysis: job costing, margin variance, cashflow forecasts, budgets"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 19,
+"max": 25,
+"note": "BA experience, process improvement with AI tools, analysis and communication shown; advanced Excel only partly evidenced; no SAP B1"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 11,
+"max": 15,
+"note": "Asks for previous experience in a BA role, no years stated; freelance and volunteer BA roles cover it"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "No qualifications stated"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 3,
+"max": 10,
+"note": "Interiors / fit-out finance; no sector experience asked, CV has none"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 3,
+"max": 10,
+"note": "Permanent role; blocc Interiors is not on the sponsor register"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Permanent, Birmingham"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "Posted 24h, direct employer, not Easy Apply"
+}
+],
+"confidence": "high",
+"recommendation": "maybe",
+"verdict": "A business analyst job at a Birmingham interiors firm that is really half finance analyst (job costing, gross margin variances, cashflow forecasting, SAP B1 super-user), with a good process-improvement and AI angle that suits BreakPoint. Right to work: permanent role at an employer that isn't a sponsor, so a time-limited visa may count against you.",
+"match_reasons": [
+"Previous BA role: Freelance Business Analyst at Visionize and volunteer BA at GDP Foundation",
+"Process improvement and AI development: specified BreakPoint and built it with AI coding assistants, now rolled out to a 15-person team",
+"Spend and cost analysis: pricing and cost analysis for clients at Visionize; CAPEX and ROI metrics in the MSc EV project",
+"Excel: pivot tables and lookups, plus Advanced Excel Data Visualization certificate"
+],
+"gaps": [
+"Permanent role at an employer that isn't a licensed sponsor: lower chance with a time-limited visa",
+"Permanent role: you'd leave in January 2028 unless they sponsor you; answer honestly if asked",
+"Needs a move: Birmingham; check relocation costs against £35k-£38k",
+"Finance-heavy: job costing, gross margin variance, budgets and GRNI with no finance role in the CV; advanced Excel (XLOOKUP, complex formulas) and SAP B1 not shown"
+],
+"jd_summary": "Permanent full-time Business Analyst – Finance & Operations at blocc Interiors (Interia Group), Birmingham, £35k-£38k. Job costing and gross margin variance analysis, weekly production and cashflow forecasts, budget support, SAP Business One super-user, purchasing controls (GRNI), spend analysis and Board projects. Essential: previous BA role, process improvement and AI development, advanced Excel. Work pattern not stated beyond full time. Apply via Glassdoor; no agencies.",
+"jd_full": "Annual salary: £35,000 - £38,000 per annum\nBlocc has an exciting opportunity for a Business Analyst – Finance & Operations to join the team on a full time, permanent basis.\n\nThe Business Analyst – Finance & Operations role\nThe Business Analyst bridges the gap between Finance & Operations functions, supporting process efficiencies to enable accurate and timely processing of all transactions.\nThis role operates in a fast-paced environment where workloads can sometimes be time-pressured at peak periods. A high degree of accuracy, excellent attention to detail, and strong analytical and organisational skills are essential.\nThe Business Analyst liaises with colleagues across the business, from Director level to operational peers. They must be confident communicating at all levels, inquisitive, and comfortable constructively challenging stakeholders to resolve issues and improve process.\n\nKey Responsibilities\n• Carry out job costing variance analysis across all Interia Group entities, comparing actual gross margin against budget and investigating significant variances\n• Coordinate JC readiness with PMs, i.e. POs booked in, journals posted, etc.\n• Calculate and analyse gross margin performance across all Interia Group entities, identifying and validating any deviations from expected results\n• Weekly forecasting of Production and Cashflow, analysing Debtors, deposits, future acceptances, conversion rates\n• Support the preparation of periodic budgets and forecasts, providing clearly documented assumptions and supporting working papers for review by the Management Accountant and Finance Director\n• Act as a super-user for SAP Business One (SAP B1), supporting the ongoing maintenance, development and change management of the system\n• Monitor compliance with purchasing deadlines and controls to minimise Goods Received Not Invoiced (GRNI) balances, liaising with internal teams and external suppliers to resolve outstanding items\n• Analyse spend across all cost categories on an ongoing basis to identify inefficiencies and savings opportunities, providing clear commentary to support management reporting\n• Analyse performance across all areas of the business, with a focus on operational efficiency and margin improvement\n• Deliver ad hoc projects as required by the Board\n\nSkills and Experience\nEssential\n• Previous experience in a Business Analyst role\n• Experience in Process Improvements and AI development to drive efficiencies\n• Advanced Microsoft Excel skills, including VLOOKUP/XLOOKUP, complex formula creation, and pivot tables built from raw source data\n• Ability to work accurately under pressure and meet deadlines\n• Strong analytical and problem-solving skills\n• Excellent communication skills, both written and verbal\nDesirable\n• Experience with SAP B1\n• Experience of working with AI automation workflows\n\nPersonal Attributes\n• Exceptional attention to detail\n• Highly organised with the ability to prioritise workload effectively\n• Inquisitive and proactive in identifying issues\n• Confident in challenging colleagues constructively to resolve discrepancies\n• Professional and credible when liaising with stakeholders at all levels, including Directors\n• Team-oriented with a collaborative approach\n\nNo agencies please.\n\nBase pay range: £35k - £38k/yr (employer provided), median £37k, Birmingham.",
+"sponsor_register": "not_found",
+"sponsor_match": "",
+"jd_sponsorship": "silent",
+"salary_check": "meets_new_entrant",
+"recruiter": false,
+"decision": "",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-22T13:25:35+00:00",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-22T13:25:35+00:00"
+},
+{
+"id": "gd-1010331722912",
+"source": "glassdoor",
+"title": "Customer Operations Analyst",
+"company": "AccessPay",
+"location": "Manchester, England",
+"salary": "£26k",
+"salary_min": 26000,
+"salary_max": 26000,
+"posted_age": "24h",
+"first_seen": "2026-11-22",
+"email_date": "",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010331722912",
+"easy_apply": false,
+"fit_score": 62,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 5,
+"max": 20,
+"note": "Analyst in name: mostly first-line customer support tickets, with some testing, change requests and process guides"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 20,
+"max": 25,
+"note": "Customer service, problem-solving and customer-facing experience shown; Jira only in skills list; no Zendesk/Salesforce"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 15,
+"max": 15,
+"note": "No experience required; support experience only 'advantageous'"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "No qualifications stated"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 3,
+"max": 10,
+"note": "Payments software; no sector experience asked"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 3,
+"max": 10,
+"note": "Permanent role; AccessPay is not on the sponsor register"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Permanent, hybrid 3 days a week in Manchester"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "Posted 24h, direct employer, not Easy Apply"
+}
+],
+"confidence": "high",
+"recommendation": "maybe",
+"verdict": "An entry-level customer support and operations job at a payments software firm: easy to get into, but mostly ticket handling, so it adds little business analyst experience and pays £26k. Right to work: permanent role at an employer that isn't a sponsor, so a time-limited visa may count against you.",
+"match_reasons": [
+"Customer-facing work: EE Sales Guide finding out customer needs, and serving customers at M&S",
+"Post-release testing: tested every BreakPoint business rule by hand before rollout",
+"Process guides and training: presented BreakPoint to the team and walked them through using it",
+"Improving ways of working: spotted the break-tracking problem at EE and got a fix adopted"
+],
+"gaps": [
+"Permanent role at an employer that isn't a licensed sponsor: lower chance with a time-limited visa",
+"Permanent role: you'd leave in January 2028 unless they sponsor you; answer honestly if asked",
+"Needs a move: Manchester, 3 office days a week; £26,227 is low against relocation costs",
+"Mostly first-line support tickets and SLAs, so little business analyst experience; no Zendesk/Salesforce"
+],
+"jd_summary": "Permanent Customer Operations Analyst at AccessPay (payments and cash management fintech), hybrid with 3 days a week in Manchester, £26,227.50. Handle customer tickets within SLAs, own issues to resolution, support post-release testing, implement client change requests, write documentation and process guides. Needs strong customer service, problem solving and organisation; support experience and Zendesk/Salesforce/Jira are advantageous. Apply via Glassdoor (Sign in to apply).",
+"jd_full": "Job Title: Customer Operations Analyst\nEmployment type: Permanent, hybrid (3 days per week in our Manchester office)\nSalary: £26,227.50 per annum\n\nAt AccessPay, we believe that great technology starts with great people. We're a leading fintech helping organisations streamline payments and cash management. Recognised as one of the UK's Best Workplaces.\nWe're looking for a proactive and customer-focused individual to join our fast-paced Customer Operations team. In this role, you'll manage customer queries, provide first-line support, and carry out operational activities to deliver an efficient, high-quality service. You'll take ownership of issues from investigation through to resolution, prioritising your workload effectively and ensuring customers are kept informed throughout.\nThe ideal candidate will be comfortable working with systems and processes, confident learning new technologies, and able to troubleshoot problems logically. You'll be naturally curious and proactive, taking the initiative to find solutions, improve ways of working, and identify opportunities to enhance both the customer and team experience.\n\nKey Responsibilities\n• Managing customer service requests and communications, ensuring tickets are prioritised and progressed within agreed SLAs.\n• Taking ownership of customer issues from initial investigation through to resolution, providing clear and timely updates throughout.\n• Completing operational activities such as supporting post-release testing.\n• Managing and implementing client change requests, including user interface changes, and coordinating with users to verify and address feedback promptly.\n• Developing knowledge of our products, systems and processes and using this knowledge to resolve increasingly complex customer queries.\n• Creating and maintaining customer and internal documentation, training materials and process guides.\n• Collaborating with other teams to optimise operational efficiency.\n\nSkills, Knowledge and Expertise\n• Strong customer service and communication skills\n• A proactive approach to problem solving\n• Strong organisation and prioritisation skills\n• Previous experience in a customer support, customer operations, service desk or technology-based role would be advantageous.\n• Experience using Zendesk, Salesforce, Atlassian or Jira would be advantageous, but is not essential.\n\nWhy join us?\n• 25 days' holiday plus public holidays, increasing with length of service; birthday off\n• 2 paid volunteer days a year; holiday purchase scheme\n• Salary exchange pension scheme from day one\n• £240 yearly wellbeing allowance; health cash plan\n• Enhanced maternity, paternity and adoption leave; cycle to work scheme\n• Free breakfast and lunch in the Manchester office; discounted parking\n• Access to internal and external training; dog-friendly office\n\nAbout AccessPay\nAccessPay leads the way in payments operations excellence for finance and treasury teams. Its cloud-based platform connects corporates to their banks, automates bank statement retrieval, and de-risks payments operations through Account Name Verification and Sanctions Screening. 1,000+ customers integrate their ERPs with over 16,000 banks.\n\nBase pay: £26k/yr (employer provided), Manchester.",
+"sponsor_register": "not_found",
+"sponsor_match": "",
+"jd_sponsorship": "silent",
+"salary_check": "below_threshold",
+"recruiter": false,
+"decision": "",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-22T13:25:35+00:00",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-22T13:25:35+00:00"
 },
 {
 "id": "gd-1010331006642",
