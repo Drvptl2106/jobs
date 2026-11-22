@@ -1573,6 +1573,119 @@
 "updated_at": "2026-11-22T08:29:28+00:00"
 },
 {
+"id": "gd-1010332355177",
+"source": "glassdoor",
+"title": "Operations Analyst - Chief Data Office",
+"company": "Fitch Group",
+"location": "London, England",
+"salary": "",
+"salary_min": null,
+"salary_max": null,
+"posted_age": "24h",
+"first_seen": "2026-11-22",
+"email_date": "",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010332355177",
+"easy_apply": false,
+"fit_score": 76,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 16,
+"max": 20,
+"note": "Junior programme/PMO and business operations analyst; budget tracking is new"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 21,
+"max": 25,
+"note": "Excel, PowerPoint, analysis, communication shown; no formal risk/action/dependency tracking"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 11,
+"max": 15,
+"note": "Asks 1-3 years in consulting/business operations; freelance BA and NGO work cover the lower end"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 10,
+"max": 10,
+"note": "Bachelor's in business or related asked; CV has MSc Business Analytics"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 3,
+"max": 10,
+"note": "No financial information services experience; not required"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 8,
+"max": 10,
+"note": "Permanent at a licensed sponsor (Fitch Ratings Limited)"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Permanent, hybrid 3 days a week in London"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 4,
+"max": 5,
+"note": "New on Glassdoor, but on job boards for about three weeks (-1)"
+}
+],
+"confidence": "medium",
+"recommendation": "apply",
+"verdict": "Junior programme and business operations analyst in Fitch Group's Chief Data Office, tracking milestones, budgets and reporting for management; it fits your analysis, reporting and stakeholder work well, though it asks for 1-3 years and budget tracking you haven't done. Right to work: fine; permanent role at a licensed sponsor (Fitch Ratings Limited), but you'd leave in January 2028 unless they sponsor you.",
+"match_reasons": [
+"Built and maintained KPI dashboards and Power BI reports (GDP Foundation, Visionize), matching reporting on programme performance",
+"Pricing and cost analysis for clients (Visionize) and CAPEX/ROI metrics in the MSc EV strategy project, a start on budget analysis",
+"Gathered requirements with teams across GDP Foundation and worked with clients and managers: cross-team stakeholder support",
+"MSc Business Analytics (Distinction) with Project Management and Stakeholder Management modules meets the degree requirement"
+],
+"gaps": [
+"Permanent role: you'd leave in January 2028 unless they sponsor you; answer honestly if asked",
+"Needs a move: check relocation costs against the salary (London, 3 office days; salary not stated)",
+"Tracking risks, actions and dependencies: you haven't kept formal risk, action or issue registers",
+"Asks for 1-3 years in financial analysis, consulting or business operations; no budget-management experience shown"
+],
+"jd_summary": "Analyst in Fitch Group's Chief Data Office, reporting to the Programme Lead: track programme milestones, actions, risks and dependencies, support budget tracking and financial reporting, analyse performance data, prepare management presentations and ad hoc analysis. Wants 1-3 years in financial analysis, consulting or business operations, Excel and PowerPoint, and a business-related degree. Permanent, hybrid 3 days a week in London; salary not stated. Glassdoor lists it under Homecare Homebase in error. Apply on the employer's site: https://careers.fitch.group/job/London-Operations-Analyst-Chief-Data-Office/1405670433/",
+"jd_full": "Fitch Group is currently seeking an Analyst to join the Chief Data Office based out of our London office.\nAs a leading, global financial information services provider, Fitch Group delivers vital credit and risk insights, robust data, and dynamic tools to champion more efficient, transparent financial markets. Fitch Group includes Fitch Ratings, one of the world's top three credit ratings agencies, and Fitch Solutions. With dual headquarters in London and New York, Fitch Group is owned by Hearst.\nFitch's Technology & Data Team includes the Chief Data Office, Chief Software Office, Chief Technology Office, Emerging Technology, Shared Technology Services, Technology, Risk and the Executive Program Management Office (EPMO).\nReporting to the Programme Lead, this role provides business and operational support across the Chief Data Office (CDO). Working with colleagues across CDO, Technology, Finance, and the wider business, you will help coordinate activities, support budget management, and contribute to analysis that informs decision-making.\nWhat We Offer\n• Opportunity to develop skills in programme coordination, financial management, and business reporting within a Group-level function.\n• Exposure to a range of projects that support how Fitch manages and uses its data.\n• A supportive and collaborative team with opportunities to learn from experienced colleagues across the business.\n• Varied work across budgeting, reporting, analysis, and stakeholder support.\nWe'll Count on You To:\n• Track programme milestones, actions, risks, and dependencies, and help maintain progress updates.\n• Support budget management by tracking spending, monitoring budgets, and assisting with financial reporting and planning.\n• Help collect and analyse data to support reporting on programme performance and business outcomes.\n• Prepare presentations, reports, and materials for management meetings and discussions.\n• Support ad hoc analysis, reporting, and other team initiatives as required.\nWhat We're Looking For:\n• 1-3 years of experience in financial analysis, consulting, business operations, or a similar role.\n• Strong analytical skills and confidence working with financial, operational, or performance data.\n• Good working knowledge of Microsoft Excel and PowerPoint.\n• Strong written and verbal communication skills.\n• Ability to solve problems in a logical and organised way.\n• Ability to work effectively with people across different teams.\n• Bachelor's degree in Business, Economics, Accounting, or a related field.\nWhat Would Make You Stand Out:\n• A proactive approach and willingness to take ownership of tasks.\n• Strong attention to detail and accuracy.\n• Experience preparing reports, presentations, or analysis for management or senior stakeholders through previous roles, internships, or graduate programmes.\nWhy Choose Fitch:\n• Hybrid Work Environment: 3 days a week in office required based on your line of business and location\n• A Culture of Learning & Mobility: training, leadership development and mentorship programmes\n• Investing in Your Future: retirement planning, financial wellness and tuition reimbursement\n• Promoting Health & Wellness: comprehensive healthcare offerings\n• Supportive Parenting Policies: generous global parental leave plan\n• Dedication to Giving Back: paid volunteer days\nAt Fitch, AI is embedded in how we work every day. We're looking for colleagues who are comfortable operating in an AI-enabled environment, or who are curious, adaptable, and eager to build their AI literacy over time.\nTo protect Fitch's credibility, successful candidates at Fitch Ratings will be asked to declare any securities holdings and other potential conflicts before starting employment.\nFitch is an Equal Opportunity and Affirmative Action Employer.",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "Fitch Ratings Limited",
+"town": "London",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "unknown",
+"recruiter": false,
+"decision": "",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-22T13:26:20+00:00",
+"last_email": "",
+"notes": "Glassdoor lists this under 'Homecare Homebase', but the advert text and the employer's own careers page (careers.fitch.group, job 1405670433) show it is Fitch Group. sponsor_check on 'Homecare Homebase' only matched an unrelated 'Homecare (London) Ltd'; register checked for Fitch instead. Confidence medium because of the employer mismatch.",
+"profile_basis": "master",
+"updated_at": "2026-11-22T13:26:20+00:00"
+},
+{
 "id": "gd-1010332407522",
 "source": "glassdoor",
 "title": "Technical Business Analyst (Fixed Term)",
@@ -1900,6 +2013,114 @@
 "notes": "",
 "profile_basis": "master",
 "updated_at": "2026-11-22T08:31:34+00:00"
+},
+{
+"id": "gd-1010331870488",
+"source": "glassdoor",
+"title": "Junior operations analyst - transfers",
+"company": "Seccl",
+"location": "Edinburgh, Scotland",
+"salary": "£28k",
+"salary_min": 28000,
+"salary_max": 28000,
+"posted_age": "24h",
+"first_seen": "2026-11-22",
+"email_date": "",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010331870488",
+"easy_apply": false,
+"fit_score": 72,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 8,
+"max": 20,
+"note": "Operations analyst in name; mostly pension transfer casework by phone and email"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 18,
+"max": 25,
+"note": "Only soft skills listed (multitasking, numbers, detail, communication); all shown in CV"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 15,
+"max": 15,
+"note": "Open to people starting their career"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "None stated"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 3,
+"max": 10,
+"note": "No financial services experience; advert only asks for keenness to learn"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 10,
+"max": 10,
+"note": "6-month fixed-term contract ending well before January 2028"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 5,
+"max": 5,
+"note": "6-month FTC, hybrid in Edinburgh (two office days)"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "Fresh, employer-direct, fixed-term contract (+1, capped)"
+}
+],
+"confidence": "medium",
+"recommendation": "apply",
+"verdict": "Six-month fixed-term junior operations role in Seccl's pension and investment transfers team, open to people starting their career; it is your preferred contract type, but the work is mostly transfer casework and record-keeping rather than business analysis, and £28k is low for a move to Edinburgh. Right to work: fine; a 6-month contract fits if it starts by mid-2027.",
+"match_reasons": [
+"Fast-paced, multi-task work at EE (contact centre) and M&S (peak trading), as the advert asks",
+"Took ownership of a process problem and delivered BreakPoint for a 15-person team: the process ownership it wants",
+"Tested every business rule by hand before rollout: the accuracy and attention to detail it stresses",
+"Customer-facing communication at EE and with clients at Visionize, matching the calls and emails with schemes and firms"
+],
+"gaps": [
+"Needs a move: check relocation costs against the salary (£28k, Edinburgh hybrid with two office days)",
+"Mostly operational casework (calls, emails, records, SLAs), so limited business analysis experience",
+"No financial services, pensions or investment-wrapper experience",
+"Only 6 months: possible move to permanent is mentioned but not promised"
+],
+"jd_summary": "Junior operations analyst in Seccl's Transfers team (Octopus-owned investment platform): progress pension and investment transfers by phone and email with ceding and receiving schemes, keep records accurate, update firms, meet service levels and answer queries. Wants organisation, accuracy, numbers and communication; no experience requirement. 6-month fixed-term contract, possibly permanent; £28,000 plus 6% pension; hybrid, two days a week in Edinburgh (Wednesday mandatory). Apply on the employer's site: https://seccl.tech/careers/",
+"jd_full": "Location: Edinburgh | Employment type: Full time | Location type: Hybrid | Department: Operations | Compensation: £28K\nHybrid with two days a week (Wednesday mandated) in our Edinburgh office\n6 month fixed term contract (FTC) with potential opportunities to go permanent\nAbout us\nSeccl is the Octopus-owned embedded investment platform, on a mission to help more people invest, and invest well. Our technology already powers some of the UK's most ambitious fintechs, banks, financial advisers and wealth firms, with close to a million investors relying on Seccl-powered platforms. And we're now expanding into Europe.\nWe're proud to be part of Octopus, one of the UK's most successful privately held investment and technology groups. Seccl and Octopus are both B Corp certified.\nThe role\nWe're looking for junior operations analysts to join our Transfers team in Edinburgh on a six-month fixed term contract. It's a hands-on way to build your operational expertise in a fast-paced financial services business, with the chance to move into a permanent role.\nYou'll help make sure pension and investment transfers run smoothly: managing communications with ceding and receiving schemes, keeping records accurate and making sure firms know where their transfers stand. You'll work from our Edinburgh office alongside experienced colleagues who'll support your development, and you'll contribute from day one.\nWhether you're starting your career or broadening your experience, you'll get real ownership, exposure to products, technology and investment wrappers, and work that directly shapes the service our clients receive.\nWhat you'll own\n• Keeping transfers moving by managing communications between transferring pension and investment schemes and Seccl\n• Progressing transfer activity through calls and emails with ceding and receiving schemes\n• Maintaining accurate internal client and scheme records\n• Keeping firms informed with timely updates on transfer progress\n• Delivering accurate submissions within agreed service levels\n• Answering transfer queries from across the business quickly and professionally\n• Supporting other operational teams and business areas to deliver a seamless client experience\nThis role's for you if...\n• You're keen to learn about financial services, technology and investment wrappers\n• You've worked in a fast-paced environment where juggling multiple tasks is the norm\n• You want to take ownership of processes and customer outcomes\n• You enjoy working with numbers, have a sharp eye for detail and are a solid problem solver\n• You communicate clearly, stay organised and care about accuracy\n• You're a team player, focused on customers and delivery, who wants to build new skills along the way\nWhat's in it for you\n• Annual salary of £28,000, plus 6% employer pension contribution and life assurance\n• 27 days' holiday plus bank holidays (some can be flexible), plus your birthday off\n• Health and wellbeing: free therapy through Wellness Cloud, mental health support through Headspace\n• Financial wellbeing: will writing through Octopus Legacy, and Seccl invest\n• Perkbox: flexible points for discounts and perks\nBenefits are pro-rata to the contract duration.\nEveryone's welcome\nAll applicants will be considered for employment without regard to age, ethnicity, religion, sex, sexual orientation, gender identity, family or parental status, national origin, veteran status, neurodiversity or disability. If this sounds like your kind of thing, we encourage you to apply even if you don't tick every box.\nCompensation Range: £28K",
+"sponsor_register": "not_found",
+"sponsor_match": "",
+"jd_sponsorship": "silent",
+"salary_check": "below_threshold",
+"recruiter": false,
+"decision": "",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-22T13:26:20+00:00",
+"last_email": "",
+"notes": "Seccl (Seccl Technology) not on the register; parent group entity Octopus Capital Limited is licensed, but irrelevant for a 6-month FTC. Confidence medium: advert lists soft skills only.",
+"profile_basis": "master",
+"updated_at": "2026-11-22T13:26:20+00:00"
 },
 {
 "id": "gd-1010331132721",
@@ -2348,6 +2569,119 @@
 "notes": "",
 "profile_basis": "master",
 "updated_at": "2026-11-22T13:25:48+00:00"
+},
+{
+"id": "gd-1010332361955",
+"source": "glassdoor",
+"title": "Trade Operations Analyst",
+"company": "Intercontinental Exchange",
+"location": "London, England",
+"salary": "£46k-£56k (Glassdoor est.)",
+"salary_min": 46000,
+"salary_max": 56000,
+"posted_age": "24h",
+"first_seen": "2026-11-22",
+"email_date": "",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010332361955",
+"easy_apply": false,
+"fit_score": 68,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 10,
+"max": 20,
+"note": "Operations analyst, but mostly trading-platform customer support and trade surveillance"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 19,
+"max": 25,
+"note": "Problem solving, communication, customer service, MS Office, reporting shown; no market knowledge"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 15,
+"max": 15,
+"note": "Degree or equivalent; no years stated"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 10,
+"max": 10,
+"note": "Degree asked; CV has MSc and BSc"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 0,
+"max": 10,
+"note": "Asks for knowledge of commodity markets or financial trading; CV has none"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 6,
+"max": 10,
+"note": "Permanent; ICE Data Services Europe is licensed, this team's entity not confirmed"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Permanent role in London"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "Fresh, employer-direct"
+}
+],
+"confidence": "high",
+"recommendation": "maybe",
+"verdict": "Front-line customer support and real-time trade surveillance role for ICE's futures exchanges; the degree and soft skills fit, but it asks for knowledge of commodity markets or financial trading that the CV doesn't show, and there is little business analysis in it. Right to work: permanent role; ICE has a licensed UK entity (ICE Data Services Europe), but you'd leave in January 2028 unless they sponsor you.",
+"match_reasons": [
+"Customer-facing problem solving at EE: finding out what each customer needs and resolving it",
+"Produced reports and dashboards (Power BI, Excel) for clients, matching the operational metrics reports",
+"MSc Business Analytics (Distinction) meets the degree requirement",
+"Presented BreakPoint to the team and walked them through it, close to training customers on platform functions"
+],
+"gaps": [
+"Permanent role: you'd leave in January 2028 unless they sponsor you; answer honestly if asked",
+"Needs a move: check relocation costs against the salary (London)",
+"No knowledge of commodity markets, futures or financial trading, which the advert asks for",
+"Mostly platform support and surveillance, not BA work; salary is only a Glassdoor estimate; ICE operations teams often work shifts (not stated)"
+],
+"jd_summary": "Trade Operations Analyst at ICE (derivatives exchanges): first-line support for users of ICE trading platforms, real-time surveillance of ICE Futures trading, platform training, troubleshooting, system monitoring and operational metrics reports. Wants a degree or customer-facing experience, knowledge of commodity/financial trading, problem solving, communication and Salesforce/ServiceNow/MS Office. London, permanent; salary not stated (Glassdoor estimate £46k-£56k). Apply via Glassdoor or ICE careers.",
+"jd_full": "Intercontinental Exchange (ICE) Operations offers market knowledge, technical expertise, customer service, and innovative tools to support our global functions. Systems, Network, and Trading Operations, Internal IT Support, Information Security, Client Services, and Data Centers all enable our business to run smoothly, securely, and efficiently.\nICE Trade Operations is part of a support organization that is responsible for the daily operations of multiple industry leading derivatives exchanges. The team provides first-line support for customers who use our proprietary trading systems and conduct real time trade surveillance of our futures markets.\nThe Trade Operations Analyst is the front line for our trading platform customers. The Trade Operations Analyst is well-versed in our products, markets, and operations, and is pivotal to ICE's commitment to strong customer service, integrity, and transparency in the financial marketplaces.\nResponsibilities\n• Conduct real-time surveillance of electronic trading activity in ICE Futures products\n• Provide training on the ICE website, trading platform functionality, and specific trading information for OTC and futures markets\n• Provide quick responsiveness to customers, offering functionality support and troubleshooting to resolve issues\n• Support both new and existing companies in efficient use of our proprietary systems, resolving issues, problem-solving, and training\n• Monitor the health and usage of our systems, escalating recurring or high-priority issues\n• Produce operational reports to provide metrics and tracking of queries\nKnowledge and Experience\n• College degree or equivalent work experience in a customer-focused environment\n• Knowledge of commodity markets, financial trading, or equity brokerage business; exposure to futures markets a plus\n• Outstanding problem-solving and analytical skills, attention to detail, and ability to multitask\n• Strong communication skills with demonstrated interpersonal skills\n• Team player, with commitment to service to our customers and their needs\n• Working knowledge of at least one of Salesforce, ServiceNow, MS Office\nBase pay range (Glassdoor estimate): £46k - £56k/yr",
+"sponsor_register": "possible",
+"sponsor_match": {
+"name": "ICE Data Services Europe Limited",
+"town": "London",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "meets_general",
+"recruiter": false,
+"decision": "",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-22T13:26:20+00:00",
+"last_email": "",
+"notes": "sponsor_check 'Intercontinental Exchange' = not_found; --grep 'ICE Data' found ICE Data Services Europe Limited (Skilled Worker). Employing entity for Trade Operations not confirmed.",
+"profile_basis": "master",
+"updated_at": "2026-11-22T13:26:20+00:00"
 },
 {
 "id": "gd-1010332000383",
@@ -3247,6 +3581,115 @@
 "notes": "",
 "profile_basis": "master",
 "updated_at": "2026-11-22T08:31:34+00:00"
+},
+{
+"id": "gd-1010331874692",
+"source": "glassdoor",
+"title": "Chargeback Operations Junior Analyst",
+"company": "PaymentGenes",
+"location": "London, England",
+"salary": "£35k-£400k (employer provided, likely typo)",
+"salary_min": 35000,
+"salary_max": 40000,
+"posted_age": "24h",
+"first_seen": "2026-11-22",
+"email_date": "",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010331874692",
+"easy_apply": false,
+"fit_score": 65,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 12,
+"max": 20,
+"note": "Risk operations analyst open to outsiders, but mostly chargeback casework"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 19,
+"max": 25,
+"note": "Excel, detail, client contact, reporting evidenced; no card-scheme or Verifi/Mastercom"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 11,
+"max": 15,
+"note": "Asks for some detail-heavy operational experience; transferable welcome"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "None stated"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 3,
+"max": 10,
+"note": "No payments experience; listed only as nice to have"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 5,
+"max": 10,
+"note": "Permanent; end client unnamed, so sponsor status unknown"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Permanent, office-based in London"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 4,
+"max": 5,
+"note": "Fresh, but recruiter with client unnamed (-1)"
+}
+],
+"confidence": "high",
+"recommendation": "maybe",
+"verdict": "Junior chargeback and fraud operations role in a card-payments risk team, advertised by payments recruiter PaymentGenes for an unnamed client; it welcomes transferable experience and Excel-based reporting, but it is mainly dispute casework rather than business analysis. Right to work: permanent role at an unnamed client whose sponsor status can't be checked, so you'd leave in January 2028 unless they sponsor you.",
+"match_reasons": [
+"Built Power BI dashboards and reports of client data showing trends and risks (Visionize), close to the daily chargeback and fraud trend reporting",
+"Comfortable in Excel (pivot tables, lookups) as the advert asks",
+"Worked directly with clients and customers (Visionize, EE), matching the merchant and client contact",
+"Tested every BreakPoint business rule by hand before rollout: the accuracy and procedure focus this role needs"
+],
+"gaps": [
+"Permanent role: you'd leave in January 2028 unless they sponsor you; answer honestly if asked",
+"Needs a move: check relocation costs against the salary (London, office-based)",
+"Recruiter advert: the end client isn't named, so the sponsor register can't be checked",
+"No chargeback, card-scheme (Visa/Mastercard) or Verifi/Mastercom experience; mostly casework, not BA work",
+"Salary shown on Glassdoor as £35k-£400k; the advert text says £35,000-£40,000"
+],
+"jd_summary": "Junior Chargeback Operations Analyst in the Risk Operations team of an unnamed card acquiring/issuing business, via recruiter PaymentGenes. Handles Visa/Mastercard chargeback cases, evidence packs, Mastercard Collaboration and Visa Verifi reports, merchant contact, daily chargeback and fraud reports. Wants some detail-heavy operational experience (transferable welcome), Excel, organisation and communication. Permanent, office-based in London, £35,000-£40,000. Apply via Glassdoor; a recruiter consultant follows up.",
+"jd_full": "London | Permanent | Legal and Compliance | Posted 20/11/2026\nChargeback Operations Junior Analyst\nLondon (office-based) | £35,000 - £40,0000 p/a\nStart your career in card payments with a fast-growing payments business\nWe're partnering with a growing card payments business, with acquiring and issuing operations, to hire a Chargeback Operations Junior Analyst for its Risk Operations team.\nThis is a hands-on role for someone who likes detail and wants to build a long-term career in chargebacks, disputes and fraud. You'll work closely with the Chargeback & Fraud Manager and see the full dispute lifecycle across Visa and Mastercard.\nWhat you'll be doing\n• Chargeback case handling: reviewing and processing chargeback cases accurately, following internal procedures and card scheme rules, and keeping to scheme deadlines.\n• Evidence packs: putting together evidence and supporting documents that win cases, and making sure they're complete and submitted on time.\n• Mastercard Collaboration: reviewing Mastercard Collaboration reports every day, picking out the cases that need action and making sure each one is dealt with quickly.\n• Visa Verifi: helping onboard new clients onto Visa Verifi (including connecting terminals), monitoring daily Verifi reports and acting on them.\n• Merchant and client contact: talking to clients and merchants to agree whether to defend or accept a dispute, then processing any refunds that follow.\n• Reporting: producing daily chargeback reports for merchants and daily transaction data for the Finance team.\n• Fraud monitoring: tracking daily fraud levels, spotting unusual trends, and helping prepare and deliver fraud analysis reports to clients.\n• Records and escalation: keeping clear, auditable case records, and flagging anything unusual, incomplete or outside procedure to the Chargeback & Fraud Manager.\nWhat we're looking for\n• Some experience in chargebacks, disputes, fraud operations, payments, banking or another detail-heavy operational role. Strong transferable experience is welcome too.\n• Excellent attention to detail. Accuracy really matters here.\n• Good organisation, with the ability to handle several cases, reports and deadlines at once.\n• Confident written and spoken communication with merchants, clients and colleagues.\n• Comfortable in Excel (filtering, sorting, reconciliation, basic analysis) and quick to pick up new systems.\n• Good with numbers, with a real interest in spotting patterns in chargeback and fraud data.\n• You take ownership of your work, follow things through, and know when to escalate.\nNice to have\n• Experience at a card acquirer, issuer, payment processor or fintech.\n• Knowledge of Visa and Mastercard chargeback processes, reason codes and evidence requirements.\n• Hands-on use of Mastercom/Mastercard Collaboration, Visa Verifi (RDR / CDRN / Order Insight) or a similar dispute-management or case-management platform.\n• Experience producing operational, financial, chargeback or fraud reports.\nWhy apply?\n• A real first step, or next step, into chargebacks, fraud and card payments, with exposure across both acquiring and issuing.\n• Learn directly from an experienced Chargeback & Fraud Manager inside a close-knit Risk Operations team.\n• A scaling business where good work gets noticed and there's room to grow into more senior risk, fraud or disputes roles.\nInterested?\nIf you have the required skills and experience for this role then please apply today and if considered suitable our specialist consultant will be in touch.\nBase pay (Glassdoor): £35k - £400k/yr (Employer provided)",
+"sponsor_register": "not_found",
+"sponsor_match": "",
+"jd_sponsorship": "silent",
+"salary_check": "meets_new_entrant",
+"recruiter": true,
+"decision": "",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-22T13:26:20+00:00",
+"last_email": "",
+"notes": "Recruiter advert (PaymentGenes is a payments recruitment agency; sponsor_check did not flag it). Glassdoor salary max £400k is a typo for £40,000.",
+"profile_basis": "master",
+"updated_at": "2026-11-22T13:26:20+00:00"
 },
 {
 "id": "gd-1010331744324",
@@ -5502,6 +5945,54 @@
 "notes": "",
 "profile_basis": "master",
 "updated_at": "2026-11-22T13:25:48+00:00"
+},
+{
+"id": "gd-1010332451772",
+"source": "glassdoor",
+"title": "Finance Business Analyst",
+"company": "BBC Studios",
+"location": "London, England",
+"salary": "£55k",
+"salary_min": 55000,
+"salary_max": 55000,
+"posted_age": "24h",
+"first_seen": "2026-11-22",
+"email_date": "",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010332451772",
+"easy_apply": false,
+"fit_score": null,
+"score_breakdown": [],
+"confidence": "high",
+"recommendation": "skip",
+"verdict": "Outside your target roles: it is a technical accounting role whose essential criteria include being a qualified accountant (ACA, ACCA or equivalent).",
+"match_reasons": [],
+"gaps": [
+"Essential: professionally qualified accountant (ACA, ACCA or equivalent), IFRS/UK GAAP and statutory accounts experience"
+],
+"jd_summary": "Finance Business Analyst in BBC Studios' Technical Accounting team: subsidiary statutory accounts, technical accounting advice, IFRS/UK GAAP compliance, month-end and year-end reviews, FX and hedging reporting. Essential: ACA/ACCA qualified accountant, statutory accounts and consolidation experience. 12-month fixed-term contract, full-time, Television Centre London, up to £55,000 plus £5,441 London Weighting. Closes 29 November 2026; apply online only.",
+"jd_full": "Job Requisition ID: 56874 | Job Closing Date: 29 November 2026 | London, W12 7FA\nJOB DETAILS\nJob band: D\nContract type: 12 Month Fixed-term Contract, Full-time\nDepartment: BBC Studios Finance\nLocation: London - Television Centre\nProposed salary range: Up to £55,000 plus £5,441 London Weighting depending on relevant skills, knowledge and experience.\nPURPOSE OF THE ROLE\nJoin the Technical Accounting team as a Finance Business Analyst, where you'll provide expert accounting guidance across a complex international business. Working closely with the Group Financial Accounting Manager, you'll support statutory reporting, advise on technical accounting matters, and help ensure compliance with IFRS, UK GAAP and reporting requirements.\nYOUR KEY RESPONSIBILITIES AND IMPACT\n• Prepare subsidiary statutory financial statements across the BBC Studios Group, ensuring compliance with reporting requirements and deadlines.\n• Act as a key contact for technical accounting queries, providing guidance on complex transactions and the accounting implications of commercial decisions.\n• Review and analyse month-end, quarterly and year-end financial results, reconciliations and balance sheet positions to support a robust control environment.\n• Support Group reporting activities, including year-end submissions, external reporting requirements and audit processes.\n• Assist with monitoring and analysing foreign exchange exposure, hedging activity and related reporting.\n• Deliver technical accounting training and guidance to finance teams across the business.\n• Support the maintenance and development of accounting policies, processes and controls.\nYOUR SKILLS AND EXPERIENCE\nEssential criteria:\n• Professionally qualified accountant (ACA, ACCA or equivalent).\n• Strong technical accounting knowledge, including IFRS and UK GAAP.\n• Experience preparing, reviewing or analysing statutory financial statements and associated disclosure requirements.\n• Strong understanding of consolidation principles within a multi-entity or international group environment.\n• Excellent analytical, communication and stakeholder management skills.\nDesired but not required:\n• Experience supporting technical accounting matters within a large, complex organisation.\n• Knowledge of foreign exchange accounting, treasury activities or hedging arrangements.\n• Experience working with SAP S/4HANA, BPC, Workiva or similar finance systems.\n• Experience liaising with external auditors and supporting year-end audit processes.\n• An interest in, or experience within, the media, broadcast, production or television industry.\nEmployment screening checks include references and eligibility to work checks. Applications only online; the BBC gives redeployment priority to at-risk employees.\nLife at BBC Studios: 35-hour week, 26 days' leave, pension up to 10% employer contributions. Benefits may vary on an FTC basis.",
+"sponsor_register": "possible",
+"sponsor_match": {
+"name": "BBC",
+"town": "Salford",
+"rating": "Temporary Worker (A rating)",
+"route": "Creative Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "meets_general",
+"recruiter": false,
+"decision": "skipped",
+"decided_at": "",
+"status": "skipped",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-22T13:26:20+00:00",
+"last_email": "",
+"notes": "Register has British Broadcasting Corporation (Skilled Worker, Birmingham); no separate BBC Studios entry.",
+"profile_basis": "master",
+"updated_at": "2026-11-22T13:26:20+00:00"
 },
 {
 "id": "gd-1010328465537",
