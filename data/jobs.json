@@ -330,6 +330,119 @@
 "updated_at": "2026-11-23T08:26:29+00:00"
 },
 {
+"id": "gd-1010331033701",
+"source": "glassdoor",
+"title": "Business Intelligence Analyst",
+"company": "Global Banking School",
+"location": "Manchester or Greenford (West London), on-site",
+"salary": "£45,000 per annum (Employer provided)",
+"salary_min": 45000,
+"salary_max": 45000,
+"posted_age": "3d",
+"first_seen": "2026-11-23",
+"email_date": "2026-11-23",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010331033701",
+"easy_apply": false,
+"fit_score": 55,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 12,
+"max": 20,
+"note": "BI/reporting analyst: requirements-to-KPI and Power BI work fits, but much of it is data modelling and warehousing"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 15,
+"max": 25,
+"note": "Power BI, stakeholder work, documentation and data quality checks shown; SQL only working level; no dimensional modelling or data warehouse"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 11,
+"max": 15,
+"note": "No years stated, but asks for strong/advanced Power BI; freelance dashboards cover some of it"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 10,
+"max": 10,
+"note": "Asks for a degree in computer science, IT or data; you have a BSc Data Science and an MSc"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 6,
+"max": 10,
+"note": "Higher education provider; you studied in UK HE and worked as a Student Engagement Assistant, but no HE data experience (desirable only)"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 8,
+"max": 10,
+"note": "Permanent role at a licensed Skilled Worker sponsor (A rating)"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Permanent, fully on-site in Manchester or West London: needs a move"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "Posted 3 days ago, direct employer, not Easy Apply. Gate: coding_essential caps the total at 55 (strong SQL, data modelling and warehousing listed as requirements)"
+}
+],
+"confidence": "high",
+"recommendation": "maybe",
+"verdict": "A Power BI reporting role at a private higher-education provider: the requirements-to-dashboards side matches your Visionize and GDP Foundation work, but it asks for strong SQL, data modelling and data warehousing, which the CV doesn't show. Right to work: fine; permanent role at a licensed sponsor, so you'd leave in January 2028 unless they sponsor you.",
+"match_reasons": [
+"You built Power BI dashboards and reports of client data at Visionize Consultancy",
+"You turned team requirements into KPI dashboards with data quality checks at GDP Foundation",
+"You set up a client data pipeline, cleaning data from several sources",
+"You hold a BSc Data Science and an MSc Business Analytics (Distinction), meeting the degree requirement"
+],
+"gaps": [
+"Permanent role: you'd leave in January 2028 unless they sponsor you; answer honestly if asked",
+"Needs a move: on-site in Manchester or Greenford (West London); check relocation costs against the salary",
+"Asks for strong SQL, dimensional modelling and data warehouse concepts; you have working SQL only",
+"Wants advanced Power BI and ownership of BI projects with little supervision; Python, Fabric and HESA/OfS knowledge are desirable and not on your CV"
+],
+"jd_summary": "Permanent, full-time (40 hours) BI Analyst in GBS's Data and Information team, on-site in Manchester or Greenford, £45,000. Builds and maintains Power BI dashboards, turns business requirements into KPIs, validates data and presents insights to stakeholders. Needs a relevant degree, advanced Power BI, SQL, data modelling and documentation skills. Apply via 'Apply on employer site' on the Glassdoor advert.",
+"jd_full": "Department: Data and Information\nLocation: Manchester or Greenford (West London - UB6) (On-Site)\nSalary: £45,000 per annum\nType of Contract: Full-Time, Permanent (40 hours per week)\nOur Vision: Changing lives through education.\n\nTurn Data into Decisions. Drive Insight. Create Impact.\nAt GBS, data is at the heart of how we improve student outcomes, drive operational excellence, and support strategic decision-making. We're looking for a talented Business Intelligence (BI) Analyst to join our growing Data & Information team and help transform data into meaningful business insights.\nThis is an exciting opportunity for a highly analytical and technically skilled professional who enjoys solving complex problems, developing innovative reporting solutions, and influencing decisions through data. You'll work closely with stakeholders across the organisation, translating business requirements into powerful dashboards, visualisations, and actionable recommendations.\nIf you're passionate about Power BI, data storytelling, and delivering real business value through analytics, we'd love to hear from you.\n\nWhat you'll be doing:\n• Develop and maintain Power BI dashboards, reports, and visualisations.\n• Translate business requirements into meaningful reporting solutions and KPIs.\n• Analyse data to identify trends, opportunities, risks, and actionable insights.\n• Ensure data accuracy through validation, testing, and governance best practices.\n• Present insights clearly to technical and non-technical stakeholders.\n• Collaborate with stakeholders to support reporting and decision-making needs.\n• Drive continuous improvement through automation and reporting enhancements.\n• Strong experience with Power BI, SQL, data modelling, and data warehousing concepts.\n• Excellent analytical, problem-solving, documentation, and stakeholder management skills.\n• Ability to work independently and take ownership of projects from concept to delivery.\n\nWhat We're Looking For:\n• Bachelor's degree in computer science, IT, Data, or extensive experience in a related field.\n• Strong proficiency in BI tools, with advanced practical experience of Microsoft Power BI.\n• SQL skills for querying, validating, and transforming data.\n• Good understanding of relational databases, dimensional modelling, and data warehouse concepts.\n• Project ownership with minimal supervision - Owns projects from start to finish with accuracy.\n• Ability to problem solve - Identifying data trends and business opportunities without prompting.\n• Data Accuracy Assurance - Audits and cross-checks data rigorously.\n• Continuous improvement - Routinely refines automated pipelines and dashboard performance.\n• Strong documentation skills (user guides, data dictionaries etc).\n\nDESIRABLE SKILLS and EXPERIENCE:\n• Experience of Python or another analytical programming language would be advantageous.\n• Experience with ETL tools and data warehousing concepts\n• Awareness of AI/GenAI use cases in BI and analytics.\n• Familiarity with data governance, privacy, and compliance (UK GDPR)\n• Experience working with student-related data (attendance, enrolment, progression, continuation).\n• Experience of working in UK Higher Education and familiarity with sector data, measures, and regulatory frameworks, including HESA and OfS requirements.\n• Power BI or Microsoft Fabric certification.\n• Experience with Power Automate or Fabric pipelines.\n\nWhat we offer:\n• Time off: 33 days annual leave (including bank holidays), 1 extra day per year of service (up to 5 days) and buy/sell up to 5 days\n• Opportunities for growth: tuition reimbursement, training courses and support with FHEA application\n• Pension scheme and flexible benefits (salary sacrifice): cycle to work, workplace nursery, tech, health, dental and life assurance\n• Discounts, perks and Employee Assistance Programme\n• Annual salary review, annual discretionary bonus, £500 referral award\n\nGBS is committed to equality, diversity and inclusion and providing a workplace free from discrimination or harassment.",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "Global Banking School Limited",
+"town": "London",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "meets_general",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-23T13:30:26+00:00",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-23T13:30:26+00:00"
+},
+{
 "id": "gd-1010332049762",
 "source": "glassdoor",
 "title": "Supply Chain Analyst",
@@ -829,6 +942,47 @@
 "notes": "",
 "profile_basis": "master",
 "updated_at": "2026-11-23T08:26:29+00:00"
+},
+{
+"id": "nh-e775654bd2",
+"source": "nhs-jobs",
+"title": "EPR Support Analyst",
+"company": "Robert Jones and Agnes Hunt Orthopaedic Hospital NHS Foundation Trust",
+"location": "Oswestry SY10 7AG",
+"salary": "£28,392 to £31,157 a year",
+"salary_min": 28392,
+"salary_max": 31157,
+"posted_age": "Posted 20 Nov 2026",
+"first_seen": "2026-11-23",
+"email_date": "",
+"url": "https://www.jobs.nhs.uk/candidate/jobadvert/C9224-26-00008",
+"easy_apply": false,
+"fit_score": null,
+"score_breakdown": [],
+"confidence": "",
+"recommendation": "skip",
+"verdict": "Outside your target roles: IT application (EPR) support, not business analysis.",
+"match_reasons": [],
+"gaps": [],
+"jd_summary": "",
+"jd_full": "",
+"sponsor_register": "not_found",
+"sponsor_match": "",
+"jd_sponsorship": "",
+"salary_check": "below_threshold",
+"recruiter": false,
+"decision": "skipped",
+"decided_at": "",
+"status": "skipped",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-23T13:30:26+00:00",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-23T13:30:26+00:00"
 },
 {
 "id": "gd-1010331229053",
