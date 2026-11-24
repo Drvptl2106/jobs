@@ -221,6 +221,119 @@
 "updated_at": "2026-11-24T08:31:09+00:00"
 },
 {
+"id": "gd-1010334129686",
+"source": "glassdoor",
+"title": "Operational Excellence & Procedures Analyst",
+"company": "Allica Bank",
+"location": "Manchester, England",
+"salary": "£31k - £40k (Glassdoor Est.)",
+"salary_min": 31000,
+"salary_max": 40000,
+"posted_age": "Just posted",
+"first_seen": "2026-11-24",
+"email_date": "2026-11-24T13:22:00Z",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010334129686",
+"easy_apply": false,
+"fit_score": 78,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 20,
+"max": 20,
+"note": "Advert says it suits a business analyst: requirements, reporting and assessing improvement ideas"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 20,
+"max": 25,
+"note": "Requirements, stakeholder work, dashboards and recommendations evidenced; Looker reporting is not on the CV"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 11,
+"max": 15,
+"note": "No years stated; asks for BA or junior PM experience, which the freelance BA work covers"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "No qualifications stated"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 3,
+"max": 10,
+"note": "No banking experience; advert calls it a bonus, not essential"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 8,
+"max": 10,
+"note": "Permanent role at a licensed Skilled Worker sponsor (A rating)"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Permanent role; Glassdoor says Manchester, Allica's own posting says Milton Keynes, hybrid"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "Just posted, not Easy Apply"
+}
+],
+"confidence": "high",
+"recommendation": "apply",
+"verdict": "Close match: a hybrid BA/reporting role that turns operations data into insight and assesses improvement ideas, which mirrors your BreakPoint and dashboard work; the main gap is Looker. Right to work: fine; permanent role at a licensed sponsor, so you'd leave in January 2028 unless they sponsor you.",
+"match_reasons": [
+"BreakPoint: you defined the problem, requirements and business rules and got it adopted, which is the 'idea to evidenced change' work this team does",
+"Power BI dashboards and KPI reporting for clients (Visionize) and the GDP Foundation match 'build trusted reporting'",
+"Gathered requirements and turned them into briefs and process maps at the GDP Foundation, bridging business and technical teams",
+"Presented BreakPoint to your team and walked them through it, which fits 'help colleagues become self-sufficient with data'"
+],
+"gaps": [
+"Permanent role: you'd leave in January 2028 unless they sponsor you; answer honestly if asked",
+"Needs a move: Glassdoor lists Manchester but Allica's own posting says Milton Keynes office (hybrid); check which and relocation costs against the salary",
+"Essential: experienced in building reports in Looker; your CV shows Power BI, not Looker",
+"Banking operations experience is a bonus you don't have; salary is a Glassdoor estimate only"
+],
+"jd_summary": "Allica Bank (SME fintech bank) Operational Excellence & Procedures team: build Looker reports for Operations, investigate operational questions, turn business needs into reporting/business/technical requirements, run the assessment of BAU improvement ideas and share them with Product teams. Suits a BA or junior PM. Hybrid, flexible working; permanent. Apply on the employer's site: https://jobs.ashbyhq.com/allica-bank/d91797af-8d3a-4b2b-81dd-2bd9234800c7",
+"jd_full": "About Allica Bank\nAllica is the UK's fastest growing company - and the fastest-growing financial technology (Fintech) firm ever. Our purpose is to help established SMEs, one of the last major underserved opportunities in Fintech.\nRole Description\nAs a member of Allica's Operational Excellence and Procedures team, you'll help Operations make better decisions and deliver better outcomes through data. You'll turn operational information into clear insight that helps teams understand performance, answer business questions and identify where to improve. You'll also help good improvement ideas become well evidenced opportunities for change, giving Product teams the information they need to assess and prioritise them.\nYou'll make a lasting difference by building trusted reporting and helping colleagues become more confident and self-sufficient with data. This role would suit a business analyst or junior project manager who enjoys connecting business needs with data and technology, and thrives in a fast-moving environment.\nPrincipal Accountabilities\n• Build and develop reports in Looker that give Operations reliable, relevant insight not just access to pre-built dashboards.\n• Investigate operational questions, uncover trends and explain what the data means, so teams can make informed decisions and take action.\n• Work with colleagues to understand business needs and translate them into clear reporting, business and technical requirements.\n• Manage the assessment process for BAU operational excellence ideas, helping quantify their potential value and impact.\n• Share clear, consistent assessments with Product teams to support informed prioritisation.\n• Help Operations colleagues interpret data, build their data literacy and answer more questions independently.\n• Identify opportunities to improve reporting, processes and the way operational information is used.\n• Stay focused and deliver useful outcomes as priorities shift and the business changes.\nPersonal Attributes & Experience\n• Highly data literate, with the curiosity to explore the detail, challenge assumptions and find meaningful answers in data.\n• Experienced in building reports with Looker.\n• A clear communicator who can make data understandable and useful for a range of audiences.\n• Able to gather requirements and bridge the needs of business stakeholders and technical teams.\n• A practical problem solver who can structure ambiguous questions and turn findings into recommendations.\n• Self-motivated and organised, with the judgement to manage competing priorities in a fast-paced, changing environment.\n• Collaborative and keen to help others become more confident and self-sufficient with data.\n• Banking operations experience is a bonus.\n• Experience as a business analyst, junior project manager or in a similar role connecting business requirements with technical delivery would be valuable.\nWorking at Allica Bank\n• Full onboarding support and continued development opportunities\n• Options for flexible working\n• Regular social activities\n• Pension contributions\n• Discretionary bonus scheme\n• Private health cover\n• Life assurance\n• Family friendly policies including enhanced Maternity & Paternity leave\nDon't tick every box?\nDon't worry if you don't have all the skills or requirements listed on the job description. If you think you'll be a good fit, we'd still love to hear from you!\nFlexible working\nAllica Bank is fully committed to flexible and hybrid working.",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "Allica Bank",
+"town": "London",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "range_crosses_new_entrant",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-24T13:30:33+00:00"
+},
+{
 "id": "gd-1010333265484",
 "source": "glassdoor",
 "title": "Data Analyst - 102589",
@@ -445,6 +558,119 @@
 "notes": "",
 "profile_basis": "master",
 "updated_at": "2026-11-24T08:31:09+00:00"
+},
+{
+"id": "gd-1010333507709",
+"source": "glassdoor",
+"title": "Data Product Solution Analyst",
+"company": "Bupa",
+"location": "Salford, North West England (also Staines / Leeds)",
+"salary": "£45k (Employer provided; from £44,900)",
+"salary_min": 44900,
+"salary_max": 44900,
+"posted_age": "18h",
+"first_seen": "2026-11-24",
+"email_date": "2026-11-24T13:22:00Z",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010333507709",
+"easy_apply": true,
+"fit_score": 70,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 20,
+"max": 20,
+"note": "Process analysis, future-state workflows and requirements for data products: a business/product analyst role"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 18,
+"max": 25,
+"note": "Process mapping, root cause, requirements, problem definition and adoption evidenced; workshops/facilitation and acceptance criteria can't be claimed"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 6,
+"max": 15,
+"note": "Essential: 2+ years improving operational processes; CV shows about 1.5 years of freelance BA plus volunteer work"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "No essential qualification; BA qualification only desirable"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 3,
+"max": 10,
+"note": "Care Services/healthcare desirable, not required; no sector link on the CV"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 8,
+"max": 10,
+"note": "Permanent role at a licensed Skilled Worker sponsor (A rating)"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Permanent role; Manchester, Staines or Leeds"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 4,
+"max": 5,
+"note": "Posted 18h ago; Easy Apply -1"
+}
+],
+"confidence": "high",
+"recommendation": "apply",
+"verdict": "Good match on the core of the job (finding the real problem, mapping current and future processes, designing for adoption), which is what BreakPoint shows; the stretch is the 2+ years and the workshop facilitation it expects. Right to work: fine; permanent role at a licensed sponsor, so you'd leave in January 2028 unless they sponsor you.",
+"match_reasons": [
+"BreakPoint: you defined the real problem (late break data), set requirements and business rules, and designed for adoption, which is exactly 'distinguish the underlying problem from the requested solution'",
+"Analysed current processes and root causes and produced process maps at the GDP Foundation",
+"Designed a before/after pilot for BreakPoint, matching 'measure adoption, usability or behavioural change'",
+"Power BI dashboards and KPI design (Visionize, GDP Foundation, M&S) cover the data-visualisation desirables"
+],
+"gaps": [
+"Permanent role: you'd leave in January 2028 unless they sponsor you; answer honestly if asked",
+"One vacancy advertised across several cities (Manchester, Staines, Leeds): national competition",
+"Needs a move: check relocation costs against the salary",
+"Essential: 2+ years improving operational processes, plus running workshops, observation and facilitated design sessions (your CV can't claim workshops or acceptance criteria)"
+],
+"jd_summary": "Bupa Care Services data product team: analyse how operational work and decisions happen today, map current and future-state processes, turn user needs into requirements, solution concepts and prototypes, and support adoption with Product Managers and tech leads. Permanent, full time, from £44,900; Manchester, Staines or Leeds, flexible working. Easy Apply on Glassdoor (no separate employer posting found).",
+"jd_full": "Data Product Solution Analyst\nPermanent - Full time\nManchester / Staines / Leeds\nSalary starting from 44,900.00 depending on experience\nThe Data Product Solution Analyst is responsible for analysing and improving the operational processes, workflows and decision-making journeys supported by the Care Services data product portfolio.\nWorking in partnership with Product Managers, Technical Leads, Analysts, Developers and multidisciplinary product squads, the role helps ensure that data products address genuine operational problems and enable colleagues to make informed decisions, complete important activities and take appropriate action. The role investigates how work is performed today, identifies pain points, inefficiencies and unmet needs, and helps design improved future-state processes and data-enabled solutions.\nReporting to the Senior Product Manager, the role supports product discovery, definition, delivery and continuous improvement by translating business needs, user insight and operational complexity into clear workflows, requirements and solution concepts.\nThe role does not define technical architecture but works closely with Product and Technical colleagues to ensure proposed solutions are valuable, usable, operationally viable and technically feasible.\nKey Responsibilities\nProcess Discovery and Analysis\n• Investigate how operational activities, decisions and workflows are currently performed across Care Services.\n• Engage colleagues and stakeholders to understand business needs, process variation, pain points, constraints and dependencies.\n• Map current-state processes, user journeys, decision points, information flows and system interactions.\n• Identify duplication, manual effort, process gaps, avoidable complexity and opportunities for improvement.\n• Distinguish underlying operational problems from requested reports, dashboards, features or solutions.\n• Use qualitative and quantitative data to establish a clear understanding of the problem, inform solution design and assess its operational impact.\nWorkflow and Future-state Process Design\n• Design clear and practical future-state processes, workflows and decision journeys.\n• Ensure proposed workflows consider roles, responsibilities, hand-offs, exceptions, controls and operational dependencies.\n• Validate future-state designs with affected users and stakeholders before detailed delivery begins.\nData Product and Solution Definition\n• Translate user needs, operational processes and business outcomes into clear product and solution requirements.\n• Develop process models, user flows, solution concepts, wireframes and prototypes where appropriate.\n• Contribute to the definition of acceptance criteria and expected user and process outcomes.\nUser and Stakeholder Research\n• Plan and conduct interviews, workshops, observation activities, process walkthroughs and collaborative discovery sessions.\n• Translate research and stakeholder input into structured findings and actionable recommendations.\nProduct Delivery, Adoption and Continuous Improvement\n• Work closely with Product Managers, Technical Leads, Delivery Leads, Developers and Analysts throughout the product lifecycle.\n• Identify how new or changed data products will affect existing processes, roles and ways of working, and recommend ways to reduce operational friction.\n• Monitor how products and workflows operate in practice using usage data, qualitative feedback and operational insight.\nQualifications, skills and experience\nEssential:\n• 2+ years' experience analysing and improving operational processes or service journeys, and translating business problems, user needs and data-informed insight into future-state workflows and decision-support tools.\n• Experience conducting user/stakeholder interviews, workshops, observation activities and process walkthroughs, and facilitating the design and validation of future-state processes.\n• Experience contributing to product or solution definition, including requirements, acceptance criteria and solution options.\n• Ability to distinguish underlying problems and user needs from stakeholder-requested solutions.\n• Ability to analyse complex information, identify patterns and translate findings into practical recommendations.\n• Strong stakeholder engagement, facilitation, communication and visual storytelling skills.\n• Experience working within a multidisciplinary product team using Agile or iterative delivery methodologies.\n• Ability to balance user needs, business outcomes, operational constraints and technical considerations.\nDesirable:\n• Experience across different forms of data product (monitoring, alerting, workflow, self-service analytics, performance management).\n• Experience within social care, healthcare or another regulated environment.\n• Understanding of data visualisation and dashboard design principles.\n• Service design, systems thinking, Lean, business analysis or process-improvement techniques.\n• Experience measuring process performance, adoption, usability or behavioural change.\n• Experience supporting operational change, implementation or adoption.\n• Familiarity with Power BI, Sigma or similar BI platforms.\n• Visio, Miro, Figma or equivalent; Confluence, Azure DevOps or equivalent.\n• Relevant qualification in business analysis, process design, service design or product development.\nBenefits\n• 25 days holiday, wellbeing programme, employee assistance programme, workplace pension, discounts. Flexible working supported.\nBupa is a Level 2 Disability Confident Employer.",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "Bupa",
+"town": "London",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "meets_general",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-24T13:30:33+00:00"
 },
 {
 "id": "gd-1010333529938",
@@ -1348,6 +1574,223 @@
 "notes": "",
 "profile_basis": "master",
 "updated_at": "2026-11-24T08:31:09+00:00"
+},
+{
+"id": "gd-1010331962505",
+"source": "glassdoor",
+"title": "NHS Reporting Analyst",
+"company": "CHEC",
+"location": "Preston (Fulwood), North West England",
+"salary": "",
+"salary_min": null,
+"salary_max": null,
+"posted_age": "3d",
+"first_seen": "2026-11-24",
+"email_date": "2026-11-24T13:22:00Z",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010331962505",
+"easy_apply": true,
+"fit_score": 30,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 12,
+"max": 20,
+"note": "Reporting/MI family, but this is a senior BI lead role (semantic models, Azure, mentoring)"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 8,
+"max": 25,
+"note": "Power BI and stakeholder work evidenced; expert DAX, PL-300, advanced SQL and Azure not on the CV"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 0,
+"max": 15,
+"note": "Asks for significant experience in a Senior BI role: experience gate caps the score at 30"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 2,
+"max": 10,
+"note": "PL-300 (or equivalent Microsoft certification) asked; CV has none"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 3,
+"max": 10,
+"note": "Healthcare not required; no sector link"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 3,
+"max": 10,
+"note": "Permanent role at an employer not on the sponsor register"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Permanent, on site in Preston"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 4,
+"max": 5,
+"note": "Posted 3 days ago is within window; Easy Apply -1"
+}
+],
+"confidence": "high",
+"recommendation": "skip",
+"verdict": "A senior Power BI lead role needing expert DAX, advanced SQL, Azure and a PL-300, well above your level. Right to work: permanent role at an employer that isn't a sponsor, so a time-limited visa may count against you.",
+"match_reasons": [
+"Power BI dashboards built for clients and the GDP Foundation",
+"KPI dashboards with data quality checks (GDP Foundation)"
+],
+"gaps": [
+"Permanent role at an employer that isn't a licensed sponsor: lower chance with a time-limited visa",
+"Needs a move: on site in Preston; salary not stated",
+"Senior level: significant Senior BI experience, mentoring analysts (experience gate)",
+"Essential: expert Power BI/DAX, PL-300, advanced SQL and Azure data tools, none evidenced (coding gate)"
+],
+"jd_summary": "CHEC (NHS-funded ophthalmology and gastroenterology provider) wants a senior reporting lead to own Power BI enterprise reporting, semantic models, governance and NHS statutory reporting, mentoring analysts. Permanent, 37.5 hours, on site at Fulwood, Preston; salary not stated. Easy Apply on Glassdoor; DBS check may apply.",
+"jd_full": "Job Title: NHS Reporting Analyst\nLocation: Fulwood, Preston\nContract Type: Permanent, 37.5 hours a week\nAs we continue to grow, we're looking for a talented NHS Reporting Analyst to lead the delivery of business intelligence solutions that drive data-led decision-making, improve patient outcomes, and support operational excellence across the organisation.\nThis is an exciting opportunity for an experienced BI professional who is passionate about data, enjoys influencing stakeholders at all levels, and wants to play a key role in shaping and maturing our reporting and analytics capability.\nAs our NHS Reporting Analyst, you'll play a pivotal role within the Data Team, leading the design, development and optimisation of enterprise reporting solutions using Power BI and modern Microsoft data technologies.\nWe are looking for someone who can:\n• Lead the design, development and continual enhancement of Power BI dashboards, reports and executive-level analytics solutions.\n• Act as the senior reporting specialist, providing expert guidance on reporting strategy, visualisation standards and best practices.\n• Partner with senior stakeholders to translate complex requirements into scalable reporting solutions.\n• Develop and maintain enterprise semantic models.\n• Analyse complex datasets to identify trends, risks and opportunities.\n• Drive the development of a self-service analytics culture.\n• Lead reporting governance activities.\n• Support the optimisation of Power BI environments, including performance tuning, capacity management and refresh strategies.\n• Collaborate with Data Engineers and Architects.\n• Provide mentorship and technical support to analysts.\n• Lead improvements to NHS statutory and operational reporting processes.\n• Identify opportunities to automate reporting.\nWhat you'll bring to the role:\n• Significant experience in a Senior BI, Reporting Analyst or Analytics role.\n• Expert-level Power BI knowledge, including advanced DAX, data modelling, performance optimisation and report design.\n• PL-300 certification (or equivalent Microsoft certification), with further Microsoft data certifications desirable.\n• Strong experience designing and managing enterprise semantic models and reporting frameworks.\n• Advanced SQL skills for analysis, data validation and performance optimisation.\n• Experience presenting insights and recommendations to senior leadership and executive audiences.\n• Strong understanding of data governance, reporting standards and data quality management.\n• Experience working with Azure data technologies (Data Factory, Synapse, Fabric or similar).\n• Proven experience leading complex reporting projects from requirements gathering through to delivery and adoption.\n• Excellent stakeholder management and communication skills.\nWhy work for us?\n• 25 days holidays plus bank holidays, pension, sick pay, life assurance, gym membership, cycle to work, free parking, private medical insurance.\nAbout CHEC\nSince 2012, CHEC has been working with the NHS to provide locally-based ophthalmology and gastroenterology care. Recruitment checks follow NHS Employment Check Standards; an Enhanced DBS may be required.\nWork Location: In person",
+"sponsor_register": "not_found",
+"sponsor_match": {},
+"jd_sponsorship": "silent",
+"salary_check": "unknown",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-24T13:30:33+00:00"
+},
+{
+"id": "gd-1010334141878",
+"source": "glassdoor",
+"title": "Business Analyst (E-commerce) - Leeds",
+"company": "FDM Group",
+"location": "Leeds, England (hybrid, 1-2 days a week)",
+"salary": "£25k - £31k (Glassdoor Est.)",
+"salary_min": 25000,
+"salary_max": 31000,
+"posted_age": "Just posted",
+"first_seen": "2026-11-24",
+"email_date": "2026-11-24T13:22:00Z",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010334141878",
+"easy_apply": false,
+"fit_score": 30,
+"score_breakdown": [
+{
+"key": "role_match",
+"label": "Role match",
+"score": 20,
+"max": 20,
+"note": "Business analyst discovery: current-state analysis, process and data flow mapping"
+},
+{
+"key": "skills",
+"label": "Skills & tools",
+"score": 18,
+"max": 25,
+"note": "Process mapping, current-state analysis and stakeholder work evidenced; mid-level BA experience is not"
+},
+{
+"key": "experience",
+"label": "Experience level",
+"score": 0,
+"max": 15,
+"note": "Minimum of 6 years' experience, mid-level BA: experience gate caps the score at 30"
+},
+{
+"key": "qualifications",
+"label": "Qualifications",
+"score": 8,
+"max": 10,
+"note": "No qualifications stated"
+},
+{
+"key": "domain",
+"label": "Industry fit",
+"score": 6,
+"max": 10,
+"note": "Retail client; you worked in M&S food retail, not e-commerce"
+},
+{
+"key": "visa",
+"label": "Right to work & sponsor",
+"score": 10,
+"max": 10,
+"note": "3-month contract, ends well before January 2028"
+},
+{
+"key": "practical",
+"label": "Location & terms",
+"score": 3,
+"max": 5,
+"note": "Fixed-term contract shorter than 6 months"
+},
+{
+"key": "odds",
+"label": "Chance of hearing back",
+"score": 5,
+"max": 5,
+"note": "Just posted, not Easy Apply, contract +1"
+}
+],
+"confidence": "high",
+"recommendation": "skip",
+"verdict": "The work (current-state discovery and process mapping) suits you, but FDM asks for a mid-level BA with at least 6 years' experience for a 3-month client contract. Right to work: fine; a 3-month contract ends long before January 2028.",
+"match_reasons": [
+"Analysed current processes and produced process maps at the GDP Foundation",
+"Set up a client's data pipeline and GA4 web tracking (Visionize), showing how websites, systems and data connect"
+],
+"gaps": [
+"Essential: minimum 6 years' experience as a mid-level BA (experience gate)",
+"Only a 3-month contract (may extend), placed with an FDM client",
+"Needs a move or commute: 1-2 days a week in Leeds",
+"Cyber security awareness and e-commerce experience are advantages you don't show"
+],
+"jd_summary": "FDM Group consultancy placing an e-commerce BA with a retail client: discovery of 30+ websites set up outside central IT, documenting owners, systems, integrations, data and cyber risks, and giving analysis for next steps. 3-month contract with possible extension, hybrid, 1-2 days a week in Leeds. Needs 6+ years. Apply via Glassdoor 'Apply on employer site'.",
+"jd_full": "About The Role\nFDM is a global business and technology consultancy seeking an eCommerce Business Analyst to work for our client within the Retail sector. This is initially a 3-month contract with the potential to extend and will be a hybrid role that will be based in Leeds.\nOur client is seeking a Business Analyst for an eCommerce discovery piece of work. The client has more than 30 websites that were set up outside its central technology function, and these pose a cyber risk among other concerns. The Business Analyst will establish the current (as-is) state of these sites so that the client can decide on next steps. The role involves 1-2 days a week in Leeds.\nResponsibilities:\n• Carry out discovery of the current (as-is) state of more than 30 websites set up outside the central technology function\n• Identify and document what each site does, who owns it, and the systems, integrations and data it relies on\n• Surface risks early, including cyber risks, along with dependencies between the sites and other systems\n• Work with stakeholders across the business and technology to build a verified view of the current state, separating evidence from assumptions\n• Provide clear analysis to support decisions on next steps for each site\nAbout You\n• Experience as a mid-level Business Analyst, including discovery or current-state analysis\n• A self-starter, able to work with little direction and deliver to a short timescale\n• Strong process mapping and documentation skills (e.g. process flow diagrams, data flow diagrams)\n• Working knowledge of how websites, systems, integrations and data connect\n• Strong stakeholder management and communication skills\n• Awareness of cyber security risk would be an advantage\n• Experience in ecommerce or retail would be an advantage\n• Minimum of 6 years' experience.\nAbout Us\nFDM is a global leader in tech and business talent solutions with over 35 years of industry experience.\nWhy join us\n• Career coaching, mentoring and upskilling; annual leave and workplace pension",
+"sponsor_register": "licensed",
+"sponsor_match": {
+"name": "FDM Group Limited",
+"town": "Brighton",
+"rating": "Worker (A rating)",
+"route": "Skilled Worker"
+},
+"jd_sponsorship": "silent",
+"salary_check": "below_threshold",
+"recruiter": false,
+"decision": "pending",
+"decided_at": "",
+"status": "new",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-24T13:30:33+00:00"
 },
 {
 "id": "gd-1010333460174",
@@ -2660,6 +3103,88 @@
 "notes": "",
 "profile_basis": "master",
 "updated_at": "2026-11-24T08:31:09+00:00"
+},
+{
+"id": "gd-1010332052620",
+"source": "glassdoor",
+"title": "Business services – IT Tier 1 Analyst, Leeds",
+"company": "Addleshaw Goddard",
+"location": "Leeds, England",
+"salary": "£24k - £27k (Glassdoor Est.)",
+"salary_min": 24000,
+"salary_max": 27000,
+"posted_age": "3d",
+"first_seen": "2026-11-24",
+"email_date": "2026-11-24T13:22:00Z",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010332052620",
+"easy_apply": false,
+"fit_score": null,
+"score_breakdown": [],
+"confidence": "",
+"recommendation": "skip",
+"verdict": "Outside your target roles: first-line IT service desk support, not business analysis",
+"match_reasons": [],
+"gaps": [],
+"jd_summary": "",
+"jd_full": "",
+"sponsor_register": "licensed",
+"sponsor_match": "",
+"jd_sponsorship": "",
+"salary_check": "below_threshold",
+"recruiter": false,
+"decision": "skipped",
+"decided_at": "",
+"status": "skipped",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-24T13:30:33+00:00",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-24T13:30:33+00:00"
+},
+{
+"id": "gd-1010333345250",
+"source": "glassdoor",
+"title": "Transfer Operations Analyst",
+"company": "Robert Walters Outsourcing (for Vanguard)",
+"location": "Manchester, England",
+"salary": "",
+"salary_min": null,
+"salary_max": null,
+"posted_age": "24h",
+"first_seen": "2026-11-24",
+"email_date": "",
+"url": "https://www.glassdoor.co.uk/job-listing/j?jl=1010333345250",
+"easy_apply": false,
+"fit_score": null,
+"score_breakdown": [],
+"confidence": "",
+"recommendation": "skip",
+"verdict": "Outside your target roles: pension transfer case handling that needs SIPP, DB pension and ISA transfer experience",
+"match_reasons": [],
+"gaps": [],
+"jd_summary": "",
+"jd_full": "",
+"sponsor_register": "",
+"sponsor_match": "",
+"jd_sponsorship": "",
+"salary_check": "unknown",
+"recruiter": true,
+"decision": "skipped",
+"decided_at": "",
+"status": "skipped",
+"cv_file": "",
+"cv_url": "",
+"cv_emailed_at": "",
+"applied_at": "",
+"status_updated_at": "2026-11-24T13:30:33+00:00",
+"last_email": "",
+"notes": "",
+"profile_basis": "master",
+"updated_at": "2026-11-24T13:30:33+00:00"
 },
 {
 "id": "gd-1010333282677",
