@@ -11759,18 +11759,18 @@
 "jd_sponsorship": "silent",
 "salary_check": "unknown",
 "recruiter": false,
-"decision": "pending",
-"decided_at": "",
-"status": "new",
+"decision": "skipped",
+"decided_at": "2026-11-25T22:03:46+00:00",
+"status": "skipped",
 "cv_file": "",
 "cv_url": "",
 "cv_emailed_at": "",
 "applied_at": "",
-"status_updated_at": "2026-11-23T18:29:26+00:00",
+"status_updated_at": "2026-11-25T22:03:46+00:00",
 "last_email": "",
 "notes": "",
 "profile_basis": "master",
-"updated_at": "2026-11-23T18:29:26+00:00"
+"updated_at": "2026-11-25T22:03:46+00:00"
 },
 {
 "id": "gd-1010333215552",
