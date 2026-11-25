@@ -1,4 +1,55 @@
 id,source,title,company,location,salary,salary_min,salary_max,posted_age,first_seen,email_date,url,easy_apply,fit_score,score_breakdown,confidence,recommendation,verdict,match_reasons,gaps,jd_summary,jd_full,sponsor_register,sponsor_match,jd_sponsorship,salary_check,recruiter,decision,decided_at,status,cv_file,cv_url,cv_emailed_at,applied_at,status_updated_at,last_email,notes,profile_basis,updated_at
+gd-1010333283142,glassdoor,Data Analyst | 12 Month Fixed Term Contract,Howdens Joinery,"Normanton, Yorkshire and the Humber, England",£30k - £33k (Glassdoor Est.),30000,33000,24h,2026-11-25,,https://www.glassdoor.co.uk/job-listing/j?jl=1010333283142,no,89,"[{""key"": ""role_match"", ""label"": ""Role match"", ""score"": 18, ""max"": 20, ""note"": ""Reporting/MI analyst on operational and customer data: a target role""}, {""key"": ""skills"", ""label"": ""Skills & tools"", ""score"": 20, ""max"": 25, ""note"": ""Evidenced: Power BI, KPI design, data validation, Excel, stakeholders; Power Query skills-list only; no SAP""}, {""key"": ""experience"", ""label"": ""Experience level"", ""score"": 15, ""max"": 15, ""note"": ""Relevant analytical experience OR a Level 4+ qualification: MSc covers it""}, {""key"": ""qualifications"", ""label"": ""Qualifications"", ""score"": 10, ""max"": 10, ""note"": ""MSc Business Analytics exceeds Level 4""}, {""key"": ""domain"", ""label"": ""Industry fit"", ""score"": 6, ""max"": 10, ""note"": ""Retail/trade: related to your M&S retail work""}, {""key"": ""visa"", ""label"": ""Right to work & sponsor"", ""score"": 10, ""max"": 10, ""note"": ""12-month maternity cover: fits if it starts by January 2027""}, {""key"": ""practical"", ""label"": ""Location & terms"", ""score"": 5, ""max"": 5, ""note"": ""12-month fixed-term contract""}, {""key"": ""odds"", ""label"": ""Chance of hearing back"", ""score"": 5, ""max"": 5, ""note"": ""Fresh, not Easy Apply, FTC bonus""}]",high,apply,"A 12-month maternity-cover data analyst at Howdens' Normanton office, building KPIs, Power BI reports and management reporting from operational and customer data. It lines up closely with your dashboard, KPI and data-quality work. Right to work: fine; a 12-month contract fits if it starts by January 2027 (the advert says no sponsorship, which you don't need).","Built Power BI dashboards and reports of client data at Visionize | Built KPI dashboards with accuracy and consistency checks at GDP Foundation | Excel pivot tables and lookups, Power Query | MSc Business Analytics (Distinction) meets the Level 4+ qualification route","Salary not stated (Glassdoor estimate £30-33k) | Needs a move: Normanton, West Yorkshire, likely on site; check relocation costs against the salary | Contract runs past January 2028 if it starts after January 2027: ask about the start date | SAP not in your CV","12-month maternity-cover FTC at Howdens, Normanton (West Yorkshire), competitive salary (unstated), free lunch and parking. Build KPIs and Power BI/Excel management reports, validate data, interpret operational and customer data and explain it to non-technical colleagues. Essential: advanced Excel, Power Query, Power BI, SAP. No sponsorship offered (you don't need it). Apply via Glassdoor (Howdens careers).","Data Analyst | 12 Month Fixed Term Contract - Howdens Joinery - Normanton
+
+We're looking for a Data Analyst to join our Customer Service & Planning team on a 12-month fixed term contract. This is an exciting opportunity to transform operational and customer data into meaningful insight that improves service delivery, customer experience and business performance.
+
+Reporting to the Head of Customer Services & Planning, you'll work closely with teams across the business and senior stakeholders to provide trusted reporting, performance analysis and actionable recommendations that drive continuous improvement.
+
+Location: Normanton, West Yorkshire
+Contract Type: 12 Month Fixed Term Contract (Maternity Cover)
+Hiring Manager: Head of Customer Services and Planning
+
+What will I be doing?
+• Develop and maintain dashboards, reports and KPIs that provide visibility of operational, service and customer performance.
+• Analyse customer and operational data to identify trends, issues and opportunities for improvement.
+• Translate complex data into clear insights and recommendations for stakeholders.
+• Combine, cleanse and validate data from multiple sources to ensure reporting accuracy.
+• Identify data quality issues and support improvements at source.
+• Automate reporting and data preparation processes to improve efficiency.
+• Produce regular and ad-hoc performance reporting for leadership teams.
+• Support forecasting, resource planning and workload management through trend analysis.
+• Partner with operational teams to investigate root causes and measure improvement initiatives.
+• Maintain governance and documentation relating to data sources and reporting processes.
+
+What are we looking for?
+• Relevant analytical experience or a Level 4+ qualification in Data Analysis, Business Analysis, Mathematics, Statistics, Economics, Computing or a related field.
+• Strong analytical skills, with experience interpreting operational or customer data and turning insights into practical recommendations.
+• Advanced Excel skills, including pivot tables, lookups and data validation.
+• Experience using Power Query, Power BI and SAP to analyse, validate and report on operational and customer data.
+• Experience developing KPIs, validating data and producing accurate management reporting.
+• Strong communication skills, with the ability to explain complex data to non-technical stakeholders and influence decisions through insight.
+• Organised, proactive and results-focused, with the ability to manage multiple priorities and deliver continuous improvement.
+
+What can we offer you
+• Competitive Salary
+• Pension Plan with a maximum company contribution of 12%
+• 25 days holiday + bank holidays with an opportunity to purchase additional days
+• Staff discount
+• Ongoing support and development
+• Free lunch at our on-site canteen
+• Free on-site parking
+• Friendly and supportive environment offering exceptional reward and recognition
+
+How to apply
+If you're ready to lead impactful projects and drive meaningful change, we encourage you to apply today. If you need us to make any adjustments to our recruitment process, please email the Howdens recruitment team with the job title and location.
+
+About Howdens
+Howdens Joinery is a highly successful FTSE 100 business, with more than 900 depots nationwide and more than 11,000 staff. There is a strong entrepreneurial ethos and the opportunity to develop within a fast-paced and commercial environment.
+
+Please note that candidates applying for this role must have a valid right to work in the UK, we do not offer sponsorship of employment for any depot positions at this time. We appreciate your understanding.
+
+Pay (Glassdoor estimate, not employer provided): £30k - £33k/yr
+",possible,"{""name"": ""HOWDEN JOINERY LIMITED"", ""town"": ""LONDON"", ""rating"": ""Worker (A rating)"", ""route"": ""Skilled Worker""}",no_sponsorship,below_threshold,no,pending,,new,,,,,,,,master,2026-11-25T08:34:15+00:00
 gd-1010334360157,glassdoor,Smart Metering Asset Analyst - 12 month FTC,Affinity Water,"Hatfield, East of England, England",£33k - £41k (Employer Est.),33000,41000,Just posted,2026-11-25,2026-11-24T20:51:35Z,https://www.glassdoor.co.uk/job-listing/j?jl=1010334360157,no,82,"[{""key"": ""role_match"", ""label"": ""Role match"", ""score"": 18, ""max"": 20, ""note"": ""Data quality and reporting analyst on a programme: close to a target role""}, {""key"": ""skills"", ""label"": ""Skills & tools"", ""score"": 22, ""max"": 25, ""note"": ""Evidenced: reporting, data checks, multi-source data, Excel lookups/pivots, stakeholders; no Qlik/GIS/Maximo""}, {""key"": ""experience"", ""label"": ""Experience level"", ""score"": 11, ""max"": 15, ""note"": ""Asks for experience with data/reporting, no years stated; CV shows dashboards and quality checks""}, {""key"": ""qualifications"", ""label"": ""Qualifications"", ""score"": 8, ""max"": 10, ""note"": ""No qualifications stated""}, {""key"": ""domain"", ""label"": ""Industry fit"", ""score"": 3, ""max"": 10, ""note"": ""No water/utilities link; not asked for""}, {""key"": ""visa"", ""label"": ""Right to work & sponsor"", ""score"": 10, ""max"": 10, ""note"": ""12-month FTC: fits if it starts by January 2027""}, {""key"": ""practical"", ""label"": ""Location & terms"", ""score"": 5, ""max"": 5, ""note"": ""12-month fixed-term contract""}, {""key"": ""odds"", ""label"": ""Chance of hearing back"", ""score"": 5, ""max"": 5, ""note"": ""Fresh, not Easy Apply, FTC bonus""}]",high,apply,"A 12-month data quality and reporting role on Affinity Water's smart meter programme, checking installation data, producing reports and supporting planning with delivery partners. It matches your dashboard, data-cleaning and quality-check work closely. Right to work: fine; a 12-month contract fits if it starts by January 2027 (Affinity Water is also a licensed sponsor).","KPI dashboards with quality checks for accuracy and consistency at GDP Foundation | Brought together and cleaned data from several sources for a Visionize client | Power BI and Excel reporting (pivot tables, lookups) for clients | Backlog refinement in iterative delivery (Agile is desirable)","Contract runs past January 2028 if it starts after January 2027: ask about the start date | Needs a move: Hatfield (hybrid), check relocation costs against the salary | Asks for advanced Excel incl. data validation; CV shows pivots and lookups | No Qlik Sense, GIS, Maximo or Hi-Affinity experience (desirable)","12-month FTC on the Smart Metering Programme, hybrid from Hatfield, £33,400-£41,000 plus bonus. Maintain and check smart meter installation data, produce programme reports from Qlik Sense/GIS/Maximo, resolve data issues with delivery partners, support installation planning and task orders. Essential: data/reporting experience, advanced Excel. Apply on the employer's site: https://www.affinitywatercareers.co.uk/jobs/8780790-smart-metering-asset-analyst-12-month-ftc","We're looking for a Smart Metering Asset Analyst to join our Smart Metering Programme team on a 12-month fixed-term contract, supporting the quality, governance and effective use of data across the programme and Affinity Water.
 As part of our Smart Metering Programme, you'll play an important role in ensuring the information behind our smart meter installations is accurate, complete and reliable. Working closely with colleagues across the business and our delivery partners, you'll help maintain high standards of data quality, support programme reporting and provide confidence in the information used for operational decision-making, performance monitoring and regulatory audits.
 This is a varied role combining data analysis, reporting and programme coordination. You'll bring together information from systems such as Qlik Sense, GIS, Maximo and Hi-Affinity to produce meaningful insights, identify and resolve data issues, support installation planning and assist with the management of delivery partner task orders.
@@ -67,6 +118,134 @@ ESSENTIAL CRITERIA
 
 Benefits
 • Performance based annual bonus, 25 days leave rising to 27, pension up to 10.5%, private medical insurance, share plans, volunteering days.",licensed,"{""name"": ""Land Securities Properties Ltd"", ""town"": ""London"", ""rating"": ""Worker (A rating)"", ""route"": ""Skilled Worker""}",silent,range_crosses_general,no,pending,,new,,,,,,,,master,2026-11-25T08:24:46+00:00
+gd-1010334080190,glassdoor,Systems & Procurement Data Analyst (Belfast Full-Time),Beggs & Partners,"Belfast, Northern Ireland",£27k - £48k (Glassdoor Est.),27000,48000,24h,2026-11-25,,https://www.glassdoor.co.uk/job-listing/j?jl=1010334080190,yes,77,"[{""key"": ""role_match"", ""label"": ""Role match"", ""score"": 16, ""max"": 20, ""note"": ""Entry-level data analyst on sales, stock and procurement data""}, {""key"": ""skills"", ""label"": ""Skills & tools"", ""score"": 22, ""max"": 25, ""note"": ""Evidenced: Excel, numeracy, detail, communication, organisation, Power BI; retail stock partly""}, {""key"": ""experience"", ""label"": ""Experience level"", ""score"": 15, ""max"": 15, ""note"": ""Advert says entry level""}, {""key"": ""qualifications"", ""label"": ""Qualifications"", ""score"": 8, ""max"": 10, ""note"": ""No qualifications stated""}, {""key"": ""domain"", ""label"": ""Industry fit"", ""score"": 6, ""max"": 10, ""note"": ""Retail/trade distribution: related to M&S replenishment work""}, {""key"": ""visa"", ""label"": ""Right to work & sponsor"", ""score"": 3, ""max"": 10, ""note"": ""Permanent role at an employer not on the sponsor register""}, {""key"": ""practical"", ""label"": ""Location & terms"", ""score"": 3, ""max"": 5, ""note"": ""Permanent, on site in Belfast""}, {""key"": ""odds"", ""label"": ""Chance of hearing back"", ""score"": 4, ""max"": 5, ""note"": ""Easy Apply""}]",high,apply,"An entry-level data analyst for a Belfast plumbing and heating merchant, cleaning and reporting sales, stock and procurement data in Excel and Power BI. Skills fit well; the catch is a move to Belfast and an unstated salary. Right to work: permanent role at an employer that isn't a sponsor, so a time-limited visa may count against you.","Excel pivot tables, lookups and Power BI dashboards | Cleaned and combined data from several sources for a Visionize client | Retail experience at M&S (replenishment and deliveries) | KPI dashboards with data quality checks at GDP Foundation","Permanent role at an employer that isn't a licensed sponsor: lower chance with a time-limited visa | Salary not stated (Glassdoor estimate £27-48k) | Needs a move: Belfast, full-time in person | Prefers 1 year in retail/trade/distribution","Permanent, full-time, in person in Belfast; salary 'competitive' (unstated). Collect, clean and organise sales, stock and supplier data, maintain systems, produce Excel/Power BI reports for buying and procurement. Entry level: numeracy, Excel, attention to detail. Apply via Glassdoor Easy Apply (Indeed-sourced).","Systems & Procurement Data Analyst (Belfast Full Time - in person) - Beggs & Partners
+
+About Us
+We are a leading plumbers' merchant supplying trade and retail customers with quality plumbing, heating, and bathroom products. With a growing branch network presence, focused on providing excellent service while using data to make smarter decisions.
+
+Role Overview
+As a Systems & Procurement Data Analyst, you will support the business in gathering, analysing, and reporting on data to help improve sales, stock management, and customer service. This is an entry-level role ideal for someone with strong numeracy skills, an eye for detail, and an interest in data-driven decision-making.
+
+Key Responsibilities
+• Collect, clean, and organise sales, stock, and customer data from internal systems.
+• Collate and review supplier rebate and claimback arrangements, ensuring amounts expected are received and any differences are understood and resolved.
+• Produce regular reports for branch managers, sales teams, and senior management (e.g. sales by product line, slow-moving stock, margin analysis).
+• Support pricing and promotions analysis to ensure competitiveness and profitability.
+• Assist in forecasting demand to help optimise stock levels.
+• Monitor and report on key performance indicators (KPIs) across branches.
+• Work with commercial and operations teams to identify trends and opportunities for improvement.
+• Maintain data accuracy and ensure reporting is consistent across the business.
+• Support ad-hoc analysis projects (e.g. branch performance, supplier negotiations).
+
+Skills and Experience - Essential
+• Strong numeracy and analytical skills.
+• Proficient in Microsoft Excel (pivot tables, lookups, charts).
+• Good attention to detail and accuracy.
+• Strong communication skills to explain findings clearly to non-technical colleagues.
+• Organised, with the ability to manage multiple tasks and deadlines.
+
+Desirable
+• Experience with Microsoft Power BI.
+• Previous experience in a retail, trade, or distribution business.
+• Understanding of stock management and sales processes.
+
+What We Offer
+• Competitive salary.
+• Training and development opportunities (including data analysis tools).
+• Career progression within the commercial or data teams.
+• Staff discount on products.
+• Supportive and collaborative working environment.
+
+Job Types: Full-time, Permanent
+Benefits: Company pension, Life insurance
+Ability to commute/relocate: Belfast, County Antrim: reliably commute or plan to relocate before starting work (preferred)
+Experience: retail, trade or distribution business: 1 year (preferred)
+Work Location: In person
+
+Pay (Glassdoor estimate, not employer provided): £27k - £48k/yr
+",not_found,,silent,range_crosses_general,no,pending,,new,,,,,,,,master,2026-11-25T08:34:15+00:00
+gd-1010333487804,glassdoor,Analyst - Operational Reporting,National Housing Bank,"Birmingham, Leeds or Liverpool",£36k - £42k (Employer Est.),36000,42000,24h,2026-11-25,,https://www.glassdoor.co.uk/job-listing/j?jl=1010333487804,no,71,"[{""key"": ""role_match"", ""label"": ""Role match"", ""score"": 18, ""max"": 20, ""note"": ""Operational reporting / MI analyst: a target role""}, {""key"": ""skills"", ""label"": ""Skills & tools"", ""score"": 20, ""max"": 25, ""note"": ""Evidenced: dashboards, MI, stakeholder service; no funding-programme experience""}, {""key"": ""experience"", ""label"": ""Experience level"", ""score"": 11, ""max"": 15, ""note"": ""Asks for demonstrable operational reporting experience, no years""}, {""key"": ""qualifications"", ""label"": ""Qualifications"", ""score"": 8, ""max"": 10, ""note"": ""No qualifications stated""}, {""key"": ""domain"", ""label"": ""Industry fit"", ""score"": 3, ""max"": 10, ""note"": ""New government-backed housing finance bank; no sector link""}, {""key"": ""visa"", ""label"": ""Right to work & sponsor"", ""score"": 3, ""max"": 10, ""note"": ""Employer not found on the sponsor register; contract type not stated""}, {""key"": ""practical"", ""label"": ""Location & terms"", ""score"": 3, ""max"": 5, ""note"": ""Birmingham, Leeds or Liverpool""}, {""key"": ""odds"", ""label"": ""Chance of hearing back"", ""score"": 5, ""max"": 5, ""note"": ""Fresh, employer site""}]",medium,apply,"An operational reporting analyst at the new government-backed National Housing Bank (part of Homes England), building dashboards and MI for its funding programmes. A good reporting fit, but the advert is short and the Civil Service Jobs listing closes today. Right to work: permanent role at an employer that isn't on the sponsor register, so a time-limited visa may count against you.",Built KPI dashboards and monitoring at GDP Foundation | Power BI dashboards and reports for Visionize clients | Worked with teams across an organisation to gather requirements,"Closes 25 Nov 2026 (today) on Civil Service Jobs: apply now if interested | Permanent role at an employer that isn't a licensed sponsor: lower chance with a time-limited visa | Needs a move: Birmingham, Leeds or Liverpool (priority near Leeds) | No funding-programme or financial services experience; short advert","Homes England / National Housing Bank, £36-42k, based Birmingham, Leeds or Liverpool (Leeds preferred). Operational reporting, dashboards and MI for funding programmes, serving stakeholders across the bank. Interviews w/c 14 and 21 Dec 2026. Apply on the employer's site: https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2022524","Analyst - Operational Reporting - National Housing Bank
+
+Interviews will take place week commencing 14th and 21st December 2026.
+
+Location: As we are headquartered in Leeds our preference is to appoint to this location and priority will be given to applicants based within commuting distance of the Leeds office.
+
+Help build the National Housing Bank
+The National Housing Bank (NHB) is a new government-backed financial institution, operating as a subsidiary of Homes England, established to unlock investment and accelerate housing delivery across England.
+
+We're looking for an analyst to support the delivery of the day-to-day reporting needs of the National Housing Bank, one of the UK's most significant housing finance platforms.
+
+Within a newly established Operational Reporting team, you'll support in the production of meaningful reporting, dashboards and MI for NHB delivery teams, empowering colleagues to better understand their delivery and take resulting action where needed.
+
+About You
+You'll bring demonstratable experience in operational reporting, ideally with funding programme experience within the public or private sector.
+
+Working for a team that aims to deliver first class customer service to our NHB stakeholders, you will be used to working collaboratively across a wide range of colleagues and always looking for ways to improve.
+
+Most importantly, you'll be excited by the opportunity to help build something new.
+
+Why Join?
+Backed by £16bn of new financial capacity, alongside £6bn already committed this Parliament, the National Housing Bank represents one of the most significant housing and regeneration interventions in a generation.
+
+This is a rare chance to help support the future of the wider Investment Operations function in a fast growing, national institution with real social purpose.
+
+Other National Housing Bank Opportunities
+These roles form part of wider recruitment within the NHB's Investment Operations team. Candidates may wish to explore the wider opportunities available and are welcome to apply for more than one role where appropriate.
+
+Pay (employer provided): £36k - £42k/yr
+Glassdoor location: Birmingham, England (advert prefers Leeds)
+",not_found,,silent,range_crosses_general,no,pending,,new,,,,,,,,master,2026-11-25T08:34:15+00:00
+gd-1010334502206,glassdoor,Business Analyst - UK/I,Intuitive,"Reading, England",£37k - £50k (Glassdoor Est.),37000,50000,24h,2026-11-25,,https://www.glassdoor.co.uk/job-listing/j?jl=1010334502206,no,68,"[{""key"": ""role_match"", ""label"": ""Role match"", ""score"": 12, ""max"": 20, ""note"": ""Commercial/FP&A business analyst (territories, quotas, forecasting), not process BA""}, {""key"": ""skills"", ""label"": ""Skills & tools"", ""score"": 16, ""max"": 25, ""note"": ""Evidenced: business degree, strategic insight, some financial modelling (EV project); no Tableau/Salesforce/Anaplan""}, {""key"": ""experience"", ""label"": ""Experience level"", ""score"": 11, ""max"": 15, ""note"": ""Asks for 1-3 years in business analytics or FP&A""}, {""key"": ""qualifications"", ""label"": ""Qualifications"", ""score"": 10, ""max"": 10, ""note"": ""Bachelor's met; Master's (desirable) held""}, {""key"": ""domain"", ""label"": ""Industry fit"", ""score"": 3, ""max"": 10, ""note"": ""No medical devices link; desirable only""}, {""key"": ""visa"", ""label"": ""Right to work & sponsor"", ""score"": 8, ""max"": 10, ""note"": ""Permanent role at a licensed sponsor (Intuitive Surgical Limited)""}, {""key"": ""practical"", ""label"": ""Location & terms"", ""score"": 3, ""max"": 5, ""note"": ""Permanent, on site in Reading""}, {""key"": ""odds"", ""label"": ""Chance of hearing back"", ""score"": 5, ""max"": 5, ""note"": ""Fresh, employer site""}]",high,maybe,"A commercial business analyst for Intuitive's UK and Ireland surgical robotics business: territory design, quota setting and P&L forecasting in Excel. Your MSc and financial modelling project help, but it leans towards finance more than process analysis. Right to work: fine; permanent role at a licensed sponsor.","MSc Business Analytics (Distinction): Master's is desirable | EV market strategy project with CAPEX, ROI and financial modelling | Pricing and cost analysis for Visionize clients","Permanent role: you'd leave in January 2028 unless they sponsor you; answer honestly if asked | Needs a move: Reading, on site | 1-3 years in business analytics or FP&A asked | Advanced financial modelling; Tableau, Salesforce, Anaplan not in CV","Permanent, on site in Reading; salary not stated (Glassdoor est. £37-50k). Commercial analytics for UK/I: territory design, quota setting, P&L and forecasting, insight for senior leaders. 1-3 years' business analytics/FP&A, advanced Excel and financial modelling. Note US export-control checks for some nationalities. Apply on Intuitive's careers site (ref JOB221904).","Business Analyst - UK/I - Intuitive - Reading
+
+• Reading, United Kingdom
+• Not Remote
+• Finance and Accounting
+• JOB221904
+
+Company Description
+At Intuitive, we are united behind our mission: we believe that minimally invasive care is life-enhancing care. As a pioneer and market leader in robotic-assisted surgery (da Vinci), for more than 25 years we have worked with hospitals and care teams around the world.
+
+Job Description
+Position Objective and Summary
+The Business Analyst is responsible for providing best in class analytical support to the regional leadership team of UK and Ireland. This individual works closely with our local commercial leadership team analysing complex business problems and providing strategic, data-driven guidance to decision makers.
+
+This individual drives initiatives in support of the execution of the sales and financial strategy across the UK and Ireland region and provides data-driven recommendations to support internal strategic planning, commercial strategy, territory design, quota allocation and more.
+
+This is a highly analytical role involving the manipulation of large data sets, a keen understanding of sales concepts, financial planning frameworks and the ability to communicate and develop meaningful work relationships with multiple executive business partners.
+
+Roles and Responsibilities
+• Develop and maintain strong business partnerships with the regional leadership team.
+• Analyse complex business problems using data from internal and external sources to provide commercial insights to executive leadership.
+• Identify and interpret trends and patterns in procedure, revenue and sales datasets to locate opportunities for accelerating da Vinci adoption.
+• Provide analytical support to teams supporting the commercial organisation.
+• Manage the goal setting process for all functions under the regional leader, aligned to commercial strategy.
+• Participate in territory design, quota allocation and other sales operations activities.
+• Deliver weekly / monthly / quarterly reports on key business metrics to the leadership team.
+• Support month end close, budget and quarterly P&L forecasting activities.
+
+Qualifications
+Required Knowledge, Skills and Experience
+• Bachelor's degree in Business, Economics, Finance or related field.
+• 1-3 years of Business Analytics or Financial Planning and Analysis work experience.
+• Quick learner and ability to drive successful results with limited supervision.
+• Demonstrated ability to work in a fast paced and complex team environment.
+• Strong analytical skills with proficiency in MS Excel and experience building financial models involving complex formulas and large data sets.
+• Ability to discern consistently strategic insights from data analysis.
+• Ability to support and prioritise multiple projects concurrently.
+• Excellent verbal and written communication skills in English, including interacting with senior leadership.
+Preferred Knowledge, Skills and Experience
+• Master's degree in Business, Economics, Finance or related discipline is a plus.
+• Experience within the medical / pharmaceutical environment is a plus.
+• Proficiency with data visualisation tools such as Tableau; CRM such as Salesforce; planning tool such as Anaplan is a plus.
+
+Additional Information
+Intuitive is an Equal Employment Opportunity Employer.
+U.S. Export Controls Disclaimer: some roles at Intuitive Surgical may be subject to U.S. export controls for prospective employees who are nationals from countries currently on embargo or sanctions status. Information you provide may be used to determine whether Intuitive needs to obtain a U.S. export licence on your behalf (3 to 6+ months) or implement a Technology Control Plan (typically adds 2 weeks). Final offers for such roles are contingent on an approved licence and/or executed TCP.
+This position may be filled at a different job level depending on business need and the selected candidate's experience. Compensation based on job level and qualifications.
+Shift: Day
+
+Pay (Glassdoor estimate, not employer provided): £37k - £50k/yr
+",licensed,"{""name"": ""Intuitive Surgical Limited"", ""town"": ""WOKINGHAM"", ""rating"": """", ""route"": ""Skilled Worker""}",silent,range_crosses_general,no,pending,,new,,,,,,,,master,2026-11-25T08:34:15+00:00
 gd-1010334253219,glassdoor,Technical Analyst,Give A Grad A Go,"London, England",£35k - £37k (Employer Est.),35000,37000,6h,2026-11-25,2026-11-24T21:38:45Z,https://www.glassdoor.co.uk/job-listing/j?jl=1010334253219,yes,58,"[{""key"": ""role_match"", ""label"": ""Role match"", ""score"": 8, ""max"": 20, ""note"": ""Technical/first-line support analyst at a trading venue; some process and requirements work""}, {""key"": ""skills"", ""label"": ""Skills & tools"", ""score"": 17, ""max"": 25, ""note"": ""Evidenced: Excel, communication, detail; CS degree partly (BSc Data Science); SQL half; no Unix or markets""}, {""key"": ""experience"", ""label"": ""Experience level"", ""score"": 15, ""max"": 15, ""note"": ""Graduate role""}, {""key"": ""qualifications"", ""label"": ""Qualifications"", ""score"": 6, ""max"": 10, ""note"": ""Asks for a 2.1 in Computer Science; you have BSc Data Science and MSc""}, {""key"": ""domain"", ""label"": ""Industry fit"", ""score"": 3, ""max"": 10, ""note"": ""No financial services experience; interest asked, not experience""}, {""key"": ""visa"", ""label"": ""Right to work & sponsor"", ""score"": 3, ""max"": 10, ""note"": ""Permanent; recruiter, end client not named, so sponsor status unknown""}, {""key"": ""practical"", ""label"": ""Location & terms"", ""score"": 3, ""max"": 5, ""note"": ""Permanent, London, rotating 7am starts""}, {""key"": ""odds"", ""label"": ""Chance of hearing back"", ""score"": 3, ""max"": 5, ""note"": ""Easy Apply; recruiter with client unnamed""}]",high,maybe,"A graduate recruiter's advert for a first-line technical support analyst at an unnamed London equities trading venue, with some process improvement and requirements capture. Mostly helpdesk and platform support, and it asks for a Computer Science degree. Right to work: permanent role through a recruiter, so the employer's sponsor status is unknown and a time-limited visa may count against you.","Process mapping and root cause analysis (advert: process improvement, capturing requirements) | Excel pivot tables and lookups | BSc Data Science with a Database Management Systems (SQL) module","Permanent role: you'd leave in January 2028 unless they sponsor you; answer honestly if asked | Needs a move: London, rotating 7am starts | Mostly first-line support and helpdesk, not business analysis | Asks for a 2.1 in Computer Science; Unix/Linux desired; recruiter with client unnamed","Graduate recruiter Give A Grad A Go, for a Pan-European cash equities trading venue in the City of London; permanent, hybrid, £35-37k plus bonus, early 7am starts on rotation. First-line client support, help desk, troubleshooting and escalation, documentation, process improvement and requirements capture. Wants a 2.1 Computer Science degree, strong Excel, SQL a plus. Apply via Glassdoor Easy Apply.","Company profile - Trading Platform
 In this Technical Analyst role in London, you'll be joining an independent Pan-European cash equities trading venue that has established a strong reputation within the financial services sector. You'll gain valuable experience within the operations teams, along with significant exposure to client relationship management.
 
@@ -95,6 +274,384 @@ Job requirements
 
 Benefits
 • Starting basic salary of £35,000 - £37,000, offices in the City, flexible schedule, private healthcare, bonus opportunities.",not_found,,silent,meets_new_entrant,yes,pending,,new,,,,,,,,master,2026-11-25T08:24:46+00:00
+gd-1010335219063,glassdoor,Business Intelligence Analyst,Barbour,"South Shields, England",£29k - £40k (Glassdoor Est.),29000,40000,24h,2026-11-25,,https://www.glassdoor.co.uk/job-listing/j?jl=1010335219063,yes,58,"[{""key"": ""role_match"", ""label"": ""Role match"", ""score"": 12, ""max"": 20, ""note"": ""Technical BI analyst in the IT team (Qlik, SSRS, data modelling)""}, {""key"": ""skills"", ""label"": ""Skills & tools"", ""score"": 14, ""max"": 25, ""note"": ""Evidenced: degree, Power BI, stakeholders, some ETL; SQL half; no SSRS, Qlik, warehousing""}, {""key"": ""experience"", ""label"": ""Experience level"", ""score"": 6, ""max"": 15, ""note"": ""Proven BI delivery experience and mentoring juniors: about 2-3 years""}, {""key"": ""qualifications"", ""label"": ""Qualifications"", ""score"": 10, ""max"": 10, ""note"": ""Degree in data analytics or similar: met""}, {""key"": ""domain"", ""label"": ""Industry fit"", ""score"": 6, ""max"": 10, ""note"": ""Retail: related to M&S""}, {""key"": ""visa"", ""label"": ""Right to work & sponsor"", ""score"": 3, ""max"": 10, ""note"": ""Permanent role at an employer not on the sponsor register""}, {""key"": ""practical"", ""label"": ""Location & terms"", ""score"": 3, ""max"": 5, ""note"": ""Permanent, hybrid, near Newcastle""}, {""key"": ""odds"", ""label"": ""Chance of hearing back"", ""score"": 4, ""max"": 5, ""note"": ""Easy Apply""}]",high,maybe,"A BI analyst at Barbour's South Shields head office, building Power BI/Qlik and SSRS reporting on ERP data. It's close to home, but it's a technical BI role wanting proven BI delivery, SQL and data modelling. Right to work: permanent role at an employer that isn't a sponsor, so a time-limited visa may count against you.",Power BI dashboards and reports for Visionize clients | Set up a client's data pipeline from several sources | BSc Data Science and MSc Business Analytics | Based in Newcastle: South Shields is a short commute,"Permanent role at an employer that isn't a licensed sponsor: lower chance with a time-limited visa | Salary not stated (Glassdoor estimate £29-40k) | SSRS, Qlik, SQL databases and dimensional data modelling are essential; you have working SQL only | Wants proven BI delivery experience and will mentor associate analysts","Permanent BI Analyst, Barbour head office South Shields, hybrid (4 days office, 1 home); salary not stated. Build BI and reporting (Power BI, Qlik, SSRS), data models and ETL on ERP sales/stock/finance data, work with stakeholders, mentor associate analysts. Apply early via Glassdoor Easy Apply.","Business Intelligence Analyst - Barbour - South Shields
+
+Position Overview
+We have an exciting opportunity for a Business Intelligence Analyst to join our IT team here at our Head Office in South Shields. This role will be key to delivering reporting, dashboard and analytic solutions that support decision-making across the business. Working closely with stakeholders across multiple functions, the successful candidate will transform business requirements into meaningful insights, develop robust reporting solutions and help colleagues maximise the value of data.
+• The role is based at our Head Office in South Shields and the expectation is 4 days in the office and 1 day of home working.
+
+Essential Duties and Responsibilities
+• Design, develop and maintain BI and reporting solutions using Qlik Sense, QlikView, Power BI and SSRS.
+• Gather, analyse and document business requirements and translate them into effective reporting and dashboard solutions.
+• Develop and maintain data models, KPIs, measures and reporting structures to support business performance.
+• Deliver dashboards and reports for assigned business areas, managing work independently and ensuring high-quality outputs.
+• Investigate and resolve reporting and data issues, identifying root causes and implementing solutions.
+• Support the development and maintenance of ETL and data integration processes.
+• Perform data analysis and communicate findings and insights clearly to business stakeholders.
+• Apply reporting standards, KPI definitions and data quality controls across solutions.
+• Maintain report documentation, data definitions and reporting catalogues.
+• Provide guidance, training and support to help users maximise self-service reporting capabilities.
+• Support and mentor Associate BI Analysts, sharing knowledge and best practice.
+• Collaborate with IT colleagues and business stakeholders to continuously improve reporting and analytics capabilities.
+
+Skills and Experience
+• Degree in Computer Science, Information Systems, Data Analytics or a related discipline, or equivalent practical experience.
+• Proven experience delivering BI and reporting solutions within a commercial environment.
+• Strong experience with Power BI, Qlik Sense and/or QlikView.
+• Experience of SSRS reporting development.
+• Knowledge of SQL and relational databases.
+• Understanding of data modelling, dimensional modelling and data warehousing concepts.
+• Experience working with ETL and data integration processes.
+• Strong analytical and problem-solving skills with excellent attention to detail.
+• Ability to engage confidently with stakeholders at all levels and translate business needs into technical solutions.
+• Strong communication skills, including the ability to explain technical concepts to non-technical audiences.
+• Experience working with ERP-based data including sales, stock and finance would be advantageous.
+• Exposure to Azure Data Factory, Microsoft Fabric or Azure data services would be beneficial.
+• Awareness of UK GDPR and secure data handling practices.
+
+Benefits
+• Discretionary Company bonus scheme
+• Staff Discount
+• Staff Shop
+• Healthcare Cash Plan
+• 25 days holiday as standard increasing with length of service plus bank holidays
+• Access to training and development activities to support your career development
+• Free onsite parking
+• Subsidised canteen
+• Operate hybrid and flexible working
+• 4pm finish on a Friday
+• Wellbeing support
+
+Additional Information
+Note: In the event that a sufficient volume of suitable applications are received, the post may close prior to the specified closing date. Please apply as soon as possible if interested.
+
+Pay (Glassdoor estimate, not employer provided): £29k - £40k/yr
+",not_found,,silent,range_crosses_new_entrant,no,pending,,new,,,,,,,,master,2026-11-25T08:34:15+00:00
+gd-1010334934216,glassdoor,Data Insights Analyst,B&Q,"Eastleigh, England",£40k (Employer Est.),40000,40000,24h,2026-11-25,,https://www.glassdoor.co.uk/job-listing/j?jl=1010334934216,no,57,"[{""key"": ""role_match"", ""label"": ""Role match"", ""score"": 12, ""max"": 20, ""note"": ""Digital/ecommerce insights analyst: adjacent to target roles""}, {""key"": ""skills"", ""label"": ""Skills & tools"", ""score"": 10, ""max"": 25, ""note"": ""Evidenced: GA4, storytelling partly, Jira; SQL half; no ecommerce analytics, Databricks/BigQuery or Python""}, {""key"": ""experience"", ""label"": ""Experience level"", ""score"": 11, ""max"": 15, ""note"": ""Asks for analytics background and ecommerce analytics experience, no years""}, {""key"": ""qualifications"", ""label"": ""Qualifications"", ""score"": 8, ""max"": 10, ""note"": ""No qualifications stated""}, {""key"": ""domain"", ""label"": ""Industry fit"", ""score"": 6, ""max"": 10, ""note"": ""Retail: related to M&S""}, {""key"": ""visa"", ""label"": ""Right to work & sponsor"", ""score"": 2, ""max"": 10, ""note"": ""Advert says no visa sponsorship, permanent role""}, {""key"": ""practical"", ""label"": ""Location & terms"", ""score"": 3, ""max"": 5, ""note"": ""Permanent, hybrid in Southampton""}, {""key"": ""odds"", ""label"": ""Chance of hearing back"", ""score"": 5, ""max"": 5, ""note"": ""Fresh, employer site""}]",high,maybe,"A digital insights analyst for B&Q's ecommerce team, using SQL, Google Analytics and cloud data tools to explain online customer behaviour. GA4 and retail help, but the core tools are mostly missing. Right to work: permanent role, and the advert wants right to work 'throughout employment' with no sponsorship, so your January 2028 end date may count against you.",Set up Google Analytics 4 web tracking for a Visionize client | Retail experience at M&S | Presented findings with slide decks,"Permanent role: you'd leave in January 2028 unless they sponsor you; answer honestly if asked | Needs a move: Eastleigh/Southampton, hybrid | SQL, ecommerce analytics and Databricks/BigQuery are essential; you have working SQL only | No sponsorship; right to work needed throughout employment","Permanent, hybrid from Southampton Store Support Office, from £40k plus bonus. Analyse B&Q's online customer journeys and digital performance with SQL, Google Analytics, Databricks/BigQuery; present insight to product teams; Agile tools. No visa sponsorship. Apply on the employer's site.","Digital Insights Analyst - B&Q - Southampton Store Support Office
+
+Permanent
+From £40k + Bonus + Pension + PMI + ShareSave + 6.6 weeks holiday + Hybrid Working
+Southampton, Store Support Office
+
+We believe anyone can improve their home to make life better. From our Southampton Store Support office (SSO) we equip our stores, our people, and our whole business with everything it takes to help our millions of customers create a home they'll love.
+
+What's the job?
+Reporting into the Digital Insights Lead, the Digital Insights Analyst is responsible for delivering high quality analysis and insight to support Digital, Ecommerce and wider business priorities. The role supports a broad range of ecommerce questions, working closely with stakeholders to improve understanding of online customer behaviour, digital performance and growth opportunities.
+
+Key Accountabilities / Responsibilities
+• Develop high-quality analysis related to ecommerce performance, customer behaviour, product-mix dynamics, market trends and broader digital insight requirements.
+• Conduct deep-dive analysis into performance, identify actionable insights and support stakeholders in turning insight into action.
+• Deliver analytical reviews of digital promotional activity, seasonal events and trading initiatives.
+• Support strategic initiatives across ecommerce, including category growth, channel performance, digital optimisation, Marketplace and Retail Media.
+• Interpret internal and external data sources, using tools such as SimilarWeb, to identify opportunities, risks and market developments.
+• Build collaborative relationships with stakeholders across Ecommerce, Marketplace, Commercial, Product, Marketing and Retail Media.
+• Identify opportunities for predictive modelling, statistical analysis and other advanced methods; test and implement new tools.
+• Work with analytics, data and technology teams on definitions, governance, tagging requirements and scalable ways of working.
+• Support consistent reporting, insight frameworks and analytical best practice across the Digital Analytics team.
+• Help define website tagging requirements to keep data accurate and trusted.
+
+Key Business Relationships
+• Customer and Digital function, Commercial, Services and Propositions, Digital Supply Chain.
+• Kingfisher Group Data and Analytics and the Group Digital function.
+
+Required Skills and Experience
+• Analytics background; confident using SQL to extract, structure and interrogate data; Python or other languages advantageous.
+• Confident with digital analytics tools such as Google Analytics; ideally awareness of behavioural analytics platforms such as Contentsquare.
+• Experience in digital and ecommerce analytics: customer behaviour, onsite journeys, trading performance and digital optimisation.
+• Hands-on experience with cloud data platforms (e.g. Databricks, BigQuery) to analyse large, complex datasets.
+• Support complex analysis from problem definition through to recommendation, with strong attention to detail.
+• Comfortable working across multiple stakeholders, priorities and deadlines.
+• Strong communicator who translates analysis into clear, actionable insight.
+• Understands data quality, governance, tagging and clear analytical definitions.
+• Good commercial awareness.
+• Experience of Agile ways of working and tools such as Asana, Jira or Confluence.
+• Curious, proactive, customer-focused, strong team ethic.
+• Translates business objectives into analytical goals and communicates the value of outputs.
+• Good storyteller with excellent visuals and compelling presentations.
+
+What's in it for you?
+• Flexible and hybrid working
+• Career growth and development across Kingfisher
+• Competitive salary, pension and financial benefits
+• Colleague discounts across B&Q and Kingfisher Group
+• Health and wellbeing support
+• Generous holiday and family-friendly policies
+
+Eligibility To Work
+Please note that B&Q does not currently offer visa sponsorship for this role. Applicants must have the right to work in the UK at the time of application and throughout their employment.
+
+Accessibility and Disability Confident
+Reasonable adjustments available; Disability Confident Scheme applications via the B&Q recruitment team.
+
+Pay (employer provided): £40k/yr. Glassdoor location: Eastleigh, England
+",not_found,,no_sponsorship,meets_new_entrant,no,pending,,new,,,,,,,,master,2026-11-25T08:34:15+00:00
+wb-be284c1290,web,PMO Analyst- Remote,FDM Group,UK (remote),Not stated,,,Found on employer site,2026-11-25,,https://careers.fdmgroup.com/vacancies/3383/pmo-analyst-remote.html,unknown,56,"[{""key"": ""role_match"", ""label"": ""Role match"", ""score"": 16, ""max"": 20, ""note"": ""PMO analyst: target role family""}, {""key"": ""skills"", ""label"": ""Skills & tools"", ""score"": 10, ""max"": 25, ""note"": ""Evidenced: stakeholders, delivery approaches; no PMO, RAID or governance reporting (not to be claimed)""}, {""key"": ""experience"", ""label"": ""Experience level"", ""score"": 2, ""max"": 15, ""note"": ""Asks for an experienced, established PMO professional""}, {""key"": ""qualifications"", ""label"": ""Qualifications"", ""score"": 8, ""max"": 10, ""note"": ""No qualifications stated""}, {""key"": ""domain"", ""label"": ""Industry fit"", ""score"": 3, ""max"": 10, ""note"": ""Public-sector client; no link required""}, {""key"": ""visa"", ""label"": ""Right to work & sponsor"", ""score"": 10, ""max"": 10, ""note"": ""Contract to March 2027: ends well before January 2028""}, {""key"": ""practical"", ""label"": ""Location & terms"", ""score"": 3, ""max"": 5, ""note"": ""Fixed-term contract under 6 months""}, {""key"": ""odds"", ""label"": ""Chance of hearing back"", ""score"": 4, ""max"": 5, ""note"": ""Consultancy placement, client unnamed""}]",high,maybe,"A remote PMO analyst placement through FDM with an unnamed public-sector client until March 2027, owning RAID logs, governance and reporting. The timing suits you, but it asks for an established PMO professional, and RAID logs aren't in your CV. Right to work: fine; a short contract to March 2027 fits.","Understanding of delivery controls in Waterfall, Agile and hybrid projects | Worked with managers, clients and frontline colleagues | Backlog refinement and prioritisation in iterative delivery","Short contract: ends 31 March 2027 (extension likely) | Advert may need security vetting for the public-sector client | Asks for an experienced PMO analyst: RAID, governance and planning ownership are not in your CV | Salary not stated","FDM Group placement with a public-sector client, remote UK, fixed term to 31 Mar 2027 with likely extension; pay not stated. Run PMO for a programme: RAID, governance, reporting, planning and dependency tracking; Agile or PRINCE2 in practice. Apply on the employer's site: https://careers.fdmgroup.com/vacancies/3383/pmo-analyst-remote.html","PMO Analyst - Remote - FDM Group (consultancy placing with a public-sector client)
+
+Location: UK (remote)
+Advertising Salary: Not Specified
+
+About The Role
+FDM is a global business and technology consultancy seeking a PMO Analyst to work for our client within the public sector. This is initially a contract until 31 March 2027, with very good prospects to extend, and will be a remote role.
+
+Our client is seeking an experienced PMO Analyst to support the delivery of complex digital and technology programmes. You will work closely with project and programme teams, providing effective governance, controls, reporting and coordination across delivery activity. The role would suit an established PMO professional who is comfortable taking ownership of their work and operating independently within a complex stakeholder environment. Previous government or wider public-sector experience would be advantageous but is not essential.
+
+Responsibilities
+• Maintain effective project controls, including RAID logs, actions, dependencies, milestones and delivery documentation.
+• Produce clear project and programme reporting, providing stakeholders with accurate visibility of progress, risks and upcoming priorities.
+• Coordinate governance activities including meetings, reporting cycles, action tracking and maintenance of key project artefacts.
+• Engage with project managers, delivery teams and stakeholders to gather updates, resolve information gaps and support effective decision-making.
+• Support planning and delivery throughout the project lifecycle, ensuring agreed PMO standards and governance processes are consistently followed.
+
+About You
+• Strong practical experience working within a PMO, Project Support Officer or similar project delivery role, with evidence of taking ownership rather than providing purely administrative support.
+• Good experience across project governance, RAID management, reporting, planning and dependency tracking, with the ability to maintain accurate project controls.
+• Confident stakeholder management and communication skills, including experience working with project managers, delivery teams and senior stakeholders.
+• Working knowledge of established delivery approaches such as Agile and/or PRINCE2, with experience applying delivery methodologies in a working environment.
+• Desirable: Previous experience supporting government, public-sector or complex digital and technology transformation programmes.
+
+About Us
+FDM is an award-winning global leader in tech and business talent solutions, with more than 35 years of industry experience, centres across Europe, North America and Asia-Pacific, and over 2500 employees. Listed on the FTSE4Good Index and a 2026 Financial Times UK Best Employer.
+
+Diversity and Inclusion
+FDM Group is an equal opportunity employer.
+
+Why join us
+• Career coaching, mentoring and access to upskilling throughout your FDM career
+• Assignments with global companies and opportunities to work abroad
+• Opportunity to re-skill and up-skill into new areas
+• Annual leave and workplace pension
+
+Sponsorship / right to work / clearance: no wording on the advert page.
+",licensed,"{""name"": ""FDM Group Limited"", ""town"": ""Brighton"", ""rating"": ""Worker (A rating)"", ""route"": ""Skilled Worker""}",silent,unknown,no,pending,,new,,,,,,,,master,2026-11-25T08:34:15+00:00
+nh-a89bee113a,NHS Jobs,Data Compliance Analyst,Northamptonshire Healthcare NHS Foundation Trust,Kettering NN15 7PW,"£39,959 to £48,117 a year (Employer Est.)",39959,48117,2d,2026-11-25,,https://www.jobs.nhs.uk/candidate/jobadvert/C9270-26-00018,no,55,"[{""key"": ""role_match"", ""label"": ""Role match"", ""score"": 12, ""max"": 20, ""note"": ""Information analyst for NHS data submissions (MHSDS, SUS): adjacent""}, {""key"": ""skills"", ""label"": ""Skills & tools"", ""score"": 19, ""max"": 25, ""note"": ""Evidenced: degree, formal reports, MS Office, Power BI; advanced SQL/SSRS not met""}, {""key"": ""experience"", ""label"": ""Experience level"", ""score"": 6, ""max"": 15, ""note"": ""Career history in information analysis at a high level""}, {""key"": ""qualifications"", ""label"": ""Qualifications"", ""score"": 8, ""max"": 10, ""note"": ""Information degree or equivalent: met""}, {""key"": ""domain"", ""label"": ""Industry fit"", ""score"": 3, ""max"": 10, ""note"": ""No healthcare link""}, {""key"": ""visa"", ""label"": ""Right to work & sponsor"", ""score"": 8, ""max"": 10, ""note"": ""Permanent role at a licensed sponsor""}, {""key"": ""practical"", ""label"": ""Location & terms"", ""score"": 3, ""max"": 5, ""note"": ""Permanent, Kettering""}, {""key"": ""odds"", ""label"": ""Chance of hearing back"", ""score"": 5, ""max"": 5, ""note"": ""Fresh NHS Jobs advert""}]",medium,maybe,"A Band 6 data compliance analyst handling NHS mental and community health data submissions and reporting. Gate: advanced SQL/SSRS reporting is essential (capped at 55), and the full job description wasn't loaded. Right to work: fine; permanent role at a licensed sponsor.",Built KPI dashboards with data quality checks at GDP Foundation | Power BI reporting for clients | Data-focused BSc and MSc,"Permanent role: you'd leave in January 2028 unless they sponsor you; answer honestly if asked | Needs a move: Kettering, Northamptonshire | Gate (coding_essential): advanced SQL/SSRS reporting is essential; you have working SQL only | Wants a career history in NHS-style information analysis; closes 2 Dec 2026","Permanent Band 6, St Mary's Hospital Kettering, £39,959-£48,117. Manage national data submissions (MHSDS, CSDS, SUS, IAPT), data quality and compliance reporting, SQL/SSRS and Power BI reports. Closes 2 Dec 2026; DBS check. Apply on NHS Jobs.","Data Compliance Analyst - Northamptonshire Healthcare NHS Foundation Trust
+
+Closing date: 02 December 2026
+Date posted: 23 November 2026
+Band 6, Agenda for Change. Salary £39,959 to £48,117 a year pro rata
+Contract: Permanent. Full-time
+Location: St Mary's Hospital, Kettering, NN15 7PW
+Reference: 270-TH556-CORP
+
+Job summary
+The Data Compliance Analyst is a key member of the Business Intelligence Service, responsible for investigating, monitoring and improving data quality and compliance across Northamptonshire Healthcare NHS Foundation Trust (NHFT). The post holder will use advanced SQL and reporting skills to identify, investigate and resolve data quality issues, support national data submissions, develop reporting frameworks and dashboards, and ensure compliance with national dataset requirements. The role works closely with operational, clinical and corporate teams to improve the quality, accuracy and reporting of information used to support patient care, performance management and strategic decision-making across the Trust.
+
+Main duties of the job
+• Develop and maintain reporting systems that support the Trust's data quality and compliance framework.
+• Investigate, analyse and resolve data quality and compliance issues across multiple Trust information systems.
+• Monitor and improve compliance with national datasets including MHSDS, CSDS, SUS and IAPT submissions.
+• Support the delivery of national and regional reporting requirements, ensuring key NHS performance measures and quality indicators are accurately monitored and reported.
+• Act as a subject matter expert for data quality and compliance, providing specialist advice and support to stakeholders across the organisation.
+• Design, develop and maintain Power BI dashboards, reporting solutions and operational performance reports.
+• Use advanced SQL skills to extract, validate, analyse and interpret data from the Trust's Data Warehouse and operational systems.
+
+About us
+NHFT is an NHS Community and Mental Health Foundation Trust, providing physical, mental health and specialty services in hospital settings and in the community, with over 200 services across the county. CQC rated outstanding. Accredited living wage employer.
+
+Job responsibilities
+For further information on the advertised role, please refer to the job description under Supporting Documents (not loaded).
+
+Person Specification
+Knowledge and experience - Essential
+• Relevant Information Degree and career history of working within an information and analysis environment, or other Degree and demonstrable working knowledge and experience at high level of information analysis.
+• Experience of using SQL/SSRS to develop reporting solutions and datasets.
+• Experience of producing analytical information and formal written reporting to managerial level.
+Knowledge and experience - Desirable
+• Approachable and accessible to colleagues and across the Provider Collaborative.
+Skills and abilities - Essential
+• Excellence in use of Microsoft Windows and Microsoft Office.
+• Advanced skills in SQL and SSRS are essential.
+
+Disclosure and Barring Service check required.
+
+Sponsorship / right to work: no wording on the advert page.
+",licensed,"{""name"": ""Northamptonshire Healthcare NHS Foundation Trust"", ""town"": ""Kettering"", ""rating"": ""Worker (A rating)"", ""route"": ""Skilled Worker""}",silent,range_crosses_general,no,pending,,new,,,,,,,,master,2026-11-25T08:34:15+00:00
+gd-1010334578445,glassdoor,Commercial Analyst - Operations & Business Intelligence,Ashley & McDonough,Merseyside,£50k (Employer Est.),50000,50000,24h,2026-11-25,,https://www.glassdoor.co.uk/job-listing/j?jl=1010334578445,yes,54,"[{""key"": ""role_match"", ""label"": ""Role match"", ""score"": 12, ""max"": 20, ""note"": ""Commercial analyst on pricing, margins and supplier costs in building services""}, {""key"": ""skills"", ""label"": ""Skills & tools"", ""score"": 15, ""max"": 25, ""note"": ""Evidenced: Power BI, Excel, some pricing/cost analysis; commercial negotiation partly""}, {""key"": ""experience"", ""label"": ""Experience level"", ""score"": 6, ""max"": 15, ""note"": ""Hands-on commercial/BI experience at £50k: about 2-3 years""}, {""key"": ""qualifications"", ""label"": ""Qualifications"", ""score"": 8, ""max"": 10, ""note"": ""No qualifications stated""}, {""key"": ""domain"", ""label"": ""Industry fit"", ""score"": 3, ""max"": 10, ""note"": ""Building services experience desirable, not required""}, {""key"": ""visa"", ""label"": ""Right to work & sponsor"", ""score"": 3, ""max"": 10, ""note"": ""Permanent role at an employer not on the sponsor register""}, {""key"": ""practical"", ""label"": ""Location & terms"", ""score"": 3, ""max"": 5, ""note"": ""Permanent, on site in Merseyside""}, {""key"": ""odds"", ""label"": ""Chance of hearing back"", ""score"": 4, ""max"": 5, ""note"": ""Easy Apply""}]",high,maybe,"A commercial analyst for a building services firm, working on price files, supplier invoices, margins and Power BI reporting. It's commercial and finance-heavy, and the £50k pay suggests a few years' experience. Right to work: permanent role at an employer that isn't a sponsor, so a time-limited visa may count against you.",Pricing and cost analysis for Visionize clients | Power BI dashboards and reports | Root cause analysis and process improvement at GDP Foundation,"Permanent role at an employer that isn't a licensed sponsor: lower chance with a time-limited visa | Needs a move: Merseyside, in person | Wants hands-on commercial analysis experience and confidence challenging managers | Construction/building services experience preferred","Permanent, in person in Merseyside, up to £50,000. Commercial and operational performance analysis: price files, inflation awards, margins, supplier invoices, budgets, Power BI and Excel reporting, challenging operations and procurement managers. Apply via Glassdoor Easy Apply.","Commercial Analyst - Operations & Business Intelligence - Ashley & McDonough - Merseyside
+
+About Ashley & McDonough
+Ashley & McDonough (A&M) is a fast-growing building services and compliance contractor delivering heating, electrical, fire safety, security and renewable energy services, primarily across the social housing sector. With over 200 employees and a growing portfolio of long-term contracts, we are expanding as part of Mecsia.
+
+Role Overview
+We are looking for a hands-on, commercially minded analyst to work with Finance, Operations, Administration and Procurement to improve contract profitability, supplier cost control and the efficient use of people, materials and time. This is a practical role: finding what drives performance, identifying wasted cost or effort and giving managers clear information to act on.
+
+Company Benefits
+• Life Assurance; Death in Service Insurance
+• 360 Wellbeing App (24/7 GP appointments)
+• Scottish Widows pension
+• Fertility Treatment Support Leave; Paid Maternity and Paternity Leave
+• Gym, fitness and lifestyle discounts
+• Refer-a-friend and Employee Recognition schemes
+
+Key Responsibilities
+Commercial and Operational Performance
+• Analyse contract profitability, margins, operational KPIs and performance against targets.
+• Review engineer productivity, labour recovery, material use, job costs and contract efficiency.
+• Produce clear weekly and monthly dashboards, highlighting variances, risks and required actions.
+• Work with Contract Managers to challenge performance and turn findings into measurable improvements.
+Operational Efficiency and Resource Utilisation
+• Analyse first-time property access and administrator contact effectiveness (telephone, SMS, email); improve appointment confirmation and no-access rates.
+• Monitor administrative workload and WIP clearance, including job completion, outstanding certificates, follow-on works and invoicing delays.
+• Review first-time fix rates, repeat visits, engineer capability and van stock availability.
+• Analyse scheduling, travel time, route efficiency and jobs per engineer per day.
+• Assess how administration, engineering and technical resources are deployed; identify capacity and bottlenecks.
+Financial Planning and Business Partnering
+• Analyse actual performance against budgets and forecasts; explain variances.
+• Support budgeting, forecasting, operational planning and contract financial reviews.
+• Provide commercial insight to operational teams and senior management.
+Supply Chain and Pricing
+• Own and maintain merchant and supplier price files, agreed rates and contractual price changes.
+• Analyse supplier invoices and material pricing against agreed terms; investigate discrepancies.
+• Monitor supplier spend, purchasing patterns, stock consumption and supplier performance.
+• Review supplier price changes and their effect on costs and margins.
+Client Contract Price Files and Inflationary Awards
+• Own and control all client contract price files, schedules of rates and pricing amendments.
+• Manage the contract inflationary award process: track review dates and indices, calculate uplifts and prepare evidence.
+• Coordinate submissions, approvals and implementation of awarded increases in systems, quotations and invoicing.
+• Monitor the financial impact of inflation awards and resolve missed uplifts or discrepancies.
+Business Intelligence and Process Improvement
+• Develop Power BI dashboards and reports covering contract profitability, supplier costs, WIP, access, productivity, first-time fix and travel efficiency.
+• Bring together data from operational and financial systems; use AI, analytics and automation where appropriate.
+• Work with managers to prioritise opportunities, quantify savings and monitor lasting improvements.
+
+Skills and Experience
+• Experience in hands-on commercial analysis, operational performance improvement or business intelligence, ideally in a contract-led service business.
+• Advanced Excel and practical Power BI or similar dashboard experience; able to interrogate operational and financial datasets.
+• Strong commercial judgement across client pricing, inflation awards, supplier charges, labour, materials, productivity and contract margins.
+• Confident working with and challenging operations, administration, procurement and technical managers.
+• Clear communicator, proactive problem solver.
+• Experience in engineering, building services, maintenance or construction would be advantageous.
+
+Key Relationships
+Finance; Contract and Operational Managers; Administration and Scheduling Teams; Technical Managers; Procurement and Supply Chain; Senior Leadership Team.
+
+What Success Looks Like
+• Accurate reporting and clear visibility of contract profitability, supplier costs and operational performance.
+• Measurable improvements in first-time access, WIP clearance, first-time fix, engineer utilisation and scheduling.
+• Delivered supplier savings, fewer avoidable visits and travel, improved margins.
+
+Ashley & McDonough is an equal opportunities employer.
+
+Pay: Up to £50,000.00 per year (employer provided)
+Benefits: Company events, company pension, free on-site parking
+Work Location: In person (Merseyside)
+",not_found,,silent,meets_general,no,pending,,new,,,,,,,,master,2026-11-25T08:34:15+00:00
+gd-1010334822590,glassdoor,Business Analyst | Life Insurance Product Integration | Immediate Start,Vantage Point Global,"Bournemouth, England",Not stated (contract),,,24h,2026-11-25,,https://www.glassdoor.co.uk/job-listing/j?jl=1010334822590,no,49,"[{""key"": ""role_match"", ""label"": ""Role match"", ""score"": 15, ""max"": 20, ""note"": ""BA role, but platform integration for life insurance""}, {""key"": ""skills"", ""label"": ""Skills & tools"", ""score"": 8, ""max"": 25, ""note"": ""Evidenced: stakeholders, requirements; no life insurance or platform integration; workshops not claimable""}, {""key"": ""experience"", ""label"": ""Experience level"", ""score"": 2, ""max"": 15, ""note"": ""Experienced BA who needs no onboarding""}, {""key"": ""qualifications"", ""label"": ""Qualifications"", ""score"": 8, ""max"": 10, ""note"": ""No qualifications stated""}, {""key"": ""domain"", ""label"": ""Industry fit"", ""score"": 0, ""max"": 10, ""note"": ""Requires life insurance/protection/pensions BA experience""}, {""key"": ""visa"", ""label"": ""Right to work & sponsor"", ""score"": 10, ""max"": 10, ""note"": ""Contract ends 18 Dec 2026""}, {""key"": ""practical"", ""label"": ""Location & terms"", ""score"": 3, ""max"": 5, ""note"": ""Contract of about 3 weeks""}, {""key"": ""odds"", ""label"": ""Chance of hearing back"", ""score"": 3, ""max"": 5, ""note"": ""Recruiter, client unnamed""}]",high,skip,"A recruiter's 3-week contract for an experienced life-insurance business analyst to run platform integration workshops, starting immediately. Needs sector experience and facilitation you don't have. Right to work: fine; the contract ends in December 2026.",Requirements gathering and documentation | Stakeholder work with clients and managers,"Short contract: about 3 weeks, to 18 Dec 2026; rate and IR35 not stated | Recruiter; end client not named | Requires life insurance/pensions BA experience | Workshop facilitation essential (not in your CV)","Recruiter Vantage Point Global for an unnamed life insurer; contract to 18 Dec 2026, immediate start, hybrid with workshops in Bournemouth, Exeter or Bristol. Experienced BA for life insurance product/platform integration requirements. Apply on the recruiter's site.","Business Analyst | Life Insurance Product Integration | Immediate Start - Vantage Point Global (recruiter)
+
+Hybrid | Travel to Bournemouth, Exeter or Bristol | Contract to 18 December 2026
+
+About the Opportunity
+We're supporting a leading Life Insurance organisation (client not named) as they enter a critical phase of a major product integration programme.
+
+With ambitious delivery timelines and key milestones approaching before year-end, the client is looking for an experienced Business Analyst who can quickly establish credibility, engage stakeholders, and accelerate requirements-gathering activity.
+
+This is not a role for someone who needs extensive direction or onboarding. The successful candidate will be able to rapidly understand a complex environment, ask the right questions and drive clarity across business and technology teams from day one.
+
+You'll be joining a programme with genuine executive visibility and a clear objective: establish and define the requirements before 18 December 2026.
+
+What You'll Be Doing
+Drive Requirements Definition
+• Lead workshops with business, operational and technology stakeholders
+• Elicit, challenge and document business and functional requirements
+• Translate complex business needs into clear, actionable outputs
+• Build alignment across multiple stakeholder groups with competing priorities
+Support Platform Integration Delivery
+• Understand and document end-to-end business processes and impacts
+• Identify dependencies, risks and gaps in requirements
+• Work closely with delivery, architecture and vendor teams
+• Ensure requirements are sufficiently defined to support successful implementation
+Bring Pace and Structure
+• Operate effectively within a fast-moving delivery environment
+• Take ownership of deliverables with minimal supervision
+• Help create clarity where requirements may be ambiguous or evolving
+
+What We're Looking For
+We're particularly interested in candidates who can demonstrate strong life insurance or underwriting experience and quickly become a trusted member of the programme team. You'll ideally bring:
+• Proven Business Analysis experience within Life Insurance, Protection, Pensions or Underwriting
+• Experience delivering requirements for platform implementations, integrations or technology-enabled change
+• Strong workshop facilitation and stakeholder management skills
+• The ability to quickly understand complex processes and systems
+• A proactive, self-starting approach to delivery
+Candidates from outside insurance may still be considered where they can demonstrate particularly strong experience delivering large-scale platform integration programmes.
+
+Location
+Hybrid working arrangement, with occasional workshops in Bournemouth, Exeter or Bristol. Travel will be required for key programme activities.
+
+Apply
+We're moving quickly, and interviews will be arranged as suitable applications are received during w/c 23 November 2026. If you're available to start immediately and want to play a key role in a critical insurance transformation programme, we'd love to hear from you.
+
+Pay: not stated in advert (Glassdoor estimate £25k - £30k/yr, not employer provided)
+",not_found,,silent,unknown,yes,pending,,new,,,,,,,,master,2026-11-25T08:34:15+00:00
+nh-732f2ace80,NHS Jobs,Apprentice Performance and Planning Intelligence Specialist,The Newcastle upon Tyne Hospitals NHS Foundation Trust,"Freeman Hospital, Newcastle upon Tyne NE7 7DN","£39,959 to £56,515 a year (Employer Est.)",39959,56515,1d,2026-11-25,,https://www.jobs.nhs.uk/candidate/jobadvert/C9317-26-00012,no,25,"[{""key"": ""role_match"", ""label"": ""Role match"", ""score"": 15, ""max"": 20, ""note"": ""Performance and planning intelligence: close to reporting/MI targets""}, {""key"": ""skills"", ""label"": ""Skills & tools"", ""score"": 18, ""max"": 25, ""note"": ""Evidenced: Excel, Power BI, dashboards; SQL half; information governance partly""}, {""key"": ""experience"", ""label"": ""Experience level"", ""score"": 11, ""max"": 15, ""note"": ""Up to 3 years' analytical experience""}, {""key"": ""qualifications"", ""label"": ""Qualifications"", ""score"": 0, ""max"": 10, ""note"": ""Level 7 apprenticeship: excluded if you already hold an equivalent qualification (your MSc)""}, {""key"": ""domain"", ""label"": ""Industry fit"", ""score"": 3, ""max"": 10, ""note"": ""No NHS link""}, {""key"": ""visa"", ""label"": ""Right to work & sponsor"", ""score"": 0, ""max"": 10, ""note"": ""Gate (right_to_work_excluded): needs 3 years' UK residence and settled status; no sponsorship""}, {""key"": ""practical"", ""label"": ""Location & terms"", ""score"": 5, ""max"": 5, ""note"": ""Fixed-term 36 months in Newcastle""}, {""key"": ""odds"", ""label"": ""Chance of hearing back"", ""score"": 4, ""max"": 5, ""note"": ""NHS Jobs advert""}]",high,skip,"A funded Level 7 apprenticeship in performance and planning intelligence at Newcastle Hospitals. You are not eligible: it needs 3 years' UK residence and settled status, and it excludes people who already hold a Level 7 qualification such as your MSc. Right to work: the advert needs settled status, so this won't work.",Based in Newcastle; Power BI and Excel dashboards,"Advert needs settled right to work, 3 years' UK residence, and no sponsorship | Excluded if you already hold an equivalent or higher qualification (your MSc is Level 7) | 36-month apprenticeship runs past January 2028","Band 6 Level 7 apprenticeship, Freeman Hospital Newcastle, £39,959-£56,515, 36 months. Performance and planning analysis with Power BI/SQL training. Eligibility: settled status and 3 years' UK residence, no existing Level 7 qualification. Closes 30 Nov 2026.","Apprentice Performance and Planning Intelligence Specialist - The Newcastle upon Tyne Hospitals NHS Foundation Trust
+
+Closing date: 30 November 2026
+Date posted: 24 November 2026
+Band 6, Agenda for Change. Salary £39,959 to £56,515 a year
+Contract: Fixed term, 36 months. Full-time, 37.5 hours/week
+Location: Freeman Hospital, NE7 7DN
+Reference: 317-2026-46-034
+Interview date: Friday 11 December 2026
+Apply via Trac (redirected from NHS Jobs). NO AGENCIES.
+
+Job summary
+We are looking for an aspiring analyst to undertake the Health and Care Intelligence Specialist Apprenticeship and develop specialist expertise in health and care intelligence. The apprentice will work within the Corporate Performance and Planning team to identify health and wellbeing related issues and advance public health and health inequality analysis and reporting.
+
+Main duties
+While undertaking a 36-month Health Care Intelligence Specialist Level 7 Apprenticeship, you will play a key role in the assessment of need within the Newcastle population, reviewing and generating evidence, supporting service evaluation, and promoting best practice in the collection and use of data. You will be employed as a Public Health Analyst, receiving a salary while undertaking fully funded apprenticeship training; 22 months will be an accelerated training phase including end point assessment. Work under close supervision of an experienced analyst and public health consultant. The successful candidate must be available to commence no later than 01 March 2027. Shortlisted candidates' details will be shared with the training provider, JGA. At the end of the 36 months the Trust hopes to offer a permanent position but this cannot be guaranteed.
+
+Job responsibilities
+Typically suits those with up to three years of relevant analytical experience (more experienced analysts considered). Training delivered remotely via live online seminars.
+• Provide analytical support for Statutory and Mandatory reporting, commissioning and performance management frameworks.
+• Support timely, validated performance information reported to the Board, commissioners and other bodies.
+• Critically evaluate performance measures and advise senior managers and clinicians on improvement opportunities.
+• Attend Monthly Quality and Performance Review meetings and produce a formal record.
+• Develop performance reports and action plans with the Trust Information Services Team.
+• Develop activity plans and performance trajectories for the annual NHSE planning submission.
+• Improve data quality and data integrity; understand Information Governance.
+• Analyse health and care datasets for trends, patterns and inequalities.
+• Support Trust Business Planning, business cases, a database of investment proposals, and tender responses.
+
+Apprenticeship eligibility
+To be eligible for an apprenticeship you must:
+• Have the right to work and remain in the UK.
+• Have lived in the UK for at least 3 years.
+• Must not be self-employed.
+• Provide original evidence of required English and Maths qualifications.
+Further information:
+• You will not be considered if you have an equivalent or higher qualification in the same or a very similar subject.
+• You must not be engaged in any other funded training or education programme.
+• We cannot sponsor applicants during or on successful completion of the apprenticeship so please ensure you meet visa status eligibility.
+• We cannot accept applications from student visa applicants.
+If you are a Non-UK National applicant you must meet the eligibility criteria and fulfil the settlement requirements of the apprenticeship course funding. Your settlement status will need to be verified as eligible for funding by the apprenticeship provider for you to formally enrol on the course.
+
+Person Specification
+Qualifications - Essential
+• Maths and English Language GCSE grade 4/C or above or Functional Skills Level 2
+• Degree in a relevant subject, or equivalent experience demonstrating analytical capability
+• Eligible and willing to undertake and complete the Level 7 Health and Care Intelligence Specialist apprenticeship
+• Maintain a portfolio of evidence
+Qualifications - Desirable
+• Membership of, or willingness to join, AphA
+Knowledge and Experience - Essential
+• Experience of working with data, information, reporting or analytical processes
+• Understanding of performance reporting, BI or service improvement principles
+• Strong Microsoft Excel and Office skills
+• Knowledge of performance management systems and frameworks
+• Understanding of information governance and data protection
+• Experience of using or willingness to learn Power BI, SQL and other analytical tools
+• Ability to manipulate, validate and interpret datasets
+Knowledge and Experience - Desirable
+• Managing analytical projects; developing reports and dashboards; statistical techniques
+• NHS acute hospital experience; NHS data systems and Data Dictionary
+• Business planning, business cases, forecasting and trajectories; tender responses
+Skills and Abilities - Essential
+• Excellent written and verbal communication; present findings to different audiences
+• Analyse complex quantitative and qualitative data; work under pressure to deadlines
+• Evidence of relevant CPD
+
+Disclosure and Barring Service check required.
+
+Certificate of Sponsorship (standard NHS Jobs boilerplate)
+Applications from job seekers who require current Skilled worker sponsorship to work in the UK are welcome and will be considered alongside all other applications. (Note: this conflicts with the advert's apprenticeship-specific statement above that the Trust cannot sponsor apprentices.)
+",licensed,"{""name"": ""The Newcastle upon Tyne Hospitals NHS Foundation Trust"", ""town"": ""Newcastle"", ""rating"": ""Worker (A rating)"", ""route"": ""Skilled Worker""}",right_to_work_required,range_crosses_general,no,pending,,new,,,,,,,,master,2026-11-25T08:34:15+00:00
 gd-1010074191824,glassdoor,"TikTok Shop-Senior Seller Experience Strategy & Operations Analyst,EMEA",TikTok,"London, England",£35k (Glassdoor Est.),35000,35000,Just posted,2026-11-25,2026-11-24T21:38:45Z,https://www.glassdoor.co.uk/job-listing/j?jl=1010074191824,no,,,,skip,Outside your target roles: senior strategy and operations post.,,,,,,,,meets_new_entrant,,skipped,,skipped,,,,,2026-11-25T08:24:46+00:00,,,master,2026-11-25T08:24:46+00:00
 gd-1010334493948,glassdoor,"Pricing Methodology Actuarial Analyst, London (GB)",Swiss Re,"London, England",£37k - £55k (Employer Est.),37000,55000,Just posted,2026-11-25,2026-11-24T21:38:45Z,https://www.glassdoor.co.uk/job-listing/j?jl=1010334493948,no,,,,skip,Outside your target roles: actuarial pricing track.,,,,,,,,range_crosses_general,,skipped,,skipped,,,,,2026-11-25T08:24:46+00:00,,,master,2026-11-25T08:24:46+00:00
 gd-1010334286905,glassdoor,Ranging & Merchandising Analyst Manager,Sainsbury's,"London, England",£29k - £35k (Glassdoor Est.),29000,35000,6h,2026-11-25,2026-11-24T21:38:45Z,https://www.glassdoor.co.uk/job-listing/j?jl=1010334286905,no,,,,skip,Outside your target roles: manager-level retail merchandising role.,,,,,,,,range_crosses_new_entrant,,skipped,,skipped,,,,,2026-11-25T08:24:46+00:00,,,master,2026-11-25T08:24:46+00:00
@@ -104,6 +661,15 @@ gd-1010334554131,glassdoor,PMO Analyst – Technology,Charles Alan Consulting,"L
 gd-1010334230596,glassdoor,Senior Analyst,Ocado Logistics,"Hatfield, East of England, England",£38k - £53k (Glassdoor Est.),38000,53000,6h,2026-11-25,2026-11-24T20:51:35Z,https://www.glassdoor.co.uk/job-listing/j?jl=1010334230596,no,,,,skip,Outside your target roles: senior analyst post.,,,,,,,,range_crosses_general,,skipped,,skipped,,,,,2026-11-25T08:24:46+00:00,,,master,2026-11-25T08:24:46+00:00
 gd-1010334058996,glassdoor,Workday Reporting Lead,Scrumconnect,"London, England",£40k - £53k (Glassdoor Est.),40000,53000,10h,2026-11-25,2026-11-24T20:51:35Z,https://www.glassdoor.co.uk/job-listing/j?jl=1010334058996,no,,,,skip,Outside your target roles: lead-level Workday reporting specialism.,,,,,,,,range_crosses_general,,skipped,,skipped,,,,,2026-11-25T08:24:46+00:00,,,master,2026-11-25T08:24:46+00:00
 gd-1010333742672,glassdoor,"Alpha Data Services, Business Analyst, Vice President",State Street,"London, England",£46k - £70k (Glassdoor Est.),46000,70000,19h,2026-11-25,2026-11-24T20:51:35Z,https://www.glassdoor.co.uk/job-listing/j?jl=1010333742672,no,,,,skip,Outside your target roles: vice president level BA post.,,,,,,,,meets_general,,skipped,,skipped,,,,,2026-11-25T08:24:46+00:00,,,master,2026-11-25T08:24:46+00:00
+gd-1010332869912,glassdoor,Senior System Analyst,Kane Group Building Services,"Banbridge, Northern Ireland",£26k - £38k (Glassdoor Est.),26000,38000,2d,2026-11-25,,https://www.glassdoor.co.uk/job-listing/j?jl=1010332869912,yes,,,,skip,Outside your target roles: senior systems role managing SQL databases.,,,,,,,,range_crosses_new_entrant,,skipped,,skipped,,,,,2026-11-25T08:34:15+00:00,,,master,2026-11-25T08:34:15+00:00
+gd-1010334085253,glassdoor,Junior IT and Data Support Analyst,Solaris Law,"Northampton, England",£25k - £35k (Glassdoor Est.),25000,35000,24h,2026-11-25,,https://www.glassdoor.co.uk/job-listing/j?jl=1010334085253,yes,,,,skip,Outside your target roles: first-line IT support role.,,,,,,,,range_crosses_new_entrant,,skipped,,skipped,,,,,2026-11-25T08:34:15+00:00,,,master,2026-11-25T08:34:15+00:00
+gd-1010334031942,glassdoor,EMEA Privacy Compliance Analyst,Bloomberg,"London, England",£56k - £65k (Glassdoor Est.),56000,65000,2d,2026-11-25,,https://www.glassdoor.co.uk/job-listing/j?jl=1010334031942,no,,,,skip,Outside your target roles: specialist data-privacy compliance role.,,,,,,,,meets_general,,skipped,,skipped,,,,,2026-11-25T08:34:15+00:00,,,master,2026-11-25T08:34:15+00:00
+gd-1010334335182,glassdoor,Delay Analysts who aren't afraid to be challenged,ViViAD,"Stirling, Scotland",,,,2d,2026-11-25,,https://www.glassdoor.co.uk/job-listing/j?jl=1010334335182,yes,,,,skip,Outside your target roles: construction project-delay specialist.,,,,,,,,unknown,,skipped,,skipped,,,,,2026-11-25T08:34:15+00:00,,,master,2026-11-25T08:34:15+00:00
+gd-1010334331432,glassdoor,Integration Programme Manager- Systems,ARO,"Manchester, England",£70k - £75k (Employer Est.),70000,75000,2d,2026-11-25,,https://www.glassdoor.co.uk/job-listing/j?jl=1010334331432,yes,,,,skip,Outside your target roles: programme manager leading a team.,,,,,,,,meets_general,,skipped,,skipped,,,,,2026-11-25T08:34:15+00:00,,,master,2026-11-25T08:34:15+00:00
+gd-1010334167690,glassdoor,Senior Data Analyst,Scottish Natural Heritage,Scotland,£42k (Employer Est.),42000,42000,24h,2026-11-25,,https://www.glassdoor.co.uk/job-listing/j?jl=1010334167690,no,,,,skip,Outside your target roles: senior data analyst needing SQL.,,,,,,,,meets_general,,skipped,,skipped,,,,,2026-11-25T08:34:15+00:00,,,master,2026-11-25T08:34:15+00:00
+gd-1010333383659,glassdoor,Part Qualified Finance Analyst,Anderson Knight (UK),"Glasgow, Scotland",£36k - £40k (Employer Est.),36000,40000,2d,2026-11-25,,https://www.glassdoor.co.uk/job-listing/j?jl=1010333383659,yes,,,,skip,Outside your target roles: needs a part accounting qualification.,,,,,,,,meets_new_entrant,,skipped,,skipped,,,,,2026-11-25T08:34:15+00:00,,,master,2026-11-25T08:34:15+00:00
+gd-1010334079043,glassdoor,Application Manager - Business Applications,M Group,"Stevenage, England",£58k - £68k (Glassdoor Est.),58000,68000,2d,2026-11-25,,https://www.glassdoor.co.uk/job-listing/j?jl=1010334079043,yes,,,,skip,Outside your target roles: manager-level IT applications role.,,,,,,,,meets_general,,skipped,,skipped,,,,,2026-11-25T08:34:15+00:00,,,master,2026-11-25T08:34:15+00:00
+gd-1010334253941,glassdoor,Manufacturing Engineering Business Analyst,DCS Recruitment (UK),Lincolnshire,£49.00 - £56.00 per hour (Employer Est.),,,24h,2026-11-25,,https://www.glassdoor.co.uk/job-listing/j?jl=1010334253941,yes,,,,skip,Outside your target roles: hourly-rate contractor needing an engineering background.,,,,,,,,unknown,,skipped,,skipped,,,,,2026-11-25T08:34:15+00:00,,,master,2026-11-25T08:34:15+00:00
 gd-1010334099872,glassdoor,Reporting Analyst,Kennedys,"Chelmsford, England (office based)",£32k - £37k (Glassdoor Est.),32000,37000,24h,2026-11-24,,https://www.glassdoor.co.uk/job-listing/j?jl=1010334099872,no,87,"[{""key"": ""role_match"", ""label"": ""Role match"", ""score"": 20, ""max"": 20, ""note"": ""Reporting analyst: a target role""}, {""key"": ""skills"", ""label"": ""Skills & tools"", ""score"": 21, ""max"": 25, ""note"": ""In-depth Excel, client reports, stakeholder communication evidenced""}, {""key"": ""experience"", ""label"": ""Experience level"", ""score"": 15, ""max"": 15, ""note"": ""Junior; no years stated""}, {""key"": ""qualifications"", ""label"": ""Qualifications"", ""score"": 8, ""max"": 10, ""note"": ""No qualifications stated""}, {""key"": ""domain"", ""label"": ""Industry fit"", ""score"": 3, ""max"": 10, ""note"": ""Law firm; no link, not required""}, {""key"": ""visa"", ""label"": ""Right to work & sponsor"", ""score"": 10, ""max"": 10, ""note"": ""12-month FTC fits if it starts by January 2027""}, {""key"": ""practical"", ""label"": ""Location & terms"", ""score"": 5, ""max"": 5, ""note"": ""12-month fixed-term contract""}, {""key"": ""odds"", ""label"": ""Chance of hearing back"", ""score"": 5, ""max"": 5, ""note"": ""Fresh; FTC +1""}]",high,apply,"A junior 12-month reporting analyst contract at a law firm, built on Excel and regular client reports, which matches your reporting work. Right to work: fine; a 12-month contract fits if it starts by January 2027.","Excel pivot tables and lookups, plus Excel certifications, match the in-depth Excel ask | Power BI and client reports at Visionize match the regular client reporting duties | Worked directly with clients and managers at Visionize and EE | Fixed-term contract: your first preference",Needs a move: office in Chelmsford | Salary not stated by the employer (Glassdoor estimate £32k-£37k) | No legal or insurance sector background,"12-month FTC Reporting Analyst at Kennedys, Chelmsford. Produces regular client reports, checks data against agreed terms and works with stakeholders; needs in-depth Excel and attention to detail. Apply via Glassdoor or Kennedys' careers site.","Reporting Analyst - Kennedys
 Kennedys is looking for an Analyst to join our Business Intelligence team on a 12-month fixed-term contract based in our Chelmsford office.
 
