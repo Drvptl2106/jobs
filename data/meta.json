@@ -1,15 +1,15 @@
 {
- "last_scan": "2026-11-26T13:26:02Z",
- "register_date": "2026-11-24",
+ "last_scan": "2026-11-26T18:25:12Z",
+ "register_date": "2026-11-26",
  "profile_basis": "master",
  "notice": "",
  "scan_emails": "2",
- "scan_listings": "10",
- "scan_too_old": "3",
- "scan_duplicates": "109",
- "scan_off_target": "13",
+ "scan_listings": "8",
+ "scan_too_old": "6",
+ "scan_duplicates": "19",
+ "scan_off_target": "14",
  "scan_not_sponsor": "0",
- "scan_new": "5",
- "scan_web": "4",
+ "scan_new": "6",
+ "scan_web": "20",
  "watchlist_cursor": "4"
 }
